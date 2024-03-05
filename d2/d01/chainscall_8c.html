@@ -110,8 +110,7 @@ $(document).ready(function(){initNavTree('d2/d01/chainscall_8c.html','../../'); 
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for chainscall.c:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/de5/chainscall_8c__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/de5/chainscall_8c__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../d2/d01/chainscall_8c_source.html">Go to the source code of this file.</a></p>
@@ -119,6 +118,7 @@ Include dependency graph for chainscall.c:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:abc14de2a529148334b6103a3d1b3911b"><td class="memItemLeft" align="right" valign="top">gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d01/chainscall_8c.html#abc14de2a529148334b6103a3d1b3911b">run_distance_matrix</a> (GtkWidget *widg, int calc, int up_ngb)</td></tr>
+<tr class="memdesc:abc14de2a529148334b6103a3d1b3911b"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute distance matrix  <br /></td></tr>
 <tr class="separator:abc14de2a529148334b6103a3d1b3911b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58e5ffe6bc488be7370608615495af75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d01/chainscall_8c.html#a58e5ffe6bc488be7370608615495af75">clean_coord_window</a> (struct <a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj)</td></tr>
 <tr class="memdesc:a58e5ffe6bc488be7370608615495af75"><td class="mdescLeft">&#160;</td><td class="mdescRight">update the environment configuration window after edtion  <br /></td></tr>
@@ -287,11 +287,13 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>compute distance matrix </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">widg</td><td></td></tr>
-    <tr><td class="paramname">calc</td><td></td></tr>
-    <tr><td class="paramname">up_ngb</td><td></td></tr>
+    <tr><td class="paramname">widg</td><td>the GtkWidget sending the signal, if any </td></tr>
+    <tr><td class="paramname">calc</td><td>the calculation that requires the analysis </td></tr>
+    <tr><td class="paramname">up_ngb</td><td>update neighbors information (0 = no, 1 = yes) </td></tr>
   </table>
   </dd>
 </dl>

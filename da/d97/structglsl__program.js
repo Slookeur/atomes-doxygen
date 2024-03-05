@@ -3,7 +3,6 @@ var structglsl__program =
     [ "array_pointer", "da/d97/structglsl__program.html#a30d11f0263f2da2beedbf641481c8e8b", null ],
     [ "col", "da/d97/structglsl__program.html#aff781a9d1986da6061e09a757b31e4f4", null ],
     [ "draw_instanced", "da/d97/structglsl__program.html#ae3fb289e8e08a82522d630794ba16f4b", null ],
-    [ "draw_type", "da/d97/structglsl__program.html#a06d1e79aecda989a0c8028ffda94639a", null ],
     [ "fragment_shader", "da/d97/structglsl__program.html#a8023189a8ec20c469e87db43797ac238", null ],
     [ "geometry_shader", "da/d97/structglsl__program.html#a20ef99685c341a2f2179b6ffeea4237e", null ],
     [ "id", "da/d97/structglsl__program.html#a7441ef0865bcb3db9b8064dd7375c1ea", null ],
