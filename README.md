@@ -1,4 +1,4 @@
-# Atomes: doxygen API documentation
+# Atomes: doxygen code documentation
 
 ![](https://github.com/atomes/atomes-doc.io/workflows/ns/badge.svg)
 ![](https://www.codefactor.io/repository/github/atomes/atomes-doc/badge)
