@@ -1,6 +1,5 @@
 var NAVTREEINDEX30 =
 {
-"structfield__tethered.html#a5b797aa5af2cb71766c44c3636aa5586":[1,0,52,7],
 "structfield__tethered.html#a7441ef0865bcb3db9b8064dd7375c1ea":[1,0,52,0],
 "structfield__tethered.html#a86cf672daa4e0ad11ad10efc894d19c8":[1,0,52,3],
 "structfield__tethered.html#aa2317c57ab9b1d8b37936d66fa6563b0":[1,0,52,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX30 =
 "structinsertion.html#af1271bdd066e92137dfae044ebcabe88":[1,0,62,0],
 "structline__node.html":[1,0,64],
 "structline__node.html#a3b89f2cb76edfe827c0acf6e3ee25fc8":[1,0,64,0],
-"structline__node.html#a7c8c2fd079a29282c5831b4cfbcbfac4":[1,0,64,1]
+"structline__node.html#a7c8c2fd079a29282c5831b4cfbcbfac4":[1,0,64,1],
+"structline__node.html#ac6e2a143a1f4e0ff8aac923193f013b9":[1,0,64,2]
 };

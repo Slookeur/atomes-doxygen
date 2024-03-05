@@ -1,6 +1,5 @@
 var NAVTREEINDEX28 =
 {
-"structbond.html#aa4c2a5552e9bc49b1816ff532f558c74":[1,0,10,0],
 "structbond.html#abb06f0ac7ef29f7f39f6b29444e95526":[1,0,10,2],
 "structbond__rotation.html":[1,0,11],
 "structbond__rotation.html#a79dea7ed146af26ff4a0ba4bf5c83eee":[1,0,11,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX28 =
 "structcrystal__data.html#a274b467b4dec71492538330bae4353c5":[1,0,30,15],
 "structcrystal__data.html#a5794fa1a1d799ad766c0cad193b662eb":[1,0,30,13],
 "structcrystal__data.html#a581c7e74fa52badebd0f0664302cc755":[1,0,30,11],
-"structcrystal__data.html#a5e37933f1523b83ece8e4c9d06622496":[1,0,30,1]
+"structcrystal__data.html#a5e37933f1523b83ece8e4c9d06622496":[1,0,30,1],
+"structcrystal__data.html#a603f2e17cf64a7e5ec163e14a13d070e":[1,0,30,0]
 };
