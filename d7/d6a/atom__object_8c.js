@@ -1,0 +1,28 @@
+var atom__object_8c =
+[
+    [ "add_object_atoms", "d7/d6a/atom__object_8c.html#a343348d06fb0e0c498644ca517a71aad", null ],
+    [ "adjust_object_frag_coord", "d7/d6a/atom__object_8c.html#a6843ed8a03df1cfd9d50fde79b47e79c", null ],
+    [ "clean_object_bonds", "d7/d6a/atom__object_8c.html#ae555a8317cc676fd9456dfe5cea90892", null ],
+    [ "clean_object_vois", "d7/d6a/atom__object_8c.html#adefe970f70d01bcc8b67fdcfc4dcc34e", null ],
+    [ "clean_this_object", "d7/d6a/atom__object_8c.html#a39b415a914e5ff309096d9240cefc819", null ],
+    [ "correct_coordinates_for_object", "d7/d6a/atom__object_8c.html#a7066033a1f6408948e6ca4b7c8c81ebf", null ],
+    [ "correct_pos_and_get_dim", "d7/d6a/atom__object_8c.html#a1f242adcc9a7a6fc87393e66dff952e2", null ],
+    [ "create_object_from_atom_coordination", "d7/d6a/atom__object_8c.html#aaebdedd6e805bbac88d5bfcdef762551", null ],
+    [ "create_object_from_frag_mol", "d7/d6a/atom__object_8c.html#a5b3091b764918dc651073925f1609fcf", null ],
+    [ "create_object_from_library", "d7/d6a/atom__object_8c.html#aab13c3856d621156371a58a7f4f66e2a", null ],
+    [ "create_object_from_open_project", "d7/d6a/atom__object_8c.html#a0b3b44ee653cceaae92dd0070b7043e3", null ],
+    [ "create_object_from_overall_coordination", "d7/d6a/atom__object_8c.html#a6e636287e1c31c238bd7800dea0152c5", null ],
+    [ "create_object_from_selection", "d7/d6a/atom__object_8c.html#ae3d91340228ab45ea92e8adff59e050e", null ],
+    [ "create_object_from_species", "d7/d6a/atom__object_8c.html#a89c69c2bcd3d7b7bc8db3bbcf6621804", null ],
+    [ "duplicate_insert_object", "d7/d6a/atom__object_8c.html#a4e847bbdee0129114339539f852fe4e8", null ],
+    [ "duplicate_z", "d7/d6a/atom__object_8c.html#aa91aaaed5e79053cc2611a1576f7da9f", null ],
+    [ "get_object_dim", "d7/d6a/atom__object_8c.html#a781aa58c74136031dc50931984428f12", null ],
+    [ "in_object_bond_list", "d7/d6a/atom__object_8c.html#abcfb04cc1cbb49a834eafeb25735cb29", null ],
+    [ "rebuild_atom_neighbors", "d7/d6a/atom__object_8c.html#a47ad8b10fef8acb1329fa54e9afeef9f", null ],
+    [ "reconstruct_bonds", "d7/d6a/atom__object_8c.html#a789240b976cd0375a817628ffe5f7c12", null ],
+    [ "reconstruct_coordinates_for_object", "d7/d6a/atom__object_8c.html#ad713e668411b6bdc9a972a0737bcb3c3", null ],
+    [ "to_insert_in_project", "d7/d6a/atom__object_8c.html#ad4d0a10cb4c07f4a831cfccb04f111c5", null ],
+    [ "ulam_coord", "d7/d6a/atom__object_8c.html#a8064c5716083bfc04e5e443afe71c8b9", null ],
+    [ "being_copied", "d7/d6a/atom__object_8c.html#ae0c907dab489bc3021223fcbf1a91ac4", null ],
+    [ "lib_object", "d7/d6a/atom__object_8c.html#a4eab91f0a95b7caef283c86903f01908", null ]
+];

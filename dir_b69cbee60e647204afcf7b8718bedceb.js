@@ -5,6 +5,6 @@ var dir_b69cbee60e647204afcf7b8718bedceb =
     [ "dl_poly", "dir_3782050fa72c98c54a5dcde88f610403.html", "dir_3782050fa72c98c54a5dcde88f610403" ],
     [ "force_fields", "dir_455b21f68fae38961c892179ca8594c1.html", "dir_455b21f68fae38961c892179ca8594c1" ],
     [ "lammps", "dir_b8465f2f52ca03f47316b5663bbe26ce.html", "dir_b8465f2f52ca03f47316b5663bbe26ce" ],
-    [ "calc.c", "calc_8c.html", "calc_8c" ],
-    [ "calc.h", "calc_8h.html", "calc_8h" ]
+    [ "calc.c", "d1/dcc/calc_8c.html", "d1/dcc/calc_8c" ],
+    [ "calc.h", "d1/d74/calc_8h.html", "d1/d74/calc_8h" ]
 ];
