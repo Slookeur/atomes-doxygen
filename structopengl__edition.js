@@ -1,0 +1,28 @@
+var structopengl__edition =
+[
+    [ "advanced_light_box", "structopengl__edition.html#abe327d3f539dff19cc9ad9f335880d51", null ],
+    [ "base_ogl", "structopengl__edition.html#aee58e46ecc5abd4665a911ab358290b9", null ],
+    [ "basic", "structopengl__edition.html#a8b30c94992e5c99fbf4ff2dcc1c2b98c", null ],
+    [ "dens_box", "structopengl__edition.html#a7bf0023286f89a9debc8e3819a2d9fbe", null ],
+    [ "depth_box", "structopengl__edition.html#a4ff80d933698f9aed03edac63a99233f", null ],
+    [ "entogl", "structopengl__edition.html#ae25f3d407324a7c61dc7f74e4fa6da8f", null ],
+    [ "fog_range", "structopengl__edition.html#ad48eb1c04a6e7f94218818293e435f11", null ],
+    [ "light_b_coord", "structopengl__edition.html#a69e2e4a1198cd89e796887042d29b906", null ],
+    [ "light_b_entry", "structopengl__edition.html#a26fc948fc16c83dbd420d6a8d856f801", null ],
+    [ "light_entry", "structopengl__edition.html#a6732ad40bc6ee065e76d99850b82c6d2", null ],
+    [ "light_fix", "structopengl__edition.html#ad83983997a478e532e83abca2ee7f8fa", null ],
+    [ "light_show", "structopengl__edition.html#af7f861e7b7a1a94bb2e60dbe89141799", null ],
+    [ "light_type", "structopengl__edition.html#a9bb25b21c9685b8a28b4babdb0d35c46", null ],
+    [ "light_type_box", "structopengl__edition.html#abdd3c2d5348870c43a0e31e7b7bf1dc5", null ],
+    [ "lights", "structopengl__edition.html#acc8eeedb481559b77c1d201bd9fcb387", null ],
+    [ "lights_box", "structopengl__edition.html#a25802220ac5f2c2218a0e24f2427e893", null ],
+    [ "m_entry", "structopengl__edition.html#a3264e2ffc076d73f17d0c65574392d53", null ],
+    [ "m_scale", "structopengl__edition.html#ac89c9a325c66e12fa644af353ed9aaf8", null ],
+    [ "param_fog", "structopengl__edition.html#abe96f411a98df35bee8150d4e75f8dd6", null ],
+    [ "param_mat", "structopengl__edition.html#ac83e80781e16f6fe36387efaabc311b5", null ],
+    [ "pointer", "structopengl__edition.html#aff1ba43e79e357969f0479d85240fa2a", null ],
+    [ "pos_pointer", "structopengl__edition.html#aea9fcfc4bd1118f0a12246bcbb744c0d", null ],
+    [ "proj", "structopengl__edition.html#a4ae0842d91cf8b4078b040a76eeec936", null ],
+    [ "templates", "structopengl__edition.html#ac0f535cedfc9e36cf6c6efcb0f6de651", null ],
+    [ "win", "structopengl__edition.html#af16c9db58fd06e67b9d1c7dd8ba7b261", null ]
+];

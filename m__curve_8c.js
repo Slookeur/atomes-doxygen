@@ -1,0 +1,27 @@
+var m__curve_8c =
+[
+    [ "action_to_plot", "m__curve_8c.html#aecd83e108a9dc18713428a0d63abd576", null ],
+    [ "add_extra", "m__curve_8c.html#ac8d1685b7764bef2c752e82a1bac55e1", null ],
+    [ "autoscale", "m__curve_8c.html#a45a35dff76dcc5c1aa32e719bf4e010b", null ],
+    [ "autoscale_section", "m__curve_8c.html#aaf0e3706784245b9c395aea8ff5a1695", null ],
+    [ "create_add_remove_section", "m__curve_8c.html#a36a9c5528296c40335e1549edb039223", null ],
+    [ "create_curve_menu", "m__curve_8c.html#aae8332b163890b972e58bd849589fa50", null ],
+    [ "create_curve_submenu", "m__curve_8c.html#aeca00b0156b257f2563f1fc40c7979ac", null ],
+    [ "create_data_menu", "m__curve_8c.html#ae77fa482ae6c8177085947a36670b985", null ],
+    [ "curve_add_remove_menu_action", "m__curve_8c.html#a7cffb00bf6f65dcb206b306f5428c5a6", null ],
+    [ "curve_close_section", "m__curve_8c.html#a3f9f32f25cd4ba7da789122c643c4b25", null ],
+    [ "curve_default_layout", "m__curve_8c.html#a420eb12c75e47c55a1697c3b4185fbf7", null ],
+    [ "curve_edit_menu_action", "m__curve_8c.html#a3cb26f4283fb7b47e08234a5eb12c39c", null ],
+    [ "curve_menu_bar", "m__curve_8c.html#a00d37a82fabca7292f13918eb94d8a49", null ],
+    [ "curve_menu_bar_action", "m__curve_8c.html#a229770529263f42f59e6c30971e17af1", null ],
+    [ "curve_popup_menu", "m__curve_8c.html#a2525831f53691c7a6dd20927929f0a6d", null ],
+    [ "curve_section", "m__curve_8c.html#ae4662d20544b1c7a3af82d0215625943", null ],
+    [ "curve_window_add_menu_bar", "m__curve_8c.html#a8f0b61a0d0116dce3ae6e344f4a15db5", null ],
+    [ "edit_data_section", "m__curve_8c.html#ad5ef08ef953e57621e1fca40dfb27762", null ],
+    [ "get_gicon_from_data", "m__curve_8c.html#a457155de1912aab1d4c843e4918a255c", null ],
+    [ "init_extra", "m__curve_8c.html#ab3d8453dd7fb54ae4e433ad383e4b275", null ],
+    [ "prep_extra_rid", "m__curve_8c.html#a014cce6c382f18cddf6d6ed0ae6b3601", null ],
+    [ "remove_extra", "m__curve_8c.html#a1a522d636438fc21eab323d1163bd439", null ],
+    [ "was_not_added", "m__curve_8c.html#a76e157b06c41ce597710f8081c964638", null ],
+    [ "extrarid", "m__curve_8c.html#a75df2406fcdfda6fc96bec3ab202a1f7", null ]
+];
