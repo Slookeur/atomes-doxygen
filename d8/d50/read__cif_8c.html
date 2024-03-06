@@ -108,7 +108,8 @@ $(document).ready(function(){initNavTree('d8/d50/read__cif_8c.html','../../'); i
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for read_cif.c:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/dc8/read__cif_8c__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/dc8/read__cif_8c__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div>
 <p><a href="../../d8/d50/read__cif_8c_source.html">Go to the source code of this file.</a></p>
@@ -167,6 +168,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a9e43d31577e690b2f2c3e46d7ed0f52f"><td class="mdescLeft">&#160;</td><td class="mdescRight">read pattern in CIF file  <br /></td></tr>
 <tr class="separator:a9e43d31577e690b2f2c3e46d7ed0f52f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f807ffe9bd7e1593fd2f93f70f74ebb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d50/read__cif_8c.html#a8f807ffe9bd7e1593fd2f93f70f74ebb">cif_file_get_data_in_loop</a> (int linec, int lid)</td></tr>
+<tr class="memdesc:a8f807ffe9bd7e1593fd2f93f70f74ebb"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the number of "_" motifs in a line  <br /></td></tr>
 <tr class="separator:a8f807ffe9bd7e1593fd2f93f70f74ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9664c3d3961dadd38801257ea1ecd7e2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d50/read__cif_8c.html#a9664c3d3961dadd38801257ea1ecd7e2">cif_file_get_number_of_atoms</a> (int linec, int lid, int nelem)</td></tr>
 <tr class="memdesc:a9664c3d3961dadd38801257ea1ecd7e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the number of <a class="el" href="../../da/d81/structatom.html">atom(s)</a> in a CIF file  <br /></td></tr>
@@ -187,6 +189,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a56baace658052d48c96e25f5cbd4069d"><td class="mdescLeft">&#160;</td><td class="mdescRight">read the atomic coordinates from the CIF file  <br /></td></tr>
 <tr class="separator:a56baace658052d48c96e25f5cbd4069d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adacb7ac266152e050d956426e3eb43a8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d50/read__cif_8c.html#adacb7ac266152e050d956426e3eb43a8">get_space_group_from_hm</a> (gchar *hmk)</td></tr>
+<tr class="memdesc:adacb7ac266152e050d956426e3eb43a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve space group using the HM Key  <br /></td></tr>
 <tr class="separator:adacb7ac266152e050d956426e3eb43a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25421776f8c51e8a159252cf69508ba0"><td class="memItemLeft" align="right" valign="top">gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d50/read__cif_8c.html#a25421776f8c51e8a159252cf69508ba0">get_string_from_origin</a> (<a class="el" href="../../de/df2/structspace__group.html">space_group</a> *spg)</td></tr>
 <tr class="memdesc:a25421776f8c51e8a159252cf69508ba0"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the space group origin from its name  <br /></td></tr>
@@ -399,6 +402,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>get the number of "_" motifs in a line </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">linec</td><td>Total number of lines </td></tr>
@@ -1067,6 +1072,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>retrieve space group using the HM Key </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">hmk</td><td></td></tr>

@@ -122,7 +122,7 @@ var sectionId = 'dynsection-0';
 <!-- Node25 -->
 <g id="node25" class="node">
 <title>Node25</title>
-<g id="a_node25"><a xlink:href="../../db/d6a/structinsert__object.html" target="_top" xlink:title=" ">
+<g id="a_node25"><a xlink:href="../../db/d6a/structinsert__object.html" target="_top" xlink:title="a data structure to describe an object to work on. &#160;the object can be one or more:">
 <polygon fill="white" stroke="#666666" points="421,-1370 349,-1370 349,-1351 421,-1351 421,-1370"/>
 <text text-anchor="middle" x="385" y="-1358" font-family="Helvetica,sans-Serif" font-size="10.00">insert_object</text>
 </a>
@@ -170,7 +170,7 @@ var sectionId = 'dynsection-0';
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d7/d81/structbox__info.html" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="../../d7/d81/structbox__info.html" target="_top" xlink:title="model box information">
 <polygon fill="white" stroke="#666666" points="243.5,-1479 190.5,-1479 190.5,-1460 243.5,-1460 243.5,-1479"/>
 <text text-anchor="middle" x="217" y="-1467" font-family="Helvetica,sans-Serif" font-size="10.00">box_info</text>
 </a>
@@ -203,7 +203,7 @@ var sectionId = 'dynsection-0';
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../de/df2/structspace__group.html" target="_top" xlink:title=" ">
+<g id="a_node7"><a xlink:href="../../de/df2/structspace__group.html" target="_top" xlink:title="a structure to described a space group in crystallography">
 <polygon fill="white" stroke="#666666" points="253,-1542 181,-1542 181,-1523 253,-1523 253,-1542"/>
 <text text-anchor="middle" x="217" y="-1530" font-family="Helvetica,sans-Serif" font-size="10.00">space_group</text>
 </a>
@@ -255,7 +255,7 @@ var sectionId = 'dynsection-0';
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../dc/de2/structspg__setting.html" target="_top" xlink:title=" ">
+<g id="a_node8"><a xlink:href="../../dc/de2/structspg__setting.html" target="_top" xlink:title="a structure to describe the settings of a space group in crystallography">
 <polygon fill="white" stroke="#666666" points="78,-1579 11,-1579 11,-1560 78,-1560 78,-1579"/>
 <text text-anchor="middle" x="44.5" y="-1567" font-family="Helvetica,sans-Serif" font-size="10.00">spg_setting</text>
 </a>
@@ -271,7 +271,7 @@ var sectionId = 'dynsection-0';
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d9/d4f/structwyckoff__position.html" target="_top" xlink:title=" ">
+<g id="a_node9"><a xlink:href="../../d9/d4f/structwyckoff__position.html" target="_top" xlink:title="a structure to describe a Wyckoff position in crystallography">
 <polygon fill="white" stroke="#666666" points="89,-1542 0,-1542 0,-1523 89,-1523 89,-1542"/>
 <text text-anchor="middle" x="44.5" y="-1530" font-family="Helvetica,sans-Serif" font-size="10.00">wyckoff_position</text>
 </a>
@@ -549,7 +549,7 @@ var sectionId = 'dynsection-0';
 <!-- Node28 -->
 <g id="node28" class="node">
 <title>Node28</title>
-<g id="a_node28"><a xlink:href="../../d8/d59/structatom__search.html" target="_top" xlink:title=" ">
+<g id="a_node28"><a xlink:href="../../d8/d59/structatom__search.html" target="_top" xlink:title="a data structure to search for atom(s) and edit the model">
 <polygon fill="white" stroke="#666666" points="619,-1296 546,-1296 546,-1277 619,-1277 619,-1296"/>
 <text text-anchor="middle" x="582.5" y="-1284" font-family="Helvetica,sans-Serif" font-size="10.00">atom_search</text>
 </a>

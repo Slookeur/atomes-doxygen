@@ -157,7 +157,7 @@ var searchData=
   ['glsl_5fbind_5fcylinders_154',['glsl_bind_cylinders',['../d9/db9/ogl__shading_8c.html#ad59454a1680a7deaeab6995de8e81098',1,'ogl_shading.c']]],
   ['glsl_5fbind_5flines_155',['glsl_bind_lines',['../d9/db9/ogl__shading_8c.html#a7d8bcebf0fca1710e4c627ed5109108d',1,'ogl_shading.c']]],
   ['glsl_5fbind_5fpoints_156',['glsl_bind_points',['../d9/db9/ogl__shading_8c.html#af8b72fa5b29afe3ad685b077bc50cf01',1,'ogl_shading.c']]],
-  ['glsl_5fbind_5fpolyedra_157',['glsl_bind_polyedra',['../d9/db9/ogl__shading_8c.html#a736cb55529b0d06e7a0ee6340e2707b5',1,'ogl_shading.c']]],
+  ['glsl_5fbind_5fpolyhedra_157',['glsl_bind_polyhedra',['../d9/db9/ogl__shading_8c.html#af557e58156e46692c958e1505ea34755',1,'ogl_shading.c']]],
   ['glsl_5fbind_5fspheres_158',['glsl_bind_spheres',['../d9/db9/ogl__shading_8c.html#a490c40f3ee88d7b14dd65fadb4d5e270',1,'ogl_shading.c']]],
   ['glsl_5fbind_5fstring_159',['glsl_bind_string',['../d9/db9/ogl__shading_8c.html#aac7fe2fc014424a558410b685e47e288',1,'ogl_shading.c']]],
   ['glsl_5fdisable_5fcull_5fface_160',['glsl_disable_cull_face',['../d9/db9/ogl__shading_8c.html#ac70550cb721d7bedb0979b5ad4ce7188',1,'ogl_shading.c']]],

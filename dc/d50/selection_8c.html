@@ -104,7 +104,8 @@ $(document).ready(function(){initNavTree('dc/d50/selection_8c.html','../../'); i
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for selection.c:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/d68/selection_8c__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/d68/selection_8c__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div>
 <p><a href="../../dc/d50/selection_8c_source.html">Go to the source code of this file.</a></p>
@@ -130,6 +131,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a9117a34abca5222468cd03322786cfef"><td class="mdescLeft">&#160;</td><td class="mdescRight">find which <a class="el" href="../../da/d81/structatom.html">atom(s)</a> are to be selected  <br /></td></tr>
 <tr class="separator:a9117a34abca5222468cd03322786cfef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6000b88e3b61a498f159a3df3689aa56"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/selection_8c.html#a6000b88e3b61a498f159a3df3689aa56">find_bond_in_bonds</a> (struct <a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, int i, int j, int <a class="el" href="../../df/df7/tab-1_8c.html#a148e3876077787926724625411d6e7a9">b</a>, int id)</td></tr>
+<tr class="memdesc:a6000b88e3b61a498f159a3df3689aa56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find for a bond ID in the bond list using the atoms in the bond.  <br /></td></tr>
 <tr class="separator:a6000b88e3b61a498f159a3df3689aa56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2eaa78a460fa8b2dcacf9a360f27e6b7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/selection_8c.html#a2eaa78a460fa8b2dcacf9a360f27e6b7">find_selected_bond</a> (struct <a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, int id)</td></tr>
 <tr class="memdesc:a2eaa78a460fa8b2dcacf9a360f27e6b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">find the selected bond based of the picked color id  <br /></td></tr>
@@ -177,8 +179,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:a607ec1c3f569ea1b711057d6770e0018"><td class="mdescLeft">&#160;</td><td class="mdescRight">update the selection list adding or removing an atom  <br /></td></tr>
 <tr class="separator:a607ec1c3f569ea1b711057d6770e0018"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a624f7fab23c51a3d6c022518130d5173"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/selection_8c.html#a624f7fab23c51a3d6c022518130d5173">process_selected_atom</a> (struct <a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, <a class="el" href="../../d5/dd2/structglwin.html">glwin</a> *view, int id, int ac, int se, int <a class="el" href="../../dc/d57/global_8c.html#a31c17cc321db72d5ab448b71ea92792f">pi</a>)</td></tr>
+<tr class="memdesc:a624f7fab23c51a3d6c022518130d5173"><td class="mdescLeft">&#160;</td><td class="mdescRight">process selected atom  <br /></td></tr>
 <tr class="separator:a624f7fab23c51a3d6c022518130d5173"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a594dd6823bf7b58669ea206009161511"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/selection_8c.html#a594dd6823bf7b58669ea206009161511">process_selection</a> (struct <a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, <a class="el" href="../../d5/dd2/structglwin.html">glwin</a> *view, int id, int ac, int <a class="el" href="../../dc/d57/global_8c.html#a31c17cc321db72d5ab448b71ea92792f">pi</a>)</td></tr>
+<tr class="memdesc:a594dd6823bf7b58669ea206009161511"><td class="mdescLeft">&#160;</td><td class="mdescRight">process selection  <br /></td></tr>
 <tr class="separator:a594dd6823bf7b58669ea206009161511"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae12de4069ab57abbe7f0467882864ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d50/selection_8c.html#aae12de4069ab57abbe7f0467882864ac">process_the_hits</a> (<a class="el" href="../../d5/dd2/structglwin.html">glwin</a> *view, gint event_button, double ptx, double pty)</td></tr>
 <tr class="memdesc:aae12de4069ab57abbe7f0467882864ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">process a mouse click  <br /></td></tr>
@@ -238,7 +242,12 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">view</td><td>the target glwin </td></tr>
-    <tr><td class="paramname">id</td><td>action to perform: -2 = save angles selection -1 = clean angles selection 0 = prepare OpenGL buffer data analysis mode selection measure 1 = prepare OpenGL buffer data edition mode selection measure 2 = fill angles tree store measures window </td></tr>
+    <tr><td class="paramname">id</td><td>action to perform: <br  />
+ -2 = save angles selection, <br  />
+ -1 = clean angles selection, <br  />
+ 0 = prepare <a class="el" href="../../d0/d77/struct_open_g_l.html">OpenGL</a> buffer data analysis mode selection measure, <br  />
+ 1 = prepare <a class="el" href="../../d0/d77/struct_open_g_l.html">OpenGL</a> buffer data edition mode selection measure, <br  />
+ 2 = fill angles tree store measures window </td></tr>
     <tr><td class="paramname">pi</td><td>0 = mouse analysis mode, 1 = mouse edition mode </td></tr>
     <tr><td class="paramname">store</td><td>the tree store to fill, if any </td></tr>
   </table>
@@ -291,7 +300,12 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">view</td><td>the target glwin </td></tr>
-    <tr><td class="paramname">id</td><td>action to perform: -2 = save bonds selection -1 = clean bonds selection 0 = prepare OpenGL buffer data analysis mode selection measure 1 = prepare OpenGL buffer data edition mode selection measure 2 = fill bonds distances tree store measures window </td></tr>
+    <tr><td class="paramname">id</td><td>action to perform: <br  />
+ -2 = save bonds selection <br  />
+ -1 = clean bonds selection <br  />
+ 0 = prepare <a class="el" href="../../d0/d77/struct_open_g_l.html">OpenGL</a> buffer data analysis mode selection measure <br  />
+ 1 = prepare <a class="el" href="../../d0/d77/struct_open_g_l.html">OpenGL</a> buffer data edition mode selection measure <br  />
+ 2 = fill bonds distances tree store measures window </td></tr>
     <tr><td class="paramname">pi</td><td>0 = mouse analysis mode, 1 = mouse edition mode </td></tr>
     <tr><td class="paramname">store</td><td>the tree store to fill, if any </td></tr>
   </table>
@@ -344,7 +358,12 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">view</td><td>the target glwin </td></tr>
-    <tr><td class="paramname">id</td><td>action to perform: -2 = save dihedrals selection -1 = clean dihedrals selection 0 = prepare OpenGL buffer data analysis mode selection measure 1 = prepare OpenGL buffer data edition mode selection measure 2 = fill dihedrals tree store measures window </td></tr>
+    <tr><td class="paramname">id</td><td>action to perform: <br  />
+ -2 = save dihedrals selection <br  />
+ -1 = clean dihedrals selection <br  />
+ 0 = prepare <a class="el" href="../../d0/d77/struct_open_g_l.html">OpenGL</a> buffer data analysis mode selection measure <br  />
+ 1 = prepare <a class="el" href="../../d0/d77/struct_open_g_l.html">OpenGL</a> buffer data edition mode selection measure <br  />
+ 2 = fill dihedrals tree store measures window </td></tr>
     <tr><td class="paramname">pi</td><td>0 = mouse analysis mode, 1 = mouse edition mode </td></tr>
     <tr><td class="paramname">store</td><td>the tree store to fill, if any </td></tr>
   </table>
@@ -398,6 +417,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Find for a bond ID in the bond list using the atoms in the bond. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">this_proj</td><td>the target project </td></tr>
@@ -691,6 +712,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>process selected atom </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">this_proj</td><td>the target project </td></tr>
@@ -750,6 +773,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>process selection </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">this_proj</td><td>the target project </td></tr>

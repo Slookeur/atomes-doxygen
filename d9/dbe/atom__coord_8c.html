@@ -100,7 +100,8 @@ $(document).ready(function(){initNavTree('d9/dbe/atom__coord_8c.html','../../');
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for atom_coord.c:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d50/atom__coord_8c__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d50/atom__coord_8c__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div>
 <p><a href="../../d9/dbe/atom__coord_8c_source.html">Go to the source code of this file.</a></p>
@@ -108,6 +109,7 @@ Include dependency graph for atom_coord.c:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a33d159bc2fb9c586798fc5ad0af8a17f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dbe/atom__coord_8c.html#a33d159bc2fb9c586798fc5ad0af8a17f">test_this_coord</a> (struct <a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, int spec, int gid, int cid, int minc, int maxc)</td></tr>
+<tr class="memdesc:a33d159bc2fb9c586798fc5ad0af8a17f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Look for a type of coordination sphere in a model.  <br /></td></tr>
 <tr class="separator:a33d159bc2fb9c586798fc5ad0af8a17f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99ff96e2a43a4b43990f3c8b25496511"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dbe/atom__coord_8c.html#a99ff96e2a43a4b43990f3c8b25496511">print_coord_info</a> (struct <a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, <a class="el" href="../../df/ddc/structcoord__info.html">coord_info</a> *coord)</td></tr>
 <tr class="memdesc:a99ff96e2a43a4b43990f3c8b25496511"><td class="mdescLeft">&#160;</td><td class="mdescRight">print coordination info  <br /></td></tr>
@@ -121,7 +123,7 @@ Functions</h2></td></tr>
 <tr class="memitem:afcea7a7e4f6e2de484fbd9514cd45a8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dbe/atom__coord_8c.html#afcea7a7e4f6e2de484fbd9514cd45a8f">new_coord_menus</a> (struct <a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, <a class="el" href="../../df/ddc/structcoord__info.html">coord_info</a> *coord, int new_spec, int nmols, gboolean *showcoord[2], gboolean *showpoly[2], gboolean *showfrag, gboolean update_it, gboolean update_mol)</td></tr>
 <tr class="separator:afcea7a7e4f6e2de484fbd9514cd45a8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab62f6a6c7d972199f59c886f51c7891a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dbe/atom__coord_8c.html#ab62f6a6c7d972199f59c886f51c7891a">recover_opengl_data</a> (struct <a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, int nmols, int add, int rem, int *num, int *rec, int ***tmpgeo, gboolean *showfrag)</td></tr>
-<tr class="memdesc:ab62f6a6c7d972199f59c886f51c7891a"><td class="mdescLeft">&#160;</td><td class="mdescRight">recover image pointer data and OpenGL window menu structure  <br /></td></tr>
+<tr class="memdesc:ab62f6a6c7d972199f59c886f51c7891a"><td class="mdescLeft">&#160;</td><td class="mdescRight">recover image pointer data and <a class="el" href="../../d0/d77/struct_open_g_l.html">OpenGL</a> window menu structure  <br /></td></tr>
 <tr class="separator:ab62f6a6c7d972199f59c886f51c7891a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -414,7 +416,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>recover image pointer data and OpenGL window menu structure </p>
+<p>recover image pointer data and <a class="el" href="../../d0/d77/struct_open_g_l.html">OpenGL</a> window menu structure </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">this_proj</td><td>the target project </td></tr>
@@ -482,6 +484,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Look for a type of coordination sphere in a model. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">this_proj</td><td>the target project </td></tr>

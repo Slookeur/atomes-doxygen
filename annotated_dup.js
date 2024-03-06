@@ -80,6 +80,7 @@ var annotated_dup =
     [ "MouseState", "d4/d51/struct_mouse_state.html", "d4/d51/struct_mouse_state" ],
     [ "object_3d", "d4/d50/structobject__3d.html", "d4/d50/structobject__3d" ],
     [ "object_match", "d1/d23/structobject__match.html", "d1/d23/structobject__match" ],
+    [ "OpenGL", "d0/d77/struct_open_g_l.html", null ],
     [ "opengl_edition", "d1/d71/structopengl__edition.html", "d1/d71/structopengl__edition" ],
     [ "project", "dd/dbe/structproject.html", "dd/dbe/structproject" ],
     [ "qint", "d0/da3/structqint.html", "d0/da3/structqint" ],

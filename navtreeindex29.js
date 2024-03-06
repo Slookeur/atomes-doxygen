@@ -1,5 +1,6 @@
 var NAVTREEINDEX29 =
 {
+"dc/d7f/ogl__text_8c.html#a1b69ad7ea841f21165a25e58411b6bab":[2,0,0,0,0,0,0,4,0,12,1],
 "dc/d7f/ogl__text_8c.html#a281a2112b5c0e925467fa430912b954d":[2,0,0,0,0,0,0,4,0,12,4],
 "dc/d7f/ogl__text_8c.html#a33f031154f4e53ff855d44d478d4d664":[2,0,0,0,0,0,0,4,0,12,8],
 "dc/d7f/ogl__text_8c.html#a38a1f439739ede11aa608ea45eaf24e5":[2,0,0,0,0,0,0,4,0,12,2],
@@ -132,12 +133,12 @@ var NAVTREEINDEX29 =
 "dc/dcf/structdummy__atom.html#ac765329451135abec74c45e1897abf26":[1,0,36,9],
 "dc/dcf/structdummy__atom.html#af440c0473214a9261b15466302877417":[1,0,36,0],
 "dc/dcf/structdummy__atom.html#af7fb451c04ddee51d37c391516453569":[1,0,36,11],
-"dc/de2/structspg__setting.html":[1,0,86],
-"dc/de2/structspg__setting.html#a11e70adce5b29839cbc922b8bd9918d7":[1,0,86,3],
-"dc/de2/structspg__setting.html#a3f00301c50a918ddb33333b5ebfe4da5":[1,0,86,4],
-"dc/de2/structspg__setting.html#a9b5416268a3ada8a640c7a10cc6d31a1":[1,0,86,1],
-"dc/de2/structspg__setting.html#abe91710dad809409dba210f43e519079":[1,0,86,0],
-"dc/de2/structspg__setting.html#af17b5de4074fb8cec910e0949474a81b":[1,0,86,2],
+"dc/de2/structspg__setting.html":[1,0,87],
+"dc/de2/structspg__setting.html#a11e70adce5b29839cbc922b8bd9918d7":[1,0,87,3],
+"dc/de2/structspg__setting.html#a3f00301c50a918ddb33333b5ebfe4da5":[1,0,87,4],
+"dc/de2/structspg__setting.html#a9b5416268a3ada8a640c7a10cc6d31a1":[1,0,87,1],
+"dc/de2/structspg__setting.html#abe91710dad809409dba210f43e519079":[1,0,87,0],
+"dc/de2/structspg__setting.html#af17b5de4074fb8cec910e0949474a81b":[1,0,87,2],
 "dc/de3/glview_8h.html":[2,0,0,0,0,0,0,4,5],
 "dc/de3/glview_8h.html#a00042450109aac2260f1c059c070b9de":[2,0,0,0,0,0,0,4,5,113],
 "dc/de3/glview_8h.html#a03f6391c89a0f4ace61e97787f026940":[2,0,0,0,0,0,0,4,5,107],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "dc/de3/glview_8h.html#aad47bab22e3a4ff8d2f3dbc5dff6079e":[2,0,0,0,0,0,0,4,5,90],
 "dc/de3/glview_8h.html#aad81a5bf03fdb09c90923fc2d261739e":[2,0,0,0,0,0,0,4,5,48],
 "dc/de3/glview_8h.html#ab13604235288f5d1e71d87fc8388942b":[2,0,0,0,0,0,0,4,5,117],
-"dc/de3/glview_8h.html#ab27ffb9c08db82d7ca1884f7992eab22":[2,0,0,0,0,0,0,4,5,46],
-"dc/de3/glview_8h.html#ab2ef9bdf514e4202cbf888ec384cde2e":[2,0,0,0,0,0,0,4,5,89]
+"dc/de3/glview_8h.html#ab27ffb9c08db82d7ca1884f7992eab22":[2,0,0,0,0,0,0,4,5,46]
 };

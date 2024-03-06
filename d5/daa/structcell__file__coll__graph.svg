@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d7/d81/structbox__info.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../d7/d81/structbox__info.html" target="_top" xlink:title="model box information">
 <polygon fill="white" stroke="#666666" points="66.88,-151 13.88,-151 13.88,-132 66.88,-132 66.88,-151"/>
 <text text-anchor="middle" x="40.38" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">box_info</text>
 </a>
@@ -69,7 +69,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../de/df2/structspace__group.html" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="../../de/df2/structspace__group.html" target="_top" xlink:title="a structure to described a space group in crystallography">
 <polygon fill="white" stroke="#666666" points="176.38,-151 104.38,-151 104.38,-132 176.38,-132 176.38,-151"/>
 <text text-anchor="middle" x="140.38" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">space_group</text>
 </a>
@@ -93,7 +93,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../dc/de2/structspg__setting.html" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="../../dc/de2/structspg__setting.html" target="_top" xlink:title="a structure to describe the settings of a space group in crystallography">
 <polygon fill="white" stroke="#666666" points="192.88,-228 125.88,-228 125.88,-209 192.88,-209 192.88,-228"/>
 <text text-anchor="middle" x="159.38" y="-216" font-family="Helvetica,sans-Serif" font-size="10.00">spg_setting</text>
 </a>
@@ -109,7 +109,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d9/d4f/structwyckoff__position.html" target="_top" xlink:title=" ">
+<g id="a_node7"><a xlink:href="../../d9/d4f/structwyckoff__position.html" target="_top" xlink:title="a structure to describe a Wyckoff position in crystallography">
 <polygon fill="white" stroke="#666666" points="299.88,-228 210.88,-228 210.88,-209 299.88,-209 299.88,-228"/>
 <text text-anchor="middle" x="255.38" y="-216" font-family="Helvetica,sans-Serif" font-size="10.00">wyckoff_position</text>
 </a>
