@@ -57,7 +57,7 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="project update and activation">
 <polygon fill="#999999" stroke="#666666" points="932.5,-184 867.5,-184 867.5,-165 932.5,-165 932.5,-184"/>
 <text text-anchor="middle" x="900" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">update_p.c</text>
 </a>
@@ -66,7 +66,7 @@ var sectionId = 'dynsection-0';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d2/d49/global_8h.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../d2/d49/global_8h.html" target="_top" xlink:title="global variable declarations &#160;&#160;global convenience function declarations &#160;&#160;global data structure defin...">
 <polygon fill="white" stroke="#666666" points="748,-129 698,-129 698,-110 748,-110 748,-129"/>
 <text text-anchor="middle" x="723" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">global.h</text>
 </a>
@@ -81,7 +81,7 @@ var sectionId = 'dynsection-0';
 <!-- Node25 -->
 <g id="node25" class="node">
 <title>Node25</title>
-<g id="a_node25"><a xlink:href="../../da/dc2/bind_8h.html" target="_top" xlink:title=" ">
+<g id="a_node25"><a xlink:href="../../da/dc2/bind_8h.html" target="_top" xlink:title="binding to the Fortran90 subroutines">
 <polygon fill="white" stroke="#666666" points="809.5,-129 766.5,-129 766.5,-110 809.5,-110 809.5,-129"/>
 <text text-anchor="middle" x="788" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">bind.h</text>
 </a>

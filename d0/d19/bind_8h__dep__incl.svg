@@ -57,7 +57,7 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="binding to the Fortran90 subroutines">
 <polygon fill="#999999" stroke="#666666" points="2150.5,-129 2107.5,-129 2107.5,-110 2150.5,-110 2150.5,-129"/>
 <text text-anchor="middle" x="2129" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">bind.h</text>
 </a>
@@ -636,7 +636,7 @@ var sectionId = 'dynsection-0';
 <!-- Node60 -->
 <g id="node47" class="node">
 <title>Node60</title>
-<g id="a_node47"><a xlink:href="../../db/d3e/update__p_8c.html" target="_top" xlink:title=" ">
+<g id="a_node47"><a xlink:href="../../db/d3e/update__p_8c.html" target="_top" xlink:title="project update and activation">
 <polygon fill="white" stroke="#666666" points="3525.5,-74 3460.5,-74 3460.5,-55 3525.5,-55 3525.5,-74"/>
 <text text-anchor="middle" x="3493" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">update_p.c</text>
 </a>

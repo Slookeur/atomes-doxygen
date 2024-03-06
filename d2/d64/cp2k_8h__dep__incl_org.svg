@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="variable declarations for the creation of the CP2K input file(s)">
 <polygon fill="#999999" stroke="#666666" points="269.5,-74 223.5,-74 223.5,-55 269.5,-55 269.5,-74"/>
 <text text-anchor="middle" x="246.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">cp2k.h</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d0/da4/cp2k__files_8c.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../d0/da4/cp2k__files_8c.html" target="_top" xlink:title="the functions to handle CP2K basis sets and pseudopotentials">
 <polygon fill="white" stroke="#666666" points="69,-19 0,-19 0,0 69,0 69,-19"/>
 <text text-anchor="middle" x="34.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cp2k_files.c</text>
 </a>
@@ -35,7 +35,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../de/d92/cp2k__init_8c.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../de/d92/cp2k__init_8c.html" target="_top" xlink:title="initialization of the CP2K input assistant">
 <polygon fill="white" stroke="#666666" points="151.5,-19 87.5,-19 87.5,0 151.5,0 151.5,-19"/>
 <text text-anchor="middle" x="119.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cp2k_init.c</text>
 </a>
@@ -50,7 +50,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d5/d8d/cp2k__mol_8c.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="../../d5/d8d/cp2k__mol_8c.html" target="_top" xlink:title="functions to fix fragment(s) when creating the CP2K input file">
 <polygon fill="white" stroke="#666666" points="237,-19 170,-19 170,0 237,0 237,-19"/>
 <text text-anchor="middle" x="203.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cp2k_mol.c</text>
 </a>
@@ -65,7 +65,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../dc/d4a/cp2k__print_8c.html" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="../../dc/d4a/cp2k__print_8c.html" target="_top" xlink:title="functions to print the CP2K input file(s)">
 <polygon fill="white" stroke="#666666" points="325.5,-19 255.5,-19 255.5,0 325.5,0 325.5,-19"/>
 <text text-anchor="middle" x="290.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cp2k_print.c</text>
 </a>
@@ -80,7 +80,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../dd/dc0/cpmd__init_8c.html" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="../../dd/dc0/cpmd__init_8c.html" target="_top" xlink:title="functions to initialize the QM / QM&#45;MM input file creation assistant">
 <polygon fill="white" stroke="#666666" points="411,-19 344,-19 344,0 411,0 411,-19"/>
 <text text-anchor="middle" x="377.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd_init.c</text>
 </a>
@@ -95,7 +95,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d6/dc0/cpmd__nose_8c.html" target="_top" xlink:title=" ">
+<g id="a_node7"><a xlink:href="../../d6/dc0/cpmd__nose_8c.html" target="_top" xlink:title="functions to prepare the thermostat(s) configuration widgets for QM / QM&#45;MM input files">
 <polygon fill="white" stroke="#666666" points="504,-19 429,-19 429,0 504,0 504,-19"/>
 <text text-anchor="middle" x="466.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd_nose.c</text>
 </a>

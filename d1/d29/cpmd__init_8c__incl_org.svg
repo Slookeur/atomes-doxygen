@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="functions to initialize the QM / QM&#45;MM input file creation assistant">
 <polygon fill="#999999" stroke="#666666" points="1068.5,-184 1001.5,-184 1001.5,-165 1068.5,-165 1068.5,-184"/>
 <text text-anchor="middle" x="1035" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd_init.c</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d2/d49/global_8h.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../d2/d49/global_8h.html" target="_top" xlink:title="global variable declarations &#160;&#160;global convenience function declarations &#160;&#160;global data structure defin...">
 <polygon fill="white" stroke="#666666" points="748,-129 698,-129 698,-110 748,-110 748,-129"/>
 <text text-anchor="middle" x="723" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">global.h</text>
 </a>
@@ -110,7 +110,7 @@
 <!-- Node30 -->
 <g id="node30" class="node">
 <title>Node30</title>
-<g id="a_node30"><a xlink:href="../../d1/d74/calc_8h.html" target="_top" xlink:title=" ">
+<g id="a_node30"><a xlink:href="../../d1/d74/calc_8h.html" target="_top" xlink:title="declaration of variables global to the MD input preparation assistants">
 <polygon fill="white" stroke="#666666" points="1199.5,-129 1156.5,-129 1156.5,-110 1199.5,-110 1199.5,-129"/>
 <text text-anchor="middle" x="1178" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">calc.h</text>
 </a>
@@ -125,7 +125,7 @@
 <!-- Node31 -->
 <g id="node31" class="node">
 <title>Node31</title>
-<g id="a_node31"><a xlink:href="../../d2/d06/cpmd_8h.html" target="_top" xlink:title=" ">
+<g id="a_node31"><a xlink:href="../../d2/d06/cpmd_8h.html" target="_top" xlink:title="variable declarations for the creation of the CPMD input file">
 <polygon fill="white" stroke="#666666" points="1266.5,-129 1217.5,-129 1217.5,-110 1266.5,-110 1266.5,-129"/>
 <text text-anchor="middle" x="1242" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd.h</text>
 </a>
@@ -140,7 +140,7 @@
 <!-- Node32 -->
 <g id="node32" class="node">
 <title>Node32</title>
-<g id="a_node32"><a xlink:href="../../d7/d33/cp2k_8h.html" target="_top" xlink:title=" ">
+<g id="a_node32"><a xlink:href="../../d7/d33/cp2k_8h.html" target="_top" xlink:title="variable declarations for the creation of the CP2K input file(s)">
 <polygon fill="white" stroke="#666666" points="1331,-129 1285,-129 1285,-110 1331,-110 1331,-129"/>
 <text text-anchor="middle" x="1308" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">cp2k.h</text>
 </a>

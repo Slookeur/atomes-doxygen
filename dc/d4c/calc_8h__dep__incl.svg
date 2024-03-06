@@ -57,7 +57,7 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="declaration of variables global to the MD input preparation assistants">
 <polygon fill="#999999" stroke="#666666" points="679,-74 636,-74 636,-55 679,-55 679,-74"/>
 <text text-anchor="middle" x="657.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">calc.h</text>
 </a>
@@ -66,7 +66,7 @@ var sectionId = 'dynsection-0';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d0/da4/cp2k__files_8c.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../d0/da4/cp2k__files_8c.html" target="_top" xlink:title="the functions to handle CP2K basis sets and pseudopotentials">
 <polygon fill="white" stroke="#666666" points="69,-19 0,-19 0,0 69,0 69,-19"/>
 <text text-anchor="middle" x="34.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cp2k_files.c</text>
 </a>
@@ -81,7 +81,7 @@ var sectionId = 'dynsection-0';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../de/d92/cp2k__init_8c.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../de/d92/cp2k__init_8c.html" target="_top" xlink:title="initialization of the CP2K input assistant">
 <polygon fill="white" stroke="#666666" points="151.5,-19 87.5,-19 87.5,0 151.5,0 151.5,-19"/>
 <text text-anchor="middle" x="119.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cp2k_init.c</text>
 </a>
@@ -96,7 +96,7 @@ var sectionId = 'dynsection-0';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d5/d8d/cp2k__mol_8c.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="../../d5/d8d/cp2k__mol_8c.html" target="_top" xlink:title="functions to fix fragment(s) when creating the CP2K input file">
 <polygon fill="white" stroke="#666666" points="237,-19 170,-19 170,0 237,0 237,-19"/>
 <text text-anchor="middle" x="203.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cp2k_mol.c</text>
 </a>
@@ -111,7 +111,7 @@ var sectionId = 'dynsection-0';
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../dc/d4a/cp2k__print_8c.html" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="../../dc/d4a/cp2k__print_8c.html" target="_top" xlink:title="functions to print the CP2K input file(s)">
 <polygon fill="white" stroke="#666666" points="325.5,-19 255.5,-19 255.5,0 325.5,0 325.5,-19"/>
 <text text-anchor="middle" x="290.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cp2k_print.c</text>
 </a>
@@ -126,7 +126,7 @@ var sectionId = 'dynsection-0';
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d6/d03/cpmd__atoms_8c.html" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="../../d6/d03/cpmd__atoms_8c.html" target="_top" xlink:title="functions to handle dummy atom(s) for the CPMD input file">
 <polygon fill="white" stroke="#666666" points="425,-19 344,-19 344,0 425,0 425,-19"/>
 <text text-anchor="middle" x="384.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd_atoms.c</text>
 </a>
@@ -141,7 +141,7 @@ var sectionId = 'dynsection-0';
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../dd/dc0/cpmd__init_8c.html" target="_top" xlink:title=" ">
+<g id="a_node7"><a xlink:href="../../dd/dc0/cpmd__init_8c.html" target="_top" xlink:title="functions to initialize the QM / QM&#45;MM input file creation assistant">
 <polygon fill="white" stroke="#666666" points="510,-19 443,-19 443,0 510,0 510,-19"/>
 <text text-anchor="middle" x="476.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd_init.c</text>
 </a>
@@ -156,7 +156,7 @@ var sectionId = 'dynsection-0';
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d6/dc0/cpmd__nose_8c.html" target="_top" xlink:title=" ">
+<g id="a_node8"><a xlink:href="../../d6/dc0/cpmd__nose_8c.html" target="_top" xlink:title="functions to prepare the thermostat(s) configuration widgets for QM / QM&#45;MM input files">
 <polygon fill="white" stroke="#666666" points="603,-19 528,-19 528,0 603,0 603,-19"/>
 <text text-anchor="middle" x="565.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd_nose.c</text>
 </a>
@@ -171,7 +171,7 @@ var sectionId = 'dynsection-0';
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d1/dcc/cpmd__print_8c.html" target="_top" xlink:title=" ">
+<g id="a_node9"><a xlink:href="../../d1/dcc/cpmd__print_8c.html" target="_top" xlink:title="functions to print the CPMD input file(s)">
 <polygon fill="white" stroke="#666666" points="694,-19 621,-19 621,0 694,0 694,-19"/>
 <text text-anchor="middle" x="657.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd_print.c</text>
 </a>
@@ -186,7 +186,7 @@ var sectionId = 'dynsection-0';
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="../../db/d6f/cpmd__restart_8c.html" target="_top" xlink:title=" ">
+<g id="a_node10"><a xlink:href="../../db/d6f/cpmd__restart_8c.html" target="_top" xlink:title="functions to configure the restart section for the CPMD input file creation assistant">
 <polygon fill="white" stroke="#666666" points="794.5,-19 712.5,-19 712.5,0 794.5,0 794.5,-19"/>
 <text text-anchor="middle" x="753.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd_restart.c</text>
 </a>

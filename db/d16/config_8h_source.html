@@ -94,71 +94,73 @@ $(document).ready(function(){initNavTree('db/d16/config_8h_source.html','../../'
   <div class="headertitle"><div class="title">config.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="../../db/d16/config_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* This file is part of Atomes.</span></div>
+<a href="../../db/d16/config_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* This file is part of the &#39;atomes&#39; software</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"></span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">Atomes is free software: you can redistribute it and/or modify it under the terms</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">&#39;atomes&#39; is free software: you can redistribute it and/or modify it under the terms</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">of the GNU Affero General Public License as published by the Free Software Foundation,</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">either version 3 of the License, or (at your option) any later version.</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"></span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">Atomes is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">&#39;atomes&#39; is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">See the GNU General Public License for more details.</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment"></span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">You should have received a copy of the GNU Affero General Public License along with Atomes.</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">If not, see &lt;https://www.gnu.org/licenses/&gt; */</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">/* config.h.  Generated from config.h.in by configure.  */</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">/* config.h.in.  Generated from configure.ac by autoheader.  */</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">/* Atomes major version */</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#a1f5b478e97de562ce24a92d2cd53b999">   18</a></span><span class="preprocessor">#define ATOMES_MAJOR_VERSION 1</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="comment">/* Atomes minor version */</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#a4ed6a9a0e51817b280a6e8ccc15b28de">   21</a></span><span class="preprocessor">#define ATOMES_MINOR_VERSION 1</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment">/* Atomes patch version */</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#aeb02e95aae91ab598bfcb3ae82ef4110">   24</a></span><span class="preprocessor">#define ATOMES_PATCH_VERSION 14</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="comment">/* Define to dummy `main&#39; function (if any) required to link to the Fortran</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment">   libraries. */</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">/* #undef FC_DUMMY_MAIN */</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="comment">/* Define if F77 and FC dummy `main&#39; functions are identical. */</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="comment">/* #undef FC_DUMMY_MAIN_EQ_F77 */</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="comment">/* Define to a macro mangling the given C identifier (in lower and upper</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="comment">   case), which must not contain underscores, for linking with Fortran. */</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#a5bf86bf228b4805fd9efbe403518ecd5">   35</a></span><span class="preprocessor">#define FC_FUNC(name,NAME) name ## _</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="comment">/* As FC_FUNC, but for C identifiers containing underscores. */</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#a366067c1dd4f73e546b933a7d8b0b24a">   38</a></span><span class="preprocessor">#define FC_FUNC_(name,NAME) name ## _</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="comment">/* GETTEXT package name */</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#ab23870bd5469d09c183b5a4e89efd81d">   41</a></span><span class="preprocessor">#define GETTEXT_PACKAGE &quot;atomes&quot;</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment">/* Name of package */</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#aca8570fb706c81df371b7f9bc454ae03">   44</a></span><span class="preprocessor">#define PACKAGE &quot;atomes&quot;</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="comment">/* Define to the address where bug reports for this package should be sent. */</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#a1d1d2d7f8d2f95b376954d649ab03233">   47</a></span><span class="preprocessor">#define PACKAGE_BUGREPORT &quot;atomes@ipcms.unistra.fr&quot;</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="comment">/* Define to the full name of this package. */</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#a1c0439e4355794c09b64274849eb0279">   50</a></span><span class="preprocessor">#define PACKAGE_NAME &quot;atomes&quot;</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">/* Define to the full name and version of this package. */</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#ac73e6f903c16eca7710f92e36e1c6fbf">   53</a></span><span class="preprocessor">#define PACKAGE_STRING &quot;atomes 1.1.14&quot;</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="comment">/* Define to the one symbol short name of this package. */</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#af415af6bfede0e8d5453708afe68651c">   56</a></span><span class="preprocessor">#define PACKAGE_TARNAME &quot;atomes&quot;</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment">/* Define to the home page for this package. */</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#a5c93853116d5a50307b6744f147840aa">   59</a></span><span class="preprocessor">#define PACKAGE_URL &quot;https://atomes.ipcms.fr&quot;</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="comment">/* Define to the version of this package. */</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#aa326a05d5e30f9e9a4bb0b4469d5d0c0">   62</a></span><span class="preprocessor">#define PACKAGE_VERSION &quot;1.1.14&quot;</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="comment">/* Version number of package */</span></div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#a1c6d5de492ac61ad29aec7aa9a436bbf">   65</a></span><span class="preprocessor">#define VERSION &quot;1.1.14&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">You should have received a copy of the GNU Affero General Public License along with &#39;atomes&#39;.</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">If not, see &lt;https://www.gnu.org/licenses/&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment"></span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">Copyright (C) 2022-2024 by CNRS and University of Strasbourg */</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="comment">/* config.h.  Generated from config.h.in by configure.  */</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment">/* config.h.in.  Generated from configure.ac by autoheader.  */</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="comment">/* Atomes major version */</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#a1f5b478e97de562ce24a92d2cd53b999">   26</a></span><span class="preprocessor">#define ATOMES_MAJOR_VERSION 1</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">/* Atomes minor version */</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#a4ed6a9a0e51817b280a6e8ccc15b28de">   29</a></span><span class="preprocessor">#define ATOMES_MINOR_VERSION 1</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="comment">/* Atomes patch version */</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#aeb02e95aae91ab598bfcb3ae82ef4110">   32</a></span><span class="preprocessor">#define ATOMES_PATCH_VERSION 14</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="comment">/* Define to dummy `main&#39; function (if any) required to link to the Fortran</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="comment">   libraries. */</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="comment">/* #undef FC_DUMMY_MAIN */</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="comment">/* Define if F77 and FC dummy `main&#39; functions are identical. */</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="comment">/* #undef FC_DUMMY_MAIN_EQ_F77 */</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="comment">/* Define to a macro mangling the given C identifier (in lower and upper</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="comment">   case), which must not contain underscores, for linking with Fortran. */</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#a5bf86bf228b4805fd9efbe403518ecd5">   43</a></span><span class="preprocessor">#define FC_FUNC(name,NAME) name ## _</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="comment">/* As FC_FUNC, but for C identifiers containing underscores. */</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#a366067c1dd4f73e546b933a7d8b0b24a">   46</a></span><span class="preprocessor">#define FC_FUNC_(name,NAME) name ## _</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="comment">/* GETTEXT package name */</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#ab23870bd5469d09c183b5a4e89efd81d">   49</a></span><span class="preprocessor">#define GETTEXT_PACKAGE &quot;atomes&quot;</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="comment">/* Name of package */</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#aca8570fb706c81df371b7f9bc454ae03">   52</a></span><span class="preprocessor">#define PACKAGE &quot;atomes&quot;</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment">/* Define to the address where bug reports for this package should be sent. */</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#a1d1d2d7f8d2f95b376954d649ab03233">   55</a></span><span class="preprocessor">#define PACKAGE_BUGREPORT &quot;atomes@ipcms.unistra.fr&quot;</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment">/* Define to the full name of this package. */</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#a1c0439e4355794c09b64274849eb0279">   58</a></span><span class="preprocessor">#define PACKAGE_NAME &quot;atomes&quot;</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="comment">/* Define to the full name and version of this package. */</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#ac73e6f903c16eca7710f92e36e1c6fbf">   61</a></span><span class="preprocessor">#define PACKAGE_STRING &quot;atomes 1.1.14&quot;</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="comment">/* Define to the one symbol short name of this package. */</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#af415af6bfede0e8d5453708afe68651c">   64</a></span><span class="preprocessor">#define PACKAGE_TARNAME &quot;atomes&quot;</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="comment">/* Define to the home page for this package. */</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#a5c93853116d5a50307b6744f147840aa">   67</a></span><span class="preprocessor">#define PACKAGE_URL &quot;https://atomes.ipcms.fr&quot;</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="comment">/* Define to the version of this package. */</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#aa326a05d5e30f9e9a4bb0b4469d5d0c0">   70</a></span><span class="preprocessor">#define PACKAGE_VERSION &quot;1.1.14&quot;</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="comment">/* Version number of package */</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="../../db/d16/config_8h.html#a1c6d5de492ac61ad29aec7aa9a436bbf">   73</a></span><span class="preprocessor">#define VERSION &quot;1.1.14&quot;</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -57,7 +57,7 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="functions to print the CP2K input file(s)">
 <polygon fill="#999999" stroke="#666666" points="867,-184 797,-184 797,-165 867,-165 867,-184"/>
 <text text-anchor="middle" x="832" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">cp2k_print.c</text>
 </a>
@@ -66,7 +66,7 @@ var sectionId = 'dynsection-0';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d2/d49/global_8h.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../d2/d49/global_8h.html" target="_top" xlink:title="global variable declarations &#160;&#160;global convenience function declarations &#160;&#160;global data structure defin...">
 <polygon fill="white" stroke="#666666" points="748,-129 698,-129 698,-110 748,-110 748,-129"/>
 <text text-anchor="middle" x="723" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">global.h</text>
 </a>
@@ -96,7 +96,7 @@ var sectionId = 'dynsection-0';
 <!-- Node26 -->
 <g id="node26" class="node">
 <title>Node26</title>
-<g id="a_node26"><a xlink:href="../../d1/d74/calc_8h.html" target="_top" xlink:title=" ">
+<g id="a_node26"><a xlink:href="../../d1/d74/calc_8h.html" target="_top" xlink:title="declaration of variables global to the MD input preparation assistants">
 <polygon fill="white" stroke="#666666" points="889.5,-129 846.5,-129 846.5,-110 889.5,-110 889.5,-129"/>
 <text text-anchor="middle" x="868" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">calc.h</text>
 </a>
@@ -111,7 +111,7 @@ var sectionId = 'dynsection-0';
 <!-- Node27 -->
 <g id="node27" class="node">
 <title>Node27</title>
-<g id="a_node27"><a xlink:href="../../d7/d33/cp2k_8h.html" target="_top" xlink:title=" ">
+<g id="a_node27"><a xlink:href="../../d7/d33/cp2k_8h.html" target="_top" xlink:title="variable declarations for the creation of the CP2K input file(s)">
 <polygon fill="white" stroke="#666666" points="954,-129 908,-129 908,-110 954,-110 954,-129"/>
 <text text-anchor="middle" x="931" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">cp2k.h</text>
 </a>

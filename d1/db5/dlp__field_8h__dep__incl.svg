@@ -57,7 +57,7 @@ var sectionId = 'dynsection-1';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="variable declarations for the creation of the DL_POLY input file(s)">
 <polygon fill="#999999" stroke="#666666" points="997.5,-74 936.5,-74 936.5,-55 997.5,-55 997.5,-74"/>
 <text text-anchor="middle" x="967" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">dlp_field.h</text>
 </a>

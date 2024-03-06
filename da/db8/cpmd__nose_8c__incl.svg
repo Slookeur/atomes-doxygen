@@ -57,7 +57,7 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="functions to prepare the thermostat(s) configuration widgets for QM / QM&#45;MM input files">
 <polygon fill="#999999" stroke="#666666" points="942.5,-184 867.5,-184 867.5,-165 942.5,-165 942.5,-184"/>
 <text text-anchor="middle" x="905" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd_nose.c</text>
 </a>
@@ -66,7 +66,7 @@ var sectionId = 'dynsection-0';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d2/d49/global_8h.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../d2/d49/global_8h.html" target="_top" xlink:title="global variable declarations &#160;&#160;global convenience function declarations &#160;&#160;global data structure defin...">
 <polygon fill="white" stroke="#666666" points="748,-129 698,-129 698,-110 748,-110 748,-129"/>
 <text text-anchor="middle" x="723" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">global.h</text>
 </a>
@@ -111,7 +111,7 @@ var sectionId = 'dynsection-0';
 <!-- Node27 -->
 <g id="node27" class="node">
 <title>Node27</title>
-<g id="a_node27"><a xlink:href="../../d1/d74/calc_8h.html" target="_top" xlink:title=" ">
+<g id="a_node27"><a xlink:href="../../d1/d74/calc_8h.html" target="_top" xlink:title="declaration of variables global to the MD input preparation assistants">
 <polygon fill="white" stroke="#666666" points="959.5,-129 916.5,-129 916.5,-110 959.5,-110 959.5,-129"/>
 <text text-anchor="middle" x="938" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">calc.h</text>
 </a>
@@ -126,7 +126,7 @@ var sectionId = 'dynsection-0';
 <!-- Node28 -->
 <g id="node28" class="node">
 <title>Node28</title>
-<g id="a_node28"><a xlink:href="../../d2/d06/cpmd_8h.html" target="_top" xlink:title=" ">
+<g id="a_node28"><a xlink:href="../../d2/d06/cpmd_8h.html" target="_top" xlink:title="variable declarations for the creation of the CPMD input file">
 <polygon fill="white" stroke="#666666" points="1026.5,-129 977.5,-129 977.5,-110 1026.5,-110 1026.5,-129"/>
 <text text-anchor="middle" x="1002" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd.h</text>
 </a>
@@ -141,7 +141,7 @@ var sectionId = 'dynsection-0';
 <!-- Node29 -->
 <g id="node29" class="node">
 <title>Node29</title>
-<g id="a_node29"><a xlink:href="../../d7/d33/cp2k_8h.html" target="_top" xlink:title=" ">
+<g id="a_node29"><a xlink:href="../../d7/d33/cp2k_8h.html" target="_top" xlink:title="variable declarations for the creation of the CP2K input file(s)">
 <polygon fill="white" stroke="#666666" points="1091,-129 1045,-129 1045,-110 1091,-110 1091,-129"/>
 <text text-anchor="middle" x="1068" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">cp2k.h</text>
 </a>
