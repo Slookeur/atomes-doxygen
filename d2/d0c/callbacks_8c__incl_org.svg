@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="General callbacks &#160;&#160;Functions to open and close files.">
 <polygon fill="#999999" stroke="#666666" points="1132.5,-239 1066.5,-239 1066.5,-220 1132.5,-220 1132.5,-239"/>
 <text text-anchor="middle" x="1099.5" y="-227" font-family="Helvetica,sans-Serif" font-size="10.00">callbacks.c</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d2/d49/global_8h.html" target="_top" xlink:title="global variable declarations &#160;&#160;global convenience function declarations &#160;&#160;global data structure defin...">
+<g id="a_node2"><a xlink:href="../../d2/d49/global_8h.html" target="_top" xlink:title="Global variable declarations &#160;&#160;Global convenience function declarations &#160;&#160;Global data structure defin...">
 <polygon fill="white" stroke="#666666" points="974.5,-129 924.5,-129 924.5,-110 974.5,-110 974.5,-129"/>
 <text text-anchor="middle" x="949.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">global.h</text>
 </a>
@@ -35,7 +35,7 @@
 <!-- Node25 -->
 <g id="node25" class="node">
 <title>Node25</title>
-<g id="a_node25"><a xlink:href="../../d4/da9/interface_8h.html" target="_top" xlink:title=" ">
+<g id="a_node25"><a xlink:href="../../d4/da9/interface_8h.html" target="_top" xlink:title="Messaging function declarations.">
 <polygon fill="white" stroke="#666666" points="844.5,-129 782.5,-129 782.5,-110 844.5,-110 844.5,-129"/>
 <text text-anchor="middle" x="813.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">interface.h</text>
 </a>
@@ -50,7 +50,7 @@
 <!-- Node26 -->
 <g id="node26" class="node">
 <title>Node26</title>
-<g id="a_node26"><a xlink:href="../../dd/d49/callbacks_8h.html" target="_top" xlink:title=" ">
+<g id="a_node26"><a xlink:href="../../dd/d49/callbacks_8h.html" target="_top" xlink:title="Callback declarations for main window.">
 <polygon fill="white" stroke="#666666" points="1058.5,-129 992.5,-129 992.5,-110 1058.5,-110 1058.5,-129"/>
 <text text-anchor="middle" x="1025.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">callbacks.h</text>
 </a>
@@ -65,7 +65,7 @@
 <!-- Node27 -->
 <g id="node27" class="node">
 <title>Node27</title>
-<g id="a_node27"><a xlink:href="../../da/dc2/bind_8h.html" target="_top" xlink:title="binding to the Fortran90 subroutines">
+<g id="a_node27"><a xlink:href="../../da/dc2/bind_8h.html" target="_top" xlink:title="Binding to the Fortran90 subroutines.">
 <polygon fill="white" stroke="#666666" points="906,-129 863,-129 863,-110 906,-110 906,-129"/>
 <text text-anchor="middle" x="884.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">bind.h</text>
 </a>
@@ -80,7 +80,7 @@
 <!-- Node28 -->
 <g id="node28" class="node">
 <title>Node28</title>
-<g id="a_node28"><a xlink:href="../../dc/d8d/project_8h.html" target="_top" xlink:title=" ">
+<g id="a_node28"><a xlink:href="../../dc/d8d/project_8h.html" target="_top" xlink:title="Function declarations for reading atomes project file &#160;&#160;Function declarations for saving atomes proje...">
 <polygon fill="white" stroke="#666666" points="1130.5,-129 1076.5,-129 1076.5,-110 1130.5,-110 1130.5,-129"/>
 <text text-anchor="middle" x="1103.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">project.h</text>
 </a>
@@ -95,7 +95,7 @@
 <!-- Node29 -->
 <g id="node29" class="node">
 <title>Node29</title>
-<g id="a_node29"><a xlink:href="../../d4/de6/workspace_8h.html" target="_top" xlink:title=" ">
+<g id="a_node29"><a xlink:href="../../d4/de6/workspace_8h.html" target="_top" xlink:title="Function declarations for workspace managment.">
 <polygon fill="white" stroke="#666666" points="1374.5,-129 1302.5,-129 1302.5,-110 1374.5,-110 1374.5,-129"/>
 <text text-anchor="middle" x="1338.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">workspace.h</text>
 </a>
@@ -110,7 +110,7 @@
 <!-- Node30 -->
 <g id="node30" class="node">
 <title>Node30</title>
-<g id="a_node30"><a xlink:href="../../d1/d2a/glwindow_8h.html" target="_top" xlink:title=" ">
+<g id="a_node30"><a xlink:href="../../d1/d2a/glwindow_8h.html" target="_top" xlink:title="Function declarations for the creation of the OpenGL window.">
 <polygon fill="white" stroke="#666666" points="1214,-129 1149,-129 1149,-110 1214,-110 1214,-129"/>
 <text text-anchor="middle" x="1181.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">glwindow.h</text>
 </a>
@@ -125,7 +125,7 @@
 <!-- Node31 -->
 <g id="node31" class="node">
 <title>Node31</title>
-<g id="a_node31"><a xlink:href="../../dc/de3/glview_8h.html" target="_top" xlink:title=" ">
+<g id="a_node31"><a xlink:href="../../dc/de3/glview_8h.html" target="_top" xlink:title="Variable declarations related to the OpenGL window &#160;&#160;Function declaration related to the OpenGL windo...">
 <polygon fill="white" stroke="#666666" points="1284.5,-129 1232.5,-129 1232.5,-110 1284.5,-110 1284.5,-129"/>
 <text text-anchor="middle" x="1258.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">glview.h</text>
 </a>
@@ -140,7 +140,7 @@
 <!-- Node32 -->
 <g id="node32" class="node">
 <title>Node32</title>
-<g id="a_node32"><a xlink:href="../../d5/d9c/atom__edit_8h.html" target="_top" xlink:title=" ">
+<g id="a_node32"><a xlink:href="../../d5/d9c/atom__edit_8h.html" target="_top" xlink:title="Function declarations for the mode edition window.">
 <polygon fill="white" stroke="#666666" points="1195.5,-184 1127.5,-184 1127.5,-165 1195.5,-165 1195.5,-184"/>
 <text text-anchor="middle" x="1161.5" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">atom_edit.h</text>
 </a>
@@ -155,7 +155,7 @@
 <!-- Node34 -->
 <g id="node34" class="node">
 <title>Node34</title>
-<g id="a_node34"><a xlink:href="../../d9/d97/cell__edit_8h.html" target="_top" xlink:title=" ">
+<g id="a_node34"><a xlink:href="../../d9/d97/cell__edit_8h.html" target="_top" xlink:title="Function declarations for the cell edition window.">
 <polygon fill="white" stroke="#666666" points="1071,-184 1010,-184 1010,-165 1071,-165 1071,-184"/>
 <text text-anchor="middle" x="1040.5" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">cell_edit.h</text>
 </a>
@@ -170,7 +170,7 @@
 <!-- Node35 -->
 <g id="node35" class="node">
 <title>Node35</title>
-<g id="a_node35"><a xlink:href="../../d1/dfb/readers_8h.html" target="_top" xlink:title=" ">
+<g id="a_node35"><a xlink:href="../../d1/dfb/readers_8h.html" target="_top" xlink:title="Functions declaration to read atomic coordinates.">
 <polygon fill="white" stroke="#666666" points="1623,-184 1566,-184 1566,-165 1623,-165 1623,-184"/>
 <text text-anchor="middle" x="1594.5" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">readers.h</text>
 </a>
@@ -455,7 +455,7 @@
 <!-- Node21 -->
 <g id="node21" class="node">
 <title>Node21</title>
-<g id="a_node21"><a xlink:href="../../dc/db0/math__3d_8h.html" target="_top" xlink:title=" ">
+<g id="a_node21"><a xlink:href="../../dc/db0/math__3d_8h.html" target="_top" xlink:title="Functions for OpenGL math.">
 <polygon fill="white" stroke="#666666" points="1267.5,-74 1205.5,-74 1205.5,-55 1267.5,-55 1267.5,-74"/>
 <text text-anchor="middle" x="1236.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">math_3d.h</text>
 </a>
@@ -470,7 +470,7 @@
 <!-- Node22 -->
 <g id="node22" class="node">
 <title>Node22</title>
-<g id="a_node22"><a xlink:href="../../da/d7e/glwin_8h.html" target="_top" xlink:title=" ">
+<g id="a_node22"><a xlink:href="../../da/d7e/glwin_8h.html" target="_top" xlink:title="Variable declarations related the OpenGL window &#160;&#160;Data structure declarations related the OpenGL wind...">
 <polygon fill="white" stroke="#666666" points="724,-74 677,-74 677,-55 724,-55 724,-74"/>
 <text text-anchor="middle" x="700.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">glwin.h</text>
 </a>
@@ -512,7 +512,7 @@
 <!-- Node23 -->
 <g id="node23" class="node">
 <title>Node23</title>
-<g id="a_node23"><a xlink:href="../../d5/d9e/ogl__shading_8h.html" target="_top" xlink:title=" ">
+<g id="a_node23"><a xlink:href="../../d5/d9e/ogl__shading_8h.html" target="_top" xlink:title="Variable declarations related to GLSL programs &#160;&#160;Data structure declarations related to GLSL programs...">
 <polygon fill="white" stroke="#666666" points="739,-19 662,-19 662,0 739,0 739,-19"/>
 <text text-anchor="middle" x="700.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ogl_shading.h</text>
 </a>
@@ -575,7 +575,7 @@
 <!-- Node33 -->
 <g id="node33" class="node">
 <title>Node33</title>
-<g id="a_node33"><a xlink:href="../../d6/d75/initcoord_8h.html" target="_top" xlink:title=" ">
+<g id="a_node33"><a xlink:href="../../d6/d75/initcoord_8h.html" target="_top" xlink:title="Function declarations to handle the atomic coordination data.">
 <polygon fill="white" stroke="#666666" points="1454.5,-129 1392.5,-129 1392.5,-110 1454.5,-110 1454.5,-129"/>
 <text text-anchor="middle" x="1423.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">initcoord.h</text>
 </a>
@@ -638,7 +638,7 @@
 <!-- Node36 -->
 <g id="node36" class="node">
 <title>Node36</title>
-<g id="a_node36"><a xlink:href="../../dc/d50/read__isaacs_8h.html" target="_top" xlink:title=" ">
+<g id="a_node36"><a xlink:href="../../dc/d50/read__isaacs_8h.html" target="_top" xlink:title="Function declarations to read / write ISAACS XML file.">
 <polygon fill="white" stroke="#666666" points="1810,-129 1733,-129 1733,-110 1810,-110 1810,-129"/>
 <text text-anchor="middle" x="1771.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">read_isaacs.h</text>
 </a>

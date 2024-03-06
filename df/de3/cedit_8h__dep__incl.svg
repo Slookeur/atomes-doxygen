@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Variable declarations for the curve layout edition window.">
 <polygon fill="#999999" stroke="#666666" points="259.5,-74 213.5,-74 213.5,-55 259.5,-55 259.5,-74"/>
 <text text-anchor="middle" x="236.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">cedit.h</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../dc/d22/curve_8c.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../dc/d22/curve_8c.html" target="_top" xlink:title="Functions to manage curves.">
 <polygon fill="white" stroke="#666666" points="49,-19 0,-19 0,0 49,0 49,-19"/>
 <text text-anchor="middle" x="24.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">curve.c</text>
 </a>
@@ -35,7 +35,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d9/d29/m__curve_8c.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../d9/d29/m__curve_8c.html" target="_top" xlink:title="Curve context menu (mouse right click)">
 <polygon fill="white" stroke="#666666" points="129.5,-19 67.5,-19 67.5,0 129.5,0 129.5,-19"/>
 <text text-anchor="middle" x="98.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">m_curve.c</text>
 </a>
@@ -50,7 +50,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../df/df7/tab-1_8c.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="../../df/df7/tab-1_8c.html" target="_top" xlink:title="1st tab of the curve layout edition dialog">
 <polygon fill="white" stroke="#666666" points="195,-19 148,-19 148,0 195,0 195,-19"/>
 <text text-anchor="middle" x="171.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">tab&#45;1.c</text>
 </a>
@@ -65,7 +65,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../de/d1f/tab-2_8c.html" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="../../de/d1f/tab-2_8c.html" target="_top" xlink:title="2nd tab of the curve layout edition dialog">
 <polygon fill="white" stroke="#666666" points="260,-19 213,-19 213,0 260,0 260,-19"/>
 <text text-anchor="middle" x="236.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">tab&#45;2.c</text>
 </a>
@@ -80,7 +80,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d1/d6f/tab-3_8c.html" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="../../d1/d6f/tab-3_8c.html" target="_top" xlink:title="3rd tab of the curve layout edition dialog">
 <polygon fill="white" stroke="#666666" points="325,-19 278,-19 278,0 325,0 325,-19"/>
 <text text-anchor="middle" x="301.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">tab&#45;3.c</text>
 </a>
@@ -95,7 +95,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d8/d62/tab-4_8c.html" target="_top" xlink:title=" ">
+<g id="a_node7"><a xlink:href="../../d8/d62/tab-4_8c.html" target="_top" xlink:title="4th tab of the curve layout edition dialog">
 <polygon fill="white" stroke="#666666" points="390,-19 343,-19 343,0 390,0 390,-19"/>
 <text text-anchor="middle" x="366.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">tab&#45;4.c</text>
 </a>
@@ -110,7 +110,7 @@
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d2/d04/w__curve_8c.html" target="_top" xlink:title=" ">
+<g id="a_node8"><a xlink:href="../../d2/d04/w__curve_8c.html" target="_top" xlink:title="Functions to create the graph/curve window.">
 <polygon fill="white" stroke="#666666" points="470.5,-19 408.5,-19 408.5,0 470.5,0 470.5,-19"/>
 <text text-anchor="middle" x="439.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">w_curve.c</text>
 </a>

@@ -7,7 +7,6 @@ var annotated_dup =
       [ "pixel", "da/db3/structparameters_1_1pixel.html", "da/db3/structparameters_1_1pixel" ],
       [ "ring", "d4/da3/structparameters_1_1ring.html", "d4/da3/structparameters_1_1ring" ]
     ] ],
-    [ "acolor", "d9/d97/structacolor.html", "d9/d97/structacolor" ],
     [ "angl", "d1/d5a/structangl.html", "d1/d5a/structangl" ],
     [ "angle", "d4/d23/structangle.html", "d4/d23/structangle" ],
     [ "animation", "d4/d32/structanimation.html", "d4/d32/structanimation" ],

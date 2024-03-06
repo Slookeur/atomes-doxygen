@@ -244,9 +244,9 @@ var NAVTREEINDEX3 =
 "d2/d6d/charmm22__prot_8c.html#aee00072552d5d1ad4c0028afdf2cd52e":[2,0,0,0,0,0,0,0,3,5,6],
 "d2/d6d/charmm22__prot_8c.html#af73a71e00d031894bdfcb81fdffc9456":[2,0,0,0,0,0,0,0,3,5,2],
 "d2/d6d/charmm22__prot_8c_source.html":[2,0,0,0,0,0,0,0,3,5],
-"d2/d73/structworkspace.html":[1,0,97],
-"d2/d73/structworkspace.html#a2adc7dcdb067748b009cf055353ad14c":[1,0,97,1],
-"d2/d73/structworkspace.html#aaba377f6bdd69d20f2d3d141fad2d5ef":[1,0,97,0],
+"d2/d73/structworkspace.html":[1,0,96],
+"d2/d73/structworkspace.html#a2adc7dcdb067748b009cf055353ad14c":[1,0,96,1],
+"d2/d73/structworkspace.html#aaba377f6bdd69d20f2d3d141fad2d5ef":[1,0,96,0],
 "d2/d92/w__colors_8c.html":[2,0,0,0,0,0,0,4,2,35],
 "d2/d92/w__colors_8c.html#a1aa93d9939167473e8ec893430d507f4":[2,0,0,0,0,0,0,4,2,35,3],
 "d2/d92/w__colors_8c.html#a1d42e8d9f812f8ecb534ac48fbf6f2ac":[2,0,0,0,0,0,0,4,2,35,4]

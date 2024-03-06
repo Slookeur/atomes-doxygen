@@ -57,7 +57,7 @@ var sectionId = 'dynsection-1';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Function declarations for the mode edition window.">
 <polygon fill="#999999" stroke="#666666" points="925,-74 857,-74 857,-55 925,-55 925,-74"/>
 <text text-anchor="middle" x="891" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">atom_edit.h</text>
 </a>
@@ -66,7 +66,7 @@ var sectionId = 'dynsection-1';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d8/d15/atom__action_8c.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../d8/d15/atom__action_8c.html" target="_top" xlink:title="Functions to apply the edition actions to the model.">
 <polygon fill="white" stroke="#666666" points="78,-19 0,-19 0,0 78,0 78,-19"/>
 <text text-anchor="middle" x="39" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">atom_action.c</text>
 </a>
@@ -81,7 +81,7 @@ var sectionId = 'dynsection-1';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d9/dbe/atom__coord_8c.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../d9/dbe/atom__coord_8c.html" target="_top" xlink:title="Functions to correct the coordination menus and the corresponding data pointers after edition.">
 <polygon fill="white" stroke="#666666" points="172,-19 96,-19 96,0 172,0 172,-19"/>
 <text text-anchor="middle" x="134" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">atom_coord.c</text>
 </a>
@@ -96,7 +96,7 @@ var sectionId = 'dynsection-1';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../dc/d6c/atom__edit_8c.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="../../dc/d6c/atom__edit_8c.html" target="_top" xlink:title="Functions to create the model edition window.">
 <polygon fill="white" stroke="#666666" points="258,-19 190,-19 190,0 258,0 258,-19"/>
 <text text-anchor="middle" x="224" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">atom_edit.c</text>
 </a>
@@ -111,7 +111,7 @@ var sectionId = 'dynsection-1';
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d2/d4a/atom__geo_8c.html" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="../../d2/d4a/atom__geo_8c.html" target="_top" xlink:title="Functions to check for the appropriate atomic coordinations.">
 <polygon fill="white" stroke="#666666" points="344,-19 276,-19 276,0 344,0 344,-19"/>
 <text text-anchor="middle" x="310" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">atom_geo.c</text>
 </a>
@@ -126,7 +126,7 @@ var sectionId = 'dynsection-1';
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../dd/d0b/atom__insert_8c.html" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="../../dd/d0b/atom__insert_8c.html" target="_top" xlink:title="Functions to insert bond(s) in a project.">
 <polygon fill="white" stroke="#666666" points="438,-19 362,-19 362,0 438,0 438,-19"/>
 <text text-anchor="middle" x="400" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">atom_insert.c</text>
 </a>
@@ -141,7 +141,7 @@ var sectionId = 'dynsection-1';
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d7/d27/atom__move_8c.html" target="_top" xlink:title=" ">
+<g id="a_node7"><a xlink:href="../../d7/d27/atom__move_8c.html" target="_top" xlink:title="Functions to move atom(s) and group of atom(s) &#160;&#160;Functions to move randomly atom(s) and group of atom...">
 <polygon fill="white" stroke="#666666" points="532,-19 456,-19 456,0 532,0 532,-19"/>
 <text text-anchor="middle" x="494" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">atom_move.c</text>
 </a>
@@ -156,7 +156,7 @@ var sectionId = 'dynsection-1';
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d7/d6a/atom__object_8c.html" target="_top" xlink:title=" ">
+<g id="a_node8"><a xlink:href="../../d7/d6a/atom__object_8c.html" target="_top" xlink:title="Functions to create atomic objects.">
 <polygon fill="white" stroke="#666666" points="628,-19 550,-19 550,0 628,0 628,-19"/>
 <text text-anchor="middle" x="589" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">atom_object.c</text>
 </a>
@@ -171,7 +171,7 @@ var sectionId = 'dynsection-1';
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d3/ded/atom__remove_8c.html" target="_top" xlink:title=" ">
+<g id="a_node9"><a xlink:href="../../d3/ded/atom__remove_8c.html" target="_top" xlink:title="Functions to remove bond(s) from a project &#160;&#160;Function to prepare the passivation (removal followed by...">
 <polygon fill="white" stroke="#666666" points="730,-19 646,-19 646,0 730,0 730,-19"/>
 <text text-anchor="middle" x="688" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">atom_remove.c</text>
 </a>
@@ -186,7 +186,7 @@ var sectionId = 'dynsection-1';
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="../../d9/d33/atom__search_8c.html" target="_top" xlink:title=" ">
+<g id="a_node10"><a xlink:href="../../d9/d33/atom__search_8c.html" target="_top" xlink:title="Functions to prepare the model edition &#39;search&#39; tabs and the associated widgets.">
 <polygon fill="white" stroke="#666666" points="829.5,-19 748.5,-19 748.5,0 829.5,0 829.5,-19"/>
 <text text-anchor="middle" x="789" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">atom_search.c</text>
 </a>
@@ -201,7 +201,7 @@ var sectionId = 'dynsection-1';
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="../../dd/d37/atom__species_8c.html" target="_top" xlink:title=" ">
+<g id="a_node11"><a xlink:href="../../dd/d37/atom__species_8c.html" target="_top" xlink:title="Functions to look for new chemical species and modify the chemical information accordingly.">
 <polygon fill="white" stroke="#666666" points="934,-19 848,-19 848,0 934,0 934,-19"/>
 <text text-anchor="middle" x="891" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">atom_species.c</text>
 </a>
@@ -216,7 +216,7 @@ var sectionId = 'dynsection-1';
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="../../d3/d3a/callbacks_8c.html" target="_top" xlink:title=" ">
+<g id="a_node12"><a xlink:href="../../d3/d3a/callbacks_8c.html" target="_top" xlink:title="General callbacks &#160;&#160;Functions to open and close files.">
 <polygon fill="white" stroke="#666666" points="1018,-19 952,-19 952,0 1018,0 1018,-19"/>
 <text text-anchor="middle" x="985" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">callbacks.c</text>
 </a>
@@ -231,7 +231,7 @@ var sectionId = 'dynsection-1';
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="../../d2/d17/cell__cut_8c.html" target="_top" xlink:title=" ">
+<g id="a_node13"><a xlink:href="../../d2/d17/cell__cut_8c.html" target="_top" xlink:title="Functions to create the &#39;slab cutting&#39; tab of the cell edition window.">
 <polygon fill="white" stroke="#666666" points="1095.5,-19 1036.5,-19 1036.5,0 1095.5,0 1095.5,-19"/>
 <text text-anchor="middle" x="1066" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cell_cut.c</text>
 </a>
@@ -246,7 +246,7 @@ var sectionId = 'dynsection-1';
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
-<g id="a_node14"><a xlink:href="../../d8/d1c/cell__super_8c.html" target="_top" xlink:title=" ">
+<g id="a_node14"><a xlink:href="../../d8/d1c/cell__super_8c.html" target="_top" xlink:title="Functions to create a super&#45;cell using the extra cell(s)">
 <polygon fill="white" stroke="#666666" points="1182.5,-19 1113.5,-19 1113.5,0 1182.5,0 1182.5,-19"/>
 <text text-anchor="middle" x="1148" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cell_super.c</text>
 </a>
@@ -261,7 +261,7 @@ var sectionId = 'dynsection-1';
 <!-- Node15 -->
 <g id="node15" class="node">
 <title>Node15</title>
-<g id="a_node15"><a xlink:href="../../db/d42/m__edit_8c.html" target="_top" xlink:title=" ">
+<g id="a_node15"><a xlink:href="../../db/d42/m__edit_8c.html" target="_top" xlink:title="Functions to create the &#39;Tools &#45;&gt; Edit&#39; submenu.">
 <polygon fill="white" stroke="#666666" points="1255,-19 1201,-19 1201,0 1255,0 1255,-19"/>
 <text text-anchor="middle" x="1228" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">m_edit.c</text>
 </a>
@@ -276,7 +276,7 @@ var sectionId = 'dynsection-1';
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="../../d3/d51/m__tools_8c.html" target="_top" xlink:title=" ">
+<g id="a_node16"><a xlink:href="../../d3/d51/m__tools_8c.html" target="_top" xlink:title="Functions to create the &#39;Tools&#39; submenu.">
 <polygon fill="white" stroke="#666666" points="1332.5,-19 1273.5,-19 1273.5,0 1332.5,0 1332.5,-19"/>
 <text text-anchor="middle" x="1303" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">m_tools.c</text>
 </a>
@@ -291,7 +291,7 @@ var sectionId = 'dynsection-1';
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
-<g id="a_node17"><a xlink:href="../../d5/da4/popup_8c.html" target="_top" xlink:title=" ">
+<g id="a_node17"><a xlink:href="../../d5/da4/popup_8c.html" target="_top" xlink:title="Functions to create the OpenGL window popup menus: &#160;.">
 <polygon fill="white" stroke="#666666" points="1401.5,-19 1350.5,-19 1350.5,0 1401.5,0 1401.5,-19"/>
 <text text-anchor="middle" x="1376" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">popup.c</text>
 </a>
@@ -306,7 +306,7 @@ var sectionId = 'dynsection-1';
 <!-- Node18 -->
 <g id="node18" class="node">
 <title>Node18</title>
-<g id="a_node18"><a xlink:href="../../dc/d50/selection_8c.html" target="_top" xlink:title=" ">
+<g id="a_node18"><a xlink:href="../../dc/d50/selection_8c.html" target="_top" xlink:title="Functions handling the atom and bond selection process in the OpenGL window.">
 <polygon fill="white" stroke="#666666" points="1484,-19 1420,-19 1420,0 1484,0 1484,-19"/>
 <text text-anchor="middle" x="1452" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">selection.c</text>
 </a>
@@ -321,7 +321,7 @@ var sectionId = 'dynsection-1';
 <!-- Node19 -->
 <g id="node19" class="node">
 <title>Node19</title>
-<g id="a_node19"><a xlink:href="../../de/dc7/w__search_8c.html" target="_top" xlink:title=" ">
+<g id="a_node19"><a xlink:href="../../de/dc7/w__search_8c.html" target="_top" xlink:title="Functions to create the object search widgets, for: &#160;.">
 <polygon fill="white" stroke="#666666" points="1569.5,-19 1502.5,-19 1502.5,0 1569.5,0 1569.5,-19"/>
 <text text-anchor="middle" x="1536" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">w_search.c</text>
 </a>
@@ -336,7 +336,7 @@ var sectionId = 'dynsection-1';
 <!-- Node20 -->
 <g id="node20" class="node">
 <title>Node20</title>
-<g id="a_node20"><a xlink:href="../../d8/de9/w__volumes_8c.html" target="_top" xlink:title=" ">
+<g id="a_node20"><a xlink:href="../../d8/de9/w__volumes_8c.html" target="_top" xlink:title="Functions to create the &#39;Volumes&#39; window &#160;&#160;Functions to compute system / fragment / molecular volumes...">
 <polygon fill="white" stroke="#666666" points="1662,-19 1588,-19 1588,0 1662,0 1662,-19"/>
 <text text-anchor="middle" x="1625" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">w_volumes.c</text>
 </a>

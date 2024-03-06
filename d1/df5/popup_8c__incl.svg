@@ -57,7 +57,7 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Functions to create the OpenGL window popup menus: &#160;.">
 <polygon fill="#999999" stroke="#666666" points="1100.5,-239 1049.5,-239 1049.5,-220 1100.5,-220 1100.5,-239"/>
 <text text-anchor="middle" x="1075" y="-227" font-family="Helvetica,sans-Serif" font-size="10.00">popup.c</text>
 </a>
@@ -66,7 +66,7 @@ var sectionId = 'dynsection-0';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d2/d49/global_8h.html" target="_top" xlink:title="global variable declarations &#160;&#160;global convenience function declarations &#160;&#160;global data structure defin...">
+<g id="a_node2"><a xlink:href="../../d2/d49/global_8h.html" target="_top" xlink:title="Global variable declarations &#160;&#160;Global convenience function declarations &#160;&#160;Global data structure defin...">
 <polygon fill="white" stroke="#666666" points="710,-129 660,-129 660,-110 710,-110 710,-129"/>
 <text text-anchor="middle" x="685" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">global.h</text>
 </a>
@@ -81,7 +81,7 @@ var sectionId = 'dynsection-0';
 <!-- Node25 -->
 <g id="node25" class="node">
 <title>Node25</title>
-<g id="a_node25"><a xlink:href="../../dd/d49/callbacks_8h.html" target="_top" xlink:title=" ">
+<g id="a_node25"><a xlink:href="../../dd/d49/callbacks_8h.html" target="_top" xlink:title="Callback declarations for main window.">
 <polygon fill="white" stroke="#666666" points="794,-129 728,-129 728,-110 794,-110 794,-129"/>
 <text text-anchor="middle" x="761" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">callbacks.h</text>
 </a>
@@ -96,7 +96,7 @@ var sectionId = 'dynsection-0';
 <!-- Node26 -->
 <g id="node26" class="node">
 <title>Node26</title>
-<g id="a_node26"><a xlink:href="../../d4/da9/interface_8h.html" target="_top" xlink:title=" ">
+<g id="a_node26"><a xlink:href="../../d4/da9/interface_8h.html" target="_top" xlink:title="Messaging function declarations.">
 <polygon fill="white" stroke="#666666" points="874,-129 812,-129 812,-110 874,-110 874,-129"/>
 <text text-anchor="middle" x="843" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">interface.h</text>
 </a>
@@ -111,7 +111,7 @@ var sectionId = 'dynsection-0';
 <!-- Node27 -->
 <g id="node27" class="node">
 <title>Node27</title>
-<g id="a_node27"><a xlink:href="../../d4/de6/workspace_8h.html" target="_top" xlink:title=" ">
+<g id="a_node27"><a xlink:href="../../d4/de6/workspace_8h.html" target="_top" xlink:title="Function declarations for workspace managment.">
 <polygon fill="white" stroke="#666666" points="964,-129 892,-129 892,-110 964,-110 964,-129"/>
 <text text-anchor="middle" x="928" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">workspace.h</text>
 </a>
@@ -126,7 +126,7 @@ var sectionId = 'dynsection-0';
 <!-- Node28 -->
 <g id="node28" class="node">
 <title>Node28</title>
-<g id="a_node28"><a xlink:href="../../dc/d8d/project_8h.html" target="_top" xlink:title=" ">
+<g id="a_node28"><a xlink:href="../../dc/d8d/project_8h.html" target="_top" xlink:title="Function declarations for reading atomes project file &#160;&#160;Function declarations for saving atomes proje...">
 <polygon fill="white" stroke="#666666" points="1116,-129 1062,-129 1062,-110 1116,-110 1116,-129"/>
 <text text-anchor="middle" x="1089" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">project.h</text>
 </a>
@@ -141,7 +141,7 @@ var sectionId = 'dynsection-0';
 <!-- Node29 -->
 <g id="node29" class="node">
 <title>Node29</title>
-<g id="a_node29"><a xlink:href="../../dc/de3/glview_8h.html" target="_top" xlink:title=" ">
+<g id="a_node29"><a xlink:href="../../dc/de3/glview_8h.html" target="_top" xlink:title="Variable declarations related to the OpenGL window &#160;&#160;Function declaration related to the OpenGL windo...">
 <polygon fill="white" stroke="#666666" points="1186,-129 1134,-129 1134,-110 1186,-110 1186,-129"/>
 <text text-anchor="middle" x="1160" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">glview.h</text>
 </a>
@@ -156,7 +156,7 @@ var sectionId = 'dynsection-0';
 <!-- Node30 -->
 <g id="node30" class="node">
 <title>Node30</title>
-<g id="a_node30"><a xlink:href="../../d1/d2a/glwindow_8h.html" target="_top" xlink:title=" ">
+<g id="a_node30"><a xlink:href="../../d1/d2a/glwindow_8h.html" target="_top" xlink:title="Function declarations for the creation of the OpenGL window.">
 <polygon fill="white" stroke="#666666" points="1269.5,-129 1204.5,-129 1204.5,-110 1269.5,-110 1269.5,-129"/>
 <text text-anchor="middle" x="1237" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">glwindow.h</text>
 </a>
@@ -171,7 +171,7 @@ var sectionId = 'dynsection-0';
 <!-- Node31 -->
 <g id="node31" class="node">
 <title>Node31</title>
-<g id="a_node31"><a xlink:href="../../de/de0/submenus_8h.html" target="_top" xlink:title=" ">
+<g id="a_node31"><a xlink:href="../../de/de0/submenus_8h.html" target="_top" xlink:title="Function declarations for the creation of the OpenGL window menus.">
 <polygon fill="white" stroke="#666666" points="1287,-184 1217,-184 1217,-165 1287,-165 1287,-184"/>
 <text text-anchor="middle" x="1252" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">submenus.h</text>
 </a>
@@ -186,7 +186,7 @@ var sectionId = 'dynsection-0';
 <!-- Node32 -->
 <g id="node32" class="node">
 <title>Node32</title>
-<g id="a_node32"><a xlink:href="../../d1/ddb/color__box_8h.html" target="_top" xlink:title=" ">
+<g id="a_node32"><a xlink:href="../../d1/ddb/color__box_8h.html" target="_top" xlink:title="Structure definitions for color management &#160;&#160;Function declarations for color management.">
 <polygon fill="white" stroke="#666666" points="1372.5,-184 1305.5,-184 1305.5,-165 1372.5,-165 1372.5,-184"/>
 <text text-anchor="middle" x="1339" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">color_box.h</text>
 </a>
@@ -201,7 +201,7 @@ var sectionId = 'dynsection-0';
 <!-- Node33 -->
 <g id="node33" class="node">
 <title>Node33</title>
-<g id="a_node33"><a xlink:href="../../da/dc2/bind_8h.html" target="_top" xlink:title="binding to the Fortran90 subroutines">
+<g id="a_node33"><a xlink:href="../../da/dc2/bind_8h.html" target="_top" xlink:title="Binding to the Fortran90 subroutines.">
 <polygon fill="white" stroke="#666666" points="1330.5,-129 1287.5,-129 1287.5,-110 1330.5,-110 1330.5,-129"/>
 <text text-anchor="middle" x="1309" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">bind.h</text>
 </a>
@@ -216,7 +216,7 @@ var sectionId = 'dynsection-0';
 <!-- Node34 -->
 <g id="node34" class="node">
 <title>Node34</title>
-<g id="a_node34"><a xlink:href="../../d5/d9c/atom__edit_8h.html" target="_top" xlink:title=" ">
+<g id="a_node34"><a xlink:href="../../d5/d9c/atom__edit_8h.html" target="_top" xlink:title="Function declarations for the mode edition window.">
 <polygon fill="white" stroke="#666666" points="1047,-184 979,-184 979,-165 1047,-165 1047,-184"/>
 <text text-anchor="middle" x="1013" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">atom_edit.h</text>
 </a>
@@ -501,7 +501,7 @@ var sectionId = 'dynsection-0';
 <!-- Node21 -->
 <g id="node21" class="node">
 <title>Node21</title>
-<g id="a_node21"><a xlink:href="../../dc/db0/math__3d_8h.html" target="_top" xlink:title=" ">
+<g id="a_node21"><a xlink:href="../../dc/db0/math__3d_8h.html" target="_top" xlink:title="Functions for OpenGL math.">
 <polygon fill="white" stroke="#666666" points="447,-74 385,-74 385,-55 447,-55 447,-74"/>
 <text text-anchor="middle" x="416" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">math_3d.h</text>
 </a>
@@ -516,7 +516,7 @@ var sectionId = 'dynsection-0';
 <!-- Node22 -->
 <g id="node22" class="node">
 <title>Node22</title>
-<g id="a_node22"><a xlink:href="../../da/d7e/glwin_8h.html" target="_top" xlink:title=" ">
+<g id="a_node22"><a xlink:href="../../da/d7e/glwin_8h.html" target="_top" xlink:title="Variable declarations related the OpenGL window &#160;&#160;Data structure declarations related the OpenGL wind...">
 <polygon fill="white" stroke="#666666" points="1530.5,-74 1483.5,-74 1483.5,-55 1530.5,-55 1530.5,-74"/>
 <text text-anchor="middle" x="1507" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">glwin.h</text>
 </a>
@@ -558,7 +558,7 @@ var sectionId = 'dynsection-0';
 <!-- Node23 -->
 <g id="node23" class="node">
 <title>Node23</title>
-<g id="a_node23"><a xlink:href="../../d5/d9e/ogl__shading_8h.html" target="_top" xlink:title=" ">
+<g id="a_node23"><a xlink:href="../../d5/d9e/ogl__shading_8h.html" target="_top" xlink:title="Variable declarations related to GLSL programs &#160;&#160;Data structure declarations related to GLSL programs...">
 <polygon fill="white" stroke="#666666" points="1545.5,-19 1468.5,-19 1468.5,0 1545.5,0 1545.5,-19"/>
 <text text-anchor="middle" x="1507" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ogl_shading.h</text>
 </a>
@@ -621,7 +621,7 @@ var sectionId = 'dynsection-0';
 <!-- Node35 -->
 <g id="node35" class="node">
 <title>Node35</title>
-<g id="a_node35"><a xlink:href="../../d6/d75/initcoord_8h.html" target="_top" xlink:title=" ">
+<g id="a_node35"><a xlink:href="../../d6/d75/initcoord_8h.html" target="_top" xlink:title="Function declarations to handle the atomic coordination data.">
 <polygon fill="white" stroke="#666666" points="1044,-129 982,-129 982,-110 1044,-110 1044,-129"/>
 <text text-anchor="middle" x="1013" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">initcoord.h</text>
 </a>

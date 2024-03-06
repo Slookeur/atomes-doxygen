@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Function declarations for the creation of the OpenGL window menus.">
 <polygon fill="#999999" stroke="#666666" points="424,-74 354,-74 354,-55 424,-55 424,-74"/>
 <text text-anchor="middle" x="389" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">submenus.h</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d2/d01/chainscall_8c.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../d2/d01/chainscall_8c.html" target="_top" xlink:title="Callbacks for the chains statistics calculation dialog.">
 <polygon fill="white" stroke="#666666" points="68,-19 0,-19 0,0 68,0 68,-19"/>
 <text text-anchor="middle" x="34" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">chainscall.c</text>
 </a>
@@ -35,7 +35,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d7/dc8/glwindow_8c.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../d7/dc8/glwindow_8c.html" target="_top" xlink:title="Functions to create a project OpenGL window.">
 <polygon fill="white" stroke="#666666" points="151.5,-19 86.5,-19 86.5,0 151.5,0 151.5,-19"/>
 <text text-anchor="middle" x="119" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">glwindow.c</text>
 </a>
@@ -50,7 +50,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d5/dc1/m__axis_8c.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="../../d5/dc1/m__axis_8c.html" target="_top" xlink:title="Functions to create the &#39;View &#45;&gt; Axis&#39; submenu.">
 <polygon fill="white" stroke="#666666" points="226,-19 170,-19 170,0 226,0 226,-19"/>
 <text text-anchor="middle" x="198" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">m_axis.c</text>
 </a>
@@ -65,7 +65,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d6/d35/m__box_8c.html" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="../../d6/d35/m__box_8c.html" target="_top" xlink:title="Functions to create the &#39;Model &#45;&gt; Box&#39; submenu.">
 <polygon fill="white" stroke="#666666" points="298,-19 244,-19 244,0 298,0 298,-19"/>
 <text text-anchor="middle" x="271" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">m_box.c</text>
 </a>
@@ -80,7 +80,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../db/dab/m__clones_8c.html" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="../../db/dab/m__clones_8c.html" target="_top" xlink:title="Functions to create the &#39;Model &#45;&gt; Clone(s)&#39; submenu.">
 <polygon fill="white" stroke="#666666" points="383.5,-19 316.5,-19 316.5,0 383.5,0 383.5,-19"/>
 <text text-anchor="middle" x="350" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">m_clones.c</text>
 </a>
@@ -95,7 +95,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../da/d98/m__rep_8c.html" target="_top" xlink:title=" ">
+<g id="a_node7"><a xlink:href="../../da/d98/m__rep_8c.html" target="_top" xlink:title="Functions to create the &#39;View &#45;&gt; Representation&#39; submenu.">
 <polygon fill="white" stroke="#666666" points="454,-19 402,-19 402,0 454,0 454,-19"/>
 <text text-anchor="middle" x="428" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">m_rep.c</text>
 </a>
@@ -110,7 +110,7 @@
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d3/d51/m__tools_8c.html" target="_top" xlink:title=" ">
+<g id="a_node8"><a xlink:href="../../d3/d51/m__tools_8c.html" target="_top" xlink:title="Functions to create the &#39;Tools&#39; submenu.">
 <polygon fill="white" stroke="#666666" points="531.5,-19 472.5,-19 472.5,0 531.5,0 531.5,-19"/>
 <text text-anchor="middle" x="502" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">m_tools.c</text>
 </a>
@@ -125,7 +125,7 @@
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d5/dbe/menu__bar_8c.html" target="_top" xlink:title=" ">
+<g id="a_node9"><a xlink:href="../../d5/dbe/menu__bar_8c.html" target="_top" xlink:title="Functions to create the menu bar of the OpenGL window &#160;&#160;Functions to create the menu items for the me...">
 <polygon fill="white" stroke="#666666" points="618,-19 550,-19 550,0 618,0 618,-19"/>
 <text text-anchor="middle" x="584" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">menu_bar.c</text>
 </a>
@@ -140,7 +140,7 @@
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="../../d5/da4/popup_8c.html" target="_top" xlink:title=" ">
+<g id="a_node10"><a xlink:href="../../d5/da4/popup_8c.html" target="_top" xlink:title="Functions to create the OpenGL window popup menus: &#160;.">
 <polygon fill="white" stroke="#666666" points="687.5,-19 636.5,-19 636.5,0 687.5,0 687.5,-19"/>
 <text text-anchor="middle" x="662" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">popup.c</text>
 </a>
@@ -155,7 +155,7 @@
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="../../d4/db6/read__mol_8c.html" target="_top" xlink:title=" ">
+<g id="a_node11"><a xlink:href="../../d4/db6/read__mol_8c.html" target="_top" xlink:title="Functions to read molecule(s) data in the atomes project file format.">
 <polygon fill="white" stroke="#666666" points="770.5,-19 705.5,-19 705.5,0 770.5,0 770.5,-19"/>
 <text text-anchor="middle" x="738" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">read_mol.c</text>
 </a>

@@ -1,7 +1,6 @@
 var color__box_8h =
 [
     [ "color", "d0/d91/structcolor.html", "d0/d91/structcolor" ],
-    [ "acolor", "d9/d97/structacolor.html", "d9/d97/structacolor" ],
     [ "color_box", "d1/ddb/color__box_8h.html#a7e6b069bdd32cbec21d69b1be9a3d849", null ],
     [ "to_run_atom_color_window", "d1/ddb/color__box_8h.html#aed7ec7659055b587e7a14299af1d5f3b", null ],
     [ "to_run_back_color_window", "d1/ddb/color__box_8h.html#a1aa93d9939167473e8ec893430d507f4", null ],

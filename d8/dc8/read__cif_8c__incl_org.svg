@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Functions to read CIF files.">
 <polygon fill="#999999" stroke="#666666" points="1501,-239 1442,-239 1442,-220 1501,-220 1501,-239"/>
 <text text-anchor="middle" x="1471.5" y="-227" font-family="Helvetica,sans-Serif" font-size="10.00">read_cif.c</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d2/d49/global_8h.html" target="_top" xlink:title="global variable declarations &#160;&#160;global convenience function declarations &#160;&#160;global data structure defin...">
+<g id="a_node2"><a xlink:href="../../d2/d49/global_8h.html" target="_top" xlink:title="Global variable declarations &#160;&#160;Global convenience function declarations &#160;&#160;Global data structure defin...">
 <polygon fill="white" stroke="#666666" points="985.5,-129 935.5,-129 935.5,-110 985.5,-110 985.5,-129"/>
 <text text-anchor="middle" x="960.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">global.h</text>
 </a>
@@ -35,7 +35,7 @@
 <!-- Node25 -->
 <g id="node25" class="node">
 <title>Node25</title>
-<g id="a_node25"><a xlink:href="../../da/dc2/bind_8h.html" target="_top" xlink:title="binding to the Fortran90 subroutines">
+<g id="a_node25"><a xlink:href="../../da/dc2/bind_8h.html" target="_top" xlink:title="Binding to the Fortran90 subroutines.">
 <polygon fill="white" stroke="#666666" points="1306,-184 1263,-184 1263,-165 1306,-165 1306,-184"/>
 <text text-anchor="middle" x="1284.5" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">bind.h</text>
 </a>
@@ -50,7 +50,7 @@
 <!-- Node26 -->
 <g id="node26" class="node">
 <title>Node26</title>
-<g id="a_node26"><a xlink:href="../../d4/da9/interface_8h.html" target="_top" xlink:title=" ">
+<g id="a_node26"><a xlink:href="../../d4/da9/interface_8h.html" target="_top" xlink:title="Messaging function declarations.">
 <polygon fill="white" stroke="#666666" points="1386.5,-184 1324.5,-184 1324.5,-165 1386.5,-165 1386.5,-184"/>
 <text text-anchor="middle" x="1355.5" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">interface.h</text>
 </a>
@@ -65,7 +65,7 @@
 <!-- Node27 -->
 <g id="node27" class="node">
 <title>Node27</title>
-<g id="a_node27"><a xlink:href="../../dc/d8d/project_8h.html" target="_top" xlink:title=" ">
+<g id="a_node27"><a xlink:href="../../dc/d8d/project_8h.html" target="_top" xlink:title="Function declarations for reading atomes project file &#160;&#160;Function declarations for saving atomes proje...">
 <polygon fill="white" stroke="#666666" points="1458.5,-184 1404.5,-184 1404.5,-165 1458.5,-165 1458.5,-184"/>
 <text text-anchor="middle" x="1431.5" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">project.h</text>
 </a>
@@ -80,7 +80,7 @@
 <!-- Node28 -->
 <g id="node28" class="node">
 <title>Node28</title>
-<g id="a_node28"><a xlink:href="../../de/d8a/cbuild__edit_8h.html" target="_top" xlink:title=" ">
+<g id="a_node28"><a xlink:href="../../de/d8a/cbuild__edit_8h.html" target="_top" xlink:title="Function declarations for the crystal builder.">
 <polygon fill="white" stroke="#666666" points="1548,-184 1477,-184 1477,-165 1548,-165 1548,-184"/>
 <text text-anchor="middle" x="1512.5" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">cbuild_edit.h</text>
 </a>
@@ -95,7 +95,7 @@
 <!-- Node30 -->
 <g id="node30" class="node">
 <title>Node30</title>
-<g id="a_node30"><a xlink:href="../../d1/dfb/readers_8h.html" target="_top" xlink:title=" ">
+<g id="a_node30"><a xlink:href="../../d1/dfb/readers_8h.html" target="_top" xlink:title="Functions declaration to read atomic coordinates.">
 <polygon fill="white" stroke="#666666" points="1623,-184 1566,-184 1566,-165 1623,-165 1623,-184"/>
 <text text-anchor="middle" x="1594.5" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">readers.h</text>
 </a>
@@ -410,7 +410,7 @@
 <!-- Node21 -->
 <g id="node21" class="node">
 <title>Node21</title>
-<g id="a_node21"><a xlink:href="../../dc/db0/math__3d_8h.html" target="_top" xlink:title=" ">
+<g id="a_node21"><a xlink:href="../../dc/db0/math__3d_8h.html" target="_top" xlink:title="Functions for OpenGL math.">
 <polygon fill="white" stroke="#666666" points="397.5,-74 335.5,-74 335.5,-55 397.5,-55 397.5,-74"/>
 <text text-anchor="middle" x="366.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">math_3d.h</text>
 </a>
@@ -425,7 +425,7 @@
 <!-- Node22 -->
 <g id="node22" class="node">
 <title>Node22</title>
-<g id="a_node22"><a xlink:href="../../da/d7e/glwin_8h.html" target="_top" xlink:title=" ">
+<g id="a_node22"><a xlink:href="../../da/d7e/glwin_8h.html" target="_top" xlink:title="Variable declarations related the OpenGL window &#160;&#160;Data structure declarations related the OpenGL wind...">
 <polygon fill="white" stroke="#666666" points="1252,-74 1205,-74 1205,-55 1252,-55 1252,-74"/>
 <text text-anchor="middle" x="1228.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">glwin.h</text>
 </a>
@@ -467,7 +467,7 @@
 <!-- Node23 -->
 <g id="node23" class="node">
 <title>Node23</title>
-<g id="a_node23"><a xlink:href="../../d5/d9e/ogl__shading_8h.html" target="_top" xlink:title=" ">
+<g id="a_node23"><a xlink:href="../../d5/d9e/ogl__shading_8h.html" target="_top" xlink:title="Variable declarations related to GLSL programs &#160;&#160;Data structure declarations related to GLSL programs...">
 <polygon fill="white" stroke="#666666" points="1267,-19 1190,-19 1190,0 1267,0 1267,-19"/>
 <text text-anchor="middle" x="1228.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ogl_shading.h</text>
 </a>
@@ -503,7 +503,7 @@
 <!-- Node31 -->
 <g id="node31" class="node">
 <title>Node31</title>
-<g id="a_node31"><a xlink:href="../../dc/d50/read__isaacs_8h.html" target="_top" xlink:title=" ">
+<g id="a_node31"><a xlink:href="../../dc/d50/read__isaacs_8h.html" target="_top" xlink:title="Function declarations to read / write ISAACS XML file.">
 <polygon fill="white" stroke="#666666" points="1828,-129 1751,-129 1751,-110 1828,-110 1828,-129"/>
 <text text-anchor="middle" x="1789.5" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">read_isaacs.h</text>
 </a>

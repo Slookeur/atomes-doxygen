@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="binding to the Fortran90 subroutines">
+<g id="a_node1"><a xlink:title="Binding to the Fortran90 subroutines.">
 <polygon fill="#999999" stroke="#666666" points="2150.5,-129 2107.5,-129 2107.5,-110 2150.5,-110 2150.5,-129"/>
 <text text-anchor="middle" x="2129" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">bind.h</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d5/d9c/atom__edit_8h.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../d5/d9c/atom__edit_8h.html" target="_top" xlink:title="Function declarations for the mode edition window.">
 <polygon fill="#fff0f0" stroke="red" points="529,-74 461,-74 461,-55 529,-55 529,-74"/>
 <text text-anchor="middle" x="495" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">atom_edit.h</text>
 </a>
@@ -35,7 +35,7 @@
 <!-- Node13 -->
 <g id="node10" class="node">
 <title>Node13</title>
-<g id="a_node10"><a xlink:href="../../d3/d3a/callbacks_8c.html" target="_top" xlink:title=" ">
+<g id="a_node10"><a xlink:href="../../d3/d3a/callbacks_8c.html" target="_top" xlink:title="General callbacks &#160;&#160;Functions to open and close files.">
 <polygon fill="white" stroke="#666666" points="874,-19 808,-19 808,0 874,0 874,-19"/>
 <text text-anchor="middle" x="841" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">callbacks.c</text>
 </a>
@@ -50,7 +50,7 @@
 <!-- Node18 -->
 <g id="node11" class="node">
 <title>Node18</title>
-<g id="a_node11"><a xlink:href="../../d5/da4/popup_8c.html" target="_top" xlink:title=" ">
+<g id="a_node11"><a xlink:href="../../d5/da4/popup_8c.html" target="_top" xlink:title="Functions to create the OpenGL window popup menus: &#160;.">
 <polygon fill="white" stroke="#666666" points="697.5,-19 646.5,-19 646.5,0 697.5,0 697.5,-19"/>
 <text text-anchor="middle" x="672" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">popup.c</text>
 </a>
@@ -65,7 +65,7 @@
 <!-- Node21 -->
 <g id="node12" class="node">
 <title>Node21</title>
-<g id="a_node12"><a xlink:href="../../d8/de9/w__volumes_8c.html" target="_top" xlink:title=" ">
+<g id="a_node12"><a xlink:href="../../d8/de9/w__volumes_8c.html" target="_top" xlink:title="Functions to create the &#39;Volumes&#39; window &#160;&#160;Functions to compute system / fragment / molecular volumes...">
 <polygon fill="white" stroke="#666666" points="790,-19 716,-19 716,0 790,0 790,-19"/>
 <text text-anchor="middle" x="753" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">w_volumes.c</text>
 </a>
@@ -80,7 +80,7 @@
 <!-- Node22 -->
 <g id="node13" class="node">
 <title>Node22</title>
-<g id="a_node13"><a xlink:href="../../d5/d34/bdcall_8c.html" target="_top" xlink:title=" ">
+<g id="a_node13"><a xlink:href="../../d5/d34/bdcall_8c.html" target="_top" xlink:title="Callbacks for the bond properties calculation dialog.">
 <polygon fill="white" stroke="#666666" points="826,-74 776,-74 776,-55 826,-55 826,-74"/>
 <text text-anchor="middle" x="801" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">bdcall.c</text>
 </a>
@@ -95,7 +95,7 @@
 <!-- Node23 -->
 <g id="node14" class="node">
 <title>Node23</title>
-<g id="a_node14"><a xlink:href="../../d8/d5e/calc__menu_8c.html" target="_top" xlink:title=" ">
+<g id="a_node14"><a xlink:href="../../d8/d5e/calc__menu_8c.html" target="_top" xlink:title="Creation of the calculation dialogs.">
 <polygon fill="white" stroke="#666666" points="916,-74 844,-74 844,-55 916,-55 916,-74"/>
 <text text-anchor="middle" x="880" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">calc_menu.c</text>
 </a>
@@ -110,7 +110,7 @@
 <!-- Node24 -->
 <g id="node15" class="node">
 <title>Node24</title>
-<g id="a_node15"><a xlink:href="../../d0/dd3/cbuild__action_8c.html" target="_top" xlink:title=" ">
+<g id="a_node15"><a xlink:href="../../d0/dd3/cbuild__action_8c.html" target="_top" xlink:title="Functions to build a crystal using space group, crystallographic position(s) and object(s) to insert.">
 <polygon fill="white" stroke="#666666" points="1016,-74 934,-74 934,-55 1016,-55 1016,-74"/>
 <text text-anchor="middle" x="975" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">cbuild_action.c</text>
 </a>
@@ -125,7 +125,7 @@
 <!-- Node25 -->
 <g id="node16" class="node">
 <title>Node25</title>
-<g id="a_node16"><a xlink:href="../../db/d0b/cbuild__edit_8c.html" target="_top" xlink:title=" ">
+<g id="a_node16"><a xlink:href="../../db/d0b/cbuild__edit_8c.html" target="_top" xlink:title="Functions to create the crystal builder window.">
 <polygon fill="white" stroke="#666666" points="1105.5,-74 1034.5,-74 1034.5,-55 1105.5,-55 1105.5,-74"/>
 <text text-anchor="middle" x="1070" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">cbuild_edit.c</text>
 </a>
@@ -140,7 +140,7 @@
 <!-- Node26 -->
 <g id="node17" class="node">
 <title>Node26</title>
-<g id="a_node17"><a xlink:href="../../d9/d97/cell__edit_8h.html" target="_top" xlink:title=" ">
+<g id="a_node17"><a xlink:href="../../d9/d97/cell__edit_8h.html" target="_top" xlink:title="Function declarations for the cell edition window.">
 <polygon fill="#fff0f0" stroke="red" points="1184.5,-74 1123.5,-74 1123.5,-55 1184.5,-55 1184.5,-74"/>
 <text text-anchor="middle" x="1154" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">cell_edit.h</text>
 </a>
@@ -155,7 +155,7 @@
 <!-- Node31 -->
 <g id="node18" class="node">
 <title>Node31</title>
-<g id="a_node18"><a xlink:href="../../d2/d01/chainscall_8c.html" target="_top" xlink:title=" ">
+<g id="a_node18"><a xlink:href="../../d2/d01/chainscall_8c.html" target="_top" xlink:title="Callbacks for the chains statistics calculation dialog.">
 <polygon fill="white" stroke="#666666" points="1271,-74 1203,-74 1203,-55 1271,-55 1271,-74"/>
 <text text-anchor="middle" x="1237" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">chainscall.c</text>
 </a>
@@ -170,7 +170,7 @@
 <!-- Node32 -->
 <g id="node19" class="node">
 <title>Node32</title>
-<g id="a_node19"><a xlink:href="../../d3/d50/close__p_8c.html" target="_top" xlink:title=" ">
+<g id="a_node19"><a xlink:href="../../d3/d50/close__p_8c.html" target="_top" xlink:title="Functions to close an atomes project &#160;&#160;Callbacks to close an atomes project.">
 <polygon fill="white" stroke="#666666" points="1348.5,-74 1289.5,-74 1289.5,-55 1348.5,-55 1348.5,-74"/>
 <text text-anchor="middle" x="1319" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">close_p.c</text>
 </a>
@@ -185,7 +185,7 @@
 <!-- Node33 -->
 <g id="node20" class="node">
 <title>Node33</title>
-<g id="a_node20"><a xlink:href="../../dc/d11/dlp__control_8c.html" target="_top" xlink:title=" ">
+<g id="a_node20"><a xlink:href="../../dc/d11/dlp__control_8c.html" target="_top" xlink:title="Functions to handle the creation of the DL&#45;POLY CONTROL file.">
 <polygon fill="white" stroke="#666666" points="1439,-74 1367,-74 1367,-55 1439,-55 1439,-74"/>
 <text text-anchor="middle" x="1403" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">dlp_control.c</text>
 </a>
@@ -200,7 +200,7 @@
 <!-- Node34 -->
 <g id="node21" class="node">
 <title>Node34</title>
-<g id="a_node21"><a xlink:href="../../d3/d43/dlp__field_8c.html" target="_top" xlink:title=" ">
+<g id="a_node21"><a xlink:href="../../d3/d43/dlp__field_8c.html" target="_top" xlink:title="Functions to prepare the DL&#45;POLY / LAMMPS input preparation assistant &#160;&#160;Functions to design a classic...">
 <polygon fill="white" stroke="#666666" points="1518.5,-74 1457.5,-74 1457.5,-55 1518.5,-55 1518.5,-74"/>
 <text text-anchor="middle" x="1488" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">dlp_field.c</text>
 </a>
@@ -215,7 +215,7 @@
 <!-- Node35 -->
 <g id="node22" class="node">
 <title>Node35</title>
-<g id="a_node22"><a xlink:href="../../d8/da6/edit__menu_8c.html" target="_top" xlink:title=" ">
+<g id="a_node22"><a xlink:href="../../d8/da6/edit__menu_8c.html" target="_top" xlink:title="Creation of the edition dialogs.">
 <polygon fill="white" stroke="#666666" points="1607,-74 1537,-74 1537,-55 1607,-55 1607,-74"/>
 <text text-anchor="middle" x="1572" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">edit_menu.c</text>
 </a>
@@ -230,7 +230,7 @@
 <!-- Node36 -->
 <g id="node23" class="node">
 <title>Node36</title>
-<g id="a_node23"><a xlink:href="../../dc/d21/glview_8c.html" target="_top" xlink:title=" ">
+<g id="a_node23"><a xlink:href="../../dc/d21/glview_8c.html" target="_top" xlink:title="Callbacks of the OpenGL window.">
 <polygon fill="white" stroke="#666666" points="1677,-74 1625,-74 1625,-55 1677,-55 1677,-74"/>
 <text text-anchor="middle" x="1651" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">glview.c</text>
 </a>
@@ -245,7 +245,7 @@
 <!-- Node37 -->
 <g id="node24" class="node">
 <title>Node37</title>
-<g id="a_node24"><a xlink:href="../../dc/d6b/grcall_8c.html" target="_top" xlink:title=" ">
+<g id="a_node24"><a xlink:href="../../dc/d6b/grcall_8c.html" target="_top" xlink:title="Callbacks for the g(r)/g(k) calculation dialog.">
 <polygon fill="white" stroke="#666666" points="1743,-74 1695,-74 1695,-55 1743,-55 1743,-74"/>
 <text text-anchor="middle" x="1719" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">grcall.c</text>
 </a>
@@ -260,7 +260,7 @@
 <!-- Node38 -->
 <g id="node25" class="node">
 <title>Node38</title>
-<g id="a_node25"><a xlink:href="../../df/dd5/init__p_8c.html" target="_top" xlink:title=" ">
+<g id="a_node25"><a xlink:href="../../df/dd5/init__p_8c.html" target="_top" xlink:title="Functions to initialize an atomes project.">
 <polygon fill="white" stroke="#666666" points="1809,-74 1761,-74 1761,-55 1809,-55 1809,-74"/>
 <text text-anchor="middle" x="1785" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">init_p.c</text>
 </a>
@@ -275,7 +275,7 @@
 <!-- Node39 -->
 <g id="node26" class="node">
 <title>Node39</title>
-<g id="a_node26"><a xlink:href="../../da/d13/initchain_8c.html" target="_top" xlink:title=" ">
+<g id="a_node26"><a xlink:href="../../da/d13/initchain_8c.html" target="_top" xlink:title="Functions collecting chain(s) data from Fortran90 &#160;&#160;Functions allocating chain(s) data from Fortran90...">
 <polygon fill="white" stroke="#666666" points="1888.5,-74 1827.5,-74 1827.5,-55 1888.5,-55 1888.5,-74"/>
 <text text-anchor="middle" x="1858" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">initchain.c</text>
 </a>
@@ -290,7 +290,7 @@
 <!-- Node40 -->
 <g id="node27" class="node">
 <title>Node40</title>
-<g id="a_node27"><a xlink:href="../../d6/d35/initcoord_8c.html" target="_top" xlink:title=" ">
+<g id="a_node27"><a xlink:href="../../d6/d35/initcoord_8c.html" target="_top" xlink:title="Coordinations and polyhedra menus initialization &#160;&#160;Coordinations and polyhedra GTK3 menus and menu it...">
 <polygon fill="white" stroke="#666666" points="1969,-74 1907,-74 1907,-55 1969,-55 1969,-74"/>
 <text text-anchor="middle" x="1938" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">initcoord.c</text>
 </a>
@@ -305,7 +305,7 @@
 <!-- Node41 -->
 <g id="node28" class="node">
 <title>Node41</title>
-<g id="a_node28"><a xlink:href="../../d2/def/initmol_8c.html" target="_top" xlink:title=" ">
+<g id="a_node28"><a xlink:href="../../d2/def/initmol_8c.html" target="_top" xlink:title="Functions to retrieve fragments data from Fortran90 &#160;&#160;Functions to retrieve molecules data from Fortr...">
 <polygon fill="white" stroke="#666666" points="2040.5,-74 1987.5,-74 1987.5,-55 2040.5,-55 2040.5,-74"/>
 <text text-anchor="middle" x="2014" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">initmol.c</text>
 </a>
@@ -320,7 +320,7 @@
 <!-- Node42 -->
 <g id="node29" class="node">
 <title>Node42</title>
-<g id="a_node29"><a xlink:href="../../dd/dda/interface_8c.html" target="_top" xlink:title=" ">
+<g id="a_node29"><a xlink:href="../../dd/dda/interface_8c.html" target="_top" xlink:title="General messaging functions.">
 <polygon fill="white" stroke="#666666" points="2121,-74 2059,-74 2059,-55 2121,-55 2121,-74"/>
 <text text-anchor="middle" x="2090" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">interface.c</text>
 </a>
@@ -335,7 +335,7 @@
 <!-- Node43 -->
 <g id="node30" class="node">
 <title>Node43</title>
-<g id="a_node30"><a xlink:href="../../d7/dbe/m__style_8c.html" target="_top" xlink:title=" ">
+<g id="a_node30"><a xlink:href="../../d7/dbe/m__style_8c.html" target="_top" xlink:title="Functions to create the &#39;OpenGL &#45;&gt; Style&#39; submenu.">
 <polygon fill="white" stroke="#666666" points="2198.5,-74 2139.5,-74 2139.5,-55 2198.5,-55 2198.5,-74"/>
 <text text-anchor="middle" x="2169" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">m_style.c</text>
 </a>
@@ -350,7 +350,7 @@
 <!-- Node44 -->
 <g id="node31" class="node">
 <title>Node44</title>
-<g id="a_node31"><a xlink:href="../../d0/d29/main_8c.html" target="_top" xlink:title=" ">
+<g id="a_node31"><a xlink:href="../../d0/d29/main_8c.html" target="_top" xlink:title="Initialization of the atomes program &#160;&#160;Functions required to read data from the command line.">
 <polygon fill="white" stroke="#666666" points="2263,-74 2217,-74 2217,-55 2263,-55 2263,-74"/>
 <text text-anchor="middle" x="2240" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">main.c</text>
 </a>
@@ -365,7 +365,7 @@
 <!-- Node45 -->
 <g id="node32" class="node">
 <title>Node45</title>
-<g id="a_node32"><a xlink:href="../../d8/d2b/msdcall_8c.html" target="_top" xlink:title=" ">
+<g id="a_node32"><a xlink:href="../../d8/d2b/msdcall_8c.html" target="_top" xlink:title="Callbacks for the MSD calculation dialog.">
 <polygon fill="white" stroke="#666666" points="2340.5,-74 2281.5,-74 2281.5,-55 2340.5,-55 2340.5,-74"/>
 <text text-anchor="middle" x="2311" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">msdcall.c</text>
 </a>
@@ -380,7 +380,7 @@
 <!-- Node46 -->
 <g id="node33" class="node">
 <title>Node46</title>
-<g id="a_node33"><a xlink:href="../../da/d5e/open__p_8c.html" target="_top" xlink:title=" ">
+<g id="a_node33"><a xlink:href="../../da/d5e/open__p_8c.html" target="_top" xlink:title="Functions to start the reading of an atomes project file.">
 <polygon fill="white" stroke="#666666" points="2415,-74 2359,-74 2359,-55 2415,-55 2415,-74"/>
 <text text-anchor="middle" x="2387" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">open_p.c</text>
 </a>
@@ -395,7 +395,7 @@
 <!-- Node47 -->
 <g id="node34" class="node">
 <title>Node47</title>
-<g id="a_node34"><a xlink:href="../../d2/d0d/project_8c.html" target="_top" xlink:title=" ">
+<g id="a_node34"><a xlink:href="../../d2/d0d/project_8c.html" target="_top" xlink:title="Project management functions.">
 <polygon fill="white" stroke="#666666" points="2487,-74 2433,-74 2433,-55 2487,-55 2487,-74"/>
 <text text-anchor="middle" x="2460" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">project.c</text>
 </a>
@@ -410,7 +410,7 @@
 <!-- Node48 -->
 <g id="node35" class="node">
 <title>Node48</title>
-<g id="a_node35"><a xlink:href="../../da/d70/read__c3d_8c.html" target="_top" xlink:title=" ">
+<g id="a_node35"><a xlink:href="../../da/d70/read__c3d_8c.html" target="_top" xlink:title="Functions to read Chem3d atomic coordinates.">
 <polygon fill="white" stroke="#666666" points="2570.5,-74 2505.5,-74 2505.5,-55 2570.5,-55 2570.5,-74"/>
 <text text-anchor="middle" x="2538" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">read_c3d.c</text>
 </a>
@@ -425,7 +425,7 @@
 <!-- Node49 -->
 <g id="node36" class="node">
 <title>Node49</title>
-<g id="a_node36"><a xlink:href="../../d8/d50/read__cif_8c.html" target="_top" xlink:title=" ">
+<g id="a_node36"><a xlink:href="../../d8/d50/read__cif_8c.html" target="_top" xlink:title="Functions to read CIF files.">
 <polygon fill="white" stroke="#666666" points="2647.5,-74 2588.5,-74 2588.5,-55 2647.5,-55 2647.5,-74"/>
 <text text-anchor="middle" x="2618" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">read_cif.c</text>
 </a>
@@ -440,7 +440,7 @@
 <!-- Node50 -->
 <g id="node37" class="node">
 <title>Node50</title>
-<g id="a_node37"><a xlink:href="../../d5/d22/read__coord_8c.html" target="_top" xlink:title=" ">
+<g id="a_node37"><a xlink:href="../../d5/d22/read__coord_8c.html" target="_top" xlink:title="General functions to import atomic coordinates.">
 <polygon fill="white" stroke="#666666" points="2738.5,-74 2665.5,-74 2665.5,-55 2738.5,-55 2738.5,-74"/>
 <text text-anchor="middle" x="2702" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">read_coord.c</text>
 </a>
@@ -455,7 +455,7 @@
 <!-- Node51 -->
 <g id="node38" class="node">
 <title>Node51</title>
-<g id="a_node38"><a xlink:href="../../df/df9/read__hist_8c.html" target="_top" xlink:title=" ">
+<g id="a_node38"><a xlink:href="../../df/df9/read__hist_8c.html" target="_top" xlink:title="Functions to read DL&#45;POLY history file.">
 <polygon fill="white" stroke="#666666" points="2821.5,-74 2756.5,-74 2756.5,-55 2821.5,-55 2821.5,-74"/>
 <text text-anchor="middle" x="2789" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">read_hist.c</text>
 </a>
@@ -470,7 +470,7 @@
 <!-- Node52 -->
 <g id="node39" class="node">
 <title>Node52</title>
-<g id="a_node39"><a xlink:href="../../d1/da7/read__npt_8c.html" target="_top" xlink:title=" ">
+<g id="a_node39"><a xlink:href="../../d1/da7/read__npt_8c.html" target="_top" xlink:title="Functions to read NPT data.">
 <polygon fill="white" stroke="#666666" points="2902,-74 2840,-74 2840,-55 2902,-55 2902,-74"/>
 <text text-anchor="middle" x="2871" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">read_npt.c</text>
 </a>
@@ -485,7 +485,7 @@
 <!-- Node53 -->
 <g id="node40" class="node">
 <title>Node53</title>
-<g id="a_node40"><a xlink:href="../../d9/d42/read__pdb_8c.html" target="_top" xlink:title=" ">
+<g id="a_node40"><a xlink:href="../../d9/d42/read__pdb_8c.html" target="_top" xlink:title="Functions to read PDB files.">
 <polygon fill="white" stroke="#666666" points="2985.5,-74 2920.5,-74 2920.5,-55 2985.5,-55 2985.5,-74"/>
 <text text-anchor="middle" x="2953" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">read_pdb.c</text>
 </a>
@@ -500,7 +500,7 @@
 <!-- Node54 -->
 <g id="node41" class="node">
 <title>Node54</title>
-<g id="a_node41"><a xlink:href="../../d9/deb/read__trj_8c.html" target="_top" xlink:title=" ">
+<g id="a_node41"><a xlink:href="../../d9/deb/read__trj_8c.html" target="_top" xlink:title="Functions to read CPMD atomic coordinates.">
 <polygon fill="white" stroke="#666666" points="3060.5,-74 3003.5,-74 3003.5,-55 3060.5,-55 3060.5,-74"/>
 <text text-anchor="middle" x="3032" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">read_trj.c</text>
 </a>
@@ -515,7 +515,7 @@
 <!-- Node55 -->
 <g id="node42" class="node">
 <title>Node55</title>
-<g id="a_node42"><a xlink:href="../../d6/dc9/read__vas_8c.html" target="_top" xlink:title=" ">
+<g id="a_node42"><a xlink:href="../../d6/dc9/read__vas_8c.html" target="_top" xlink:title="Functions to read VASP atomic coordinates.">
 <polygon fill="white" stroke="#666666" points="3143.5,-74 3078.5,-74 3078.5,-55 3143.5,-55 3143.5,-74"/>
 <text text-anchor="middle" x="3111" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">read_vas.c</text>
 </a>
@@ -530,7 +530,7 @@
 <!-- Node56 -->
 <g id="node43" class="node">
 <title>Node56</title>
-<g id="a_node43"><a xlink:href="../../d0/dce/read__xyz_8c.html" target="_top" xlink:title=" ">
+<g id="a_node43"><a xlink:href="../../d0/dce/read__xyz_8c.html" target="_top" xlink:title="Functions to read XYZ atomic coordinates.">
 <polygon fill="white" stroke="#666666" points="3226.5,-74 3161.5,-74 3161.5,-55 3226.5,-55 3226.5,-74"/>
 <text text-anchor="middle" x="3194" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">read_xyz.c</text>
 </a>
@@ -545,7 +545,7 @@
 <!-- Node57 -->
 <g id="node44" class="node">
 <title>Node57</title>
-<g id="a_node44"><a xlink:href="../../d9/dc4/ringscall_8c.html" target="_top" xlink:title=" ">
+<g id="a_node44"><a xlink:href="../../d9/dc4/ringscall_8c.html" target="_top" xlink:title="Callbacks for the ring statistics calculation dialog.">
 <polygon fill="white" stroke="#666666" points="3305.5,-74 3244.5,-74 3244.5,-55 3305.5,-55 3305.5,-74"/>
 <text text-anchor="middle" x="3275" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">ringscall.c</text>
 </a>
@@ -560,7 +560,7 @@
 <!-- Node58 -->
 <g id="node45" class="node">
 <title>Node58</title>
-<g id="a_node45"><a xlink:href="../../d9/dbe/spcall_8c.html" target="_top" xlink:title=" ">
+<g id="a_node45"><a xlink:href="../../d9/dbe/spcall_8c.html" target="_top" xlink:title="Callbacks for the spherical harmonics calculation dialog.">
 <polygon fill="white" stroke="#666666" points="3374,-74 3324,-74 3324,-55 3374,-55 3374,-74"/>
 <text text-anchor="middle" x="3349" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">spcall.c</text>
 </a>
@@ -575,7 +575,7 @@
 <!-- Node59 -->
 <g id="node46" class="node">
 <title>Node59</title>
-<g id="a_node46"><a xlink:href="../../d5/dde/sqcall_8c.html" target="_top" xlink:title=" ">
+<g id="a_node46"><a xlink:href="../../d5/dde/sqcall_8c.html" target="_top" xlink:title="Callbacks for the s(q) / s(k) calculation dialog.">
 <polygon fill="white" stroke="#666666" points="3442,-74 3392,-74 3392,-55 3442,-55 3442,-74"/>
 <text text-anchor="middle" x="3417" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">sqcall.c</text>
 </a>
@@ -590,7 +590,7 @@
 <!-- Node60 -->
 <g id="node47" class="node">
 <title>Node60</title>
-<g id="a_node47"><a xlink:href="../../db/d3e/update__p_8c.html" target="_top" xlink:title="project update and activation">
+<g id="a_node47"><a xlink:href="../../db/d3e/update__p_8c.html" target="_top" xlink:title="Functions to update a project &#160;&#160;Functions to activate a project.">
 <polygon fill="white" stroke="#666666" points="3525.5,-74 3460.5,-74 3460.5,-55 3525.5,-55 3525.5,-74"/>
 <text text-anchor="middle" x="3493" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">update_p.c</text>
 </a>
@@ -605,7 +605,7 @@
 <!-- Node61 -->
 <g id="node48" class="node">
 <title>Node61</title>
-<g id="a_node48"><a xlink:href="../../d7/df0/w__coord_8c.html" target="_top" xlink:title=" ">
+<g id="a_node48"><a xlink:href="../../d7/df0/w__coord_8c.html" target="_top" xlink:title="Functions to create the &#39;Environments configuration&#39; window.">
 <polygon fill="white" stroke="#666666" points="3606,-74 3544,-74 3544,-55 3606,-55 3606,-74"/>
 <text text-anchor="middle" x="3575" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">w_coord.c</text>
 </a>
@@ -620,7 +620,7 @@
 <!-- Node62 -->
 <g id="node49" class="node">
 <title>Node62</title>
-<g id="a_node49"><a xlink:href="../../d8/d8f/w__crystal_8c.html" target="_top" xlink:title=" ">
+<g id="a_node49"><a xlink:href="../../d8/d8f/w__crystal_8c.html" target="_top" xlink:title="Functions to create a crystal database window &#160;&#160;This is a project and not in use for the time being.">
 <polygon fill="white" stroke="#666666" points="3691.5,-74 3624.5,-74 3624.5,-55 3691.5,-55 3691.5,-74"/>
 <text text-anchor="middle" x="3658" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">w_crystal.c</text>
 </a>
@@ -635,7 +635,7 @@
 <!-- Node63 -->
 <g id="node50" class="node">
 <title>Node63</title>
-<g id="a_node50"><a xlink:href="../../d3/db3/w__library_8c.html" target="_top" xlink:title=" ">
+<g id="a_node50"><a xlink:href="../../d3/db3/w__library_8c.html" target="_top" xlink:title="Functions to create the molecular library &#160;&#160;Functions to read the &#39;Simple chemical XML&#39; files.">
 <polygon fill="white" stroke="#666666" points="3772.5,-74 3709.5,-74 3709.5,-55 3772.5,-55 3772.5,-74"/>
 <text text-anchor="middle" x="3741" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">w_library.c</text>
 </a>
@@ -650,7 +650,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d8/d15/atom__action_8c.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../d8/d15/atom__action_8c.html" target="_top" xlink:title="Functions to apply the edition actions to the model.">
 <polygon fill="white" stroke="#666666" points="534,-19 456,-19 456,0 534,0 534,-19"/>
 <text text-anchor="middle" x="495" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">atom_action.c</text>
 </a>
@@ -665,7 +665,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d9/dbe/atom__coord_8c.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="../../d9/dbe/atom__coord_8c.html" target="_top" xlink:title="Functions to correct the coordination menus and the corresponding data pointers after edition.">
 <polygon fill="white" stroke="#666666" points="628,-19 552,-19 552,0 628,0 628,-19"/>
 <text text-anchor="middle" x="590" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">atom_coord.c</text>
 </a>
@@ -680,7 +680,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../dc/d6c/atom__edit_8c.html" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="../../dc/d6c/atom__edit_8c.html" target="_top" xlink:title="Functions to create the model edition window.">
 <polygon fill="white" stroke="#666666" points="68,-19 0,-19 0,0 68,0 68,-19"/>
 <text text-anchor="middle" x="34" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">atom_edit.c</text>
 </a>
@@ -695,7 +695,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d2/d4a/atom__geo_8c.html" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="../../d2/d4a/atom__geo_8c.html" target="_top" xlink:title="Functions to check for the appropriate atomic coordinations.">
 <polygon fill="white" stroke="#666666" points="154,-19 86,-19 86,0 154,0 154,-19"/>
 <text text-anchor="middle" x="120" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">atom_geo.c</text>
 </a>
@@ -710,7 +710,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../dd/d0b/atom__insert_8c.html" target="_top" xlink:title=" ">
+<g id="a_node7"><a xlink:href="../../dd/d0b/atom__insert_8c.html" target="_top" xlink:title="Functions to insert bond(s) in a project.">
 <polygon fill="white" stroke="#666666" points="248,-19 172,-19 172,0 248,0 248,-19"/>
 <text text-anchor="middle" x="210" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">atom_insert.c</text>
 </a>
@@ -725,7 +725,7 @@
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d7/d27/atom__move_8c.html" target="_top" xlink:title=" ">
+<g id="a_node8"><a xlink:href="../../d7/d27/atom__move_8c.html" target="_top" xlink:title="Functions to move atom(s) and group of atom(s) &#160;&#160;Functions to move randomly atom(s) and group of atom...">
 <polygon fill="white" stroke="#666666" points="342,-19 266,-19 266,0 342,0 342,-19"/>
 <text text-anchor="middle" x="304" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">atom_move.c</text>
 </a>
@@ -740,7 +740,7 @@
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d7/d6a/atom__object_8c.html" target="_top" xlink:title=" ">
+<g id="a_node9"><a xlink:href="../../d7/d6a/atom__object_8c.html" target="_top" xlink:title="Functions to create atomic objects.">
 <polygon fill="white" stroke="#666666" points="438,-19 360,-19 360,0 438,0 438,-19"/>
 <text text-anchor="middle" x="399" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">atom_object.c</text>
 </a>

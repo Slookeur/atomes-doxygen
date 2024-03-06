@@ -57,7 +57,7 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Structure definitions for color management &#160;&#160;Function declarations for color management.">
 <polygon fill="#999999" stroke="#666666" points="611,-74 544,-74 544,-55 611,-55 611,-74"/>
 <text text-anchor="middle" x="577.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">color_box.h</text>
 </a>
@@ -66,7 +66,7 @@ var sectionId = 'dynsection-0';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../dc/d16/color__box_8c.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../dc/d16/color__box_8c.html" target="_top" xlink:title="Functions to create the color palettes for the menus of the OpenGL window &#160;&#160;Callbacks to set the colo...">
 <polygon fill="white" stroke="#666666" points="67,-19 0,-19 0,0 67,0 67,-19"/>
 <text text-anchor="middle" x="33.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">color_box.c</text>
 </a>
@@ -81,7 +81,7 @@ var sectionId = 'dynsection-0';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../da/da8/d__poly_8c.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../da/da8/d__poly_8c.html" target="_top" xlink:title="Functions to prepare the OpenGL rendering of coordination polyhedra.">
 <polygon fill="white" stroke="#666666" points="138,-19 85,-19 85,0 138,0 138,-19"/>
 <text text-anchor="middle" x="111.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">d_poly.c</text>
 </a>
@@ -96,7 +96,7 @@ var sectionId = 'dynsection-0';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../df/d03/d__rings_8c.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="../../df/d03/d__rings_8c.html" target="_top" xlink:title="Functions to prepare the OpenGL rendering of rings polyhedra.">
 <polygon fill="white" stroke="#666666" points="212.5,-19 156.5,-19 156.5,0 212.5,0 212.5,-19"/>
 <text text-anchor="middle" x="184.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">d_rings.c</text>
 </a>
@@ -111,7 +111,7 @@ var sectionId = 'dynsection-0';
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d7/dc8/glwindow_8c.html" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="../../d7/dc8/glwindow_8c.html" target="_top" xlink:title="Functions to create a project OpenGL window.">
 <polygon fill="white" stroke="#666666" points="296,-19 231,-19 231,0 296,0 296,-19"/>
 <text text-anchor="middle" x="263.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">glwindow.c</text>
 </a>
@@ -126,7 +126,7 @@ var sectionId = 'dynsection-0';
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../da/d13/initchain_8c.html" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="../../da/d13/initchain_8c.html" target="_top" xlink:title="Functions collecting chain(s) data from Fortran90 &#160;&#160;Functions allocating chain(s) data from Fortran90...">
 <polygon fill="white" stroke="#666666" points="375,-19 314,-19 314,0 375,0 375,-19"/>
 <text text-anchor="middle" x="344.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">initchain.c</text>
 </a>
@@ -141,7 +141,7 @@ var sectionId = 'dynsection-0';
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d6/d35/initcoord_8c.html" target="_top" xlink:title=" ">
+<g id="a_node7"><a xlink:href="../../d6/d35/initcoord_8c.html" target="_top" xlink:title="Coordinations and polyhedra menus initialization &#160;&#160;Coordinations and polyhedra GTK3 menus and menu it...">
 <polygon fill="white" stroke="#666666" points="455.5,-19 393.5,-19 393.5,0 455.5,0 455.5,-19"/>
 <text text-anchor="middle" x="424.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">initcoord.c</text>
 </a>
@@ -156,7 +156,7 @@ var sectionId = 'dynsection-0';
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d2/def/initmol_8c.html" target="_top" xlink:title=" ">
+<g id="a_node8"><a xlink:href="../../d2/def/initmol_8c.html" target="_top" xlink:title="Functions to retrieve fragments data from Fortran90 &#160;&#160;Functions to retrieve molecules data from Fortr...">
 <polygon fill="white" stroke="#666666" points="527,-19 474,-19 474,0 527,0 527,-19"/>
 <text text-anchor="middle" x="500.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">initmol.c</text>
 </a>
@@ -171,7 +171,7 @@ var sectionId = 'dynsection-0';
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="../../db/db4/m__atoms_8c.html" target="_top" xlink:title=" ">
+<g id="a_node9"><a xlink:href="../../db/db4/m__atoms_8c.html" target="_top" xlink:title="Functions to create the &#39;Model &#45;&gt; Atom(s)&#39; submenu.">
 <polygon fill="white" stroke="#666666" points="610,-19 545,-19 545,0 610,0 610,-19"/>
 <text text-anchor="middle" x="577.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">m_atoms.c</text>
 </a>
@@ -186,7 +186,7 @@ var sectionId = 'dynsection-0';
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="../../d8/db0/m__back_8c.html" target="_top" xlink:title=" ">
+<g id="a_node10"><a xlink:href="../../d8/db0/m__back_8c.html" target="_top" xlink:title="Function to create the background color menu item.">
 <polygon fill="white" stroke="#666666" points="687,-19 628,-19 628,0 687,0 687,-19"/>
 <text text-anchor="middle" x="657.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">m_back.c</text>
 </a>
@@ -201,7 +201,7 @@ var sectionId = 'dynsection-0';
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="../../d6/d35/m__box_8c.html" target="_top" xlink:title=" ">
+<g id="a_node11"><a xlink:href="../../d6/d35/m__box_8c.html" target="_top" xlink:title="Functions to create the &#39;Model &#45;&gt; Box&#39; submenu.">
 <polygon fill="white" stroke="#666666" points="759.5,-19 705.5,-19 705.5,0 759.5,0 759.5,-19"/>
 <text text-anchor="middle" x="732.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">m_box.c</text>
 </a>
@@ -216,7 +216,7 @@ var sectionId = 'dynsection-0';
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="../../d5/dbe/menu__bar_8c.html" target="_top" xlink:title=" ">
+<g id="a_node12"><a xlink:href="../../d5/dbe/menu__bar_8c.html" target="_top" xlink:title="Functions to create the menu bar of the OpenGL window &#160;&#160;Functions to create the menu items for the me...">
 <polygon fill="white" stroke="#666666" points="845.5,-19 777.5,-19 777.5,0 845.5,0 845.5,-19"/>
 <text text-anchor="middle" x="811.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">menu_bar.c</text>
 </a>
@@ -231,7 +231,7 @@ var sectionId = 'dynsection-0';
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="../../d5/da4/popup_8c.html" target="_top" xlink:title=" ">
+<g id="a_node13"><a xlink:href="../../d5/da4/popup_8c.html" target="_top" xlink:title="Functions to create the OpenGL window popup menus: &#160;.">
 <polygon fill="white" stroke="#666666" points="915,-19 864,-19 864,0 915,0 915,-19"/>
 <text text-anchor="middle" x="889.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">popup.c</text>
 </a>
@@ -246,7 +246,7 @@ var sectionId = 'dynsection-0';
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
-<g id="a_node14"><a xlink:href="../../dd/d61/w__atoms_8c.html" target="_top" xlink:title=" ">
+<g id="a_node14"><a xlink:href="../../dd/d61/w__atoms_8c.html" target="_top" xlink:title="Functions to create the atom(s) / clone(s) advanced configuration window.">
 <polygon fill="white" stroke="#666666" points="998,-19 933,-19 933,0 998,0 998,-19"/>
 <text text-anchor="middle" x="965.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">w_atoms.c</text>
 </a>
@@ -261,7 +261,7 @@ var sectionId = 'dynsection-0';
 <!-- Node15 -->
 <g id="node15" class="node">
 <title>Node15</title>
-<g id="a_node15"><a xlink:href="../../d9/d11/w__bonds_8c.html" target="_top" xlink:title=" ">
+<g id="a_node15"><a xlink:href="../../d9/d11/w__bonds_8c.html" target="_top" xlink:title="Functions to create the bond (legnth/radius) edition window(s)">
 <polygon fill="white" stroke="#666666" points="1080.5,-19 1016.5,-19 1016.5,0 1080.5,0 1080.5,-19"/>
 <text text-anchor="middle" x="1048.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">w_bonds.c</text>
 </a>
@@ -276,7 +276,7 @@ var sectionId = 'dynsection-0';
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="../../d2/d92/w__colors_8c.html" target="_top" xlink:title=" ">
+<g id="a_node16"><a xlink:href="../../d2/d92/w__colors_8c.html" target="_top" xlink:title="Functions to create the color selection dialogs.">
 <polygon fill="white" stroke="#666666" points="1162.5,-19 1098.5,-19 1098.5,0 1162.5,0 1162.5,-19"/>
 <text text-anchor="middle" x="1130.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">w_colors.c</text>
 </a>

@@ -57,7 +57,7 @@ var sectionId = 'dynsection-1';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="variable declarations for the creation of the DL_POLY input file(s)">
+<g id="a_node1"><a xlink:title="Variable declarations for the creation of the DL_POLY input file(s)">
 <polygon fill="#999999" stroke="#666666" points="997.5,-74 936.5,-74 936.5,-55 997.5,-55 997.5,-74"/>
 <text text-anchor="middle" x="967" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">dlp_field.h</text>
 </a>
@@ -66,7 +66,7 @@ var sectionId = 'dynsection-1';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d5/d34/bdcall_8c.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../d5/d34/bdcall_8c.html" target="_top" xlink:title="Callbacks for the bond properties calculation dialog.">
 <polygon fill="white" stroke="#666666" points="50,-19 0,-19 0,0 50,0 50,-19"/>
 <text text-anchor="middle" x="25" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">bdcall.c</text>
 </a>
@@ -81,7 +81,7 @@ var sectionId = 'dynsection-1';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../dc/dbd/d__atoms_8c.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../dc/dbd/d__atoms_8c.html" target="_top" xlink:title="nctions to prepare the OpenGL rendering atom(s) and clone(s)">
 <polygon fill="white" stroke="#666666" points="130,-19 68,-19 68,0 130,0 130,-19"/>
 <text text-anchor="middle" x="99" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">d_atoms.c</text>
 </a>
@@ -96,7 +96,7 @@ var sectionId = 'dynsection-1';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d7/d10/d__bonds_8c.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="../../d7/d10/d__bonds_8c.html" target="_top" xlink:title="Functions to prepare the OpenGL rendering of bond(s) and clone bond(s)">
 <polygon fill="white" stroke="#666666" points="210,-19 148,-19 148,0 210,0 210,-19"/>
 <text text-anchor="middle" x="179" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">d_bonds.c</text>
 </a>
@@ -111,7 +111,7 @@ var sectionId = 'dynsection-1';
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../dc/d5c/d__label_8c.html" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="../../dc/d5c/d__label_8c.html" target="_top" xlink:title="Functions to prepare the OpenGL rendering of the atomic label(s)">
 <polygon fill="white" stroke="#666666" points="284,-19 228,-19 228,0 284,0 284,-19"/>
 <text text-anchor="middle" x="256" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">d_label.c</text>
 </a>
@@ -126,7 +126,7 @@ var sectionId = 'dynsection-1';
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../da/da8/d__poly_8c.html" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="../../da/da8/d__poly_8c.html" target="_top" xlink:title="Functions to prepare the OpenGL rendering of coordination polyhedra.">
 <polygon fill="white" stroke="#666666" points="355.5,-19 302.5,-19 302.5,0 355.5,0 355.5,-19"/>
 <text text-anchor="middle" x="329" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">d_poly.c</text>
 </a>
@@ -141,7 +141,7 @@ var sectionId = 'dynsection-1';
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d9/d09/d__selection_8c.html" target="_top" xlink:title=" ">
+<g id="a_node7"><a xlink:href="../../d9/d09/d__selection_8c.html" target="_top" xlink:title="Functions to prepare the OpenGL rendering of the selected: atom(s), clone(s), bond(s) and clone bond(...">
 <polygon fill="white" stroke="#666666" points="448,-19 374,-19 374,0 448,0 448,-19"/>
 <text text-anchor="middle" x="411" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">d_selection.c</text>
 </a>
@@ -156,7 +156,7 @@ var sectionId = 'dynsection-1';
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d3/dd7/dlp__active_8c.html" target="_top" xlink:title=" ">
+<g id="a_node8"><a xlink:href="../../d3/dd7/dlp__active_8c.html" target="_top" xlink:title="Functions to retrieve data in the force field structure.">
 <polygon fill="white" stroke="#666666" points="535.5,-19 466.5,-19 466.5,0 535.5,0 535.5,-19"/>
 <text text-anchor="middle" x="501" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">dlp_active.c</text>
 </a>
@@ -171,7 +171,7 @@ var sectionId = 'dynsection-1';
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d2/da2/dlp__atom_8c.html" target="_top" xlink:title=" ">
+<g id="a_node9"><a xlink:href="../../d2/da2/dlp__atom_8c.html" target="_top" xlink:title="Functions to handle atom selection(s) when creating a force field &#160;&#160;Functions to remove / add field a...">
 <polygon fill="white" stroke="#666666" points="618.5,-19 553.5,-19 553.5,0 618.5,0 618.5,-19"/>
 <text text-anchor="middle" x="586" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">dlp_atom.c</text>
 </a>
@@ -186,7 +186,7 @@ var sectionId = 'dynsection-1';
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="../../d8/ded/dlp__comp_8c.html" target="_top" xlink:title=" ">
+<g id="a_node10"><a xlink:href="../../d8/ded/dlp__comp_8c.html" target="_top" xlink:title="Functions to compare and adjust field body parameters.">
 <polygon fill="white" stroke="#666666" points="703.5,-19 636.5,-19 636.5,0 703.5,0 703.5,-19"/>
 <text text-anchor="middle" x="670" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">dlp_comp.c</text>
 </a>
@@ -201,7 +201,7 @@ var sectionId = 'dynsection-1';
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="../../dc/d11/dlp__control_8c.html" target="_top" xlink:title=" ">
+<g id="a_node11"><a xlink:href="../../dc/d11/dlp__control_8c.html" target="_top" xlink:title="Functions to handle the creation of the DL&#45;POLY CONTROL file.">
 <polygon fill="white" stroke="#666666" points="794,-19 722,-19 722,0 794,0 794,-19"/>
 <text text-anchor="middle" x="758" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">dlp_control.c</text>
 </a>
@@ -216,7 +216,7 @@ var sectionId = 'dynsection-1';
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="../../da/d88/dlp__copy_8c.html" target="_top" xlink:title=" ">
+<g id="a_node12"><a xlink:href="../../da/d88/dlp__copy_8c.html" target="_top" xlink:title="Functions to copy force field and related data structures.">
 <polygon fill="white" stroke="#666666" points="875.5,-19 812.5,-19 812.5,0 875.5,0 875.5,-19"/>
 <text text-anchor="middle" x="844" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">dlp_copy.c</text>
 </a>
@@ -231,7 +231,7 @@ var sectionId = 'dynsection-1';
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="../../d4/d28/dlp__edit_8c.html" target="_top" xlink:title=" ">
+<g id="a_node13"><a xlink:href="../../d4/d28/dlp__edit_8c.html" target="_top" xlink:title="Functions to edit DL&#45;POLY force field parameters.">
 <polygon fill="white" stroke="#666666" points="952.5,-19 893.5,-19 893.5,0 952.5,0 952.5,-19"/>
 <text text-anchor="middle" x="923" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">dlp_edit.c</text>
 </a>
@@ -246,7 +246,7 @@ var sectionId = 'dynsection-1';
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
-<g id="a_node14"><a xlink:href="../../dc/d79/dlp__ff__match_8c.html" target="_top" xlink:title=" ">
+<g id="a_node14"><a xlink:href="../../dc/d79/dlp__ff__match_8c.html" target="_top" xlink:title="Functions the list the available database parameters for the atom database window.">
 <polygon fill="white" stroke="#666666" points="1051,-19 971,-19 971,0 1051,0 1051,-19"/>
 <text text-anchor="middle" x="1011" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">dlp_ff_match.c</text>
 </a>
@@ -261,7 +261,7 @@ var sectionId = 'dynsection-1';
 <!-- Node15 -->
 <g id="node15" class="node">
 <title>Node15</title>
-<g id="a_node15"><a xlink:href="../../d3/d43/dlp__field_8c.html" target="_top" xlink:title=" ">
+<g id="a_node15"><a xlink:href="../../d3/d43/dlp__field_8c.html" target="_top" xlink:title="Functions to prepare the DL&#45;POLY / LAMMPS input preparation assistant &#160;&#160;Functions to design a classic...">
 <polygon fill="white" stroke="#666666" points="1130.5,-19 1069.5,-19 1069.5,0 1130.5,0 1130.5,-19"/>
 <text text-anchor="middle" x="1100" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">dlp_field.c</text>
 </a>
@@ -276,7 +276,7 @@ var sectionId = 'dynsection-1';
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="../../d6/d78/dlp__init_8c.html" target="_top" xlink:title=" ">
+<g id="a_node16"><a xlink:href="../../d6/d78/dlp__init_8c.html" target="_top" xlink:title="Functions to initialize the creation of a classical force field.">
 <polygon fill="white" stroke="#666666" points="1205,-19 1149,-19 1149,0 1205,0 1205,-19"/>
 <text text-anchor="middle" x="1177" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">dlp_init.c</text>
 </a>
@@ -291,7 +291,7 @@ var sectionId = 'dynsection-1';
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
-<g id="a_node17"><a xlink:href="../../d7/d6f/dlp__mol_8c.html" target="_top" xlink:title=" ">
+<g id="a_node17"><a xlink:href="../../d7/d6f/dlp__mol_8c.html" target="_top" xlink:title="Functions to add / remove molecule(s) to / from the force field.">
 <polygon fill="white" stroke="#666666" points="1282.5,-19 1223.5,-19 1223.5,0 1282.5,0 1282.5,-19"/>
 <text text-anchor="middle" x="1253" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">dlp_mol.c</text>
 </a>
@@ -306,7 +306,7 @@ var sectionId = 'dynsection-1';
 <!-- Node18 -->
 <g id="node18" class="node">
 <title>Node18</title>
-<g id="a_node18"><a xlink:href="../../d2/dc7/dlp__print_8c.html" target="_top" xlink:title=" ">
+<g id="a_node18"><a xlink:href="../../d2/dc7/dlp__print_8c.html" target="_top" xlink:title="Functions to handle the output of the DL&#45;POLY FIELD file &#160;&#160;Functions to handle the output of the DL&#45;P...">
 <polygon fill="white" stroke="#666666" points="1363,-19 1301,-19 1301,0 1363,0 1363,-19"/>
 <text text-anchor="middle" x="1332" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">dlp_print.c</text>
 </a>
@@ -321,7 +321,7 @@ var sectionId = 'dynsection-1';
 <!-- Node19 -->
 <g id="node19" class="node">
 <title>Node19</title>
-<g id="a_node19"><a xlink:href="../../d1/d1d/dlp__viz_8c.html" target="_top" xlink:title=" ">
+<g id="a_node19"><a xlink:href="../../d1/d1d/dlp__viz_8c.html" target="_top" xlink:title="functions to handle the visualization events when creating a classical force field">
 <polygon fill="white" stroke="#666666" points="1437,-19 1381,-19 1381,0 1437,0 1437,-19"/>
 <text text-anchor="middle" x="1409" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">dlp_viz.c</text>
 </a>
@@ -336,7 +336,7 @@ var sectionId = 'dynsection-1';
 <!-- Node20 -->
 <g id="node20" class="node">
 <title>Node20</title>
-<g id="a_node20"><a xlink:href="../../d7/d30/force__fields_8c.html" target="_top" xlink:title=" ">
+<g id="a_node20"><a xlink:href="../../d7/d30/force__fields_8c.html" target="_top" xlink:title="Functions to prepare the force field XML files from the sources in atomes &#160;&#160;Functions to read the for...">
 <polygon fill="white" stroke="#666666" points="1530.5,-19 1455.5,-19 1455.5,0 1530.5,0 1530.5,-19"/>
 <text text-anchor="middle" x="1493" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">force_fields.c</text>
 </a>
@@ -351,7 +351,7 @@ var sectionId = 'dynsection-1';
 <!-- Node21 -->
 <g id="node21" class="node">
 <title>Node21</title>
-<g id="a_node21"><a xlink:href="../../da/d65/la__print_8c.html" target="_top" xlink:title=" ">
+<g id="a_node21"><a xlink:href="../../da/d65/la__print_8c.html" target="_top" xlink:title="Functions to print the LAMMPS input file(s)">
 <polygon fill="white" stroke="#666666" points="1605,-19 1549,-19 1549,0 1605,0 1605,-19"/>
 <text text-anchor="middle" x="1577" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">la_print.c</text>
 </a>
@@ -366,7 +366,7 @@ var sectionId = 'dynsection-1';
 <!-- Node22 -->
 <g id="node22" class="node">
 <title>Node22</title>
-<g id="a_node22"><a xlink:href="../../d2/db3/ogl__draw_8c.html" target="_top" xlink:title=" ">
+<g id="a_node22"><a xlink:href="../../d2/db3/ogl__draw_8c.html" target="_top" xlink:title="OpenGL window drawing funcions.">
 <polygon fill="white" stroke="#666666" points="1686.5,-19 1623.5,-19 1623.5,0 1686.5,0 1686.5,-19"/>
 <text text-anchor="middle" x="1655" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ogl_draw.c</text>
 </a>
@@ -381,7 +381,7 @@ var sectionId = 'dynsection-1';
 <!-- Node23 -->
 <g id="node23" class="node">
 <title>Node23</title>
-<g id="a_node23"><a xlink:href="../../d1/db9/ogl__utils_8c.html" target="_top" xlink:title=" ">
+<g id="a_node23"><a xlink:href="../../d1/db9/ogl__utils_8c.html" target="_top" xlink:title="2D and 3D calculations utilities for distances and angles">
 <polygon fill="white" stroke="#666666" points="1765.5,-19 1704.5,-19 1704.5,0 1765.5,0 1765.5,-19"/>
 <text text-anchor="middle" x="1735" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ogl_utils.c</text>
 </a>
@@ -396,7 +396,7 @@ var sectionId = 'dynsection-1';
 <!-- Node24 -->
 <g id="node24" class="node">
 <title>Node24</title>
-<g id="a_node24"><a xlink:href="../../d3/d1b/read__field_8c.html" target="_top" xlink:title=" ">
+<g id="a_node24"><a xlink:href="../../d3/d1b/read__field_8c.html" target="_top" xlink:title="Functions to read DLPOLY force field data in the atomes project file format.">
 <polygon fill="white" stroke="#666666" points="1850.5,-19 1783.5,-19 1783.5,0 1850.5,0 1850.5,-19"/>
 <text text-anchor="middle" x="1817" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">read_field.c</text>
 </a>
@@ -411,7 +411,7 @@ var sectionId = 'dynsection-1';
 <!-- Node25 -->
 <g id="node25" class="node">
 <title>Node25</title>
-<g id="a_node25"><a xlink:href="../../d9/d5e/save__field_8c.html" target="_top" xlink:title=" ">
+<g id="a_node25"><a xlink:href="../../d9/d5e/save__field_8c.html" target="_top" xlink:title="Functions to save force field information in the atomes project file format.">
 <polygon fill="white" stroke="#666666" points="1937.5,-19 1868.5,-19 1868.5,0 1937.5,0 1937.5,-19"/>
 <text text-anchor="middle" x="1903" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">save_field.c</text>
 </a>

@@ -57,7 +57,7 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="variable declarations for the creation of the CPMD input file">
+<g id="a_node1"><a xlink:title="Variable declarations for the creation of the CPMD input file.">
 <polygon fill="#999999" stroke="#666666" points="283.5,-74 234.5,-74 234.5,-55 283.5,-55 283.5,-74"/>
 <text text-anchor="middle" x="259" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd.h</text>
 </a>
@@ -66,7 +66,7 @@ var sectionId = 'dynsection-0';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../de/d92/cp2k__init_8c.html" target="_top" xlink:title="initialization of the CP2K input assistant">
+<g id="a_node2"><a xlink:href="../../de/d92/cp2k__init_8c.html" target="_top" xlink:title="Initialization of the CP2K input assistant.">
 <polygon fill="white" stroke="#666666" points="64,-19 0,-19 0,0 64,0 64,-19"/>
 <text text-anchor="middle" x="32" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cp2k_init.c</text>
 </a>
@@ -81,7 +81,7 @@ var sectionId = 'dynsection-0';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d6/d03/cpmd__atoms_8c.html" target="_top" xlink:title="functions to handle dummy atom(s) for the CPMD input file">
+<g id="a_node3"><a xlink:href="../../d6/d03/cpmd__atoms_8c.html" target="_top" xlink:title="Functions to handle dummy atom(s) for the CPMD input file.">
 <polygon fill="white" stroke="#666666" points="163.5,-19 82.5,-19 82.5,0 163.5,0 163.5,-19"/>
 <text text-anchor="middle" x="123" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd_atoms.c</text>
 </a>
@@ -96,7 +96,7 @@ var sectionId = 'dynsection-0';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../dd/dc0/cpmd__init_8c.html" target="_top" xlink:title="functions to initialize the QM / QM&#45;MM input file creation assistant">
+<g id="a_node4"><a xlink:href="../../dd/dc0/cpmd__init_8c.html" target="_top" xlink:title="Functions to initialize the QM / QM&#45;MM input file creation assistant.">
 <polygon fill="white" stroke="#666666" points="248.5,-19 181.5,-19 181.5,0 248.5,0 248.5,-19"/>
 <text text-anchor="middle" x="215" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd_init.c</text>
 </a>
@@ -111,7 +111,7 @@ var sectionId = 'dynsection-0';
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d6/dc0/cpmd__nose_8c.html" target="_top" xlink:title="functions to prepare the thermostat(s) configuration widgets for QM / QM&#45;MM input files">
+<g id="a_node5"><a xlink:href="../../d6/dc0/cpmd__nose_8c.html" target="_top" xlink:title="Functions to prepare the thermostat(s) configuration widgets for QM / QM&#45;MM input files.">
 <polygon fill="white" stroke="#666666" points="341.5,-19 266.5,-19 266.5,0 341.5,0 341.5,-19"/>
 <text text-anchor="middle" x="304" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd_nose.c</text>
 </a>
@@ -126,7 +126,7 @@ var sectionId = 'dynsection-0';
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d1/dcc/cpmd__print_8c.html" target="_top" xlink:title="functions to print the CPMD input file(s)">
+<g id="a_node6"><a xlink:href="../../d1/dcc/cpmd__print_8c.html" target="_top" xlink:title="Functions to print the CPMD input file(s)">
 <polygon fill="white" stroke="#666666" points="432.5,-19 359.5,-19 359.5,0 432.5,0 432.5,-19"/>
 <text text-anchor="middle" x="396" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd_print.c</text>
 </a>
@@ -141,7 +141,7 @@ var sectionId = 'dynsection-0';
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../db/d6f/cpmd__restart_8c.html" target="_top" xlink:title="functions to configure the restart section for the CPMD input file creation assistant">
+<g id="a_node7"><a xlink:href="../../db/d6f/cpmd__restart_8c.html" target="_top" xlink:title="Functions to configure the restart section for the CPMD input file creation assistant.">
 <polygon fill="white" stroke="#666666" points="533,-19 451,-19 451,0 533,0 533,-19"/>
 <text text-anchor="middle" x="492" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd_restart.c</text>
 </a>

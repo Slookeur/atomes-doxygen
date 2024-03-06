@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Functions to create the &#39;Animate&#39; submenu.">
 <polygon fill="#999999" stroke="#666666" points="790.5,-184 731.5,-184 731.5,-165 790.5,-165 790.5,-184"/>
 <text text-anchor="middle" x="761" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">m_anim.c</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d2/d49/global_8h.html" target="_top" xlink:title="global variable declarations &#160;&#160;global convenience function declarations &#160;&#160;global data structure defin...">
+<g id="a_node2"><a xlink:href="../../d2/d49/global_8h.html" target="_top" xlink:title="Global variable declarations &#160;&#160;Global convenience function declarations &#160;&#160;Global data structure defin...">
 <polygon fill="white" stroke="#666666" points="748,-129 698,-129 698,-110 748,-110 748,-129"/>
 <text text-anchor="middle" x="723" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">global.h</text>
 </a>
@@ -35,7 +35,7 @@
 <!-- Node25 -->
 <g id="node25" class="node">
 <title>Node25</title>
-<g id="a_node25"><a xlink:href="../../d1/d2a/glwindow_8h.html" target="_top" xlink:title=" ">
+<g id="a_node25"><a xlink:href="../../d1/d2a/glwindow_8h.html" target="_top" xlink:title="Function declarations for the creation of the OpenGL window.">
 <polygon fill="white" stroke="#666666" points="831.5,-129 766.5,-129 766.5,-110 831.5,-110 831.5,-129"/>
 <text text-anchor="middle" x="799" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">glwindow.h</text>
 </a>
@@ -320,7 +320,7 @@
 <!-- Node21 -->
 <g id="node21" class="node">
 <title>Node21</title>
-<g id="a_node21"><a xlink:href="../../dc/db0/math__3d_8h.html" target="_top" xlink:title=" ">
+<g id="a_node21"><a xlink:href="../../dc/db0/math__3d_8h.html" target="_top" xlink:title="Functions for OpenGL math.">
 <polygon fill="white" stroke="#666666" points="677,-74 615,-74 615,-55 677,-55 677,-74"/>
 <text text-anchor="middle" x="646" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">math_3d.h</text>
 </a>
@@ -335,7 +335,7 @@
 <!-- Node22 -->
 <g id="node22" class="node">
 <title>Node22</title>
-<g id="a_node22"><a xlink:href="../../da/d7e/glwin_8h.html" target="_top" xlink:title=" ">
+<g id="a_node22"><a xlink:href="../../da/d7e/glwin_8h.html" target="_top" xlink:title="Variable declarations related the OpenGL window &#160;&#160;Data structure declarations related the OpenGL wind...">
 <polygon fill="white" stroke="#666666" points="1531.5,-74 1484.5,-74 1484.5,-55 1531.5,-55 1531.5,-74"/>
 <text text-anchor="middle" x="1508" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">glwin.h</text>
 </a>
@@ -377,7 +377,7 @@
 <!-- Node23 -->
 <g id="node23" class="node">
 <title>Node23</title>
-<g id="a_node23"><a xlink:href="../../d5/d9e/ogl__shading_8h.html" target="_top" xlink:title=" ">
+<g id="a_node23"><a xlink:href="../../d5/d9e/ogl__shading_8h.html" target="_top" xlink:title="Variable declarations related to GLSL programs &#160;&#160;Data structure declarations related to GLSL programs...">
 <polygon fill="white" stroke="#666666" points="1546.5,-19 1469.5,-19 1469.5,0 1546.5,0 1546.5,-19"/>
 <text text-anchor="middle" x="1508" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ogl_shading.h</text>
 </a>

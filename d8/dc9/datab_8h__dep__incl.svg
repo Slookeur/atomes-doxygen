@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Variable declarations for the curve data edition window.">
 <polygon fill="#999999" stroke="#666666" points="95.5,-74 46.5,-74 46.5,-55 95.5,-55 95.5,-74"/>
 <text text-anchor="middle" x="71" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">datab.h</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d9/d29/m__curve_8c.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../d9/d29/m__curve_8c.html" target="_top" xlink:title="Curve context menu (mouse right click)">
 <polygon fill="white" stroke="#666666" points="62,-19 0,-19 0,0 62,0 62,-19"/>
 <text text-anchor="middle" x="31" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">m_curve.c</text>
 </a>
@@ -35,7 +35,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d2/d04/w__curve_8c.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../d2/d04/w__curve_8c.html" target="_top" xlink:title="Functions to create the graph/curve window.">
 <polygon fill="white" stroke="#666666" points="142,-19 80,-19 80,0 142,0 142,-19"/>
 <text text-anchor="middle" x="111" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">w_curve.c</text>
 </a>

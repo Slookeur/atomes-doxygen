@@ -57,7 +57,7 @@ var sectionId = 'dynsection-1';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Variable declarations for the curve widget \ Functions for interactions with the curve widget.">
 <polygon fill="#999999" stroke="#666666" points="1207.5,-74 1158.5,-74 1158.5,-55 1207.5,-55 1207.5,-74"/>
 <text text-anchor="middle" x="1183" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">curve.h</text>
 </a>
@@ -66,7 +66,7 @@ var sectionId = 'dynsection-1';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d8/d15/atom__action_8c.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../d8/d15/atom__action_8c.html" target="_top" xlink:title="Functions to apply the edition actions to the model.">
 <polygon fill="white" stroke="#666666" points="78,-19 0,-19 0,0 78,0 78,-19"/>
 <text text-anchor="middle" x="39" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">atom_action.c</text>
 </a>
@@ -81,7 +81,7 @@ var sectionId = 'dynsection-1';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d5/d34/bdcall_8c.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../d5/d34/bdcall_8c.html" target="_top" xlink:title="Callbacks for the bond properties calculation dialog.">
 <polygon fill="white" stroke="#666666" points="146,-19 96,-19 96,0 146,0 146,-19"/>
 <text text-anchor="middle" x="121" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">bdcall.c</text>
 </a>
@@ -96,7 +96,7 @@ var sectionId = 'dynsection-1';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d3/d0c/cedit_8c.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="../../d3/d0c/cedit_8c.html" target="_top" xlink:title="Initialization of the curve layout edition dialog.">
 <polygon fill="white" stroke="#666666" points="210,-19 164,-19 164,0 210,0 210,-19"/>
 <text text-anchor="middle" x="187" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cedit.c</text>
 </a>
@@ -111,7 +111,7 @@ var sectionId = 'dynsection-1';
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d2/d01/chainscall_8c.html" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="../../d2/d01/chainscall_8c.html" target="_top" xlink:title="Callbacks for the chains statistics calculation dialog.">
 <polygon fill="white" stroke="#666666" points="296,-19 228,-19 228,0 296,0 296,-19"/>
 <text text-anchor="middle" x="262" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">chainscall.c</text>
 </a>
@@ -126,7 +126,7 @@ var sectionId = 'dynsection-1';
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d3/d50/close__p_8c.html" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="../../d3/d50/close__p_8c.html" target="_top" xlink:title="Functions to close an atomes project &#160;&#160;Callbacks to close an atomes project.">
 <polygon fill="white" stroke="#666666" points="373.5,-19 314.5,-19 314.5,0 373.5,0 373.5,-19"/>
 <text text-anchor="middle" x="344" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">close_p.c</text>
 </a>
@@ -141,7 +141,7 @@ var sectionId = 'dynsection-1';
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../dc/d22/curve_8c.html" target="_top" xlink:title=" ">
+<g id="a_node7"><a xlink:href="../../dc/d22/curve_8c.html" target="_top" xlink:title="Functions to manage curves.">
 <polygon fill="white" stroke="#666666" points="440.5,-19 391.5,-19 391.5,0 440.5,0 440.5,-19"/>
 <text text-anchor="middle" x="416" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">curve.c</text>
 </a>
@@ -156,7 +156,7 @@ var sectionId = 'dynsection-1';
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d4/d80/cwidget_8c.html" target="_top" xlink:title=" ">
+<g id="a_node8"><a xlink:href="../../d4/d80/cwidget_8c.html" target="_top" xlink:title="Initialization of the curve widget.">
 <polygon fill="white" stroke="#666666" points="517.5,-19 458.5,-19 458.5,0 517.5,0 517.5,-19"/>
 <text text-anchor="middle" x="488" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cwidget.c</text>
 </a>
@@ -171,7 +171,7 @@ var sectionId = 'dynsection-1';
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="../../da/dae/datab_8c.html" target="_top" xlink:title=" ">
+<g id="a_node9"><a xlink:href="../../da/dae/datab_8c.html" target="_top" xlink:title="Curve data edition window and associated callbacks.">
 <polygon fill="white" stroke="#666666" points="584.5,-19 535.5,-19 535.5,0 584.5,0 584.5,-19"/>
 <text text-anchor="middle" x="560" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">datab.c</text>
 </a>
@@ -186,7 +186,7 @@ var sectionId = 'dynsection-1';
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="../../d6/dd9/draw_8c.html" target="_top" xlink:title=" ">
+<g id="a_node10"><a xlink:href="../../d6/dd9/draw_8c.html" target="_top" xlink:title="Function to draw a curve.">
 <polygon fill="white" stroke="#666666" points="647.5,-19 602.5,-19 602.5,0 647.5,0 647.5,-19"/>
 <text text-anchor="middle" x="625" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">draw.c</text>
 </a>
@@ -201,7 +201,7 @@ var sectionId = 'dynsection-1';
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="../../dd/dbe/frame_8c.html" target="_top" xlink:title=" ">
+<g id="a_node11"><a xlink:href="../../dd/dbe/frame_8c.html" target="_top" xlink:title="Functions to draw the frame.">
 <polygon fill="white" stroke="#666666" points="716,-19 666,-19 666,0 716,0 716,-19"/>
 <text text-anchor="middle" x="691" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">frame.c</text>
 </a>
@@ -216,7 +216,7 @@ var sectionId = 'dynsection-1';
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="../../d8/da4/glyph_8c.html" target="_top" xlink:title=" ">
+<g id="a_node12"><a xlink:href="../../d8/da4/glyph_8c.html" target="_top" xlink:title="Functions to draw the glyphs.">
 <polygon fill="white" stroke="#666666" points="782,-19 734,-19 734,0 782,0 782,-19"/>
 <text text-anchor="middle" x="758" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">glyph.c</text>
 </a>
@@ -231,7 +231,7 @@ var sectionId = 'dynsection-1';
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="../../dc/d6b/grcall_8c.html" target="_top" xlink:title=" ">
+<g id="a_node13"><a xlink:href="../../dc/d6b/grcall_8c.html" target="_top" xlink:title="Callbacks for the g(r)/g(k) calculation dialog.">
 <polygon fill="white" stroke="#666666" points="848,-19 800,-19 800,0 848,0 848,-19"/>
 <text text-anchor="middle" x="824" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">grcall.c</text>
 </a>
@@ -246,7 +246,7 @@ var sectionId = 'dynsection-1';
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
-<g id="a_node14"><a xlink:href="../../df/dd5/init__p_8c.html" target="_top" xlink:title=" ">
+<g id="a_node14"><a xlink:href="../../df/dd5/init__p_8c.html" target="_top" xlink:title="Functions to initialize an atomes project.">
 <polygon fill="white" stroke="#666666" points="914,-19 866,-19 866,0 914,0 914,-19"/>
 <text text-anchor="middle" x="890" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">init_p.c</text>
 </a>
@@ -261,7 +261,7 @@ var sectionId = 'dynsection-1';
 <!-- Node15 -->
 <g id="node15" class="node">
 <title>Node15</title>
-<g id="a_node15"><a xlink:href="../../dd/dda/interface_8c.html" target="_top" xlink:title=" ">
+<g id="a_node15"><a xlink:href="../../dd/dda/interface_8c.html" target="_top" xlink:title="General messaging functions.">
 <polygon fill="white" stroke="#666666" points="994,-19 932,-19 932,0 994,0 994,-19"/>
 <text text-anchor="middle" x="963" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">interface.c</text>
 </a>
@@ -276,7 +276,7 @@ var sectionId = 'dynsection-1';
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="../../de/d87/labels_8c.html" target="_top" xlink:title=" ">
+<g id="a_node16"><a xlink:href="../../de/d87/labels_8c.html" target="_top" xlink:title="Function to draw the axis labels.">
 <polygon fill="white" stroke="#666666" points="1062,-19 1012,-19 1012,0 1062,0 1062,-19"/>
 <text text-anchor="middle" x="1037" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">labels.c</text>
 </a>
@@ -291,7 +291,7 @@ var sectionId = 'dynsection-1';
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
-<g id="a_node17"><a xlink:href="../../d7/d40/legend_8c.html" target="_top" xlink:title=" ">
+<g id="a_node17"><a xlink:href="../../d7/d40/legend_8c.html" target="_top" xlink:title="Function to draw the legend.">
 <polygon fill="white" stroke="#666666" points="1133.5,-19 1080.5,-19 1080.5,0 1133.5,0 1133.5,-19"/>
 <text text-anchor="middle" x="1107" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">legend.c</text>
 </a>
@@ -306,7 +306,7 @@ var sectionId = 'dynsection-1';
 <!-- Node18 -->
 <g id="node18" class="node">
 <title>Node18</title>
-<g id="a_node18"><a xlink:href="../../d9/d29/m__curve_8c.html" target="_top" xlink:title=" ">
+<g id="a_node18"><a xlink:href="../../d9/d29/m__curve_8c.html" target="_top" xlink:title="Curve context menu (mouse right click)">
 <polygon fill="white" stroke="#666666" points="1214,-19 1152,-19 1152,0 1214,0 1214,-19"/>
 <text text-anchor="middle" x="1183" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">m_curve.c</text>
 </a>
@@ -321,7 +321,7 @@ var sectionId = 'dynsection-1';
 <!-- Node19 -->
 <g id="node19" class="node">
 <title>Node19</title>
-<g id="a_node19"><a xlink:href="../../d8/d2b/msdcall_8c.html" target="_top" xlink:title=" ">
+<g id="a_node19"><a xlink:href="../../d8/d2b/msdcall_8c.html" target="_top" xlink:title="Callbacks for the MSD calculation dialog.">
 <polygon fill="white" stroke="#666666" points="1291.5,-19 1232.5,-19 1232.5,0 1291.5,0 1291.5,-19"/>
 <text text-anchor="middle" x="1262" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">msdcall.c</text>
 </a>
@@ -336,7 +336,7 @@ var sectionId = 'dynsection-1';
 <!-- Node20 -->
 <g id="node20" class="node">
 <title>Node20</title>
-<g id="a_node20"><a xlink:href="../../da/d5e/open__p_8c.html" target="_top" xlink:title=" ">
+<g id="a_node20"><a xlink:href="../../da/d5e/open__p_8c.html" target="_top" xlink:title="Functions to start the reading of an atomes project file.">
 <polygon fill="white" stroke="#666666" points="1366,-19 1310,-19 1310,0 1366,0 1366,-19"/>
 <text text-anchor="middle" x="1338" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">open_p.c</text>
 </a>
@@ -351,7 +351,7 @@ var sectionId = 'dynsection-1';
 <!-- Node21 -->
 <g id="node21" class="node">
 <title>Node21</title>
-<g id="a_node21"><a xlink:href="../../d9/dc4/ringscall_8c.html" target="_top" xlink:title=" ">
+<g id="a_node21"><a xlink:href="../../d9/dc4/ringscall_8c.html" target="_top" xlink:title="Callbacks for the ring statistics calculation dialog.">
 <polygon fill="white" stroke="#666666" points="1445.5,-19 1384.5,-19 1384.5,0 1445.5,0 1445.5,-19"/>
 <text text-anchor="middle" x="1415" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ringscall.c</text>
 </a>
@@ -366,7 +366,7 @@ var sectionId = 'dynsection-1';
 <!-- Node22 -->
 <g id="node22" class="node">
 <title>Node22</title>
-<g id="a_node22"><a xlink:href="../../df/dd0/show_8c.html" target="_top" xlink:title=" ">
+<g id="a_node22"><a xlink:href="../../df/dd0/show_8c.html" target="_top" xlink:title="Functions to draw the complete graph.">
 <polygon fill="white" stroke="#666666" points="1510.5,-19 1463.5,-19 1463.5,0 1510.5,0 1510.5,-19"/>
 <text text-anchor="middle" x="1487" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">show.c</text>
 </a>
@@ -381,7 +381,7 @@ var sectionId = 'dynsection-1';
 <!-- Node23 -->
 <g id="node23" class="node">
 <title>Node23</title>
-<g id="a_node23"><a xlink:href="../../d9/dbe/spcall_8c.html" target="_top" xlink:title=" ">
+<g id="a_node23"><a xlink:href="../../d9/dbe/spcall_8c.html" target="_top" xlink:title="Callbacks for the spherical harmonics calculation dialog.">
 <polygon fill="white" stroke="#666666" points="1579,-19 1529,-19 1529,0 1579,0 1579,-19"/>
 <text text-anchor="middle" x="1554" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">spcall.c</text>
 </a>
@@ -396,7 +396,7 @@ var sectionId = 'dynsection-1';
 <!-- Node24 -->
 <g id="node24" class="node">
 <title>Node24</title>
-<g id="a_node24"><a xlink:href="../../d5/dde/sqcall_8c.html" target="_top" xlink:title=" ">
+<g id="a_node24"><a xlink:href="../../d5/dde/sqcall_8c.html" target="_top" xlink:title="Callbacks for the s(q) / s(k) calculation dialog.">
 <polygon fill="white" stroke="#666666" points="1647,-19 1597,-19 1597,0 1647,0 1647,-19"/>
 <text text-anchor="middle" x="1622" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">sqcall.c</text>
 </a>
@@ -411,7 +411,7 @@ var sectionId = 'dynsection-1';
 <!-- Node25 -->
 <g id="node25" class="node">
 <title>Node25</title>
-<g id="a_node25"><a xlink:href="../../df/df7/tab-1_8c.html" target="_top" xlink:title=" ">
+<g id="a_node25"><a xlink:href="../../df/df7/tab-1_8c.html" target="_top" xlink:title="1st tab of the curve layout edition dialog">
 <polygon fill="white" stroke="#666666" points="1712.5,-19 1665.5,-19 1665.5,0 1712.5,0 1712.5,-19"/>
 <text text-anchor="middle" x="1689" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">tab&#45;1.c</text>
 </a>
@@ -426,7 +426,7 @@ var sectionId = 'dynsection-1';
 <!-- Node26 -->
 <g id="node26" class="node">
 <title>Node26</title>
-<g id="a_node26"><a xlink:href="../../de/d1f/tab-2_8c.html" target="_top" xlink:title=" ">
+<g id="a_node26"><a xlink:href="../../de/d1f/tab-2_8c.html" target="_top" xlink:title="2nd tab of the curve layout edition dialog">
 <polygon fill="white" stroke="#666666" points="1777.5,-19 1730.5,-19 1730.5,0 1777.5,0 1777.5,-19"/>
 <text text-anchor="middle" x="1754" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">tab&#45;2.c</text>
 </a>
@@ -441,7 +441,7 @@ var sectionId = 'dynsection-1';
 <!-- Node27 -->
 <g id="node27" class="node">
 <title>Node27</title>
-<g id="a_node27"><a xlink:href="../../d1/d6f/tab-3_8c.html" target="_top" xlink:title=" ">
+<g id="a_node27"><a xlink:href="../../d1/d6f/tab-3_8c.html" target="_top" xlink:title="3rd tab of the curve layout edition dialog">
 <polygon fill="white" stroke="#666666" points="1842.5,-19 1795.5,-19 1795.5,0 1842.5,0 1842.5,-19"/>
 <text text-anchor="middle" x="1819" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">tab&#45;3.c</text>
 </a>
@@ -456,7 +456,7 @@ var sectionId = 'dynsection-1';
 <!-- Node28 -->
 <g id="node28" class="node">
 <title>Node28</title>
-<g id="a_node28"><a xlink:href="../../d8/d62/tab-4_8c.html" target="_top" xlink:title=" ">
+<g id="a_node28"><a xlink:href="../../d8/d62/tab-4_8c.html" target="_top" xlink:title="4th tab of the curve layout edition dialog">
 <polygon fill="white" stroke="#666666" points="1907.5,-19 1860.5,-19 1860.5,0 1907.5,0 1907.5,-19"/>
 <text text-anchor="middle" x="1884" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">tab&#45;4.c</text>
 </a>
@@ -471,7 +471,7 @@ var sectionId = 'dynsection-1';
 <!-- Node29 -->
 <g id="node29" class="node">
 <title>Node29</title>
-<g id="a_node29"><a xlink:href="../../d9/d0e/title_8c.html" target="_top" xlink:title=" ">
+<g id="a_node29"><a xlink:href="../../d9/d0e/title_8c.html" target="_top" xlink:title="Functions to draw the title.">
 <polygon fill="white" stroke="#666666" points="1966.5,-19 1925.5,-19 1925.5,0 1966.5,0 1966.5,-19"/>
 <text text-anchor="middle" x="1946" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">title.c</text>
 </a>
@@ -486,7 +486,7 @@ var sectionId = 'dynsection-1';
 <!-- Node30 -->
 <g id="node30" class="node">
 <title>Node30</title>
-<g id="a_node30"><a xlink:href="../../d2/d04/w__curve_8c.html" target="_top" xlink:title=" ">
+<g id="a_node30"><a xlink:href="../../d2/d04/w__curve_8c.html" target="_top" xlink:title="Functions to create the graph/curve window.">
 <polygon fill="white" stroke="#666666" points="2047,-19 1985,-19 1985,0 2047,0 2047,-19"/>
 <text text-anchor="middle" x="2016" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">w_curve.c</text>
 </a>
@@ -501,7 +501,7 @@ var sectionId = 'dynsection-1';
 <!-- Node31 -->
 <g id="node31" class="node">
 <title>Node31</title>
-<g id="a_node31"><a xlink:href="../../df/d15/w__data_8c.html" target="_top" xlink:title=" ">
+<g id="a_node31"><a xlink:href="../../df/d15/w__data_8c.html" target="_top" xlink:title="Functions to export curve data.">
 <polygon fill="white" stroke="#666666" points="2121,-19 2065,-19 2065,0 2121,0 2121,-19"/>
 <text text-anchor="middle" x="2093" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">w_data.c</text>
 </a>
@@ -516,7 +516,7 @@ var sectionId = 'dynsection-1';
 <!-- Node32 -->
 <g id="node32" class="node">
 <title>Node32</title>
-<g id="a_node32"><a xlink:href="../../dc/dc8/w__img_8c.html" target="_top" xlink:title=" ">
+<g id="a_node32"><a xlink:href="../../dc/dc8/w__img_8c.html" target="_top" xlink:title="Functions to save screenshot from graph / curve(s)">
 <polygon fill="white" stroke="#666666" points="2192.5,-19 2139.5,-19 2139.5,0 2192.5,0 2192.5,-19"/>
 <text text-anchor="middle" x="2166" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">w_img.c</text>
 </a>
@@ -531,7 +531,7 @@ var sectionId = 'dynsection-1';
 <!-- Node33 -->
 <g id="node33" class="node">
 <title>Node33</title>
-<g id="a_node33"><a xlink:href="../../d2/d12/xaxis_8c.html" target="_top" xlink:title=" ">
+<g id="a_node33"><a xlink:href="../../d2/d12/xaxis_8c.html" target="_top" xlink:title="Functions to draw the x axis.">
 <polygon fill="white" stroke="#666666" points="2259,-19 2211,-19 2211,0 2259,0 2259,-19"/>
 <text text-anchor="middle" x="2235" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">xaxis.c</text>
 </a>
@@ -546,7 +546,7 @@ var sectionId = 'dynsection-1';
 <!-- Node34 -->
 <g id="node34" class="node">
 <title>Node34</title>
-<g id="a_node34"><a xlink:href="../../df/dfb/yaxis_8c.html" target="_top" xlink:title=" ">
+<g id="a_node34"><a xlink:href="../../df/dfb/yaxis_8c.html" target="_top" xlink:title="Functions to draw the y axis.">
 <polygon fill="white" stroke="#666666" points="2325,-19 2277,-19 2277,0 2325,0 2325,-19"/>
 <text text-anchor="middle" x="2301" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">yaxis.c</text>
 </a>

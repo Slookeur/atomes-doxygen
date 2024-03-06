@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Data structure declarations for movie encoding &#160;&#160;Function declarations for movie encoding.">
 <polygon fill="#999999" stroke="#666666" points="120,-74 69,-74 69,-55 120,-55 120,-74"/>
 <text text-anchor="middle" x="94.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">movie.h</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d3/d10/image_8c.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../d3/d10/image_8c.html" target="_top" xlink:title="Functions to render an image from the OpenGL window.">
 <polygon fill="white" stroke="#666666" points="51,-19 0,-19 0,0 51,0 51,-19"/>
 <text text-anchor="middle" x="25.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">image.c</text>
 </a>
@@ -35,7 +35,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d8/dee/movie_8c.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../d8/dee/movie_8c.html" target="_top" xlink:title="Functions to encode a movie / render an image from the OpenGL rendering.">
 <polygon fill="white" stroke="#666666" points="120,-19 69,-19 69,0 120,0 120,-19"/>
 <text text-anchor="middle" x="94.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">movie.c</text>
 </a>
@@ -50,7 +50,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../da/daf/w__encode_8c.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="../../da/daf/w__encode_8c.html" target="_top" xlink:title="Functions to create the encoding (image/video) window.">
 <polygon fill="white" stroke="#666666" points="207,-19 138,-19 138,0 207,0 207,-19"/>
 <text text-anchor="middle" x="172.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">w_encode.c</text>
 </a>

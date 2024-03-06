@@ -1,14 +1,5 @@
 var NAVTREEINDEX36 =
 {
-"globals_vars_v.html":[2,1,2,20],
-"globals_vars_w.html":[2,1,2,21],
-"globals_vars_x.html":[2,1,2,22],
-"globals_vars_y.html":[2,1,2,23],
-"globals_vars_z.html":[2,1,2,24],
-"globals_w.html":[2,1,0,21],
-"globals_x.html":[2,1,0,22],
-"globals_y.html":[2,1,0,23],
-"globals_z.html":[2,1,0,24],
 "index.html":[],
 "namespacemembers.html":[0,1,0],
 "namespacemembers.html":[0,1,0,0],

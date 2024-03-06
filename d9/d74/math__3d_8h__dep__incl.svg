@@ -57,7 +57,7 @@ var sectionId = 'dynsection-1';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Functions for OpenGL math.">
 <polygon fill="#999999" stroke="#666666" points="1695,-184 1633,-184 1633,-165 1695,-165 1695,-184"/>
 <text text-anchor="middle" x="1664" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">math_3d.h</text>
 </a>
@@ -66,7 +66,7 @@ var sectionId = 'dynsection-1';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d2/d49/global_8h.html" target="_top" xlink:title="global variable declarations &#160;&#160;global convenience function declarations &#160;&#160;global data structure defin...">
+<g id="a_node2"><a xlink:href="../../d2/d49/global_8h.html" target="_top" xlink:title="Global variable declarations &#160;&#160;Global convenience function declarations &#160;&#160;Global data structure defin...">
 <polygon fill="#fff0f0" stroke="red" points="1689,-129 1639,-129 1639,-110 1689,-110 1689,-129"/>
 <text text-anchor="middle" x="1664" y="-117" font-family="Helvetica,sans-Serif" font-size="10.00">global.h</text>
 </a>
@@ -81,7 +81,7 @@ var sectionId = 'dynsection-1';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d4/ddc/amber94_8c.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../d4/ddc/amber94_8c.html" target="_top" xlink:title="Amber&#45;94 force field, from &#39;parm94&#39;.">
 <polygon fill="white" stroke="#666666" points="62,-74 0,-74 0,-55 62,-55 62,-74"/>
 <text text-anchor="middle" x="31" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">amber94.c</text>
 </a>
@@ -96,7 +96,7 @@ var sectionId = 'dynsection-1';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../dd/d7e/amber96_8c.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="../../dd/d7e/amber96_8c.html" target="_top" xlink:title="Amber&#45;96 force field, from &#39;parm96&#39;.">
 <polygon fill="white" stroke="#666666" points="142,-74 80,-74 80,-55 142,-55 142,-74"/>
 <text text-anchor="middle" x="111" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">amber96.c</text>
 </a>
@@ -111,7 +111,7 @@ var sectionId = 'dynsection-1';
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d5/d08/amber98_8c.html" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="../../d5/d08/amber98_8c.html" target="_top" xlink:title="Amber&#45;98 force field, from &#39;parm98&#39;.">
 <polygon fill="white" stroke="#666666" points="222,-74 160,-74 160,-55 222,-55 222,-74"/>
 <text text-anchor="middle" x="191" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">amber98.c</text>
 </a>
@@ -126,7 +126,7 @@ var sectionId = 'dynsection-1';
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../df/dad/amber99_8c.html" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="../../df/dad/amber99_8c.html" target="_top" xlink:title="Amber&#45;99 force field, from &#39;parm99&#39;.">
 <polygon fill="white" stroke="#666666" points="302,-74 240,-74 240,-55 302,-55 302,-74"/>
 <text text-anchor="middle" x="271" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">amber99.c</text>
 </a>
@@ -141,7 +141,7 @@ var sectionId = 'dynsection-1';
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d3/d23/arcball_8c.html" target="_top" xlink:title=" ">
+<g id="a_node7"><a xlink:href="../../d3/d23/arcball_8c.html" target="_top" xlink:title="Mouse trackball rotation functions.">
 <polygon fill="white" stroke="#666666" points="373.5,-74 320.5,-74 320.5,-55 373.5,-55 373.5,-74"/>
 <text text-anchor="middle" x="347" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">arcball.c</text>
 </a>
@@ -156,7 +156,7 @@ var sectionId = 'dynsection-1';
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d5/d9c/atom__edit_8h.html" target="_top" xlink:title=" ">
+<g id="a_node8"><a xlink:href="../../d5/d9c/atom__edit_8h.html" target="_top" xlink:title="Function declarations for the mode edition window.">
 <polygon fill="#fff0f0" stroke="red" points="577,-74 509,-74 509,-55 577,-55 577,-74"/>
 <text text-anchor="middle" x="543" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">atom_edit.h</text>
 </a>
@@ -171,7 +171,7 @@ var sectionId = 'dynsection-1';
 <!-- Node19 -->
 <g id="node9" class="node">
 <title>Node19</title>
-<g id="a_node9"><a xlink:href="../../d3/d3a/callbacks_8c.html" target="_top" xlink:title=" ">
+<g id="a_node9"><a xlink:href="../../d3/d3a/callbacks_8c.html" target="_top" xlink:title="General callbacks &#160;&#160;Functions to open and close files.">
 <polygon fill="white" stroke="#666666" points="514,-19 448,-19 448,0 514,0 514,-19"/>
 <text text-anchor="middle" x="481" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">callbacks.c</text>
 </a>
@@ -186,7 +186,7 @@ var sectionId = 'dynsection-1';
 <!-- Node28 -->
 <g id="node10" class="node">
 <title>Node28</title>
-<g id="a_node10"><a xlink:href="../../d5/d34/bdcall_8c.html" target="_top" xlink:title=" ">
+<g id="a_node10"><a xlink:href="../../d5/d34/bdcall_8c.html" target="_top" xlink:title="Callbacks for the bond properties calculation dialog.">
 <polygon fill="white" stroke="#666666" points="1185,-19 1135,-19 1135,0 1185,0 1185,-19"/>
 <text text-anchor="middle" x="1160" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">bdcall.c</text>
 </a>
@@ -201,7 +201,7 @@ var sectionId = 'dynsection-1';
 <!-- Node29 -->
 <g id="node11" class="node">
 <title>Node29</title>
-<g id="a_node11"><a xlink:href="../../d1/dcc/calc_8c.html" target="_top" xlink:title="callbacks used in by the molecular dynamics calculation assistants &#160;&#160;atom selection manipulation tool...">
+<g id="a_node11"><a xlink:href="../../d1/dcc/calc_8c.html" target="_top" xlink:title="Callbacks used in by the molecular dynamics calculation assistants &#160;&#160;Atom selection structure manipul...">
 <polygon fill="white" stroke="#666666" points="638.5,-74 595.5,-74 595.5,-55 638.5,-55 638.5,-74"/>
 <text text-anchor="middle" x="617" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">calc.c</text>
 </a>
@@ -216,7 +216,7 @@ var sectionId = 'dynsection-1';
 <!-- Node30 -->
 <g id="node12" class="node">
 <title>Node30</title>
-<g id="a_node12"><a xlink:href="../../d8/d5e/calc__menu_8c.html" target="_top" xlink:title=" ">
+<g id="a_node12"><a xlink:href="../../d8/d5e/calc__menu_8c.html" target="_top" xlink:title="Creation of the calculation dialogs.">
 <polygon fill="white" stroke="#666666" points="729,-74 657,-74 657,-55 729,-55 729,-74"/>
 <text text-anchor="middle" x="693" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">calc_menu.c</text>
 </a>
@@ -231,7 +231,7 @@ var sectionId = 'dynsection-1';
 <!-- Node31 -->
 <g id="node13" class="node">
 <title>Node31</title>
-<g id="a_node13"><a xlink:href="../../d0/dd3/cbuild__action_8c.html" target="_top" xlink:title=" ">
+<g id="a_node13"><a xlink:href="../../d0/dd3/cbuild__action_8c.html" target="_top" xlink:title="Functions to build a crystal using space group, crystallographic position(s) and object(s) to insert.">
 <polygon fill="white" stroke="#666666" points="749,-19 667,-19 667,0 749,0 749,-19"/>
 <text text-anchor="middle" x="708" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cbuild_action.c</text>
 </a>
@@ -246,7 +246,7 @@ var sectionId = 'dynsection-1';
 <!-- Node32 -->
 <g id="node14" class="node">
 <title>Node32</title>
-<g id="a_node14"><a xlink:href="../../db/d0b/cbuild__edit_8c.html" target="_top" xlink:title=" ">
+<g id="a_node14"><a xlink:href="../../db/d0b/cbuild__edit_8c.html" target="_top" xlink:title="Functions to create the crystal builder window.">
 <polygon fill="white" stroke="#666666" points="838.5,-19 767.5,-19 767.5,0 838.5,0 838.5,-19"/>
 <text text-anchor="middle" x="803" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cbuild_edit.c</text>
 </a>
@@ -261,7 +261,7 @@ var sectionId = 'dynsection-1';
 <!-- Node33 -->
 <g id="node15" class="node">
 <title>Node33</title>
-<g id="a_node15"><a xlink:href="../../de/d8a/cbuild__edit_8h.html" target="_top" xlink:title=" ">
+<g id="a_node15"><a xlink:href="../../de/d8a/cbuild__edit_8h.html" target="_top" xlink:title="Function declarations for the crystal builder.">
 <polygon fill="#fff0f0" stroke="red" points="894.5,-74 823.5,-74 823.5,-55 894.5,-55 894.5,-74"/>
 <text text-anchor="middle" x="859" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">cbuild_edit.h</text>
 </a>
@@ -276,7 +276,7 @@ var sectionId = 'dynsection-1';
 <!-- Node34 -->
 <g id="node16" class="node">
 <title>Node34</title>
-<g id="a_node16"><a xlink:href="../../d9/ded/cbuild__info_8c.html" target="_top" xlink:title=" ">
+<g id="a_node16"><a xlink:href="../../d9/ded/cbuild__info_8c.html" target="_top" xlink:title="Functions to create the space group information dialog.">
 <polygon fill="white" stroke="#666666" points="927.5,-19 856.5,-19 856.5,0 927.5,0 927.5,-19"/>
 <text text-anchor="middle" x="892" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cbuild_info.c</text>
 </a>
@@ -291,7 +291,7 @@ var sectionId = 'dynsection-1';
 <!-- Node35 -->
 <g id="node17" class="node">
 <title>Node35</title>
-<g id="a_node17"><a xlink:href="../../d3/ddb/cbuild__sg_8c.html" target="_top" xlink:title=" ">
+<g id="a_node17"><a xlink:href="../../d3/ddb/cbuild__sg_8c.html" target="_top" xlink:title="Functions to read space group data from XML files.">
 <polygon fill="white" stroke="#666666" points="1012,-19 946,-19 946,0 1012,0 1012,-19"/>
 <text text-anchor="middle" x="979" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cbuild_sg.c</text>
 </a>
@@ -306,7 +306,7 @@ var sectionId = 'dynsection-1';
 <!-- Node40 -->
 <g id="node18" class="node">
 <title>Node40</title>
-<g id="a_node18"><a xlink:href="../../d3/d0c/cedit_8c.html" target="_top" xlink:title=" ">
+<g id="a_node18"><a xlink:href="../../d3/d0c/cedit_8c.html" target="_top" xlink:title="Initialization of the curve layout edition dialog.">
 <polygon fill="white" stroke="#666666" points="1264,-19 1218,-19 1218,0 1264,0 1264,-19"/>
 <text text-anchor="middle" x="1241" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">cedit.c</text>
 </a>
@@ -321,7 +321,7 @@ var sectionId = 'dynsection-1';
 <!-- Node41 -->
 <g id="node19" class="node">
 <title>Node41</title>
-<g id="a_node19"><a xlink:href="../../d7/d21/cedit_8h.html" target="_top" xlink:title=" ">
+<g id="a_node19"><a xlink:href="../../d7/d21/cedit_8h.html" target="_top" xlink:title="Variable declarations for the curve layout edition window.">
 <polygon fill="#fff0f0" stroke="red" points="1035,-74 989,-74 989,-55 1035,-55 1035,-74"/>
 <text text-anchor="middle" x="1012" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">cedit.h</text>
 </a>
@@ -336,7 +336,7 @@ var sectionId = 'dynsection-1';
 <!-- Node42 -->
 <g id="node20" class="node">
 <title>Node42</title>
-<g id="a_node20"><a xlink:href="../../dc/d22/curve_8c.html" target="_top" xlink:title=" ">
+<g id="a_node20"><a xlink:href="../../dc/d22/curve_8c.html" target="_top" xlink:title="Functions to manage curves.">
 <polygon fill="white" stroke="#666666" points="1087.5,-19 1038.5,-19 1038.5,0 1087.5,0 1087.5,-19"/>
 <text text-anchor="middle" x="1063" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">curve.c</text>
 </a>
@@ -351,7 +351,7 @@ var sectionId = 'dynsection-1';
 <!-- Node49 -->
 <g id="node21" class="node">
 <title>Node49</title>
-<g id="a_node21"><a xlink:href="../../d9/d97/cell__edit_8h.html" target="_top" xlink:title=" ">
+<g id="a_node21"><a xlink:href="../../d9/d97/cell__edit_8h.html" target="_top" xlink:title="Function declarations for the cell edition window.">
 <polygon fill="#fff0f0" stroke="red" points="452.5,-74 391.5,-74 391.5,-55 452.5,-55 452.5,-74"/>
 <text text-anchor="middle" x="422" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">cell_edit.h</text>
 </a>
@@ -366,7 +366,7 @@ var sectionId = 'dynsection-1';
 <!-- Node54 -->
 <g id="node22" class="node">
 <title>Node54</title>
-<g id="a_node22"><a xlink:href="../../d9/de7/cff91_8c.html" target="_top" xlink:title=" ">
+<g id="a_node22"><a xlink:href="../../d9/de7/cff91_8c.html" target="_top" xlink:title="CFF91 force field, from &#39;CFF91.frc&#39;.">
 <polygon fill="white" stroke="#666666" points="1213,-74 1167,-74 1167,-55 1213,-55 1213,-74"/>
 <text text-anchor="middle" x="1190" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">cff91.c</text>
 </a>
@@ -381,7 +381,7 @@ var sectionId = 'dynsection-1';
 <!-- Node55 -->
 <g id="node23" class="node">
 <title>Node55</title>
-<g id="a_node23"><a xlink:href="../../d2/d01/chainscall_8c.html" target="_top" xlink:title=" ">
+<g id="a_node23"><a xlink:href="../../d2/d01/chainscall_8c.html" target="_top" xlink:title="Callbacks for the chains statistics calculation dialog.">
 <polygon fill="white" stroke="#666666" points="1947,-19 1879,-19 1879,0 1947,0 1947,-19"/>
 <text text-anchor="middle" x="1913" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">chainscall.c</text>
 </a>
@@ -396,7 +396,7 @@ var sectionId = 'dynsection-1';
 <!-- Node56 -->
 <g id="node24" class="node">
 <title>Node56</title>
-<g id="a_node24"><a xlink:href="../../d2/d6d/charmm22__prot_8c.html" target="_top" xlink:title=" ">
+<g id="a_node24"><a xlink:href="../../d2/d6d/charmm22__prot_8c.html" target="_top" xlink:title="CHARMM&#45;charmm22_prot force field, from &#39;charmm22_prot&#39;.">
 <polygon fill="white" stroke="#666666" points="1391,-74 1299,-74 1299,-55 1391,-55 1391,-74"/>
 <text text-anchor="middle" x="1345" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">charmm22_prot.c</text>
 </a>
@@ -426,7 +426,7 @@ var sectionId = 'dynsection-1';
 <!-- Node58 -->
 <g id="node26" class="node">
 <title>Node58</title>
-<g id="a_node26"><a xlink:href="../../d7/d39/charmm35__ethers_8c.html" target="_top" xlink:title=" ">
+<g id="a_node26"><a xlink:href="../../d7/d39/charmm35__ethers_8c.html" target="_top" xlink:title="CHARMM&#45;charmm35_ethers force field, from &#39;charmm35_ethers&#39;.">
 <polygon fill="white" stroke="#666666" points="1657.5,-74 1554.5,-74 1554.5,-55 1657.5,-55 1657.5,-74"/>
 <text text-anchor="middle" x="1606" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">charmm35_ethers.c</text>
 </a>
@@ -441,7 +441,7 @@ var sectionId = 'dynsection-1';
 <!-- Node59 -->
 <g id="node27" class="node">
 <title>Node59</title>
-<g id="a_node27"><a xlink:href="../../de/db7/charmm36__carb_8c.html" target="_top" xlink:title=" ">
+<g id="a_node27"><a xlink:href="../../de/db7/charmm36__carb_8c.html" target="_top" xlink:title="CHARMM&#45;charmm36_carb force field, from &#39;charmm36_carb&#39;.">
 <polygon fill="white" stroke="#666666" points="1770.5,-74 1675.5,-74 1675.5,-55 1770.5,-55 1770.5,-74"/>
 <text text-anchor="middle" x="1723" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">charmm36_carb.c</text>
 </a>
@@ -456,7 +456,7 @@ var sectionId = 'dynsection-1';
 <!-- Node60 -->
 <g id="node28" class="node">
 <title>Node60</title>
-<g id="a_node28"><a xlink:href="../../d1/d40/charmm36__cgenff_8c.html" target="_top" xlink:title=" ">
+<g id="a_node28"><a xlink:href="../../d1/d40/charmm36__cgenff_8c.html" target="_top" xlink:title="CHARMM&#45;charmm36_cgenff force field, from &#39;charmm36_cgenff&#39;.">
 <polygon fill="white" stroke="#666666" points="1891,-74 1789,-74 1789,-55 1891,-55 1891,-74"/>
 <text text-anchor="middle" x="1840" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">charmm36_cgenff.c</text>
 </a>
@@ -471,7 +471,7 @@ var sectionId = 'dynsection-1';
 <!-- Node61 -->
 <g id="node29" class="node">
 <title>Node61</title>
-<g id="a_node29"><a xlink:href="../../d6/de8/charmm36__lipid_8c.html" target="_top" xlink:title=" ">
+<g id="a_node29"><a xlink:href="../../d6/de8/charmm36__lipid_8c.html" target="_top" xlink:title="CHARMM&#45;charmm36_lipid force field, from &#39;charmm36_lipid&#39;.">
 <polygon fill="white" stroke="#666666" points="2002.5,-74 1909.5,-74 1909.5,-55 2002.5,-55 2002.5,-74"/>
 <text text-anchor="middle" x="1956" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">charmm36_lipid.c</text>
 </a>
@@ -486,7 +486,7 @@ var sectionId = 'dynsection-1';
 <!-- Node62 -->
 <g id="node30" class="node">
 <title>Node62</title>
-<g id="a_node30"><a xlink:href="../../da/daa/charmm36__na_8c.html" target="_top" xlink:title=" ">
+<g id="a_node30"><a xlink:href="../../da/daa/charmm36__na_8c.html" target="_top" xlink:title="CHARMM&#45;charmm36_na force field, from &#39;charmm36_na&#39;.">
 <polygon fill="white" stroke="#666666" points="2107,-74 2021,-74 2021,-55 2107,-55 2107,-74"/>
 <text text-anchor="middle" x="2064" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">charmm36_na.c</text>
 </a>
@@ -501,7 +501,7 @@ var sectionId = 'dynsection-1';
 <!-- Node63 -->
 <g id="node31" class="node">
 <title>Node63</title>
-<g id="a_node31"><a xlink:href="../../d1/d8a/charmm36__prot_8c.html" target="_top" xlink:title=" ">
+<g id="a_node31"><a xlink:href="../../d1/d8a/charmm36__prot_8c.html" target="_top" xlink:title="CHARMM&#45;charmm36_prot force field, from &#39;charmm36_prot&#39;.">
 <polygon fill="white" stroke="#666666" points="2217,-74 2125,-74 2125,-55 2217,-55 2217,-74"/>
 <text text-anchor="middle" x="2171" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">charmm36_prot.c</text>
 </a>
@@ -516,7 +516,7 @@ var sectionId = 'dynsection-1';
 <!-- Node64 -->
 <g id="node32" class="node">
 <title>Node64</title>
-<g id="a_node32"><a xlink:href="../../d7/df9/charmm36__prot__metals_8c.html" target="_top" xlink:title=" ">
+<g id="a_node32"><a xlink:href="../../d7/df9/charmm36__prot__metals_8c.html" target="_top" xlink:title="CHARMM&#45;charmm36m_prot force field, from &#39;charmm36m_prot&#39;.">
 <polygon fill="white" stroke="#666666" points="2362.5,-74 2235.5,-74 2235.5,-55 2362.5,-55 2362.5,-74"/>
 <text text-anchor="middle" x="2299" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">charmm36_prot_metals.c</text>
 </a>
@@ -531,7 +531,7 @@ var sectionId = 'dynsection-1';
 <!-- Node65 -->
 <g id="node33" class="node">
 <title>Node65</title>
-<g id="a_node33"><a xlink:href="../../d3/deb/charmm__silicates_8c.html" target="_top" xlink:title=" ">
+<g id="a_node33"><a xlink:href="../../d3/deb/charmm__silicates_8c.html" target="_top" xlink:title="CHARMM&#45;charmm_silicates force field, from &#39;charmm_silicates&#39;.">
 <polygon fill="white" stroke="#666666" points="2481.5,-74 2380.5,-74 2380.5,-55 2481.5,-55 2481.5,-74"/>
 <text text-anchor="middle" x="2431" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">charmm_silicates.c</text>
 </a>
@@ -546,7 +546,7 @@ var sectionId = 'dynsection-1';
 <!-- Node66 -->
 <g id="node34" class="node">
 <title>Node66</title>
-<g id="a_node34"><a xlink:href="../../d3/d50/close__p_8c.html" target="_top" xlink:title=" ">
+<g id="a_node34"><a xlink:href="../../d3/d50/close__p_8c.html" target="_top" xlink:title="Functions to close an atomes project &#160;&#160;Callbacks to close an atomes project.">
 <polygon fill="white" stroke="#666666" points="2996.5,-19 2937.5,-19 2937.5,0 2996.5,0 2996.5,-19"/>
 <text text-anchor="middle" x="2967" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">close_p.c</text>
 </a>
@@ -561,7 +561,7 @@ var sectionId = 'dynsection-1';
 <!-- Node67 -->
 <g id="node35" class="node">
 <title>Node67</title>
-<g id="a_node35"><a xlink:href="../../dc/d16/color__box_8c.html" target="_top" xlink:title=" ">
+<g id="a_node35"><a xlink:href="../../dc/d16/color__box_8c.html" target="_top" xlink:title="Functions to create the color palettes for the menus of the OpenGL window &#160;&#160;Callbacks to set the colo...">
 <polygon fill="white" stroke="#666666" points="2605.5,-74 2538.5,-74 2538.5,-55 2605.5,-55 2605.5,-74"/>
 <text text-anchor="middle" x="2572" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">color_box.c</text>
 </a>
@@ -576,7 +576,7 @@ var sectionId = 'dynsection-1';
 <!-- Node68 -->
 <g id="node36" class="node">
 <title>Node68</title>
-<g id="a_node36"><a xlink:href="../../d6/dfb/compass_8c.html" target="_top" xlink:title=" ">
+<g id="a_node36"><a xlink:href="../../d6/dfb/compass_8c.html" target="_top" xlink:title="Compass force field, from &#39;Compass.frc&#39;.">
 <polygon fill="white" stroke="#666666" points="2688.5,-74 2623.5,-74 2623.5,-55 2688.5,-55 2688.5,-74"/>
 <text text-anchor="middle" x="2656" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">compass.c</text>
 </a>
@@ -606,7 +606,7 @@ var sectionId = 'dynsection-1';
 <!-- Node70 -->
 <g id="node38" class="node">
 <title>Node70</title>
-<g id="a_node38"><a xlink:href="../../d0/da4/cp2k__files_8c.html" target="_top" xlink:title="the functions to handle CP2K basis sets and pseudopotentials">
+<g id="a_node38"><a xlink:href="../../d0/da4/cp2k__files_8c.html" target="_top" xlink:title="Functions to handle CP2K basis sets and pseudopotentials.">
 <polygon fill="white" stroke="#666666" points="2868.5,-74 2799.5,-74 2799.5,-55 2868.5,-55 2868.5,-74"/>
 <text text-anchor="middle" x="2834" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">cp2k_files.c</text>
 </a>
@@ -636,7 +636,7 @@ var sectionId = 'dynsection-1';
 <!-- Node72 -->
 <g id="node40" class="node">
 <title>Node72</title>
-<g id="a_node40"><a xlink:href="../../de/d92/cp2k__init_8c.html" target="_top" xlink:title="initialization of the CP2K input assistant">
+<g id="a_node40"><a xlink:href="../../de/d92/cp2k__init_8c.html" target="_top" xlink:title="Initialization of the CP2K input assistant.">
 <polygon fill="white" stroke="#666666" points="3060,-74 2996,-74 2996,-55 3060,-55 3060,-74"/>
 <text text-anchor="middle" x="3028" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">cp2k_init.c</text>
 </a>
@@ -651,7 +651,7 @@ var sectionId = 'dynsection-1';
 <!-- Node73 -->
 <g id="node41" class="node">
 <title>Node73</title>
-<g id="a_node41"><a xlink:href="../../d5/d8d/cp2k__mol_8c.html" target="_top" xlink:title="functions to fix fragment(s) when creating the CP2K input file">
+<g id="a_node41"><a xlink:href="../../d5/d8d/cp2k__mol_8c.html" target="_top" xlink:title="Functions to fix fragment(s) when creating the CP2K input file.">
 <polygon fill="white" stroke="#666666" points="3145.5,-74 3078.5,-74 3078.5,-55 3145.5,-55 3145.5,-74"/>
 <text text-anchor="middle" x="3112" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">cp2k_mol.c</text>
 </a>
@@ -696,7 +696,7 @@ var sectionId = 'dynsection-1';
 <!-- Node76 -->
 <g id="node44" class="node">
 <title>Node76</title>
-<g id="a_node44"><a xlink:href="../../dc/d4a/cp2k__print_8c.html" target="_top" xlink:title="functions to print the CP2K input file(s)">
+<g id="a_node44"><a xlink:href="../../dc/d4a/cp2k__print_8c.html" target="_top" xlink:title="Functions to print the CP2K input file(s)">
 <polygon fill="white" stroke="#666666" points="3442,-74 3372,-74 3372,-55 3442,-55 3442,-74"/>
 <text text-anchor="middle" x="3407" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">cp2k_print.c</text>
 </a>
@@ -711,7 +711,7 @@ var sectionId = 'dynsection-1';
 <!-- Node77 -->
 <g id="node45" class="node">
 <title>Node77</title>
-<g id="a_node45"><a xlink:href="../../d6/d03/cpmd__atoms_8c.html" target="_top" xlink:title="functions to handle dummy atom(s) for the CPMD input file">
+<g id="a_node45"><a xlink:href="../../d6/d03/cpmd__atoms_8c.html" target="_top" xlink:title="Functions to handle dummy atom(s) for the CPMD input file.">
 <polygon fill="white" stroke="#666666" points="3541.5,-74 3460.5,-74 3460.5,-55 3541.5,-55 3541.5,-74"/>
 <text text-anchor="middle" x="3501" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd_atoms.c</text>
 </a>
@@ -726,7 +726,7 @@ var sectionId = 'dynsection-1';
 <!-- Node78 -->
 <g id="node46" class="node">
 <title>Node78</title>
-<g id="a_node46"><a xlink:href="../../dd/dc0/cpmd__init_8c.html" target="_top" xlink:title="functions to initialize the QM / QM&#45;MM input file creation assistant">
+<g id="a_node46"><a xlink:href="../../dd/dc0/cpmd__init_8c.html" target="_top" xlink:title="Functions to initialize the QM / QM&#45;MM input file creation assistant.">
 <polygon fill="white" stroke="#666666" points="3626.5,-74 3559.5,-74 3559.5,-55 3626.5,-55 3626.5,-74"/>
 <text text-anchor="middle" x="3593" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd_init.c</text>
 </a>
@@ -741,7 +741,7 @@ var sectionId = 'dynsection-1';
 <!-- Node79 -->
 <g id="node47" class="node">
 <title>Node79</title>
-<g id="a_node47"><a xlink:href="../../d6/dc0/cpmd__nose_8c.html" target="_top" xlink:title="functions to prepare the thermostat(s) configuration widgets for QM / QM&#45;MM input files">
+<g id="a_node47"><a xlink:href="../../d6/dc0/cpmd__nose_8c.html" target="_top" xlink:title="Functions to prepare the thermostat(s) configuration widgets for QM / QM&#45;MM input files.">
 <polygon fill="white" stroke="#666666" points="3719.5,-74 3644.5,-74 3644.5,-55 3719.5,-55 3719.5,-74"/>
 <text text-anchor="middle" x="3682" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd_nose.c</text>
 </a>
@@ -756,7 +756,7 @@ var sectionId = 'dynsection-1';
 <!-- Node80 -->
 <g id="node48" class="node">
 <title>Node80</title>
-<g id="a_node48"><a xlink:href="../../d1/dcc/cpmd__print_8c.html" target="_top" xlink:title="functions to print the CPMD input file(s)">
+<g id="a_node48"><a xlink:href="../../d1/dcc/cpmd__print_8c.html" target="_top" xlink:title="Functions to print the CPMD input file(s)">
 <polygon fill="white" stroke="#666666" points="3810.5,-74 3737.5,-74 3737.5,-55 3810.5,-55 3810.5,-74"/>
 <text text-anchor="middle" x="3774" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd_print.c</text>
 </a>
@@ -771,7 +771,7 @@ var sectionId = 'dynsection-1';
 <!-- Node81 -->
 <g id="node49" class="node">
 <title>Node81</title>
-<g id="a_node49"><a xlink:href="../../db/d6f/cpmd__restart_8c.html" target="_top" xlink:title="functions to configure the restart section for the CPMD input file creation assistant">
+<g id="a_node49"><a xlink:href="../../db/d6f/cpmd__restart_8c.html" target="_top" xlink:title="Functions to configure the restart section for the CPMD input file creation assistant.">
 <polygon fill="white" stroke="#666666" points="3911,-74 3829,-74 3829,-55 3911,-55 3911,-74"/>
 <text text-anchor="middle" x="3870" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">cpmd_restart.c</text>
 </a>
@@ -786,7 +786,7 @@ var sectionId = 'dynsection-1';
 <!-- Node82 -->
 <g id="node50" class="node">
 <title>Node82</title>
-<g id="a_node50"><a xlink:href="../../df/de9/curve_8h.html" target="_top" xlink:title=" ">
+<g id="a_node50"><a xlink:href="../../df/de9/curve_8h.html" target="_top" xlink:title="Variable declarations for the curve widget \ Functions for interactions with the curve widget.">
 <polygon fill="#fff0f0" stroke="red" points="1280.5,-74 1231.5,-74 1231.5,-55 1280.5,-55 1280.5,-74"/>
 <text text-anchor="middle" x="1256" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">curve.h</text>
 </a>
