@@ -1,13 +1,13 @@
-<map id="readers.h" name="readers.h">
-<area shape="rect" id="node1" title="Functions declaration to read atomic coordinates." alt="" coords="535,5,611,31"/>
-<area shape="rect" id="node2" href="$d3/d3a/callbacks_8c.html" title="General callbacks &#160;&#160;Functions to open and close files." alt="" coords="5,79,93,104"/>
-<area shape="rect" id="node3" href="$d0/dd3/cbuild__action_8c.html" title="Functions to build a crystal using space group, crystallographic position(s) and object(s) to insert." alt="" coords="117,79,227,104"/>
-<area shape="rect" id="node4" href="$db/d0b/cbuild__edit_8c.html" title="Functions to create the crystal builder window." alt="" coords="251,79,346,104"/>
-<area shape="rect" id="node5" href="$da/d70/read__c3d_8c.html" title="Functions to read Chem3d atomic coordinates." alt="" coords="370,79,457,104"/>
-<area shape="rect" id="node6" href="$d8/d50/read__cif_8c.html" title="Functions to read CIF files." alt="" coords="481,79,559,104"/>
-<area shape="rect" id="node7" href="$df/df9/read__hist_8c.html" title="Functions to read DL&#45;POLY history file." alt="" coords="583,79,670,104"/>
-<area shape="rect" id="node8" href="$d9/d42/read__pdb_8c.html" title="Functions to read PDB files." alt="" coords="694,79,781,104"/>
-<area shape="rect" id="node9" href="$d9/deb/read__trj_8c.html" title="Functions to read CPMD atomic coordinates." alt="" coords="805,79,881,104"/>
-<area shape="rect" id="node10" href="$d6/dc9/read__vas_8c.html" title="Functions to read VASP atomic coordinates." alt="" coords="905,79,991,104"/>
-<area shape="rect" id="node11" href="$d0/dce/read__xyz_8c.html" title="Functions to read XYZ atomic coordinates." alt="" coords="1015,79,1102,104"/>
+<map id="project/readers/readers.h" name="project/readers/readers.h">
+<area shape="rect" id="node1" title="Functions declaration to read atomic coordinates." alt="" coords="659,5,826,31"/>
+<area shape="rect" id="node2" href="$d3/d3a/callbacks_8c.html" title="General callbacks &#160;&#160;Functions to open and close files." alt="" coords="5,86,115,111"/>
+<area shape="rect" id="node3" href="$d0/dd3/cbuild__action_8c.html" title="Functions to build a crystal using space group, crystallographic position(s) and object(s) to insert." alt="" coords="139,79,261,119"/>
+<area shape="rect" id="node4" href="$db/d0b/cbuild__edit_8c.html" title="Functions to create the crystal builder window." alt="" coords="285,79,408,119"/>
+<area shape="rect" id="node5" href="$da/d70/read__c3d_8c.html" title="Functions to read Chem3d atomic coordinates." alt="" coords="433,79,570,119"/>
+<area shape="rect" id="node6" href="$d8/d50/read__cif_8c.html" title="Functions to read CIF files." alt="" coords="594,79,731,119"/>
+<area shape="rect" id="node7" href="$df/df9/read__hist_8c.html" title="Functions to read DL&#45;POLY history file." alt="" coords="755,79,893,119"/>
+<area shape="rect" id="node8" href="$d9/d42/read__pdb_8c.html" title="Functions to read PDB files." alt="" coords="917,79,1054,119"/>
+<area shape="rect" id="node9" href="$d9/deb/read__trj_8c.html" title="Functions to read CPMD atomic coordinates." alt="" coords="1078,79,1215,119"/>
+<area shape="rect" id="node10" href="$d6/dc9/read__vas_8c.html" title="Functions to read VASP atomic coordinates." alt="" coords="1239,79,1377,119"/>
+<area shape="rect" id="node11" href="$d0/dce/read__xyz_8c.html" title="Functions to read XYZ atomic coordinates." alt="" coords="1401,79,1538,119"/>
 </map>

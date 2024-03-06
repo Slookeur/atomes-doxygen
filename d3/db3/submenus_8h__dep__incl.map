@@ -1,13 +1,13 @@
-<map id="submenus.h" name="submenus.h">
-<area shape="rect" id="node1" title="Function declarations for the creation of the OpenGL window menus." alt="" coords="477,5,571,31"/>
-<area shape="rect" id="node2" href="$d2/d01/chainscall_8c.html" title="Callbacks for the chains statistics calculation dialog." alt="" coords="5,79,96,104"/>
-<area shape="rect" id="node3" href="$d7/dc8/glwindow_8c.html" title="Functions to create a project OpenGL window." alt="" coords="121,79,207,104"/>
-<area shape="rect" id="node4" href="$d5/dc1/m__axis_8c.html" title="Functions to create the &#39;View &#45;&gt; Axis&#39; submenu." alt="" coords="232,79,307,104"/>
-<area shape="rect" id="node5" href="$d6/d35/m__box_8c.html" title="Functions to create the &#39;Model &#45;&gt; Box&#39; submenu." alt="" coords="331,79,403,104"/>
-<area shape="rect" id="node6" href="$db/dab/m__clones_8c.html" title="Functions to create the &#39;Model &#45;&gt; Clone(s)&#39; submenu." alt="" coords="427,79,517,104"/>
-<area shape="rect" id="node7" href="$da/d98/m__rep_8c.html" title="Functions to create the &#39;View &#45;&gt; Representation&#39; submenu." alt="" coords="541,79,611,104"/>
-<area shape="rect" id="node8" href="$d3/d51/m__tools_8c.html" title="Functions to create the &#39;Tools&#39; submenu." alt="" coords="635,79,714,104"/>
-<area shape="rect" id="node9" href="$d5/dbe/menu__bar_8c.html" title="Functions to create the menu bar of the OpenGL window &#160;&#160;Functions to create the menu items for the me..." alt="" coords="739,79,829,104"/>
-<area shape="rect" id="node10" href="$d5/da4/popup_8c.html" title="Functions to create the OpenGL window popup menus:" alt="" coords="854,79,922,104"/>
-<area shape="rect" id="node11" href="$d4/db6/read__mol_8c.html" title="Functions to read molecule(s) data in the atomes project file format." alt="" coords="946,79,1033,104"/>
+<map id="opengl/win/submenus.h" name="opengl/win/submenus.h">
+<area shape="rect" id="node1" title="Function declarations for the creation of the OpenGL window menus." alt="" coords="727,5,886,31"/>
+<area shape="rect" id="node2" href="$d2/d01/chainscall_8c.html" title="Callbacks for the chains statistics calculation dialog." alt="" coords="5,79,117,104"/>
+<area shape="rect" id="node3" href="$d7/dc8/glwindow_8c.html" title="Functions to create a project OpenGL window." alt="" coords="141,79,293,104"/>
+<area shape="rect" id="node4" href="$d5/dc1/m__axis_8c.html" title="Functions to create the &#39;View &#45;&gt; Axis&#39; submenu." alt="" coords="317,79,459,104"/>
+<area shape="rect" id="node5" href="$d6/d35/m__box_8c.html" title="Functions to create the &#39;Model &#45;&gt; Box&#39; submenu." alt="" coords="483,79,621,104"/>
+<area shape="rect" id="node6" href="$db/dab/m__clones_8c.html" title="Functions to create the &#39;Model &#45;&gt; Clone(s)&#39; submenu." alt="" coords="645,79,800,104"/>
+<area shape="rect" id="node7" href="$da/d98/m__rep_8c.html" title="Functions to create the &#39;View &#45;&gt; Representation&#39; submenu." alt="" coords="825,79,959,104"/>
+<area shape="rect" id="node8" href="$d3/d51/m__tools_8c.html" title="Functions to create the &#39;Tools&#39; submenu." alt="" coords="983,79,1129,104"/>
+<area shape="rect" id="node9" href="$d5/dbe/menu__bar_8c.html" title="Functions to create the menu bar of the OpenGL window &#160;&#160;Functions to create the menu items for the me..." alt="" coords="1153,79,1309,104"/>
+<area shape="rect" id="node10" href="$d5/da4/popup_8c.html" title="Functions to create the OpenGL window popup menus:" alt="" coords="1333,79,1467,104"/>
+<area shape="rect" id="node11" href="$d4/db6/read__mol_8c.html" title="Functions to read molecule(s) data in the atomes project file format." alt="" coords="1491,79,1621,104"/>
 </map>
