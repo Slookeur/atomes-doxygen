@@ -38,6 +38,5 @@ var read__cif_8c =
     [ "img_cif", "d8/d50/read__cif_8c.html#a5c076f5c16f7be050dfadaafa18c638b", null ],
     [ "keylines", "d8/d50/read__cif_8c.html#a1e9ce059ad27eaba18507f3fa56b7803", null ],
     [ "line_ptr", "d8/d50/read__cif_8c.html#aa5f3c4d606c1a8ff744f861ca389b4b9", null ],
-    [ "this_cif", "d8/d50/read__cif_8c.html#a41b03d601b2227a371211af038027b2b", null ],
     [ "wnpos", "d8/d50/read__cif_8c.html#aea1247b80a8c76a7cdd1083a132cc947", null ]
 ];

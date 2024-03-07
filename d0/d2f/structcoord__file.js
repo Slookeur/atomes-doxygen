@@ -13,7 +13,6 @@ var structcoord__file =
     [ "multi", "d0/d2f/structcoord__file.html#abc3b2e94abac2522df83ae1f37288b2d", null ],
     [ "natomes", "d0/d2f/structcoord__file.html#a1123db0395a8a91840ac6fc353b15e48", null ],
     [ "ndummy", "d0/d2f/structcoord__file.html#a16b1daa878106b1e311256c1d04068d3", null ],
-    [ "nrec", "d0/d2f/structcoord__file.html#afe43552293db85409768e64438518166", null ],
     [ "nspec", "d0/d2f/structcoord__file.html#af5f831515b9c21d49ec47e94f0b59fbf", null ],
     [ "nsps", "d0/d2f/structcoord__file.html#a07458cf3d8948d40ee2cccc20edab12a", null ],
     [ "occupancy", "d0/d2f/structcoord__file.html#abc05e2fac6afd4765a839ff160cd259d", null ],

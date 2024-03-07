@@ -56,7 +56,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d0/d5d/struct_data_layout.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="../../d0/d5d/struct_data_layout.html" target="_top" xlink:title="Cruve layout information.">
 <polygon fill="white" stroke="#666666" points="197.5,-264 130.5,-264 130.5,-245 197.5,-245 197.5,-264"/>
 <text text-anchor="middle" x="164" y="-252" font-family="Helvetica,sans-Serif" font-size="10.00">DataLayout</text>
 </a>
@@ -79,7 +79,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d5/de2/structcextra.html" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="../../d5/de2/structcextra.html" target="_top" xlink:title="Extra curve(s) data information.">
 <polygon fill="white" stroke="#666666" points="236,-180 192,-180 192,-161 236,-161 236,-180"/>
 <text text-anchor="middle" x="214" y="-168" font-family="Helvetica,sans-Serif" font-size="10.00">cextra</text>
 </a>
@@ -95,7 +95,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../dd/d61/struct_extra_sets.html" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="../../dd/d61/struct_extra_sets.html" target="_top" xlink:title="List of extra data sets for a curve.">
 <polygon fill="white" stroke="#666666" points="252,-85 192,-85 192,-66 252,-66 252,-85"/>
 <text text-anchor="middle" x="222" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">ExtraSets</text>
 </a>
@@ -143,7 +143,7 @@
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../dd/d12/struct_curve_state.html" target="_top" xlink:title=" ">
+<g id="a_node8"><a xlink:href="../../dd/d12/struct_curve_state.html" target="_top" xlink:title="Data structure used for zoom in / out on curve widget.">
 <polygon fill="white" stroke="#666666" points="360,-180 294,-180 294,-161 360,-161 360,-180"/>
 <text text-anchor="middle" x="327" y="-168" font-family="Helvetica,sans-Serif" font-size="10.00">CurveState</text>
 </a>
@@ -166,7 +166,7 @@
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d4/d51/struct_mouse_state.html" target="_top" xlink:title=" ">
+<g id="a_node9"><a xlink:href="../../d4/d51/struct_mouse_state.html" target="_top" xlink:title="Data structure used for zoom in / out on curve widget.">
 <polygon fill="white" stroke="#666666" points="361.5,-264 292.5,-264 292.5,-245 361.5,-245 361.5,-264"/>
 <text text-anchor="middle" x="327" y="-252" font-family="Helvetica,sans-Serif" font-size="10.00">MouseState</text>
 </a>

@@ -105,6 +105,7 @@ var structglwin =
     [ "volume_box", "d5/dd2/structglwin.html#a3bd9a2ce159fe4996c1680d9b54a964e", null ],
     [ "volume_win", "d5/dd2/structglwin.html#acdf9f1557de3bd7a8c28a18805de5485", null ],
     [ "volumes", "d5/dd2/structglwin.html#a49de661657ca126461e2bf6889641a4b", null ],
+    [ "was_moved", "d5/dd2/structglwin.html#a3c769e4e834a74719517b6a73deb2eaf", null ],
     [ "win", "d5/dd2/structglwin.html#af16c9db58fd06e67b9d1c7dd8ba7b261", null ],
     [ "wrapped", "d5/dd2/structglwin.html#aace2aea982a352277a5901a512b62580", null ],
     [ "zoom_factor", "d5/dd2/structglwin.html#a569f795ebcbf173eb8577b42605e7b94", null ]

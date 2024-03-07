@@ -2,7 +2,7 @@ var searchData=
 [
   ['w_0',['w',['../d7/d36/structvec4__t.html#a56eca241e2896b9f57a79589e76fd24b',1,'vec4_t::w()'],['../d4/d52/namespaceparameters.html#a17f7c7fab185546a095833ad6621f43b',1,'parameters::w()']]],
   ['wait_5ffor_5fstyle_1',['wait_for_style',['../d5/da4/popup_8c.html#af82f232dad29da5c8a7268fa256b7171',1,'popup.c']]],
-  ['was_5fmoved_2',['was_moved',['../dd/dbe/structproject.html#a3c769e4e834a74719517b6a73deb2eaf',1,'project::was_moved()'],['../dc/d6c/atom__edit_8c.html#a3c769e4e834a74719517b6a73deb2eaf',1,'was_moved():&#160;atom_edit.c']]],
+  ['was_5fmoved_2',['was_moved',['../d5/dd2/structglwin.html#a3c769e4e834a74719517b6a73deb2eaf',1,'glwin::was_moved()'],['../dc/d6c/atom__edit_8c.html#a3c769e4e834a74719517b6a73deb2eaf',1,'was_moved():&#160;atom_edit.c']]],
   ['was_5fmoved_5fatom_3',['was_moved_atom',['../d7/d27/atom__move_8c.html#ab0a4a837cf4ada6bed33251a9eba0a24',1,'atom_move.c']]],
   ['was_5fselected_4',['was_selected',['../d8/d59/structatom__search.html#a4a538993b42735dc7630979d33d95b01',1,'atom_search']]],
   ['wc_5fcid_5',['wc_cid',['../d2/d92/w__colors_8c.html#a216fbf5d5154a7ca587be6cb8878f88c',1,'w_colors.c']]],
@@ -12,7 +12,7 @@ var searchData=
   ['win_9',['win',['../db/d1f/structrecorder.html#af16c9db58fd06e67b9d1c7dd8ba7b261',1,'recorder::win()'],['../d2/d19/structspinner.html#af16c9db58fd06e67b9d1c7dd8ba7b261',1,'spinner::win()'],['../d5/dd2/structglwin.html#af16c9db58fd06e67b9d1c7dd8ba7b261',1,'glwin::win()'],['../df/daa/structmodel__edition.html#af16c9db58fd06e67b9d1c7dd8ba7b261',1,'model_edition::win()'],['../d9/ded/structsequencer.html#af16c9db58fd06e67b9d1c7dd8ba7b261',1,'sequencer::win()'],['../dd/df5/structbuilder__edition.html#af16c9db58fd06e67b9d1c7dd8ba7b261',1,'builder_edition::win()'],['../de/ddb/structatom__edition.html#af16c9db58fd06e67b9d1c7dd8ba7b261',1,'atom_edition::win()'],['../d4/d03/structcell__edition.html#af16c9db58fd06e67b9d1c7dd8ba7b261',1,'cell_edition::win()'],['../d1/d71/structopengl__edition.html#af16c9db58fd06e67b9d1c7dd8ba7b261',1,'opengl_edition::win()'],['../de/d4a/structcoord__edition.html#af16c9db58fd06e67b9d1c7dd8ba7b261',1,'coord_edition::win()'],['../da/dc6/structmeasures.html#af16c9db58fd06e67b9d1c7dd8ba7b261',1,'measures::win()'],['../dd/dca/structvolumes.html#af16c9db58fd06e67b9d1c7dd8ba7b261',1,'volumes::win()']]],
   ['window_10',['window',['../d7/d01/structcurve.html#a3d346c08cf2d67c388caabffb412b293',1,'curve']]],
   ['window_5fmouse_11',['window_mouse',['../d3/da6/workspace_8c.html#aed33db52e08561479172f7232f404bcc',1,'workspace.c']]],
-  ['wingl_12',['wingl',['../d2/db3/ogl__draw_8c.html#a34d02eaa9a644d2e7d51a90dfa594a06',1,'wingl():&#160;ogl_draw.c'],['../dc/de3/glview_8h.html#a34d02eaa9a644d2e7d51a90dfa594a06',1,'wingl():&#160;ogl_draw.c']]],
+  ['wingl_12',['wingl',['../dc/de3/glview_8h.html#a34d02eaa9a644d2e7d51a90dfa594a06',1,'wingl():&#160;ogl_draw.c'],['../d2/db3/ogl__draw_8c.html#a34d02eaa9a644d2e7d51a90dfa594a06',1,'wingl():&#160;ogl_draw.c']]],
   ['witer_13',['witer',['../d3/da6/workspace_8c.html#ac37706b6033198ade08a6bc30ef2d3a9',1,'workspace.c']]],
   ['with_5fholes_14',['with_holes',['../d8/d1b/structcrystal__data.html#a274b467b4dec71492538330bae4353c5',1,'crystal_data']]],
   ['with_5fworkspace_15',['with_workspace',['../d0/d29/main_8c.html#af3cb6244a72b07b84a26b634690df34d',1,'main.c']]],
@@ -30,6 +30,6 @@ var searchData=
   ['wrapped_27',['wrapped',['../d5/dd2/structglwin.html#aace2aea982a352277a5901a512b62580',1,'glwin']]],
   ['wsize_28',['wsize',['../d7/d01/structcurve.html#a0ba1fe22845cab299cf7117ff65bd792',1,'curve']]],
   ['wyck_5forigin_29',['wyck_origin',['../de/df2/structspace__group.html#a4d6f9918511d0286191167bdf5a6cdb3',1,'space_group']]],
-  ['wyckoff_30',['wyckoff',['../dd/d8e/structcif__file.html#a7c38061431b148c1f5b9cca64fefada8',1,'cif_file::wyckoff()'],['../d0/d2f/structcoord__file.html#a7c38061431b148c1f5b9cca64fefada8',1,'coord_file::wyckoff()'],['../de/df2/structspace__group.html#a77a0b69b77975718ab773f6f1f6d307d',1,'space_group::wyckoff()']]],
+  ['wyckoff_30',['wyckoff',['../d0/d2f/structcoord__file.html#a7c38061431b148c1f5b9cca64fefada8',1,'coord_file::wyckoff()'],['../de/df2/structspace__group.html#a77a0b69b77975718ab773f6f1f6d307d',1,'space_group::wyckoff()']]],
   ['wypts_5fvbox_31',['wypts_vbox',['../d9/ded/cbuild__info_8c.html#a2305aa633c70f95913298ab8298a9714',1,'cbuild_info.c']]]
 ];

@@ -43,7 +43,7 @@ var searchData=
   ['visok_40',['visok',['../dd/dbe/structproject.html#a208912988baed039cfa3a5ed67af58f7',1,'project']]],
   ['vmax_41',['vmax',['../df/de9/curve_8h.html#aebc3c7d95b30b6d756221144bec412d7',1,'vmax():&#160;curve.h'],['../d8/d62/tab-4_8c.html#a810139d7b0938f74e0d4f05f140724b9',1,'vmax():&#160;tab-4.c']]],
   ['vmin_42',['vmin',['../df/de9/curve_8h.html#a2cf86f895afb95f7fa8dc9deb9eb7d6d',1,'vmin():&#160;tab-4.c'],['../d8/d62/tab-4_8c.html#a2cf86f895afb95f7fa8dc9deb9eb7d6d',1,'vmin():&#160;tab-4.c']]],
-  ['vois_43',['vois',['../dc/dcf/structdummy__atom.html#a99a5ca1f3275b73666b5b8234e94171b',1,'dummy_atom::vois()'],['../da/d81/structatom.html#a99a5ca1f3275b73666b5b8234e94171b',1,'atom::vois()'],['../d5/dfb/structfield__neighbor.html#a99a5ca1f3275b73666b5b8234e94171b',1,'field_neighbor::vois()']]],
+  ['vois_43',['vois',['../da/d81/structatom.html#a99a5ca1f3275b73666b5b8234e94171b',1,'atom::vois()'],['../dc/dcf/structdummy__atom.html#a99a5ca1f3275b73666b5b8234e94171b',1,'dummy_atom::vois()'],['../d5/dfb/structfield__neighbor.html#a99a5ca1f3275b73666b5b8234e94171b',1,'field_neighbor::vois()']]],
   ['voisj_44',['voisj',['../d4/d52/namespaceparameters.html#aa0e0f92f2151f38769e1df3930646251',1,'parameters']]],
   ['vol_45',['vol',['../d7/d81/structbox__info.html#ab418d9bfaf98546da753d9e18ec6c0f6',1,'box_info']]],
   ['vol_5fcol_46',['vol_col',['../de/d68/structimage.html#a90a16f7d43c586a1ba6e351e2961378a',1,'image']]],

@@ -1,52 +1,52 @@
 <map id="project" name="project">
-<area shape="rect" id="node1" title=" " alt="" coords="1209,1345,1271,1370"/>
-<area shape="rect" id="node2" href="$da/d11/structchemical__data.html" title=" " alt="" coords="983,9,1089,34"/>
-<area shape="rect" id="node3" href="$df/ddc/structcoord__info.html" title=" " alt="" coords="253,323,336,349"/>
-<area shape="rect" id="node24" href="$de/ddb/structatom__edition.html" title=" " alt="" coords="734,161,830,186"/>
-<area shape="rect" id="node25" href="$db/d6a/structinsert__object.html" title="a data structure to describe an object to work on. &#160;the object can be one or more:" alt="" coords="471,323,567,349"/>
-<area shape="rect" id="node4" href="$de/df1/structcell__info.html" title=" " alt="" coords="483,94,554,119"/>
-<area shape="rect" id="node20" href="$dd/df5/structbuilder__edition.html" title=" " alt="" coords="729,259,835,285"/>
-<area shape="rect" id="node5" href="$d7/d81/structbox__info.html" title="model box information" alt="" coords="259,178,330,203"/>
-<area shape="rect" id="node6" href="$d6/d41/unionmat4__t.html" title=" " alt="" coords="33,214,96,239"/>
-<area shape="rect" id="node7" href="$de/df2/structspace__group.html" title="a structure to described a space group in crystallography" alt="" coords="247,94,343,119"/>
-<area shape="rect" id="node10" href="$d5/dd2/structglwin.html" title=" " alt="" coords="1010,675,1062,701"/>
-<area shape="rect" id="node8" href="$dc/de2/structspg__setting.html" title="a structure to describe the settings of a space group in crystallography" alt="" coords="20,45,109,70"/>
-<area shape="rect" id="node9" href="$d9/d4f/structwyckoff__position.html" title="a structure to describe a Wyckoff position in crystallography" alt="" coords="5,94,124,119"/>
-<area shape="rect" id="node11" href="$d3/d7c/structvec3__t.html" title=" " alt="" coords="751,866,813,891"/>
-<area shape="rect" id="node12" href="$d7/d36/structvec4__t.html" title=" " alt="" coords="751,915,813,941"/>
-<area shape="rect" id="node13" href="$da/d97/structglsl__program.html" title=" " alt="" coords="734,1063,830,1089"/>
-<area shape="rect" id="node14" href="$d4/d50/structobject__3d.html" title=" " alt="" coords="479,1014,558,1039"/>
-<area shape="rect" id="node15" href="$d1/d74/struct_col_r_g_b_a.html" title=" " alt="" coords="479,1063,559,1089"/>
-<area shape="rect" id="node21" href="$d6/d0f/structatom__selection.html" title=" " alt="" coords="727,817,837,842"/>
-<area shape="rect" id="node29" href="$d9/d58/structcolormap.html" title=" " alt="" coords="745,1113,819,1138"/>
-<area shape="rect" id="node39" href="$d7/d01/structcurve.html" title=" " alt="" coords="1009,1345,1063,1370"/>
-<area shape="rect" id="node40" href="$d0/d5d/struct_data_layout.html" title=" " alt="" coords="737,1375,827,1401"/>
-<area shape="rect" id="node16" href="$d1/d71/structopengl__edition.html" title=" " alt="" coords="729,767,835,793"/>
-<area shape="rect" id="node17" href="$d0/dbe/structdint.html" title=" " alt="" coords="497,965,540,990"/>
-<area shape="rect" id="node27" href="$d4/d03/structcell__edition.html" title=" " alt="" coords="739,965,825,990"/>
-<area shape="rect" id="node44" href="$db/d0d/structfield__molecule.html" title=" " alt="" coords="729,1714,835,1739"/>
-<area shape="rect" id="node18" href="$df/d46/structtint.html" title=" " alt="" coords="499,391,539,417"/>
-<area shape="rect" id="node28" href="$d8/d59/structatom__search.html" title="a data structure to search for atom(s) and edit the model" alt="" coords="733,422,831,447"/>
-<area shape="rect" id="node42" href="$dd/d12/struct_curve_state.html" title=" " alt="" coords="738,1162,826,1187"/>
-<area shape="rect" id="node19" href="$df/daa/structmodel__edition.html" title=" " alt="" coords="731,210,833,235"/>
-<area shape="rect" id="node22" href="$dd/d4c/structselatom.html" title=" " alt="" coords="485,827,553,853"/>
-<area shape="rect" id="node23" href="$de/d4a/structcoord__edition.html" title=" " alt="" coords="733,309,831,334"/>
-<area shape="rect" id="node26" href="$da/d81/structatom.html" title=" " alt="" coords="269,1255,320,1281"/>
-<area shape="rect" id="node30" href="$d0/da3/structqint.html" title=" " alt="" coords="761,1014,803,1039"/>
-<area shape="rect" id="node31" href="$d9/ded/structsequencer.html" title=" " alt="" coords="741,471,823,497"/>
-<area shape="rect" id="node32" href="$d2/d19/structspinner.html" title=" " alt="" coords="750,521,814,546"/>
-<area shape="rect" id="node33" href="$db/d1f/structrecorder.html" title=" " alt="" coords="747,570,817,595"/>
-<area shape="rect" id="node34" href="$d4/d32/structanimation.html" title=" " alt="" coords="743,619,821,645"/>
-<area shape="rect" id="node35" href="$da/dc6/structmeasures.html" title=" " alt="" coords="743,669,821,694"/>
-<area shape="rect" id="node36" href="$dd/dca/structvolumes.html" title=" " alt="" coords="747,718,817,743"/>
-<area shape="rect" id="node37" href="$dc/d1b/structmodel.html" title=" " alt="" coords="881,1538,939,1563"/>
-<area shape="rect" id="node38" href="$dc/d7f/structmolecule.html" title=" " alt="" coords="481,1547,556,1573"/>
-<area shape="rect" id="node41" href="$dd/d61/struct_extra_sets.html" title=" " alt="" coords="742,1326,822,1351"/>
-<area shape="rect" id="node43" href="$d6/da3/structclassical__field.html" title=" " alt="" coords="984,1765,1088,1790"/>
-<area shape="rect" id="node45" href="$d3/d62/structfield__nth__body.html" title=" " alt="" coords="729,1817,835,1842"/>
-<area shape="rect" id="node46" href="$df/def/structfield__external.html" title=" " alt="" coords="733,1919,831,1945"/>
-<area shape="rect" id="node47" href="$da/d1f/structcpmd.html" title=" " alt="" coords="1009,2022,1063,2047"/>
-<area shape="rect" id="node48" href="$df/d6b/structthermostat.html" title=" " alt="" coords="740,2022,824,2047"/>
-<area shape="rect" id="node50" href="$dd/d27/structcp2k.html" title=" " alt="" coords="1011,1874,1061,1899"/>
-<area shape="rect" id="node49" href="$dc/dcf/structdummy__atom.html" title=" " alt="" coords="731,2125,833,2150"/>
+<area shape="rect" id="node1" title="The data structure for the &#39;atomes&#39; project." alt="" coords="1499,1314,1560,1339"/>
+<area shape="rect" id="node2" href="$da/d11/structchemical__data.html" title=" " alt="" coords="1272,9,1379,34"/>
+<area shape="rect" id="node3" href="$df/ddc/structcoord__info.html" title="Data structure to store coordination information." alt="" coords="508,59,591,85"/>
+<area shape="rect" id="node31" href="$de/ddb/structatom__edition.html" title=" " alt="" coords="783,110,879,135"/>
+<area shape="rect" id="node4" href="$de/df1/structcell__info.html" title=" " alt="" coords="514,109,585,134"/>
+<area shape="rect" id="node28" href="$dd/df5/structbuilder__edition.html" title=" " alt="" coords="779,711,884,737"/>
+<area shape="rect" id="node5" href="$d7/d81/structbox__info.html" title="model box information" alt="" coords="259,387,330,413"/>
+<area shape="rect" id="node6" href="$d6/d41/unionmat4__t.html" title=" " alt="" coords="33,337,96,362"/>
+<area shape="rect" id="node7" href="$de/df2/structspace__group.html" title="a structure to described a space group in crystallography" alt="" coords="247,178,343,203"/>
+<area shape="rect" id="node20" href="$d5/dd2/structglwin.html" title=" " alt="" coords="1047,739,1099,765"/>
+<area shape="rect" id="node8" href="$dc/de2/structspg__setting.html" title="a structure to describe the settings of a space group in crystallography" alt="" coords="20,137,109,162"/>
+<area shape="rect" id="node9" href="$d9/d4f/structwyckoff__position.html" title="a structure to describe a Wyckoff position in crystallography" alt="" coords="5,186,124,211"/>
+<area shape="rect" id="node10" href="$da/d81/structatom.html" title="The data structure for an atom." alt="" coords="1300,1201,1351,1226"/>
+<area shape="rect" id="node11" href="$df/d46/structtint.html" title=" " alt="" coords="529,1135,569,1161"/>
+<area shape="rect" id="node17" href="$d5/de2/structcextra.html" title="Extra curve(s) data information." alt="" coords="802,1438,861,1463"/>
+<area shape="rect" id="node18" href="$dd/d12/struct_curve_state.html" title="Data structure used for zoom in / out on curve widget." alt="" coords="787,1335,875,1361"/>
+<area shape="rect" id="node25" href="$d1/d71/structopengl__edition.html" title=" " alt="" coords="779,1086,884,1111"/>
+<area shape="rect" id="node33" href="$d8/d59/structatom__search.html" title="a data structure to search for atom(s) and edit the model" alt="" coords="783,1135,880,1161"/>
+<area shape="rect" id="node12" href="$d7/d01/structcurve.html" title=" " alt="" coords="1298,1405,1353,1430"/>
+<area shape="rect" id="node13" href="$d0/da3/structqint.html" title=" " alt="" coords="810,1234,853,1259"/>
+<area shape="rect" id="node14" href="$d1/d74/struct_col_r_g_b_a.html" title=" " alt="" coords="255,767,335,793"/>
+<area shape="rect" id="node15" href="$d0/d5d/struct_data_layout.html" title="Cruve layout information." alt="" coords="505,1591,594,1617"/>
+<area shape="rect" id="node23" href="$da/d97/structglsl__program.html" title=" " alt="" coords="501,650,597,675"/>
+<area shape="rect" id="node29" href="$d6/d0f/structatom__selection.html" title=" " alt="" coords="644,765,755,790"/>
+<area shape="rect" id="node34" href="$d9/d58/structcolormap.html" title=" " alt="" coords="662,571,737,597"/>
+<area shape="rect" id="node16" href="$dd/d61/struct_extra_sets.html" title="List of extra data sets for a curve." alt="" coords="1033,1442,1113,1467"/>
+<area shape="rect" id="node19" href="$d4/d51/struct_mouse_state.html" title="Data structure used for zoom in / out on curve widget." alt="" coords="503,1393,595,1418"/>
+<area shape="rect" id="node21" href="$d3/d7c/structvec3__t.html" title=" " alt="" coords="801,938,862,963"/>
+<area shape="rect" id="node22" href="$d7/d36/structvec4__t.html" title=" " alt="" coords="801,987,862,1013"/>
+<area shape="rect" id="node24" href="$d4/d50/structobject__3d.html" title=" " alt="" coords="255,647,334,673"/>
+<area shape="rect" id="node26" href="$d0/dbe/structdint.html" title=" " alt="" coords="528,1343,571,1369"/>
+<area shape="rect" id="node32" href="$d4/d03/structcell__edition.html" title=" " alt="" coords="788,1185,875,1210"/>
+<area shape="rect" id="node44" href="$db/d0d/structfield__molecule.html" title=" " alt="" coords="1021,1727,1126,1753"/>
+<area shape="rect" id="node27" href="$df/daa/structmodel__edition.html" title=" " alt="" coords="780,237,883,262"/>
+<area shape="rect" id="node30" href="$de/d4a/structcoord__edition.html" title=" " alt="" coords="782,286,881,311"/>
+<area shape="rect" id="node35" href="$d9/ded/structsequencer.html" title=" " alt="" coords="790,387,873,413"/>
+<area shape="rect" id="node36" href="$d2/d19/structspinner.html" title=" " alt="" coords="799,437,863,462"/>
+<area shape="rect" id="node37" href="$db/d1f/structrecorder.html" title=" " alt="" coords="797,486,866,511"/>
+<area shape="rect" id="node38" href="$d4/d32/structanimation.html" title=" " alt="" coords="792,535,871,561"/>
+<area shape="rect" id="node39" href="$da/dc6/structmeasures.html" title=" " alt="" coords="792,825,871,850"/>
+<area shape="rect" id="node40" href="$dd/dca/structvolumes.html" title=" " alt="" coords="796,1037,867,1062"/>
+<area shape="rect" id="node41" href="$dc/d1b/structmodel.html" title="Data stucture to describe the topology." alt="" coords="1171,1614,1228,1639"/>
+<area shape="rect" id="node42" href="$dc/d7f/structmolecule.html" title=" " alt="" coords="794,1661,869,1686"/>
+<area shape="rect" id="node43" href="$d6/da3/structclassical__field.html" title=" " alt="" coords="1273,1779,1377,1805"/>
+<area shape="rect" id="node45" href="$d3/d62/structfield__nth__body.html" title=" " alt="" coords="1020,1933,1127,1958"/>
+<area shape="rect" id="node46" href="$df/def/structfield__external.html" title=" " alt="" coords="1024,1830,1123,1855"/>
+<area shape="rect" id="node47" href="$da/d1f/structcpmd.html" title=" " alt="" coords="1298,2035,1353,2061"/>
+<area shape="rect" id="node48" href="$df/d6b/structthermostat.html" title=" " alt="" coords="1031,2035,1115,2061"/>
+<area shape="rect" id="node50" href="$dd/d27/structcp2k.html" title=" " alt="" coords="1300,1849,1351,1874"/>
+<area shape="rect" id="node49" href="$dc/dcf/structdummy__atom.html" title=" " alt="" coords="1023,2138,1124,2163"/>
 </map>

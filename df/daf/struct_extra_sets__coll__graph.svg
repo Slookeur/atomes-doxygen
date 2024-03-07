@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="List of extra data sets for a curve.">
 <polygon fill="#999999" stroke="#666666" points="62,-19 2,-19 2,0 62,0 62,-19"/>
 <text text-anchor="middle" x="32" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ExtraSets</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d5/de2/structcextra.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../d5/de2/structcextra.html" target="_top" xlink:title="Extra curve(s) data information.">
 <polygon fill="white" stroke="#666666" points="54,-97.5 10,-97.5 10,-78.5 54,-78.5 54,-97.5"/>
 <text text-anchor="middle" x="32" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">cextra</text>
 </a>
@@ -61,7 +61,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d0/d5d/struct_data_layout.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="../../d0/d5d/struct_data_layout.html" target="_top" xlink:title="Cruve layout information.">
 <polygon fill="white" stroke="#666666" points="115.5,-165 48.5,-165 48.5,-146 115.5,-146 115.5,-165"/>
 <text text-anchor="middle" x="82" y="-153" font-family="Helvetica,sans-Serif" font-size="10.00">DataLayout</text>
 </a>

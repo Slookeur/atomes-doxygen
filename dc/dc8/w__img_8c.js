@@ -1,5 +1,6 @@
 var w__img_8c =
 [
+    [ "dwidget", "d6/dfb/structdwidget.html", "d6/dfb/structdwidget" ],
     [ "choose_format", "dc/dc8/w__img_8c.html#a6bbd8cb801b4a1b68f281b0e8a4d74b2", null ],
     [ "run_save_image", "dc/dc8/w__img_8c.html#a3dfa9f5e386ac2f38b7618786aab6f07", null ],
     [ "run_write_image", "dc/dc8/w__img_8c.html#a722c92dc4efa0505d1009927ad17cd7c", null ],

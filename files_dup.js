@@ -11,5 +11,6 @@ var files_dup =
     [ "bind.h", "da/dc2/bind_8h.html", "da/dc2/bind_8h" ],
     [ "config.h", "db/d16/config_8h.html", "db/d16/config_8h" ],
     [ "global.c", "dc/d57/global_8c.html", "dc/d57/global_8c" ],
-    [ "global.h", "d2/d49/global_8h.html", "d2/d49/global_8h" ]
+    [ "global.h", "d2/d49/global_8h.html", "d2/d49/global_8h" ],
+    [ "version.h", "df/dfc/version_8h.html", "df/dfc/version_8h" ]
 ];
