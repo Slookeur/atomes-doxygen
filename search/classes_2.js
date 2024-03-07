@@ -15,9 +15,8 @@ var searchData=
   ['cp2k_12',['cp2k',['../dd/d27/structcp2k.html',1,'']]],
   ['cpmd_13',['cpmd',['../da/d1f/structcpmd.html',1,'']]],
   ['crystal_5fdata_14',['crystal_data',['../d8/d1b/structcrystal__data.html',1,'']]],
-  ['curve_15',['curve',['../d7/d01/structcurve.html',1,'']]],
-  ['curve_16',['Curve',['../da/d6e/struct_curve.html',1,'']]],
-  ['curve_5fdash_17',['curve_dash',['../d5/d03/structcurve__dash.html',1,'']]],
-  ['curveextra_18',['CurveExtra',['../d8/dea/struct_curve_extra.html',1,'']]],
-  ['curvestate_19',['CurveState',['../dd/d12/struct_curve_state.html',1,'']]]
+  ['curve_15',['Curve',['../da/d6e/struct_curve.html',1,'']]],
+  ['curve_5fdash_16',['curve_dash',['../d5/d03/structcurve__dash.html',1,'']]],
+  ['curveextra_17',['CurveExtra',['../d8/dea/struct_curve_extra.html',1,'']]],
+  ['curvestate_18',['CurveState',['../dd/d12/struct_curve_state.html',1,'']]]
 ];

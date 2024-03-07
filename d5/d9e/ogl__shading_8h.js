@@ -8,8 +8,8 @@ var ogl__shading_8h =
     [ "CYLI_BUFF_SIZE", "d5/d9e/ogl__shading_8h.html#ab6ef4535c3ea241f2a8e406e24c9753d", null ],
     [ "LINE_BUFF_SIZE", "d5/d9e/ogl__shading_8h.html#a4cd92b619e12c0a01552620f3b5bbeb9", null ],
     [ "POLY_BUFF_SIZE", "d5/d9e/ogl__shading_8h.html#a96043b4e90d8706182442c2bda0ff9da", null ],
-    [ "glsl_program", "d5/d9e/ogl__shading_8h.html#ab430c043d33cdea5cf1c75a4a00d3fd9", null ],
-    [ "object_3d", "d5/d9e/ogl__shading_8h.html#afe85455b68d84f071f5321b5c432f9d1", null ],
+    [ "glsl_program", "d5/d9e/ogl__shading_8h.html#afaf9b4f5c020673919f4400f94d93f44", null ],
+    [ "object_3d", "d5/d9e/ogl__shading_8h.html#a632f409334c36ad6775307b251b2109f", null ],
     [ "glsl_styles", "d5/d9e/ogl__shading_8h.html#aff7ed48c91278d8a69388cd18eafc900", [
       [ "GLSL_POINTS", "d5/d9e/ogl__shading_8h.html#aff7ed48c91278d8a69388cd18eafc900a699b5e0dd2f7844e471fbbc04217a575", null ],
       [ "GLSL_SPHERES", "d5/d9e/ogl__shading_8h.html#aff7ed48c91278d8a69388cd18eafc900ad6cbac6c99b2efdaaa43e7605800f33f", null ],

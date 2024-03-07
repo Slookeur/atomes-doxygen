@@ -175,15 +175,15 @@ Functions</h2></td></tr>
 <tr class="memdesc:a693187d8d80b182f9a6560a06e0b277c"><td class="mdescLeft">&#160;</td><td class="mdescRight">for project hide all curves for a calculation  <br /></td></tr>
 <tr class="separator:a693187d8d80b182f9a6560a06e0b277c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46b8c497042052a6f711f2b98825269e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de9/curve_8h.html#a46b8c497042052a6f711f2b98825269e">erase_curves</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, int <a class="el" href="../../df/df7/tab-1_8c.html#a4e1e0e72dd773439e333c84dd762a9c3">c</a>)</td></tr>
-<tr class="memdesc:a46b8c497042052a6f711f2b98825269e"><td class="mdescLeft">&#160;</td><td class="mdescRight">free all <a class="el" href="../../d7/d01/structcurve.html" title="The curve data structure.">curve(s)</a> data  <br /></td></tr>
+<tr class="memdesc:a46b8c497042052a6f711f2b98825269e"><td class="mdescLeft">&#160;</td><td class="mdescRight">free all curve(s) data  <br /></td></tr>
 <tr class="separator:a46b8c497042052a6f711f2b98825269e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae454f69f7cdc822a472e7eae391595ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de9/curve_8h.html#ae454f69f7cdc822a472e7eae391595ec">update_curves</a> ()</td></tr>
-<tr class="memdesc:ae454f69f7cdc822a472e7eae391595ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">update all <a class="el" href="../../d7/d01/structcurve.html" title="The curve data structure.">curve(s)</a> rendering for all <a class="el" href="../../dd/dbe/structproject.html" title="The data structure for the &#39;atomes&#39; project.">project(s)</a> in the workspace  <br /></td></tr>
+<tr class="memdesc:ae454f69f7cdc822a472e7eae391595ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">update all curve(s) rendering for all <a class="el" href="../../dd/dbe/structproject.html">project(s)</a> in the workspace  <br /></td></tr>
 <tr class="separator:ae454f69f7cdc822a472e7eae391595ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b64dae8a7aec8e7ea7bbc117b68b60a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de9/curve_8h.html#a7b64dae8a7aec8e7ea7bbc117b68b60a">update_curve</a> (gpointer <a class="el" href="../../d7/d01/structcurve.html">curve</a>)</td></tr>
+<tr class="memitem:a7b64dae8a7aec8e7ea7bbc117b68b60a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de9/curve_8h.html#a7b64dae8a7aec8e7ea7bbc117b68b60a">update_curve</a> (gpointer curve)</td></tr>
 <tr class="memdesc:a7b64dae8a7aec8e7ea7bbc117b68b60a"><td class="mdescLeft">&#160;</td><td class="mdescRight">update curve rendering  <br /></td></tr>
 <tr class="separator:a7b64dae8a7aec8e7ea7bbc117b68b60a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2745f6d0bbcac7137b688a0f1e851af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de9/curve_8h.html#ab2745f6d0bbcac7137b688a0f1e851af">show_curve</a> (GtkDrawingArea *area, cairo_t *cr, int width, int height, gpointer <a class="el" href="../../d7/d01/structcurve.html">curve</a>)</td></tr>
+<tr class="memitem:ab2745f6d0bbcac7137b688a0f1e851af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de9/curve_8h.html#ab2745f6d0bbcac7137b688a0f1e851af">show_curve</a> (GtkDrawingArea *area, cairo_t *cr, int width, int height, gpointer curve)</td></tr>
 <tr class="memdesc:ab2745f6d0bbcac7137b688a0f1e851af"><td class="mdescLeft">&#160;</td><td class="mdescRight">show curve callback GTK3  <br /></td></tr>
 <tr class="separator:ab2745f6d0bbcac7137b688a0f1e851af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30401b16a2e3b96096000dc9c251a19c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de9/curve_8h.html#a30401b16a2e3b96096000dc9c251a19c">hide_curve</a> (gpointer data)</td></tr>
@@ -1143,7 +1143,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>free all <a class="el" href="../../d7/d01/structcurve.html" title="The curve data structure.">curve(s)</a> data </p>
+<p>free all curve(s) data </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">this_proj</td><td>the target project </td></tr>
@@ -2222,7 +2222,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>update all <a class="el" href="../../d7/d01/structcurve.html" title="The curve data structure.">curve(s)</a> rendering for all <a class="el" href="../../dd/dbe/structproject.html" title="The data structure for the &#39;atomes&#39; project.">project(s)</a> in the workspace </p>
+<p>update all curve(s) rendering for all <a class="el" href="../../dd/dbe/structproject.html">project(s)</a> in the workspace </p>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d22/curve_8c_source.html#l00559">559</a> of file <a class="el" href="../../dc/d22/curve_8c_source.html">curve.c</a>.</p>
 

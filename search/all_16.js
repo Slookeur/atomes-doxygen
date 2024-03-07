@@ -101,6 +101,6 @@ var searchData=
   ['wsize_98',['wsize',['../da/d6e/struct_curve.html#a0ba1fe22845cab299cf7117ff65bd792',1,'Curve']]],
   ['wyck_5forigin_99',['wyck_origin',['../de/df2/structspace__group.html#a4d6f9918511d0286191167bdf5a6cdb3',1,'space_group']]],
   ['wyckoff_100',['wyckoff',['../d0/d2f/structcoord__file.html#a7c38061431b148c1f5b9cca64fefada8',1,'coord_file::wyckoff()'],['../de/df2/structspace__group.html#a77a0b69b77975718ab773f6f1f6d307d',1,'space_group::wyckoff()']]],
-  ['wyckoff_5fposition_101',['wyckoff_position',['../d9/d4f/structwyckoff__position.html',1,'wyckoff_position'],['../da/d7e/glwin_8h.html#a13a307ab4374db8b4716ccd3ccfe39b7',1,'wyckoff_position():&#160;glwin.h']]],
+  ['wyckoff_5fposition_101',['wyckoff_position',['../d9/d4f/structwyckoff__position.html',1,'wyckoff_position'],['../da/d7e/glwin_8h.html#abbd63a17c08d0b0e3f1323b807efdfc9',1,'wyckoff_position():&#160;glwin.h']]],
   ['wypts_5fvbox_102',['wypts_vbox',['../d9/ded/cbuild__info_8c.html#a2305aa633c70f95913298ab8298a9714',1,'cbuild_info.c']]]
 ];
