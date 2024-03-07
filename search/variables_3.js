@@ -95,7 +95,7 @@ var searchData=
   ['doampat_92',['doampat',['../d4/d52/namespaceparameters.html#ac316be53c6b4ef63c56a7e6870a58003',1,'parameters']]],
   ['dogrid_93',['dogrid',['../dc/d22/curve_8c.html#aae38ba7f621e79b1dd31235501bf36b7',1,'dogrid():&#160;curve.c'],['../df/de9/curve_8h.html#aae38ba7f621e79b1dd31235501bf36b7',1,'dogrid():&#160;curve.c']]],
   ['dosearch_94',['dosearch',['../d4/d52/namespaceparameters.html#ac412f556af7dfdf22dd0773206f85b35',1,'parameters']]],
-  ['dots_95',['dots',['../dc/d57/global_8c.html#aef1fdfa4c24bee7605e735ed18a91c6a',1,'dots():&#160;global.c'],['../d2/d49/global_8h.html#aef1fdfa4c24bee7605e735ed18a91c6a',1,'dots():&#160;global.c']]],
+  ['dots_95',['dots',['../d2/d49/global_8h.html#aef1fdfa4c24bee7605e735ed18a91c6a',1,'dots():&#160;gui.c'],['../d5/d03/gui_8c.html#aef1fdfa4c24bee7605e735ed18a91c6a',1,'dots():&#160;gui.c']]],
   ['down_96',['down',['../d2/d19/structspinner.html#ad906f15c411785dc1d7b1552a8ce118c',1,'spinner']]],
   ['draw_5fclones_97',['draw_clones',['../de/d68/structimage.html#a8dacabc2dfee399f931818e99758c8bc',1,'image']]],
   ['draw_5fid_98',['draw_id',['../d7/d01/structcurve.html#ad5e795fa91ac8f3e96697feeecfc588d',1,'curve']]],

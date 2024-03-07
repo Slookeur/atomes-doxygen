@@ -110,7 +110,8 @@ $(document).ready(function(){initNavTree('d5/d03/gui_8c.html','../../'); initRes
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for gui.c:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/db8/gui_8c__incl.svg" width="100%" height="492"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/db8/gui_8c__incl.svg" width="100%" height="492"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div>
 <p><a href="../../d5/d03/gui_8c_source.html">Go to the source code of this file.</a></p>
@@ -233,6 +234,16 @@ Variables</h2></td></tr>
 <tr class="separator:adef6b24673430ffc88cd14e929b31ea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a761b5f290ad49b77d7ceee5b2bf953e9"><td class="memItemLeft" align="right" valign="top">int **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d03/gui_8c.html#a761b5f290ad49b77d7ceee5b2bf953e9">tmp_object_id</a> [3]</td></tr>
 <tr class="separator:a761b5f290ad49b77d7ceee5b2bf953e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef1fdfa4c24bee7605e735ed18a91c6a"><td class="memItemLeft" align="right" valign="top">gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d03/gui_8c.html#aef1fdfa4c24bee7605e735ed18a91c6a">dots</a> [<a class="el" href="../../d2/d49/global_8h.html#af9790b2c5fe8fae3157a1f987e013619">NDOTS</a>]</td></tr>
+<tr class="separator:aef1fdfa4c24bee7605e735ed18a91c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6eb4dfe8201a0bd388a26a55f30a3727"><td class="memItemLeft" align="right" valign="top">gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d03/gui_8c.html#a6eb4dfe8201a0bd388a26a55f30a3727">calc_img</a> [<a class="el" href="../../d2/d49/global_8h.html#af19447b23ec1871b2b02ad97ff5a9c5a">NCALCS</a>-2]</td></tr>
+<tr class="separator:a6eb4dfe8201a0bd388a26a55f30a3727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53450eb3ef1bf070eb9c89c9f8bca952"><td class="memItemLeft" align="right" valign="top">gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d03/gui_8c.html#a53450eb3ef1bf070eb9c89c9f8bca952">graph_img</a> [<a class="el" href="../../d2/d49/global_8h.html#a65d11bbed129aadf7f2be8fe5a108bfc">NGRAPHS</a>]</td></tr>
+<tr class="separator:a53450eb3ef1bf070eb9c89c9f8bca952"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7398ae8daba1bd18190e2cea0ff7735"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d03/gui_8c.html#af7398ae8daba1bd18190e2cea0ff7735">calc_name</a> [<a class="el" href="../../d2/d49/global_8h.html#af19447b23ec1871b2b02ad97ff5a9c5a">NCALCS</a>-2]</td></tr>
+<tr class="separator:af7398ae8daba1bd18190e2cea0ff7735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac889711808825fe192212c8a19e2d2b3"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d03/gui_8c.html#ac889711808825fe192212c8a19e2d2b3">graph_name</a> [<a class="el" href="../../d2/d49/global_8h.html#a65d11bbed129aadf7f2be8fe5a108bfc">NGRAPHS</a>]</td></tr>
+<tr class="separator:ac889711808825fe192212c8a19e2d2b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac73279370cbb0c38b739615f248958eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d46/structtint.html">tint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d03/gui_8c.html#ac73279370cbb0c38b739615f248958eb">cut_sel</a></td></tr>
 <tr class="separator:ac73279370cbb0c38b739615f248958eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fbef12e0c6c97289112b71c8a73f9c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d46/structtint.html">tint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d03/gui_8c.html#a2fbef12e0c6c97289112b71c8a73f9c1">cut_lab</a></td></tr>
@@ -274,7 +285,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00258">258</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00284">284</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -376,7 +387,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00606">606</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00632">632</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -422,7 +433,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00576">576</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00602">602</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -461,7 +472,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00199">199</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00225">225</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -482,7 +493,7 @@ Variables</h2></td></tr>
 
 <p>create atomes menu bar </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00878">878</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00904">904</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -528,7 +539,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00320">320</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00346">346</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -549,7 +560,7 @@ Variables</h2></td></tr>
 
 <p>clean the main window </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00133">133</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00159">159</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -609,7 +620,7 @@ Variables</h2></td></tr>
 
 <p>create atomes 'analyze' menu </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00843">843</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00869">869</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -630,7 +641,7 @@ Variables</h2></td></tr>
 
 <p>create atomes 'edit' menu </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00817">817</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00843">843</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -725,7 +736,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00530">530</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00556">556</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -746,7 +757,7 @@ Variables</h2></td></tr>
 
 <p>create atomes 'help' menu </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00864">864</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00890">890</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -774,7 +785,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00942">942</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00968">968</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -827,7 +838,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00800">800</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00826">826</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -906,7 +917,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00458">458</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00484">484</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -934,7 +945,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00731">731</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00757">757</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -1012,7 +1023,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l01376">1376</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l01378">1378</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1137,7 +1148,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00654">654</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00680">680</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -1190,7 +1201,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00678">678</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00704">704</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -1229,7 +1240,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00774">774</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00800">800</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -1257,7 +1268,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00745">745</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00771">771</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -1285,7 +1296,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00270">270</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00296">296</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -1306,7 +1317,7 @@ Variables</h2></td></tr>
 
 <p>remove all edition actions </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00280">280</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00306">306</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -1327,7 +1338,7 @@ Variables</h2></td></tr>
 
 <p>remove all edition and analysis action </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00291">291</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00317">317</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -1366,7 +1377,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00306">306</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00332">332</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -1387,7 +1398,7 @@ Variables</h2></td></tr>
 
 <p>create toolboxes menu item </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00831">831</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00857">857</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -1415,7 +1426,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00156">156</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00182">182</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -1496,7 +1507,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00489">489</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00515">515</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -1574,7 +1585,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00623">623</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00649">649</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -1595,11 +1606,53 @@ Variables</h2></td></tr>
 
 <p>create the 'Workspace' menu item </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00759">759</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00785">785</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a6eb4dfe8201a0bd388a26a55f30a3727" name="a6eb4dfe8201a0bd388a26a55f30a3727"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6eb4dfe8201a0bd388a26a55f30a3727">&#9670;&#160;</a></span>calc_img</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">gchar* calc_img[<a class="el" href="../../d2/d49/global_8h.html#af19447b23ec1871b2b02ad97ff5a9c5a">NCALCS</a>-2]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00104">104</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+
+</div>
+</div>
+<a id="af7398ae8daba1bd18190e2cea0ff7735" name="af7398ae8daba1bd18190e2cea0ff7735"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7398ae8daba1bd18190e2cea0ff7735">&#9670;&#160;</a></span>calc_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* calc_name[<a class="el" href="../../d2/d49/global_8h.html#af19447b23ec1871b2b02ad97ff5a9c5a">NCALCS</a>-2]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {<span class="stringliteral">&quot;g(r)/G(r)&quot;</span>,</div>
+<div class="line">                              <span class="stringliteral">&quot;S(q) from FFT[g(r)]&quot;</span>,</div>
+<div class="line">                              <span class="stringliteral">&quot;S(q) from Debye equation&quot;</span>,</div>
+<div class="line">                              <span class="stringliteral">&quot;g(r)/G(r) from FFT[S(q)]&quot;</span>,</div>
+<div class="line">                              <span class="stringliteral">&quot;Bonds and angles&quot;</span>,</div>
+<div class="line">                              <span class="stringliteral">&quot;Ring statistics&quot;</span>,</div>
+<div class="line">                              <span class="stringliteral">&quot;Chain statistics&quot;</span>,</div>
+<div class="line">                              <span class="stringliteral">&quot;Spherical harmonics&quot;</span>,</div>
+<div class="line">                              <span class="stringliteral">&quot;Mean Squared Displacement&quot;</span>,</div>
+<div class="line">                              <span class="stringliteral">&quot;Bond valence&quot;</span>}</div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00107">107</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+
+</div>
+</div>
 <a id="a2fbef12e0c6c97289112b71c8a73f9c1" name="a2fbef12e0c6c97289112b71c8a73f9c1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2fbef12e0c6c97289112b71c8a73f9c1">&#9670;&#160;</a></span>cut_lab</h2>
 
@@ -1612,7 +1665,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00104">104</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00130">130</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -1628,7 +1681,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00103">103</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00129">129</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -1644,7 +1697,65 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00131">131</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+
+</div>
+</div>
+<a id="aef1fdfa4c24bee7605e735ed18a91c6a" name="aef1fdfa4c24bee7605e735ed18a91c6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef1fdfa4c24bee7605e735ed18a91c6a">&#9670;&#160;</a></span>dots</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">gchar* dots[<a class="el" href="../../d2/d49/global_8h.html#af9790b2c5fe8fae3157a1f987e013619">NDOTS</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00103">103</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+
+</div>
+</div>
+<a id="a53450eb3ef1bf070eb9c89c9f8bca952" name="a53450eb3ef1bf070eb9c89c9f8bca952"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53450eb3ef1bf070eb9c89c9f8bca952">&#9670;&#160;</a></span>graph_img</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">gchar* graph_img[<a class="el" href="../../d2/d49/global_8h.html#a65d11bbed129aadf7f2be8fe5a108bfc">NGRAPHS</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 <p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00105">105</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+
+</div>
+</div>
+<a id="ac889711808825fe192212c8a19e2d2b3" name="ac889711808825fe192212c8a19e2d2b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac889711808825fe192212c8a19e2d2b3">&#9670;&#160;</a></span>graph_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* graph_name[<a class="el" href="../../d2/d49/global_8h.html#a65d11bbed129aadf7f2be8fe5a108bfc">NGRAPHS</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {<span class="stringliteral">&quot;g(r)/G(r)&quot;</span>,</div>
+<div class="line">                              <span class="stringliteral">&quot;S(q) from FFT[g(r)]&quot;</span>,</div>
+<div class="line">                              <span class="stringliteral">&quot;S(q) from Debye equation&quot;</span>,</div>
+<div class="line">                              <span class="stringliteral">&quot;g(r)/G(r) from FFT[S(q)]&quot;</span>,</div>
+<div class="line">                              <span class="stringliteral">&quot;Bonds properties&quot;</span>,</div>
+<div class="line">                              <span class="stringliteral">&quot;Angle distributions&quot;</span>,</div>
+<div class="line">                              <span class="stringliteral">&quot;Ring statistics&quot;</span>,</div>
+<div class="line">                              <span class="stringliteral">&quot;Chain statistics&quot;</span>,</div>
+<div class="line">                              <span class="stringliteral">&quot;Spherical harmonics&quot;</span>,</div>
+<div class="line">                              <span class="stringliteral">&quot;Mean Squared Displacement&quot;</span>}</div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00118">118</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -1708,7 +1819,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00106">106</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00132">132</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>

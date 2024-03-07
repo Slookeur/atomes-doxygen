@@ -6,7 +6,7 @@ var searchData=
   ['ogl_5frenders_3',['OGL_RENDERS',['../da/d7e/glwin_8h.html#a48aae2164d61dc1b64c386e13b8d05b2',1,'glwin.h']]],
   ['ogl_5freps_4',['OGL_REPS',['../da/d7e/glwin_8h.html#aac60c6048747551fa20ce3639a0f3014',1,'glwin.h']]],
   ['ogl_5frings_5',['OGL_RINGS',['../da/d7e/glwin_8h.html#a48e1539c7c36be34ac072ca9829ad26a',1,'glwin.h']]],
-  ['ogl_5fstyles_6',['OGL_STYLES',['../dc/d57/global_8c.html#a9f12794308fe8ac2f20663e0c15cb7a8',1,'OGL_STYLES():&#160;global.c'],['../da/d7e/glwin_8h.html#a9f12794308fe8ac2f20663e0c15cb7a8',1,'OGL_STYLES():&#160;glwin.h']]],
+  ['ogl_5fstyles_6',['OGL_STYLES',['../da/d7e/glwin_8h.html#a9f12794308fe8ac2f20663e0c15cb7a8',1,'glwin.h']]],
   ['ok_7',['OK',['../d2/d49/global_8h.html#aba51915c87d64af47fb1cc59348961c9',1,'global.h']]],
   ['oplsaap_8',['OPLSAAP',['../d8/da6/dlp__field_8h.html#ad88f089a1ccb94658c1cfce4b37496a4',1,'dlp_field.h']]],
   ['oplsaar_9',['OPLSAAR',['../d8/da6/dlp__field_8h.html#a7e25ef7b04b262979ae428d73ecff74a',1,'dlp_field.h']]],

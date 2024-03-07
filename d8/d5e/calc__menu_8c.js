@@ -40,6 +40,7 @@ var calc__menu_8c =
     [ "avbox", "d8/d5e/calc__menu_8c.html#a9162dc196e7cbe383935da4426b43f77", null ],
     [ "avsize", "d8/d5e/calc__menu_8c.html#a417f439bd30dfa8d7c101388087590f4", null ],
     [ "ba_entry", "d8/d5e/calc__menu_8c.html#a89d86f52dc91c6dab492665687da7e4c", null ],
+    [ "calc_img", "d8/d5e/calc__menu_8c.html#a6eb4dfe8201a0bd388a26a55f30a3727", null ],
     [ "calc_win", "d8/d5e/calc__menu_8c.html#aff39a28140ae6b9a2e9a79ec328e97c9", null ],
     [ "rings_box", "d8/d5e/calc__menu_8c.html#a2b3cc005056bd23ac5a79efc60c7becb", null ],
     [ "rings_check", "d8/d5e/calc__menu_8c.html#abf17471c23593710b9643081b4dcbce9", null ],

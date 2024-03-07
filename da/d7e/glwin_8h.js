@@ -77,5 +77,7 @@ var glwin_8h =
       [ "LIGHT", "da/d7e/glwin_8h.html#aa83fc5725f65244abc4c3557e19e2e3aaf917d6c11c85b4ac32e30d1cc9da25eb", null ],
       [ "SLABS", "da/d7e/glwin_8h.html#aa83fc5725f65244abc4c3557e19e2e3aa38faedc6dcd7b1c773ecea83dd9e2a5d", null ],
       [ "VOLMS", "da/d7e/glwin_8h.html#aa83fc5725f65244abc4c3557e19e2e3aa279c76aeae807d961edb16ce68897258", null ]
-    ] ]
+    ] ],
+    [ "text_filled", "da/d7e/glwin_8h.html#a74fa4cd749d1a6ff73e03a1414940f87", null ],
+    [ "text_styles", "da/d7e/glwin_8h.html#af3236ae49531d39db478f780c7d54a28", null ]
 ];

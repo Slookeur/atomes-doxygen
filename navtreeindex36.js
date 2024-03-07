@@ -1,11 +1,5 @@
 var NAVTREEINDEX36 =
 {
-"namespacemembers_vars.html":[0,1,1],
-"namespacemembers_vars.html":[0,1,1,0],
-"namespacemembers_vars_b.html":[0,1,1,1],
-"namespacemembers_vars_c.html":[0,1,1,2],
-"namespacemembers_vars_d.html":[0,1,1,3],
-"namespacemembers_vars_e.html":[0,1,1,4],
 "namespacemembers_vars_f.html":[0,1,1,5],
 "namespacemembers_vars_g.html":[0,1,1,6],
 "namespacemembers_vars_h.html":[0,1,1,7],

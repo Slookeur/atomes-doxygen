@@ -39,6 +39,8 @@ var callbacks_8c =
     [ "update_sa", "d3/d3a/callbacks_8c.html#ababdc2c85d3dc45c95d290553900ebba", null ],
     [ "update_sa_info", "d3/d3a/callbacks_8c.html#ac46d4268c62b50ba8ac2dff8c193289c", null ],
     [ "all_sp_box", "d3/d3a/callbacks_8c.html#a3cfc9aabc1ea27145068c45cade292c6", null ],
+    [ "coord_files", "d3/d3a/callbacks_8c.html#ad431d58325d76bdc4df60f58762562b6", null ],
+    [ "coord_files_ext", "d3/d3a/callbacks_8c.html#ab03bc5bfbcd90502d4bc6b0ca2048c5b", null ],
     [ "dfi", "d3/d3a/callbacks_8c.html#acf577d21e9b78af5cf7434675e3b0309", null ],
     [ "filter", "d3/d3a/callbacks_8c.html#a93d216f4525c1c39ffab08387948468c", null ],
     [ "las", "d3/d3a/callbacks_8c.html#a59f517252ccbe13be93fc8dfce2ed772", null ],
