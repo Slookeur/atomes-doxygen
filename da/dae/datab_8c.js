@@ -35,7 +35,7 @@ var datab_8c =
     [ "run_multiply_column", "da/dae/datab_8c.html#a3312e03845034ce4ec358ae9c83077b8", null ],
     [ "save_row", "da/dae/datab_8c.html#a693bb274b1e8d78bf6a94ed1d0260df7", null ],
     [ "select_row", "da/dae/datab_8c.html#a43e6d1df6ef3c8d44dd06b0ac6dbac2e", null ],
-    [ "setview", "da/dae/datab_8c.html#a62e48bf1ac8851872a078c089c230bfd", null ],
+    [ "setview", "da/dae/datab_8c.html#a66b7a0a8fd9181ec92a370c63240c5e6", null ],
     [ "update_first_col", "da/dae/datab_8c.html#a29f54bda81dcd4133012f0207def5ba1", null ],
     [ "update_first_row", "da/dae/datab_8c.html#ac0a0c5a916da3c74355b91bd28532440", null ],
     [ "validate_changes", "da/dae/datab_8c.html#ac3871fde802a05fd666c3f85501879e2", null ],

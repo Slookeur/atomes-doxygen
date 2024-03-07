@@ -1,6 +1,6 @@
 var edit__menu_8c =
 [
-    [ "cut_box", "d8/da6/edit__menu_8c.html#a52ff77a7b65a365a726cc0e5e7181a5d", null ],
+    [ "cut_box", "d8/da6/edit__menu_8c.html#a3a50839cc2e42eb60208dc3112ecbf2d", null ],
     [ "edit_bonds", "d8/da6/edit__menu_8c.html#a36124314fbb33eedc8cc0bc23439c0ac", null ],
     [ "edit_box", "d8/da6/edit__menu_8c.html#abaabb0e46c1611b51c0bb15cb23fa5be", null ],
     [ "edit_chem", "d8/da6/edit__menu_8c.html#a65d6883a1b7c96b3efa86dddd26ced57", null ],
@@ -23,7 +23,7 @@ var edit__menu_8c =
     [ "toggle_xcor", "d8/da6/edit__menu_8c.html#ad719fc2d4034c06947e9a0b049d4d728", null ],
     [ "update_box", "d8/da6/edit__menu_8c.html#a2948417c8cba7344e93e39bf59fbcb53", null ],
     [ "update_chemistry", "d8/da6/edit__menu_8c.html#a42064b243a384e56ff812d657684be9c", null ],
-    [ "update_cutoffs", "d8/da6/edit__menu_8c.html#aa6717448b1ac470eb31d5d2b278e7b9d", null ],
+    [ "update_cutoffs", "d8/da6/edit__menu_8c.html#a288f29ed037f464a34e064ae62b387da", null ],
     [ "update_vect", "d8/da6/edit__menu_8c.html#a9abecb997a8b89342108313a9c11b934", null ],
     [ "box_p", "d8/da6/edit__menu_8c.html#a842dac5fbd6853dcf8c42107278b2c6e", null ],
     [ "box_prop", "d8/da6/edit__menu_8c.html#a1fe2f4c9ccaa9b28453f0fdef9a9923f", null ],

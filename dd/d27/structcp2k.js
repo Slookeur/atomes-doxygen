@@ -7,7 +7,7 @@ var structcp2k =
     [ "fixlist", "dd/d27/structcp2k.html#afe27099dcc306638616d17cf47681daa", null ],
     [ "info", "dd/d27/structcp2k.html#a48bd1412f0bc4aa9ed96cfa27df19744", null ],
     [ "input_type", "dd/d27/structcp2k.html#a395840769da8369299fac09efb0d0895", null ],
-    [ "ions_thermostat", "dd/d27/structcp2k.html#af40619c20a2e5b6320cd54ca42b4347e", null ],
+    [ "ions_thermostat", "dd/d27/structcp2k.html#a9a2a7fcd0b7631e860be7a82f9c9b411", null ],
     [ "opts", "dd/d27/structcp2k.html#af3e39418cf65f222f346cd75ecfc054f", null ],
     [ "spec_data", "dd/d27/structcp2k.html#ac0e958eac3adcaa79a19bb8b65204d6f", null ],
     [ "spec_files", "dd/d27/structcp2k.html#ae03bac4cc59628eb98039de1472433a8", null ],

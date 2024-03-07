@@ -13,7 +13,7 @@ var workspace_8c =
     [ "on_workspace_button_event", "d3/da6/workspace_8c.html#adc9ecd38a5ed289554aacb89689707f0", null ],
     [ "remove_project_from_workspace", "d3/da6/workspace_8c.html#a20e8ecca9f1ef3761c8b71c8eb4987a3", null ],
     [ "work_menu", "d3/da6/workspace_8c.html#aa01a63b5d5d4b2a44d206c2e5b34614f", null ],
-    [ "workinfo", "d3/da6/workspace_8c.html#adadc5e0e955fda8374cdc8af6688c4c9", null ],
+    [ "workinfo", "d3/da6/workspace_8c.html#ab472d26c2958f8fbeddb2c3237710dd4", null ],
     [ "workspace_menu", "d3/da6/workspace_8c.html#a6b64b27a8034c2130a2367e43476b4e5", null ],
     [ "workspace_ondc", "d3/da6/workspace_8c.html#a098a75e6e7afdfbefdd320731327e70f", null ],
     [ "workspace_set_visible", "d3/da6/workspace_8c.html#a205d54ab59c06602e9bb745cdaf5a1b9", null ],

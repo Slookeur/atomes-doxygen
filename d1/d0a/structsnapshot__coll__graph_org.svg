@@ -123,9 +123,9 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../dd/d4c/structselatom.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="274.15,-334.5 223.15,-334.5 223.15,-315.5 274.15,-315.5 274.15,-334.5"/>
-<text text-anchor="middle" x="248.65" y="-322.5" font-family="Helvetica,sans-Serif" font-size="10.00">selatom</text>
+<g id="a_node6"><a xlink:href="../../df/dab/structatom__in__selection.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="296.15,-334.5 201.15,-334.5 201.15,-315.5 296.15,-315.5 296.15,-334.5"/>
+<text text-anchor="middle" x="248.65" y="-322.5" font-family="Helvetica,sans-Serif" font-size="10.00">atom_in_selection</text>
 </a>
 </g>
 </g>
@@ -140,10 +140,10 @@
 <!-- Node6&#45;&gt;Node6 -->
 <g id="edge9" class="edge">
 <title>Node6&#45;&gt;Node6</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M280.03,-335.32C287.04,-334.37 292.15,-330.93 292.15,-325 292.15,-316.17 280.82,-312.86 268.79,-315.07"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="280.41,-331.83 270.3,-334.98 280.17,-338.83 280.41,-331.83"/>
-<text text-anchor="middle" x="303.15" y="-328" font-family="Helvetica,sans-Serif" font-size="10.00"> next</text>
-<text text-anchor="middle" x="303.15" y="-317" font-family="Helvetica,sans-Serif" font-size="10.00">prev</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M290.79,-335.58C303.87,-335.38 314.15,-331.85 314.15,-325 314.15,-316.23 297.3,-312.9 279.31,-315.03"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="290.99,-332.09 280.82,-335.05 290.62,-339.08 290.99,-332.09"/>
+<text text-anchor="middle" x="325.15" y="-328" font-family="Helvetica,sans-Serif" font-size="10.00"> next</text>
+<text text-anchor="middle" x="325.15" y="-317" font-family="Helvetica,sans-Serif" font-size="10.00">prev</text>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">

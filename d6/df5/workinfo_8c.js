@@ -1,13 +1,13 @@
 var workinfo_8c =
 [
-    [ "model_info", "d6/df5/workinfo_8c.html#a366bb0e4fb5c1ae57d69bee5ad744472", null ],
-    [ "opengl_info", "d6/df5/workinfo_8c.html#a3ff7fad83eb6ddb52d9af6732e84ddac", null ],
-    [ "update_angle_view", "d6/df5/workinfo_8c.html#aca8b8e0492b0a154b2b530e159880f7e", null ],
-    [ "update_chains_view", "d6/df5/workinfo_8c.html#a8040e75d3414e88ab8e77340caa7cba1", null ],
-    [ "update_msd_view", "d6/df5/workinfo_8c.html#a206f27179c3ef75f78bf1dea1f141fcb", null ],
-    [ "update_rdf_view", "d6/df5/workinfo_8c.html#a3d367539c1ddc92018e12a4a39dac582", null ],
-    [ "update_rings_view", "d6/df5/workinfo_8c.html#a0a995a8498097668f1cf892e776494cd", null ],
-    [ "update_spherical_view", "d6/df5/workinfo_8c.html#a326c2fb52bf2c51c1eb8e38e424bd478", null ],
-    [ "update_sq_view", "d6/df5/workinfo_8c.html#a2f109fad08fbfd017e162f7d64e405a5", null ],
-    [ "workinfo", "d6/df5/workinfo_8c.html#adadc5e0e955fda8374cdc8af6688c4c9", null ]
+    [ "model_info", "d6/df5/workinfo_8c.html#aa0cb375814503f520409e3e211415f18", null ],
+    [ "opengl_info", "d6/df5/workinfo_8c.html#a6a1c95c6591275d6bb1ce84a46de2a6b", null ],
+    [ "update_angle_view", "d6/df5/workinfo_8c.html#abd2c10c1372a56f6e48387875d799dd1", null ],
+    [ "update_chains_view", "d6/df5/workinfo_8c.html#a1b13c7bb7787efcf1db353eefb47aac7", null ],
+    [ "update_msd_view", "d6/df5/workinfo_8c.html#ac804878efda174843ef44e26c0a07499", null ],
+    [ "update_rdf_view", "d6/df5/workinfo_8c.html#a1e00321a02c10ce57a95d7b1ec9023ec", null ],
+    [ "update_rings_view", "d6/df5/workinfo_8c.html#a33455b849d569554e8ec454c323bffc5", null ],
+    [ "update_spherical_view", "d6/df5/workinfo_8c.html#af315e0d858513734eef4c6898519fe5a", null ],
+    [ "update_sq_view", "d6/df5/workinfo_8c.html#a2af97015d685db3c60f05f2ec215e8c8", null ],
+    [ "workinfo", "d6/df5/workinfo_8c.html#ab472d26c2958f8fbeddb2c3237710dd4", null ]
 ];

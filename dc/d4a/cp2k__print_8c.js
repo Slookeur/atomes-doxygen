@@ -34,7 +34,7 @@ var cp2k__print_8c =
     [ "scf_wrestart", "dc/d4a/cp2k__print_8c.html#a41f3d14f6ddb6938a0f249c403f90dda", null ],
     [ "thermo_region", "dc/d4a/cp2k__print_8c.html#abd6fe141194669f990c297dc1b434e8a", null ],
     [ "thermo_type", "dc/d4a/cp2k__print_8c.html#acbc22ae6261e85f86107bf01d273abca", null ],
-    [ "thermostat", "dc/d4a/cp2k__print_8c.html#a4dcc009750de1b259589d055f2a823e6", null ],
+    [ "thermostatr", "dc/d4a/cp2k__print_8c.html#a0b454afa5b5d98e7dd2b798bebcd696f", null ],
     [ "v_thermo", "dc/d4a/cp2k__print_8c.html#a57a4598233d56da472e592d8663c5524", null ],
     [ "vdw_fct", "dc/d4a/cp2k__print_8c.html#a2f1b7fe78ec3be5d94b8266821098317", null ]
 ];

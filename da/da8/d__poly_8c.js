@@ -8,7 +8,7 @@ var d__poly_8c =
     [ "is_atom_cloned", "da/da8/d__poly_8c.html#ac9f0ce3d2f6b44da5a815964ae26a97b", null ],
     [ "is_in_triangle", "da/da8/d__poly_8c.html#ad182695e80945f5ff2fdb5cb4b500584", null ],
     [ "is_inside", "da/da8/d__poly_8c.html#a82e848f5adf011397fbe75d119b9b868", null ],
-    [ "prepare_poly_gl", "da/da8/d__poly_8c.html#ab5d431f8855796e6d19dad030312bc73", null ],
+    [ "prepare_poly_gl", "da/da8/d__poly_8c.html#a94be5954dba3e42f24beb16ed5bebb8f", null ],
     [ "setup_polyhedron", "da/da8/d__poly_8c.html#af8604d97c216efacf2d49e614db1987f", null ],
     [ "setup_summit", "da/da8/d__poly_8c.html#a14789ae3fa5ac7e7d438671dde968bf5", null ],
     [ "setup_tetra", "da/da8/d__poly_8c.html#a87aed30583014142e14d699a550c702a", null ],

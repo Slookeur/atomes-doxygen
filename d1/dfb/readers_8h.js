@@ -2,7 +2,7 @@ var readers_8h =
 [
     [ "add_reader_info", "d1/dfb/readers_8h.html#a630d3a4aa6950e90f0bf96dba9360ed9", null ],
     [ "alloc_chem_data", "d1/dfb/readers_8h.html#a65f517a38665eb1a8ef5f509cb9b51a7", null ],
-    [ "allocatoms", "d1/dfb/readers_8h.html#a8c0b1e9a2d9f044f5e5a19954f909450", null ],
+    [ "allocatoms", "d1/dfb/readers_8h.html#a9029033b03552b5262301b744f6d50e5", null ],
     [ "check_for_species", "d1/dfb/readers_8h.html#ac92363a753723a49306835859e63c087", null ],
     [ "format_error", "d1/dfb/readers_8h.html#a894eef4b4fba3765d6fc8aa08f7502e7", null ],
     [ "get_z_from_periodic_table", "d1/dfb/readers_8h.html#a370c1beac5e05205f04692db5f75183b", null ],

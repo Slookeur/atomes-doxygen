@@ -2,8 +2,8 @@ var open__p_8c =
 [
     [ "alloc_chem_data", "da/d5e/open__p_8c.html#a65f517a38665eb1a8ef5f509cb9b51a7", null ],
     [ "alloc_curves", "da/d5e/open__p_8c.html#ae5f01ed6135fbe5424b77f60840f0bb5", null ],
-    [ "alloc_proj_data", "da/d5e/open__p_8c.html#a7f7020c52d8db766f095ef4e4d4868b6", null ],
-    [ "allocatoms", "da/d5e/open__p_8c.html#a8c0b1e9a2d9f044f5e5a19954f909450", null ],
+    [ "alloc_proj_data", "da/d5e/open__p_8c.html#ac05d554daddbb3118b4026ddae56e1f8", null ],
+    [ "allocatoms", "da/d5e/open__p_8c.html#a9029033b03552b5262301b744f6d50e5", null ],
     [ "init_box_calc", "da/d5e/open__p_8c.html#a74555093d6329c8c99fba42ae1a913f3", null ],
     [ "initang", "da/d5e/open__p_8c.html#a273cfd6b771d21948b6120c72dc525ec", null ],
     [ "initbd", "da/d5e/open__p_8c.html#abb426625d20a0461d4ec92209e2fbeb1", null ],

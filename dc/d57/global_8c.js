@@ -38,7 +38,6 @@ var global_8c =
     [ "calc_dialog", "dc/d57/global_8c.html#aef2d3abc2ab604172252560c3d027de7", null ],
     [ "check_label", "dc/d57/global_8c.html#aab70499bf07f4bcf8bea9073ac80ca69", null ],
     [ "column_label", "dc/d57/global_8c.html#a95dae579c9457dbab1a0fcb0832f9023", null ],
-    [ "copied_object", "dc/d57/global_8c.html#ac213b1e2905608077a7ee211890da326", null ],
     [ "curvetoolbox", "dc/d57/global_8c.html#add05d3a226dc3889160257f0608c475a", null ],
     [ "dialog_id", "dc/d57/global_8c.html#a3a794437d70caf0e0bd7b4adc351506a", null ],
     [ "edition_action_names", "dc/d57/global_8c.html#a225acdf4303e8804618ff6ee801f6ce3", null ],

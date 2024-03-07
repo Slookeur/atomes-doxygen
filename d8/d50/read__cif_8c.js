@@ -1,6 +1,6 @@
 var read__cif_8c =
 [
-    [ "build_crystal", "d8/d50/read__cif_8c.html#a1ced757223eedca944286792008600c4", null ],
+    [ "build_crystal", "d8/d50/read__cif_8c.html#a4dd9e033d112254896a02b13c678b606", null ],
     [ "check_for_to_lab", "d8/d50/read__cif_8c.html#a5832aef0887b8de9869667f4e6f38bb1", null ],
     [ "cif_file_get_atoms_data", "d8/d50/read__cif_8c.html#a5c5112c819b30ad391fb74d390b01580", null ],
     [ "cif_file_get_data_in_loop", "d8/d50/read__cif_8c.html#a8f807ffe9bd7e1593fd2f93f70f74ebb", null ],

@@ -204,7 +204,7 @@ var sectionId = 'dynsection-0';
 <!-- Node20 -->
 <g id="node20" class="node">
 <title>Node20</title>
-<g id="a_node20"><a xlink:href="../../d5/dd2/structglwin.html" target="_top" xlink:title=" ">
+<g id="a_node20"><a xlink:href="../../d5/dd2/structglwin.html" target="_top" xlink:title="OpenGL window widget structure.">
 <polygon fill="white" stroke="#666666" points="820.5,-1068 781.5,-1068 781.5,-1049 820.5,-1049 820.5,-1068"/>
 <text text-anchor="middle" x="801" y="-1056" font-family="Helvetica,sans-Serif" font-size="10.00">glwin</text>
 </a>
@@ -311,16 +311,16 @@ var sectionId = 'dynsection-0';
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
-<g id="a_node17"><a xlink:href="../../d5/de2/structcextra.html" target="_top" xlink:title="Extra curve(s) data information.">
-<polygon fill="white" stroke="#666666" points="641.5,-544 597.5,-544 597.5,-525 641.5,-525 641.5,-544"/>
-<text text-anchor="middle" x="619.5" y="-532" font-family="Helvetica,sans-Serif" font-size="10.00">cextra</text>
+<g id="a_node17"><a xlink:href="../../d8/dea/struct_curve_extra.html" target="_top" xlink:title="Extra curve(s) data information.">
+<polygon fill="white" stroke="#666666" points="652.5,-544 586.5,-544 586.5,-525 652.5,-525 652.5,-544"/>
+<text text-anchor="middle" x="619.5" y="-532" font-family="Helvetica,sans-Serif" font-size="10.00">CurveExtra</text>
 </a>
 </g>
 </g>
 <!-- Node11&#45;&gt;Node17 -->
 <g id="edge20" class="edge">
 <title>Node11&#45;&gt;Node17</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M417.84,-741.15C429.08,-714.68 448.51,-666.82 461,-624.5 471.81,-587.88 449.83,-565.14 479,-540.5 512.15,-512.5 567.14,-520.72 597.23,-528.2"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M417.84,-741.15C429.08,-714.68 448.51,-666.82 461,-624.5 471.81,-587.88 449.83,-565.14 479,-540.5 508.45,-515.63 555.13,-519.34 586.28,-525.72"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="414.63,-739.75 413.91,-750.32 421.07,-742.51 414.63,-739.75"/>
 <text text-anchor="middle" x="520.5" y="-543.5" font-family="Helvetica,sans-Serif" font-size="10.00"> id</text>
 </g>
@@ -389,17 +389,17 @@ var sectionId = 'dynsection-0';
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="../../d7/d01/structcurve.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1010.5,-569 969.5,-569 969.5,-550 1010.5,-550 1010.5,-569"/>
-<text text-anchor="middle" x="990" y="-557" font-family="Helvetica,sans-Serif" font-size="10.00">curve</text>
+<g id="a_node12"><a xlink:href="../../da/d6e/struct_curve.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1011.5,-569 968.5,-569 968.5,-550 1011.5,-550 1011.5,-569"/>
+<text text-anchor="middle" x="990" y="-557" font-family="Helvetica,sans-Serif" font-size="10.00">Curve</text>
 </a>
 </g>
 </g>
 <!-- Node12&#45;&gt;Node1 -->
 <g id="edge13" class="edge">
 <title>Node12&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1021.41,-569.53C1044.1,-577.43 1075.6,-589.28 1102,-602.5 1110.79,-606.9 1120.13,-612.67 1127.57,-617.55"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="1022.76,-566.29 1012.16,-566.37 1020.49,-572.91 1022.76,-566.29"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M1022.64,-569.96C1045.23,-577.85 1076.07,-589.52 1102,-602.5 1110.79,-606.9 1120.13,-612.67 1127.57,-617.55"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="1023.99,-566.72 1013.39,-566.78 1021.71,-573.34 1023.99,-566.72"/>
 <text text-anchor="middle" x="1075" y="-605.5" font-family="Helvetica,sans-Serif" font-size="10.00"> curves</text>
 </g>
 <!-- Node13 -->
@@ -437,7 +437,7 @@ var sectionId = 'dynsection-0';
 <!-- Node14&#45;&gt;Node12 -->
 <g id="edge15" class="edge">
 <title>Node14&#45;&gt;Node12</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M217.68,-1016.38C217.7,-942.37 227.6,-691.67 355,-550.5 427.05,-470.66 474.36,-481.63 580,-461.5 614.49,-454.93 624.2,-456.81 659,-461.5 783.7,-478.32 812.79,-496.22 932,-536.5 944.54,-540.74 958.3,-546.26 969.16,-550.84"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M217.68,-1016.38C217.7,-942.37 227.6,-691.67 355,-550.5 427.05,-470.66 474.36,-481.63 580,-461.5 614.49,-454.93 624.2,-456.81 659,-461.5 783.7,-478.32 812.79,-496.22 932,-536.5 944.13,-540.6 957.41,-545.91 968.1,-550.39"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="214.18,-1016.25 217.75,-1026.22 221.18,-1016.2 214.18,-1016.25"/>
 <text text-anchor="middle" x="619.5" y="-508.5" font-family="Helvetica,sans-Serif" font-size="10.00"> backcolor</text>
 <text text-anchor="middle" x="619.5" y="-497.5" font-family="Helvetica,sans-Serif" font-size="10.00">frame_color</text>
@@ -538,15 +538,15 @@ var sectionId = 'dynsection-0';
 <!-- Node16&#45;&gt;Node12 -->
 <g id="edge18" class="edge">
 <title>Node16&#45;&gt;Node12</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M842.46,-537.56C881.56,-543.41 939.15,-552.04 969.16,-556.53"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M842.58,-537.58C881.22,-543.36 937.83,-551.84 968.09,-556.37"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="843.12,-534.12 832.72,-536.1 842.09,-541.04 843.12,-534.12"/>
 <text text-anchor="middle" x="895.5" y="-552.5" font-family="Helvetica,sans-Serif" font-size="10.00"> extrac</text>
 </g>
 <!-- Node17&#45;&gt;Node16 -->
 <g id="edge19" class="edge">
 <title>Node17&#45;&gt;Node16</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M653.27,-533.95C686.82,-533.39 738.49,-532.53 770.71,-531.99"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="653.25,-530.45 643.31,-534.12 653.37,-537.45 653.25,-530.45"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M663.76,-533.78C696.83,-533.22 741.54,-532.48 770.57,-531.99"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="664.04,-530.27 654.1,-533.94 664.16,-537.27 664.04,-530.27"/>
 <text text-anchor="middle" x="710" y="-547.5" font-family="Helvetica,sans-Serif" font-size="10.00"> first</text>
 <text text-anchor="middle" x="710" y="-536.5" font-family="Helvetica,sans-Serif" font-size="10.00">last</text>
 </g>
@@ -561,7 +561,7 @@ var sectionId = 'dynsection-0';
 <!-- Node18&#45;&gt;Node12 -->
 <g id="edge23" class="edge">
 <title>Node18&#45;&gt;Node12</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M664.03,-605.36C744.11,-594.06 911.81,-570.39 969.22,-562.29"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M663.98,-605.36C743.63,-594.12 910.14,-570.63 968.36,-562.41"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="663.79,-601.86 654.38,-606.72 664.77,-608.79 663.79,-601.86"/>
 <text text-anchor="middle" x="801" y="-594.5" font-family="Helvetica,sans-Serif" font-size="10.00"> state</text>
 </g>

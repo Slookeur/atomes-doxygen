@@ -1,11 +1,11 @@
 var atom__remove_8c =
 [
     [ "allocate_atom_search", "d3/ded/atom__remove_8c.html#a82e4861581fa24d314ea8d36ac647405", null ],
-    [ "remove_bonds_from_project", "d3/ded/atom__remove_8c.html#a767bd84abaade89cf6ff3f9fb8052305", null ],
-    [ "set_mol_data_list", "d3/ded/atom__remove_8c.html#a4eff31f23b587b9fd76f7822cafc93ba", null ],
-    [ "test_this_fragment", "d3/ded/atom__remove_8c.html#a3c7ff895f07835a07a0a516b0283f312", null ],
-    [ "to_passivate_using_the_objects", "d3/ded/atom__remove_8c.html#a46c030de225f008b159245f0709acca4", null ],
-    [ "to_remove_this_list_of_objects", "d3/ded/atom__remove_8c.html#a324616df25e8103f7f86f7ba6d2c05d6", null ],
+    [ "remove_bonds_from_project", "d3/ded/atom__remove_8c.html#aa68598bbbfd0ef7ffb220f7bf5550b9e", null ],
+    [ "set_mol_data_list", "d3/ded/atom__remove_8c.html#aaeadea8e46767d2005e6c0c8852051e1", null ],
+    [ "test_this_fragment", "d3/ded/atom__remove_8c.html#a94cb29fd5fb93a5c046ddbb3326a7456", null ],
+    [ "to_passivate_using_the_objects", "d3/ded/atom__remove_8c.html#aee563c1928d0c59bfd6daf80d6d25033", null ],
+    [ "to_remove_this_list_of_objects", "d3/ded/atom__remove_8c.html#a925b6703d22462bf8089319d85b83666", null ],
     [ "atoms_in_frag", "d3/ded/atom__remove_8c.html#a5b7f46062b1aa27501090576239fb4ce", null ],
     [ "ats_id", "d3/ded/atom__remove_8c.html#a307103ada697483a1614f04c933afce5", null ],
     [ "ats_in_frag", "d3/ded/atom__remove_8c.html#a45eb2fcc08f3f314b92a4d73a7c644d5", null ],

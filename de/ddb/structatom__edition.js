@@ -23,8 +23,8 @@ var structatom__edition =
     [ "repeat_move", "de/ddb/structatom__edition.html#ac39facf729e8b83a8bd5b871d74a159f", null ],
     [ "replace_nodes", "de/ddb/structatom__edition.html#ac8bf66b9df599b4d83f47b9378cb8738", null ],
     [ "show_axis", "de/ddb/structatom__edition.html#aff4e0aad713c5cd27c9603bbdafbcfc0", null ],
-    [ "to_be_inserted", "de/ddb/structatom__edition.html#a3ba9e6b55ab65ac8e36ff2ceec174345", null ],
-    [ "to_be_moved", "de/ddb/structatom__edition.html#a921e3c70933639903967e6c4f43fac25", null ],
+    [ "to_be_inserted", "de/ddb/structatom__edition.html#a900c46af5e43a2708558d94b297900d2", null ],
+    [ "to_be_moved", "de/ddb/structatom__edition.html#ab6273bd60ac7019ec9bc7d57b292b524", null ],
     [ "vbox", "de/ddb/structatom__edition.html#a4135ce280f2ff654540c78e33ce96228", null ],
     [ "visible", "de/ddb/structatom__edition.html#aae16b4e95ebe0ace909abd83884c9655", null ],
     [ "win", "de/ddb/structatom__edition.html#af16c9db58fd06e67b9d1c7dd8ba7b261", null ]

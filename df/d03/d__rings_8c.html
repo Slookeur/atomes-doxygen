@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('df/d03/d__rings_8c.html','../../'); in
 </div><!--header-->
 <div class="contents">
 
-<p>Functions to prepare the <a class="el" href="../../d0/d77/struct_open_g_l.html">OpenGL</a> rendering of rings polyhedra.  
+<p>Functions to prepare the OpenGL rendering of rings polyhedra.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>&quot;</code><br />
@@ -106,8 +106,7 @@ $(document).ready(function(){initNavTree('df/d03/d__rings_8c.html','../../'); in
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for d_rings.c:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/d5d/d__rings_8c__incl.svg" width="100%" height="492"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/d5d/d__rings_8c__incl.svg" width="100%" height="492"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../df/d03/d__rings_8c_source.html">Go to the source code of this file.</a></p>
@@ -115,10 +114,10 @@ Include dependency graph for d_rings.c:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ad9aac2be7f6fa3d1889b178a9392ab1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/d__rings_8c.html#ad9aac2be7f6fa3d1889b178a9392ab1b">setup_tetrahedron</a> (float *vertices, GLfloat **xyz)</td></tr>
-<tr class="memdesc:ad9aac2be7f6fa3d1889b178a9392ab1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill the <a class="el" href="../../d0/d77/struct_open_g_l.html">OpenGL</a> data buffer for a tetrahedra to render  <br /></td></tr>
+<tr class="memdesc:ad9aac2be7f6fa3d1889b178a9392ab1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill the OpenGL data buffer for a tetrahedra to render  <br /></td></tr>
 <tr class="separator:ad9aac2be7f6fa3d1889b178a9392ab1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8604d97c216efacf2d49e614db1987f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/d__rings_8c.html#af8604d97c216efacf2d49e614db1987f">setup_polyhedron</a> (float *vertices, GLfloat **xyz, int s)</td></tr>
-<tr class="memdesc:af8604d97c216efacf2d49e614db1987f"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill the <a class="el" href="../../d0/d77/struct_open_g_l.html">OpenGL</a> data buffer for a polyhedron to render  <br /></td></tr>
+<tr class="memdesc:af8604d97c216efacf2d49e614db1987f"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill the OpenGL data buffer for a polyhedron to render  <br /></td></tr>
 <tr class="separator:af8604d97c216efacf2d49e614db1987f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a565959ed3119d1e430b4c0088ede2c56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/d__rings_8c.html#a565959ed3119d1e430b4c0088ede2c56">get_centroid</a> (GLfloat **xyz, int id)</td></tr>
 <tr class="memdesc:a565959ed3119d1e430b4c0088ede2c56"><td class="mdescLeft">&#160;</td><td class="mdescRight">find the barycenter of a polyhedron  <br /></td></tr>
@@ -126,11 +125,11 @@ Functions</h2></td></tr>
 <tr class="memitem:a2d5405055e9e8a7aefb6e068e1d78ea5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/d__rings_8c.html#a2d5405055e9e8a7aefb6e068e1d78ea5">check_triangles</a> (int s, GLfloat **xyz)</td></tr>
 <tr class="memdesc:a2d5405055e9e8a7aefb6e068e1d78ea5"><td class="mdescLeft">&#160;</td><td class="mdescRight">check triangle intersection  <br /></td></tr>
 <tr class="separator:a2d5405055e9e8a7aefb6e068e1d78ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c56a159f6f479b5243f4e753cc44365"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/d__rings_8c.html#a5c56a159f6f479b5243f4e753cc44365">prepare_rings_gl</a> (float *vertices, int se, int ge, int <a class="el" href="../../df/dbb/d__measures_8c.html#a3af850584ca8ad426372aa206f960321">ta</a>, int id, gboolean go)</td></tr>
-<tr class="memdesc:a5c56a159f6f479b5243f4e753cc44365"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare a ring polyhedra <a class="el" href="../../d0/d77/struct_open_g_l.html">OpenGL</a> rendering  <br /></td></tr>
+<tr class="memitem:a5c56a159f6f479b5243f4e753cc44365"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/d__rings_8c.html#a5c56a159f6f479b5243f4e753cc44365">prepare_rings_gl</a> (float *vertices, int se, int ge, int <a class="el" href="../../df/dbb/d__measures_8c.html#af622fe9a749c654ec7fd2c4af6823ead">ta</a>, int id, gboolean go)</td></tr>
+<tr class="memdesc:a5c56a159f6f479b5243f4e753cc44365"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare a ring polyhedra OpenGL rendering  <br /></td></tr>
 <tr class="separator:a5c56a159f6f479b5243f4e753cc44365"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55532e066737809ea2168645873c5ac2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d03/d__rings_8c.html#a55532e066737809ea2168645873c5ac2">create_ring_lists</a> ()</td></tr>
-<tr class="memdesc:a55532e066737809ea2168645873c5ac2"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare ring(s) polyhedra <a class="el" href="../../d0/d77/struct_open_g_l.html">OpenGL</a> rendering  <br /></td></tr>
+<tr class="memdesc:a55532e066737809ea2168645873c5ac2"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare ring(s) polyhedra OpenGL rendering  <br /></td></tr>
 <tr class="separator:a55532e066737809ea2168645873c5ac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
@@ -145,7 +144,7 @@ Variables</h2></td></tr>
 <tr class="separator:a03f6391c89a0f4ace61e97787f026940"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Functions to prepare the <a class="el" href="../../d0/d77/struct_open_g_l.html">OpenGL</a> rendering of rings polyhedra. </p>
+<div class="textblock"><p>Functions to prepare the OpenGL rendering of rings polyhedra. </p>
 <dl class="section author"><dt>Author</dt><dd>Sébastien Le Roux <a href="#" onclick="location.href='mai'+'lto:'+'seb'+'as'+'tie'+'n.'+'ler'+'ou'+'x@i'+'pc'+'ms.'+'un'+'ist'+'ra'+'.fr'; return false;">sebas<span class="obfuscator">.nosp@m.</span>tien<span class="obfuscator">.nosp@m.</span>.lero<span class="obfuscator">.nosp@m.</span>ux@i<span class="obfuscator">.nosp@m.</span>pcms.<span class="obfuscator">.nosp@m.</span>unis<span class="obfuscator">.nosp@m.</span>tra.f<span class="obfuscator">.nosp@m.</span>r</a> </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="../../df/d03/d__rings_8c_source.html">d_rings.c</a>.</p>
@@ -204,7 +203,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>prepare ring(s) polyhedra <a class="el" href="../../d0/d77/struct_open_g_l.html">OpenGL</a> rendering </p>
+<p>prepare ring(s) polyhedra OpenGL rendering </p>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d03/d__rings_8c_source.html#l00169">169</a> of file <a class="el" href="../../df/d03/d__rings_8c_source.html">d_rings.c</a>.</p>
 
@@ -239,7 +238,7 @@ Variables</h2></td></tr>
 <p>find the barycenter of a polyhedron </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xyz</td><td>the <a class="el" href="../../d0/d77/struct_open_g_l.html">OpenGL</a> buffer data to fill </td></tr>
+    <tr><td class="paramname">xyz</td><td>the OpenGL buffer data to fill </td></tr>
     <tr><td class="paramname">id</td><td>the number of summits </td></tr>
   </table>
   </dd>
@@ -299,7 +298,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>prepare a ring polyhedra <a class="el" href="../../d0/d77/struct_open_g_l.html">OpenGL</a> rendering </p>
+<p>prepare a ring polyhedra OpenGL rendering </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">vertices</td><td>the ring atomic positions buffer to fill, if any </td></tr>
@@ -348,10 +347,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>fill the <a class="el" href="../../d0/d77/struct_open_g_l.html">OpenGL</a> data buffer for a polyhedron to render </p>
+<p>fill the OpenGL data buffer for a polyhedron to render </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">vertices</td><td>the <a class="el" href="../../d0/d77/struct_open_g_l.html">OpenGL</a> buffer data to fill </td></tr>
+    <tr><td class="paramname">vertices</td><td>the OpenGL buffer data to fill </td></tr>
     <tr><td class="paramname">xyz</td><td>the summits coordinates </td></tr>
     <tr><td class="paramname">s</td><td>the number of summits </td></tr>
   </table>
@@ -388,10 +387,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>fill the <a class="el" href="../../d0/d77/struct_open_g_l.html">OpenGL</a> data buffer for a tetrahedra to render </p>
+<p>fill the OpenGL data buffer for a tetrahedra to render </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">vertices</td><td>the <a class="el" href="../../d0/d77/struct_open_g_l.html">OpenGL</a> buffer data to fill </td></tr>
+    <tr><td class="paramname">vertices</td><td>the OpenGL buffer data to fill </td></tr>
     <tr><td class="paramname">xyz</td><td>the summits coordinates </td></tr>
   </table>
   </dd>

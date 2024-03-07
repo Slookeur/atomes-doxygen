@@ -221,7 +221,7 @@ var sectionId = 'dynsection-0';
 <!-- Node21 -->
 <g id="node21" class="node">
 <title>Node21</title>
-<g id="a_node21"><a xlink:href="../../d5/dd2/structglwin.html" target="_top" xlink:title=" ">
+<g id="a_node21"><a xlink:href="../../d5/dd2/structglwin.html" target="_top" xlink:title="OpenGL window widget structure.">
 <polygon fill="white" stroke="#666666" points="820.5,-1062 781.5,-1062 781.5,-1043 820.5,-1043 820.5,-1062"/>
 <text text-anchor="middle" x="801" y="-1050" font-family="Helvetica,sans-Serif" font-size="10.00">glwin</text>
 </a>
@@ -328,9 +328,9 @@ var sectionId = 'dynsection-0';
 <!-- Node18 -->
 <g id="node18" class="node">
 <title>Node18</title>
-<g id="a_node18"><a xlink:href="../../d5/de2/structcextra.html" target="_top" xlink:title="Extra curve(s) data information.">
-<polygon fill="white" stroke="#666666" points="641.5,-433 597.5,-433 597.5,-414 641.5,-414 641.5,-433"/>
-<text text-anchor="middle" x="619.5" y="-421" font-family="Helvetica,sans-Serif" font-size="10.00">cextra</text>
+<g id="a_node18"><a xlink:href="../../d8/dea/struct_curve_extra.html" target="_top" xlink:title="Extra curve(s) data information.">
+<polygon fill="white" stroke="#666666" points="652.5,-433 586.5,-433 586.5,-414 652.5,-414 652.5,-433"/>
+<text text-anchor="middle" x="619.5" y="-421" font-family="Helvetica,sans-Serif" font-size="10.00">CurveExtra</text>
 </a>
 </g>
 </g>
@@ -406,9 +406,9 @@ var sectionId = 'dynsection-0';
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="../../d7/d01/structcurve.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="1010.5,-543 969.5,-543 969.5,-524 1010.5,-524 1010.5,-543"/>
-<text text-anchor="middle" x="990" y="-531" font-family="Helvetica,sans-Serif" font-size="10.00">curve</text>
+<g id="a_node13"><a xlink:href="../../da/d6e/struct_curve.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="1011.5,-543 968.5,-543 968.5,-524 1011.5,-524 1011.5,-543"/>
+<text text-anchor="middle" x="990" y="-531" font-family="Helvetica,sans-Serif" font-size="10.00">Curve</text>
 </a>
 </g>
 </g>
@@ -454,7 +454,7 @@ var sectionId = 'dynsection-0';
 <!-- Node15&#45;&gt;Node13 -->
 <g id="edge16" class="edge">
 <title>Node15&#45;&gt;Node13</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M218.35,-877.83C220.92,-797.36 241.65,-509.5 407,-509.5 407,-509.5 407,-509.5 802,-509.5 863.37,-509.5 935.16,-522.37 969.18,-529.26"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M218.35,-877.83C220.92,-797.36 241.65,-509.5 407,-509.5 407,-509.5 407,-509.5 802,-509.5 862.72,-509.5 933.63,-522.1 968.08,-529.04"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="214.87,-877.29 218.12,-887.37 221.86,-877.46 214.87,-877.29"/>
 <text text-anchor="middle" x="619.5" y="-556.5" font-family="Helvetica,sans-Serif" font-size="10.00"> backcolor</text>
 <text text-anchor="middle" x="619.5" y="-545.5" font-family="Helvetica,sans-Serif" font-size="10.00">frame_color</text>
@@ -539,7 +539,7 @@ var sectionId = 'dynsection-0';
 <!-- Node16&#45;&gt;Node18 -->
 <g id="edge22" class="edge">
 <title>Node16&#45;&gt;Node18</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M453.02,-423.5C497.22,-423.5 563.46,-423.5 597.16,-423.5"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M453.23,-423.5C493.08,-423.5 550.72,-423.5 586.34,-423.5"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="453.25,-420 443.25,-423.5 453.25,-427 453.25,-420"/>
 <text text-anchor="middle" x="520.5" y="-426.5" font-family="Helvetica,sans-Serif" font-size="10.00"> layout</text>
 </g>
@@ -562,8 +562,8 @@ var sectionId = 'dynsection-0';
 <!-- Node18&#45;&gt;Node17 -->
 <g id="edge20" class="edge">
 <title>Node18&#45;&gt;Node17</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M652.27,-437.64C660.24,-440.85 668.85,-444.03 677,-446.5 708.39,-455.99 745.38,-462.96 770.54,-467.1"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="653.87,-434.51 643.29,-433.89 651.17,-440.97 653.87,-434.51"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M652.74,-437.83C660.58,-440.97 669.01,-444.08 677,-446.5 708.39,-455.99 745.38,-462.96 770.54,-467.1"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="654.13,-434.62 643.56,-434 651.44,-441.08 654.13,-434.62"/>
 <text text-anchor="middle" x="710" y="-475.5" font-family="Helvetica,sans-Serif" font-size="10.00"> first</text>
 <text text-anchor="middle" x="710" y="-464.5" font-family="Helvetica,sans-Serif" font-size="10.00">last</text>
 </g>
@@ -578,7 +578,7 @@ var sectionId = 'dynsection-0';
 <!-- Node19&#45;&gt;Node13 -->
 <g id="edge24" class="edge">
 <title>Node19&#45;&gt;Node13</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M664.03,-585.53C744.11,-572.71 911.81,-545.86 969.22,-536.67"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M663.98,-585.54C743.63,-572.79 910.14,-546.13 968.36,-536.8"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="663.69,-582.04 654.37,-587.08 664.8,-588.95 663.69,-582.04"/>
 <text text-anchor="middle" x="801" y="-572.5" font-family="Helvetica,sans-Serif" font-size="10.00"> state</text>
 </g>

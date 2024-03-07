@@ -6,6 +6,6 @@ var grcall_8c =
     [ "on_cutcheck_toggled", "dc/d6b/grcall_8c.html#a42091d8b64b7918d7a599ea22928823f", null ],
     [ "recup_data_", "dc/d6b/grcall_8c.html#a89b3e20f651ac2512ad282b8f818bf08", null ],
     [ "sendcutoffs_", "dc/d6b/grcall_8c.html#af7d5531558d9c9885dbf42b45e0f46b1", null ],
-    [ "update_rdf_view", "dc/d6b/grcall_8c.html#a3d367539c1ddc92018e12a4a39dac582", null ],
+    [ "update_rdf_view", "dc/d6b/grcall_8c.html#a1e00321a02c10ce57a95d7b1ec9023ec", null ],
     [ "fitc", "dc/d6b/grcall_8c.html#adcfd130a74930b8a3fa05cd0800c63f9", null ]
 ];

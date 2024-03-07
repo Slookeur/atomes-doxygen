@@ -59,7 +59,7 @@ var structimage =
     [ "rep", "de/d68/structimage.html#ab8dffa88e0bf425389840503d2068bf8", null ],
     [ "rotation_mode", "de/d68/structimage.html#acb235a3534a3ec99ad8d19acd7999d84", null ],
     [ "rotation_quaternion", "de/d68/structimage.html#a1d22723d2893488a7bac6ad523ad6afe", null ],
-    [ "selected", "de/d68/structimage.html#a73d639df5928fdffb5112f379d4bd621", null ],
+    [ "selected", "de/d68/structimage.html#accf5840311458e226bc7ce4d40bb3697", null ],
     [ "show_atom", "de/d68/structimage.html#ab04d6a7611bbfc418e18568ab53472f4", null ],
     [ "show_coord", "de/d68/structimage.html#a3a79c5d641405658e69675689f7e7165", null ],
     [ "show_label", "de/d68/structimage.html#a3f3e2404609fb7d168d3f2d772840f8f", null ],

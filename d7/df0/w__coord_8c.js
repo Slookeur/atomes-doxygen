@@ -1,7 +1,7 @@
 var w__coord_8c =
 [
-    [ "add_geo", "d7/df0/w__coord_8c.html#a81f4506c2d956f9fe5c0a022ed00f43e", null ],
-    [ "add_this_frag_mol_to_search_tree", "d7/df0/w__coord_8c.html#ab7a95dff270fdb17934c2c816f207946", null ],
+    [ "add_geo", "d7/df0/w__coord_8c.html#ae188957564a2c37a83851e4e5fc97abb", null ],
+    [ "add_this_frag_mol_to_search_tree", "d7/df0/w__coord_8c.html#a0298f3484d500179078e8706512da842", null ],
     [ "advanced_coord_properties", "d7/df0/w__coord_8c.html#aafd470a2421a39b48bd68e9363517486", null ],
     [ "chains_tab", "d7/df0/w__coord_8c.html#aae64410fac172548bc7e34cbfc69173b", null ],
     [ "cloned_poly", "d7/df0/w__coord_8c.html#a26b6c7fb44d9d393631897339d243a9f", null ],
@@ -10,8 +10,8 @@ var w__coord_8c =
     [ "col_surface", "d7/df0/w__coord_8c.html#a8832b642cde10b4df67f7af47d61b57c", null ],
     [ "coord_properties", "d7/df0/w__coord_8c.html#a1ad4a499ef8cd2c9172bd933220202ac", null ],
     [ "coord_tab", "d7/df0/w__coord_8c.html#a5cda3167d0f3d5ff18e078b811971ac7", null ],
-    [ "create_frag_mol_search", "d7/df0/w__coord_8c.html#a9b3c5c2fc016eed2b45df651e9e92700", null ],
-    [ "create_frag_mol_tree", "d7/df0/w__coord_8c.html#aaaebf2df9c0adb69992963fb10154ff5", null ],
+    [ "create_frag_mol_search", "d7/df0/w__coord_8c.html#aa037d9feed02b1c51db9a5272bdf95a0", null ],
+    [ "create_frag_mol_tree", "d7/df0/w__coord_8c.html#a5931430ab3396844bf5def2219f98192", null ],
     [ "fragmol_tab", "d7/df0/w__coord_8c.html#a3c733322dc3f1ee5802790898ec593b5", null ],
     [ "get_page_from_geo_coord", "d7/df0/w__coord_8c.html#adad489a27b7ab170cf4e89f008efa3a2", null ],
     [ "on_cloned_poly_toggled", "d7/df0/w__coord_8c.html#ae8b34561b014a35236f36e7f2efb2788", null ],

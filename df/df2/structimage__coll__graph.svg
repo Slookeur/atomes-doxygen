@@ -145,9 +145,9 @@ var sectionId = 'dynsection-0';
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../dd/d4c/structselatom.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="274.15,-265.5 223.15,-265.5 223.15,-246.5 274.15,-246.5 274.15,-265.5"/>
-<text text-anchor="middle" x="248.65" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00">selatom</text>
+<g id="a_node5"><a xlink:href="../../df/dab/structatom__in__selection.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="296.15,-265.5 201.15,-265.5 201.15,-246.5 296.15,-246.5 296.15,-265.5"/>
+<text text-anchor="middle" x="248.65" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00">atom_in_selection</text>
 </a>
 </g>
 </g>
@@ -162,10 +162,10 @@ var sectionId = 'dynsection-0';
 <!-- Node5&#45;&gt;Node5 -->
 <g id="edge8" class="edge">
 <title>Node5&#45;&gt;Node5</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M280.03,-266.32C287.04,-265.37 292.15,-261.93 292.15,-256 292.15,-247.17 280.82,-243.86 268.79,-246.07"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="280.41,-262.83 270.3,-265.98 280.17,-269.83 280.41,-262.83"/>
-<text text-anchor="middle" x="303.15" y="-259" font-family="Helvetica,sans-Serif" font-size="10.00"> next</text>
-<text text-anchor="middle" x="303.15" y="-248" font-family="Helvetica,sans-Serif" font-size="10.00">prev</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M290.79,-266.58C303.87,-266.38 314.15,-262.85 314.15,-256 314.15,-247.23 297.3,-243.9 279.31,-246.03"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="290.99,-263.09 280.82,-266.05 290.62,-270.08 290.99,-263.09"/>
+<text text-anchor="middle" x="325.15" y="-259" font-family="Helvetica,sans-Serif" font-size="10.00"> next</text>
+<text text-anchor="middle" x="325.15" y="-248" font-family="Helvetica,sans-Serif" font-size="10.00">prev</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">

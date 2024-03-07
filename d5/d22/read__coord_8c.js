@@ -2,8 +2,8 @@ var read__coord_8c =
 [
     [ "add_reader_info", "d5/d22/read__coord_8c.html#a630d3a4aa6950e90f0bf96dba9360ed9", null ],
     [ "alloc_chem_data", "d5/d22/read__coord_8c.html#a65f517a38665eb1a8ef5f509cb9b51a7", null ],
-    [ "allocatoms", "d5/d22/read__coord_8c.html#a8c0b1e9a2d9f044f5e5a19954f909450", null ],
-    [ "build_crystal", "d5/d22/read__coord_8c.html#a1ced757223eedca944286792008600c4", null ],
+    [ "allocatoms", "d5/d22/read__coord_8c.html#a9029033b03552b5262301b744f6d50e5", null ],
+    [ "build_crystal", "d5/d22/read__coord_8c.html#a4dd9e033d112254896a02b13c678b606", null ],
     [ "check_for_species", "d5/d22/read__coord_8c.html#ac92363a753723a49306835859e63c087", null ],
     [ "format_error", "d5/d22/read__coord_8c.html#a894eef4b4fba3765d6fc8aa08f7502e7", null ],
     [ "open_c3d_file", "d5/d22/read__coord_8c.html#a5a76c2c6a90f2791ac24e13de9b7eb8e", null ],

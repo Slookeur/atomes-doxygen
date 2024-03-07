@@ -6,5 +6,5 @@ var d__label_8c =
     [ "get_atom_color", "dc/d5c/d__label_8c.html#ae74d5882846a9d855aedf631faebf204", null ],
     [ "get_sphere_radius", "dc/d5c/d__label_8c.html#a85974d4339a20885b8078c7e21ece9ac", null ],
     [ "init_color", "dc/d5c/d__label_8c.html#a78ef8d8781d7e14e1b721ebe24c92240", null ],
-    [ "prepare_label", "dc/d5c/d__label_8c.html#a5daa5039da05ffa256d9d6ab88924a0a", null ]
+    [ "prepare_label", "dc/d5c/d__label_8c.html#a4fc6b2bd63d9bf47ab463af8cfa47df8", null ]
 ];
