@@ -1,0 +1,213 @@
+<map id="global.h" name="global.h">
+<area shape="rect" id="node1" title="Global variable declarations &#160;&#160;Global convenience function declarations &#160;&#160;Global data structure defin..." alt="" coords="11836,5,11903,31"/>
+<area shape="rect" id="node2" href="$d1/dcc/calc_8c.html" title="Callbacks used in by the molecular dynamics calculation assistants &#160;&#160;Atom selection structure manipul..." alt="" coords="732,86,817,111"/>
+<area shape="rect" id="node3" href="$db/d9f/cp2k__basis_8c.html" title="CP2K basis set, as delivered with CP2K v9.1." alt="" coords="842,86,1001,111"/>
+<area shape="rect" id="node4" href="$d0/da4/cp2k__files_8c.html" title="Functions to handle CP2K basis sets and pseudopotentials." alt="" coords="1025,86,1177,111"/>
+<area shape="rect" id="node5" href="$d5/d98/cp2k__gth-basis_8c.html" title="CP2K GTH basis set, as delivered with CP2K v9.1." alt="" coords="1202,79,1337,119"/>
+<area shape="rect" id="node6" href="$de/d92/cp2k__init_8c.html" title="Initialization of the CP2K input assistant." alt="" coords="1361,86,1506,111"/>
+<area shape="rect" id="node7" href="$d5/d8d/cp2k__mol_8c.html" title="Functions to fix fragment(s) when creating the CP2K input file." alt="" coords="1531,86,1680,111"/>
+<area shape="rect" id="node8" href="$da/d91/cp2k__molopt-basis_8c.html" title="CP2K MOLOPT basis set, as distributed with CP2K 9.1." alt="" coords="1705,79,1861,119"/>
+<area shape="rect" id="node9" href="$d3/dcb/cp2k__pot_8c.html" title="CP2K potentials, as distributed with CP2K v9.1." alt="" coords="1885,86,2032,111"/>
+<area shape="rect" id="node10" href="$dc/d4a/cp2k__print_8c.html" title="Functions to print the CP2K input file(s)" alt="" coords="2057,86,2210,111"/>
+<area shape="rect" id="node11" href="$d6/d03/cpmd__atoms_8c.html" title="Functions to handle dummy atom(s) for the CPMD input file." alt="" coords="2234,86,2406,111"/>
+<area shape="rect" id="node12" href="$dd/dc0/cpmd__init_8c.html" title="Functions to initialize the QM / QM&#45;MM input file creation assistant." alt="" coords="2430,86,2583,111"/>
+<area shape="rect" id="node13" href="$d6/dc0/cpmd__nose_8c.html" title="Functions to prepare the thermostat(s) configuration widgets for QM / QM&#45;MM input files." alt="" coords="2607,86,2771,111"/>
+<area shape="rect" id="node14" href="$d1/dcc/cpmd__print_8c.html" title="Functions to print the CPMD input file(s)" alt="" coords="2795,86,2957,111"/>
+<area shape="rect" id="node15" href="$db/d6f/cpmd__restart_8c.html" title="Functions to configure the restart section for the CPMD input file creation assistant." alt="" coords="2981,86,3155,111"/>
+<area shape="rect" id="node16" href="$d8/ded/dlp__comp_8c.html" title="Functions to compare and adjust field body parameters." alt="" coords="5,174,168,199"/>
+<area shape="rect" id="node17" href="$da/d88/dlp__copy_8c.html" title="Functions to copy force field and related data structures." alt="" coords="192,174,349,199"/>
+<area shape="rect" id="node18" href="$d4/d28/dlp__edit_8c.html" title="Functions to edit DL&#45;POLY force field parameters." alt="" coords="374,174,525,199"/>
+<area shape="rect" id="node19" href="$dc/d79/dlp__ff__match_8c.html" title="Functions the list the available database parameters for the atom database window." alt="" coords="549,167,675,207"/>
+<area shape="rect" id="node20" href="$d8/da6/dlp__field_8h.html" title="Variable declarations for the creation of the DL_POLY input file(s)" alt="" coords="3381,86,3536,111"/>
+<area shape="rect" id="node29" href="$d7/d30/force__fields_8c.html" title="Functions to prepare the force field XML files from the sources in atomes &#160;&#160;Functions to read the for..." alt="" coords="2319,167,2470,207"/>
+<area shape="rect" id="node31" href="$d5/d34/bdcall_8c.html" title="Callbacks for the bond properties calculation dialog." alt="" coords="4009,174,4097,199"/>
+<area shape="rect" id="node32" href="$dc/dbd/d__atoms_8c.html" title="nctions to prepare the OpenGL rendering atom(s) and clone(s)" alt="" coords="2495,174,2652,199"/>
+<area shape="rect" id="node33" href="$d7/d10/d__bonds_8c.html" title="Functions to prepare the OpenGL rendering of bond(s) and clone bond(s)" alt="" coords="2677,174,2833,199"/>
+<area shape="rect" id="node34" href="$dc/d5c/d__label_8c.html" title="Functions to prepare the OpenGL rendering of the atomic label(s)" alt="" coords="2857,174,3005,199"/>
+<area shape="rect" id="node35" href="$da/da8/d__poly_8c.html" title="Functions to prepare the OpenGL rendering of coordination polyhedra." alt="" coords="3029,174,3173,199"/>
+<area shape="rect" id="node36" href="$d9/d09/d__selection_8c.html" title="Functions to prepare the OpenGL rendering of the selected: atom(s), clone(s), bond(s) and clone bond(..." alt="" coords="3197,174,3371,199"/>
+<area shape="rect" id="node37" href="$d2/db3/ogl__draw_8c.html" title="OpenGL window drawing funcions." alt="" coords="3395,174,3522,199"/>
+<area shape="rect" id="node38" href="$d1/db9/ogl__utils_8c.html" title="2D and 3D calculations utilities for distances and angles" alt="" coords="3547,174,3669,199"/>
+<area shape="rect" id="node39" href="$d3/d1b/read__field_8c.html" title="Functions to read DLPOLY force field data in the atomes project file format." alt="" coords="3694,174,3826,199"/>
+<area shape="rect" id="node40" href="$d9/d5e/save__field_8c.html" title="Functions to save force field information in the atomes project file format." alt="" coords="3850,174,3985,199"/>
+<area shape="rect" id="node41" href="$d4/ddc/amber94_8c.html" title="Amber&#45;94 force field, from &#39;parm94&#39;." alt="" coords="7513,86,7695,111"/>
+<area shape="rect" id="node42" href="$dd/d7e/amber96_8c.html" title="Amber&#45;96 force field, from &#39;parm96&#39;." alt="" coords="7719,86,7902,111"/>
+<area shape="rect" id="node43" href="$d5/d08/amber98_8c.html" title="Amber&#45;98 force field, from &#39;parm98&#39;." alt="" coords="7926,86,8109,111"/>
+<area shape="rect" id="node44" href="$df/dad/amber99_8c.html" title="Amber&#45;99 force field, from &#39;parm99&#39;." alt="" coords="8133,86,8315,111"/>
+<area shape="rect" id="node45" href="$d9/de7/cff91_8c.html" title="CFF91 force field, from &#39;CFF91.frc&#39;." alt="" coords="8340,86,8500,111"/>
+<area shape="rect" id="node46" href="$d2/d6d/charmm22__prot_8c.html" title="CHARMM&#45;charmm22_prot force field, from &#39;charmm22_prot&#39;." alt="" coords="8525,79,8707,119"/>
+<area shape="rect" id="node47" href="$de/d55/charmm22__prot__metals_8c.html" title=" " alt="" coords="8731,79,8914,119"/>
+<area shape="rect" id="node48" href="$d7/d39/charmm35__ethers_8c.html" title="CHARMM&#45;charmm35_ethers force field, from &#39;charmm35_ethers&#39;." alt="" coords="8938,79,9121,119"/>
+<area shape="rect" id="node49" href="$de/db7/charmm36__carb_8c.html" title="CHARMM&#45;charmm36_carb force field, from &#39;charmm36_carb&#39;." alt="" coords="9145,79,9327,119"/>
+<area shape="rect" id="node50" href="$d1/d40/charmm36__cgenff_8c.html" title="CHARMM&#45;charmm36_cgenff force field, from &#39;charmm36_cgenff&#39;." alt="" coords="9351,79,9534,119"/>
+<area shape="rect" id="node51" href="$d6/de8/charmm36__lipid_8c.html" title="CHARMM&#45;charmm36_lipid force field, from &#39;charmm36_lipid&#39;." alt="" coords="9558,79,9741,119"/>
+<area shape="rect" id="node52" href="$da/daa/charmm36__na_8c.html" title="CHARMM&#45;charmm36_na force field, from &#39;charmm36_na&#39;." alt="" coords="9765,86,9979,111"/>
+<area shape="rect" id="node53" href="$d1/d8a/charmm36__prot_8c.html" title="CHARMM&#45;charmm36_prot force field, from &#39;charmm36_prot&#39;." alt="" coords="10003,79,10186,119"/>
+<area shape="rect" id="node54" href="$d7/df9/charmm36__prot__metals_8c.html" title="CHARMM&#45;charmm36m_prot force field, from &#39;charmm36m_prot&#39;." alt="" coords="10210,79,10393,119"/>
+<area shape="rect" id="node55" href="$d3/deb/charmm__silicates_8c.html" title="CHARMM&#45;charmm_silicates force field, from &#39;charmm_silicates&#39;." alt="" coords="10417,79,10585,119"/>
+<area shape="rect" id="node56" href="$d6/dfb/compass_8c.html" title="Compass force field, from &#39;Compass.frc&#39;." alt="" coords="10610,86,10795,111"/>
+<area shape="rect" id="node57" href="$de/df0/cvff_8c.html" title="CVFF force field, from &#39;CVFF.frc&#39;." alt="" coords="10819,86,10973,111"/>
+<area shape="rect" id="node58" href="$d3/d21/cvff__aug_8c.html" title="CVFF_aug force field, from &#39;CVFF_aug.frc&#39;." alt="" coords="10997,79,11139,119"/>
+<area shape="rect" id="node59" href="$dc/d29/oplsaap_8c.html" title="OPLSAAM force field." alt="" coords="11163,86,11341,111"/>
+<area shape="rect" id="node60" href="$d4/d82/oplsaar_8c.html" title="OPLSAAR force field." alt="" coords="11365,86,11539,111"/>
+<area shape="rect" id="node61" href="$dd/d55/pcff_8c.html" title="PCFF force field, from &#39;PCFF.frc&#39;." alt="" coords="11563,86,11717,111"/>
+<area shape="rect" id="node62" href="$d3/d0c/cedit_8c.html" title="Initialization of the curve layout edition dialog." alt="" coords="5025,174,5122,199"/>
+<area shape="rect" id="node63" href="$d7/d21/cedit_8h.html" title="Variable declarations for the curve layout edition window." alt="" coords="4625,86,4722,111"/>
+<area shape="rect" id="node64" href="$dc/d22/curve_8c.html" title="Functions to manage curves." alt="" coords="4367,174,4468,199"/>
+<area shape="rect" id="node65" href="$d9/d29/m__curve_8c.html" title="Curve context menu (mouse right click)" alt="" coords="4493,174,4611,199"/>
+<area shape="rect" id="node66" href="$df/df7/tab-1_8c.html" title="1st tab of the curve layout edition dialog" alt="" coords="4244,174,4343,199"/>
+<area shape="rect" id="node67" href="$de/d1f/tab-2_8c.html" title="2nd tab of the curve layout edition dialog" alt="" coords="4121,174,4220,199"/>
+<area shape="rect" id="node68" href="$d1/d6f/tab-3_8c.html" title="3rd tab of the curve layout edition dialog" alt="" coords="4636,174,4735,199"/>
+<area shape="rect" id="node69" href="$d8/d62/tab-4_8c.html" title="4th tab of the curve layout edition dialog" alt="" coords="4759,174,4857,199"/>
+<area shape="rect" id="node70" href="$d2/d04/w__curve_8c.html" title="Functions to create the graph/curve window." alt="" coords="4882,174,5001,199"/>
+<area shape="rect" id="node71" href="$df/de9/curve_8h.html" title="Variable declarations for the curve widget \ Functions for interactions with the curve widget." alt="" coords="6069,86,6171,111"/>
+<area shape="rect" id="node72" href="$d4/d80/cwidget_8c.html" title="Initialization of the curve widget." alt="" coords="5147,174,5261,199"/>
+<area shape="rect" id="node73" href="$da/dae/datab_8c.html" title="Curve data edition window and associated callbacks." alt="" coords="5285,174,5387,199"/>
+<area shape="rect" id="node74" href="$d6/dd9/draw_8c.html" title="Function to draw a curve." alt="" coords="5411,174,5507,199"/>
+<area shape="rect" id="node75" href="$dd/dbe/frame_8c.html" title="Functions to draw the frame." alt="" coords="5531,174,5634,199"/>
+<area shape="rect" id="node76" href="$d8/da4/glyph_8c.html" title="Functions to draw the glyphs." alt="" coords="5658,174,5758,199"/>
+<area shape="rect" id="node77" href="$de/d87/labels_8c.html" title="Function to draw the axis labels." alt="" coords="5782,174,5885,199"/>
+<area shape="rect" id="node78" href="$d7/d40/legend_8c.html" title="Function to draw the legend." alt="" coords="5909,174,6016,199"/>
+<area shape="rect" id="node79" href="$df/dd0/show_8c.html" title="Functions to draw the complete graph." alt="" coords="6040,174,6139,199"/>
+<area shape="rect" id="node80" href="$d9/d0e/title_8c.html" title="Functions to draw the title." alt="" coords="6163,174,6253,199"/>
+<area shape="rect" id="node81" href="$df/d15/w__data_8c.html" title="Functions to export curve data." alt="" coords="6278,174,6389,199"/>
+<area shape="rect" id="node82" href="$dc/dc8/w__img_8c.html" title="Functions to save screenshot from graph / curve(s)" alt="" coords="6413,174,6520,199"/>
+<area shape="rect" id="node83" href="$d2/d12/xaxis_8c.html" title="Functions to draw the x axis." alt="" coords="6545,174,6645,199"/>
+<area shape="rect" id="node84" href="$df/dfb/yaxis_8c.html" title="Functions to draw the y axis." alt="" coords="6669,174,6769,199"/>
+<area shape="rect" id="node85" href="$d2/d01/chainscall_8c.html" title="Callbacks for the chains statistics calculation dialog." alt="" coords="6793,174,6905,199"/>
+<area shape="rect" id="node86" href="$dc/d6b/grcall_8c.html" title="Callbacks for the g(r)/g(k) calculation dialog." alt="" coords="6929,174,7015,199"/>
+<area shape="rect" id="node87" href="$dd/dda/interface_8c.html" title="General messaging functions." alt="" coords="7039,174,7143,199"/>
+<area shape="rect" id="node88" href="$d8/d2b/msdcall_8c.html" title="Callbacks for the MSD calculation dialog." alt="" coords="7167,174,7265,199"/>
+<area shape="rect" id="node89" href="$d9/dc4/ringscall_8c.html" title="Callbacks for the ring statistics calculation dialog." alt="" coords="7290,174,7393,199"/>
+<area shape="rect" id="node90" href="$d9/dbe/spcall_8c.html" title="Callbacks for the spherical harmonics calculation dialog." alt="" coords="7417,174,7505,199"/>
+<area shape="rect" id="node91" href="$d5/dde/sqcall_8c.html" title="Callbacks for the s(q) / s(k) calculation dialog." alt="" coords="7529,174,7617,199"/>
+<area shape="rect" id="node93" href="$d3/d50/close__p_8c.html" title="Functions to close an atomes project &#160;&#160;Callbacks to close an atomes project." alt="" coords="7642,174,7763,199"/>
+<area shape="rect" id="node94" href="$df/dd5/init__p_8c.html" title="Functions to initialize an atomes project." alt="" coords="7788,174,7895,199"/>
+<area shape="rect" id="node95" href="$da/d5e/open__p_8c.html" title="Functions to start the reading of an atomes project file." alt="" coords="7919,174,8038,199"/>
+<area shape="rect" id="node96" href="$d8/d5e/calc__menu_8c.html" title="Creation of the calculation dialogs." alt="" coords="11741,86,11859,111"/>
+<area shape="rect" id="node97" href="$d3/d3a/callbacks_8c.html" title="General callbacks &#160;&#160;Functions to open and close files." alt="" coords="8979,174,9088,199"/>
+<area shape="rect" id="node98" href="$d8/da6/edit__menu_8c.html" title="Creation of the edition dialogs." alt="" coords="11883,86,11997,111"/>
+<area shape="rect" id="node99" href="$d8/d90/gtk-misc_8c.html" title="GTK3/GTK4 utility subroutines, instead of having pre&#45;processor flags everywhere in the code...." alt="" coords="12021,86,12125,111"/>
+<area shape="rect" id="node100" href="$d5/d03/gui_8c.html" title="GUI of the main window &#160;&#160;Menu elements of the workspace menu &#160;&#160;Creation of menu items,..." alt="" coords="12150,86,12221,111"/>
+<area shape="rect" id="node101" href="$d9/d35/initc_8c.html" title="Curve data buffer initialization." alt="" coords="12245,86,12323,111"/>
+<area shape="rect" id="node102" href="$d0/d29/main_8c.html" title="Initialization of the atomes program &#160;&#160;Functions required to read data from the command line." alt="" coords="12348,86,12431,111"/>
+<area shape="rect" id="node103" href="$d1/d9e/tools_8c.html" title="Callbacks for the toolbox dialog." alt="" coords="12455,86,12537,111"/>
+<area shape="rect" id="node104" href="$d7/d29/work__menu_8c.html" title="Workspace menu GTK3 version &#160;&#160;Callbacks for the workspace menu." alt="" coords="12562,86,12683,111"/>
+<area shape="rect" id="node105" href="$d3/d23/arcball_8c.html" title="Mouse trackball rotation functions." alt="" coords="12707,86,12821,111"/>
+<area shape="rect" id="node106" href="$db/dbb/d__axis_8c.html" title="Functions to prepare the OpenGL rendering for the axis." alt="" coords="12845,86,12990,111"/>
+<area shape="rect" id="node107" href="$df/dbb/d__box_8c.html" title="Functions to prepare the OpenGL rendering for the box(es) &#160;&#160;Functions to prepare the OpenGL rendering..." alt="" coords="13014,86,13157,111"/>
+<area shape="rect" id="node108" href="$df/dbb/d__measures_8c.html" title="Functions to prepare the OpenGL rendering of the measure(s)" alt="" coords="13181,86,13360,111"/>
+<area shape="rect" id="node109" href="$df/d03/d__rings_8c.html" title="Functions to prepare the OpenGL rendering of rings polyhedra." alt="" coords="13384,86,13533,111"/>
+<area shape="rect" id="node110" href="$d3/d10/image_8c.html" title="Functions to render an image from the OpenGL window." alt="" coords="13558,86,13701,111"/>
+<area shape="rect" id="node111" href="$d8/dee/movie_8c.html" title="Functions to encode a movie / render an image from the OpenGL rendering." alt="" coords="13725,86,13867,111"/>
+<area shape="rect" id="node112" href="$dc/d7f/ogl__text_8c.html" title="Functions to prepare OpenGL rendering for text." alt="" coords="13891,86,14045,111"/>
+<area shape="rect" id="node113" href="$d5/d9c/atom__edit_8h.html" title="Function declarations for the mode edition window." alt="" coords="7179,86,7336,111"/>
+<area shape="rect" id="node125" href="$dc/d50/selection_8c.html" title="Functions handling the atom and bond selection process in the OpenGL window." alt="" coords="11717,174,11843,199"/>
+<area shape="rect" id="node128" href="$d5/da4/popup_8c.html" title="Functions to create the OpenGL window popup menus:" alt="" coords="11867,174,12002,199"/>
+<area shape="rect" id="node130" href="$d8/de9/w__volumes_8c.html" title="Functions to create the &#39;Volumes&#39; window &#160;&#160;Functions to compute system / fragment / molecular volumes..." alt="" coords="12027,174,12192,199"/>
+<area shape="rect" id="node131" href="$d0/dd3/cbuild__action_8c.html" title="Functions to build a crystal using space group, crystallographic position(s) and object(s) to insert." alt="" coords="13731,167,13853,207"/>
+<area shape="rect" id="node132" href="$db/d0b/cbuild__edit_8c.html" title="Functions to create the crystal builder window." alt="" coords="13877,167,14000,207"/>
+<area shape="rect" id="node133" href="$de/d8a/cbuild__edit_8h.html" title="Function declarations for the crystal builder." alt="" coords="14272,79,14395,119"/>
+<area shape="rect" id="node134" href="$d9/ded/cbuild__info_8c.html" title="Functions to create the space group information dialog." alt="" coords="14024,167,14147,207"/>
+<area shape="rect" id="node135" href="$d3/ddb/cbuild__sg_8c.html" title="Functions to read space group data from XML files." alt="" coords="14171,174,14325,199"/>
+<area shape="rect" id="node136" href="$d8/d50/read__cif_8c.html" title="Functions to read CIF files." alt="" coords="14350,167,14487,207"/>
+<area shape="rect" id="node137" href="$d5/d22/read__coord_8c.html" title="General functions to import atomic coordinates." alt="" coords="14511,167,14649,207"/>
+<area shape="rect" id="node138" href="$df/df9/read__hist_8c.html" title="Functions to read DL&#45;POLY history file." alt="" coords="14673,167,14810,207"/>
+<area shape="rect" id="node139" href="$d1/da7/read__npt_8c.html" title="Functions to read NPT data." alt="" coords="14834,167,14971,207"/>
+<area shape="rect" id="node140" href="$d9/d97/cell__edit_8h.html" title="Function declarations for the cell edition window." alt="" coords="6955,86,7103,111"/>
+<area shape="rect" id="node145" href="$dc/d21/glview_8c.html" title="Callbacks of the OpenGL window." alt="" coords="14622,86,14733,111"/>
+<area shape="rect" id="node146" href="$df/d7f/ogl__shaders_8c.html" title="OpenGL shaders for the atomes program." alt="" coords="14757,86,14902,111"/>
+<area shape="rect" id="node147" href="$d9/db9/ogl__shading_8c.html" title="Functions to create GLSL programs &#160;&#160;Functions to manage GLSL programs." alt="" coords="14927,86,15071,111"/>
+<area shape="rect" id="node148" href="$dc/d16/color__box_8c.html" title="Functions to create the color palettes for the menus of the OpenGL window &#160;&#160;Callbacks to set the colo..." alt="" coords="15095,86,15249,111"/>
+<area shape="rect" id="node149" href="$d7/dc8/glwindow_8c.html" title="Functions to create a project OpenGL window." alt="" coords="15273,86,15425,111"/>
+<area shape="rect" id="node150" href="$da/d13/initchain_8c.html" title="Functions collecting chain(s) data from Fortran90 &#160;&#160;Functions allocating chain(s) data from Fortran90..." alt="" coords="15449,86,15596,111"/>
+<area shape="rect" id="node151" href="$d6/d35/initcoord_8c.html" title="Coordinations and polyhedra menus initialization &#160;&#160;Coordinations and polyhedra GTK3 menus and menu it..." alt="" coords="15621,86,15769,111"/>
+<area shape="rect" id="node152" href="$d2/def/initmol_8c.html" title="Functions to retrieve fragments data from Fortran90 &#160;&#160;Functions to retrieve molecules data from Fortr..." alt="" coords="15793,86,15930,111"/>
+<area shape="rect" id="node153" href="$db/dc8/initring_8c.html" title="Functions to retrieve rings data from Fortran90." alt="" coords="15954,86,16091,111"/>
+<area shape="rect" id="node154" href="$d3/df0/m__anim_8c.html" title="Functions to create the &#39;Animate&#39; submenu." alt="" coords="16115,86,16261,111"/>
+<area shape="rect" id="node155" href="$db/db4/m__atoms_8c.html" title="Functions to create the &#39;Model &#45;&gt; Atom(s)&#39; submenu." alt="" coords="16285,86,16438,111"/>
+<area shape="rect" id="node156" href="$d5/dc1/m__axis_8c.html" title="Functions to create the &#39;View &#45;&gt; Axis&#39; submenu." alt="" coords="16463,86,16604,111"/>
+<area shape="rect" id="node157" href="$d8/db0/m__back_8c.html" title="Function to create the background color menu item." alt="" coords="16629,86,16774,111"/>
+<area shape="rect" id="node158" href="$d8/d92/m__bonds_8c.html" title="Functions to create the &#39;Model &#45;&gt; Bond(s)&#39; submenu." alt="" coords="16799,86,16951,111"/>
+<area shape="rect" id="node159" href="$d6/d35/m__box_8c.html" title="Functions to create the &#39;Model &#45;&gt; Box&#39; submenu." alt="" coords="16975,86,17113,111"/>
+<area shape="rect" id="node160" href="$db/dab/m__clones_8c.html" title="Functions to create the &#39;Model &#45;&gt; Clone(s)&#39; submenu." alt="" coords="17137,86,17292,111"/>
+<area shape="rect" id="node161" href="$d4/da4/m__coord_8c.html" title="Functions to create the &#39;Chemistry &#45;&gt; Coordination&#39; submenu." alt="" coords="17316,86,17465,111"/>
+<area shape="rect" id="node162" href="$da/d3d/m__map_8c.html" title="Functions to create the &#39;OpenGL &#45;&gt; Color Scheme(s)&#39; submenus &#160;&#160;Functions to handle custom color maps." alt="" coords="17490,86,17633,111"/>
+<area shape="rect" id="node163" href="$d6/d68/m__poly_8c.html" title="Functions to create the &#39;Chemistry &#45;&gt; Polyhedra&#39; submenus." alt="" coords="17657,86,17797,111"/>
+<area shape="rect" id="node164" href="$da/da4/m__proj_8c.html" title="Functions to create the &#39;View &#45;&gt; Projection&#39; submenu." alt="" coords="17821,86,17960,111"/>
+<area shape="rect" id="node165" href="$db/d52/m__quality_8c.html" title="Functions to create the &#39;OengGL &#45;&gt; Quality&#39; submenu." alt="" coords="17984,86,18139,111"/>
+<area shape="rect" id="node166" href="$dd/d08/m__render_8c.html" title="Functions to create the &#39;OpenGL &#45;&gt; Render&#39; submenu." alt="" coords="18163,86,18317,111"/>
+<area shape="rect" id="node167" href="$da/d98/m__rep_8c.html" title="Functions to create the &#39;View &#45;&gt; Representation&#39; submenu." alt="" coords="18341,86,18475,111"/>
+<area shape="rect" id="node168" href="$d7/dbe/m__style_8c.html" title="Functions to create the &#39;OpenGL &#45;&gt; Style&#39; submenu." alt="" coords="18499,86,18645,111"/>
+<area shape="rect" id="node169" href="$d5/dbe/menu__bar_8c.html" title="Functions to create the menu bar of the OpenGL window &#160;&#160;Functions to create the menu items for the me..." alt="" coords="18669,86,18825,111"/>
+<area shape="rect" id="node170" href="$d8/db9/w__advance_8c.html" title="Functions to create the OpenGL parameters edition window." alt="" coords="18849,86,19015,111"/>
+<area shape="rect" id="node171" href="$dd/d61/w__atoms_8c.html" title="Functions to create the atom(s) / clone(s) advanced configuration window." alt="" coords="19039,86,19191,111"/>
+<area shape="rect" id="node172" href="$da/d3c/w__axis_8c.html" title="Functions to create the axis parameters edition window." alt="" coords="19215,86,19355,111"/>
+<area shape="rect" id="node173" href="$d9/d11/w__bonds_8c.html" title="Functions to create the bond (legnth/radius) edition window(s)" alt="" coords="19379,86,19530,111"/>
+<area shape="rect" id="node174" href="$d2/ddf/w__box_8c.html" title="Functions to create the box properties window." alt="" coords="19554,86,19691,111"/>
+<area shape="rect" id="node175" href="$d3/d82/w__chains_8c.html" title="Functions to create the chain(s) tab for the advanced environments window." alt="" coords="19716,86,19871,111"/>
+<area shape="rect" id="node176" href="$d2/d92/w__colors_8c.html" title="Functions to create the color selection dialogs." alt="" coords="19895,86,20046,111"/>
+<area shape="rect" id="node177" href="$d7/df0/w__coord_8c.html" title="Functions to create the &#39;Environments configuration&#39; window." alt="" coords="20070,86,20218,111"/>
+<area shape="rect" id="node178" href="$d8/d8f/w__crystal_8c.html" title="Functions to create a crystal database window &#160;&#160;This is a project and not in use for the time being." alt="" coords="20243,86,20397,111"/>
+<area shape="rect" id="node179" href="$d4/db9/w__cutoffs_8c.html" title="Functions to create the bond cutoffs update dialog." alt="" coords="20421,86,20576,111"/>
+<area shape="rect" id="node180" href="$da/daf/w__encode_8c.html" title="Functions to create the encoding (image/video) window." alt="" coords="20601,86,20759,111"/>
+<area shape="rect" id="node181" href="$dc/d44/w__labels_8c.html" title="Functions to create the &#39;atomic labels&#39; tab of the atom(s) / clone(s) advanced configuration window &#160;..." alt="" coords="20783,86,20934,111"/>
+<area shape="rect" id="node182" href="$d3/db3/w__library_8c.html" title="Functions to create the molecular library &#160;&#160;Functions to read the &#39;Simple chemical XML&#39; files." alt="" coords="20958,86,21109,111"/>
+<area shape="rect" id="node183" href="$dd/d83/w__measures_8c.html" title="Functions to create the measurement(s) window." alt="" coords="21133,86,21307,111"/>
+<area shape="rect" id="node184" href="$dc/deb/w__periodic_8c.html" title="Functions to create the periodic table of the elements &#160;&#160;Functions to select element from the periodi..." alt="" coords="21331,86,21493,111"/>
+<area shape="rect" id="node185" href="$d2/d3c/w__record_8c.html" title="Functions to create the recording window." alt="" coords="21517,86,21669,111"/>
+<area shape="rect" id="node186" href="$d9/d99/w__rings_8c.html" title="Functions to create the ring(s) tab for the advanced environments window." alt="" coords="21693,86,21837,111"/>
+<area shape="rect" id="node187" href="$d9/d33/w__sequencer_8c.html" title="Functions to create the MD sequencer window." alt="" coords="21861,86,22037,111"/>
+<area shape="rect" id="node188" href="$d3/d11/w__spiner_8c.html" title="Functions to create the &#39;Spin&#39; window." alt="" coords="22062,86,22213,111"/>
+<area shape="rect" id="node189" href="$df/d35/debugio_8c.html" title="Some debugging and printing functions." alt="" coords="22237,86,22358,111"/>
+<area shape="rect" id="node190" href="$d2/d0d/project_8c.html" title="Project management functions." alt="" coords="22383,86,22497,111"/>
+<area shape="rect" id="node191" href="$d9/d31/read__bond_8c.html" title="Function to read bonding information in the atomes project file format." alt="" coords="22521,86,22657,111"/>
+<area shape="rect" id="node192" href="$de/dad/read__curve_8c.html" title="Functions to read curve data in the atomes project file format." alt="" coords="22682,86,22822,111"/>
+<area shape="rect" id="node193" href="$d4/db6/read__mol_8c.html" title="Functions to read molecule(s) data in the atomes project file format." alt="" coords="22846,86,22975,111"/>
+<area shape="rect" id="node194" href="$db/dd4/read__opengl_8c.html" title="Functions to read the OpenGL window data in the atomes project file format." alt="" coords="23000,86,23147,111"/>
+<area shape="rect" id="node195" href="$d7/d81/read__qm_8c.html" title="Functions to read ab&#45;intio (CPMD/CP2K) calculation parameters in the atomes project file format." alt="" coords="23171,86,23298,111"/>
+<area shape="rect" id="node196" href="$da/d70/read__c3d_8c.html" title="Functions to read Chem3d atomic coordinates." alt="" coords="23322,79,23459,119"/>
+<area shape="rect" id="node197" href="$dd/d72/read__isaacs_8c.html" title="Functions to read an ISAACS XML file &#160;&#160;Functions to write an ISAACS XML file." alt="" coords="23483,79,23621,119"/>
+<area shape="rect" id="node198" href="$d9/d42/read__pdb_8c.html" title="Functions to read PDB files." alt="" coords="23645,79,23782,119"/>
+<area shape="rect" id="node199" href="$d9/deb/read__trj_8c.html" title="Functions to read CPMD atomic coordinates." alt="" coords="23806,79,23943,119"/>
+<area shape="rect" id="node200" href="$d6/dc9/read__vas_8c.html" title="Functions to read VASP atomic coordinates." alt="" coords="23967,79,24105,119"/>
+<area shape="rect" id="node201" href="$d0/dce/read__xyz_8c.html" title="Functions to read XYZ atomic coordinates." alt="" coords="24129,79,24266,119"/>
+<area shape="rect" id="node202" href="$dd/d70/save__bond_8c.html" title="Functions to save bonding information in the atomes project file format." alt="" coords="24291,86,24429,111"/>
+<area shape="rect" id="node203" href="$d3/dd4/save__curve_8c.html" title="Functions to save curves information in the atomes project file format." alt="" coords="24454,86,24597,111"/>
+<area shape="rect" id="node204" href="$d9/d9c/save__mol_8c.html" title="Functions to save molecules information in the atomes project file format." alt="" coords="24621,86,24753,111"/>
+<area shape="rect" id="node205" href="$d2/d45/save__opengl_8c.html" title="Functions to save OpenGL information in the atomes project file format." alt="" coords="24777,86,24927,111"/>
+<area shape="rect" id="node206" href="$d7/d70/save__p_8c.html" title="Functions to start saving an atomes project file." alt="" coords="24951,86,25070,111"/>
+<area shape="rect" id="node207" href="$d2/de7/save__qm_8c.html" title="Functions to save ab&#45;initio (CPMD/CP2K) calculation parameters in the atomes project file format." alt="" coords="25094,86,25223,111"/>
+<area shape="rect" id="node208" href="$db/d3e/update__p_8c.html" title="Functions to update a project &#160;&#160;Functions to activate a project." alt="" coords="25247,86,25377,111"/>
+<area shape="rect" id="node209" href="$d0/d3a/modelinfo_8c.html" title="Functions to display model information in GtkTextBuffer." alt="" coords="25401,86,25557,111"/>
+<area shape="rect" id="node210" href="$d6/df5/workinfo_8c.html" title="Functions to display project information in GtkTextBuffer." alt="" coords="25581,86,25731,111"/>
+<area shape="rect" id="node211" href="$d3/da6/workspace_8c.html" title="Implementation of the workspace tree view &#160;&#160;Associated callbacks." alt="" coords="25755,86,25917,111"/>
+<area shape="rect" id="node21" href="$d3/dd7/dlp__active_8c.html" title="Functions to retrieve data in the force field structure." alt="" coords="1228,174,1393,199"/>
+<area shape="rect" id="node22" href="$d2/da2/dlp__atom_8c.html" title="Functions to handle atom selection(s) when creating a force field &#160;&#160;Functions to remove / add field a..." alt="" coords="1418,174,1577,199"/>
+<area shape="rect" id="node23" href="$dc/d11/dlp__control_8c.html" title="Functions to handle the creation of the DL&#45;POLY CONTROL file." alt="" coords="1601,174,1770,199"/>
+<area shape="rect" id="node24" href="$d3/d43/dlp__field_8c.html" title="Functions to prepare the DL&#45;POLY / LAMMPS input preparation assistant &#160;&#160;Functions to design a classic..." alt="" coords="1795,174,1949,199"/>
+<area shape="rect" id="node25" href="$d6/d78/dlp__init_8c.html" title="Functions to initialize the creation of a classical force field." alt="" coords="1973,174,2120,199"/>
+<area shape="rect" id="node26" href="$d7/d6f/dlp__mol_8c.html" title="Functions to add / remove molecule(s) to / from the force field." alt="" coords="2145,174,2295,199"/>
+<area shape="rect" id="node27" href="$d2/dc7/dlp__print_8c.html" title="Functions to handle the output of the DL&#45;POLY FIELD file &#160;&#160;Functions to handle the output of the DL&#45;P..." alt="" coords="700,174,855,199"/>
+<area shape="rect" id="node28" href="$d1/d1d/dlp__viz_8c.html" title="functions to handle the visualization events when creating a classical force field" alt="" coords="879,174,1025,199"/>
+<area shape="rect" id="node30" href="$da/d65/la__print_8c.html" title="Functions to print the LAMMPS input file(s)" alt="" coords="1050,174,1203,199"/>
+<area shape="rect" id="node92" href="$d8/d15/atom__action_8c.html" title="Functions to apply the edition actions to the model." alt="" coords="8611,174,8781,199"/>
+<area shape="rect" id="node114" href="$d9/dbe/atom__coord_8c.html" title="Functions to correct the coordination menus and the corresponding data pointers after edition." alt="" coords="10181,174,10349,199"/>
+<area shape="rect" id="node115" href="$dc/d6c/atom__edit_8c.html" title="Functions to create the model edition window." alt="" coords="10373,174,10531,199"/>
+<area shape="rect" id="node116" href="$d2/d4a/atom__geo_8c.html" title="Functions to check for the appropriate atomic coordinations." alt="" coords="10555,174,10712,199"/>
+<area shape="rect" id="node117" href="$dd/d0b/atom__insert_8c.html" title="Functions to insert bond(s) in a project." alt="" coords="10736,174,10904,199"/>
+<area shape="rect" id="node118" href="$d7/d27/atom__move_8c.html" title="Functions to move atom(s) and group of atom(s) &#160;&#160;Functions to move randomly atom(s) and group of atom..." alt="" coords="10928,174,11096,199"/>
+<area shape="rect" id="node119" href="$d7/d6a/atom__object_8c.html" title="Functions to create atomic objects." alt="" coords="11120,174,11291,199"/>
+<area shape="rect" id="node120" href="$d3/ded/atom__remove_8c.html" title="Functions to remove bond(s) from a project &#160;&#160;Function to prepare the passivation (removal followed by..." alt="" coords="11315,174,11493,199"/>
+<area shape="rect" id="node121" href="$d9/d33/atom__search_8c.html" title="Functions to prepare the model edition &#39;search&#39; tabs and the associated widgets." alt="" coords="11518,174,11693,199"/>
+<area shape="rect" id="node122" href="$dd/d37/atom__species_8c.html" title="Functions to look for new chemical species and modify the chemical information accordingly." alt="" coords="9797,174,9979,199"/>
+<area shape="rect" id="node123" href="$d2/d17/cell__cut_8c.html" title="Functions to create the &#39;slab cutting&#39; tab of the cell edition window." alt="" coords="9282,174,9427,199"/>
+<area shape="rect" id="node124" href="$d8/d1c/cell__super_8c.html" title="Functions to create a super&#45;cell using the extra cell(s)" alt="" coords="9451,174,9610,199"/>
+<area shape="rect" id="node126" href="$db/d42/m__edit_8c.html" title="Functions to create the &#39;Tools &#45;&gt; Edit&#39; submenu." alt="" coords="9635,174,9773,199"/>
+<area shape="rect" id="node127" href="$d3/d51/m__tools_8c.html" title="Functions to create the &#39;Tools&#39; submenu." alt="" coords="9113,174,9258,199"/>
+<area shape="rect" id="node129" href="$de/dc7/w__search_8c.html" title="Functions to create the object search widgets, for: &#160;." alt="" coords="10003,174,10157,199"/>
+<area shape="rect" id="node141" href="$d9/d1a/cell__density_8c.html" title="Functions to create the &#39;density adjustment&#39; tab in the cell edition window." alt="" coords="8419,174,8587,199"/>
+<area shape="rect" id="node142" href="$d3/d1b/cell__edit_8c.html" title="Functions to create the cell edition window." alt="" coords="8806,174,8954,199"/>
+<area shape="rect" id="node143" href="$d1/d9f/cell__extra_8c.html" title="Functions to create the &#39;add cell(s)&#39; tab in the cell edition window." alt="" coords="8062,174,8218,199"/>
+<area shape="rect" id="node144" href="$d1/d4a/cell__shift_8c.html" title="Functions to create the &#39;shift cell center&#39; tab for the cell edition window." alt="" coords="8243,174,8395,199"/>
+</map>
