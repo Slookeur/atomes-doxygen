@@ -9,7 +9,7 @@ var searchData=
   ['max_5fin_5fselection_6',['MAX_IN_SELECTION',['../dc/de3/glview_8h.html#a32c2baeed9056c3aafc347f660c812d0',1,'glview.h']]],
   ['max_5flights_7',['MAX_LIGHTS',['../dc/de3/glview_8h.html#a737b417f16ea225cf15e8d4c23df53dc',1,'glview.h']]],
   ['maxdata_8',['MAXDATA',['../d2/d49/global_8h.html#ae7e715c270481406658bbd2bafa2897f',1,'global.h']]],
-  ['maxdataqm_9',['MAXDATAQM',['../d1/dcc/calc_8c.html#a2b204ad95d4a0de21e950d4550f7f4b4',1,'MAXDATAQM():&#160;calc.c'],['../d1/d74/calc_8h.html#a2b204ad95d4a0de21e950d4550f7f4b4',1,'MAXDATAQM():&#160;calc.h']]],
+  ['maxdataqm_9',['MAXDATAQM',['../d1/dcc/calc_8c.html#a2b204ad95d4a0de21e950d4550f7f4b4',1,'MAXDATAQM:&#160;calc.c'],['../d1/d74/calc_8h.html#a2b204ad95d4a0de21e950d4550f7f4b4',1,'MAXDATAQM:&#160;calc.h']]],
   ['maxdatc_10',['MAXDATC',['../d2/d49/global_8h.html#ad358dabcd5a96fc617e8ddd3105c17fe',1,'global.h']]],
   ['media_5ffast_11',['MEDIA_FAST',['../d2/d49/global_8h.html#a750f216a36b54e8dbf0dd66e4046b4f3',1,'global.h']]],
   ['media_5ffirst_12',['MEDIA_FIRST',['../d2/d49/global_8h.html#a40c9f4c7a7540d5722377e7585a34b2d',1,'global.h']]],

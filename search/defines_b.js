@@ -1,7 +1,7 @@
 var searchData=
 [
   ['n_5fbasis_0',['N_BASIS',['../d7/d33/cp2k_8h.html#adc6667ba3a439ec9c3c83fca3a2086e8',1,'cp2k.h']]],
-  ['n_5ffields_1',['N_FIELDS',['../d8/da6/dlp__field_8h.html#ae4cbe82288cf1acf8844afb214983384',1,'N_FIELDS():&#160;dlp_field.h'],['../d7/d30/force__fields_8c.html#ae4cbe82288cf1acf8844afb214983384',1,'N_FIELDS():&#160;force_fields.c']]],
+  ['n_5ffields_1',['N_FIELDS',['../d8/da6/dlp__field_8h.html#ae4cbe82288cf1acf8844afb214983384',1,'N_FIELDS:&#160;dlp_field.h'],['../d7/d30/force__fields_8c.html#ae4cbe82288cf1acf8844afb214983384',1,'N_FIELDS:&#160;force_fields.c']]],
   ['n_5fgth_2',['N_GTH',['../d7/d33/cp2k_8h.html#aa92168faafb847a980753912307093bd',1,'cp2k.h']]],
   ['n_5fmolopt_3',['N_MOLOPT',['../d7/d33/cp2k_8h.html#aead6ff2929ecd15accb7e9ac70d99ca6',1,'cp2k.h']]],
   ['n_5fparams_4',['N_PARAMS',['../d7/d30/force__fields_8c.html#a8a88c2275112168e3ead1a8ecb769601',1,'force_fields.c']]],

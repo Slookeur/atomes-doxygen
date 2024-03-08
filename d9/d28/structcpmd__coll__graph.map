@@ -1,5 +1,9 @@
 <map id="cpmd" name="cpmd">
-<area shape="rect" id="node1" title=" " alt="" coords="105,112,160,137"/>
-<area shape="rect" id="node2" href="$df/d6b/structthermostat.html" title=" " alt="" coords="5,7,89,33"/>
-<area shape="rect" id="node3" href="$dc/dcf/structdummy__atom.html" title=" " alt="" coords="167,7,269,33"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="105,112,160,137"/>
+<area shape="rect" id="Node000002" href="$df/d6b/structthermostat.html" title=" " alt="" coords="5,7,89,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="59,46,69,67,83,86,112,109,108,114,79,90,65,69,54,48"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="107,10,116,20,108,30,90,33,89,27,105,25,111,20,103,14"/>
+<area shape="rect" id="Node000003" href="$dc/dcf/structdummy__atom.html" title=" " alt="" coords="167,7,269,33"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="208,48,180,90,152,114,149,110,176,86,204,45"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="286,10,295,20,287,29,270,33,269,27,285,25,290,20,283,14"/>
 </map>

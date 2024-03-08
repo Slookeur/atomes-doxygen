@@ -6,137 +6,186 @@
 <!-- Title: builder_edition Pages: 1 -->
 <svg width="308pt" height="236pt"
  viewBox="0.00 0.00 307.88 236.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" onload="init(evt)">
+<style type="text/css"><![CDATA[
+.node, .edge {opacity: 0.7;}
+.node.selected, .edge.selected {opacity: 1;}
+.edge:hover path { stroke: red; }
+.edge:hover polygon { stroke: red; fill: red; }
+]]></style>
+<script type="application/ecmascript" xlink:href="../../svg.min.js"/>
+<svg id="graph" class="graph">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 232)">
 <title>builder_edition</title>
 <!-- Node1 -->
-<g id="node1" class="node">
+<g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title=" ">
 <polygon fill="#999999" stroke="#666666" points="149.88,-19 70.88,-19 70.88,0 149.88,0 149.88,-19"/>
 <text text-anchor="middle" x="110.38" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">builder_edition</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
-<g id="node2" class="node">
+<g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../de/df1/structcell__info.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="../../de/df1/structcell__info.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="106.88,-85 53.88,-85 53.88,-66 106.88,-66 106.88,-85"/>
 <text text-anchor="middle" x="80.38" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">cell_info</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge">
+<g id="edge1_Node000001_Node000002" class="edge">
 <title>Node2&#45;&gt;Node1</title>
+<g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M89.38,-55.3C94.98,-43.35 101.91,-28.56 106.24,-19.32"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="86.27,-53.69 85.19,-64.23 92.61,-56.66 86.27,-53.69"/>
-<text text-anchor="middle" x="106.88" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00"> cell</text>
+</a>
+</g>
+<text text-anchor="middle" x="106.88" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> cell</text>
 </g>
 <!-- Node3 -->
-<g id="node3" class="node">
+<g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d7/d81/structbox__info.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="../../d7/d81/structbox__info.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="66.88,-151 13.88,-151 13.88,-132 66.88,-132 66.88,-151"/>
 <text text-anchor="middle" x="40.38" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">box_info</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge">
+<g id="edge2_Node000002_Node000003" class="edge">
 <title>Node3&#45;&gt;Node2</title>
+<g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M51.92,-122.03C59.46,-109.96 68.97,-94.75 74.86,-85.32"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="49.07,-119.98 46.74,-130.32 55.01,-123.69 49.07,-119.98"/>
-<text text-anchor="middle" x="72.88" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00"> box</text>
+</a>
+</g>
+<text text-anchor="middle" x="72.88" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> box</text>
 </g>
 <!-- Node4 -->
-<g id="node4" class="node">
+<g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d6/d41/unionmat4__t.html" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="../../d6/d41/unionmat4__t.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="64.88,-228 17.88,-228 17.88,-209 64.88,-209 64.88,-228"/>
 <text text-anchor="middle" x="41.38" y="-216" font-family="Helvetica,sans-Serif" font-size="10.00">mat4_t</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node3 -->
-<g id="edge3" class="edge">
+<g id="edge3_Node000003_Node000004" class="edge">
 <title>Node4&#45;&gt;Node3</title>
+<g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M12.52,-202.15C8.84,-198.96 5.6,-195.25 3.38,-191 -1.14,-182.33 -1.09,-177.7 3.38,-169 7.21,-161.55 14.21,-155.73 21.1,-151.46"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="10.19,-204.79 20.36,-207.77 14.27,-199.1 10.19,-204.79"/>
-<text text-anchor="middle" x="30.88" y="-183" font-family="Helvetica,sans-Serif" font-size="10.00"> cart_to_frac</text>
-<text text-anchor="middle" x="30.88" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">frac_to_cart</text>
+</a>
+</g>
+<text text-anchor="middle" x="30.88" y="-183" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> cart_to_frac</text>
+<text text-anchor="middle" x="30.88" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">frac_to_cart</text>
 </g>
 <!-- Node5 -->
-<g id="node5" class="node">
+<g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../de/df2/structspace__group.html" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="../../de/df2/structspace__group.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="176.38,-151 104.38,-151 104.38,-132 176.38,-132 176.38,-151"/>
 <text text-anchor="middle" x="140.38" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">space_group</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
-<g id="edge7" class="edge">
+<g id="edge7_Node000005_Node000004" class="edge">
 <title>Node4&#45;&gt;Node5</title>
+<g id="a_edge7_Node000005_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M55.26,-200.08C63.8,-190.13 75.37,-177.9 87.38,-169 96.8,-162.02 108.34,-156 118.25,-151.47"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="52.74,-197.63 49.06,-207.57 58.13,-202.09 52.74,-197.63"/>
-<text text-anchor="middle" x="115.38" y="-183" font-family="Helvetica,sans-Serif" font-size="10.00"> coord_origin</text>
-<text text-anchor="middle" x="115.38" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00">wyck_origin</text>
+</a>
+</g>
+<text text-anchor="middle" x="115.38" y="-183" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> coord_origin</text>
+<text text-anchor="middle" x="115.38" y="-172" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">wyck_origin</text>
 </g>
 <!-- Node5&#45;&gt;Node2 -->
-<g id="edge4" class="edge">
+<g id="edge4_Node000002_Node000005" class="edge">
 <title>Node5&#45;&gt;Node2</title>
+<g id="a_edge4_Node000002_Node000005"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M124.42,-123.48C112.91,-111.2 97.84,-95.13 88.65,-85.32"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="121.61,-125.6 131,-130.5 126.71,-120.81 121.61,-125.6"/>
-<text text-anchor="middle" x="134.88" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00"> sp_group</text>
+</a>
+</g>
+<text text-anchor="middle" x="134.88" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> sp_group</text>
 </g>
 <!-- Node6 -->
-<g id="node6" class="node">
+<g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../dc/de2/structspg__setting.html" target="_top" xlink:title=" ">
+<g id="a_Node000006"><a xlink:href="../../dc/de2/structspg__setting.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="192.88,-228 125.88,-228 125.88,-209 192.88,-209 192.88,-228"/>
 <text text-anchor="middle" x="159.38" y="-216" font-family="Helvetica,sans-Serif" font-size="10.00">spg_setting</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node5 -->
-<g id="edge5" class="edge">
+<g id="edge5_Node000005_Node000006" class="edge">
 <title>Node6&#45;&gt;Node5</title>
+<g id="a_edge5_Node000005_Node000006"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M154.41,-197.87C150.59,-182.83 145.51,-162.77 142.63,-151.39"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="150.9,-198.3 156.75,-207.13 157.69,-196.58 150.9,-198.3"/>
-<text text-anchor="middle" x="170.38" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00"> settings</text>
+</a>
+</g>
+<text text-anchor="middle" x="170.38" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> settings</text>
 </g>
 <!-- Node7 -->
-<g id="node7" class="node">
+<g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d9/d4f/structwyckoff__position.html" target="_top" xlink:title=" ">
+<g id="a_Node000007"><a xlink:href="../../d9/d4f/structwyckoff__position.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="299.88,-228 210.88,-228 210.88,-209 299.88,-209 299.88,-228"/>
 <text text-anchor="middle" x="255.38" y="-216" font-family="Helvetica,sans-Serif" font-size="10.00">wyckoff_position</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node5 -->
-<g id="edge6" class="edge">
+<g id="edge6_Node000005_Node000007" class="edge">
 <title>Node7&#45;&gt;Node5</title>
+<g id="a_edge6_Node000005_Node000007"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M236.72,-201.3C224.77,-191.34 208.69,-178.68 193.38,-169 182.94,-162.4 170.65,-156.17 160.52,-151.41"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="234.27,-203.82 244.16,-207.62 238.8,-198.48 234.27,-203.82"/>
-<text text-anchor="middle" x="240.88" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00"> wyckoff</text>
+</a>
+</g>
+<text text-anchor="middle" x="240.88" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> wyckoff</text>
 </g>
 <!-- Node8 -->
-<g id="node8" class="node">
+<g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../df/d46/structtint.html" target="_top" xlink:title=" ">
+<g id="a_Node000008"><a xlink:href="../../df/d46/structtint.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="155.38,-85 125.38,-85 125.38,-66 155.38,-66 155.38,-85"/>
 <text text-anchor="middle" x="140.38" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">tint</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node1 -->
-<g id="edge8" class="edge">
+<g id="edge8_Node000001_Node000008" class="edge">
 <title>Node8&#45;&gt;Node1</title>
+<g id="a_edge8_Node000001_Node000008"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M131.38,-55.3C125.78,-43.35 118.84,-28.56 114.51,-19.32"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="128.15,-56.66 135.56,-64.23 134.49,-53.69 128.15,-56.66"/>
-<text text-anchor="middle" x="145.38" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00"> pointers</text>
+</a>
+</g>
+<text text-anchor="middle" x="145.38" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> pointers</text>
 </g>
 </g>
+</svg>
+</svg>
+
+<style type='text/css'>
+<![CDATA[
+[data-mouse-over-selected='false'] { opacity: 0.7; }
+[data-mouse-over-selected='true']  { opacity: 1.0; }
+]]>
+</style>
+<script type="application/ecmascript"><![CDATA[
+document.addEventListener('DOMContentLoaded', (event) => {
+  highlightEdges();
+  highlightAdjacentNodes();
+});
+]]></script>
 </svg>

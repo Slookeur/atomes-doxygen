@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['bbox_0',['bbox',['../d8/d90/gtk-misc_8c.html#ac02a5a2893c461b0c622b6921ee157a9',1,'bbox(GtkWidget *box, char *lab):&#160;gtk-misc.c'],['../d2/d49/global_8h.html#ac02a5a2893c461b0c622b6921ee157a9',1,'bbox(GtkWidget *box, char *lab):&#160;gtk-misc.c']]],
+  ['bbox_0',['bbox',['../d2/d49/global_8h.html#ac02a5a2893c461b0c622b6921ee157a9',1,'bbox(GtkWidget *box, char *lab):&#160;gtk-misc.c'],['../d8/d90/gtk-misc_8c.html#ac02a5a2893c461b0c622b6921ee157a9',1,'bbox(GtkWidget *box, char *lab):&#160;gtk-misc.c']]],
   ['body_5fat_1',['body_at',['../d3/d43/dlp__field_8c.html#a2bde5b6af5143033dc89d32f266f7f54',1,'body_at(int b):&#160;dlp_field.c'],['../d8/da6/dlp__field_8h.html#a2bde5b6af5143033dc89d32f266f7f54',1,'body_at(int b):&#160;dlp_field.c']]],
   ['body_5fidenticals_2',['body_identicals',['../d4/d28/dlp__edit_8c.html#acbfac41ba43812fbd2a0ddbb1ef26b01',1,'dlp_edit.c']]],
   ['body_5fstr_3',['body_str',['../d4/d28/dlp__edit_8c.html#a35001f25127d5fcdf5a761e09f47f667',1,'dlp_edit.c']]],

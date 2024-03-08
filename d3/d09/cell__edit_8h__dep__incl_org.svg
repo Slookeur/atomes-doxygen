@@ -9,148 +9,175 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 78)">
 <title>opengl/edit/cell_edit.h</title>
 <!-- Node1 -->
-<g id="node1" class="node">
+<g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="Function declarations for the cell edition window.">
+<g id="a_Node000001"><a xlink:title="Function declarations for the cell edition window.">
 <polygon fill="#999999" stroke="#666666" points="615.5,-74 504.5,-74 504.5,-55 615.5,-55 615.5,-74"/>
 <text text-anchor="middle" x="560" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">opengl/edit/cell_edit.h</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
-<g id="node2" class="node">
+<g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d3/d3a/callbacks_8c.html" target="_top" xlink:title="General callbacks &#160;&#160;Functions to open and close files.">
+<g id="a_Node000002"><a xlink:href="../../d3/d3a/callbacks_8c.html" target="_top" xlink:title="General callbacks &#160;&#160;Functions to open and close files.">
 <polygon fill="white" stroke="#666666" points="82,-19 0,-19 0,0 82,0 82,-19"/>
 <text text-anchor="middle" x="41" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">gui/callbacks.c</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
-<g id="edge1" class="edge">
+<g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
+<g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M492.99,-58.71C401.82,-51.83 233.69,-37.87 91,-19 88.21,-18.63 85.33,-18.22 82.44,-17.79"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="492.52,-62.18 502.75,-59.44 493.04,-55.2 492.52,-62.18"/>
+</a>
+</g>
 </g>
 <!-- Node3 -->
-<g id="node3" class="node">
+<g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d2/d17/cell__cut_8c.html" target="_top" xlink:title="Functions to create the &#39;slab cutting&#39; tab of the cell edition window.">
+<g id="a_Node000003"><a xlink:href="../../d2/d17/cell__cut_8c.html" target="_top" xlink:title="Functions to create the &#39;slab cutting&#39; tab of the cell edition window.">
 <polygon fill="white" stroke="#666666" points="209.5,-19 100.5,-19 100.5,0 209.5,0 209.5,-19"/>
 <text text-anchor="middle" x="155" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">opengl/edit/cell_cut.c</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge">
+<g id="edge2_Node000001_Node000003" class="edge">
 <title>Node1&#45;&gt;Node3</title>
+<g id="a_edge2_Node000001_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M493.09,-54.81C424.33,-45.88 314.18,-31.53 219,-19 216,-18.6 212.92,-18.2 209.81,-17.79"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="492.31,-58.24 502.68,-56.06 493.21,-51.3 492.31,-58.24"/>
+</a>
+</g>
 </g>
 <!-- Node4 -->
-<g id="node4" class="node">
+<g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d9/d1a/cell__density_8c.html" target="_top" xlink:title="Functions to create the &#39;density adjustment&#39; tab in the cell edition window.">
+<g id="a_Node000004"><a xlink:href="../../d9/d1a/cell__density_8c.html" target="_top" xlink:title="Functions to create the &#39;density adjustment&#39; tab in the cell edition window.">
 <polygon fill="white" stroke="#666666" points="354,-19 228,-19 228,0 354,0 354,-19"/>
 <text text-anchor="middle" x="291" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">opengl/edit/cell_density.c</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge">
+<g id="edge3_Node000001_Node000004" class="edge">
 <title>Node1&#45;&gt;Node4</title>
+<g id="a_edge3_Node000001_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M503.18,-52.3C453.51,-42.52 382.35,-28.5 336.41,-19.45"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="502.39,-55.72 512.88,-54.22 503.75,-48.85 502.39,-55.72"/>
+</a>
+</g>
 </g>
 <!-- Node5 -->
-<g id="node5" class="node">
+<g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d3/d1b/cell__edit_8c.html" target="_top" xlink:title="Functions to create the cell edition window.">
+<g id="a_Node000005"><a xlink:href="../../d3/d1b/cell__edit_8c.html" target="_top" xlink:title="Functions to create the cell edition window.">
 <polygon fill="white" stroke="#666666" points="483.5,-19 372.5,-19 372.5,0 483.5,0 483.5,-19"/>
 <text text-anchor="middle" x="428" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">opengl/edit/cell_edit.c</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node5 -->
-<g id="edge4" class="edge">
+<g id="edge4_Node000001_Node000005" class="edge">
 <title>Node1&#45;&gt;Node5</title>
+<g id="a_edge4_Node000001_Node000005"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M527.18,-50.32C503.13,-40.67 471.12,-27.82 450.06,-19.36"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="525.62,-53.47 536.2,-53.95 528.23,-46.97 525.62,-53.47"/>
+</a>
+</g>
 </g>
 <!-- Node6 -->
-<g id="node6" class="node">
+<g id="Node000006" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d1/d9f/cell__extra_8c.html" target="_top" xlink:title="Functions to create the &#39;add cell(s)&#39; tab in the cell edition window.">
+<g id="a_Node000006"><a xlink:href="../../d1/d9f/cell__extra_8c.html" target="_top" xlink:title="Functions to create the &#39;add cell(s)&#39; tab in the cell edition window.">
 <polygon fill="white" stroke="#666666" points="618.5,-19 501.5,-19 501.5,0 618.5,0 618.5,-19"/>
 <text text-anchor="middle" x="560" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">opengl/edit/cell_extra.c</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
-<g id="edge5" class="edge">
+<g id="edge5_Node000001_Node000006" class="edge">
 <title>Node1&#45;&gt;Node6</title>
+<g id="a_edge5_Node000001_Node000006"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M560,-43.35C560,-35.1 560,-25.97 560,-19.44"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="556.5,-43.23 560,-53.23 563.5,-43.23 556.5,-43.23"/>
+</a>
+</g>
 </g>
 <!-- Node7 -->
-<g id="node7" class="node">
+<g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d1/d4a/cell__shift_8c.html" target="_top" xlink:title="Functions to create the &#39;shift cell center&#39; tab for the cell edition window.">
+<g id="a_Node000007"><a xlink:href="../../d1/d4a/cell__shift_8c.html" target="_top" xlink:title="Functions to create the &#39;shift cell center&#39; tab for the cell edition window.">
 <polygon fill="white" stroke="#666666" points="751,-19 637,-19 637,0 751,0 751,-19"/>
 <text text-anchor="middle" x="694" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">opengl/edit/cell_shift.c</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
-<g id="edge6" class="edge">
+<g id="edge6_Node000001_Node000007" class="edge">
 <title>Node1&#45;&gt;Node7</title>
+<g id="a_edge6_Node000001_Node000007"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M593.31,-50.32C617.73,-40.67 650.22,-27.82 671.6,-19.36"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="592.15,-47.02 584.14,-53.95 594.73,-53.53 592.15,-47.02"/>
+</a>
+</g>
 </g>
 <!-- Node8 -->
-<g id="node8" class="node">
+<g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d8/d1c/cell__super_8c.html" target="_top" xlink:title="Functions to create a super&#45;cell using the extra cell(s)">
+<g id="a_Node000008"><a xlink:href="../../d8/d1c/cell__super_8c.html" target="_top" xlink:title="Functions to create a super&#45;cell using the extra cell(s)">
 <polygon fill="white" stroke="#666666" points="888.5,-19 769.5,-19 769.5,0 888.5,0 888.5,-19"/>
 <text text-anchor="middle" x="829" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">opengl/edit/cell_super.c</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
-<g id="edge7" class="edge">
+<g id="edge7_Node000001_Node000008" class="edge">
 <title>Node1&#45;&gt;Node8</title>
+<g id="a_edge7_Node000001_Node000008"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M616.82,-52.3C666.49,-42.52 737.65,-28.5 783.59,-19.45"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="616.25,-48.85 607.12,-54.22 617.61,-55.72 616.25,-48.85"/>
+</a>
+</g>
 </g>
 <!-- Node9 -->
-<g id="node9" class="node">
+<g id="Node000009" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="../../db/d42/m__edit_8c.html" target="_top" xlink:title="Functions to create the &#39;Tools &#45;&gt; Edit&#39; submenu.">
+<g id="a_Node000009"><a xlink:href="../../db/d42/m__edit_8c.html" target="_top" xlink:title="Functions to create the &#39;Tools &#45;&gt; Edit&#39; submenu.">
 <polygon fill="white" stroke="#666666" points="1011,-19 907,-19 907,0 1011,0 1011,-19"/>
 <text text-anchor="middle" x="959" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">opengl/win/m_edit.c</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node9 -->
-<g id="edge8" class="edge">
+<g id="edge8_Node000001_Node000009" class="edge">
 <title>Node1&#45;&gt;Node9</title>
+<g id="a_edge8_Node000001_Node000009"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M626.94,-54.84C695.15,-45.98 803.97,-31.74 898,-19 900.86,-18.61 903.8,-18.21 906.76,-17.81"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="626.9,-51.31 617.44,-56.07 627.81,-58.26 626.9,-51.31"/>
+</a>
+</g>
 </g>
 <!-- Node10 -->
-<g id="node10" class="node">
+<g id="Node000010" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="../../d3/d51/m__tools_8c.html" target="_top" xlink:title="Functions to create the &#39;Tools&#39; submenu.">
+<g id="a_Node000010"><a xlink:href="../../d3/d51/m__tools_8c.html" target="_top" xlink:title="Functions to create the &#39;Tools&#39; submenu.">
 <polygon fill="white" stroke="#666666" points="1138.5,-19 1029.5,-19 1029.5,0 1138.5,0 1138.5,-19"/>
 <text text-anchor="middle" x="1084" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">opengl/win/m_tools.c</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node10 -->
-<g id="edge9" class="edge">
+<g id="edge9_Node000001_Node000010" class="edge">
 <title>Node1&#45;&gt;Node10</title>
+<g id="a_edge9_Node000001_Node000010"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M627,-57.77C716.63,-49.94 880.45,-35.01 1020,-19 1023.01,-18.66 1026.09,-18.29 1029.2,-17.91"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="626.82,-54.27 617.16,-58.63 627.43,-61.25 626.82,-54.27"/>
+</a>
+</g>
 </g>
 </g>
 </svg>

@@ -6,89 +6,129 @@
 <!-- Title: ExtraSets Pages: 1 -->
 <svg width="134pt" height="239pt"
  viewBox="0.00 0.00 134.00 239.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" onload="init(evt)">
+<style type="text/css"><![CDATA[
+.node, .edge {opacity: 0.7;}
+.node.selected, .edge.selected {opacity: 1;}
+.edge:hover path { stroke: red; }
+.edge:hover polygon { stroke: red; fill: red; }
+]]></style>
+<script type="application/ecmascript" xlink:href="../../svg.min.js"/>
+<svg id="graph" class="graph">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 235)">
 <title>ExtraSets</title>
 <!-- Node1 -->
-<g id="node1" class="node">
+<g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title=" ">
 <polygon fill="#999999" stroke="#666666" points="63,-19 3,-19 3,0 63,0 63,-19"/>
 <text text-anchor="middle" x="33" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ExtraSets</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
-<g id="node2" class="node">
+<g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d8/dea/struct_curve_extra.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="../../d8/dea/struct_curve_extra.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="66,-97.5 0,-97.5 0,-78.5 66,-78.5 66,-97.5"/>
 <text text-anchor="middle" x="33" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">CurveExtra</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
-<g id="edge1" class="edge">
+<g id="edge1_Node000001_Node000002" class="edge">
 <title>Node2&#45;&gt;Node1</title>
+<g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M33,-66.72C33,-51.23 33,-30.65 33,-19.17"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="29.5,-66.71 33,-76.71 36.5,-66.71 29.5,-66.71"/>
-<text text-anchor="middle" x="43" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00"> first</text>
-<text text-anchor="middle" x="43" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">last</text>
+</a>
+</g>
+<text text-anchor="middle" x="43" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> first</text>
+<text text-anchor="middle" x="43" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">last</text>
 </g>
 <!-- Node2&#45;&gt;Node2 -->
-<g id="edge5" class="edge">
+<g id="edge5_Node000002_Node000002" class="edge">
 <title>Node2&#45;&gt;Node2</title>
+<g id="a_edge5_Node000002_Node000002"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M77.65,-93.08C81.56,-92 84,-90.31 84,-88 84,-83.89 76.28,-81.74 66.35,-81.55"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="77.36,-89.59 67.86,-94.27 78.21,-96.54 77.36,-89.59"/>
-<text text-anchor="middle" x="95" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00"> next</text>
-<text text-anchor="middle" x="95" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00">prev</text>
+</a>
+</g>
+<text text-anchor="middle" x="95" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> next</text>
+<text text-anchor="middle" x="95" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">prev</text>
 </g>
 <!-- Node3 -->
-<g id="node3" class="node">
+<g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../df/d46/structtint.html" target="_top" xlink:title=" ">
+<g id="a_Node000003"><a xlink:href="../../df/d46/structtint.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="31,-165 1,-165 1,-146 31,-146 31,-165"/>
 <text text-anchor="middle" x="16" y="-153" font-family="Helvetica,sans-Serif" font-size="10.00">tint</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
-<g id="edge2" class="edge">
+<g id="edge2_Node000002_Node000003" class="edge">
 <title>Node3&#45;&gt;Node2</title>
+<g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M21.16,-134.62C24.36,-122.29 28.31,-107.06 30.74,-97.69"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="17.8,-133.64 18.67,-144.2 24.57,-135.4 17.8,-133.64"/>
-<text text-anchor="middle" x="31.5" y="-120" font-family="Helvetica,sans-Serif" font-size="10.00"> id</text>
+</a>
+</g>
+<text text-anchor="middle" x="31.5" y="-120" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> id</text>
 </g>
 <!-- Node4 -->
-<g id="node4" class="node">
+<g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d0/d5d/struct_data_layout.html" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="../../d0/d5d/struct_data_layout.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="116.5,-165 49.5,-165 49.5,-146 116.5,-146 116.5,-165"/>
 <text text-anchor="middle" x="83" y="-153" font-family="Helvetica,sans-Serif" font-size="10.00">DataLayout</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node2 -->
-<g id="edge3" class="edge">
+<g id="edge3_Node000002_Node000004" class="edge">
 <title>Node4&#45;&gt;Node2</title>
+<g id="a_edge3_Node000002_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M69.28,-136.53C59.64,-123.89 47.16,-107.55 39.64,-97.69"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="66.49,-138.64 75.34,-144.46 72.05,-134.39 66.49,-138.64"/>
-<text text-anchor="middle" x="77" y="-120" font-family="Helvetica,sans-Serif" font-size="10.00"> layout</text>
+</a>
+</g>
+<text text-anchor="middle" x="77" y="-120" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> layout</text>
 </g>
 <!-- Node5 -->
-<g id="node5" class="node">
+<g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d1/d74/struct_col_r_g_b_a.html" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="../../d1/d74/struct_col_r_g_b_a.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="113,-231 53,-231 53,-212 113,-212 113,-231"/>
 <text text-anchor="middle" x="83" y="-219" font-family="Helvetica,sans-Serif" font-size="10.00">ColRGBA</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node4 -->
-<g id="edge4" class="edge">
+<g id="edge4_Node000004_Node000005" class="edge">
 <title>Node5&#45;&gt;Node4</title>
+<g id="a_edge4_Node000004_Node000005"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M83,-200.18C83,-188.44 83,-174.27 83,-165.32"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="79.5,-200.09 83,-210.09 86.5,-200.09 79.5,-200.09"/>
-<text text-anchor="middle" x="104.5" y="-186" font-family="Helvetica,sans-Serif" font-size="10.00"> datacolor</text>
+</a>
+</g>
+<text text-anchor="middle" x="104.5" y="-186" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> datacolor</text>
 </g>
 </g>
+</svg>
+</svg>
+
+<style type='text/css'>
+<![CDATA[
+[data-mouse-over-selected='false'] { opacity: 0.7; }
+[data-mouse-over-selected='true']  { opacity: 1.0; }
+]]>
+</style>
+<script type="application/ecmascript"><![CDATA[
+document.addEventListener('DOMContentLoaded', (event) => {
+  highlightEdges();
+  highlightAdjacentNodes();
+});
+]]></script>
 </svg>

@@ -6,24 +6,52 @@
 <!-- Title: field_shell Pages: 1 -->
 <svg width="108pt" height="30pt"
  viewBox="0.00 0.00 108.00 30.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<svg id="main" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" onload="init(evt)">
+<style type="text/css"><![CDATA[
+.node, .edge {opacity: 0.7;}
+.node.selected, .edge.selected {opacity: 1;}
+.edge:hover path { stroke: red; }
+.edge:hover polygon { stroke: red; fill: red; }
+]]></style>
+<script type="application/ecmascript" xlink:href="../../svg.min.js"/>
+<svg id="graph" class="graph">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 26)">
 <title>field_shell</title>
 <!-- Node1 -->
-<g id="node1" class="node">
+<g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title=" ">
 <polygon fill="#999999" stroke="#666666" points="60,-20.5 0,-20.5 0,-1.5 60,-1.5 60,-20.5"/>
 <text text-anchor="middle" x="30" y="-8.5" font-family="Helvetica,sans-Serif" font-size="10.00">field_shell</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node1 -->
-<g id="edge1" class="edge">
+<g id="edge1_Node000001_Node000001" class="edge">
 <title>Node1&#45;&gt;Node1</title>
+<g id="a_edge1_Node000001_Node000001"><a xlink:title=" ">
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M71.66,-13.85C75.55,-13.27 78,-12.32 78,-11 78,-8.66 70.25,-7.47 60.47,-7.44"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="71.74,-10.34 61.98,-14.47 72.18,-17.33 71.74,-10.34"/>
-<text text-anchor="middle" x="89" y="-14" font-family="Helvetica,sans-Serif" font-size="10.00"> next</text>
-<text text-anchor="middle" x="89" y="-3" font-family="Helvetica,sans-Serif" font-size="10.00">prev</text>
+</a>
+</g>
+<text text-anchor="middle" x="89" y="-14" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> next</text>
+<text text-anchor="middle" x="89" y="-3" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">prev</text>
 </g>
 </g>
+</svg>
+</svg>
+
+<style type='text/css'>
+<![CDATA[
+[data-mouse-over-selected='false'] { opacity: 0.7; }
+[data-mouse-over-selected='true']  { opacity: 1.0; }
+]]>
+</style>
+<script type="application/ecmascript"><![CDATA[
+document.addEventListener('DOMContentLoaded', (event) => {
+  highlightEdges();
+  highlightAdjacentNodes();
+});
+]]></script>
 </svg>
