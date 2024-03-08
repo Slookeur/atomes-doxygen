@@ -110,10 +110,10 @@ $(document).ready(function(){initNavTree('d9/d0c/rings-guttman_8_f90_source.html
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">! Copyright (C) 2022-2024 by CNRS and University of Strasbourg</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">!</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment">! @file rings-guttman.F90</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">! @short </span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">! @short Guttman&#39;s ring statistics</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="comment">! @author Sébastien Le Roux &lt;sebastien.leroux@ipcms.unistra.fr&gt;</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="../../d9/d0c/rings-guttman_8_f90.html#a15f801b86dff9a4750816d4dd7708bb6">   20</a></span><span class="keyword">INTEGER </span><span class="keyword">FUNCTION </span><a class="code hl_function" href="../../d9/d0c/rings-guttman_8_f90.html#a15f801b86dff9a4750816d4dd7708bb6">guttman_rings</a>()</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">INTEGER </span><span class="keyword">FUNCTION </span>guttman_rings()</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keywordtype">USE </span><a class="code hl_namespace" href="../../d4/d52/namespaceparameters.html">parameters</a></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
@@ -123,17 +123,17 @@ $(document).ready(function(){initNavTree('d9/d0c/rings-guttman_8_f90_source.html
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor"></span><span class="keywordtype">IMPLICIT NONE</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#ifdef OPENMP</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor"></span><span class="keywordtype">INTEGER</span> :: numth</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keywordtype">LOGICAL</span> :: doatoms</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor"></span><span class="keywordtype">INTEGER</span> :: NUMTH</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keywordtype">LOGICAL</span> :: DOATOMS</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor"></span> </div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">INTERFACE</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  <span class="keyword">INTEGER </span><span class="keyword">FUNCTION </span><a class="code hl_function" href="../../d2/d69/resrings_8_f90.html#ac9c16431d8692cf6e77a766eb72556d3">recrings</a>(VID)</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">INTENT(IN)</span> :: vid</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">INTENT(IN)</span> :: VID</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  <span class="keyword">END FUNCTION</span></div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">END INTERFACE</span></div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><a class="code hl_function" href="../../d9/d0c/rings-guttman_8_f90.html#a15f801b86dff9a4750816d4dd7708bb6">guttman_rings</a> = 0</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>guttman_rings = 0</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#ifdef OPENMP</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor"></span>numth = omp_get_max_threads()</div>
@@ -159,13 +159,13 @@ $(document).ready(function(){initNavTree('d9/d0c/rings-guttman_8_f90_source.html
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#ifdef DEBUG</span></div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor"></span>  <span class="keyword">write</span> (6, *) <span class="stringliteral">&quot;OpenMP on MD steps, NUMTH= &quot;</span>,numth</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor"></span>  <span class="keyword">call </span><a class="code hl_function" href="../../d9/d0c/rings-guttman_8_f90.html#a5e679c6c24a67ead14d5b1e77ce70dd1">guttman_ring_search_steps</a> (numth)</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor"></span>  <span class="keyword">call </span>guttman_ring_search_steps (numth)</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="keywordflow">endif</span></div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="preprocessor"></span><span class="keyword">call </span><a class="code hl_function" href="../../d9/d0c/rings-guttman_8_f90.html#a5e679c6c24a67ead14d5b1e77ce70dd1">guttman_ring_search_steps</a> ()</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="preprocessor"></span><span class="keyword">call </span>guttman_ring_search_steps ()</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="preprocessor"></span> </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><a class="code hl_function" href="../../d9/d0c/rings-guttman_8_f90.html#a15f801b86dff9a4750816d4dd7708bb6">guttman_rings</a> = <a class="code hl_function" href="../../d2/d69/resrings_8_f90.html#ac9c16431d8692cf6e77a766eb72556d3">recrings</a>(2)</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>guttman_rings = <a class="code hl_function" href="../../d2/d69/resrings_8_f90.html#ac9c16431d8692cf6e77a766eb72556d3">recrings</a>(2)</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keyword">END FUNCTION</span></div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
@@ -177,47 +177,47 @@ $(document).ready(function(){initNavTree('d9/d0c/rings-guttman_8_f90_source.html
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="comment">!$ USE OMP_LIB</span></div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="keywordtype">IMPLICIT NONE</span></div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="keywordtype">INTEGER</span>, <span class="keywordtype">INTENT(IN)</span> :: numth</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="keywordtype">TYPE</span> (<a class="code hl_struct" href="../../d4/da3/structparameters_1_1ring.html">ring</a>), <span class="keywordtype">DIMENSION(:)</span>, <span class="keywordtype">ALLOCATABLE</span> :: the_ring</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(:)</span>, <span class="keywordtype">ALLOCATABLE</span> :: tring, indte, indth</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(:,:,:)</span>, <span class="keywordtype">ALLOCATABLE</span> :: savring, ordring</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(:,:,:)</span>, <span class="keywordtype">ALLOCATABLE</span> :: savr, ordr</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="keywordtype">INTEGER</span> :: lora, lorb, lorc, ri</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="keywordtype">INTEGER</span>, <span class="keywordtype">INTENT(IN)</span> :: NUMTH</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="keywordtype">TYPE</span> (RING), <span class="keywordtype">DIMENSION(:)</span>, <span class="keywordtype">ALLOCATABLE</span> :: THE_RING</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(:)</span>, <span class="keywordtype">ALLOCATABLE</span> :: TRING, INDTE, INDTH</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(:,:,:)</span>, <span class="keywordtype">ALLOCATABLE</span> :: SAVRING, ORDRING</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(:,:,:)</span>, <span class="keywordtype">ALLOCATABLE</span> :: SAVR, ORDR</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="keywordtype">INTEGER</span> :: LORA, LORB, LORC, ri</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="keyword">INTERFACE</span></div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  <span class="keywordtype">RECURSIVE</span> <span class="keyword">SUBROUTINE </span><a class="code hl_function" href="../../d3/da5/rings-king_8_f90.html#ac3fddf31dde7ba1058cc427db878b579">inside_ring</a> (THE_RING, FND, S_IR, AI_IR, RID, TAE, TAH, LRA, LRB, &amp;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>  <span class="keywordtype">RECURSIVE</span> <span class="keyword">SUBROUTINE </span>inside_ring (THE_RING, FND, S_IR, AI_IR, RID, TAE, TAH, LRA, LRB, &amp;</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>                                    NRPAT, RSAVED, OSAVED, TRING, INDE, INDH, RESL, CPT, VPT)</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keywordtype">USE </span><a class="code hl_namespace" href="../../d4/d52/namespaceparameters.html">parameters</a></div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keywordtype">TYPE</span> (<a class="code hl_struct" href="../../d4/da3/structparameters_1_1ring.html">ring</a>), <span class="keywordtype">DIMENSION(TAILLD)</span>, <span class="keywordtype">INTENT(INOUT)</span> :: the_ring</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keywordtype">LOGICAL</span>, <span class="keywordtype">INTENT(INOUT)</span> :: fnd</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">INTENT(IN)</span> :: s_ir, ai_ir, rid</div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">INTENT(INOUT)</span> :: tae, tah</div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">INTENT(IN)</span> :: lra, lrb</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(NA)</span>, <span class="keywordtype">INTENT(INOUT)</span> :: nrpat</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(TAILLR,NUMA,TAILLR)</span>, <span class="keywordtype">INTENT(INOUT)</span> :: rsaved, osaved</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(TAILLR)</span>, <span class="keywordtype">INTENT(INOUT)</span> :: tring</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(NUMA)</span>, <span class="keywordtype">INTENT(INOUT)</span> :: inde, indh</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(TAILLR)</span>, <span class="keywordtype">INTENT(INOUT)</span> :: resl</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(NA)</span>, <span class="keywordtype">INTENT(IN)</span>:: cpt</div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(NA,MAXN)</span>, <span class="keywordtype">INTENT(IN)</span> :: vpt</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keywordtype">TYPE</span> (RING), <span class="keywordtype">DIMENSION(TAILLD)</span>, <span class="keywordtype">INTENT(INOUT)</span> :: THE_RING</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="keywordtype">LOGICAL</span>, <span class="keywordtype">INTENT(INOUT)</span> :: FND</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">INTENT(IN)</span> :: S_IR, AI_IR, RID</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">INTENT(INOUT)</span> :: TAE, TAH</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">INTENT(IN)</span> :: LRA, LRB</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(NA)</span>, <span class="keywordtype">INTENT(INOUT)</span> :: NRPAT</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(TAILLR,NUMA,TAILLR)</span>, <span class="keywordtype">INTENT(INOUT)</span> :: RSAVED, OSAVED</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(TAILLR)</span>, <span class="keywordtype">INTENT(INOUT)</span> :: TRING</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(NUMA)</span>, <span class="keywordtype">INTENT(INOUT)</span> :: INDE, INDH</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(TAILLR)</span>, <span class="keywordtype">INTENT(INOUT)</span> :: RESL</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(NA)</span>, <span class="keywordtype">INTENT(IN)</span>:: CPT</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(NA,MAXN)</span>, <span class="keywordtype">INTENT(IN)</span> :: VPT</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>  <span class="keyword">END SUBROUTINE</span></div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>  <span class="keyword">INTEGER </span><span class="keyword">FUNCTION </span><a class="code hl_function" href="../../d1/d57/rings__ogl_8_f90.html#a59b602fcd5e00746bc55a022ffe8fd25">rings_to_ogl_menu</a> (IDSEARCH, NRI)</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="keywordtype">USE </span><a class="code hl_namespace" href="../../d4/d52/namespaceparameters.html">parameters</a></div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">INTENT(IN)</span> :: idsearch</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(TAILLR, NS)</span>, <span class="keywordtype">INTENT(IN)</span> :: nri</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">INTENT(IN)</span> :: IDSEARCH</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(TAILLR, NS)</span>, <span class="keywordtype">INTENT(IN)</span> :: NRI</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>  <span class="keyword">END FUNCTION</span></div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>  <span class="keyword">INTEGER </span><span class="keyword">FUNCTION </span><a class="code hl_function" href="../../d1/d57/rings__ogl_8_f90.html#a3cc3b4204b053230e2ce727d28ff2466">rings_to_ogl</a> (STEP, IDSEARCH, NRI, RSAVED, OSAVED)</div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <span class="keywordtype">USE </span><a class="code hl_namespace" href="../../d4/d52/namespaceparameters.html">parameters</a></div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">INTENT(IN)</span> :: step, idsearch</div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(TAILLR,NS)</span>, <span class="keywordtype">INTENT(IN)</span> :: nri</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(TAILLR,NUMA,TAILLR)</span>, <span class="keywordtype">INTENT(IN)</span> :: rsaved, osaved</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">INTENT(IN)</span> :: STEP, IDSEARCH</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(TAILLR,NS)</span>, <span class="keywordtype">INTENT(IN)</span> :: NRI</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(TAILLR,NUMA,TAILLR)</span>, <span class="keywordtype">INTENT(IN)</span> :: RSAVED, OSAVED</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>  <span class="keyword">END FUNCTION</span></div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>  <span class="keyword">SUBROUTINE </span><a class="code hl_function" href="../../d3/da5/rings-king_8_f90.html#a7da9134e09ae074d021fc822c4473dcd">del_this_ring</a> (TLED, RSAVED, OSAVED, TRING, RESL, INDT)</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>  <span class="keyword">SUBROUTINE </span>del_this_ring (TLED, RSAVED, OSAVED, TRING, RESL, INDT)</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    <span class="keywordtype">USE </span><a class="code hl_namespace" href="../../d4/d52/namespaceparameters.html">parameters</a></div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">INTENT(IN)</span> :: tled</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(TAILLR,NUMA,TAILLR)</span>, <span class="keywordtype">INTENT(INOUT)</span> :: rsaved, osaved</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(NUMA)</span>, <span class="keywordtype">INTENT(INOUT)</span> :: indt</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(TAILLR)</span>, <span class="keywordtype">INTENT(INOUT)</span> :: resl, tring</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">INTENT(IN)</span> :: TLED</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(TAILLR,NUMA,TAILLR)</span>, <span class="keywordtype">INTENT(INOUT)</span> :: RSAVED, OSAVED</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(NUMA)</span>, <span class="keywordtype">INTENT(INOUT)</span> :: INDT</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(TAILLR)</span>, <span class="keywordtype">INTENT(INOUT)</span> :: RESL, TRING</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>  <span class="keyword">END SUBROUTINE</span></div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span><span class="keyword">END INTERFACE</span></div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
@@ -257,7 +257,7 @@ $(document).ready(function(){initNavTree('d9/d0c/rings-guttman_8_f90_source.html
 <div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span> </div>
 <div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>  savring(:,:,:)=0</div>
 <div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>  ordring(:,:,:)=0</div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>  <span class="keyword">call </span><a class="code hl_function" href="../../d3/da5/rings-king_8_f90.html#a828594dc9c21dbbbcba3b852f0717eef">setup_cpat_vpat_ring</a> (na, i, contj, voisj, cpat, vpat)</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>  <span class="keyword">call </span>setup_cpat_vpat_ring (na, i, contj, voisj, cpat, vpat)</div>
 <div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span> </div>
 <div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>  <span class="comment">! OpenMP on atoms only</span></div>
 <div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>  <span class="comment">!$OMP PARALLEL NUM_THREADS(NUMTH) DEFAULT (NONE) &amp;</span></div>
@@ -381,7 +381,7 @@ $(document).ready(function(){initNavTree('d9/d0c/rings-guttman_8_f90_source.html
 <div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>            res_list(:) = 0</div>
 <div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>            indte(:) = 0</div>
 <div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>            indth(:) = 0</div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>            <span class="keyword">call </span><a class="code hl_function" href="../../d3/da5/rings-king_8_f90.html#ac3fddf31dde7ba1058cc427db878b579">inside_ring</a> (the_ring, found, i, m, 2, taille, taillh, lora, lorb, &amp;</div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>            <span class="keyword">call </span>inside_ring (the_ring, found, i, m, 2, taille, taillh, lora, lorb, &amp;</div>
 <div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>                              rpat, savr, ordr, tring, indte, indth, res_list, cpat, vpat)</div>
 <div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>            <span class="keywordflow">if</span> (alc) alc_tab=<span class="stringliteral">&quot;INSIDE_RING&quot;</span></div>
 <div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>            <span class="keywordflow">if</span> (tbr .or. alc) <span class="keywordflow">goto</span> 003</div>
@@ -396,7 +396,7 @@ $(document).ready(function(){initNavTree('d9/d0c/rings-guttman_8_f90_source.html
 <div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>            <span class="keywordflow">elseif</span> (no_homo .and. res_list(taillh) .ne. 0) <span class="keywordflow">then</span></div>
 <div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>              <span class="comment">! Some shortest ring with HP bonds and &lt; TAILLR were found</span></div>
 <div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>              <span class="comment">! delete these rings now</span></div>
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>              <span class="keyword">call </span><a class="code hl_function" href="../../d3/da5/rings-king_8_f90.html#a7da9134e09ae074d021fc822c4473dcd">del_this_ring</a> (taillh, savr, ordr, tring, res_list, indth)</div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>              <span class="keyword">call </span>del_this_ring (taillh, savr, ordr, tring, res_list, indth)</div>
 <div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>            <span class="keywordflow">else</span></div>
 <div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>              <span class="keywordflow">if</span> (contj(j,i) .ge. 2 .and. contj(m,i) .ge. 2) <span class="keywordflow">then</span></div>
 <div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>                <span class="comment">!$OMP ATOMIC</span></div>
@@ -515,14 +515,14 @@ $(document).ready(function(){initNavTree('d9/d0c/rings-guttman_8_f90_source.html
 <div class="line"><a id="l00419" name="l00419"></a><span class="lineno">  419</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00420" name="l00420"></a><span class="lineno">  420</span><span class="preprocessor"></span> </div>
 <div class="line"><a id="l00421" name="l00421"></a><span class="lineno">  421</span><span class="preprocessor">#ifdef OPENMP</span></div>
-<div class="line"><a id="l00422" name="l00422"></a><span class="lineno">  422</span><span class="preprocessor"></span><span class="keyword">SUBROUTINE </span><a class="code hl_function" href="../../d9/d0c/rings-guttman_8_f90.html#a5e679c6c24a67ead14d5b1e77ce70dd1">guttman_ring_search_steps</a> (NUMTH)</div>
+<div class="line"><a id="l00422" name="l00422"></a><span class="lineno">  422</span><span class="preprocessor"></span><span class="keyword">SUBROUTINE </span>guttman_ring_search_steps (NUMTH)</div>
 <div class="line"><a id="l00423" name="l00423"></a><span class="lineno">  423</span> </div>
 <div class="line"><a id="l00424" name="l00424"></a><span class="lineno">  424</span><span class="keywordtype">USE </span><a class="code hl_namespace" href="../../d4/d52/namespaceparameters.html">parameters</a></div>
 <div class="line"><a id="l00425" name="l00425"></a><span class="lineno">  425</span><span class="comment">!$ USE OMP_LIB</span></div>
 <div class="line"><a id="l00426" name="l00426"></a><span class="lineno">  426</span><span class="keywordtype">IMPLICIT NONE</span></div>
-<div class="line"><a id="l00427" name="l00427"></a><span class="lineno">  427</span><span class="keywordtype">INTEGER</span>, <span class="keywordtype">INTENT(IN)</span> :: numth</div>
+<div class="line"><a id="l00427" name="l00427"></a><span class="lineno">  427</span><span class="keywordtype">INTEGER</span>, <span class="keywordtype">INTENT(IN)</span> :: NUMTH</div>
 <div class="line"><a id="l00428" name="l00428"></a><span class="lineno">  428</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00429" name="l00429"></a><span class="lineno"><a class="line" href="../../d9/d0c/rings-guttman_8_f90.html#a5e679c6c24a67ead14d5b1e77ce70dd1">  429</a></span><span class="preprocessor"></span><span class="keyword">SUBROUTINE </span><a class="code hl_function" href="../../d9/d0c/rings-guttman_8_f90.html#a5e679c6c24a67ead14d5b1e77ce70dd1">guttman_ring_search_steps</a> ()</div>
+<div class="line"><a id="l00429" name="l00429"></a><span class="lineno">  429</span><span class="preprocessor"></span><span class="keyword">SUBROUTINE </span>guttman_ring_search_steps ()</div>
 <div class="line"><a id="l00430" name="l00430"></a><span class="lineno">  430</span> </div>
 <div class="line"><a id="l00431" name="l00431"></a><span class="lineno">  431</span><span class="keywordtype">USE </span><a class="code hl_namespace" href="../../d4/d52/namespaceparameters.html">parameters</a></div>
 <div class="line"><a id="l00432" name="l00432"></a><span class="lineno">  432</span><span class="keywordtype">IMPLICIT NONE</span></div>
@@ -533,7 +533,7 @@ $(document).ready(function(){initNavTree('d9/d0c/rings-guttman_8_f90_source.html
 <div class="line"><a id="l00437" name="l00437"></a><span class="lineno">  437</span><span class="keywordtype">INTEGER</span> :: LORA, LORB, ri</div>
 <div class="line"><a id="l00438" name="l00438"></a><span class="lineno">  438</span> </div>
 <div class="line"><a id="l00439" name="l00439"></a><span class="lineno">  439</span><span class="keyword">INTERFACE</span></div>
-<div class="line"><a id="l00440" name="l00440"></a><span class="lineno">  440</span>  <span class="keywordtype">RECURSIVE</span> <span class="keyword">SUBROUTINE </span><a class="code hl_function" href="../../d3/da5/rings-king_8_f90.html#ac3fddf31dde7ba1058cc427db878b579">inside_ring</a> (THE_RING, FND, S_IR, AI_IR, RID, TAE, TAH, LRA, LRB, &amp;</div>
+<div class="line"><a id="l00440" name="l00440"></a><span class="lineno">  440</span>  <span class="keywordtype">RECURSIVE</span> <span class="keyword">SUBROUTINE </span>inside_ring (THE_RING, FND, S_IR, AI_IR, RID, TAE, TAH, LRA, LRB, &amp;</div>
 <div class="line"><a id="l00441" name="l00441"></a><span class="lineno">  441</span>                                    NRPAT, RSAVED, OSAVED, TRING, INDE, INDH, RESL, CPT, VPT)</div>
 <div class="line"><a id="l00442" name="l00442"></a><span class="lineno">  442</span>    <span class="keywordtype">USE </span><a class="code hl_namespace" href="../../d4/d52/namespaceparameters.html">parameters</a></div>
 <div class="line"><a id="l00443" name="l00443"></a><span class="lineno">  443</span>    <span class="keywordtype">TYPE</span> (RING), <span class="keywordtype">DIMENSION(TAILLD)</span>, <span class="keywordtype">INTENT(INOUT)</span> :: THE_RING</div>
@@ -560,7 +560,7 @@ $(document).ready(function(){initNavTree('d9/d0c/rings-guttman_8_f90_source.html
 <div class="line"><a id="l00464" name="l00464"></a><span class="lineno">  464</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(TAILLR,NS)</span>, <span class="keywordtype">INTENT(IN)</span> :: NRI</div>
 <div class="line"><a id="l00465" name="l00465"></a><span class="lineno">  465</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(TAILLR,NUMA,TAILLR)</span>, <span class="keywordtype">INTENT(IN)</span> :: RSAVED, OSAVED</div>
 <div class="line"><a id="l00466" name="l00466"></a><span class="lineno">  466</span>  <span class="keyword">END FUNCTION</span></div>
-<div class="line"><a id="l00467" name="l00467"></a><span class="lineno">  467</span>  <span class="keyword">SUBROUTINE </span><a class="code hl_function" href="../../d3/da5/rings-king_8_f90.html#a7da9134e09ae074d021fc822c4473dcd">del_this_ring</a> (TLED, RSAVED, OSAVED, TRING, RESL, INDT)</div>
+<div class="line"><a id="l00467" name="l00467"></a><span class="lineno">  467</span>  <span class="keyword">SUBROUTINE </span>del_this_ring (TLED, RSAVED, OSAVED, TRING, RESL, INDT)</div>
 <div class="line"><a id="l00468" name="l00468"></a><span class="lineno">  468</span>    <span class="keywordtype">USE </span><a class="code hl_namespace" href="../../d4/d52/namespaceparameters.html">parameters</a></div>
 <div class="line"><a id="l00469" name="l00469"></a><span class="lineno">  469</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">INTENT(IN)</span> :: TLED</div>
 <div class="line"><a id="l00470" name="l00470"></a><span class="lineno">  470</span>    <span class="keywordtype">INTEGER</span>, <span class="keywordtype">DIMENSION(TAILLR,NUMA,TAILLR)</span>, <span class="keywordtype">INTENT(INOUT)</span> :: RSAVED, OSAVED</div>
@@ -667,7 +667,7 @@ $(document).ready(function(){initNavTree('d9/d0c/rings-guttman_8_f90_source.html
 <div class="line"><a id="l00571" name="l00571"></a><span class="lineno">  571</span>  savring(:,:,:)=0</div>
 <div class="line"><a id="l00572" name="l00572"></a><span class="lineno">  572</span>  ordring(:,:,:)=0</div>
 <div class="line"><a id="l00573" name="l00573"></a><span class="lineno">  573</span>  tring(:)=0</div>
-<div class="line"><a id="l00574" name="l00574"></a><span class="lineno">  574</span>  <span class="keyword">call </span><a class="code hl_function" href="../../d3/da5/rings-king_8_f90.html#a828594dc9c21dbbbcba3b852f0717eef">setup_cpat_vpat_ring</a> (na, i, contj, voisj, cpat, vpat)</div>
+<div class="line"><a id="l00574" name="l00574"></a><span class="lineno">  574</span>  <span class="keyword">call </span>setup_cpat_vpat_ring (na, i, contj, voisj, cpat, vpat)</div>
 <div class="line"><a id="l00575" name="l00575"></a><span class="lineno">  575</span> </div>
 <div class="line"><a id="l00576" name="l00576"></a><span class="lineno">  576</span>  o=0</div>
 <div class="line"><a id="l00577" name="l00577"></a><span class="lineno">  577</span>  <span class="keywordflow">do</span> j=1, na</div>
@@ -712,7 +712,7 @@ $(document).ready(function(){initNavTree('d9/d0c/rings-guttman_8_f90_source.html
 <div class="line"><a id="l00616" name="l00616"></a><span class="lineno">  616</span>            res_list(:) = 0</div>
 <div class="line"><a id="l00617" name="l00617"></a><span class="lineno">  617</span>            indte(:) = 0</div>
 <div class="line"><a id="l00618" name="l00618"></a><span class="lineno">  618</span>            indth(:) = 0</div>
-<div class="line"><a id="l00619" name="l00619"></a><span class="lineno">  619</span>            <span class="keyword">call </span><a class="code hl_function" href="../../d3/da5/rings-king_8_f90.html#ac3fddf31dde7ba1058cc427db878b579">inside_ring</a> (the_ring, found, i, m, 2, taille, taillh, lora, lorb, &amp;</div>
+<div class="line"><a id="l00619" name="l00619"></a><span class="lineno">  619</span>            <span class="keyword">call </span>inside_ring (the_ring, found, i, m, 2, taille, taillh, lora, lorb, &amp;</div>
 <div class="line"><a id="l00620" name="l00620"></a><span class="lineno">  620</span>                              rpat, savring, ordring, tring, indte, indth, res_list, cpat, vpat)</div>
 <div class="line"><a id="l00621" name="l00621"></a><span class="lineno">  621</span>            <span class="keywordflow">if</span> (alc) alc_tab=<span class="stringliteral">&quot;INSIDE_RING&quot;</span></div>
 <div class="line"><a id="l00622" name="l00622"></a><span class="lineno">  622</span>            <span class="keywordflow">if</span> (tbr .or. alc) <span class="keywordflow">goto</span> 002</div>
@@ -727,7 +727,7 @@ $(document).ready(function(){initNavTree('d9/d0c/rings-guttman_8_f90_source.html
 <div class="line"><a id="l00631" name="l00631"></a><span class="lineno">  631</span>            <span class="keywordflow">elseif</span> (no_homo .and. res_list(taillh) .ne. 0) <span class="keywordflow">then</span></div>
 <div class="line"><a id="l00632" name="l00632"></a><span class="lineno">  632</span>              <span class="comment">! Some shortest ring with HP bonds and &lt; TAILLR were found</span></div>
 <div class="line"><a id="l00633" name="l00633"></a><span class="lineno">  633</span>              <span class="comment">! delete these rings now</span></div>
-<div class="line"><a id="l00634" name="l00634"></a><span class="lineno">  634</span>              <span class="keyword">call </span><a class="code hl_function" href="../../d3/da5/rings-king_8_f90.html#a7da9134e09ae074d021fc822c4473dcd">del_this_ring</a> (taillh, savring, ordring, tring, res_list, indth)</div>
+<div class="line"><a id="l00634" name="l00634"></a><span class="lineno">  634</span>              <span class="keyword">call </span>del_this_ring (taillh, savring, ordring, tring, res_list, indth)</div>
 <div class="line"><a id="l00635" name="l00635"></a><span class="lineno">  635</span>            <span class="keywordflow">else</span></div>
 <div class="line"><a id="l00636" name="l00636"></a><span class="lineno">  636</span>              <span class="keywordflow">if</span> (contj(j,i) .ge. 2 .and. contj(m,i) .ge. 2) ampat(o,i)=ampat(o,i)+1</div>
 <div class="line"><a id="l00637" name="l00637"></a><span class="lineno">  637</span><span class="keywordflow">            endif</span></div>
@@ -807,14 +807,8 @@ $(document).ready(function(){initNavTree('d9/d0c/rings-guttman_8_f90_source.html
 <div class="ttc" id="anamespaceparameters_html_a22f866797c0b4e7d4cb3546b06fb4d2a"><div class="ttname"><a href="../../d4/d52/namespaceparameters.html#a22f866797c0b4e7d4cb3546b06fb4d2a">parameters::ns</a></div><div class="ttdeci">integer ns</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d21/parameters_8_f90_source.html#l00147">parameters.F90:147</a></div></div>
 <div class="ttc" id="anamespaceparameters_html_a3da992b9437679911b049ceb3d5b8375"><div class="ttname"><a href="../../d4/d52/namespaceparameters.html#a3da992b9437679911b049ceb3d5b8375">parameters::na</a></div><div class="ttdeci">integer na</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d21/parameters_8_f90_source.html#l00145">parameters.F90:145</a></div></div>
 <div class="ttc" id="aresrings_8_f90_html_ac9c16431d8692cf6e77a766eb72556d3"><div class="ttname"><a href="../../d2/d69/resrings_8_f90.html#ac9c16431d8692cf6e77a766eb72556d3">recrings</a></div><div class="ttdeci">integer function recrings(vid)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d69/resrings_8_f90_source.html#l00020">resrings.F90:21</a></div></div>
-<div class="ttc" id="arings-guttman_8_f90_html_a15f801b86dff9a4750816d4dd7708bb6"><div class="ttname"><a href="../../d9/d0c/rings-guttman_8_f90.html#a15f801b86dff9a4750816d4dd7708bb6">guttman_rings</a></div><div class="ttdeci">integer function guttman_rings()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d0c/rings-guttman_8_f90_source.html#l00020">rings-guttman.F90:21</a></div></div>
-<div class="ttc" id="arings-guttman_8_f90_html_a5e679c6c24a67ead14d5b1e77ce70dd1"><div class="ttname"><a href="../../d9/d0c/rings-guttman_8_f90.html#a5e679c6c24a67ead14d5b1e77ce70dd1">guttman_ring_search_steps</a></div><div class="ttdeci">subroutine guttman_ring_search_steps()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d0c/rings-guttman_8_f90_source.html#l00429">rings-guttman.F90:430</a></div></div>
-<div class="ttc" id="arings-king_8_f90_html_a7da9134e09ae074d021fc822c4473dcd"><div class="ttname"><a href="../../d3/da5/rings-king_8_f90.html#a7da9134e09ae074d021fc822c4473dcd">del_this_ring</a></div><div class="ttdeci">subroutine del_this_ring(tled, rsaved, osaved, tring, resl, indt)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da5/rings-king_8_f90_source.html#l01124">rings-king.F90:1125</a></div></div>
-<div class="ttc" id="arings-king_8_f90_html_a828594dc9c21dbbbcba3b852f0717eef"><div class="ttname"><a href="../../d3/da5/rings-king_8_f90.html#a828594dc9c21dbbbcba3b852f0717eef">setup_cpat_vpat_ring</a></div><div class="ttdeci">subroutine setup_cpat_vpat_ring(nat, str, cont, vois, cpt, vpt)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da5/rings-king_8_f90_source.html#l00020">rings-king.F90:21</a></div></div>
-<div class="ttc" id="arings-king_8_f90_html_ac3fddf31dde7ba1058cc427db878b579"><div class="ttname"><a href="../../d3/da5/rings-king_8_f90.html#ac3fddf31dde7ba1058cc427db878b579">inside_ring</a></div><div class="ttdeci">recursive subroutine inside_ring(the_ring, fnd, s_ir, ai_ir, rid, tae, tah, lra, lrb, nrpat, rsaved, osaved, tring, inde, indh, resl, cpt, vpt)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da5/rings-king_8_f90_source.html#l00962">rings-king.F90:964</a></div></div>
 <div class="ttc" id="arings__ogl_8_f90_html_a3cc3b4204b053230e2ce727d28ff2466"><div class="ttname"><a href="../../d1/d57/rings__ogl_8_f90.html#a3cc3b4204b053230e2ce727d28ff2466">rings_to_ogl</a></div><div class="ttdeci">integer function rings_to_ogl(step, idsearch, nri, rsaved, osaved)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d57/rings__ogl_8_f90_source.html#l00020">rings_ogl.F90:21</a></div></div>
 <div class="ttc" id="arings__ogl_8_f90_html_a59b602fcd5e00746bc55a022ffe8fd25"><div class="ttname"><a href="../../d1/d57/rings__ogl_8_f90.html#a59b602fcd5e00746bc55a022ffe8fd25">rings_to_ogl_menu</a></div><div class="ttdeci">integer function rings_to_ogl_menu(idsearch, nri)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d57/rings__ogl_8_f90_source.html#l00168">rings_ogl.F90:169</a></div></div>
-<div class="ttc" id="astructparameters_1_1ring_html"><div class="ttname"><a href="../../d4/da3/structparameters_1_1ring.html">parameters::ring</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d21/parameters_8_f90_source.html#l00634">parameters.F90:634</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -264,7 +264,5 @@ var searchData=
   ['gtk3_5fmenu_5fitem_261',['gtk3_menu_item',['../d2/d49/global_8h.html#a3133976c538ad2212ec1bd02ed9f2dc3',1,'global.h']]],
   ['gtk_5flabel_5falign_262',['gtk_label_align',['../d2/d49/global_8h.html#aafa41fb398f4a7dd9eb38842e22f5980',1,'gtk_label_align(GtkWidget *lab, float ax, float ay):&#160;gtk-misc.c'],['../d8/d90/gtk-misc_8c.html#aafa41fb398f4a7dd9eb38842e22f5980',1,'gtk_label_align(GtkWidget *lab, float ax, float ay):&#160;gtk-misc.c']]],
   ['gtop_263',['gtop',['../de/d68/structimage.html#adb05c261e0693ef9f301a52862669ce6',1,'image']]],
-  ['gui_2ec_264',['gui.c',['../d5/d03/gui_8c.html',1,'']]],
-  ['guttman_5fring_5fsearch_5fsteps_265',['guttman_ring_search_steps',['../d9/d0c/rings-guttman_8_f90.html#a5e679c6c24a67ead14d5b1e77ce70dd1',1,'rings-guttman.F90']]],
-  ['guttman_5frings_266',['guttman_rings',['../d9/d0c/rings-guttman_8_f90.html#a15f801b86dff9a4750816d4dd7708bb6',1,'rings-guttman.F90']]]
+  ['gui_2ec_264',['gui.c',['../d5/d03/gui_8c.html',1,'']]]
 ];
