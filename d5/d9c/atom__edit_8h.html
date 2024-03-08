@@ -113,14 +113,12 @@ $(document).ready(function(){initNavTree('d5/d9c/atom__edit_8h.html','../../'); 
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for atom_edit.h:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d51/atom__edit_8h__incl.svg" width="100%" height="492"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d51/atom__edit_8h__incl.svg" width="100%" height="492"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/db1/atom__edit_8h__dep__incl.svg" width="100%" height="382"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/db1/atom__edit_8h__dep__incl.svg" width="100%" height="382"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../d5/d9c/atom__edit_8h_source.html">Go to the source code of this file.</a></p>
@@ -255,6 +253,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a57e9ac9d1381726a7e0010ce788934fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">add bond list to project bond list  <br /></td></tr>
 <tr class="separator:a57e9ac9d1381726a7e0010ce788934fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa68598bbbfd0ef7ffb220f7bf5550b9e"><td class="memItemLeft" align="right" valign="top">gboolean *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d9c/atom__edit_8h.html#aa68598bbbfd0ef7ffb220f7bf5550b9e">remove_bonds_from_project</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, <a class="el" href="../../d0/de8/structatomic__object.html">atomic_object</a> *this_object, int *old_id, <a class="el" href="../../da/d81/structatom.html">atom</a> *new_list, gboolean remove, gboolean passivate)</td></tr>
+<tr class="memdesc:aa68598bbbfd0ef7ffb220f7bf5550b9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> from project  <br /></td></tr>
 <tr class="separator:aa68598bbbfd0ef7ffb220f7bf5550b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40e4e97b8705c0a342b8caa0dbfa2ede"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d9c/atom__edit_8h.html#a40e4e97b8705c0a342b8caa0dbfa2ede">set_reset_transformation</a> (GtkToggleButton *but, gpointer data)</td></tr>
 <tr class="memdesc:a40e4e97b8705c0a342b8caa0dbfa2ede"><td class="mdescLeft">&#160;</td><td class="mdescRight">reset model transformation toggle callback GTK3  <br /></td></tr>
@@ -391,7 +390,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a50ecd08241a5d32600219bfa4c6a775c"><td class="mdescLeft">&#160;</td><td class="mdescRight">create model edtion action tab  <br /></td></tr>
 <tr class="separator:a50ecd08241a5d32600219bfa4c6a775c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e583572b82b3cd353529074d07d5e8b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d9c/atom__edit_8h.html#a3e583572b82b3cd353529074d07d5e8b">find_this_geo_id</a> (int id, <a class="el" href="../../df/ddc/structcoord__info.html">coord_info</a> *obj, int *old_z, int old_geo, int old_sp, int new_sp, <a class="el" href="../../df/ddc/structcoord__info.html">coord_info</a> *coord, double *new_z)</td></tr>
-<tr class="memdesc:a3e583572b82b3cd353529074d07d5e8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">if required create a new geometry, stored in coord, for coordination type 'id' and chemical species 'new_sp', return geometry id  <br /></td></tr>
+<tr class="memdesc:a3e583572b82b3cd353529074d07d5e8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">if required create a new geometry, stored in coord, for coordination type 'gid' and chemical species 'new_sp', return geometry id  <br /></td></tr>
 <tr class="separator:a3e583572b82b3cd353529074d07d5e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad224159313eadc2e34b164a3f871944f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d9c/atom__edit_8h.html#ad224159313eadc2e34b164a3f871944f">check_coord_modification</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, int old_id[], <a class="el" href="../../da/d81/structatom.html">atom</a> *new_list, <a class="el" href="../../d0/de8/structatomic__object.html">atomic_object</a> *this_object, gboolean movtion, gboolean passivating)</td></tr>
 <tr class="separator:ad224159313eadc2e34b164a3f871944f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2017,7 +2016,7 @@ Variables</h2></td></tr>
           <td class="memname">int find_this_geo_id </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>id</em>, </td>
+          <td class="paramname"><em>gid</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2069,10 +2068,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>if required create a new geometry, stored in coord, for coordination type 'id' and chemical species 'new_sp', return geometry id </p>
+<p>if required create a new geometry, stored in coord, for coordination type 'gid' and chemical species 'new_sp', return geometry id </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">id</td><td>the new coordination type (0 = total, 1 = partial) </td></tr>
+    <tr><td class="paramname">gid</td><td>the new coordination type (0 = total, 1 = partial) </td></tr>
     <tr><td class="paramname">obj</td><td>the new coordination info to update </td></tr>
     <tr><td class="paramname">old_z</td><td>old Z list </td></tr>
     <tr><td class="paramname">old_geo</td><td>the old coordination id for this coordination type </td></tr>
@@ -2556,7 +2555,7 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">at</td><td>the target atom id </td></tr>
-    <tr><td class="paramname">bd[2]</td><td>the bond atoms id </td></tr>
+    <tr><td class="paramname">bd</td><td>the bond atoms id </td></tr>
   </table>
   </dd>
 </dl>
@@ -3172,7 +3171,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Usage: remove <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> from project</p>
+
+<p>remove <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> from project </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">this_proj</td><td>the target project </td></tr>
@@ -4036,8 +4036,8 @@ Variables</h2></td></tr>
 <p>is the cell properly described to use PBC ? </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">box[2][3]</td><td>lattice parameters </td></tr>
-    <tr><td class="paramname">vect[2][3]</td><td>lattice vectors </td></tr>
+    <tr><td class="paramname">box</td><td>lattice parameters </td></tr>
+    <tr><td class="paramname">vect</td><td>lattice vectors </td></tr>
   </table>
   </dd>
 </dl>
@@ -4396,7 +4396,7 @@ Variables</h2></td></tr>
     <tr><td class="paramname">this_proj</td><td>the target project </td></tr>
     <tr><td class="paramname">i</td><td>selection status, 0 = non selected <a class="el" href="../../da/d81/structatom.html">atom(s)</a>, 1 = selected <a class="el" href="../../da/d81/structatom.html">atom(s)</a>, 2 = all <a class="el" href="../../da/d81/structatom.html">atom(s)</a> </td></tr>
     <tr><td class="paramname">j</td><td>axis, 0 = model, 1 = eye </td></tr>
-    <tr><td class="paramname">5</td><td>rotation) </td></tr>
+    <tr><td class="paramname">k</td><td>parameter to update: x, y, z or alpha, beta, gamma </td></tr>
   </table>
   </dd>
 </dl>

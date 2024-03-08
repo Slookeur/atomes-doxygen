@@ -105,8 +105,7 @@ $(document).ready(function(){initNavTree('dd/d83/w__measures_8c.html','../../');
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for w_measures.c:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/da5/w__measures_8c__incl.svg" width="100%" height="492"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/da5/w__measures_8c__incl.svg" width="100%" height="492"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../dd/d83/w__measures_8c_source.html">Go to the source code of this file.</a></p>
@@ -147,8 +146,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:a78ef8d8781d7e14e1b721ebe24c92240"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize color based id number over total number of elements  <br /></td></tr>
 <tr class="separator:a78ef8d8781d7e14e1b721ebe24c92240"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21ef33a81880f4655db1f4631f0b2635"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d83/w__measures_8c.html#a21ef33a81880f4655db1f4631f0b2635">measure_set_visible</a> (GtkTreeViewColumn *<a class="el" href="../../df/dbb/d__measures_8c.html#a4cf17d50abf3704f2064a3fd3720ae92">col</a>, GtkCellRenderer *renderer, GtkTreeModel *mod, GtkTreeIter *iter, gpointer data)</td></tr>
+<tr class="memdesc:a21ef33a81880f4655db1f4631f0b2635"><td class="mdescLeft">&#160;</td><td class="mdescRight">show / hide cell renderer in the measures tree store  <br /></td></tr>
 <tr class="separator:a21ef33a81880f4655db1f4631f0b2635"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d323232801dcbbae9734396d2238a18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d83/w__measures_8c.html#a4d323232801dcbbae9734396d2238a18">measure_set_color</a> (GtkTreeViewColumn *<a class="el" href="../../df/dbb/d__measures_8c.html#a4cf17d50abf3704f2064a3fd3720ae92">col</a>, GtkCellRenderer *renderer, GtkTreeModel *mod, GtkTreeIter *iter, gpointer data)</td></tr>
+<tr class="memdesc:a4d323232801dcbbae9734396d2238a18"><td class="mdescLeft">&#160;</td><td class="mdescRight">set renderer color in the measures tree store  <br /></td></tr>
 <tr class="separator:a4d323232801dcbbae9734396d2238a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58ab610d3d83e150a57f302ee1019d34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d83/w__measures_8c.html#a58ab610d3d83e150a57f302ee1019d34">dihedral_set_color_and_markup</a> (GtkTreeViewColumn *<a class="el" href="../../df/dbb/d__measures_8c.html#a4cf17d50abf3704f2064a3fd3720ae92">col</a>, GtkCellRenderer *renderer, GtkTreeModel *mod, GtkTreeIter *iter, gpointer data)</td></tr>
 <tr class="separator:a58ab610d3d83e150a57f302ee1019d34"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -359,7 +360,6 @@ Variables</h2></td></tr>
     <tr><td class="paramname">widg</td><td>the GtkWidget sending the signal </td></tr>
     <tr><td class="paramname">event</td><td>the GdkEvent triggering the signal </td></tr>
     <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
-    <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
   </table>
   </dd>
 </dl>
@@ -399,7 +399,6 @@ Variables</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">but</td><td>the GtkButton sending the signal </td></tr>
     <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
-    <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
   </table>
   </dd>
 </dl>
@@ -438,7 +437,6 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">view</td><td>the target glwin </td></tr>
-    <tr><td class="paramname">sid</td><td>the type of selection (0 = analysis mode, 1 = edition mode) </td></tr>
     <tr><td class="paramname">sid</td><td>the type of selection (0 = analysis mode, 1 = edition mode) </td></tr>
   </table>
   </dd>
@@ -539,7 +537,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Usage</td><td></td></tr>
     <tr><td class="paramname">col</td><td>the tree view column </td></tr>
     <tr><td class="paramname">renderer</td><td>the column renderer </td></tr>
     <tr><td class="paramname">mod</td><td>the tree model </td></tr>
@@ -888,7 +885,7 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">view</td><td>the target glwin </td></tr>
-    <tr><td class="paramname">id</td><td>label type (0 = atoms, 1 = clones, 3 = analysis measures, 4 = edition mode measures) </td></tr>
+    <tr><td class="paramname">lid</td><td>label type (0 = atoms, 1 = clones, 3 = analysis measures, 4 = edition mode measures) </td></tr>
   </table>
   </dd>
 </dl>
@@ -927,7 +924,6 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">but</td><td>the GtkButton sending the signal </td></tr>
-    <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
     <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
   </table>
   </dd>
@@ -980,9 +976,10 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>set renderer color in the measures tree store </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Usage</td><td>set renderer color in the measures tree store</td></tr>
     <tr><td class="paramname">col</td><td>the tree view column </td></tr>
     <tr><td class="paramname">renderer</td><td>the column renderer </td></tr>
     <tr><td class="paramname">mod</td><td>the tree model </td></tr>
@@ -1041,7 +1038,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Usage</td><td></td></tr>
     <tr><td class="paramname">col</td><td>the tree view column </td></tr>
     <tr><td class="paramname">renderer</td><td>the column renderer </td></tr>
     <tr><td class="paramname">mod</td><td>the tree model </td></tr>
@@ -1098,9 +1094,10 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>show / hide cell renderer in the measures tree store </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Usage</td><td>show / hide cell renderer in the measures tree store</td></tr>
     <tr><td class="paramname">col</td><td>the tree view column </td></tr>
     <tr><td class="paramname">renderer</td><td>the column renderer </td></tr>
     <tr><td class="paramname">mod</td><td>the tree model </td></tr>
@@ -1384,8 +1381,7 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">view</td><td>the target glwin </td></tr>
-    <tr><td class="paramname">pi</td><td>the type of selection (0 = analysis mode, 1 = edition mode) </td></tr>
-    <tr><td class="paramname">pi</td><td>the type of selection (0 = analysis mode, 1 = edition mode) </td></tr>
+    <tr><td class="paramname">sid</td><td>the type of selection (0 = analysis mode, 1 = edition mode) </td></tr>
   </table>
   </dd>
 </dl>
@@ -1469,7 +1465,6 @@ Variables</h2></td></tr>
 <p>create the measurements window </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">widg</td><td>the GtkWidget sending the signal </td></tr>
     <tr><td class="paramname">widg</td><td>the GtkWidget sending the signal </td></tr>
     <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
   </table>

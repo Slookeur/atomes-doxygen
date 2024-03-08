@@ -320,6 +320,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:acc9744f38e90404113fc115f2f2957cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">render all string to be rendered for a label list  <br /></td></tr>
 <tr class="separator:acc9744f38e90404113fc115f2f2957cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30de908bc27aa7337c94619503e11f2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de3/glview_8h.html#a30de908bc27aa7337c94619503e11f2c">prepare_string</a> (char *<a class="el" href="../../da/dae/datab_8c.html#aa2301c575b9a06f49fadd2f835354274">text</a>, int id, <a class="el" href="../../d1/d74/struct_col_r_g_b_a.html">ColRGBA</a> <a class="el" href="../../df/dbb/d__measures_8c.html#a4cf17d50abf3704f2064a3fd3720ae92">col</a>, <a class="el" href="../../d3/d7c/structvec3__t.html">vec3_t</a> pos, float lshift[3], <a class="el" href="../../da/d81/structatom.html">atom</a> *at, <a class="el" href="../../da/d81/structatom.html">atom</a> *bt, <a class="el" href="../../da/d81/structatom.html">atom</a> *ct)</td></tr>
+<tr class="memdesc:a30de908bc27aa7337c94619503e11f2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare a screen string to be rendered  <br /></td></tr>
 <tr class="separator:a30de908bc27aa7337c94619503e11f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78ef8d8781d7e14e1b721ebe24c92240"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d74/struct_col_r_g_b_a.html">ColRGBA</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de3/glview_8h.html#a78ef8d8781d7e14e1b721ebe24c92240">init_color</a> (int id, int numid)</td></tr>
 <tr class="memdesc:a78ef8d8781d7e14e1b721ebe24c92240"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize color based id number over total number of elements  <br /></td></tr>
@@ -3231,14 +3232,15 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Usage: prepare a screen string to be rendered</p>
+
+<p>prepare a screen string to be rendered </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">text</td><td>the text to render </td></tr>
     <tr><td class="paramname">id</td><td>the label id </td></tr>
     <tr><td class="paramname">col</td><td>the color </td></tr>
     <tr><td class="paramname">pos</td><td>the position </td></tr>
-    <tr><td class="paramname">lshift[3]</td><td>label position shift on x, y and z, if any </td></tr>
+    <tr><td class="paramname">lshift</td><td>label position shift on x, y and z, if any </td></tr>
     <tr><td class="paramname">at</td><td>the 1st atom, if any (bond or angle measure string) </td></tr>
     <tr><td class="paramname">bt</td><td>the 2nd atom, if any (bond or angle measure string) </td></tr>
     <tr><td class="paramname">ct</td><td>the 3rd atom, if any (angle measure string) </td></tr>
@@ -3381,7 +3383,7 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">nshaders</td><td>the number of shader(s) to initialize </td></tr>
-    <tr><td class="paramname">shaders[nshaders]</td><td>the list of shaders </td></tr>
+    <tr><td class="paramname">shaders</td><td>the list of shaders </td></tr>
     <tr><td class="paramname">this_proj</td><td>the target project </td></tr>
   </table>
   </dd>

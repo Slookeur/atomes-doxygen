@@ -112,8 +112,7 @@ $(document).ready(function(){initNavTree('d5/d34/bdcall_8c.html','../../'); init
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for bdcall.c:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d23/bdcall_8c__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d23/bdcall_8c__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../d5/d34/bdcall_8c_source.html">Go to the source code of this file.</a></p>
@@ -166,10 +165,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a785de6a2e215dbc02cd9d5b48ef7d920"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute bonding properties  <br /></td></tr>
 <tr class="separator:a785de6a2e215dbc02cd9d5b48ef7d920"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f779dd6b7c83b0470b89a1a985d0981"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d34/bdcall_8c.html#a7f779dd6b7c83b0470b89a1a985d0981">coordination_info</a> (int sp, double sac, double ssac[<a class="el" href="../../d2/d49/global_8h.html#aedb9c4e3ce991db6bf9e6824bfbb85da">active_project</a> -&gt; nspec])</td></tr>
-<tr class="memdesc:a7f779dd6b7c83b0470b89a1a985d0981"><td class="mdescLeft">&#160;</td><td class="mdescRight">print out coordination information  <br /></td></tr>
 <tr class="separator:a7f779dd6b7c83b0470b89a1a985d0981"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18ff50fb328a17641722471fbaee83f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d34/bdcall_8c.html#a18ff50fb328a17641722471fbaee83f6">coordout_</a> (int *sid, double *sac, double ssac[<a class="el" href="../../d2/d49/global_8h.html#aedb9c4e3ce991db6bf9e6824bfbb85da">active_project</a> -&gt; nspec], int *totgsa)</td></tr>
-<tr class="memdesc:a18ff50fb328a17641722471fbaee83f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve partial geometry information from Fortran90  <br /></td></tr>
 <tr class="separator:a18ff50fb328a17641722471fbaee83f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb26ebdc902fb23fb280aaefebdf20a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d34/bdcall_8c.html#adb26ebdc902fb23fb280aaefebdf20a7">env_info</a> (int sp, int totgsa, int numgsa[totgsa])</td></tr>
 <tr class="memdesc:adb26ebdc902fb23fb280aaefebdf20a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">output environment information for target chemical species in text buffer  <br /></td></tr>
@@ -254,16 +251,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>print out coordination information </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">sp</td><td>the target chemical species </td></tr>
-    <tr><td class="paramname">sac</td><td>total coordination number for the target species </td></tr>
-    <tr><td class="paramname">ssac[active_project-&gt;nspec]</td><td>partial coordination number(s) for the target species </td></tr>
-  </table>
-  </dd>
-</dl>
-
 <p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00632">632</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
 
 </div>
@@ -305,17 +292,6 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>retrieve partial geometry information from Fortran90 </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">sid</td><td>the target chemical species </td></tr>
-    <tr><td class="paramname">sac</td><td>total coordination number for the target species </td></tr>
-    <tr><td class="paramname">ssac[active_project-&gt;nspec]</td><td>partial coordination number(s) for the target species </td></tr>
-    <tr><td class="paramname">totgsa</td><td>the total number of partial coordination for the target chemical species </td></tr>
-  </table>
-  </dd>
-</dl>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00725">725</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
 
@@ -379,7 +355,7 @@ Variables</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">sp</td><td>the target chemcial species </td></tr>
     <tr><td class="paramname">totgsa</td><td>the total number of partial coordination(s) </td></tr>
-    <tr><td class="paramname">numgsa[totgsa]</td><td>the number of coordination(s) by coordination type </td></tr>
+    <tr><td class="paramname">numgsa</td><td>the number of coordination(s) by coordination type </td></tr>
   </table>
   </dd>
 </dl>
@@ -425,7 +401,7 @@ Variables</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">sid</td><td>the target chemical speceis </td></tr>
     <tr><td class="paramname">totgsa</td><td>the total number of partial coordination(s) </td></tr>
-    <tr><td class="paramname">numgsa[*totgsa]</td><td>the number of coordination(s) by coordination type </td></tr>
+    <tr><td class="paramname">numgsa</td><td>the number of coordination(s) by coordination type </td></tr>
   </table>
   </dd>
 </dl>

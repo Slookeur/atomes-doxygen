@@ -105,8 +105,7 @@ $(document).ready(function(){initNavTree('d3/ded/atom__remove_8c.html','../../')
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for atom_remove.c:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d27/atom__remove_8c__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d27/atom__remove_8c__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../d3/ded/atom__remove_8c_source.html">Go to the source code of this file.</a></p>
@@ -122,6 +121,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a94cb29fd5fb93a5c046ddbb3326a7456"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ded/atom__remove_8c.html#a94cb29fd5fb93a5c046ddbb3326a7456">test_this_fragment</a> (int natomes, int fcoord, int fid, <a class="el" href="../../da/d81/structatom.html">atom</a> **atom_list, int *old_id, gboolean remove)</td></tr>
 <tr class="separator:a94cb29fd5fb93a5c046ddbb3326a7456"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa68598bbbfd0ef7ffb220f7bf5550b9e"><td class="memItemLeft" align="right" valign="top">gboolean *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ded/atom__remove_8c.html#aa68598bbbfd0ef7ffb220f7bf5550b9e">remove_bonds_from_project</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, <a class="el" href="../../d0/de8/structatomic__object.html">atomic_object</a> *this_object, int *old_id, <a class="el" href="../../da/d81/structatom.html">atom</a> *new_list, gboolean remove, gboolean passivate)</td></tr>
+<tr class="memdesc:aa68598bbbfd0ef7ffb220f7bf5550b9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> from project  <br /></td></tr>
 <tr class="separator:aa68598bbbfd0ef7ffb220f7bf5550b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a925b6703d22462bf8089319d85b83666"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ded/atom__remove_8c.html#a925b6703d22462bf8089319d85b83666">to_remove_this_list_of_objects</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, <a class="el" href="../../d8/d59/structatom__search.html">atom_search</a> *asearch)</td></tr>
 <tr class="memdesc:a925b6703d22462bf8089319d85b83666"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepaer to remove a list of object(s) from a project, one object after another.  <br /></td></tr>
@@ -262,7 +262,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Usage: remove <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> from project</p>
+
+<p>remove <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> from project </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">this_proj</td><td>the target project </td></tr>

@@ -107,8 +107,7 @@ $(document).ready(function(){initNavTree('df/dbb/d__box_8c.html','../../'); init
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for d_box.c:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d39/d__box_8c__incl.svg" width="100%" height="492"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d39/d__box_8c__incl.svg" width="100%" height="492"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../df/dbb/d__box_8c_source.html">Go to the source code of this file.</a></p>
@@ -172,7 +171,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a92ef2ec57e118077a91c2c03ee4a7cde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d7c/structvec3__t.html">vec3_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbb/d__box_8c.html#a92ef2ec57e118077a91c2c03ee4a7cde">get_normal</a> (<a class="el" href="../../d3/d7c/structvec3__t.html">vec3_t</a> v1, <a class="el" href="../../d3/d7c/structvec3__t.html">vec3_t</a> v2, <a class="el" href="../../d3/d7c/structvec3__t.html">vec3_t</a> v3)</td></tr>
 <tr class="separator:a92ef2ec57e118077a91c2c03ee4a7cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f2cf904172cfd9aec53d11239bc22a2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbb/d__box_8c.html#a7f2cf904172cfd9aec53d11239bc22a2">draw_cuboid</a> (gboolean <a class="el" href="../../dc/de3/glview_8h.html#a2d236d8da6a014e44f197cea08eb239f">draw</a>, int SHADID, int shadnum, <a class="el" href="../../d6/d41/unionmat4__t.html">mat4_t</a> rot, <a class="el" href="../../d3/d7c/structvec3__t.html">vec3_t</a> <a class="el" href="../../d8/db9/w__advance_8c.html#aced708866869b3a14db5cd8de3134da2">cpos</a>, double paral[3][3], <a class="el" href="../../d1/d74/struct_col_r_g_b_a.html">ColRGBA</a> <a class="el" href="../../df/dbb/d__measures_8c.html#a4cf17d50abf3704f2064a3fd3720ae92">col</a>, double slab_alpha)</td></tr>
-<tr class="memdesc:a7f2cf904172cfd9aec53d11239bc22a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw cuboid vertices.  <br /></td></tr>
+<tr class="memdesc:a7f2cf904172cfd9aec53d11239bc22a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw cuboid vertices  <br /></td></tr>
 <tr class="separator:a7f2cf904172cfd9aec53d11239bc22a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaceef7bd1e524a1c73f43b7c6ecac627"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbb/d__box_8c.html#aaceef7bd1e524a1c73f43b7c6ecac627">cuboid_slab</a> (<a class="el" href="../../d6/d41/unionmat4__t.html">mat4_t</a> rot)</td></tr>
 <tr class="memdesc:aaceef7bd1e524a1c73f43b7c6ecac627"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare cuboid slab OpenGL rendering  <br /></td></tr>
@@ -483,7 +482,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Draw cuboid vertices. </p>
+<p>draw cuboid vertices </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">draw</td><td>draw or not (1/0) </td></tr>
@@ -491,7 +490,7 @@ Variables</h2></td></tr>
     <tr><td class="paramname">shadnum</td><td>shader number </td></tr>
     <tr><td class="paramname">rot</td><td>rotation matrix </td></tr>
     <tr><td class="paramname">cpos</td><td>position of center of slab </td></tr>
-    <tr><td class="paramname">paral[3][3]</td><td>cell parameters </td></tr>
+    <tr><td class="paramname">paral</td><td>cell parameters </td></tr>
     <tr><td class="paramname">col</td><td>slab color </td></tr>
     <tr><td class="paramname">slab_alpha</td><td>slab opacity </td></tr>
   </table>
@@ -778,7 +777,7 @@ Variables</h2></td></tr>
 <p>prepare a box OpenGL rendering </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">*)</td><td>the function to use a render </td></tr>
+    <tr><td class="paramname">c_func</td><td>the function to use a render </td></tr>
     <tr><td class="paramname">verts</td><td>OpenGL cylinder/line data buffer to fill </td></tr>
     <tr><td class="paramname">serts</td><td>OpenGL sphere data buffer to fill, or NULL </td></tr>
   </table>

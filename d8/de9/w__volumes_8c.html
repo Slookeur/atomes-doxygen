@@ -111,8 +111,7 @@ $(document).ready(function(){initNavTree('d8/de9/w__volumes_8c.html','../../'); 
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for w_volumes.c:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d9b/w__volumes_8c__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d0/d9b/w__volumes_8c__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../d8/de9/w__volumes_8c_source.html">Go to the source code of this file.</a></p>
@@ -123,7 +122,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ad435b83d4521a0dc4accfcdcab56f9ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">center atomic coordinates around (0,0,0) and refresh shaders  <br /></td></tr>
 <tr class="separator:ad435b83d4521a0dc4accfcdcab56f9ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f2cf904172cfd9aec53d11239bc22a2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de9/w__volumes_8c.html#a7f2cf904172cfd9aec53d11239bc22a2">draw_cuboid</a> (gboolean <a class="el" href="../../dc/de3/glview_8h.html#a2d236d8da6a014e44f197cea08eb239f">draw</a>, int SHADID, int shadnum, <a class="el" href="../../d6/d41/unionmat4__t.html">mat4_t</a> rot, <a class="el" href="../../d3/d7c/structvec3__t.html">vec3_t</a> <a class="el" href="../../d8/db9/w__advance_8c.html#aced708866869b3a14db5cd8de3134da2">cpos</a>, double paral[3][3], <a class="el" href="../../d1/d74/struct_col_r_g_b_a.html">ColRGBA</a> <a class="el" href="../../df/dbb/d__measures_8c.html#a4cf17d50abf3704f2064a3fd3720ae92">col</a>, double slab_alpha)</td></tr>
-<tr class="memdesc:a7f2cf904172cfd9aec53d11239bc22a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw cuboid vertices.  <br /></td></tr>
+<tr class="memdesc:a7f2cf904172cfd9aec53d11239bc22a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw cuboid vertices  <br /></td></tr>
 <tr class="separator:a7f2cf904172cfd9aec53d11239bc22a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfd04070b5294109316bcfc262759210"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de9/w__volumes_8c.html#acfd04070b5294109316bcfc262759210">clean_volumes_data</a> (<a class="el" href="../../d5/dd2/structglwin.html">glwin</a> *view)</td></tr>
 <tr class="memdesc:acfd04070b5294109316bcfc262759210"><td class="mdescLeft">&#160;</td><td class="mdescRight">clean volume data  <br /></td></tr>
@@ -455,7 +454,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Draw cuboid vertices. </p>
+<p>draw cuboid vertices </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">draw</td><td>draw or not (1/0) </td></tr>
@@ -463,7 +462,7 @@ Variables</h2></td></tr>
     <tr><td class="paramname">shadnum</td><td>shader number </td></tr>
     <tr><td class="paramname">rot</td><td>rotation matrix </td></tr>
     <tr><td class="paramname">cpos</td><td>position of center of slab </td></tr>
-    <tr><td class="paramname">paral[3][3]</td><td>cell parameters </td></tr>
+    <tr><td class="paramname">paral</td><td>cell parameters </td></tr>
     <tr><td class="paramname">col</td><td>slab color </td></tr>
     <tr><td class="paramname">slab_alpha</td><td>slab opacity </td></tr>
   </table>
@@ -896,7 +895,7 @@ Variables</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">nats</td><td>number of atoms </td></tr>
     <tr><td class="paramname">ats_vol</td><td>the list of <a class="el" href="../../da/d81/structatom.html">atom(s)</a> </td></tr>
-    <tr><td class="paramname">baryc[3]</td><td>barycenter of the atomic coordinates </td></tr>
+    <tr><td class="paramname">baryc</td><td>barycenter of the atomic coordinates </td></tr>
     <tr><td class="paramname">rvdws</td><td>the list of atomic radius (ii) </td></tr>
     <tr><td class="paramname">a_ang</td><td>x axis rotation angle </td></tr>
     <tr><td class="paramname">b_ang</td><td>y axis rotation angle </td></tr>

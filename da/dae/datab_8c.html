@@ -113,8 +113,7 @@ $(document).ready(function(){initNavTree('da/dae/datab_8c.html','../../'); initR
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for datab.c:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d61/datab_8c__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../df/d61/datab_8c__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../da/dae/datab_8c_source.html">Go to the source code of this file.</a></p>
@@ -224,10 +223,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:a66b7a0a8fd9181ec92a370c63240c5e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">create the curve data tree store  <br /></td></tr>
 <tr class="separator:a66b7a0a8fd9181ec92a370c63240c5e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace0fa4b1ef675f8c56022b38152b55a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dae/datab_8c.html#ace0fa4b1ef675f8c56022b38152b55a6">cancel_changes</a> (GtkWidget *widg, gpointer data)</td></tr>
-<tr class="memdesc:ace0fa4b1ef675f8c56022b38152b55a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Usage: cancel curve data edition.  <br /></td></tr>
+<tr class="memdesc:ace0fa4b1ef675f8c56022b38152b55a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">cancel curve data edition  <br /></td></tr>
 <tr class="separator:ace0fa4b1ef675f8c56022b38152b55a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58d04b2146398a087aa1a2b9e835631e"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dae/datab_8c.html#a58d04b2146398a087aa1a2b9e835631e">cancel_but</a> (GtkButton *but, gpointer data)</td></tr>
-<tr class="memdesc:a58d04b2146398a087aa1a2b9e835631e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Usage: cancel curve data edition button callback.  <br /></td></tr>
+<tr class="memdesc:a58d04b2146398a087aa1a2b9e835631e"><td class="mdescLeft">&#160;</td><td class="mdescRight">cancel curve data edition button callback  <br /></td></tr>
 <tr class="separator:a58d04b2146398a087aa1a2b9e835631e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac62b595b7b9bd7c3c6dcffb4b5acb7a9"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dae/datab_8c.html#ac62b595b7b9bd7c3c6dcffb4b5acb7a9">cancel_win</a> (GtkWidget *win, GdkEvent *event, gpointer data)</td></tr>
 <tr class="memdesc:ac62b595b7b9bd7c3c6dcffb4b5acb7a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">cancel curve data edition callback GTK3  <br /></td></tr>
@@ -476,11 +475,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Usage: cancel curve data edition button callback. </p>
+<p>cancel curve data edition button callback </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">but</td><td>the GtkButton sending the signal </td></tr>
-    <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
     <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
   </table>
   </dd>
@@ -516,11 +514,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Usage: cancel curve data edition. </p>
+<p>cancel curve data edition </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">widg</td><td>the GtkWidget sending the signal </td></tr>
-    <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
     <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
   </table>
   </dd>
@@ -567,7 +564,6 @@ Variables</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">win</td><td>the GtkWidget sending the signal </td></tr>
     <tr><td class="paramname">event</td><td>the GdkEvent triggering the signal </td></tr>
-    <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
     <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
   </table>
   </dd>
@@ -1031,7 +1027,9 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">cell</td><td>the GtkCellRendererText sending the signal </td></tr>
-    <tr><td class="paramname">path_string</td><td>the path in the tree model gchar * new_text : the string describing the new value gpointer data : the associated data pointer </td></tr>
+    <tr><td class="paramname">path_string</td><td>the path in the tree model </td></tr>
+    <tr><td class="paramname">new_text</td><td>the string describing the new value </td></tr>
+    <tr><td class="paramname">user_data</td><td>the associated data pointer </td></tr>
   </table>
   </dd>
 </dl>
@@ -1624,7 +1622,6 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">but</td><td>the GtkButton sending the signal </td></tr>
-    <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
     <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
   </table>
   </dd>

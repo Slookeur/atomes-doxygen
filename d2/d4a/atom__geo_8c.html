@@ -103,8 +103,7 @@ $(document).ready(function(){initNavTree('d2/d4a/atom__geo_8c.html','../../'); i
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for atom_geo.c:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d53/atom__geo_8c__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../da/d53/atom__geo_8c__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../d2/d4a/atom__geo_8c_source.html">Go to the source code of this file.</a></p>
@@ -118,7 +117,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a6ca73105782d5e9a7b98ffae635d8007"><td class="mdescLeft">&#160;</td><td class="mdescRight">if required create a new geometry, stored in coord, for coordination type 'gid' and chemical species 'new_sp', return geometry id  <br /></td></tr>
 <tr class="separator:a6ca73105782d5e9a7b98ffae635d8007"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c9734e49000869e5760165ebe4ca05a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4a/atom__geo_8c.html#a5c9734e49000869e5760165ebe4ca05a">find_this_geo_id</a> (int gid, <a class="el" href="../../df/ddc/structcoord__info.html">coord_info</a> *obj, int *old_z, int old_geo, int old_sp, int new_sp, <a class="el" href="../../df/ddc/structcoord__info.html">coord_info</a> *coord, double *new_z)</td></tr>
-<tr class="memdesc:a5c9734e49000869e5760165ebe4ca05a"><td class="mdescLeft">&#160;</td><td class="mdescRight">if required create a new geometry, stored in coord, for coordination type 'id' and chemical species 'new_sp', return geometry id  <br /></td></tr>
+<tr class="memdesc:a5c9734e49000869e5760165ebe4ca05a"><td class="mdescLeft">&#160;</td><td class="mdescRight">if required create a new geometry, stored in coord, for coordination type 'gid' and chemical species 'new_sp', return geometry id  <br /></td></tr>
 <tr class="separator:a5c9734e49000869e5760165ebe4ca05a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdda3c38bc92bb9a13d0b4f068f00886"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4a/atom__geo_8c.html#abdda3c38bc92bb9a13d0b4f068f00886">check_coord_modification</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, int *old_id, <a class="el" href="../../da/d81/structatom.html">atom</a> *new_list, <a class="el" href="../../d0/de8/structatomic__object.html">atomic_object</a> *this_object, gboolean movtion, gboolean passivating)</td></tr>
 <tr class="memdesc:abdda3c38bc92bb9a13d0b4f068f00886"><td class="mdescLeft">&#160;</td><td class="mdescRight">check atom coordination modification on edition  <br /></td></tr>
@@ -187,7 +186,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">old_id</td><td>the old atom id list, if any </td></tr>
     <tr><td class="paramname">new_list</td><td>the new <a class="el" href="../../da/d81/structatom.html">atom(s)</a> list </td></tr>
     <tr><td class="paramname">this_object</td><td>the object to insert, if any </td></tr>
-    <tr><td class="paramname">else</td><td>0 </td></tr>
+    <tr><td class="paramname">movtion</td><td>motion (1) or removal (2) </td></tr>
     <tr><td class="paramname">passivating</td><td>passivate </td></tr>
   </table>
   </dd>
@@ -259,10 +258,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>if required create a new geometry, stored in coord, for coordination type 'id' and chemical species 'new_sp', return geometry id </p>
+<p>if required create a new geometry, stored in coord, for coordination type 'gid' and chemical species 'new_sp', return geometry id </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">id</td><td>the new coordination type (0 = total, 1 = partial) </td></tr>
+    <tr><td class="paramname">gid</td><td>the new coordination type (0 = total, 1 = partial) </td></tr>
     <tr><td class="paramname">obj</td><td>the new coordination info to update </td></tr>
     <tr><td class="paramname">old_z</td><td>old Z list </td></tr>
     <tr><td class="paramname">old_geo</td><td>the old coordination id for this coordination type </td></tr>

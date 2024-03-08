@@ -106,8 +106,7 @@ $(document).ready(function(){initNavTree('dc/d7f/ogl__text_8c.html','../../'); i
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for ogl_text.c:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/dbb/ogl__text_8c__incl.svg" width="100%" height="492"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/dbb/ogl__text_8c__incl.svg" width="100%" height="492"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../dc/d7f/ogl__text_8c_source.html">Go to the source code of this file.</a></p>
@@ -156,8 +155,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:a9ef46885944498158beb41a6d036a217"><td class="mdescLeft">&#160;</td><td class="mdescRight">add an instance to a screen string  <br /></td></tr>
 <tr class="separator:a9ef46885944498158beb41a6d036a217"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b53acd1521718492478dfd76b397e41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/ogl__text_8c.html#a6b53acd1521718492478dfd76b397e41">add_string</a> (char *<a class="el" href="../../da/dae/datab_8c.html#aa2301c575b9a06f49fadd2f835354274">text</a>, int id, <a class="el" href="../../d1/d74/struct_col_r_g_b_a.html">ColRGBA</a> <a class="el" href="../../df/dbb/d__measures_8c.html#a4cf17d50abf3704f2064a3fd3720ae92">col</a>, <a class="el" href="../../d3/d7c/structvec3__t.html">vec3_t</a> pos, float lshift[3], <a class="el" href="../../da/d81/structatom.html">atom</a> *at, <a class="el" href="../../da/d81/structatom.html">atom</a> *bt, <a class="el" href="../../da/d81/structatom.html">atom</a> *ct)</td></tr>
+<tr class="memdesc:a6b53acd1521718492478dfd76b397e41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a screen string to the list of screen string to render.  <br /></td></tr>
 <tr class="separator:a6b53acd1521718492478dfd76b397e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30de908bc27aa7337c94619503e11f2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/ogl__text_8c.html#a30de908bc27aa7337c94619503e11f2c">prepare_string</a> (char *<a class="el" href="../../da/dae/datab_8c.html#aa2301c575b9a06f49fadd2f835354274">text</a>, int id, <a class="el" href="../../d1/d74/struct_col_r_g_b_a.html">ColRGBA</a> <a class="el" href="../../df/dbb/d__measures_8c.html#a4cf17d50abf3704f2064a3fd3720ae92">col</a>, <a class="el" href="../../d3/d7c/structvec3__t.html">vec3_t</a> pos, float lshift[3], <a class="el" href="../../da/d81/structatom.html">atom</a> *at, <a class="el" href="../../da/d81/structatom.html">atom</a> *bt, <a class="el" href="../../da/d81/structatom.html">atom</a> *ct)</td></tr>
+<tr class="memdesc:a30de908bc27aa7337c94619503e11f2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare a screen string to be rendered  <br /></td></tr>
 <tr class="separator:a30de908bc27aa7337c94619503e11f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
@@ -305,6 +306,21 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Add a screen string to the list of screen string to render. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>the text to render </td></tr>
+    <tr><td class="paramname">id</td><td>the label id </td></tr>
+    <tr><td class="paramname">col</td><td>the color </td></tr>
+    <tr><td class="paramname">pos</td><td>the position </td></tr>
+    <tr><td class="paramname">lshift</td><td>label position shift on x, y and z, if any </td></tr>
+    <tr><td class="paramname">at</td><td>the 1st atom, if any (bond or angle measure string) </td></tr>
+    <tr><td class="paramname">bt</td><td>the 2nd atom, if any (bond or angle measure string) </td></tr>
+    <tr><td class="paramname">ct</td><td>the 3rd atom, if any (angle measure string) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d7f/ogl__text_8c_source.html#l00655">655</a> of file <a class="el" href="../../dc/d7f/ogl__text_8c_source.html">ogl_text.c</a>.</p>
 
@@ -646,14 +662,15 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Usage: prepare a screen string to be rendered</p>
+
+<p>prepare a screen string to be rendered </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">text</td><td>the text to render </td></tr>
     <tr><td class="paramname">id</td><td>the label id </td></tr>
     <tr><td class="paramname">col</td><td>the color </td></tr>
     <tr><td class="paramname">pos</td><td>the position </td></tr>
-    <tr><td class="paramname">lshift[3]</td><td>label position shift on x, y and z, if any </td></tr>
+    <tr><td class="paramname">lshift</td><td>label position shift on x, y and z, if any </td></tr>
     <tr><td class="paramname">at</td><td>the 1st atom, if any (bond or angle measure string) </td></tr>
     <tr><td class="paramname">bt</td><td>the 2nd atom, if any (bond or angle measure string) </td></tr>
     <tr><td class="paramname">ct</td><td>the 3rd atom, if any (angle measure string) </td></tr>
