@@ -29,7 +29,7 @@ var w__crystal_8c =
     [ "prepare_data_base", "d8/d8f/w__crystal_8c.html#aa125e66b7a890f73a39425461f749ead", null ],
     [ "select_cif_data", "d8/d8f/w__crystal_8c.html#ac3e5a5dc9a0f5341149b0780cc8b87d9", null ],
     [ "set_library_markup", "d8/d8f/w__crystal_8c.html#a5bf3c01b4933bde299870b6679c4c6f5", null ],
-    [ "sort_files", "d8/d8f/w__crystal_8c.html#a6196af27993bf05b6f4a4e15381a3fa7", null ],
+    [ "sort_crystal_files", "d8/d8f/w__crystal_8c.html#ae9d51b4869f2589be5a788f6a5116924", null ],
     [ "to_insert_in_project", "d8/d8f/w__crystal_8c.html#ac7d6e87265de8c53f30695bca36b3bd3", null ],
     [ "cif_file_name", "d8/d8f/w__crystal_8c.html#ad60356782c37938bb233ae45a2f46cd4", null ],
     [ "cif_name", "d8/d8f/w__crystal_8c.html#a1dc88de41509f64caff60413b553f00e", null ],
