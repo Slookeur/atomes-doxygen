@@ -1,19 +1,19 @@
-<map id="/home/slookeur/files/codeblocks&#45;files/atomes/src/opengl/edit/cbuild_edit.h" name="/home/slookeur/files/codeblocks&#45;files/atomes/src/opengl/edit/cbuild_edit.h">
-<area shape="rect" id="Node000001" title="Function declarations for the crystal builder." alt="" coords="787,5,997,60"/>
-<area shape="rect" id="Node000002" href="$d0/dd3/cbuild__action_8c.html" title="Functions to build a crystal using space group, crystallographic position(s) and object(s) to insert." alt="" coords="5,108,189,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="774,42,510,64,355,83,202,111,190,113,189,108,201,105,354,78,509,58,773,37"/>
-<area shape="rect" id="Node000003" href="$db/d0b/cbuild__edit_8c.html" title="Functions to create the crystal builder window." alt="" coords="213,115,421,170"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="774,52,612,76,434,111,404,118,403,113,433,105,611,71,773,46"/>
-<area shape="rect" id="Node000004" href="$d9/ded/cbuild__info_8c.html" title="Functions to create the space group information dialog." alt="" coords="445,115,653,170"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="797,67,633,118,632,113,795,62"/>
-<area shape="rect" id="Node000005" href="$d3/ddb/cbuild__sg_8c.html" title="Functions to read space group data from XML files." alt="" coords="678,115,877,170"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="855,72,807,117,804,113,852,68"/>
-<area shape="rect" id="Node000006" href="$d8/d50/read__cif_8c.html" title="Functions to read CIF files." alt="" coords="901,115,1115,170"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="933,68,981,113,978,117,929,72"/>
-<area shape="rect" id="Node000007" href="$d5/d22/read__coord_8c.html" title="General functions to import atomic coordinates." alt="" coords="1139,108,1323,177"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="989,62,1127,105,1139,109,1137,114,1126,111,987,67"/>
-<area shape="rect" id="Node000008" href="$df/df9/read__hist_8c.html" title="Functions to read DL&#45;POLY history file." alt="" coords="1347,115,1570,170"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1011,48,1166,73,1335,105,1366,113,1365,118,1334,111,1165,78,1010,53"/>
-<area shape="rect" id="Node000009" href="$d1/da7/read__npt_8c.html" title="Functions to read NPT data." alt="" coords="1595,115,1813,170"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1011,38,1274,61,1429,80,1583,105,1616,113,1615,118,1582,111,1428,86,1273,66,1010,44"/>
+<map id="opengl/edit/cbuild_edit.h" name="opengl/edit/cbuild_edit.h">
+<area shape="rect" id="Node000001" title="Function declarations for the crystal builder." alt="" coords="603,5,741,45"/>
+<area shape="rect" id="Node000002" href="$d0/dd3/cbuild__action_8c.html" title="Functions to build a crystal using space group, crystallographic position(s) and object(s) to insert." alt="" coords="5,93,144,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="589,38,392,61,156,96,145,98,144,93,156,91,391,55,589,32"/>
+<area shape="rect" id="Node000003" href="$db/d0b/cbuild__edit_8c.html" title="Functions to create the crystal builder window." alt="" coords="168,93,307,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="589,44,319,96,308,98,306,93,318,91,588,39"/>
+<area shape="rect" id="Node000004" href="$d9/ded/cbuild__info_8c.html" title="Functions to create the space group information dialog." alt="" coords="331,93,469,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="600,52,460,96,459,91,598,47"/>
+<area shape="rect" id="Node000005" href="$d3/ddb/cbuild__sg_8c.html" title="Functions to read space group data from XML files." alt="" coords="493,101,664,126"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="643,57,593,102,590,98,639,53"/>
+<area shape="rect" id="Node000006" href="$d8/d50/read__cif_8c.html" title="Functions to read CIF files." alt="" coords="689,93,842,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="705,53,746,91,743,95,701,57"/>
+<area shape="rect" id="Node000007" href="$d5/d22/read__coord_8c.html" title="General functions to import atomic coordinates." alt="" coords="866,93,1019,133"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="745,47,884,91,883,96,744,52"/>
+<area shape="rect" id="Node000008" href="$df/df9/read__hist_8c.html" title="Functions to read DL&#45;POLY history file." alt="" coords="1043,93,1197,133"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="755,39,1033,91,1044,93,1043,98,1031,96,754,44"/>
+<area shape="rect" id="Node000009" href="$d1/da7/read__npt_8c.html" title="Functions to read NPT data." alt="" coords="1221,93,1374,133"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="755,32,962,55,1210,91,1221,93,1220,98,1209,96,962,61,755,37"/>
 </map>

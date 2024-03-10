@@ -1,25 +1,25 @@
-<map id="/home/slookeur/files/codeblocks&#45;files/atomes/src/project/readers/read_isaacs.h" name="/home/slookeur/files/codeblocks&#45;files/atomes/src/project/readers/read_isaacs.h">
-<area shape="rect" id="Node000001" title="Function declarations to read / write ISAACS XML file." alt="" coords="1035,5,1219,75"/>
-<area shape="rect" id="Node000002" href="$d1/dfb/readers_8h.html" title="Functions declaration to read atomic coordinates." alt="" coords="1021,123,1233,177"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1129,88,1129,122,1124,122,1124,88"/>
-<area shape="rect" id="Node000003" href="$d3/d3a/callbacks_8c.html" title="General callbacks &#160;&#160;Functions to open and close files." alt="" coords="5,233,189,287"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1007,155,846,160,645,171,423,193,311,209,202,228,172,235,171,230,201,223,310,204,422,188,644,166,846,154,1007,149"/>
-<area shape="rect" id="Node000004" href="$d0/dd3/cbuild__action_8c.html" title="Functions to build a crystal using space group, crystallographic position(s) and object(s) to insert." alt="" coords="213,225,397,295"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="1007,159,882,167,732,180,570,200,410,228,398,231,397,225,409,223,570,195,732,175,882,161,1007,153"/>
-<area shape="rect" id="Node000005" href="$db/d0b/cbuild__edit_8c.html" title="Functions to create the crystal builder window." alt="" coords="421,233,629,287"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="1007,168,834,192,642,228,612,235,611,230,641,223,833,187,1006,163"/>
-<area shape="rect" id="Node000006" href="$da/d70/read__c3d_8c.html" title="Functions to read Chem3d atomic coordinates." alt="" coords="653,233,875,287"/>
-<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="1026,184,853,235,851,230,1025,179"/>
-<area shape="rect" id="Node000007" href="$d8/d50/read__cif_8c.html" title="Functions to read CIF files." alt="" coords="899,233,1112,287"/>
-<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="1088,189,1037,234,1033,230,1085,185"/>
-<area shape="rect" id="Node000008" href="$df/df9/read__hist_8c.html" title="Functions to read DL&#45;POLY history file." alt="" coords="1137,233,1359,287"/>
-<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="1169,185,1220,230,1217,234,1165,189"/>
-<area shape="rect" id="Node000009" href="$d9/d42/read__pdb_8c.html" title="Functions to read PDB files." alt="" coords="1383,233,1606,287"/>
-<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="1230,179,1406,230,1405,235,1229,184"/>
-<area shape="rect" id="Node000010" href="$d9/deb/read__trj_8c.html" title="Functions to read CPMD atomic coordinates." alt="" coords="1630,233,1842,287"/>
-<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="1247,162,1424,187,1619,223,1650,230,1649,235,1618,228,1423,192,1246,168"/>
-<area shape="rect" id="Node000011" href="$d6/dc9/read__vas_8c.html" title="Functions to read VASP atomic coordinates." alt="" coords="1867,233,2088,287"/>
-<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="1247,155,1526,177,1691,197,1855,223,1889,230,1888,235,1854,228,1690,202,1525,183,1246,160"/>
-<area shape="rect" id="Node000012" href="$d0/dce/read__xyz_8c.html" title="Functions to read XYZ atomic coordinates." alt="" coords="2112,233,2333,287"/>
-<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="1247,150,1415,156,1628,169,1864,190,2100,223,2135,230,2134,235,2100,228,1864,195,1628,174,1415,162,1246,156"/>
+<map id="project/readers/read_isaacs.h" name="project/readers/read_isaacs.h">
+<area shape="rect" id="Node000001" title="Function declarations to read / write ISAACS XML file." alt="" coords="740,5,893,45"/>
+<area shape="rect" id="Node000002" href="$d1/dfb/readers_8h.html" title="Functions declaration to read atomic coordinates." alt="" coords="724,93,909,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="819,59,819,93,814,93,814,59"/>
+<area shape="rect" id="Node000003" href="$d3/d3a/callbacks_8c.html" title="General callbacks &#160;&#160;Functions to open and close files." alt="" coords="5,174,124,199"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="710,114,449,131,292,147,137,169,104,177,103,171,136,164,292,142,448,126,710,108"/>
+<area shape="rect" id="Node000004" href="$d0/dd3/cbuild__action_8c.html" title="Functions to build a crystal using space group, crystallographic position(s) and object(s) to insert." alt="" coords="149,167,287,207"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="710,119,519,138,300,169,288,171,287,166,299,164,518,133,710,113"/>
+<area shape="rect" id="Node000005" href="$db/d0b/cbuild__edit_8c.html" title="Functions to create the crystal builder window." alt="" coords="311,167,450,207"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="728,123,462,169,451,172,450,166,462,164,727,118"/>
+<area shape="rect" id="Node000006" href="$da/d70/read__c3d_8c.html" title="Functions to read Chem3d atomic coordinates." alt="" coords="475,167,628,207"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="766,125,616,169,614,164,764,120"/>
+<area shape="rect" id="Node000007" href="$d8/d50/read__cif_8c.html" title="Functions to read CIF files." alt="" coords="652,167,805,207"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="795,130,752,169,748,165,792,126"/>
+<area shape="rect" id="Node000008" href="$df/df9/read__hist_8c.html" title="Functions to read DL&#45;POLY history file." alt="" coords="829,167,983,207"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="842,126,886,165,883,169,838,130"/>
+<area shape="rect" id="Node000009" href="$d9/d42/read__pdb_8c.html" title="Functions to read PDB files." alt="" coords="1007,167,1160,207"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="869,120,1020,164,1018,169,868,125"/>
+<area shape="rect" id="Node000010" href="$d9/deb/read__trj_8c.html" title="Functions to read CPMD atomic coordinates." alt="" coords="1184,167,1337,207"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="905,118,1173,164,1184,166,1183,171,1172,169,904,123"/>
+<area shape="rect" id="Node000011" href="$d6/dc9/read__vas_8c.html" title="Functions to read VASP atomic coordinates." alt="" coords="1361,167,1515,207"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="923,113,1122,133,1350,164,1362,166,1361,171,1350,169,1121,139,923,119"/>
+<area shape="rect" id="Node000012" href="$d0/dce/read__xyz_8c.html" title="Functions to read XYZ atomic coordinates." alt="" coords="1539,167,1692,207"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="923,109,1198,128,1363,143,1528,164,1539,166,1538,171,1527,169,1362,149,1197,133,923,115"/>
 </map>

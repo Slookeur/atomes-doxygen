@@ -94,7 +94,7 @@ var NAVTREEINDEX =
 "de/d92/cp2k__init_8c.html#a48074ed5628608f6892d9d31f3815662",
 "df/d15/w__data_8c.html#aad17679cc6566a5ae0819d05b7f4b422",
 "df/de9/curve_8h.html#a79ab53a8c99fe10b6182d2a06656ccf1",
-"globals_m.html"
+"globals_r.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
