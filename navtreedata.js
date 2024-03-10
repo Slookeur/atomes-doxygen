@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "atomes", "index.html", [
+    [ "atomes: code source documentation", "index.html", "index" ],
     [ "Modules", "namespaces.html", [
       [ "Modules List", "namespaces.html", "namespaces_dup" ],
       [ "Module Members", "namespacemembers.html", [
@@ -93,7 +94,7 @@ var NAVTREEINDEX =
 "de/d92/cp2k__init_8c.html#a48074ed5628608f6892d9d31f3815662",
 "df/d15/w__data_8c.html#aad17679cc6566a5ae0819d05b7f4b422",
 "df/de9/curve_8h.html#a79ab53a8c99fe10b6182d2a06656ccf1",
-"globals_s.html"
+"globals_m.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
