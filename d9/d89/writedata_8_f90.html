@@ -93,11 +93,241 @@ $(function(){initNavTree('d9/d89/writedata_8_f90.html','../../'); initResizable(
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions/Subroutines</a>  </div>
   <div class="headertitle"><div class="title">writedata.F90 File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
+<p>Export curve data using data received from C.  
+<a href="#details">More...</a></p>
+
 <p><a href="../../d9/d89/writedata_8_f90_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions/Subroutines</h2></td></tr>
+<tr class="memitem:a50c2d7c4a7ab662f35d2a2acf822edcd" id="r_a50c2d7c4a7ab662f35d2a2acf822edcd"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50c2d7c4a7ab662f35d2a2acf822edcd">prep_file</a> (scf, sfi, tfile, scalex, scaley, mdc, rdc, idc)</td></tr>
+<tr class="separator:a50c2d7c4a7ab662f35d2a2acf822edcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad97fd123e9e1b8bfea0fe2c0ea067974" id="r_ad97fd123e9e1b8bfea0fe2c0ea067974"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad97fd123e9e1b8bfea0fe2c0ea067974">append_to_file</a> (ndata, xdata, ydata, mdc, tdata, rdc, idc, tfile, nfile, afile, lcname, cstring)</td></tr>
+<tr class="separator:ad97fd123e9e1b8bfea0fe2c0ea067974"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74be771dec70a99665e385997c25032e" id="r_a74be771dec70a99665e385997c25032e"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74be771dec70a99665e385997c25032e">save_to_file</a> (scf, sfi, ndata, xdata, ydata, scalex, scaley, tdata, mdc, rdc, idc, tfile, lcname, cstring)</td></tr>
+<tr class="separator:a74be771dec70a99665e385997c25032e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Export curve data using data received from C. </p>
+<dl class="section author"><dt>Author</dt><dd>Sébastien Le Roux <a href="#" onclick="location.href='mai'+'lto:'+'seb'+'as'+'tie'+'n.'+'ler'+'ou'+'x@i'+'pc'+'ms.'+'un'+'ist'+'ra'+'.fr'; return false;">sebas<span class="obfuscator">.nosp@m.</span>tien<span class="obfuscator">.nosp@m.</span>.lero<span class="obfuscator">.nosp@m.</span>ux@i<span class="obfuscator">.nosp@m.</span>pcms.<span class="obfuscator">.nosp@m.</span>unis<span class="obfuscator">.nosp@m.</span>tra.f<span class="obfuscator">.nosp@m.</span>r</a> </dd></dl>
+
+<p class="definition">Definition in file <a class="el" href="../../d9/d89/writedata_8_f90_source.html">writedata.F90</a>.</p>
+</div><h2 class="groupheader">Function/Subroutine Documentation</h2>
+<a id="ad97fd123e9e1b8bfea0fe2c0ea067974" name="ad97fd123e9e1b8bfea0fe2c0ea067974"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad97fd123e9e1b8bfea0fe2c0ea067974">&#9670;&#160;</a></span>append_to_file()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine append_to_file </td>
+          <td>(</td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>ndata</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real (kind=c_double), dimension(ndata), intent(in)</td>          <td class="paramname"><span class="paramname"><em>xdata</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real (kind=c_double), dimension(ndata), intent(in)</td>          <td class="paramname"><span class="paramname"><em>ydata</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real (kind=c_double), intent(in)</td>          <td class="paramname"><span class="paramname"><em>mdc</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>tdata</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>rdc</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>idc</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>tfile</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>nfile</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>afile</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>lcname</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">character (kind=c_char), dimension(*), intent(in)</td>          <td class="paramname"><span class="paramname"><em>cstring</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d89/writedata_8_f90_source.html#l00820">820</a> of file <a class="el" href="../../d9/d89/writedata_8_f90_source.html">writedata.F90</a>.</p>
+
+</div>
+</div>
+<a id="a50c2d7c4a7ab662f35d2a2acf822edcd" name="a50c2d7c4a7ab662f35d2a2acf822edcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50c2d7c4a7ab662f35d2a2acf822edcd">&#9670;&#160;</a></span>prep_file()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine prep_file </td>
+          <td>(</td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>scf</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">character (kind=c_char), dimension(*), intent(in)</td>          <td class="paramname"><span class="paramname"><em>sfi</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>tfile</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>scalex</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>scaley</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real (kind=c_double), intent(in)</td>          <td class="paramname"><span class="paramname"><em>mdc</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>rdc</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>idc</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d89/writedata_8_f90_source.html#l00758">758</a> of file <a class="el" href="../../d9/d89/writedata_8_f90_source.html">writedata.F90</a>.</p>
+
+</div>
+</div>
+<a id="a74be771dec70a99665e385997c25032e" name="a74be771dec70a99665e385997c25032e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74be771dec70a99665e385997c25032e">&#9670;&#160;</a></span>save_to_file()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine save_to_file </td>
+          <td>(</td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>scf</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">character (kind=c_char), dimension(*), intent(in)</td>          <td class="paramname"><span class="paramname"><em>sfi</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>ndata</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real (kind=c_double), dimension(ndata), intent(in)</td>          <td class="paramname"><span class="paramname"><em>xdata</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real (kind=c_double), dimension(ndata), intent(in)</td>          <td class="paramname"><span class="paramname"><em>ydata</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>scalex</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>scaley</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>tdata</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real (kind=c_double), intent(in)</td>          <td class="paramname"><span class="paramname"><em>mdc</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>rdc</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>idc</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>tfile</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer (kind=c_int), intent(in)</td>          <td class="paramname"><span class="paramname"><em>lcname</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">character (kind=c_char), dimension(*), intent(in)</td>          <td class="paramname"><span class="paramname"><em>cstring</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d89/writedata_8_f90_source.html#l00892">892</a> of file <a class="el" href="../../d9/d89/writedata_8_f90_source.html">writedata.F90</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

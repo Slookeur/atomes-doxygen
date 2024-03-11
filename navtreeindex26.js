@@ -1,5 +1,8 @@
 var NAVTREEINDEX26 =
 {
+"db/dbb/d__axis_8c.html#ae938a38a440f991c4ae5cb303c718119":[3,0,5,0,1,14],
+"db/dbb/d__axis_8c.html#af694827c44bdcdff1bd7c37d9a34cc02":[3,0,5,0,1,16],
+"db/dbb/d__axis_8c_source.html":[3,0,5,0,1],
 "db/dc8/initring_8c.html":[3,0,5,2,8],
 "db/dc8/initring_8c.html#a02d83a2bdbc1dcf8aa984dd1e017eb52":[3,0,5,2,8,0],
 "db/dc8/initring_8c.html#a26a3564be14507510dc403550deb3fe4":[3,0,5,2,8,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX26 =
 "dc/d22/curve_8c.html#a46b8c497042052a6f711f2b98825269e":[3,0,2,2,2],
 "dc/d22/curve_8c.html#a4e6a8a91b93dfa532fd6b9c689ff520d":[3,0,2,2,7],
 "dc/d22/curve_8c.html#a4e918e3e39e6672889eebd0bf1000a3d":[3,0,2,2,33],
-"dc/d22/curve_8c.html#a50c22cda8748fa55e06dd9df6aecb1fc":[3,0,2,2,29],
-"dc/d22/curve_8c.html#a58f8d69969bbfb697c337b9f29ef9744":[3,0,2,2,21],
-"dc/d22/curve_8c.html#a5dc2e1775903a902fc8416b625625b93":[3,0,2,2,53],
-"dc/d22/curve_8c.html#a5dd521d7d2e53007c2a77eabbfce5c2a":[3,0,2,2,18]
+"dc/d22/curve_8c.html#a50c22cda8748fa55e06dd9df6aecb1fc":[3,0,2,2,29]
 };
