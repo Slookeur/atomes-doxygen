@@ -7,7 +7,8 @@ var searchData=
   ['yaxis_2ec_4',['yaxis.c',['../df/dfb/yaxis_8c.html',1,'']]],
   ['ydraw_5',['YDRAW',['../dc/d22/curve_8c.html#a7a879bf05a9a0a162c00cb507031253d',1,'YDRAW:&#160;curve.c'],['../df/de9/curve_8h.html#a7a879bf05a9a0a162c00cb507031253d',1,'YDRAW:&#160;curve.h']]],
   ['yes_6',['YES',['../d2/d49/global_8h.html#a7ebc9a785e5ab85457c98595aac81589',1,'global.h']]],
-  ['ylog_7',['ylog',['../dc/d22/curve_8c.html#a3255ecb1254f90a2c76f1e806dd6f7c4',1,'ylog:&#160;curve.c'],['../df/de9/curve_8h.html#a3255ecb1254f90a2c76f1e806dd6f7c4',1,'ylog:&#160;curve.h']]],
-  ['ymarge_8',['ymarge',['../dc/d22/curve_8c.html#a7b22c7e9e7dc13510efdc4ac963c61e2',1,'ymarge:&#160;curve.c'],['../df/de9/curve_8h.html#a7b22c7e9e7dc13510efdc4ac963c61e2',1,'ymarge:&#160;curve.c']]],
-  ['ymax_9',['ymax',['../dc/d22/curve_8c.html#afc6ae6b11b9521d908c52e4fb3ea09ce',1,'ymax:&#160;curve.c'],['../df/de9/curve_8h.html#afc6ae6b11b9521d908c52e4fb3ea09ce',1,'ymax:&#160;curve.h']]]
+  ['ylegend_7',['ylegend',['../d9/d89/writedata_8_f90.html#a7ba2f7beece334fc930976a0fc0669e9',1,'writedata.F90']]],
+  ['ylog_8',['ylog',['../dc/d22/curve_8c.html#a3255ecb1254f90a2c76f1e806dd6f7c4',1,'ylog:&#160;curve.c'],['../df/de9/curve_8h.html#a3255ecb1254f90a2c76f1e806dd6f7c4',1,'ylog:&#160;curve.h']]],
+  ['ymarge_9',['ymarge',['../dc/d22/curve_8c.html#a7b22c7e9e7dc13510efdc4ac963c61e2',1,'ymarge:&#160;curve.c'],['../df/de9/curve_8h.html#a7b22c7e9e7dc13510efdc4ac963c61e2',1,'ymarge:&#160;curve.c']]],
+  ['ymax_10',['ymax',['../dc/d22/curve_8c.html#afc6ae6b11b9521d908c52e4fb3ea09ce',1,'ymax:&#160;curve.c'],['../df/de9/curve_8h.html#afc6ae6b11b9521d908c52e4fb3ea09ce',1,'ymax:&#160;curve.h']]]
 ];
