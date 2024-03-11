@@ -1032,11 +1032,11 @@ EXCLUDE_SYMLINKS       = NO
 # Note that the wildcards are matched against the file with absolute path, so to
 # exclude all test directories for example use the pattern */test/*
 
-EXCLUDE_PATTERNS       = ROOTDIR/files/codeblocks-files/atomes/src/version.h \
-			ROOTDIR/files/codeblocks-files/atomes/src/calc/force_fields/amber*c \
+EXCLUDE_PATTERNS       = ROOTDIR/files/codeblocks-files/atomes/src/calc/force_fields/amber*c \
 			ROOTDIR/files/codeblocks-files/atomes/src/calc/force_fields/c*.c \
 			ROOTDIR/files/codeblocks-files/atomes/src/calc/force_fields/o*.c \
-			ROOTDIR/files/codeblocks-files/atomes/src/calc/force_fields/p*.c
+			ROOTDIR/files/codeblocks-files/atomes/src/calc/force_fields/p*.c \
+			ROOTDIR/files/codeblocks-files/atomes/src/opengl/win/w_crystal.c 
 
 # The EXCLUDE_SYMBOLS tag can be used to specify one or more symbol names
 # (namespaces, classes, functions, etc.) that should be excluded from the
