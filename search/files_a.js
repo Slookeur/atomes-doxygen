@@ -6,7 +6,5 @@ var searchData=
   ['ogl_5fshading_2eh_3',['ogl_shading.h',['../d5/d9e/ogl__shading_8h.html',1,'']]],
   ['ogl_5ftext_2ec_4',['ogl_text.c',['../dc/d7f/ogl__text_8c.html',1,'']]],
   ['ogl_5futils_2ec_5',['ogl_utils.c',['../d1/db9/ogl__utils_8c.html',1,'']]],
-  ['open_5fp_2ec_6',['open_p.c',['../da/d5e/open__p_8c.html',1,'']]],
-  ['oplsaap_2ec_7',['oplsaap.c',['../dc/d29/oplsaap_8c.html',1,'']]],
-  ['oplsaar_2ec_8',['oplsaar.c',['../d4/d82/oplsaar_8c.html',1,'']]]
+  ['open_5fp_2ec_6',['open_p.c',['../da/d5e/open__p_8c.html',1,'']]]
 ];
