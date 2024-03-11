@@ -1,11 +1,5 @@
 var NAVTREEINDEX35 =
 {
-"index.html":[],
-"index.html":[0],
-"index.html#autotoc_md0":[0,0],
-"index.html#autotoc_md1":[0,1],
-"namespacemembers.html":[1,1,0,0],
-"namespacemembers.html":[1,1,0],
 "namespacemembers_b.html":[1,1,0,1],
 "namespacemembers_c.html":[1,1,0,2],
 "namespacemembers_d.html":[1,1,0,3],
