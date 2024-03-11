@@ -37,7 +37,6 @@ var dir_35218102a3d553d0037dd9e6309944ae =
     [ "w_chains.c", "d3/d82/w__chains_8c.html", "d3/d82/w__chains_8c" ],
     [ "w_colors.c", "d2/d92/w__colors_8c.html", "d2/d92/w__colors_8c" ],
     [ "w_coord.c", "d7/df0/w__coord_8c.html", "d7/df0/w__coord_8c" ],
-    [ "w_crystal.c", "d8/d8f/w__crystal_8c.html", "d8/d8f/w__crystal_8c" ],
     [ "w_cutoffs.c", "d4/db9/w__cutoffs_8c.html", "d4/db9/w__cutoffs_8c" ],
     [ "w_encode.c", "da/daf/w__encode_8c.html", "da/daf/w__encode_8c" ],
     [ "w_labels.c", "dc/d44/w__labels_8c.html", "dc/d44/w__labels_8c" ],

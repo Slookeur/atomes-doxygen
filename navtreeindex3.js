@@ -246,8 +246,8 @@ var NAVTREEINDEX3 =
 "d2/d69/resrings_8_f90.html":[3,0,3,26],
 "d2/d69/resrings_8_f90.html#ac9c16431d8692cf6e77a766eb72556d3":[3,0,3,26,0],
 "d2/d69/resrings_8_f90_source.html":[3,0,3,26],
-"d2/d73/structworkspace.html":[2,0,92],
-"d2/d73/structworkspace.html#a8326c88694f0041132c2a35ec632d274":[2,0,92,1],
-"d2/d73/structworkspace.html#aee75e5ab18d0bf705e014fb94f6e7f0f":[2,0,92,0],
+"d2/d73/structworkspace.html":[2,0,91],
+"d2/d73/structworkspace.html#a8326c88694f0041132c2a35ec632d274":[2,0,91,1],
+"d2/d73/structworkspace.html#aee75e5ab18d0bf705e014fb94f6e7f0f":[2,0,91,0],
 "d2/d92/w__colors_8c.html":[3,0,5,2,35]
 };

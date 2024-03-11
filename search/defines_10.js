@@ -8,6 +8,5 @@ var searchData=
   ['stepb_5',['STEPB',['../d2/d06/cpmd_8h.html#afa5a5459eb9ac1443ce4121f825aed7a',1,'cpmd.h']]],
   ['stepc_6',['STEPC',['../d2/d06/cpmd_8h.html#ae775811af136f34d53a920db352fea04',1,'cpmd.h']]],
   ['stepg_7',['STEPG',['../d2/d06/cpmd_8h.html#a5e438031b76aee2e2851e388ae9be4f5',1,'cpmd.h']]],
-  ['stepo_8',['STEPO',['../d2/d06/cpmd_8h.html#a4feb58a0ea5ef0b7ea647f76788067be',1,'cpmd.h']]],
-  ['symmetries_9',['SYMMETRIES',['../d8/d8f/w__crystal_8c.html#abe3b187fc59671b7bb2f0017c077a9da',1,'w_crystal.c']]]
+  ['stepo_8',['STEPO',['../d2/d06/cpmd_8h.html#a4feb58a0ea5ef0b7ea647f76788067be',1,'cpmd.h']]]
 ];

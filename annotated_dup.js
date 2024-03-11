@@ -25,7 +25,6 @@ var annotated_dup =
     [ "cell_file", "d4/d9d/structcell__file.html", "d4/d9d/structcell__file" ],
     [ "cell_info", "de/df1/structcell__info.html", "de/df1/structcell__info" ],
     [ "chemical_data", "da/d11/structchemical__data.html", "da/d11/structchemical__data" ],
-    [ "cif_data", "d2/d95/structcif__data.html", "d2/d95/structcif__data" ],
     [ "classical_field", "d6/da3/structclassical__field.html", "d6/da3/structclassical__field" ],
     [ "color", "d0/d91/structcolor.html", "d0/d91/structcolor" ],
     [ "colormap", "d9/d58/structcolormap.html", "d9/d58/structcolormap" ],
