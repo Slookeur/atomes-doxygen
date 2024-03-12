@@ -130,9 +130,9 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8a2ed9355274e94c358c164cebfc8e97" id="r_a8a2ed9355274e94c358c164cebfc8e97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a2ed9355274e94c358c164cebfc8e97">get_bravais_id</a> (int spg)</td></tr>
-<tr class="memdesc:a8a2ed9355274e94c358c164cebfc8e97"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the bravais lattice id from space group id  <br /></td></tr>
-<tr class="separator:a8a2ed9355274e94c358c164cebfc8e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fc3d0ea537a77bfeec0be13b97e4616" id="r_a6fc3d0ea537a77bfeec0be13b97e4616"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fc3d0ea537a77bfeec0be13b97e4616">get_crystal_id</a> (int spg)</td></tr>
+<tr class="memdesc:a6fc3d0ea537a77bfeec0be13b97e4616"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the bravais lattice id from space group id  <br /></td></tr>
+<tr class="separator:a6fc3d0ea537a77bfeec0be13b97e4616"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad80eaa6fb340b5fd5ac05bf772c7c363" id="r_ad80eaa6fb340b5fd5ac05bf772c7c363"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad80eaa6fb340b5fd5ac05bf772c7c363">get_val_from_setting</a> (gchar *pos, gchar *sval)</td></tr>
 <tr class="memdesc:ad80eaa6fb340b5fd5ac05bf772c7c363"><td class="mdescLeft">&#160;</td><td class="mdescRight">get value from space group setting  <br /></td></tr>
 <tr class="separator:ad80eaa6fb340b5fd5ac05bf772c7c363"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,9 +145,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ac4381a5de567b9ad03e8afddb836807d" id="r_ac4381a5de567b9ad03e8afddb836807d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4381a5de567b9ad03e8afddb836807d">compute_lattice_properties</a> (<a class="el" href="../../de/df1/structcell__info.html">cell_info</a> *cell)</td></tr>
 <tr class="memdesc:ac4381a5de567b9ad03e8afddb836807d"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute lattice parameters following cell description  <br /></td></tr>
 <tr class="separator:ac4381a5de567b9ad03e8afddb836807d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfdd72aebd06dc2200d8418099296bcc" id="r_adfdd72aebd06dc2200d8418099296bcc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfdd72aebd06dc2200d8418099296bcc">test_lattice</a> (<a class="el" href="../../dd/df5/structbuilder__edition.html">builder_edition</a> *cbuilder)</td></tr>
-<tr class="memdesc:adfdd72aebd06dc2200d8418099296bcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">test lattice parameters  <br /></td></tr>
-<tr class="separator:adfdd72aebd06dc2200d8418099296bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6edc8c16ec43cc3479bab7d7a7922e2" id="r_ad6edc8c16ec43cc3479bab7d7a7922e2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6edc8c16ec43cc3479bab7d7a7922e2">test_lattice</a> (<a class="el" href="../../dd/df5/structbuilder__edition.html">builder_edition</a> *cbuilder, <a class="el" href="../../de/df1/structcell__info.html">cell_info</a> *cif_cell)</td></tr>
+<tr class="memdesc:ad6edc8c16ec43cc3479bab7d7a7922e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">test lattice parameters  <br /></td></tr>
+<tr class="separator:ad6edc8c16ec43cc3479bab7d7a7922e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12f4db3f6c0435da68a7a3d720959a8a" id="r_a12f4db3f6c0435da68a7a3d720959a8a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12f4db3f6c0435da68a7a3d720959a8a">get_val_from_wyckoff</a> (gchar *pos, gchar *wval)</td></tr>
 <tr class="memdesc:a12f4db3f6c0435da68a7a3d720959a8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get point value from wyckoff position  <br /></td></tr>
 <tr class="separator:a12f4db3f6c0435da68a7a3d720959a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,7 +227,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00634">634</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00661">661</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
 
 </div>
 </div>
@@ -259,7 +259,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00559">559</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00586">586</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
 
 </div>
 </div>
@@ -291,7 +291,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00479">479</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00506">506</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
 
 </div>
 </div>
@@ -347,7 +347,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00876">876</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00903">903</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
 
 </div>
 </div>
@@ -379,7 +379,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00434">434</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00461">461</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
 
 </div>
 </div>
@@ -433,7 +433,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00514">514</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00541">541</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
 
 </div>
 </div>
@@ -460,12 +460,12 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00586">586</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00613">613</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
 
 </div>
 </div>
-<a id="a8a2ed9355274e94c358c164cebfc8e97" name="a8a2ed9355274e94c358c164cebfc8e97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a2ed9355274e94c358c164cebfc8e97">&#9670;&#160;</a></span>get_bravais_id()</h2>
+<a id="a6fc3d0ea537a77bfeec0be13b97e4616" name="a6fc3d0ea537a77bfeec0be13b97e4616"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fc3d0ea537a77bfeec0be13b97e4616">&#9670;&#160;</a></span>get_crystal_id()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -474,7 +474,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int get_bravais_id </td>
+          <td class="memname">int get_crystal_id </td>
           <td>(</td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>spg</em></span></td><td>)</td>
           <td></td>
@@ -586,7 +586,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00395">395</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00422">422</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
 
 </div>
 </div>
@@ -651,7 +651,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00497">497</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00524">524</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
 
 </div>
 </div>
@@ -689,7 +689,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00613">613</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00640">640</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
 
 </div>
 </div>
@@ -721,12 +721,12 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00464">464</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00491">491</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
 
 </div>
 </div>
-<a id="adfdd72aebd06dc2200d8418099296bcc" name="adfdd72aebd06dc2200d8418099296bcc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfdd72aebd06dc2200d8418099296bcc">&#9670;&#160;</a></span>test_lattice()</h2>
+<a id="ad6edc8c16ec43cc3479bab7d7a7922e2" name="ad6edc8c16ec43cc3479bab7d7a7922e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6edc8c16ec43cc3479bab7d7a7922e2">&#9670;&#160;</a></span>test_lattice()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -734,8 +734,12 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">int test_lattice </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/df5/structbuilder__edition.html">builder_edition</a> *</td>          <td class="paramname"><span class="paramname"><em>cbuilder</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../dd/df5/structbuilder__edition.html">builder_edition</a> *</td>          <td class="paramname"><span class="paramname"><em>cbuilder</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../de/df1/structcell__info.html">cell_info</a> *</td>          <td class="paramname"><span class="paramname"><em>cif_cell</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -744,11 +748,12 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">cbuilder</td><td>the builder edition with the lattice parameters </td></tr>
+    <tr><td class="paramname">cif_cell</td><td>the cell information when testing CIF file </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00309">309</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00310">310</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
 
 </div>
 </div>

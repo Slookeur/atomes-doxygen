@@ -127,15 +127,15 @@ Functions</h2></td></tr>
 <tr class="memitem:aaf2aa62af044fe7508e71b34caf2fdc4" id="r_aaf2aa62af044fe7508e71b34caf2fdc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf2aa62af044fe7508e71b34caf2fdc4">get_origin</a> (<a class="el" href="../../de/df2/structspace__group.html">space_group</a> *spg)</td></tr>
 <tr class="memdesc:aaf2aa62af044fe7508e71b34caf2fdc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">get space group origin matrices  <br /></td></tr>
 <tr class="separator:aaf2aa62af044fe7508e71b34caf2fdc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfdd72aebd06dc2200d8418099296bcc" id="r_adfdd72aebd06dc2200d8418099296bcc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfdd72aebd06dc2200d8418099296bcc">test_lattice</a> (<a class="el" href="../../dd/df5/structbuilder__edition.html">builder_edition</a> *cbuilder)</td></tr>
-<tr class="memdesc:adfdd72aebd06dc2200d8418099296bcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">test lattice parameters  <br /></td></tr>
-<tr class="separator:adfdd72aebd06dc2200d8418099296bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6edc8c16ec43cc3479bab7d7a7922e2" id="r_ad6edc8c16ec43cc3479bab7d7a7922e2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6edc8c16ec43cc3479bab7d7a7922e2">test_lattice</a> (<a class="el" href="../../dd/df5/structbuilder__edition.html">builder_edition</a> *cbuilder, <a class="el" href="../../de/df1/structcell__info.html">cell_info</a> *cif_cell)</td></tr>
+<tr class="memdesc:ad6edc8c16ec43cc3479bab7d7a7922e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">test lattice parameters  <br /></td></tr>
+<tr class="separator:ad6edc8c16ec43cc3479bab7d7a7922e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dd9e033d112254896a02b13c678b606" id="r_a4dd9e033d112254896a02b13c678b606"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dd9e033d112254896a02b13c678b606">build_crystal</a> (gboolean visible, <a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, gboolean to_wrap, gboolean show_clones, <a class="el" href="../../de/df1/structcell__info.html">cell_info</a> *cell, GtkWidget *widg)</td></tr>
 <tr class="memdesc:a4dd9e033d112254896a02b13c678b606"><td class="mdescLeft">&#160;</td><td class="mdescRight">build crystal  <br /></td></tr>
 <tr class="separator:a4dd9e033d112254896a02b13c678b606"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a2ed9355274e94c358c164cebfc8e97" id="r_a8a2ed9355274e94c358c164cebfc8e97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a2ed9355274e94c358c164cebfc8e97">get_bravais_id</a> (int spg)</td></tr>
-<tr class="memdesc:a8a2ed9355274e94c358c164cebfc8e97"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the bravais lattice id from space group id  <br /></td></tr>
-<tr class="separator:a8a2ed9355274e94c358c164cebfc8e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fc3d0ea537a77bfeec0be13b97e4616" id="r_a6fc3d0ea537a77bfeec0be13b97e4616"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fc3d0ea537a77bfeec0be13b97e4616">get_crystal_id</a> (int spg)</td></tr>
+<tr class="memdesc:a6fc3d0ea537a77bfeec0be13b97e4616"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the bravais lattice id from space group id  <br /></td></tr>
+<tr class="separator:a6fc3d0ea537a77bfeec0be13b97e4616"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5950881cccc378af923542db9c2f5eb" id="r_aa5950881cccc378af923542db9c2f5eb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5950881cccc378af923542db9c2f5eb">get_bravais_img_id</a> (int spg)</td></tr>
 <tr class="memdesc:aa5950881cccc378af923542db9c2f5eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">get bravais image from space group id  <br /></td></tr>
 <tr class="separator:aa5950881cccc378af923542db9c2f5eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -571,7 +571,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00876">876</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00903">903</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
 
 </div>
 </div>
@@ -768,33 +768,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a8a2ed9355274e94c358c164cebfc8e97" name="a8a2ed9355274e94c358c164cebfc8e97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a2ed9355274e94c358c164cebfc8e97">&#9670;&#160;</a></span>get_bravais_id()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int get_bravais_id </td>
-          <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>spg</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>get the bravais lattice id from space group id </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">spg</td><td>the target space group id </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="../../db/d0b/cbuild__edit_8c_source.html#l00127">127</a> of file <a class="el" href="../../db/d0b/cbuild__edit_8c_source.html">cbuild_edit.c</a>.</p>
-
-</div>
-</div>
 <a id="aa5950881cccc378af923542db9c2f5eb" name="aa5950881cccc378af923542db9c2f5eb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa5950881cccc378af923542db9c2f5eb">&#9670;&#160;</a></span>get_bravais_img_id()</h2>
 
@@ -819,6 +792,33 @@ Variables</h2></td></tr>
 </dl>
 
 <p class="definition">Definition at line <a class="el" href="../../db/d0b/cbuild__edit_8c_source.html#l00173">173</a> of file <a class="el" href="../../db/d0b/cbuild__edit_8c_source.html">cbuild_edit.c</a>.</p>
+
+</div>
+</div>
+<a id="a6fc3d0ea537a77bfeec0be13b97e4616" name="a6fc3d0ea537a77bfeec0be13b97e4616"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fc3d0ea537a77bfeec0be13b97e4616">&#9670;&#160;</a></span>get_crystal_id()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int get_crystal_id </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>spg</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get the bravais lattice id from space group id </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">spg</td><td>the target space group id </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../db/d0b/cbuild__edit_8c_source.html#l00127">127</a> of file <a class="el" href="../../db/d0b/cbuild__edit_8c_source.html">cbuild_edit.c</a>.</p>
 
 </div>
 </div>
@@ -1432,8 +1432,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="adfdd72aebd06dc2200d8418099296bcc" name="adfdd72aebd06dc2200d8418099296bcc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfdd72aebd06dc2200d8418099296bcc">&#9670;&#160;</a></span>test_lattice()</h2>
+<a id="ad6edc8c16ec43cc3479bab7d7a7922e2" name="ad6edc8c16ec43cc3479bab7d7a7922e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6edc8c16ec43cc3479bab7d7a7922e2">&#9670;&#160;</a></span>test_lattice()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1444,8 +1444,12 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">int test_lattice </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/df5/structbuilder__edition.html">builder_edition</a> *</td>          <td class="paramname"><span class="paramname"><em>cbuilder</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../dd/df5/structbuilder__edition.html">builder_edition</a> *</td>          <td class="paramname"><span class="paramname"><em>cbuilder</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../de/df1/structcell__info.html">cell_info</a> *</td>          <td class="paramname"><span class="paramname"><em>cif_cell</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1459,11 +1463,12 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">cbuilder</td><td>the builder edition with the lattice parameters </td></tr>
+    <tr><td class="paramname">cif_cell</td><td>the cell information when testing CIF file </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00309">309</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00310">310</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
 
 </div>
 </div>

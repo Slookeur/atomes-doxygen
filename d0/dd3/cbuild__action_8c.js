@@ -9,7 +9,7 @@ var cbuild__action_8c =
     [ "compute_lattice_properties", "d0/dd3/cbuild__action_8c.html#ac4381a5de567b9ad03e8afddb836807d", null ],
     [ "duplicate_space_group", "d0/dd3/cbuild__action_8c.html#a6dd48d32cffd10bf9967f089590ceeb9", null ],
     [ "free_crystal_data", "d0/dd3/cbuild__action_8c.html#ac2cf4bd35012199502433ea0bf185014", null ],
-    [ "get_bravais_id", "d0/dd3/cbuild__action_8c.html#a8a2ed9355274e94c358c164cebfc8e97", null ],
+    [ "get_crystal_id", "d0/dd3/cbuild__action_8c.html#a6fc3d0ea537a77bfeec0be13b97e4616", null ],
     [ "get_origin", "d0/dd3/cbuild__action_8c.html#aaf2aa62af044fe7508e71b34caf2fdc4", null ],
     [ "get_val_from_setting", "d0/dd3/cbuild__action_8c.html#ad80eaa6fb340b5fd5ac05bf772c7c363", null ],
     [ "get_val_from_wyckoff", "d0/dd3/cbuild__action_8c.html#a12f4db3f6c0435da68a7a3d720959a8a", null ],
@@ -17,6 +17,6 @@ var cbuild__action_8c =
     [ "pos_not_saved", "d0/dd3/cbuild__action_8c.html#ab9e90b9b0a17e3b6142178c9755f262c", null ],
     [ "pos_not_taken", "d0/dd3/cbuild__action_8c.html#a04293192e490b33eee3b429fb285c069", null ],
     [ "same_coords", "d0/dd3/cbuild__action_8c.html#af3928e5926e943bb8d42de4e82d30300", null ],
-    [ "test_lattice", "d0/dd3/cbuild__action_8c.html#adfdd72aebd06dc2200d8418099296bcc", null ],
+    [ "test_lattice", "d0/dd3/cbuild__action_8c.html#ad6edc8c16ec43cc3479bab7d7a7922e2", null ],
     [ "tmp_pos", "d0/dd3/cbuild__action_8c.html#a8d4f018ca3edce323247ec0e039737b7", null ]
 ];

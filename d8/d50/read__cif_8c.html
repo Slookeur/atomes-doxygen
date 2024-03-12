@@ -134,6 +134,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ac4381a5de567b9ad03e8afddb836807d" id="r_ac4381a5de567b9ad03e8afddb836807d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4381a5de567b9ad03e8afddb836807d">compute_lattice_properties</a> (<a class="el" href="../../de/df1/structcell__info.html">cell_info</a> *cell)</td></tr>
 <tr class="memdesc:ac4381a5de567b9ad03e8afddb836807d"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute lattice parameters following cell description  <br /></td></tr>
 <tr class="separator:ac4381a5de567b9ad03e8afddb836807d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6edc8c16ec43cc3479bab7d7a7922e2" id="r_ad6edc8c16ec43cc3479bab7d7a7922e2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6edc8c16ec43cc3479bab7d7a7922e2">test_lattice</a> (<a class="el" href="../../dd/df5/structbuilder__edition.html">builder_edition</a> *cbuilder, <a class="el" href="../../de/df1/structcell__info.html">cell_info</a> *cif_cell)</td></tr>
+<tr class="memdesc:ad6edc8c16ec43cc3479bab7d7a7922e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">test lattice parameters  <br /></td></tr>
+<tr class="separator:ad6edc8c16ec43cc3479bab7d7a7922e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a827ab12e4436f2f480cfa808276af11c" id="r_a827ab12e4436f2f480cfa808276af11c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a827ab12e4436f2f480cfa808276af11c">read_space_group</a> (<a class="el" href="../../dd/df5/structbuilder__edition.html">builder_edition</a> *cbuilder, int spg)</td></tr>
 <tr class="memdesc:a827ab12e4436f2f480cfa808276af11c"><td class="mdescLeft">&#160;</td><td class="mdescRight">read space group N°spg data from file  <br /></td></tr>
 <tr class="separator:a827ab12e4436f2f480cfa808276af11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -209,9 +212,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a5da5df9261a094fe657eed6ab0e31f79" id="r_a5da5df9261a094fe657eed6ab0e31f79"><td class="memItemLeft" align="right" valign="top">gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5da5df9261a094fe657eed6ab0e31f79">cif_get_cell_data</a> (int linec)</td></tr>
 <tr class="memdesc:a5da5df9261a094fe657eed6ab0e31f79"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the cell data from the CIF file  <br /></td></tr>
 <tr class="separator:a5da5df9261a094fe657eed6ab0e31f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8152f76728679f2a940e97ba6b527e9" id="r_ad8152f76728679f2a940e97ba6b527e9"><td class="memItemLeft" align="right" valign="top">gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8152f76728679f2a940e97ba6b527e9">cif_get_space_group</a> (int linec)</td></tr>
-<tr class="memdesc:ad8152f76728679f2a940e97ba6b527e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the space group from the CIF file  <br /></td></tr>
-<tr class="separator:ad8152f76728679f2a940e97ba6b527e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8045b3d5d66d62ddafc6622b074481da" id="r_a8045b3d5d66d62ddafc6622b074481da"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8045b3d5d66d62ddafc6622b074481da">cif_get_space_group</a> (int linec)</td></tr>
+<tr class="memdesc:a8045b3d5d66d62ddafc6622b074481da"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the space group from the CIF file  <br /></td></tr>
+<tr class="separator:a8045b3d5d66d62ddafc6622b074481da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab71beac9d30b5a07e8d79cb0dc366f42" id="r_ab71beac9d30b5a07e8d79cb0dc366f42"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab71beac9d30b5a07e8d79cb0dc366f42">open_cif_file</a> (int linec)</td></tr>
 <tr class="memdesc:ab71beac9d30b5a07e8d79cb0dc366f42"><td class="mdescLeft">&#160;</td><td class="mdescRight">open CIF file  <br /></td></tr>
 <tr class="separator:ab71beac9d30b5a07e8d79cb0dc366f42"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -301,7 +304,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00876">876</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00903">903</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
 
 </div>
 </div>
@@ -333,7 +336,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00660">660</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00661">661</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -365,7 +368,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00708">708</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00709">709</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -397,7 +400,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00537">537</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00538">538</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -435,7 +438,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00598">598</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00599">599</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -462,7 +465,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00892">892</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00893">893</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -489,18 +492,18 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l01321">1321</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l01322">1322</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
-<a id="ad8152f76728679f2a940e97ba6b527e9" name="ad8152f76728679f2a940e97ba6b527e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8152f76728679f2a940e97ba6b527e9">&#9670;&#160;</a></span>cif_get_space_group()</h2>
+<a id="a8045b3d5d66d62ddafc6622b074481da" name="a8045b3d5d66d62ddafc6622b074481da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8045b3d5d66d62ddafc6622b074481da">&#9670;&#160;</a></span>cif_get_space_group()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">gboolean cif_get_space_group </td>
+          <td class="memname">int cif_get_space_group </td>
           <td>(</td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>linec</em></span></td><td>)</td>
           <td></td>
@@ -516,7 +519,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l01366">1366</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l01367">1367</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -584,7 +587,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00382">382</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00383">383</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -654,7 +657,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00514">514</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00541">541</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
 
 </div>
 </div>
@@ -681,7 +684,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00360">360</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00361">361</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -713,7 +716,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00201">201</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00202">202</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -780,7 +783,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00224">224</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00225">225</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -812,7 +815,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00252">252</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00253">253</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -839,7 +842,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00186">186</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00187">187</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -877,7 +880,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00877">877</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00878">878</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -909,7 +912,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00822">822</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00823">823</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -930,7 +933,7 @@ Variables</h2></td></tr>
 
 <p>get missing atomic number in CIF file from the user </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00315">315</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00316">316</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -997,7 +1000,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l01151">1151</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l01152">1152</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -1024,7 +1027,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l01067">1067</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l01068">1068</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -1051,7 +1054,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l01121">1121</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l01122">1122</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -1164,7 +1167,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l01239">1239</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l01240">1240</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -1191,7 +1194,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l01588">1588</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l01600">1600</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -1263,7 +1266,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00283">283</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00284">284</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -1307,6 +1310,46 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ad6edc8c16ec43cc3479bab7d7a7922e2" name="ad6edc8c16ec43cc3479bab7d7a7922e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6edc8c16ec43cc3479bab7d7a7922e2">&#9670;&#160;</a></span>test_lattice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int test_lattice </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/df5/structbuilder__edition.html">builder_edition</a> *</td>          <td class="paramname"><span class="paramname"><em>cbuilder</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/df1/structcell__info.html">cell_info</a> *</td>          <td class="paramname"><span class="paramname"><em>cif_cell</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>test lattice parameters </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cbuilder</td><td>the builder edition with the lattice parameters </td></tr>
+    <tr><td class="paramname">cif_cell</td><td>the cell information when testing CIF file </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00310">310</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="ab72d35b67adbe0d681f3dbacb7fe63c5" name="ab72d35b67adbe0d681f3dbacb7fe63c5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab72d35b67adbe0d681f3dbacb7fe63c5">&#9670;&#160;</a></span>cif_coord_opts</h2>
@@ -1320,7 +1363,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00088">88</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00089">89</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -1336,7 +1379,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00086">86</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00087">87</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -1352,7 +1395,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00273">273</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00274">274</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -1368,7 +1411,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00083">83</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00084">84</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -1384,7 +1427,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00272">272</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00273">273</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -1400,7 +1443,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00085">85</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00086">86</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>
@@ -1416,7 +1459,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00084">84</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d50/read__cif_8c_source.html#l00085">85</a> of file <a class="el" href="../../d8/d50/read__cif_8c_source.html">read_cif.c</a>.</p>
 
 </div>
 </div>

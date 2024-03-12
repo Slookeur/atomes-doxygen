@@ -111,7 +111,7 @@ var searchData=
   ['cif_5ffile_5fget_5fnumber_5fof_5fatoms_108',['cif_file_get_number_of_atoms',['../d8/d50/read__cif_8c.html#a9664c3d3961dadd38801257ea1ecd7e2',1,'read_cif.c']]],
   ['cif_5fget_5fatomic_5fcoordinates_109',['cif_get_atomic_coordinates',['../d8/d50/read__cif_8c.html#a56baace658052d48c96e25f5cbd4069d',1,'read_cif.c']]],
   ['cif_5fget_5fcell_5fdata_110',['cif_get_cell_data',['../d8/d50/read__cif_8c.html#a5da5df9261a094fe657eed6ab0e31f79',1,'read_cif.c']]],
-  ['cif_5fget_5fspace_5fgroup_111',['cif_get_space_group',['../d8/d50/read__cif_8c.html#ad8152f76728679f2a940e97ba6b527e9',1,'read_cif.c']]],
+  ['cif_5fget_5fspace_5fgroup_111',['cif_get_space_group',['../d8/d50/read__cif_8c.html#a8045b3d5d66d62ddafc6622b074481da',1,'read_cif.c']]],
   ['cif_5fget_5fvalue_112',['cif_get_value',['../d8/d50/read__cif_8c.html#a9e43d31577e690b2f2c3e46d7ed0f52f',1,'read_cif.c']]],
   ['clean_5fall_5ftrees_113',['clean_all_trees',['../d8/d15/atom__action_8c.html#aaaa19adc0bf96c8e94998cc428dca894',1,'clean_all_trees(atom_search *asearch, project *this_proj):&#160;atom_action.c'],['../d5/d9c/atom__edit_8h.html#aaaa19adc0bf96c8e94998cc428dca894',1,'clean_all_trees(atom_search *asearch, project *this_proj):&#160;atom_action.c'],['../de/d8a/cbuild__edit_8h.html#aaaa19adc0bf96c8e94998cc428dca894',1,'clean_all_trees(atom_search *asearch, project *this_proj):&#160;atom_action.c']]],
   ['clean_5fanimation_114',['clean_animation',['../da/daf/w__encode_8c.html#a711a7e1f84e8fe57df611eb4a43acf86',1,'w_encode.c']]],

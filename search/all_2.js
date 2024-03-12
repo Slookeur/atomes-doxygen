@@ -328,7 +328,7 @@ var searchData=
   ['cif_5ffile_5fget_5fnumber_5fof_5fatoms_325',['cif_file_get_number_of_atoms',['../d8/d50/read__cif_8c.html#a9664c3d3961dadd38801257ea1ecd7e2',1,'read_cif.c']]],
   ['cif_5fget_5fatomic_5fcoordinates_326',['cif_get_atomic_coordinates',['../d8/d50/read__cif_8c.html#a56baace658052d48c96e25f5cbd4069d',1,'read_cif.c']]],
   ['cif_5fget_5fcell_5fdata_327',['cif_get_cell_data',['../d8/d50/read__cif_8c.html#a5da5df9261a094fe657eed6ab0e31f79',1,'read_cif.c']]],
-  ['cif_5fget_5fspace_5fgroup_328',['cif_get_space_group',['../d8/d50/read__cif_8c.html#ad8152f76728679f2a940e97ba6b527e9',1,'read_cif.c']]],
+  ['cif_5fget_5fspace_5fgroup_328',['cif_get_space_group',['../d8/d50/read__cif_8c.html#a8045b3d5d66d62ddafc6622b074481da',1,'read_cif.c']]],
   ['cif_5fget_5fvalue_329',['cif_get_value',['../d8/d50/read__cif_8c.html#a9e43d31577e690b2f2c3e46d7ed0f52f',1,'read_cif.c']]],
   ['cif_5floop_5fid_330',['cif_loop_id',['../d8/d50/read__cif_8c.html#a9226d6cdc39d573f4aeda346e6fd0116',1,'read_cif.c']]],
   ['cif_5fsearch_331',['cif_search',['../d8/d50/read__cif_8c.html#adb81aec86c1b42950be0f44b4cc80768',1,'read_cif.c']]],
