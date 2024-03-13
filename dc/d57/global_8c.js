@@ -37,6 +37,7 @@ var global_8c =
     [ "bravais_img", "dc/d57/global_8c.html#ad11647bc54259bc1302f146d1b155d68", null ],
     [ "calc_dialog", "dc/d57/global_8c.html#aef2d3abc2ab604172252560c3d027de7", null ],
     [ "check_label", "dc/d57/global_8c.html#aab70499bf07f4bcf8bea9073ac80ca69", null ],
+    [ "cif_use_symmetry_positions", "dc/d57/global_8c.html#ad6b4dffc93c643fe0df0427c75cebcc3", null ],
     [ "column_label", "dc/d57/global_8c.html#a95dae579c9457dbab1a0fcb0832f9023", null ],
     [ "curvetoolbox", "dc/d57/global_8c.html#add05d3a226dc3889160257f0608c475a", null ],
     [ "dialog_id", "dc/d57/global_8c.html#a3a794437d70caf0e0bd7b4adc351506a", null ],

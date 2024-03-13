@@ -163,11 +163,12 @@ var searchData=
   ['superbut_160',['superbut',['../d4/d03/structcell__edition.html#af68f6d4ac752869f9ea69989f249b391',1,'cell_edition']]],
   ['surface_161',['surface',['../da/d6e/struct_curve.html#a76e6dbb8b33b4373ca91aab3cab86245',1,'Curve']]],
   ['sws_5fctx_162',['sws_ctx',['../de/da3/struct_video_stream.html#a4352e64df59635d45a2a57c7afecc6d4',1,'VideoStream']]],
-  ['sys_163',['sys',['../df/d6b/structthermostat.html#af906da2c63616da76c3b07a6da2c8470',1,'thermostat']]],
-  ['sys_5fbox_164',['sys_box',['../dc/d11/dlp__control_8c.html#a62f28b469650ff76e4d4f309885f60e6',1,'dlp_control.c']]],
-  ['sys_5finfo_165',['sys_info',['../d2/dc7/dlp__print_8c.html#a990b1dc2d4176ba604fe488c9fdd5b99',1,'dlp_print.c']]],
-  ['sys_5fkey_166',['sys_key',['../d2/dc7/dlp__print_8c.html#a65ba35258376c02eafaff0fc91f0e6a6',1,'dlp_print.c']]],
-  ['sys_5fopts_167',['sys_opts',['../d6/da3/structclassical__field.html#a1f1790aa1e3aa60448a8106243540487',1,'classical_field::sys_opts'],['../dc/d11/dlp__control_8c.html#a8c2056d9a78f5ea3be84d293d9674f0e',1,'sys_opts:&#160;dlp_control.c']]],
-  ['sys_5fstring_168',['sys_string',['../d2/dc7/dlp__print_8c.html#a74b8e5b0291e09d7fe7b882a6a400ee7',1,'dlp_print.c']]],
-  ['szone_169',['szone',['../d4/d52/namespaceparameters.html#ab8d95e32a7c9ddd353b2399eadaeef1c',1,'parameters']]]
+  ['sym_5fpos_163',['sym_pos',['../d0/d2f/structcoord__file.html#a2d99df2b243836e7507d6d9dea5a194d',1,'coord_file']]],
+  ['sys_164',['sys',['../df/d6b/structthermostat.html#af906da2c63616da76c3b07a6da2c8470',1,'thermostat']]],
+  ['sys_5fbox_165',['sys_box',['../dc/d11/dlp__control_8c.html#a62f28b469650ff76e4d4f309885f60e6',1,'dlp_control.c']]],
+  ['sys_5finfo_166',['sys_info',['../d2/dc7/dlp__print_8c.html#a990b1dc2d4176ba604fe488c9fdd5b99',1,'dlp_print.c']]],
+  ['sys_5fkey_167',['sys_key',['../d2/dc7/dlp__print_8c.html#a65ba35258376c02eafaff0fc91f0e6a6',1,'dlp_print.c']]],
+  ['sys_5fopts_168',['sys_opts',['../d6/da3/structclassical__field.html#a1f1790aa1e3aa60448a8106243540487',1,'classical_field::sys_opts'],['../dc/d11/dlp__control_8c.html#a8c2056d9a78f5ea3be84d293d9674f0e',1,'sys_opts:&#160;dlp_control.c']]],
+  ['sys_5fstring_169',['sys_string',['../d2/dc7/dlp__print_8c.html#a74b8e5b0291e09d7fe7b882a6a400ee7',1,'dlp_print.c']]],
+  ['szone_170',['szone',['../d4/d52/namespaceparameters.html#ab8d95e32a7c9ddd353b2399eadaeef1c',1,'parameters']]]
 ];

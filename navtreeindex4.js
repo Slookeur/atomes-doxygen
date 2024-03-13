@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"d2/d73/structworkspace.html#aee75e5ab18d0bf705e014fb94f6e7f0f":[2,0,91,0],
+"d2/d92/w__colors_8c.html":[3,0,4,2,35],
 "d2/d92/w__colors_8c.html#a1aa93d9939167473e8ec893430d507f4":[3,0,4,2,35,3],
 "d2/d92/w__colors_8c.html#a1d42e8d9f812f8ecb534ac48fbf6f2ac":[3,0,4,2,35,4],
 "d2/d92/w__colors_8c.html#a216fbf5d5154a7ca587be6cb8878f88c":[3,0,4,2,35,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "d3/d0a/struct_material.html#a86bb1900a410d21ecde2ec3c1839be48":[2,0,66,0],
 "d3/d0a/struct_material.html#ae66cd1552e6a69c9330e225b65943c70":[2,0,66,2],
 "d3/d0c/cedit_8c.html":[3,0,1,0],
-"d3/d0c/cedit_8c.html#a062b8f02f1f7b6aa9c61d6d906a06466":[3,0,1,0,15],
-"d3/d0c/cedit_8c.html#a0af6d603f5ec5843e35ffcd7c4868198":[3,0,1,0,31],
-"d3/d0c/cedit_8c.html#a12e6d8c3831d74e336c6b230b6086956":[3,0,1,0,29]
+"d3/d0c/cedit_8c.html#a062b8f02f1f7b6aa9c61d6d906a06466":[3,0,1,0,15]
 };

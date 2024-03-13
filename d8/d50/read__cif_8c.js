@@ -5,9 +5,11 @@ var read__cif_8c =
     [ "cif_file_get_atoms_data", "d8/d50/read__cif_8c.html#a5c5112c819b30ad391fb74d390b01580", null ],
     [ "cif_file_get_data_in_loop", "d8/d50/read__cif_8c.html#a8f807ffe9bd7e1593fd2f93f70f74ebb", null ],
     [ "cif_file_get_number_of_atoms", "d8/d50/read__cif_8c.html#a9664c3d3961dadd38801257ea1ecd7e2", null ],
+    [ "cif_file_get_number_of_positions", "d8/d50/read__cif_8c.html#aa8071678a7369686f4bd72b7c6875ed2", null ],
     [ "cif_get_atomic_coordinates", "d8/d50/read__cif_8c.html#a56baace658052d48c96e25f5cbd4069d", null ],
     [ "cif_get_cell_data", "d8/d50/read__cif_8c.html#a5da5df9261a094fe657eed6ab0e31f79", null ],
     [ "cif_get_space_group", "d8/d50/read__cif_8c.html#a8045b3d5d66d62ddafc6622b074481da", null ],
+    [ "cif_get_symmetry_positions", "d8/d50/read__cif_8c.html#a2954b447d03bab82ce96ceec6c1f4106", null ],
     [ "cif_get_value", "d8/d50/read__cif_8c.html#a9e43d31577e690b2f2c3e46d7ed0f52f", null ],
     [ "compute_lattice_properties", "d8/d50/read__cif_8c.html#ac4381a5de567b9ad03e8afddb836807d", null ],
     [ "duplicate_space_group", "d8/d50/read__cif_8c.html#a6dd48d32cffd10bf9967f089590ceeb9", null ],
@@ -39,5 +41,6 @@ var read__cif_8c =
     [ "img_cif", "d8/d50/read__cif_8c.html#a5c076f5c16f7be050dfadaafa18c638b", null ],
     [ "keylines", "d8/d50/read__cif_8c.html#a1e9ce059ad27eaba18507f3fa56b7803", null ],
     [ "line_ptr", "d8/d50/read__cif_8c.html#aa5f3c4d606c1a8ff744f861ca389b4b9", null ],
+    [ "tmp_pos", "d8/d50/read__cif_8c.html#a8d4f018ca3edce323247ec0e039737b7", null ],
     [ "wnpos", "d8/d50/read__cif_8c.html#aea1247b80a8c76a7cdd1083a132cc947", null ]
 ];

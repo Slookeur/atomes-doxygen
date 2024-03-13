@@ -11,8 +11,6 @@ var cbuild__info_8c =
     [ "get_frac", "d9/ded/cbuild__info_8c.html#afdba6dd48998038262d5113eaf34cadc", null ],
     [ "get_num_string", "d9/ded/cbuild__info_8c.html#a5ea9c74acc0690cb832b3673fd50db39", null ],
     [ "get_so_string", "d9/ded/cbuild__info_8c.html#ae9a507e4a7a9d2e14e9e9a3a84870ecd", null ],
-    [ "get_val_from_wyckoff", "d9/ded/cbuild__info_8c.html#a12f4db3f6c0435da68a7a3d720959a8a", null ],
-    [ "get_value_from_pos", "d9/ded/cbuild__info_8c.html#aeeb82c028867529f9780e961a8c80f45", null ],
     [ "get_wyck_char", "d9/ded/cbuild__info_8c.html#a92702b548073171d07c4a0dd094e6bf9", null ],
     [ "get_wyck_names", "d9/ded/cbuild__info_8c.html#a9a1464047ee947eab8933819632e2d06", null ],
     [ "set_so_info", "d9/ded/cbuild__info_8c.html#a323d2ad546a813a576776b41bad157a4", null ],

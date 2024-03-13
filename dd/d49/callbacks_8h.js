@@ -16,7 +16,7 @@ var callbacks_8h =
     [ "on_show_curve_toolbox", "dd/d49/callbacks_8h.html#a3172f48c8235af1603e7dcdc18311603", null ],
     [ "open_save", "dd/d49/callbacks_8h.html#a0f062c6323125e5132a09246be7dd39b", null ],
     [ "open_save_workspace", "dd/d49/callbacks_8h.html#a3a034298e4b99c98ed29d0189087e062", null ],
-    [ "open_this_coordinate_file", "dd/d49/callbacks_8h.html#a9f131e089a9d4a94fe0d98ac10f5d3b5", null ],
+    [ "open_this_coordinate_file", "dd/d49/callbacks_8h.html#a671482ea70a9e38497d9cd09f6e41a87", null ],
     [ "open_this_isaacs_xml_file", "dd/d49/callbacks_8h.html#adf53a9f2fc4724ee477ba7d530606cd5", null ],
     [ "quit_gtk", "dd/d49/callbacks_8h.html#a171fc1a71f4feff91a73ad60eddaba4d", null ],
     [ "run_project", "dd/d49/callbacks_8h.html#a68a1ca2428440b7b29f3e034be3f5aeb", null ],

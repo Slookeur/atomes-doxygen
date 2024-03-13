@@ -323,6 +323,7 @@ var global_8h =
     [ "calc_dialog", "d2/d49/global_8h.html#aef2d3abc2ab604172252560c3d027de7", null ],
     [ "calc_name", "d2/d49/global_8h.html#af7398ae8daba1bd18190e2cea0ff7735", null ],
     [ "check_label", "d2/d49/global_8h.html#aab70499bf07f4bcf8bea9073ac80ca69", null ],
+    [ "cif_use_symmetry_positions", "d2/d49/global_8h.html#ad6b4dffc93c643fe0df0427c75cebcc3", null ],
     [ "column_label", "d2/d49/global_8h.html#a95dae579c9457dbab1a0fcb0832f9023", null ],
     [ "coord_files", "d2/d49/global_8h.html#ad431d58325d76bdc4df60f58762562b6", null ],
     [ "coord_files_ext", "d2/d49/global_8h.html#ab03bc5bfbcd90502d4bc6b0ca2048c5b", null ],

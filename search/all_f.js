@@ -130,7 +130,7 @@ var searchData=
   ['port_5fsection_127',['port_section',['../d5/d03/gui_8c.html#a2667b3adbf31775823401847af83f191',1,'gui.c']]],
   ['pos_128',['pos',['../da/d6e/struct_curve.html#aaa2d390a524c4e94cd17b1c3f23897b0',1,'Curve::pos'],['../d9/d4f/structwyckoff__position.html#ad91b1fd94b4a308eebe65b5d30111459',1,'wyckoff_position::pos'],['../dc/de2/structspg__setting.html#a3f00301c50a918ddb33333b5ebfe4da5',1,'spg_setting::pos']]],
   ['pos_5fby_5fobject_129',['pos_by_object',['../d8/d1b/structcrystal__data.html#a0822b405e1919599195d8187dbad79e6',1,'crystal_data']]],
-  ['pos_5fnot_5fsaved_130',['pos_not_saved',['../d0/dd3/cbuild__action_8c.html#ab9e90b9b0a17e3b6142178c9755f262c',1,'cbuild_action.c']]],
+  ['pos_5fnot_5fsaved_130',['pos_not_saved',['../d0/dd3/cbuild__action_8c.html#ab9e90b9b0a17e3b6142178c9755f262c',1,'pos_not_saved(vec3_t *all_pos, int num_pos, vec3_t pos):&#160;cbuild_action.c'],['../de/d8a/cbuild__edit_8h.html#ab9e90b9b0a17e3b6142178c9755f262c',1,'pos_not_saved(vec3_t *all_pos, int num_pos, vec3_t pos):&#160;cbuild_action.c']]],
   ['pos_5fnot_5ftaken_131',['pos_not_taken',['../d0/dd3/cbuild__action_8c.html#a04293192e490b33eee3b429fb285c069',1,'cbuild_action.c']]],
   ['pos_5fpointer_132',['pos_pointer',['../d1/d71/structopengl__edition.html#aea9fcfc4bd1118f0a12246bcbb744c0d',1,'opengl_edition']]],
   ['position_133',['position',['../d8/d1b/structcrystal__data.html#a581c7e74fa52badebd0f0664302cc755',1,'crystal_data::position'],['../d7/d61/struct_light.html#ae8fcfc491761413946114395e12f8324',1,'Light::position'],['../da/da4/m__proj_8c.html#a7130b1618285588513fd1ff97884b9d9',1,'position:&#160;m_proj.c']]],

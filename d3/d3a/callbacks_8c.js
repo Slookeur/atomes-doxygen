@@ -19,7 +19,7 @@ var callbacks_8c =
     [ "open_history_file", "d3/d3a/callbacks_8c.html#a6732cd6f0f8fce0eed72cd10103ecf52", null ],
     [ "open_save", "d3/d3a/callbacks_8c.html#a6b8ed211ab9e76f1c1533aa7136378b1", null ],
     [ "open_save_workspace", "d3/d3a/callbacks_8c.html#a1e93de9145633f0ad1bc94e58ac1d706", null ],
-    [ "open_this_coordinate_file", "d3/d3a/callbacks_8c.html#a9f131e089a9d4a94fe0d98ac10f5d3b5", null ],
+    [ "open_this_coordinate_file", "d3/d3a/callbacks_8c.html#a671482ea70a9e38497d9cd09f6e41a87", null ],
     [ "open_this_isaacs_xml_file", "d3/d3a/callbacks_8c.html#adf53a9f2fc4724ee477ba7d530606cd5", null ],
     [ "open_this_proj", "d3/d3a/callbacks_8c.html#ae8ee62ef5a85147f61fcc1f303d1dfeb", null ],
     [ "prep_chem_data", "d3/d3a/callbacks_8c.html#a62de96e8b84009336f11a78287f5e2aa", null ],

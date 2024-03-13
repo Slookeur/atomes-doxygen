@@ -1,5 +1,12 @@
 var NAVTREEINDEX34 =
 {
+"df/de9/curve_8h.html#ac9db862fd036283c27b5629b1b42b664":[3,0,1,3,76],
+"df/de9/curve_8h.html#aca04b8c085ee9554f486448189feb002":[3,0,1,3,32],
+"df/de9/curve_8h.html#acf044ff2d0568fd2ada26b75b5c41589":[3,0,1,3,68],
+"df/de9/curve_8h.html#acfbc006ea433ad708fdee3e82996e721":[3,0,1,3,3],
+"df/de9/curve_8h.html#ad5ec97c114a58026cc3327cf197ad306":[3,0,1,3,48],
+"df/de9/curve_8h.html#ad992edc0086066bb47b0c04a66d74a25":[3,0,1,3,86],
+"df/de9/curve_8h.html#ada4d0d2d7666aa6ee80c1c93633b2281":[3,0,1,3,55],
 "df/de9/curve_8h.html#ae02e377db97ab1706cd603d3486e68a8":[3,0,1,3,53],
 "df/de9/curve_8h.html#ae454f69f7cdc822a472e7eae391595ec":[3,0,1,3,47],
 "df/de9/curve_8h.html#aeac79d497c3fc7a2fac0e5a76fc787a0":[3,0,1,3,22],
@@ -242,12 +249,5 @@ var NAVTREEINDEX34 =
 "globals_vars_w.html":[3,1,2,21],
 "globals_vars_x.html":[3,1,2,22],
 "globals_vars_y.html":[3,1,2,23],
-"globals_vars_z.html":[3,1,2,24],
-"globals_w.html":[3,1,0,21],
-"globals_x.html":[3,1,0,22],
-"globals_y.html":[3,1,0,23],
-"globals_z.html":[3,1,0,24],
-"index.html":[],
-"index.html":[0],
-"index.html#autotoc_md0":[0,0]
+"globals_vars_z.html":[3,1,2,24]
 };
