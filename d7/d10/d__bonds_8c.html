@@ -94,14 +94,13 @@ $(function(){initNavTree('d7/d10/d__bonds_8c.html','../../'); initResizable(); }
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">d_bonds.c File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Functions to prepare the OpenGL rendering of <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> and clone <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a>  
+<p>Functions to prepare the OpenGL rendering of bond(s) and clone bond(s)  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>&quot;</code><br />
@@ -116,11 +115,6 @@ $(function(){initNavTree('d7/d10/d__bonds_8c.html','../../'); initResizable(); }
 </div>
 <p><a href="../../d7/d10/d__bonds_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d76/structbond__rotation.html">bond_rotation</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ac26b87b238a29cd90d005d35b5c1d503" id="r_ac26b87b238a29cd90d005d35b5c1d503"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d74/struct_col_r_g_b_a.html">ColRGBA</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac26b87b238a29cd90d005d35b5c1d503">get_atom_color</a> (int i, int j, double <a class="el" href="../../da/d3c/w__axis_8c.html#a648e40b0c4eb9e9cca21f11c98c53f5f">al</a>, int picked, gboolean to_picked)</td></tr>
@@ -166,16 +160,16 @@ Functions</h2></td></tr>
 <tr class="memdesc:aeea868342f141b286438f29b6bf30daf"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare a bond OpenGL rendering  <br /></td></tr>
 <tr class="separator:aeea868342f141b286438f29b6bf30daf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47da2fadde289cd3255382642a7a9aeb" id="r_a47da2fadde289cd3255382642a7a9aeb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47da2fadde289cd3255382642a7a9aeb">find_bond_vertices</a> (gboolean to_pick, int sty, int sa, int sb, int bi, int cap)</td></tr>
-<tr class="memdesc:a47da2fadde289cd3255382642a7a9aeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">find <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> and clone <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> to render  <br /></td></tr>
+<tr class="memdesc:a47da2fadde289cd3255382642a7a9aeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">find bond(s) and clone bond(s) to render  <br /></td></tr>
 <tr class="separator:a47da2fadde289cd3255382642a7a9aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec68f6747a4995f77ac865aacaed44c8" id="r_aec68f6747a4995f77ac865aacaed44c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec68f6747a4995f77ac865aacaed44c8">setup_all_cylinder_vertices</a> (int style, gboolean to_pick, int cap, int bi, float *vertices)</td></tr>
-<tr class="memdesc:aec68f6747a4995f77ac865aacaed44c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare cylinder <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> and clone <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> to render  <br /></td></tr>
+<tr class="memdesc:aec68f6747a4995f77ac865aacaed44c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare cylinder bond(s) and clone bond(s) to render  <br /></td></tr>
 <tr class="separator:aec68f6747a4995f77ac865aacaed44c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab41d695f5ef27824476c9a2aef87bb61" id="r_ab41d695f5ef27824476c9a2aef87bb61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab41d695f5ef27824476c9a2aef87bb61">setup_line_vertices</a> (int style, int cap, int bi, int sa, int sb, float *vertices)</td></tr>
-<tr class="memdesc:ab41d695f5ef27824476c9a2aef87bb61"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare line <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> and clone <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> to render  <br /></td></tr>
+<tr class="memdesc:ab41d695f5ef27824476c9a2aef87bb61"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare line bond(s) and clone bond(s) to render  <br /></td></tr>
 <tr class="separator:ab41d695f5ef27824476c9a2aef87bb61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a219c16e63b40abb4a7210c328a824798" id="r_a219c16e63b40abb4a7210c328a824798"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a219c16e63b40abb4a7210c328a824798">create_bond_lists</a> (gboolean to_pick)</td></tr>
-<tr class="memdesc:a219c16e63b40abb4a7210c328a824798"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> and clone <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> OpenGL rendering  <br /></td></tr>
+<tr class="memdesc:a219c16e63b40abb4a7210c328a824798"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare bond(s) and clone bond(s) OpenGL rendering  <br /></td></tr>
 <tr class="separator:a219c16e63b40abb4a7210c328a824798"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
@@ -188,7 +182,7 @@ Variables</h2></td></tr>
 <tr class="separator:a65342f3ab4986c708d77ef67c63d3609"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Functions to prepare the OpenGL rendering of <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> and clone <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> </p>
+<div class="textblock"><p>Functions to prepare the OpenGL rendering of bond(s) and clone bond(s) </p>
 <dl class="section author"><dt>Author</dt><dd>Sébastien Le Roux <a href="#" onclick="location.href='mai'+'lto:'+'seb'+'as'+'tie'+'n.'+'ler'+'ou'+'x@i'+'pc'+'ms.'+'un'+'ist'+'ra'+'.fr'; return false;">sebas<span class="obfuscator">.nosp@m.</span>tien<span class="obfuscator">.nosp@m.</span>.lero<span class="obfuscator">.nosp@m.</span>ux@i<span class="obfuscator">.nosp@m.</span>pcms.<span class="obfuscator">.nosp@m.</span>unis<span class="obfuscator">.nosp@m.</span>tra.f<span class="obfuscator">.nosp@m.</span>r</a> </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
@@ -216,7 +210,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00160">160</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00155">155</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
 
 </div>
 </div>
@@ -243,7 +237,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00148">148</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00143">143</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
 
 </div>
 </div>
@@ -262,7 +256,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>prepare <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> and clone <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> OpenGL rendering </p>
+<p>prepare bond(s) and clone bond(s) OpenGL rendering </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">to_pick</td><td>to pick (1) or to draw (0) </td></tr>
@@ -270,7 +264,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00675">675</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00670">670</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
 
 </div>
 </div>
@@ -297,7 +291,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00089">89</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00084">84</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
 
 </div>
 </div>
@@ -324,7 +318,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00077">77</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00072">72</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
 
 </div>
 </div>
@@ -362,7 +356,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00103">103</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00098">98</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
 
 </div>
 </div>
@@ -400,7 +394,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00174">174</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00169">169</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
 
 </div>
 </div>
@@ -443,7 +437,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>find <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> and clone <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> to render </p>
+<p>find bond(s) and clone bond(s) to render </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">to_pick</td><td>to pick (1) or to draw (0) </td></tr>
@@ -456,7 +450,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00504">504</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00499">499</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
 
 </div>
 </div>
@@ -564,7 +558,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00244">244</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00239">239</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
 
 </div>
 </div>
@@ -644,7 +638,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00447">447</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00442">442</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
 
 </div>
 </div>
@@ -676,7 +670,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00221">221</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00216">216</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
 
 </div>
 </div>
@@ -714,7 +708,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>prepare cylinder <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> and clone <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> to render </p>
+<p>prepare cylinder bond(s) and clone bond(s) to render </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">style</td><td>rendering style </td></tr>
@@ -726,7 +720,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00570">570</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00565">565</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
 
 </div>
 </div>
@@ -782,7 +776,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00328">328</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00323">323</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
 
 </div>
 </div>
@@ -844,7 +838,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00296">296</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00291">291</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
 
 </div>
 </div>
@@ -888,7 +882,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00270">270</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00265">265</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
 
 </div>
 </div>
@@ -931,7 +925,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>prepare line <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> and clone <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> to render </p>
+<p>prepare line bond(s) and clone bond(s) to render </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">style</td><td>rendering style </td></tr>
@@ -944,7 +938,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00629">629</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00624">624</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
 
 </div>
 </div>
@@ -1024,7 +1018,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00365">365</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00360">360</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
 
 </div>
 </div>
@@ -1087,7 +1081,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00347">347</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d10/d__bonds_8c_source.html#l00342">342</a> of file <a class="el" href="../../d7/d10/d__bonds_8c_source.html">d_bonds.c</a>.</p>
 
 </div>
 </div>

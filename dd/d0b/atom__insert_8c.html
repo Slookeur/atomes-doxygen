@@ -99,7 +99,7 @@ $(function(){initNavTree('dd/d0b/atom__insert_8c.html','../../'); initResizable(
 </div><!--header-->
 <div class="contents">
 
-<p>Functions to insert <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> in a project.  
+<p>Functions to insert bond(s) in a project.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d5/d9c/atom__edit_8h_source.html">atom_edit.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -118,7 +118,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a57e9ac9d1381726a7e0010ce788934fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">add bond list to project bond list  <br /></td></tr>
 <tr class="separator:a57e9ac9d1381726a7e0010ce788934fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32562165f6209d05e7aa40d34be90788" id="r_a32562165f6209d05e7aa40d34be90788"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32562165f6209d05e7aa40d34be90788">add_bonds_to_list</a> (int **new_bond_list, int nat, int nbd, <a class="el" href="../../d0/de8/structatomic__object.html">atomic_object</a> *object)</td></tr>
-<tr class="memdesc:a32562165f6209d05e7aa40d34be90788"><td class="mdescLeft">&#160;</td><td class="mdescRight">add object <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> list to overall <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> list  <br /></td></tr>
+<tr class="memdesc:a32562165f6209d05e7aa40d34be90788"><td class="mdescLeft">&#160;</td><td class="mdescRight">add object bond(s) list to overall bond(s) list  <br /></td></tr>
 <tr class="separator:a32562165f6209d05e7aa40d34be90788"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0f12d13f3aba9ff2b7e9aec4d766355" id="r_af0f12d13f3aba9ff2b7e9aec4d766355"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0f12d13f3aba9ff2b7e9aec4d766355">prepare_to_instert</a> (gchar *key, <a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, <a class="el" href="../../d8/d59/structatom__search.html">atom_search</a> *asearch, gboolean visible)</td></tr>
 <tr class="memdesc:af0f12d13f3aba9ff2b7e9aec4d766355"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare to insert something  <br /></td></tr>
@@ -128,7 +128,7 @@ Functions</h2></td></tr>
 <tr class="separator:a96dae07be1b2999e3338ced59fe4d57e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Functions to insert <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> in a project. </p>
+<div class="textblock"><p>Functions to insert bond(s) in a project. </p>
 <dl class="section author"><dt>Author</dt><dd>Sébastien Le Roux <a href="#" onclick="location.href='mai'+'lto:'+'seb'+'as'+'tie'+'n.'+'ler'+'ou'+'x@i'+'pc'+'ms.'+'un'+'ist'+'ra'+'.fr'; return false;">sebas<span class="obfuscator">.nosp@m.</span>tien<span class="obfuscator">.nosp@m.</span>.lero<span class="obfuscator">.nosp@m.</span>ux@i<span class="obfuscator">.nosp@m.</span>pcms.<span class="obfuscator">.nosp@m.</span>unis<span class="obfuscator">.nosp@m.</span>tra.f<span class="obfuscator">.nosp@m.</span>r</a> </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="../../dd/d0b/atom__insert_8c_source.html">atom_insert.c</a>.</p>
@@ -162,12 +162,12 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>add object <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> list to overall <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> list </p>
+<p>add object bond(s) list to overall bond(s) list </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">new_bond_list</td><td>the bond list in the model </td></tr>
     <tr><td class="paramname">nat</td><td>the number of <a class="el" href="../../d2/d49/global_8h.html#a0c5c7091b1d8a95d9bee2744d713f5c9" title="The data structure for an atom.">atom(s)</a> in the model </td></tr>
-    <tr><td class="paramname">nbd</td><td>the number of <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> in the model </td></tr>
+    <tr><td class="paramname">nbd</td><td>the number of bond(s) in the model </td></tr>
     <tr><td class="paramname">object</td><td>the target insert object </td></tr>
   </table>
   </dd>
@@ -211,7 +211,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">this_proj</td><td>the target project </td></tr>
     <tr><td class="paramname">removed</td><td>the number of <a class="el" href="../../d2/d49/global_8h.html#a0c5c7091b1d8a95d9bee2744d713f5c9" title="The data structure for an atom.">atom(s)</a> removed </td></tr>
-    <tr><td class="paramname">nbd</td><td>the number of <a class="el" href="../../d6/d7c/structbond.html">bond(s)</a> to add </td></tr>
+    <tr><td class="paramname">nbd</td><td>the number of bond(s) to add </td></tr>
     <tr><td class="paramname">new_bond_list</td><td>the bond list to add </td></tr>
   </table>
   </dd>

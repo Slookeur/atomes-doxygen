@@ -19,8 +19,8 @@ var read__coord_8c =
     [ "coord_line", "d5/d22/read__coord_8c.html#a4524a4d277c79693a25be0b44cc6d7a7", null ],
     [ "coordf", "d5/d22/read__coord_8c.html#a237e3c985ce058e5d911fe3e9e32ecbd", null ],
     [ "dfi", "d5/d22/read__coord_8c.html#acf577d21e9b78af5cf7434675e3b0309", null ],
-    [ "head", "d5/d22/read__coord_8c.html#a06da91aecf7a73c177c96866f800d32a", null ],
-    [ "tail", "d5/d22/read__coord_8c.html#ae3d16add8dfa759f3d83f6dd7d920f6e", null ],
+    [ "head", "d5/d22/read__coord_8c.html#a3c5d6e989a9c5ffe54196c4b021b3eaa", null ],
+    [ "tail", "d5/d22/read__coord_8c.html#a5d03171c037196a6a7365fa12f4b5ae4", null ],
     [ "this_line", "d5/d22/read__coord_8c.html#aba63bc5d5f251d44b297c9e5879fb0b8", null ],
     [ "this_reader", "d5/d22/read__coord_8c.html#a4daea781a8068c4715acddbdb243ffa2", null ],
     [ "this_word", "d5/d22/read__coord_8c.html#a7043d137994d002afff5f4eed4d38c1a", null ]

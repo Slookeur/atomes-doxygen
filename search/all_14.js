@@ -73,7 +73,7 @@ var searchData=
   ['update_5fmat_5fparam_70',['update_mat_param',['../d8/db9/w__advance_8c.html#a7baf066560ff35db152d214d83501709',1,'w_advance.c']]],
   ['update_5fmenus_71',['update_menus',['../d7/dc8/glwindow_8c.html#a59b23bd358751fc980e0fa6f70383171',1,'glwindow.c']]],
   ['update_5fmodel_72',['update_model',['../dc/d79/dlp__ff__match_8c.html#a580c2ba7ef741de91add11ba124e8df2',1,'dlp_ff_match.c']]],
-  ['update_5fmol_5fdetails_73',['update_mol_details',['../d2/def/initmol_8c.html#aa5805659b33c533a7c51ce2ef3b1066b',1,'initmol.c']]],
+  ['update_5fmol_5fdetails_73',['update_mol_details',['../d2/def/initmol_8c.html#a6ba06a0972c7716e1ddd2d794040ce90',1,'initmol.c']]],
   ['update_5fmol_5ftree_74',['update_mol_tree',['../d1/d1d/dlp__viz_8c.html#a756f9652cff35f44ebd6b46fc36df977',1,'dlp_viz.c']]],
   ['update_5fmsd_5fview_75',['update_msd_view',['../d8/d2b/msdcall_8c.html#ac804878efda174843ef44e26c0a07499',1,'update_msd_view(project *this_proj):&#160;msdcall.c'],['../d6/df5/workinfo_8c.html#ac804878efda174843ef44e26c0a07499',1,'update_msd_view(project *this_proj):&#160;msdcall.c']]],
   ['update_5fp_2ec_76',['update_p.c',['../db/d3e/update__p_8c.html',1,'']]],

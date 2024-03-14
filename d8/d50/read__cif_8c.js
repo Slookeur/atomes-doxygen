@@ -12,6 +12,7 @@ var read__cif_8c =
     [ "cif_get_symmetry_positions", "d8/d50/read__cif_8c.html#a2954b447d03bab82ce96ceec6c1f4106", null ],
     [ "cif_get_value", "d8/d50/read__cif_8c.html#a9e43d31577e690b2f2c3e46d7ed0f52f", null ],
     [ "compute_lattice_properties", "d8/d50/read__cif_8c.html#ac4381a5de567b9ad03e8afddb836807d", null ],
+    [ "distance_3d", "d8/d50/read__cif_8c.html#afd8a7c5f9ed16c77e8443f901ae623c8", null ],
     [ "duplicate_space_group", "d8/d50/read__cif_8c.html#a6dd48d32cffd10bf9967f089590ceeb9", null ],
     [ "file_get_to_line", "d8/d50/read__cif_8c.html#a1d425aecc6dbd63b8f2ddce477acad85", null ],
     [ "get_atom_coord", "d8/d50/read__cif_8c.html#a933250802b74cc0c9f8f31af47d0d73c", null ],

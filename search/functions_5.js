@@ -96,7 +96,7 @@ var searchData=
   ['free_5fdata_93',['free_data',['../dd/d49/callbacks_8h.html#ab340ce24b1c9d2b26ab2b46a7a64c346',1,'callbacks.h']]],
   ['free_5fdummies_94',['free_dummies',['../d8/d15/atom__action_8c.html#a431757e993718a9b7fa44d32b70b954b',1,'atom_action.c']]],
   ['free_5fglwin_5fspec_5fdata_95',['free_glwin_spec_data',['../d5/d9c/atom__edit_8h.html#a70531e3e4ac51fe7c624f7156f109912',1,'free_glwin_spec_data(project *this_proj, int spec):&#160;glview.c'],['../dc/d21/glview_8c.html#a70531e3e4ac51fe7c624f7156f109912',1,'free_glwin_spec_data(project *this_proj, int spec):&#160;glview.c']]],
-  ['free_5fsearch_5fmolecule_5fdata_96',['free_search_molecule_data',['../d2/def/initmol_8c.html#ae66911d69bc918c6f5d0ad0331d01f49',1,'initmol.c']]],
+  ['free_5fsearch_5fmolecule_5fdata_96',['free_search_molecule_data',['../d2/def/initmol_8c.html#a5e3609c8329246b3555f01ac034ffa6d',1,'initmol.c']]],
   ['free_5fthis_5fsearch_5fdata_97',['free_this_search_data',['../dc/de3/glview_8h.html#a0c050ed495ce1dee106a6a7fac570e8d',1,'free_this_search_data(atom_search *this_search):&#160;popup.c'],['../d5/da4/popup_8c.html#a0c050ed495ce1dee106a6a7fac570e8d',1,'free_this_search_data(atom_search *this_search):&#160;popup.c']]],
   ['fzbt_98',['fzbt',['../d5/d45/fzbt_8_f90.html#aa5e31ba3427df512f5808e9a05af2b62',1,'fzbt.F90']]]
 ];

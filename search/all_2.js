@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['c_0',['c',['../d5/d8f/structimp__inv.html#a4e1e0e72dd773439e333c84dd762a9c3',1,'imp_inv::c'],['../d1/d5a/structangl.html#a4e1e0e72dd773439e333c84dd762a9c3',1,'angl::c'],['../df/d46/structtint.html#a4e1e0e72dd773439e333c84dd762a9c3',1,'tint::c'],['../d0/da3/structqint.html#a4e1e0e72dd773439e333c84dd762a9c3',1,'qint::c'],['../df/df7/tab-1_8c.html#a4e1e0e72dd773439e333c84dd762a9c3',1,'c:&#160;tab-1.c'],['../de/d1f/tab-2_8c.html#a4e1e0e72dd773439e333c84dd762a9c3',1,'c:&#160;tab-2.c'],['../d1/d6f/tab-3_8c.html#a4e1e0e72dd773439e333c84dd762a9c3',1,'c:&#160;tab-3.c'],['../d8/d62/tab-4_8c.html#a4e1e0e72dd773439e333c84dd762a9c3',1,'c:&#160;tab-4.c'],['../da/d34/namespacemendeleiev.html#a3732bc6708978cb104e920f1c3a147e3',1,'mendeleiev::c']]],
+  ['c_0',['c',['../d5/d8f/structimp__inv.html#a4e1e0e72dd773439e333c84dd762a9c3',1,'imp_inv::c'],['../d7/d46/structf__angl.html#a4e1e0e72dd773439e333c84dd762a9c3',1,'f_angl::c'],['../df/d46/structtint.html#a4e1e0e72dd773439e333c84dd762a9c3',1,'tint::c'],['../d0/da3/structqint.html#a4e1e0e72dd773439e333c84dd762a9c3',1,'qint::c'],['../df/df7/tab-1_8c.html#a4e1e0e72dd773439e333c84dd762a9c3',1,'c:&#160;tab-1.c'],['../de/d1f/tab-2_8c.html#a4e1e0e72dd773439e333c84dd762a9c3',1,'c:&#160;tab-2.c'],['../d1/d6f/tab-3_8c.html#a4e1e0e72dd773439e333c84dd762a9c3',1,'c:&#160;tab-3.c'],['../d8/d62/tab-4_8c.html#a4e1e0e72dd773439e333c84dd762a9c3',1,'c:&#160;tab-4.c'],['../da/d34/namespacemendeleiev.html#a3732bc6708978cb104e920f1c3a147e3',1,'mendeleiev::c']]],
   ['c3d_2ef90_1',['c3d.F90',['../dc/dfb/c3d_8_f90.html',1,'']]],
   ['c3d_5fget_5fatom_5fcoordinates_2',['c3d_get_atom_coordinates',['../da/d70/read__c3d_8c.html#a5311dc4079439a68a46e593fbe6d4cf4',1,'read_c3d.c']]],
   ['c_5fangle_3',['c_angle',['../de/d68/structimage.html#abf78475b1f1209e72757ebfd2f23d035',1,'image']]],
@@ -88,7 +88,7 @@ var searchData=
   ['cell_5fedit_2eh_85',['cell_edit.h',['../d9/d97/cell__edit_8h.html',1,'']]],
   ['cell_5fedition_86',['cell_edition',['../d4/d03/structcell__edition.html',1,'cell_edition'],['../da/d7e/glwin_8h.html#a4152eb98eb13e9f07223c6cacf950d7d',1,'cell_edition:&#160;glwin.h']]],
   ['cell_5fextra_2ec_87',['cell_extra.c',['../d1/d9f/cell__extra_8c.html',1,'']]],
-  ['cell_5ffile_88',['cell_file',['../d4/d9d/structcell__file.html',1,'']]],
+  ['cell_5ffile_88',['cell_file',['../d4/d9d/structcell__file.html',1,'cell_file'],['../d1/da7/read__npt_8c.html#a8662755353f7c0cb20502c2d836e6257',1,'cell_file:&#160;read_npt.c']]],
   ['cell_5fget_5flattice_89',['cell_get_lattice',['../d1/da7/read__npt_8c.html#a493e876e9750b470598d880b80b23454',1,'read_npt.c']]],
   ['cell_5fgl_90',['cell_gl',['../dc/de3/glview_8h.html#aefabd6c3909281f7275f6b937a5ef82d',1,'cell_gl:&#160;ogl_draw.c'],['../d2/db3/ogl__draw_8c.html#aefabd6c3909281f7275f6b937a5ef82d',1,'cell_gl:&#160;ogl_draw.c']]],
   ['cell_5finfo_91',['cell_info',['../de/df1/structcell__info.html',1,'cell_info'],['../da/d7e/glwin_8h.html#a5f8e083788d613de0a79eba7c631ccd5',1,'cell_info:&#160;glwin.h']]],
@@ -790,7 +790,7 @@ var searchData=
   ['cross_5fhbox_787',['cross_hbox',['../d4/d28/dlp__edit_8c.html#ac16f632dd1dd735deb296ec9430558f0',1,'dlp_edit.c']]],
   ['cross_5fvbox_788',['cross_vbox',['../d4/d28/dlp__edit_8c.html#aeea7991663a7d9b36b2b3c9635d84caa',1,'dlp_edit.c']]],
   ['crystal_789',['crystal',['../de/df1/structcell__info.html#a2eca140993924ee110d63aea5306cfa8',1,'cell_info']]],
-  ['crystal_5fdata_790',['crystal_data',['../d8/d1b/structcrystal__data.html',1,'']]],
+  ['crystal_5fdata_790',['crystal_data',['../d8/d1b/structcrystal__data.html',1,'crystal_data'],['../d0/dd3/cbuild__action_8c.html#a45d44bae5863ddfd3a57d4efbb47e981',1,'crystal_data:&#160;cbuild_action.c']]],
   ['crystal_5fsytems_791',['crystal_sytems',['../db/d0b/cbuild__edit_8c.html#af66bbd0902f726e7283645c6c67bd052',1,'cbuild_edit.c']]],
   ['crystal_5fwindow_792',['crystal_window',['../db/d0b/cbuild__edit_8c.html#ac21f3284fd1eb8725cf7870f9faaa99b',1,'crystal_window(GtkWidget *widg, gpointer data):&#160;cbuild_edit.c'],['../db/d42/m__edit_8c.html#ac21f3284fd1eb8725cf7870f9faaa99b',1,'crystal_window(GtkWidget *widg, gpointer data):&#160;cbuild_edit.c']]],
   ['cs_5fcombo_793',['cs_combo',['../dd/df5/structbuilder__edition.html#a56825421f3e1bcfd5092721e28207275',1,'builder_edition']]],

@@ -9,10 +9,10 @@ var structsearch__molecule =
     [ "nangles", "d0/dae/structsearch__molecule.html#a029bb1f3f7ade67e68a9c6fd0c23865d", null ],
     [ "natoms", "d0/dae/structsearch__molecule.html#a2093ca3426a8f98873fe165a55bfa2b1", null ],
     [ "nbonds", "d0/dae/structsearch__molecule.html#af6bb8ac937474b4968452b054211f19c", null ],
-    [ "next", "d0/dae/structsearch__molecule.html#a9bd566c4a5d7f28fff445ff7fac0c7d3", null ],
+    [ "next", "d0/dae/structsearch__molecule.html#a838042863e04c1aa712ac0c1b31df440", null ],
     [ "nspec", "d0/dae/structsearch__molecule.html#af5f831515b9c21d49ec47e94f0b59fbf", null ],
     [ "pangles", "d0/dae/structsearch__molecule.html#a350a3e7f5e77a1426526561e03af8400", null ],
     [ "pbonds", "d0/dae/structsearch__molecule.html#a15f7dc86ccea60101c9be47f2501c790", null ],
-    [ "prev", "d0/dae/structsearch__molecule.html#aaf3e1d1727467f237f35fba0799abaa5", null ],
+    [ "prev", "d0/dae/structsearch__molecule.html#a4659562d3c85ec2d268a3f811fe7c4a4", null ],
     [ "species", "d0/dae/structsearch__molecule.html#aed00d396d38c68290686fb4f53f8b7a2", null ]
 ];

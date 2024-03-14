@@ -1,6 +1,7 @@
 var dlp__print_8c =
 [
     [ "imp_inv", "d5/d8f/structimp__inv.html", "d5/d8f/structimp__inv" ],
+    [ "imp_inv", "d2/dc7/dlp__print_8c.html#a13729aef4916dbf2b9186575b6534fda", null ],
     [ "get_body_element_name", "d2/dc7/dlp__print_8c.html#af91eb10763bf10c94a3064ecd691da3f", null ],
     [ "get_num_struct_to_print", "d2/dc7/dlp__print_8c.html#ab634b4a91950f530a497c36aa83b44c3", null ],
     [ "get_num_vdw_max", "d2/dc7/dlp__print_8c.html#a865170e3323d05ff18a4e29451db1a9f", null ],
@@ -37,7 +38,7 @@ var dlp__print_8c =
     [ "print_int", "d2/dc7/dlp__print_8c.html#ae21b5e17b22e891797974c25a2e00a26", null ],
     [ "print_sci", "d2/dc7/dlp__print_8c.html#a214454f6559c4a00e32960aae920459b", null ],
     [ "print_string", "d2/dc7/dlp__print_8c.html#acd36b6e7a47ae8b0b74bdd05014fdc99", null ],
-    [ "print_this_imp_inv", "d2/dc7/dlp__print_8c.html#a8b46e0b033e396ef1c9ed9539492854f", null ],
+    [ "print_this_imp_inv", "d2/dc7/dlp__print_8c.html#a11568b250007758ab2fc4fb68c1c592d", null ],
     [ "area_keyw", "d2/dc7/dlp__print_8c.html#ab41efded252f344d57ff19b0131f5186", null ],
     [ "elec_key", "d2/dc7/dlp__print_8c.html#af6205c40a3320dd41e2d9a75de2c82cb", null ],
     [ "ens_keyw", "d2/dc7/dlp__print_8c.html#a3bdc0dd7b57b9dc96264a1a00c257a7c", null ],

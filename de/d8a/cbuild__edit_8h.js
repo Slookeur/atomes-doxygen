@@ -14,7 +14,6 @@ var cbuild__edit_8h =
     [ "glwin_init_spec_data", "de/d8a/cbuild__edit_8h.html#a7967c0223604f313220ce10b43294d51", null ],
     [ "image_init_spec_data", "de/d8a/cbuild__edit_8h.html#af1fc97c3bff8c12176aed8f981b049e7", null ],
     [ "insert_this_project_from_lib", "de/d8a/cbuild__edit_8h.html#ac774a700f2c0509f2f624f51e7543621", null ],
-    [ "pos_not_saved", "de/d8a/cbuild__edit_8h.html#ab9e90b9b0a17e3b6142178c9755f262c", null ],
     [ "prepare_atom_edition", "de/d8a/cbuild__edit_8h.html#a3fc013e52291ce434b9eff8515482dc7", null ],
     [ "prepare_opengl_menu_bar", "de/d8a/cbuild__edit_8h.html#a8e146a5e92686863af05e1197a97e917", null ],
     [ "read_sg_xml_file", "de/d8a/cbuild__edit_8h.html#afc963d07140600f49567fa441e3dc93f", null ],

@@ -8,7 +8,7 @@ var searchData=
   ['hbox_5',['hbox',['../d3/da6/workspace_8c.html#a1eed6d0ed7438018e0d938fce66d265d',1,'workspace.c']]],
   ['hboxv_6',['hboxv',['../dd/dca/structvolumes.html#a471630e094e0fd53c3fcdbfcc26cd205',1,'volumes']]],
   ['hbvol_7',['hbvol',['../dd/dca/structvolumes.html#a1e34459674665f2a4418db24a7da5d12',1,'volumes']]],
-  ['head_8',['head',['../d5/d22/read__coord_8c.html#a06da91aecf7a73c177c96866f800d32a',1,'head:&#160;read_coord.c'],['../d1/dfb/readers_8h.html#a06da91aecf7a73c177c96866f800d32a',1,'head:&#160;read_coord.c']]],
+  ['head_8',['head',['../d5/d22/read__coord_8c.html#a3c5d6e989a9c5ffe54196c4b021b3eaa',1,'head:&#160;read_coord.c'],['../d1/dfb/readers_8h.html#a3c5d6e989a9c5ffe54196c4b021b3eaa',1,'head:&#160;read_coord.c']]],
   ['hist_5fbox_9',['Hist_box',['../d3/d0c/cedit_8c.html#afc8aefde5bb13bc704de20658dac9082',1,'Hist_box:&#160;tab-2.c'],['../de/d1f/tab-2_8c.html#afc8aefde5bb13bc704de20658dac9082',1,'Hist_box:&#160;tab-2.c']]],
   ['hms_10',['hms',['../de/df2/structspace__group.html#ab408fa1f7f24f70b83de9c66b6e8a6d1',1,'space_group']]],
   ['hmsymbols_11',['hmsymbols',['../de/d8a/cbuild__edit_8h.html#abc7621b816798241603520506a5a63fe',1,'hmsymbols:&#160;cbuild_sg.c'],['../d3/ddb/cbuild__sg_8c.html#abc7621b816798241603520506a5a63fe',1,'hmsymbols:&#160;cbuild_sg.c']]],

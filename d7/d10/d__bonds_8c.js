@@ -1,6 +1,5 @@
 var d__bonds_8c =
 [
-    [ "bond_rotation", "da/d76/structbond__rotation.html", "da/d76/structbond__rotation" ],
     [ "cap_indices", "d7/d10/d__bonds_8c.html#adeda1f1323746927f7be372adad239ef", null ],
     [ "cap_vertices", "d7/d10/d__bonds_8c.html#a5f2d3eb3bac8ddd4601f7e24a4cf4a35", null ],
     [ "create_bond_lists", "d7/d10/d__bonds_8c.html#a219c16e63b40abb4a7210c328a824798", null ],
