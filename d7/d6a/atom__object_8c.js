@@ -24,5 +24,6 @@ var atom__object_8c =
     [ "to_insert_in_project", "d7/d6a/atom__object_8c.html#ac7d6e87265de8c53f30695bca36b3bd3", null ],
     [ "ulam_coord", "d7/d6a/atom__object_8c.html#a8064c5716083bfc04e5e443afe71c8b9", null ],
     [ "being_copied", "d7/d6a/atom__object_8c.html#ae0c907dab489bc3021223fcbf1a91ac4", null ],
+    [ "cif_object", "d7/d6a/atom__object_8c.html#af82f06d60335ce2ea27f0a22ef01c35a", null ],
     [ "lib_object", "d7/d6a/atom__object_8c.html#a0acd5984404140be2da4af2a55c7dcc9", null ]
 ];

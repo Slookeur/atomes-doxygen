@@ -19,5 +19,6 @@ var cbuild__action_8c =
     [ "pos_not_taken", "d0/dd3/cbuild__action_8c.html#a04293192e490b33eee3b429fb285c069", null ],
     [ "same_coords", "d0/dd3/cbuild__action_8c.html#af3928e5926e943bb8d42de4e82d30300", null ],
     [ "test_lattice", "d0/dd3/cbuild__action_8c.html#ad6edc8c16ec43cc3479bab7d7a7922e2", null ],
+    [ "cif_object", "d0/dd3/cbuild__action_8c.html#af82f06d60335ce2ea27f0a22ef01c35a", null ],
     [ "tmp_pos", "d0/dd3/cbuild__action_8c.html#a8d4f018ca3edce323247ec0e039737b7", null ]
 ];

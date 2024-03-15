@@ -16,6 +16,8 @@ var read__coord_8c =
     [ "open_xyz_file", "d5/d22/read__coord_8c.html#ae730de1adb53fc8963cded208d01dd5b", null ],
     [ "reader_info", "d5/d22/read__coord_8c.html#a55aa5f0b20402200b4868ce708f3a5a3", null ],
     [ "set_v_dummy", "d5/d22/read__coord_8c.html#ad762777a8dc7c3b0dd51e0efffc387ae", null ],
+    [ "cif_object", "d5/d22/read__coord_8c.html#af82f06d60335ce2ea27f0a22ef01c35a", null ],
+    [ "cif_search", "d5/d22/read__coord_8c.html#adb81aec86c1b42950be0f44b4cc80768", null ],
     [ "coord_line", "d5/d22/read__coord_8c.html#a4524a4d277c79693a25be0b44cc6d7a7", null ],
     [ "coordf", "d5/d22/read__coord_8c.html#a237e3c985ce058e5d911fe3e9e32ecbd", null ],
     [ "dfi", "d5/d22/read__coord_8c.html#acf577d21e9b78af5cf7434675e3b0309", null ],
