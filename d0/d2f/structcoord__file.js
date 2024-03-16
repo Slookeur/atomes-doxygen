@@ -1,5 +1,6 @@
 var structcoord__file =
 [
+    [ "atom_unlabelled", "d0/d2f/structcoord__file.html#a16e695e48dde16aebaecb8b0419fe0d7", null ],
     [ "cartesian", "d0/d2f/structcoord__file.html#a416f186069830cd906d9f7a91126910e", null ],
     [ "coord", "d0/d2f/structcoord__file.html#a128e131f9cb5692e6b851563421d3953", null ],
     [ "dummy", "d0/d2f/structcoord__file.html#a977102a9a0775f181053bb10731b5dc6", null ],
@@ -8,21 +9,21 @@ var structcoord__file =
     [ "lattice", "d0/d2f/structcoord__file.html#a2a3dd68a435a9a85da05a96e6671e23e", null ],
     [ "lot", "d0/d2f/structcoord__file.html#aebb8ed79400ae9c837f2e37029481957", null ],
     [ "mid", "d0/d2f/structcoord__file.html#a50cb91e41ad7e1631895177b9ce32457", null ],
-    [ "mislab", "d0/d2f/structcoord__file.html#aeae7dc15793de6251a5d40aa368ef24f", null ],
     [ "multi", "d0/d2f/structcoord__file.html#abc3b2e94abac2522df83ae1f37288b2d", null ],
     [ "natomes", "d0/d2f/structcoord__file.html#a1123db0395a8a91840ac6fc353b15e48", null ],
     [ "ndummy", "d0/d2f/structcoord__file.html#a16b1daa878106b1e311256c1d04068d3", null ],
     [ "nspec", "d0/d2f/structcoord__file.html#af5f831515b9c21d49ec47e94f0b59fbf", null ],
     [ "nsps", "d0/d2f/structcoord__file.html#a07458cf3d8948d40ee2cccc20edab12a", null ],
     [ "num_sym_pos", "d0/d2f/structcoord__file.html#a94fb537558e6fd70587987fb3baaeeb7", null ],
+    [ "object_list", "d0/d2f/structcoord__file.html#a1f371aa2bb0b0c416f32bdc157e4a260", null ],
+    [ "object_to_insert", "d0/d2f/structcoord__file.html#a2851f4e698130bacb2f46c1d0be485f6", null ],
     [ "occupancy", "d0/d2f/structcoord__file.html#abc05e2fac6afd4765a839ff160cd259d", null ],
     [ "occupied", "d0/d2f/structcoord__file.html#a2b6661894139879ac851db051f2867b7", null ],
     [ "setting", "d0/d2f/structcoord__file.html#a75ed80f61418d86962fe9566853690ca", null ],
     [ "steps", "d0/d2f/structcoord__file.html#ab4ae7205573977222eadd0795db193e2", null ],
-    [ "stolab", "d0/d2f/structcoord__file.html#ab6f49b868327ee26198d45889fdf776b", null ],
     [ "sym_pos", "d0/d2f/structcoord__file.html#a2d99df2b243836e7507d6d9dea5a194d", null ],
-    [ "tolab", "d0/d2f/structcoord__file.html#a2f8480ad4fbdd96ecbc41c6a08550670", null ],
     [ "traj", "d0/d2f/structcoord__file.html#ad4548fa3ccbff17aba6e59ae18eb4e34", null ],
+    [ "u_atom_list", "d0/d2f/structcoord__file.html#a928cab240214b61b67035d154432de89", null ],
     [ "wyckoff", "d0/d2f/structcoord__file.html#a7c38061431b148c1f5b9cca64fefada8", null ],
     [ "z", "d0/d2f/structcoord__file.html#ab8411cfcac6e2dffd09b5098a04907e5", null ]
 ];

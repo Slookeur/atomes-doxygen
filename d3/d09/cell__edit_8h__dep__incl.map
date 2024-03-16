@@ -1,21 +1,21 @@
 <map id="opengl/edit/cell_edit.h" name="opengl/edit/cell_edit.h">
-<area shape="rect" id="Node000001" title="Function declarations for the cell edition window." alt="" coords="678,5,826,31"/>
-<area shape="rect" id="Node000002" href="$d3/d3a/callbacks_8c.html" title="General callbacks &#160;&#160;Functions to open and close files." alt="" coords="5,79,115,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="663,28,421,49,127,81,116,83,115,78,126,76,420,44,662,23"/>
-<area shape="rect" id="Node000003" href="$d2/d17/cell__cut_8c.html" title="Functions to create the &#39;slab cutting&#39; tab of the cell edition window." alt="" coords="139,79,285,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="663,34,298,81,285,83,285,78,297,76,662,28"/>
-<area shape="rect" id="Node000004" href="$d9/d1a/cell__density_8c.html" title="Functions to create the &#39;density adjustment&#39; tab in the cell edition window." alt="" coords="309,79,477,104"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="677,37,454,81,453,75,676,32"/>
-<area shape="rect" id="Node000005" href="$d3/d1b/cell__edit_8c.html" title="Functions to create the cell edition window." alt="" coords="502,79,650,104"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="709,39,606,81,604,76,707,34"/>
-<area shape="rect" id="Node000006" href="$d1/d9f/cell__extra_8c.html" title="Functions to create the &#39;add cell(s)&#39; tab in the cell edition window." alt="" coords="674,79,830,104"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="755,46,755,78,749,78,749,46"/>
-<area shape="rect" id="Node000007" href="$d1/d4a/cell__shift_8c.html" title="Functions to create the &#39;shift cell center&#39; tab for the cell edition window." alt="" coords="855,79,1007,104"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="797,34,902,76,900,81,795,39"/>
-<area shape="rect" id="Node000008" href="$d8/d1c/cell__super_8c.html" title="Functions to create a super&#45;cell using the extra cell(s)" alt="" coords="1031,79,1190,104"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="828,32,1051,75,1050,81,827,37"/>
-<area shape="rect" id="Node000009" href="$db/d42/m__edit_8c.html" title="Functions to create the &#39;Tools &#45;&gt; Edit&#39; submenu." alt="" coords="1215,79,1353,104"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="842,28,1203,76,1215,78,1214,83,1202,81,841,34"/>
-<area shape="rect" id="Node000010" href="$d3/d51/m__tools_8c.html" title="Functions to create the &#39;Tools&#39; submenu." alt="" coords="1378,79,1523,104"/>
-<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="842,24,1079,46,1366,76,1378,77,1377,83,1365,81,1078,51,841,30"/>
+<area shape="rect" id="Node000001" title="Function declarations for the cell edition window." alt="" coords="736,5,903,31"/>
+<area shape="rect" id="Node000002" href="$d3/d3a/callbacks_8c.html" title="General callbacks &#160;&#160;Functions to open and close files." alt="" coords="5,79,124,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="722,28,457,48,136,81,125,83,124,77,135,76,457,43,722,23"/>
+<area shape="rect" id="Node000003" href="$d2/d17/cell__cut_8c.html" title="Functions to create the &#39;slab cutting&#39; tab of the cell edition window." alt="" coords="147,79,307,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="722,33,320,81,308,83,307,77,319,76,722,28"/>
+<area shape="rect" id="Node000004" href="$d9/d1a/cell__density_8c.html" title="Functions to create the &#39;density adjustment&#39; tab in the cell edition window." alt="" coords="331,79,518,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="743,36,489,81,488,76,742,30"/>
+<area shape="rect" id="Node000005" href="$d3/d1b/cell__edit_8c.html" title="Functions to create the cell edition window." alt="" coords="542,79,707,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="776,38,657,81,656,76,775,33"/>
+<area shape="rect" id="Node000006" href="$d1/d9f/cell__extra_8c.html" title="Functions to create the &#39;add cell(s)&#39; tab in the cell edition window." alt="" coords="732,79,907,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="822,44,822,79,817,79,817,44"/>
+<area shape="rect" id="Node000007" href="$d1/d4a/cell__shift_8c.html" title="Functions to create the &#39;shift cell center&#39; tab for the cell edition window." alt="" coords="931,79,1099,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="864,33,984,76,982,81,863,38"/>
+<area shape="rect" id="Node000008" href="$d8/d1c/cell__super_8c.html" title="Functions to create a super&#45;cell using the extra cell(s)" alt="" coords="1124,79,1299,104"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="896,30,1148,76,1147,81,895,36"/>
+<area shape="rect" id="Node000009" href="$db/d42/m__edit_8c.html" title="Functions to create the &#39;Tools &#45;&gt; Edit&#39; submenu." alt="" coords="1323,79,1476,104"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="917,28,1312,76,1323,77,1322,83,1311,81,916,33"/>
+<area shape="rect" id="Node000010" href="$d3/d51/m__tools_8c.html" title="Functions to create the &#39;Tools&#39; submenu." alt="" coords="1501,79,1661,104"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="917,24,1175,46,1489,76,1501,77,1500,83,1488,81,1175,51,916,30"/>
 </map>

@@ -1,15 +1,15 @@
 <map id="calc/cpmd/cpmd.h" name="calc/cpmd/cpmd.h">
-<area shape="rect" id="Node000001" title="Variable declarations for the creation of the CPMD input file." alt="" coords="473,5,603,31"/>
-<area shape="rect" id="Node000002" href="$de/d92/cp2k__init_8c.html" title="Initialization of the CP2K input assistant." alt="" coords="5,79,151,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="458,34,151,81,151,76,458,29"/>
-<area shape="rect" id="Node000003" href="$d6/d03/cpmd__atoms_8c.html" title="Functions to handle dummy atom(s) for the CPMD input file." alt="" coords="175,79,347,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="477,38,308,81,307,75,476,32"/>
-<area shape="rect" id="Node000004" href="$dd/dc0/cpmd__init_8c.html" title="Functions to initialize the QM / QM&#45;MM input file creation assistant." alt="" coords="371,79,524,104"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="513,43,464,80,461,76,509,38"/>
-<area shape="rect" id="Node000005" href="$d6/dc0/cpmd__nose_8c.html" title="Functions to prepare the thermostat(s) configuration widgets for QM / QM&#45;MM input files." alt="" coords="548,79,712,104"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="567,38,616,76,613,80,564,43"/>
-<area shape="rect" id="Node000006" href="$d1/dcc/cpmd__print_8c.html" title="Functions to print the CPMD input file(s)" alt="" coords="736,79,897,104"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="600,32,770,75,769,81,599,38"/>
-<area shape="rect" id="Node000007" href="$db/d6f/cpmd__restart_8c.html" title="Functions to configure the restart section for the CPMD input file creation assistant." alt="" coords="922,79,1095,104"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="618,29,929,75,929,81,618,34"/>
+<area shape="rect" id="Node000001" title="Variable declarations for the creation of the CPMD input file." alt="" coords="509,5,649,31"/>
+<area shape="rect" id="Node000002" href="$de/d92/cp2k__init_8c.html" title="Initialization of the CP2K input assistant." alt="" coords="5,79,163,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="495,34,163,81,162,76,495,29"/>
+<area shape="rect" id="Node000003" href="$d6/d03/cpmd__atoms_8c.html" title="Functions to handle dummy atom(s) for the CPMD input file." alt="" coords="187,79,373,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="518,36,329,81,328,76,517,31"/>
+<area shape="rect" id="Node000004" href="$dd/dc0/cpmd__init_8c.html" title="Functions to initialize the QM / QM&#45;MM input file creation assistant." alt="" coords="398,79,565,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="553,41,499,81,496,76,550,37"/>
+<area shape="rect" id="Node000005" href="$d6/dc0/cpmd__nose_8c.html" title="Functions to prepare the thermostat(s) configuration widgets for QM / QM&#45;MM input files." alt="" coords="589,79,766,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="607,36,663,76,660,81,604,41"/>
+<area shape="rect" id="Node000006" href="$d1/dcc/cpmd__print_8c.html" title="Functions to print the CPMD input file(s)" alt="" coords="791,79,967,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="640,31,831,76,829,81,639,36"/>
+<area shape="rect" id="Node000007" href="$db/d6f/cpmd__restart_8c.html" title="Functions to configure the restart section for the CPMD input file creation assistant." alt="" coords="991,79,1180,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="663,28,1004,76,1003,81,662,34"/>
 </map>
