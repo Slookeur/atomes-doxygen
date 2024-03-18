@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['gdk_5fsynchronize_0',['GDK_SYNCHRONIZE',['../d2/d49/global_8h.html#a57d9c5526c427e26dd46f88952ed3482',1,'global.h']]],
+  ['gettext_5fpackage_1',['GETTEXT_PACKAGE',['../db/d16/config_8h.html#ab23870bd5469d09c183b5a4e89efd81d',1,'config.h']]],
+  ['gk_2',['GK',['../d2/d49/global_8h.html#ae5d179c0d82225aa12d8a8a9c8215a07',1,'global.h']]],
+  ['gl_5fclamp_5fto_5fedge_3',['GL_CLAMP_TO_EDGE',['../dc/d7f/ogl__text_8c.html#ae90f81f48642444b4ba7fa5cacf40569',1,'ogl_text.c']]],
+  ['gl_5fcolor_5fsum_5fext_4',['GL_COLOR_SUM_EXT',['../da/d7e/glwin_8h.html#ab18fd48738fff07d744dbcc6920464b4',1,'glwin.h']]],
+  ['gl_5flight_5fmodel_5fcolor_5fcontrol_5fext_5',['GL_LIGHT_MODEL_COLOR_CONTROL_EXT',['../da/d7e/glwin_8h.html#adcf51d551294f28f0355f8463bc9737f',1,'glwin.h']]],
+  ['gl_5fseparate_5fspecular_5fcolor_5fext_6',['GL_SEPARATE_SPECULAR_COLOR_EXT',['../da/d7e/glwin_8h.html#afd239a141295a983f2a440781cda4a57',1,'glwin.h']]],
+  ['gl_5ftexture_5frectangle_5farb_7',['GL_TEXTURE_RECTANGLE_ARB',['../da/d7e/glwin_8h.html#ac429f0ea5d9d2f9ea349cf825b4cb769',1,'glwin.h']]],
+  ['gl_5ftexture_5fwrap_5fr_8',['GL_TEXTURE_WRAP_R',['../dc/d7f/ogl__text_8c.html#a1b69ad7ea841f21165a25e58411b6bab',1,'ogl_text.c']]],
+  ['global_5fh_5f_9',['GLOBAL_H_',['../d2/d49/global_8h.html#a415ab36f3f781d8bf6aa8f701e412f07',1,'global.h']]],
+  ['glsl_10',['GLSL',['../df/d7f/ogl__shaders_8c.html#ac1692e92423b655db7155c4f8bb95e9f',1,'ogl_shaders.c']]],
+  ['go_5fdown_11',['GO_DOWN',['../d2/d49/global_8h.html#ab7b9bab0f79aea56af031527faa3596d',1,'global.h']]],
+  ['go_5fleft_12',['GO_LEFT',['../d2/d49/global_8h.html#a8b5521fc07bfc790dfd0d0b9f5c41448',1,'global.h']]],
+  ['go_5fright_13',['GO_RIGHT',['../d2/d49/global_8h.html#a11db633e9145688b245ae7fa0555c4bb',1,'global.h']]],
+  ['go_5fup_14',['GO_UP',['../d2/d49/global_8h.html#add1dfdba4af45991ced303142f480841',1,'global.h']]],
+  ['gr_15',['GR',['../d2/d49/global_8h.html#a656da95f9680f14093be09a52ab6752f',1,'global.h']]],
+  ['green_16',['GREEN',['../df/de9/curve_8h.html#acfbc006ea433ad708fdee3e82996e721',1,'curve.h']]],
+  ['gridsize_17',['GRIDSIZE',['../df/de9/curve_8h.html#a7222f617eac18502aba93c65f248e0b8',1,'curve.h']]]
+];
