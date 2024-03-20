@@ -48,7 +48,7 @@ var searchData=
   ['test_5frings_45',['test_rings',['../d8/d5e/calc__menu_8c.html#a6eb0d19f9045f7a69e878ba3c1fc29f8',1,'calc_menu.c']]],
   ['test_5fsph_46',['test_sph',['../d8/d5e/calc__menu_8c.html#a00d293770fe66a578a0357ce3073538f',1,'calc_menu.c']]],
   ['test_5fsq_47',['test_sq',['../d8/d5e/calc__menu_8c.html#a72a039290c540b3c062ecf0bf8ff27d0',1,'calc_menu.c']]],
-  ['test_5fthis_5farg_48',['test_this_arg',['../dd/dc3/main-b_8c.html#a1bd8f60d30efaa59f7d2515378ca3567',1,'test_this_arg(gchar *arg):&#160;main-b.c'],['../d0/d29/main_8c.html#a1bd8f60d30efaa59f7d2515378ca3567',1,'test_this_arg(gchar *arg):&#160;main.c']]],
+  ['test_5fthis_5farg_48',['test_this_arg',['../d0/d29/main_8c.html#a1bd8f60d30efaa59f7d2515378ca3567',1,'main.c']]],
   ['test_5fthis_5fcoord_49',['test_this_coord',['../d9/dbe/atom__coord_8c.html#a7ca06a10ebf7c38b83a3ed97e6a79254',1,'atom_coord.c']]],
   ['test_5fthis_5ffragment_50',['test_this_fragment',['../d3/ded/atom__remove_8c.html#a94cb29fd5fb93a5c046ddbb3326a7456',1,'atom_remove.c']]],
   ['test_5fvas_51',['test_vas',['../d8/df7/vas_8_f90.html#a739ba4d360369459a7f034893f19fd17',1,'vas.F90']]],

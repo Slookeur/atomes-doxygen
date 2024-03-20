@@ -291,7 +291,7 @@ var searchData=
   ['answer_288',['answer',['../dd/dda/interface_8c.html#aca17bae15b915803f3f5748b5e3b30af',1,'interface.c']]],
   ['answer_5finfo_289',['answer_info',['../dd/dda/interface_8c.html#aa0c5b821344215768ec45b1fc2dcd4eb',1,'interface.c']]],
   ['apna_290',['apna',['../d4/d52/namespaceparameters.html#adc8bfccaa8646b271db0bedc2cac3575',1,'parameters']]],
-  ['app_5fextension_291',['APP_EXTENSION',['../dd/dc3/main-b_8c.html#ad0e2d94d3beb005341de5a2b34d53143',1,'APP_EXTENSION:&#160;main-b.c'],['../d0/d29/main_8c.html#ad0e2d94d3beb005341de5a2b34d53143',1,'APP_EXTENSION:&#160;main.c']]],
+  ['app_5fextension_291',['APP_EXTENSION',['../d0/d29/main_8c.html#ad0e2d94d3beb005341de5a2b34d53143',1,'main.c']]],
   ['append_292',['append',['../de/dc7/w__search_8c.html#a4ea818e59e7c389ed4bae6aa8755c07e',1,'w_search.c']]],
   ['append_5ffield_5fitem_293',['append_field_item',['../d3/d43/dlp__field_8c.html#ae849df38265067b9e39d76787455b861',1,'dlp_field.c']]],
   ['append_5fmenu_5fitem_294',['append_menu_item',['../d2/d49/global_8h.html#adbdebb48c968014c5e61cdd2bbb6bd24',1,'append_menu_item(GMenu *menu, const gchar *label, const gchar *action, const gchar *accel, const gchar *custom, int format, const gchar *icon, gboolean check, gboolean status, gboolean radio, const gchar *rstatus):&#160;gui.c'],['../d5/d03/gui_8c.html#adbdebb48c968014c5e61cdd2bbb6bd24',1,'append_menu_item(GMenu *menu, const gchar *label, const gchar *action, const gchar *accel, const gchar *custom, int format, const gchar *icon, gboolean check, gboolean status, gboolean radio, const gchar *rstatus):&#160;gui.c']]],
