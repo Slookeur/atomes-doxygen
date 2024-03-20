@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['main_0',['main',['../d0/d29/main_8c.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main.c']]],
+  ['main_0',['main',['../dd/dc3/main-b_8c.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;main-b.c'],['../d0/d29/main_8c.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;main.c']]],
   ['markup_5faction_5frenderer_1',['markup_action_renderer',['../dc/d79/dlp__ff__match_8c.html#a3733097f9ce167c27dc372c2af9fb523',1,'markup_action_renderer(GtkCellRendererCombo *cell, GtkCellEditable *editable, gchar *path_string, gpointer data):&#160;w_search.c'],['../de/dc7/w__search_8c.html#a3733097f9ce167c27dc372c2af9fb523',1,'markup_action_renderer(GtkCellRendererCombo *cell, GtkCellEditable *editable, gchar *path_string, gpointer data):&#160;w_search.c']]],
   ['markup_5flabel_2',['markup_label',['../d2/d49/global_8h.html#a9b2395d23c2b29ac1ff330154c43447f',1,'markup_label(gchar *text, int dimx, int dimy, float ax, float ay):&#160;gtk-misc.c'],['../d8/d90/gtk-misc_8c.html#a9b2395d23c2b29ac1ff330154c43447f',1,'markup_label(gchar *text, int dimx, int dimy, float ax, float ay):&#160;gtk-misc.c']]],
   ['materials_5ftab_3',['materials_tab',['../d8/db9/w__advance_8c.html#a731c7fb131549604546b87620abe769d',1,'w_advance.c']]],

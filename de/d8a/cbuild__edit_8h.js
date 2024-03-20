@@ -1,7 +1,11 @@
 var cbuild__edit_8h =
 [
+    [ "crystal_data", "d8/d1b/structcrystal__data.html", "d8/d1b/structcrystal__data" ],
+    [ "crystal_data", "de/d8a/cbuild__edit_8h.html#a45d44bae5863ddfd3a57d4efbb47e981", null ],
+    [ "adjust_object_occupancy", "de/d8a/cbuild__edit_8h.html#a6ae934abbfa028fb8020062414729bb6", null ],
     [ "alloc_chem_data", "de/d8a/cbuild__edit_8h.html#a65f517a38665eb1a8ef5f509cb9b51a7", null ],
     [ "allocate_atom_search", "de/d8a/cbuild__edit_8h.html#a82e4861581fa24d314ea8d36ac647405", null ],
+    [ "allocate_crystal_data", "de/d8a/cbuild__edit_8h.html#ac90f0b7c280481875513e108644ece1e", null ],
     [ "allocatoms", "de/d8a/cbuild__edit_8h.html#a9029033b03552b5262301b744f6d50e5", null ],
     [ "clean_all_trees", "de/d8a/cbuild__edit_8h.html#aaaa19adc0bf96c8e94998cc428dca894", null ],
     [ "clean_xml_data", "de/d8a/cbuild__edit_8h.html#abbf2416d0df53277b48f7ea166c13495", null ],
@@ -9,6 +13,7 @@ var cbuild__edit_8h =
     [ "create_action_combo", "de/d8a/cbuild__edit_8h.html#aa42fee4bac1f34ed341d80ad7ba7aaa4", null ],
     [ "create_atoms_tree", "de/d8a/cbuild__edit_8h.html#aa77a34393ad9770ef7e0e67bf7b3073c", null ],
     [ "findnode", "de/d8a/cbuild__edit_8h.html#a161865eaabd853cea94d3b6430359da1", null ],
+    [ "free_crystal_data", "de/d8a/cbuild__edit_8h.html#ac2cf4bd35012199502433ea0bf185014", null ],
     [ "get_val_from_wyckoff", "de/d8a/cbuild__edit_8h.html#a12f4db3f6c0435da68a7a3d720959a8a", null ],
     [ "get_value_from_pos", "de/d8a/cbuild__edit_8h.html#aeeb82c028867529f9780e961a8c80f45", null ],
     [ "glwin_init_spec_data", "de/d8a/cbuild__edit_8h.html#a7967c0223604f313220ce10b43294d51", null ],

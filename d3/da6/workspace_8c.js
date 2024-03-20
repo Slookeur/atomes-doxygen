@@ -1,6 +1,5 @@
 var workspace_8c =
 [
-    [ "MOUSE_ACTIONS", "d3/da6/workspace_8c.html#a0cef67ba36a1d44c14a64fe52f10f095", null ],
     [ "activate_project", "d3/da6/workspace_8c.html#aa94ad2fba6c6dbe500f5539e9539b487", null ],
     [ "add_project", "d3/da6/workspace_8c.html#ad1516021024bab08747dbc85b527b805", null ],
     [ "add_project_to_workspace", "d3/da6/workspace_8c.html#a1b4d3bb68766d06ca78184987bb02d84", null ],
@@ -15,7 +14,7 @@ var workspace_8c =
     [ "work_menu", "d3/da6/workspace_8c.html#aa01a63b5d5d4b2a44d206c2e5b34614f", null ],
     [ "workinfo", "d3/da6/workspace_8c.html#ab472d26c2958f8fbeddb2c3237710dd4", null ],
     [ "workspace_menu", "d3/da6/workspace_8c.html#a6b64b27a8034c2130a2367e43476b4e5", null ],
-    [ "workspace_ondc", "d3/da6/workspace_8c.html#a098a75e6e7afdfbefdd320731327e70f", null ],
+    [ "workspace_ondc", "d3/da6/workspace_8c.html#af50925fc5f3a851412d17622e3025c97", null ],
     [ "workspace_set_visible", "d3/da6/workspace_8c.html#a205d54ab59c06602e9bb745cdaf5a1b9", null ],
     [ "eap", "d3/da6/workspace_8c.html#ae58ebb9a2dfba13d728d9f252413ba28", null ],
     [ "hbox", "d3/da6/workspace_8c.html#a1eed6d0ed7438018e0d938fce66d265d", null ],
@@ -30,7 +29,6 @@ var workspace_8c =
     [ "prpath", "d3/da6/workspace_8c.html#ac5600617eb56b67a1a1943d903c64073", null ],
     [ "vbox", "d3/da6/workspace_8c.html#a4135ce280f2ff654540c78e33ce96228", null ],
     [ "wchar", "d3/da6/workspace_8c.html#a12d97eeef1fced0d9ba1277f8449cc81", null ],
-    [ "window_mouse", "d3/da6/workspace_8c.html#aed33db52e08561479172f7232f404bcc", null ],
     [ "witer", "d3/da6/workspace_8c.html#ac37706b6033198ade08a6bc30ef2d3a9", null ],
     [ "work_menu_items", "d3/da6/workspace_8c.html#ac4821b9300e172db654f60f773d19e85", null ],
     [ "worklevel", "d3/da6/workspace_8c.html#a2cf27e739be445f6b13a3cce66df7e60", null ],

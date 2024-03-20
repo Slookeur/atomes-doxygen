@@ -156,18 +156,18 @@ $(function(){initNavTree('d9/d42/read__pdb_8c_source.html','../../'); initResiza
 <div class="foldopen" id="foldopen00071" data-start="{" data-end="}">
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="../../d9/d42/read__pdb_8c.html#aa1c8f8688604b3279e2ab954d2c313ef">   71</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="../../d9/d42/read__pdb_8c.html#aa1c8f8688604b3279e2ab954d2c313ef">pdb_get_atoms_data</a> (<span class="keywordtype">int</span> linec)</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>{</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <span class="keywordtype">int</span> h, i, j, k, l;</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  <span class="keyword">typedef</span> <span class="keyword">struct </span>pdb_atom pdb_atom;</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  <span class="keyword">struct </span>pdb_atom</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  {</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keywordtype">int</span> id;</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordtype">int</span> sp;</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keywordtype">double</span> nz;</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordtype">double</span> <a class="code hl_variable" href="../../d2/db3/ogl__draw_8c.html#af88b946fb90d5f08b5fb740c70e98c10">x</a>, <a class="code hl_variable" href="../../d2/db3/ogl__draw_8c.html#ab927965981178aa1fba979a37168db2a">y</a>, <a class="code hl_variable" href="../../d2/db3/ogl__draw_8c.html#ab3e6ed577a7c669c19de1f9c1b46c872">z</a>;</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    pdb_atom * prev;</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    pdb_atom * next;</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  };</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="preprocessor">#ifdef OPENMP</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <span class="keyword">typedef</span> <span class="keyword">struct </span>pdb_atom pdb_atom;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  <span class="keyword">struct </span>pdb_atom</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  {</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordtype">int</span> id;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keywordtype">int</span> sp;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordtype">double</span> nz;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keywordtype">double</span> <a class="code hl_variable" href="../../d2/db3/ogl__draw_8c.html#af88b946fb90d5f08b5fb740c70e98c10">x</a>, <a class="code hl_variable" href="../../d2/db3/ogl__draw_8c.html#ab927965981178aa1fba979a37168db2a">y</a>, <a class="code hl_variable" href="../../d2/db3/ogl__draw_8c.html#ab3e6ed577a7c669c19de1f9c1b46c872">z</a>;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    pdb_atom * prev;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    pdb_atom * next;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>  };</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="preprocessor">#ifdef OPENMP</span></div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>  <span class="keywordtype">int</span> h, i, j, k, l;</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>  <span class="keywordtype">int</span> <a class="code hl_variable" href="../../da/daf/w__encode_8c.html#a2a6c3ba8285e65eca115243c7d2ad180">res</a>;</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  <span class="keywordtype">int</span> numth = omp_get_max_threads ();</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>  pdb_atom ** first_at = g_malloc0(numth*<span class="keyword">sizeof</span>*first_at);</div>

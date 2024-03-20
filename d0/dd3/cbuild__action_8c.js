@@ -1,7 +1,5 @@
 var cbuild__action_8c =
 [
-    [ "crystal_data", "d8/d1b/structcrystal__data.html", "d8/d1b/structcrystal__data" ],
-    [ "crystal_data", "d0/dd3/cbuild__action_8c.html#a45d44bae5863ddfd3a57d4efbb47e981", null ],
     [ "adjust_object_occupancy", "d0/dd3/cbuild__action_8c.html#a6ae934abbfa028fb8020062414729bb6", null ],
     [ "allocate_crystal_data", "d0/dd3/cbuild__action_8c.html#ac90f0b7c280481875513e108644ece1e", null ],
     [ "are_equal_vectors", "d0/dd3/cbuild__action_8c.html#a8cd0361ae515e13d7d443fc817b090df", null ],

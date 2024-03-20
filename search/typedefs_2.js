@@ -12,7 +12,7 @@ var searchData=
   ['coord_5finfo_9',['coord_info',['../d2/d49/global_8h.html#a279bce0b0a43534227af8bd0beb9ca9c',1,'global.h']]],
   ['cp2k_10',['cp2k',['../d2/d49/global_8h.html#a0b719b5bc9117c6498d8dc5981a953d8',1,'global.h']]],
   ['cpmd_11',['cpmd',['../d2/d49/global_8h.html#af16487128562cb09aea9311f39621c18',1,'global.h']]],
-  ['crystal_5fdata_12',['crystal_data',['../d0/dd3/cbuild__action_8c.html#a45d44bae5863ddfd3a57d4efbb47e981',1,'cbuild_action.c']]],
+  ['crystal_5fdata_12',['crystal_data',['../de/d8a/cbuild__edit_8h.html#a45d44bae5863ddfd3a57d4efbb47e981',1,'cbuild_edit.h']]],
   ['curve_13',['Curve',['../d2/d49/global_8h.html#a5542afcc22b4bab7679270a1de8ff818',1,'global.h']]],
   ['curve_5fdash_14',['curve_dash',['../df/de9/curve_8h.html#a24b7a75e7a7a3c18820aec0606c77027',1,'curve.h']]],
   ['curveextra_15',['CurveExtra',['../d2/d49/global_8h.html#a3e4efd7fd86a13a6f6d6b6f6ff63bec5',1,'global.h']]],

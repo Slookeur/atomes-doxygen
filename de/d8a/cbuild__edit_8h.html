@@ -94,6 +94,8 @@ $(function(){initNavTree('de/d8a/cbuild__edit_8h.html','../../'); initResizable(
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">cbuild_edit.h File Reference</div></div>
@@ -121,6 +123,16 @@ $(function(){initNavTree('de/d8a/cbuild__edit_8h.html','../../'); initResizable(
 </div>
 <p><a href="../../de/d8a/cbuild__edit_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d1b/structcrystal__data.html">crystal_data</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a45d44bae5863ddfd3a57d4efbb47e981" id="r_a45d44bae5863ddfd3a57d4efbb47e981"><td class="memItemLeft" align="right" valign="top">typedef struct crystal_data&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45d44bae5863ddfd3a57d4efbb47e981">crystal_data</a></td></tr>
+<tr class="separator:a45d44bae5863ddfd3a57d4efbb47e981"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:abbf2416d0df53277b48f7ea166c13495" id="r_abbf2416d0df53277b48f7ea166c13495"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbf2416d0df53277b48f7ea166c13495">clean_xml_data</a> (xmlDoc *doc, xmlTextReaderPtr reader)</td></tr>
@@ -144,6 +156,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a12f4db3f6c0435da68a7a3d720959a8a" id="r_a12f4db3f6c0435da68a7a3d720959a8a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12f4db3f6c0435da68a7a3d720959a8a">get_val_from_wyckoff</a> (gchar *pos, gchar *wval)</td></tr>
 <tr class="memdesc:a12f4db3f6c0435da68a7a3d720959a8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get point value from wyckoff position  <br /></td></tr>
 <tr class="separator:a12f4db3f6c0435da68a7a3d720959a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac90f0b7c280481875513e108644ece1e" id="r_ac90f0b7c280481875513e108644ece1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d1b/structcrystal__data.html">crystal_data</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac90f0b7c280481875513e108644ece1e">allocate_crystal_data</a> (int <a class="el" href="../../d5/d03/gui_8c.html#a2a64a176b2b02a9d2007935a9c62c3a3">objects</a>, int species)</td></tr>
+<tr class="memdesc:ac90f0b7c280481875513e108644ece1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate crystal data pointer  <br /></td></tr>
+<tr class="separator:ac90f0b7c280481875513e108644ece1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2cf4bd35012199502433ea0bf185014" id="r_ac2cf4bd35012199502433ea0bf185014"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d1b/structcrystal__data.html">crystal_data</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2cf4bd35012199502433ea0bf185014">free_crystal_data</a> (<a class="el" href="../../d8/d1b/structcrystal__data.html">crystal_data</a> *cryst)</td></tr>
+<tr class="memdesc:ac2cf4bd35012199502433ea0bf185014"><td class="mdescLeft">&#160;</td><td class="mdescRight">free crystal data pointer  <br /></td></tr>
+<tr class="separator:ac2cf4bd35012199502433ea0bf185014"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ae934abbfa028fb8020062414729bb6" id="r_a6ae934abbfa028fb8020062414729bb6"><td class="memItemLeft" align="right" valign="top">gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ae934abbfa028fb8020062414729bb6">adjust_object_occupancy</a> (<a class="el" href="../../d8/d1b/structcrystal__data.html">crystal_data</a> *cryst, int occupying, int tot_cell)</td></tr>
+<tr class="memdesc:a6ae934abbfa028fb8020062414729bb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">adjust the crystallograpĥic sites occupancy  <br /></td></tr>
+<tr class="separator:a6ae934abbfa028fb8020062414729bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafe32bcc94bcebd2f41a5405514aa792" id="r_aafe32bcc94bcebd2f41a5405514aa792"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafe32bcc94bcebd2f41a5405514aa792">to_update_box</a> (GtkWidget *widg, GdkEventFocus *event, gpointer data)</td></tr>
 <tr class="separator:aafe32bcc94bcebd2f41a5405514aa792"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2dfc4b0c3d64b743956c8cb9b9636638" id="r_a2dfc4b0c3d64b743956c8cb9b9636638"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dfc4b0c3d64b743956c8cb9b9636638">to_update_vect</a> (GtkWidget *widg, GdkEventFocus *event, gpointer data)</td></tr>
@@ -233,7 +254,70 @@ Variables</h2></td></tr>
 <dl class="section author"><dt>Author</dt><dd>Sébastien Le Roux <a href="#" onclick="location.href='mai'+'lto:'+'seb'+'as'+'tie'+'n.'+'ler'+'ou'+'x@i'+'pc'+'ms.'+'un'+'ist'+'ra'+'.fr'; return false;">sebas<span class="obfuscator">.nosp@m.</span>tien<span class="obfuscator">.nosp@m.</span>.lero<span class="obfuscator">.nosp@m.</span>ux@i<span class="obfuscator">.nosp@m.</span>pcms.<span class="obfuscator">.nosp@m.</span>unis<span class="obfuscator">.nosp@m.</span>tra.f<span class="obfuscator">.nosp@m.</span>r</a> </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="../../de/d8a/cbuild__edit_8h_source.html">cbuild_edit.h</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
+</div><h2 class="groupheader">Typedef Documentation</h2>
+<a id="a45d44bae5863ddfd3a57d4efbb47e981" name="a45d44bae5863ddfd3a57d4efbb47e981"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45d44bae5863ddfd3a57d4efbb47e981">&#9670;&#160;</a></span>crystal_data</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct crystal_data crystal_data</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d8a/cbuild__edit_8h_source.html#l00037">37</a> of file <a class="el" href="../../de/d8a/cbuild__edit_8h_source.html">cbuild_edit.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a6ae934abbfa028fb8020062414729bb6" name="a6ae934abbfa028fb8020062414729bb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ae934abbfa028fb8020062414729bb6">&#9670;&#160;</a></span>adjust_object_occupancy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gboolean adjust_object_occupancy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/d1b/structcrystal__data.html">crystal_data</a> *</td>          <td class="paramname"><span class="paramname"><em>cryst</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>occupying</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>tot_cell</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>adjust the crystallograpĥic sites occupancy </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cryst</td><td>the crystal </td></tr>
+    <tr><td class="paramname">occupying</td><td>how to adjust occupancy: 0 = Random for the initial cell only, 1 = Random cell by cell, 2 = Completely random 3 = Successively 4 = Alternatively </td></tr>
+    <tr><td class="paramname">tot_cell</td><td>the total number of cell to build </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00665">665</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
+
+</div>
+</div>
 <a id="a65f517a38665eb1a8ef5f509cb9b51a7" name="a65f517a38665eb1a8ef5f509cb9b51a7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a65f517a38665eb1a8ef5f509cb9b51a7">&#9670;&#160;</a></span>alloc_chem_data()</h2>
 
@@ -321,6 +405,46 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ac90f0b7c280481875513e108644ece1e" name="ac90f0b7c280481875513e108644ece1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac90f0b7c280481875513e108644ece1e">&#9670;&#160;</a></span>allocate_crystal_data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/d1b/structcrystal__data.html">crystal_data</a> * allocate_crystal_data </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>objects</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>species</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>allocate crystal data pointer </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">objects</td><td>the number of object(s) </td></tr>
+    <tr><td class="paramname">species</td><td>the number of chemical species </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00590">590</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
+
+</div>
+</div>
 <a id="a9029033b03552b5262301b744f6d50e5" name="a9029033b03552b5262301b744f6d50e5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9029033b03552b5262301b744f6d50e5">&#9670;&#160;</a></span>allocatoms()</h2>
 
@@ -392,7 +516,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d15/atom__action_8c_source.html#l01017">1017</a> of file <a class="el" href="../../d8/d15/atom__action_8c_source.html">atom_action.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d15/atom__action_8c_source.html#l01018">1018</a> of file <a class="el" href="../../d8/d15/atom__action_8c_source.html">atom_action.c</a>.</p>
 
 </div>
 </div>
@@ -588,6 +712,41 @@ Variables</h2></td></tr>
 </dl>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d72/read__isaacs_8c_source.html#l00548">548</a> of file <a class="el" href="../../dd/d72/read__isaacs_8c_source.html">read_isaacs.c</a>.</p>
+
+</div>
+</div>
+<a id="ac2cf4bd35012199502433ea0bf185014" name="ac2cf4bd35012199502433ea0bf185014"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2cf4bd35012199502433ea0bf185014">&#9670;&#160;</a></span>free_crystal_data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/d1b/structcrystal__data.html">crystal_data</a> * free_crystal_data </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/d1b/structcrystal__data.html">crystal_data</a> *</td>          <td class="paramname"><span class="paramname"><em>cryst</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>free crystal data pointer </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cryst</td><td>the data pointer to free </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html#l00617">617</a> of file <a class="el" href="../../d0/dd3/cbuild__action_8c_source.html">cbuild_action.c</a>.</p>
 
 </div>
 </div>
