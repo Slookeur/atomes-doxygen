@@ -1,256 +1,258 @@
 <map id="gui/interface.h" name="gui/interface.h">
-<area shape="rect" id="Node000001" title="Messaging function declarations." alt="" coords="7963,5,8079,31"/>
-<area shape="rect" id="Node000002" href="$d1/dcc/calc_8c.html" title="Callbacks used in by the molecular dynamics calculation assistants &#160;&#160;Atom selection structure manipul..." alt="" coords="5,86,95,111"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="7949,22,6458,21,3894,26,2566,33,1397,44,530,60,255,70,108,81,80,88,79,83,107,76,254,64,530,54,1397,39,2566,28,3894,21,6458,16,7949,17"/>
-<area shape="rect" id="Node000003" href="$d0/da4/cp2k__files_8c.html" title="Functions to handle CP2K basis sets and pseudopotentials." alt="" coords="119,86,282,111"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="7949,22,6489,26,3988,37,1553,55,707,67,438,74,294,81,249,89,248,83,294,76,438,69,707,62,1553,50,3988,32,6489,21,7949,17"/>
-<area shape="rect" id="Node000004" href="$de/d92/cp2k__init_8c.html" title="Initialization of the CP2K input assistant." alt="" coords="306,86,463,111"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="7949,22,6520,26,4078,37,1703,55,878,67,616,74,476,81,431,89,431,83,475,76,616,69,878,62,1703,49,4078,32,6520,21,7949,17"/>
-<area shape="rect" id="Node000005" href="$d5/d8d/cp2k__mol_8c.html" title="Functions to fix fragment(s) when creating the CP2K input file." alt="" coords="488,86,649,111"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="7949,22,6554,27,4172,37,1857,56,1054,67,798,74,661,81,616,89,615,83,660,76,797,69,1053,62,1857,50,4172,32,6554,21,7949,17"/>
-<area shape="rect" id="Node000006" href="$dc/d4a/cp2k__print_8c.html" title="Functions to print the CP2K input file(s)" alt="" coords="673,86,840,111"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="7949,22,4268,39,2016,57,1235,68,986,75,853,81,806,89,805,83,852,76,986,69,1235,63,2016,51,4268,33,7949,17"/>
-<area shape="rect" id="Node000007" href="$d6/d03/cpmd__atoms_8c.html" title="Functions to handle dummy atom(s) for the CPMD input file." alt="" coords="865,86,1051,111"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="7949,22,6682,21,4517,26,3376,33,2346,44,1538,60,1252,70,1064,81,1013,89,1012,83,1063,76,1252,64,1538,54,2346,39,3376,28,4516,21,6682,16,7949,17"/>
-<area shape="rect" id="Node000008" href="$dd/dc0/cpmd__init_8c.html" title="Functions to initialize the QM / QM&#45;MM input file creation assistant." alt="" coords="1076,86,1243,111"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="7949,22,4468,39,2349,57,1613,69,1379,75,1254,81,1208,89,1207,83,1254,76,1379,69,1613,63,2349,52,4468,34,7949,17"/>
-<area shape="rect" id="Node000009" href="$d6/dc0/cpmd__nose_8c.html" title="Functions to prepare the thermostat(s) configuration widgets for QM / QM&#45;MM input files." alt="" coords="1267,86,1444,111"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="7949,22,6747,22,4706,27,3632,34,2663,44,1903,60,1634,70,1457,81,1408,89,1407,83,1456,76,1634,65,1903,55,2663,39,3632,28,4706,22,6747,16,7949,17"/>
-<area shape="rect" id="Node000010" href="$d1/dcc/cpmd__print_8c.html" title="Functions to print the CPMD input file(s)" alt="" coords="1469,86,1645,111"/>
-<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="7949,22,6781,22,4803,27,3763,34,2825,45,2089,60,1829,70,1657,81,1609,89,1608,83,1656,76,1828,65,2089,55,2825,40,3763,29,4803,22,6781,17,7949,17"/>
-<area shape="rect" id="Node000011" href="$db/d6f/cpmd__restart_8c.html" title="Functions to configure the restart section for the CPMD input file creation assistant." alt="" coords="1669,86,1858,111"/>
-<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="7949,22,6815,23,4905,30,3902,37,2997,47,2287,62,2036,71,1870,81,1819,89,1818,83,1870,76,2036,66,2287,57,2997,42,3902,32,4905,24,6815,18,7949,17"/>
-<area shape="rect" id="Node000012" href="$d2/da2/dlp__atom_8c.html" title="Functions to handle atom selection(s) when creating a force field &#160;&#160;Functions to remove / add field a..." alt="" coords="1883,86,2057,111"/>
-<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="7949,22,6849,23,5001,29,4032,36,3157,46,2471,61,2229,71,2069,81,2021,89,2021,83,2068,76,2229,65,2471,56,3157,41,4032,30,5001,23,6849,17,7949,17"/>
-<area shape="rect" id="Node000013" href="$d8/ded/dlp__comp_8c.html" title="Functions to compare and adjust field body parameters." alt="" coords="2081,86,2259,111"/>
-<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="7949,22,6883,23,5099,30,4164,37,3321,48,2660,62,2426,71,2272,81,2223,89,2222,83,2271,76,2426,66,2660,57,3321,43,4164,32,5099,25,6883,18,7949,17"/>
-<area shape="rect" id="Node000014" href="$dc/d11/dlp__control_8c.html" title="Functions to handle the creation of the DL&#45;POLY CONTROL file." alt="" coords="2283,86,2470,111"/>
-<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="7949,22,6918,24,5201,32,4301,39,3491,50,2855,64,2631,72,2482,81,2431,89,2431,83,2482,76,2630,67,2855,58,3491,44,4301,34,5201,27,6918,19,7949,17"/>
-<area shape="rect" id="Node000015" href="$d4/d28/dlp__edit_8c.html" title="Functions to edit DL&#45;POLY force field parameters." alt="" coords="2495,86,2661,111"/>
-<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="7949,22,6951,23,5294,31,4427,38,3646,49,3034,63,2817,71,2674,81,2628,89,2627,83,2674,76,2817,66,3034,57,3646,43,4427,33,5294,25,6951,18,7949,17"/>
-<area shape="rect" id="Node000016" href="$dc/d79/dlp__ff__match_8c.html" title="Functions the list the available database parameters for the atom database window." alt="" coords="2686,79,2825,119"/>
-<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="7949,22,6977,22,5372,28,4533,35,3777,45,3185,61,2975,70,2837,81,2825,83,2824,78,2836,76,2975,65,3184,55,3777,40,4533,29,5372,22,6977,17,7949,17"/>
-<area shape="rect" id="Node000017" href="$d3/d43/dlp__field_8c.html" title="Functions to prepare the DL&#45;POLY / LAMMPS input preparation assistant &#160;&#160;Functions to design a classic..." alt="" coords="2849,86,3019,111"/>
-<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="7949,22,7010,24,5466,33,4660,40,3934,50,3366,64,3164,72,3032,81,2985,89,2984,83,3031,76,3164,67,3365,59,3934,45,4660,35,5466,27,7010,19,7949,17"/>
-<area shape="rect" id="Node000018" href="$d6/d78/dlp__init_8c.html" title="Functions to initialize the creation of a classical force field." alt="" coords="3043,86,3206,111"/>
-<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="7949,22,7042,24,5557,33,4783,40,4085,50,3539,64,3346,72,3218,81,3173,89,3172,83,3218,76,3346,67,3539,59,4085,45,4782,35,5557,27,7042,19,7949,17"/>
-<area shape="rect" id="Node000019" href="$d7/d6f/dlp__mol_8c.html" title="Functions to add / remove molecule(s) to / from the force field." alt="" coords="3231,86,3397,111"/>
-<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="7949,22,7075,25,5650,34,4240,52,3718,65,3533,73,3410,81,3364,89,3363,83,3410,76,3532,67,3717,60,4240,47,5650,29,7075,20,7949,17"/>
-<area shape="rect" id="Node000020" href="$d2/dc7/dlp__print_8c.html" title="Functions to handle the output of the DL&#45;POLY FIELD file &#160;&#160;Functions to handle the output of the DL&#45;P..." alt="" coords="3422,86,3593,111"/>
-<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="7949,22,7107,26,5744,35,4398,53,3898,66,3722,73,3605,81,3558,89,3557,83,3604,76,3721,68,3898,60,4397,48,5744,30,7107,20,7949,17"/>
-<area shape="rect" id="Node000021" href="$d7/d30/force__fields_8c.html" title="Functions to prepare the force field XML files from the sources in atomes &#160;&#160;Functions to read the for..." alt="" coords="3617,79,3781,119"/>
-<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="7949,22,7140,26,5836,35,4550,53,4073,66,3904,73,3793,81,3782,83,3781,77,3792,76,3904,68,4073,60,4550,48,5836,30,7140,20,7949,17"/>
-<area shape="rect" id="Node000022" href="$da/d65/la__print_8c.html" title="Functions to print the LAMMPS input file(s)" alt="" coords="3805,86,3975,111"/>
-<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="7949,22,7173,26,5930,37,4706,55,4253,67,3986,81,3940,89,3939,83,3986,76,4253,61,4706,49,5930,31,7173,21,7949,17"/>
-<area shape="rect" id="Node000023" href="$d3/d0c/cedit_8c.html" title="Initialization of the curve layout edition dialog." alt="" coords="3999,86,4104,111"/>
-<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="7949,22,7195,23,5993,30,5370,37,4811,48,4374,62,4219,71,4117,81,4085,89,4084,83,4116,76,4219,66,4373,57,4811,42,5370,32,5993,24,7195,18,7949,17"/>
-<area shape="rect" id="Node000024" href="$dc/d22/curve_8c.html" title="Functions to manage curves." alt="" coords="4129,86,4238,111"/>
-<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="7949,22,7219,24,6059,31,5458,38,4919,49,4498,63,4349,72,4250,81,4218,89,4217,83,4250,76,4348,66,4498,58,4919,44,5458,33,6059,26,7219,18,7949,17"/>
-<area shape="rect" id="Node000025" href="$d4/d80/cwidget_8c.html" title="Initialization of the curve widget." alt="" coords="4263,86,4387,111"/>
-<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="7949,22,7244,25,6131,34,5039,52,4636,65,4493,73,4398,81,4363,89,4362,83,4398,76,4492,67,4635,60,5039,46,6131,29,7244,20,7949,17"/>
-<area shape="rect" id="Node000026" href="$da/dae/datab_8c.html" title="Curve data edition window and associated callbacks." alt="" coords="4411,86,4521,111"/>
-<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="7949,22,7268,25,6198,33,5645,41,5149,51,4762,64,4625,72,4534,81,4502,89,4500,83,4534,76,4625,67,4762,59,5149,46,5645,36,6197,28,7268,19,7949,17"/>
-<area shape="rect" id="Node000027" href="$df/df7/tab-1_8c.html" title="1st tab of the curve layout edition dialog" alt="" coords="4546,86,4653,111"/>
-<area shape="poly" id="edge26_Node000001_Node000027" title=" " alt="" coords="7949,22,7290,25,6261,33,5731,41,5255,51,4883,64,4752,72,4665,81,4633,89,4632,83,4664,76,4752,67,4883,59,5255,46,5731,36,6261,28,7290,19,7949,17"/>
-<area shape="rect" id="Node000028" href="$de/d1f/tab-2_8c.html" title="2nd tab of the curve layout edition dialog" alt="" coords="4677,86,4783,111"/>
-<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="7949,22,7312,25,6325,34,5361,52,5005,65,4879,73,4796,81,4764,89,4763,83,4795,76,4879,67,5005,60,5361,47,6325,29,7312,20,7949,17"/>
-<area shape="rect" id="Node000029" href="$d1/d6f/tab-3_8c.html" title="3rd tab of the curve layout edition dialog" alt="" coords="4807,86,4914,111"/>
-<area shape="poly" id="edge28_Node000001_Node000029" title=" " alt="" coords="7949,22,7336,26,6389,35,5467,53,5126,66,5006,73,4926,81,4895,89,4894,83,4926,76,5006,68,5126,60,5467,48,6389,30,7336,20,7949,17"/>
-<area shape="rect" id="Node000030" href="$d8/d62/tab-4_8c.html" title="4th tab of the curve layout edition dialog" alt="" coords="4938,86,5045,111"/>
-<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="7948,22,7358,26,6453,36,5573,54,5248,66,5057,81,5025,89,5024,83,5056,76,5248,61,5572,48,6453,31,7358,21,7948,17"/>
-<area shape="rect" id="Node000031" href="$df/d15/w__data_8c.html" title="Functions to export curve data." alt="" coords="5069,86,5189,111"/>
-<area shape="poly" id="edge30_Node000001_Node000031" title=" " alt="" coords="7949,23,7384,28,6525,39,5690,56,5382,68,5201,81,5166,89,5165,83,5200,76,5382,63,5690,51,6525,33,7384,22,7949,17"/>
-<area shape="rect" id="Node000032" href="$dc/dc8/w__img_8c.html" title="Functions to save screenshot from graph / curve(s)" alt="" coords="5213,86,5329,111"/>
-<area shape="poly" id="edge31_Node000001_Node000032" title=" " alt="" coords="7949,23,6594,39,5804,57,5514,68,5342,81,5308,89,5307,83,5342,76,5513,63,5804,52,6594,34,7948,17"/>
-<area shape="rect" id="Node000033" href="$d5/d34/bdcall_8c.html" title="Callbacks for the bond properties calculation dialog." alt="" coords="5354,86,5450,111"/>
-<area shape="poly" id="edge32_Node000001_Node000033" title=" " alt="" coords="7949,22,7431,27,6653,38,5902,55,5625,67,5462,81,5433,89,5432,83,5462,76,5625,62,5901,50,6653,32,7431,22,7949,17"/>
-<area shape="rect" id="Node000034" href="$d8/d5e/calc__menu_8c.html" title="Creation of the calculation dialogs." alt="" coords="5475,86,5601,111"/>
-<area shape="poly" id="edge33_Node000001_Node000034" title=" " alt="" coords="7949,22,7503,21,6826,27,6466,34,6126,45,5833,60,5613,81,5577,89,5576,83,5612,76,5833,55,6126,40,6466,29,6826,22,7503,16,7949,16"/>
-<area shape="rect" id="Node000035" href="$d3/d3a/callbacks_8c.html" title="General callbacks &#160;&#160;Functions to open and close files." alt="" coords="7975,174,8093,199"/>
-<area shape="poly" id="edge34_Node000001_Node000035" title=" " alt="" coords="8093,28,8134,46,8153,60,8168,77,8176,99,8168,120,8152,140,8131,156,8086,176,8083,171,8128,151,8148,136,8164,117,8171,99,8164,80,8149,64,8132,51,8091,33"/>
-<area shape="rect" id="Node000036" href="$d2/d01/chainscall_8c.html" title="Callbacks for the chains statistics calculation dialog." alt="" coords="5827,86,5950,111"/>
-<area shape="poly" id="edge35_Node000001_Node000036" title=" " alt="" coords="7949,22,7561,23,6985,31,6681,38,6395,49,6148,63,5962,81,5927,89,5926,83,5962,76,6148,58,6395,43,6681,33,6985,26,7560,18,7949,17"/>
-<area shape="rect" id="Node000037" href="$d8/da6/edit__menu_8c.html" title="Creation of the edition dialogs." alt="" coords="5975,86,6101,111"/>
-<area shape="poly" id="edge36_Node000001_Node000037" title=" " alt="" coords="7949,22,7586,25,7055,34,6512,51,6285,65,6114,81,6078,89,6077,83,6114,76,6285,59,6512,46,7055,28,7586,20,7949,17"/>
-<area shape="rect" id="Node000038" href="$dc/d6b/grcall_8c.html" title="Callbacks for the g(r)/g(k) calculation dialog." alt="" coords="6126,86,6219,111"/>
-<area shape="poly" id="edge37_Node000001_Node000038" title=" " alt="" coords="7949,22,7606,23,7108,29,6847,37,6602,47,6391,62,6232,81,6204,88,6203,83,6231,76,6390,57,6602,42,6847,31,7108,24,7606,17,7949,16"/>
-<area shape="rect" id="Node000039" href="$d8/d90/gtk-misc_8c.html" title="GTK3/GTK4 utility subroutines, instead of having pre&#45;processor flags everywhere in the code...." alt="" coords="6243,86,6358,111"/>
-<area shape="poly" id="edge38_Node000001_Node000039" title=" " alt="" coords="7949,22,7629,26,7173,35,6709,53,6516,65,6370,81,6337,89,6336,83,6370,76,6516,60,6709,47,7173,30,7629,21,7949,17"/>
-<area shape="rect" id="Node000040" href="$d5/d03/gui_8c.html" title="GUI of the main window &#160;&#160;Menu elements of the workspace menu &#160;&#160;Creation of menu items,..." alt="" coords="6382,86,6459,111"/>
-<area shape="poly" id="edge39_Node000001_Node000040" title=" " alt="" coords="7949,22,7646,23,7219,30,6996,37,6787,48,6607,62,6472,81,6448,88,6446,83,6471,76,6606,57,6786,43,6995,32,7218,25,7646,18,7949,16"/>
-<area shape="rect" id="Node000041" href="$d0/d29/main_8c.html" title="Initialization of the atomes program &#160;&#160;Functions required to read data from the command line." alt="" coords="6483,86,6574,111"/>
-<area shape="poly" id="edge40_Node000001_Node000041" title=" " alt="" coords="7949,22,7667,26,7272,35,6876,52,6711,65,6587,81,6559,88,6558,83,6585,76,6710,60,6875,47,7272,29,7667,20,7949,17"/>
-<area shape="rect" id="Node000042" href="$d8/d2b/msdcall_8c.html" title="Callbacks for the MSD calculation dialog." alt="" coords="6599,86,6707,111"/>
-<area shape="poly" id="edge41_Node000001_Node000042" title=" " alt="" coords="7949,23,7691,29,7335,39,6979,57,6832,68,6720,81,6688,89,6687,83,6719,76,6831,63,6979,51,7335,34,7690,23,7949,18"/>
-<area shape="rect" id="Node000043" href="$d9/dc4/ringscall_8c.html" title="Callbacks for the ring statistics calculation dialog." alt="" coords="6731,86,6843,111"/>
-<area shape="poly" id="edge42_Node000001_Node000043" title=" " alt="" coords="7949,24,7399,42,7085,59,6954,69,6856,81,6824,89,6822,83,6855,76,6954,64,7085,53,7399,36,7949,18"/>
-<area shape="rect" id="Node000044" href="$d9/dbe/spcall_8c.html" title="Callbacks for the spherical harmonics calculation dialog." alt="" coords="6868,86,6963,111"/>
-<area shape="poly" id="edge43_Node000001_Node000044" title=" " alt="" coords="7949,24,7455,42,7177,58,7062,69,6975,81,6947,89,6945,83,6973,76,7061,64,7176,53,7455,36,7949,18"/>
-<area shape="rect" id="Node000045" href="$d5/dde/sqcall_8c.html" title="Callbacks for the s(q) / s(k) calculation dialog." alt="" coords="6987,86,7081,111"/>
-<area shape="poly" id="edge44_Node000001_Node000045" title=" " alt="" coords="7949,24,7512,44,7269,60,7169,70,7093,81,7066,88,7065,83,7092,76,7168,65,7269,55,7511,38,7948,19"/>
-<area shape="rect" id="Node000046" href="$d1/d9e/tools_8c.html" title="Callbacks for the toolbox dialog." alt="" coords="7105,86,7195,111"/>
-<area shape="poly" id="edge45_Node000001_Node000046" title=" " alt="" coords="7949,21,7811,23,7626,32,7417,50,7311,64,7208,81,7181,88,7180,83,7207,76,7310,58,7417,44,7626,26,7811,18,7949,16"/>
-<area shape="rect" id="Node000047" href="$d7/d29/work__menu_8c.html" title="Workspace menu GTK3 version &#160;&#160;Callbacks for the workspace menu." alt="" coords="7219,86,7353,111"/>
-<area shape="poly" id="edge46_Node000001_Node000047" title=" " alt="" coords="7949,25,7691,43,7529,59,7366,81,7330,89,7329,83,7366,76,7529,54,7691,38,7949,20"/>
-<area shape="rect" id="Node000048" href="$dc/d5c/d__label_8c.html" title="Functions to prepare the OpenGL rendering of the atomic label(s)" alt="" coords="7377,86,7541,111"/>
-<area shape="poly" id="edge47_Node000001_Node000048" title=" " alt="" coords="7949,30,7770,51,7554,81,7514,89,7513,83,7554,76,7769,45,7949,24"/>
-<area shape="rect" id="Node000049" href="$d3/d10/image_8c.html" title="Functions to render an image from the OpenGL window." alt="" coords="7565,86,7724,111"/>
-<area shape="poly" id="edge48_Node000001_Node000049" title=" " alt="" coords="7953,36,7700,89,7699,83,7952,31"/>
-<area shape="rect" id="Node000050" href="$d8/dee/movie_8c.html" title="Functions to encode a movie / render an image from the OpenGL rendering." alt="" coords="7748,86,7907,111"/>
-<area shape="poly" id="edge49_Node000001_Node000050" title=" " alt="" coords="7981,38,7856,88,7854,84,7979,33"/>
-<area shape="rect" id="Node000051" href="$d5/d9c/atom__edit_8h.html" title="Function declarations for the mode edition window." alt="" coords="5625,86,5803,111"/>
-<area shape="poly" id="edge50_Node000001_Node000051" title=" " alt="" coords="7949,22,7536,26,6919,36,6283,54,6016,66,5816,81,5767,89,5766,83,5815,76,6016,61,6283,48,6919,31,7536,21,7949,17"/>
-<area shape="rect" id="Node000062" href="$d0/dd3/cbuild__action_8c.html" title="Functions to build a crystal using space group, crystallographic position(s) and object(s) to insert." alt="" coords="6722,167,6861,207"/>
-<area shape="poly" id="edge72_Node000001_Node000062" title=" " alt="" coords="8002,42,7921,121,7892,129,7849,136,7727,146,7399,157,7070,162,6946,165,6873,169,6861,171,6860,166,6872,164,6946,159,7070,156,7399,152,7727,141,7848,131,7891,124,7918,116,7998,38"/>
-<area shape="rect" id="Node000065" href="$dc/d50/selection_8c.html" title="Functions handling the atom and bond selection process in the OpenGL window." alt="" coords="6885,174,7025,199"/>
-<area shape="poly" id="edge88_Node000001_Node000065" title=" " alt="" coords="8016,45,7998,85,7983,105,7965,121,7940,130,7903,138,7796,150,7659,156,7505,160,7212,163,7102,165,7037,169,6999,177,6998,171,7036,164,7102,160,7212,158,7505,155,7658,151,7796,144,7902,133,7939,125,7962,116,7980,102,7993,83,8011,43"/>
-<area shape="rect" id="Node000068" href="$d5/da4/popup_8c.html" title="Functions to create the OpenGL window popup menus:" alt="" coords="7049,174,7197,199"/>
-<area shape="poly" id="edge99_Node000001_Node000068" title=" " alt="" coords="8030,44,8032,83,8027,103,8016,121,7996,132,7965,141,7874,154,7755,161,7621,164,7363,166,7209,169,7170,177,7169,171,7208,164,7363,160,7621,159,7755,156,7874,148,7964,136,7994,127,8012,117,8022,101,8027,82,8024,44"/>
-<area shape="rect" id="Node000070" href="$d8/de9/w__volumes_8c.html" title="Functions to create the &#39;Volumes&#39; window &#160;&#160;Functions to compute system / fragment / molecular volumes..." alt="" coords="7221,174,7404,199"/>
-<area shape="poly" id="edge114_Node000001_Node000070" title=" " alt="" coords="8045,39,8060,58,8071,79,8075,100,8067,120,8051,130,8026,138,7953,150,7857,157,7749,162,7541,165,7417,169,7370,177,7369,171,7416,164,7541,160,7749,156,7857,152,7952,145,8025,133,8049,125,8063,117,8070,100,8066,80,8055,61,8041,42"/>
-<area shape="rect" id="Node000071" href="$d8/d50/read__cif_8c.html" title="Functions to read CIF files." alt="" coords="7428,167,7581,207"/>
-<area shape="poly" id="edge120_Node000001_Node000071" title=" " alt="" coords="8069,34,8096,52,8118,77,8126,99,8124,110,8117,121,8105,129,8085,135,8026,146,7862,158,7694,164,7594,169,7582,171,7581,166,7594,164,7694,159,7861,153,8025,140,8083,130,8102,124,8113,117,8119,108,8120,100,8113,80,8092,56,8066,39"/>
-<area shape="rect" id="Node000072" href="$db/d0b/cbuild__edit_8c.html" title="Functions to create the crystal builder window." alt="" coords="8235,79,8374,119"/>
-<area shape="poly" id="edge73_Node000001_Node000072" title=" " alt="" coords="8076,32,8237,76,8236,81,8074,37"/>
-<area shape="rect" id="Node000073" href="$d9/ded/cbuild__info_8c.html" title="Functions to create the space group information dialog." alt="" coords="8398,79,8537,119"/>
-<area shape="poly" id="edge74_Node000001_Node000073" title=" " alt="" coords="8093,27,8229,48,8386,76,8398,78,8397,84,8386,81,8228,53,8092,32"/>
-<area shape="rect" id="Node000074" href="$d9/d97/cell__edit_8h.html" title="Function declarations for the cell edition window." alt="" coords="8561,86,8728,111"/>
-<area shape="poly" id="edge75_Node000001_Node000074" title=" " alt="" coords="8093,23,8298,44,8549,76,8590,83,8590,89,8548,81,8298,49,8092,28"/>
-<area shape="rect" id="Node000079" href="$dc/d21/glview_8c.html" title="Callbacks of the OpenGL window." alt="" coords="8753,86,8875,111"/>
-<area shape="poly" id="edge85_Node000001_Node000079" title=" " alt="" coords="8093,19,8377,34,8559,51,8741,76,8775,83,8774,89,8740,81,8558,56,8377,40,8092,24"/>
-<area shape="rect" id="Node000080" href="$d9/db9/ogl__shading_8c.html" title="Functions to create GLSL programs &#160;&#160;Functions to manage GLSL programs." alt="" coords="8900,86,9059,111"/>
-<area shape="poly" id="edge86_Node000001_Node000080" title=" " alt="" coords="8093,18,8436,34,8661,51,8888,76,8930,83,8929,89,8887,81,8660,56,8436,39,8092,24"/>
-<area shape="rect" id="Node000081" href="$d1/db9/ogl__utils_8c.html" title="2D and 3D calculations utilities for distances and angles" alt="" coords="9083,86,9219,111"/>
-<area shape="poly" id="edge87_Node000001_Node000081" title=" " alt="" coords="8093,16,8267,19,8509,27,8789,45,8932,58,9072,76,9109,83,9108,89,9071,81,8931,64,8788,50,8509,32,8266,24,8093,22"/>
-<area shape="rect" id="Node000082" href="$dc/d16/color__box_8c.html" title="Functions to create the color palettes for the menus of the OpenGL window &#160;&#160;Callbacks to set the colo..." alt="" coords="9243,86,9414,111"/>
-<area shape="poly" id="edge89_Node000001_Node000082" title=" " alt="" coords="8092,17,8289,19,8571,27,8898,45,9067,59,9232,76,9277,83,9276,89,9231,81,9066,64,8898,50,8571,33,8289,24,8092,22"/>
-<area shape="rect" id="Node000083" href="$da/d13/initchain_8c.html" title="Functions collecting chain(s) data from Fortran90 &#160;&#160;Functions allocating chain(s) data from Fortran90..." alt="" coords="9439,86,9603,111"/>
-<area shape="poly" id="edge90_Node000001_Node000083" title=" " alt="" coords="8092,16,8317,16,8647,23,9033,41,9232,56,9426,76,9471,83,9470,89,9426,81,9231,61,9032,46,8646,28,8317,21,8092,21"/>
-<area shape="rect" id="Node000084" href="$d6/d35/initcoord_8c.html" title="Coordinations and polyhedra menus initialization &#160;&#160;Coordinations and polyhedra GTK3 menus and menu it..." alt="" coords="9627,86,9793,111"/>
-<area shape="poly" id="edge91_Node000001_Node000084" title=" " alt="" coords="8092,18,8842,35,9288,53,9475,64,9616,76,9661,83,9660,89,9615,81,9474,69,9288,58,8842,41,8092,23"/>
-<area shape="rect" id="Node000085" href="$d2/def/initmol_8c.html" title="Functions to retrieve fragments data from Fortran90 &#160;&#160;Functions to retrieve molecules data from Fortr..." alt="" coords="9817,86,9971,111"/>
-<area shape="poly" id="edge92_Node000001_Node000085" title=" " alt="" coords="8093,17,8434,22,8930,33,9435,50,9646,62,9805,76,9847,83,9847,89,9804,81,9645,67,9434,55,8930,38,8434,27,8092,23"/>
-<area shape="rect" id="Node000086" href="$d4/da4/m__coord_8c.html" title="Functions to create the &#39;Chemistry &#45;&gt; Coordination&#39; submenu." alt="" coords="9996,86,10160,111"/>
-<area shape="poly" id="edge93_Node000001_Node000086" title=" " alt="" coords="8093,17,8465,22,9012,32,9572,49,9807,61,9984,76,10029,83,10028,89,9983,81,9806,67,9572,55,9012,37,8465,27,8092,23"/>
-<area shape="rect" id="Node000087" href="$da/d3d/m__map_8c.html" title="Functions to create the &#39;OpenGL &#45;&gt; Color Scheme(s)&#39; submenus &#160;&#160;Functions to handle custom color maps." alt="" coords="10185,86,10342,111"/>
-<area shape="poly" id="edge94_Node000001_Node000087" title=" " alt="" coords="8092,17,8496,20,9098,29,9718,47,9977,60,10173,76,10217,83,10216,89,10172,81,9977,65,9718,52,9098,34,8496,25,8092,22"/>
-<area shape="rect" id="Node000088" href="$d6/d68/m__poly_8c.html" title="Functions to create the &#39;Chemistry &#45;&gt; Polyhedra&#39; submenus." alt="" coords="10366,86,10521,111"/>
-<area shape="poly" id="edge95_Node000001_Node000088" title=" " alt="" coords="8092,17,8526,19,9181,27,9857,45,10141,58,10354,76,10397,83,10396,89,10354,81,10140,64,9857,50,9181,32,8526,24,8092,22"/>
-<area shape="rect" id="Node000089" href="$db/d52/m__quality_8c.html" title="Functions to create the &#39;OengGL &#45;&gt; Quality&#39; submenu." alt="" coords="10545,86,10715,111"/>
-<area shape="poly" id="edge96_Node000001_Node000089" title=" " alt="" coords="8092,17,8555,19,9262,27,9994,45,10301,58,10533,76,10580,83,10579,89,10532,81,10301,64,9994,50,9262,32,8555,24,8092,22"/>
-<area shape="rect" id="Node000090" href="$da/d98/m__rep_8c.html" title="Functions to create the &#39;View &#45;&gt; Representation&#39; submenu." alt="" coords="10739,86,10889,111"/>
-<area shape="poly" id="edge97_Node000001_Node000090" title=" " alt="" coords="8093,16,8587,16,9351,22,9759,29,10144,40,10477,55,10728,76,10769,83,10768,89,10727,81,10477,61,10144,45,9759,35,9351,28,8587,22,8093,22"/>
-<area shape="rect" id="Node000091" href="$d5/dbe/menu__bar_8c.html" title="Functions to create the menu bar of the OpenGL window &#160;&#160;Functions to create the menu items for the me..." alt="" coords="10913,86,11085,111"/>
-<area shape="poly" id="edge98_Node000001_Node000091" title=" " alt="" coords="8093,17,8615,17,9429,24,9865,31,10277,42,10633,56,10901,76,10948,83,10947,89,10900,81,10633,62,10277,47,9865,36,9429,29,8615,23,8093,22"/>
-<area shape="rect" id="Node000092" href="$d8/db9/w__advance_8c.html" title="Functions to create the OpenGL parameters edition window." alt="" coords="11110,86,11291,111"/>
-<area shape="poly" id="edge100_Node000001_Node000092" title=" " alt="" coords="8092,16,8646,17,9518,23,9985,30,10428,41,10810,56,11098,76,11147,83,11147,89,11098,81,10810,61,10427,46,9985,35,9518,28,8646,22,8092,22"/>
-<area shape="rect" id="Node000093" href="$dd/d61/w__atoms_8c.html" title="Functions to create the atom(s) / clone(s) advanced configuration window." alt="" coords="11316,86,11483,111"/>
-<area shape="poly" id="edge101_Node000001_Node000093" title=" " alt="" coords="8093,17,9744,35,10726,53,11090,64,11304,76,11350,83,11349,89,11303,81,11089,69,10726,58,9744,40,8093,23"/>
-<area shape="rect" id="Node000094" href="$da/d3c/w__axis_8c.html" title="Functions to create the axis parameters edition window." alt="" coords="11507,86,11660,111"/>
-<area shape="poly" id="edge102_Node000001_Node000094" title=" " alt="" coords="8092,17,8771,22,9838,33,10882,50,11268,62,11496,76,11538,83,11537,89,11495,81,11268,68,10882,56,9838,38,8771,27,8092,22"/>
-<area shape="rect" id="Node000095" href="$d9/d11/w__bonds_8c.html" title="Functions to create the bond (legnth/radius) edition window(s)" alt="" coords="11685,86,11850,111"/>
-<area shape="poly" id="edge103_Node000001_Node000095" title=" " alt="" coords="8093,17,8803,22,9925,33,11026,51,11433,62,11673,76,11719,83,11718,89,11672,81,11433,68,11025,56,9925,38,8803,27,8092,22"/>
-<area shape="rect" id="Node000096" href="$d2/ddf/w__box_8c.html" title="Functions to create the box properties window." alt="" coords="11875,86,12025,111"/>
-<area shape="poly" id="edge104_Node000001_Node000096" title=" " alt="" coords="8092,17,8835,21,10017,31,11179,49,11609,61,11862,76,11905,83,11904,89,11862,81,11609,66,11179,54,10017,36,8835,26,8092,22"/>
-<area shape="rect" id="Node000097" href="$d3/d82/w__chains_8c.html" title="Functions to create the chain(s) tab for the advanced environments window." alt="" coords="12050,86,12218,111"/>
-<area shape="poly" id="edge105_Node000001_Node000097" title=" " alt="" coords="8092,17,8865,21,10103,31,11321,49,11773,61,12038,76,12085,83,12084,89,12038,81,11772,67,11321,55,10103,37,8865,26,8092,22"/>
-<area shape="rect" id="Node000098" href="$d2/d92/w__colors_8c.html" title="Functions to create the color selection dialogs." alt="" coords="12242,86,12407,111"/>
-<area shape="poly" id="edge106_Node000001_Node000098" title=" " alt="" coords="8092,17,8899,21,10196,30,11477,48,11951,61,12230,76,12276,83,12275,89,12230,81,11951,66,11477,53,10196,36,8899,26,8092,22"/>
-<area shape="rect" id="Node000099" href="$d7/df0/w__coord_8c.html" title="Functions to create the &#39;Environments configuration&#39; window." alt="" coords="12431,86,12594,111"/>
-<area shape="poly" id="edge107_Node000001_Node000099" title=" " alt="" coords="8092,17,8931,20,10288,29,11630,47,12127,60,12303,68,12420,76,12465,83,12464,89,12419,81,12303,73,12127,65,11630,52,10288,35,8931,25,8092,22"/>
-<area shape="rect" id="Node000100" href="$d4/db9/w__cutoffs_8c.html" title="Functions to create the bond cutoffs update dialog." alt="" coords="12618,86,12789,111"/>
-<area shape="poly" id="edge108_Node000001_Node000100" title=" " alt="" coords="8092,17,8963,20,10379,29,11781,47,12300,60,12484,68,12606,76,12653,83,12653,89,12606,81,12484,73,12300,65,11780,52,10379,34,8963,25,8092,22"/>
-<area shape="rect" id="Node000101" href="$da/daf/w__encode_8c.html" title="Functions to create the encoding (image/video) window." alt="" coords="12813,86,12986,111"/>
-<area shape="poly" id="edge109_Node000001_Node000101" title=" " alt="" coords="8092,17,8995,20,10473,29,11938,46,12481,59,12674,67,12801,76,12849,83,12848,89,12800,81,12673,73,12481,65,11938,52,10473,34,8995,25,8092,22"/>
-<area shape="rect" id="Node000102" href="$dc/d44/w__labels_8c.html" title="Functions to create the &#39;atomic labels&#39; tab of the atom(s) / clone(s) advanced configuration window &#160;..." alt="" coords="13010,86,13175,111"/>
-<area shape="poly" id="edge110_Node000001_Node000102" title=" " alt="" coords="8093,17,9029,19,10570,27,11374,34,12098,45,12665,58,12866,67,12998,76,13044,83,13043,89,12998,81,12865,72,12665,64,12098,50,11374,40,10570,32,9029,24,8093,22"/>
-<area shape="rect" id="Node000103" href="$d3/db3/w__library_8c.html" title="Functions to create the molecular library &#160;&#160;Functions to read the &#39;Simple chemical XML&#39; files." alt="" coords="13200,86,13367,111"/>
-<area shape="poly" id="edge111_Node000001_Node000103" title=" " alt="" coords="8093,17,9061,19,10661,26,11497,34,12251,44,12841,58,13050,66,13188,76,13234,83,13233,89,13187,81,13049,72,12840,63,12250,49,11497,39,10661,32,9061,24,8093,22"/>
-<area shape="rect" id="Node000104" href="$d9/d99/w__rings_8c.html" title="Functions to create the ring(s) tab for the advanced environments window." alt="" coords="13391,86,13549,111"/>
-<area shape="poly" id="edge112_Node000001_Node000104" title=" " alt="" coords="8092,17,9093,18,10754,24,11623,31,12406,42,13019,56,13236,66,13380,76,13424,83,13423,89,13379,81,13236,71,13019,62,12406,47,11623,37,10754,29,9093,23,8092,22"/>
-<area shape="rect" id="Node000105" href="$d9/d33/w__sequencer_8c.html" title="Functions to create the MD sequencer window." alt="" coords="13574,86,13766,111"/>
-<area shape="poly" id="edge113_Node000001_Node000105" title=" " alt="" coords="8092,17,9124,19,10842,27,11742,35,12553,45,13189,59,13414,67,13562,76,13615,83,13614,89,13562,81,13413,72,13188,64,12553,50,11742,40,10842,32,9124,24,8092,22"/>
-<area shape="rect" id="Node000106" href="$d3/d50/close__p_8c.html" title="Functions to close an atomes project &#160;&#160;Callbacks to close an atomes project." alt="" coords="13790,86,13921,111"/>
-<area shape="poly" id="edge115_Node000001_Node000106" title=" " alt="" coords="8093,17,11066,34,12855,52,13475,63,13673,69,13778,76,13816,83,13815,89,13778,81,13672,75,13475,68,12855,57,11066,39,8093,22"/>
-<area shape="rect" id="Node000107" href="$df/dd5/init__p_8c.html" title="Functions to initialize an atomes project." alt="" coords="13945,86,14064,111"/>
-<area shape="poly" id="edge116_Node000001_Node000107" title=" " alt="" coords="8093,17,9238,21,11143,32,12984,50,13621,62,13824,69,13933,76,13969,83,13967,89,13932,81,13824,74,13621,67,12984,55,11143,37,9238,27,8093,22"/>
-<area shape="rect" id="Node000108" href="$da/d5e/open__p_8c.html" title="Functions to start the reading of an atomes project file." alt="" coords="14088,86,14217,111"/>
-<area shape="poly" id="edge117_Node000001_Node000108" title=" " alt="" coords="8092,17,9262,22,11215,33,13103,50,13757,62,13965,69,14077,76,14114,83,14113,89,14076,81,13965,74,13757,68,13103,56,11215,38,9262,27,8092,22"/>
-<area shape="rect" id="Node000109" href="$d2/d0d/project_8c.html" title="Project management functions." alt="" coords="14241,86,14368,111"/>
-<area shape="poly" id="edge118_Node000001_Node000109" title=" " alt="" coords="8092,17,9289,21,11293,32,13230,50,13902,62,14116,69,14230,76,14267,83,14266,89,14230,81,14116,74,13902,67,13230,55,11293,37,9289,27,8092,22"/>
-<area shape="rect" id="Node000110" href="$da/d70/read__c3d_8c.html" title="Functions to read Chem3d atomic coordinates." alt="" coords="14392,79,14545,119"/>
-<area shape="poly" id="edge119_Node000001_Node000110" title=" " alt="" coords="8092,17,11367,34,13355,52,14044,63,14263,69,14381,76,14392,77,14391,83,14380,81,14263,75,14044,69,13355,57,11367,39,8092,22"/>
-<area shape="rect" id="Node000111" href="$d5/d22/read__coord_8c.html" title="General functions to import atomic coordinates." alt="" coords="14569,79,14723,119"/>
-<area shape="poly" id="edge121_Node000001_Node000111" title=" " alt="" coords="8092,17,11457,33,13502,51,14211,63,14437,69,14558,76,14569,77,14569,83,14558,81,14437,75,14211,68,13502,57,11457,39,8092,22"/>
-<area shape="rect" id="Node000112" href="$df/df9/read__hist_8c.html" title="Functions to read DL&#45;POLY history file." alt="" coords="14747,79,14900,119"/>
-<area shape="poly" id="edge122_Node000001_Node000112" title=" " alt="" coords="8093,17,11547,33,13650,51,14379,63,14611,69,14736,76,14747,77,14746,83,14735,81,14611,74,14379,68,13649,56,11547,38,8093,22"/>
-<area shape="rect" id="Node000113" href="$dd/d72/read__isaacs_8c.html" title="Functions to read an ISAACS XML file &#160;&#160;Functions to write an ISAACS XML file." alt="" coords="14924,79,15077,119"/>
-<area shape="poly" id="edge123_Node000001_Node000113" title=" " alt="" coords="8092,17,9408,22,11635,33,13796,51,14546,62,14785,69,14913,76,14924,77,14923,83,14912,81,14785,74,14546,68,13796,56,11635,38,9408,27,8092,22"/>
-<area shape="rect" id="Node000114" href="$d1/da7/read__npt_8c.html" title="Functions to read NPT data." alt="" coords="15101,79,15255,119"/>
-<area shape="poly" id="edge124_Node000001_Node000114" title=" " alt="" coords="8093,17,9439,21,11724,32,13944,50,14714,62,14959,69,15090,76,15101,77,15101,83,15090,81,14959,74,14714,67,13943,55,11724,37,9439,27,8093,22"/>
-<area shape="rect" id="Node000115" href="$d9/d42/read__pdb_8c.html" title="Functions to read PDB files." alt="" coords="15279,79,15432,119"/>
-<area shape="poly" id="edge125_Node000001_Node000115" title=" " alt="" coords="8093,17,9470,21,11813,32,14091,50,14881,62,15133,69,15268,76,15279,77,15278,83,15267,81,15133,74,14881,67,14091,55,11813,37,9470,26,8093,22"/>
-<area shape="rect" id="Node000116" href="$d9/deb/read__trj_8c.html" title="Functions to read CPMD atomic coordinates." alt="" coords="15456,79,15609,119"/>
-<area shape="poly" id="edge126_Node000001_Node000116" title=" " alt="" coords="8092,17,9499,21,11901,31,14237,49,15048,61,15307,68,15445,76,15456,77,15455,83,15444,81,15307,74,15048,67,14237,55,11901,37,9499,26,8092,22"/>
-<area shape="rect" id="Node000117" href="$d6/dc9/read__vas_8c.html" title="Functions to read VASP atomic coordinates." alt="" coords="15633,79,15787,119"/>
-<area shape="poly" id="edge127_Node000001_Node000117" title=" " alt="" coords="8093,17,9531,21,11991,31,14385,49,15216,61,15481,68,15622,76,15633,77,15633,83,15622,81,15480,74,15216,67,14385,54,11991,36,9531,26,8093,22"/>
-<area shape="rect" id="Node000118" href="$d0/dce/read__xyz_8c.html" title="Functions to read XYZ atomic coordinates." alt="" coords="15811,79,15964,119"/>
-<area shape="poly" id="edge128_Node000001_Node000118" title=" " alt="" coords="8093,17,9561,20,12080,30,14532,48,15383,61,15655,68,15800,76,15811,77,15810,83,15799,81,15654,73,15383,66,14531,54,12080,36,9561,26,8093,22"/>
-<area shape="rect" id="Node000119" href="$db/d3e/update__p_8c.html" title="Functions to update a project &#160;&#160;Functions to activate a project." alt="" coords="15988,86,16131,111"/>
-<area shape="poly" id="edge129_Node000001_Node000119" title=" " alt="" coords="8093,17,9591,20,12168,29,13503,37,14678,47,15551,60,15828,67,15977,76,16018,83,16017,89,15976,81,15828,73,15551,65,14678,52,13503,42,12168,34,9591,25,8093,22"/>
-<area shape="rect" id="Node000120" href="$d0/d3a/modelinfo_8c.html" title="Functions to display model information in GtkTextBuffer." alt="" coords="16155,86,16329,111"/>
-<area shape="poly" id="edge130_Node000001_Node000120" title=" " alt="" coords="8093,17,9620,21,12252,32,14816,50,15708,62,15992,69,16144,76,16192,83,16191,89,16143,81,15992,74,15708,67,14816,55,12252,37,9620,26,8093,22"/>
-<area shape="rect" id="Node000121" href="$d6/df5/workinfo_8c.html" title="Functions to display project information in GtkTextBuffer." alt="" coords="16353,86,16517,111"/>
-<area shape="poly" id="edge131_Node000001_Node000121" title=" " alt="" coords="8093,17,9654,20,12350,30,14980,48,15894,61,16185,68,16341,76,16387,83,16387,89,16340,81,16185,73,15894,66,14980,54,12350,36,9654,26,8093,22"/>
-<area shape="rect" id="Node000122" href="$d3/da6/workspace_8c.html" title="Implementation of the workspace tree view &#160;&#160;Associated callbacks." alt="" coords="16541,86,16719,111"/>
-<area shape="poly" id="edge132_Node000001_Node000122" title=" " alt="" coords="8093,17,9685,21,12444,31,15137,49,16073,61,16371,68,16530,76,16579,83,16578,89,16530,81,16371,74,16073,67,15136,54,12444,36,9685,26,8093,22"/>
-<area shape="poly" id="edge51_Node000051_Node000035" title=" " alt="" coords="5781,111,5816,116,6025,129,6285,135,6889,134,7200,133,7494,136,7754,145,7865,153,7962,164,7998,171,7996,177,7962,169,7865,159,7753,150,7494,141,7200,138,6889,139,6285,140,6024,135,5815,121,5780,116"/>
-<area shape="rect" id="Node000052" href="$d8/d15/atom__action_8c.html" title="Functions to apply the edition actions to the model." alt="" coords="5472,174,5663,199"/>
-<area shape="poly" id="edge52_Node000051_Node000052" title=" " alt="" coords="5684,121,5589,176,5586,171,5681,116"/>
-<area shape="rect" id="Node000053" href="$d9/dbe/atom__coord_8c.html" title="Functions to correct the coordination menus and the corresponding data pointers after edition." alt="" coords="5687,174,5874,199"/>
-<area shape="poly" id="edge53_Node000051_Node000053" title=" " alt="" coords="5734,121,5773,172,5769,175,5729,124"/>
-<area shape="rect" id="Node000054" href="$dc/d6c/atom__edit_8c.html" title="Functions to create the model edition window." alt="" coords="5898,174,6074,199"/>
-<area shape="poly" id="edge54_Node000051_Node000054" title=" " alt="" coords="5764,113,5950,171,5949,176,5763,118"/>
-<area shape="rect" id="Node000055" href="$d2/d4a/atom__geo_8c.html" title="Functions to check for the appropriate atomic coordinations." alt="" coords="6099,174,6273,199"/>
-<area shape="poly" id="edge55_Node000051_Node000055" title=" " alt="" coords="5790,111,5816,116,6086,164,6126,171,6125,177,6086,169,5815,121,5789,117"/>
-<area shape="rect" id="Node000056" href="$dd/d0b/atom__insert_8c.html" title="Functions to insert bond(s) in a project." alt="" coords="6297,174,6485,199"/>
-<area shape="poly" id="edge56_Node000051_Node000056" title=" " alt="" coords="5785,111,5816,116,5947,132,6050,140,6153,149,6285,164,6331,171,6330,177,6284,169,6153,154,6050,146,5947,137,5815,121,5784,116"/>
-<area shape="rect" id="Node000057" href="$d7/d27/atom__move_8c.html" title="Functions to move atom(s) and group of atom(s) &#160;&#160;Functions to move randomly atom(s) and group of atom..." alt="" coords="6509,174,6697,199"/>
-<area shape="poly" id="edge57_Node000051_Node000057" title=" " alt="" coords="5783,111,5816,116,6007,134,6156,141,6306,146,6497,164,6545,171,6544,177,6496,169,6305,152,6156,146,6006,140,5815,121,5783,116"/>
-<area shape="rect" id="Node000058" href="$d7/d6a/atom__object_8c.html" title="Functions to create atomic objects." alt="" coords="4395,174,4585,199"/>
-<area shape="poly" id="edge58_Node000051_Node000058" title=" " alt="" coords="5647,116,5613,121,5459,136,5328,144,5105,146,4882,148,4751,155,4597,169,4548,177,4547,171,4596,164,4751,150,4882,143,5105,141,5328,138,5458,131,5612,116,5647,111"/>
-<area shape="rect" id="Node000059" href="$d3/ded/atom__remove_8c.html" title="Functions to remove bond(s) from a project &#160;&#160;Function to prepare the passivation (removal followed by..." alt="" coords="4609,174,4811,199"/>
-<area shape="poly" id="edge59_Node000051_Node000059" title=" " alt="" coords="5646,116,5613,121,5493,134,5391,141,5218,147,5045,151,4943,158,4824,169,4773,177,4772,171,4823,164,4943,152,5045,146,5218,141,5391,136,5493,129,5612,116,5645,111"/>
-<area shape="rect" id="Node000060" href="$d9/d33/atom__search_8c.html" title="Functions to prepare the model edition &#39;search&#39; tabs and the associated widgets." alt="" coords="4835,174,5030,199"/>
-<area shape="poly" id="edge60_Node000051_Node000060" title=" " alt="" coords="5645,116,5613,121,5453,139,5328,146,5202,153,5042,169,4994,177,4993,171,5042,164,5202,148,5327,141,5452,133,5612,116,5644,111"/>
-<area shape="rect" id="Node000061" href="$dd/d37/atom__species_8c.html" title="Functions to look for new chemical species and modify the chemical information accordingly." alt="" coords="5054,174,5254,199"/>
-<area shape="poly" id="edge61_Node000051_Node000061" title=" " alt="" coords="5641,117,5613,121,5440,146,5266,169,5221,177,5220,171,5266,164,5439,141,5612,116,5640,111"/>
-<area shape="poly" id="edge62_Node000051_Node000062" title=" " alt="" coords="5782,111,5816,116,5951,129,6066,136,6262,137,6459,140,6574,148,6709,164,6722,166,6721,171,6708,169,6573,153,6458,145,6262,142,6066,141,5951,135,5815,121,5781,116"/>
-<area shape="rect" id="Node000063" href="$d2/d17/cell__cut_8c.html" title="Functions to create the &#39;slab cutting&#39; tab of the cell edition window." alt="" coords="7606,174,7766,199"/>
-<area shape="poly" id="edge63_Node000051_Node000063" title=" " alt="" coords="5781,111,5816,116,6085,138,6315,146,6517,144,6705,137,6893,131,7095,130,7324,140,7594,164,7638,171,7638,177,7594,169,7324,145,7095,136,6893,137,6705,143,6517,149,6315,151,6085,143,5815,121,5780,116"/>
-<area shape="rect" id="Node000064" href="$d8/d1c/cell__super_8c.html" title="Functions to create a super&#45;cell using the extra cell(s)" alt="" coords="8295,174,8469,199"/>
-<area shape="poly" id="edge64_Node000051_Node000064" title=" " alt="" coords="5781,111,5816,116,6011,133,6190,145,6355,152,6508,154,6788,150,7049,139,7311,128,7591,124,7744,127,7909,134,8088,146,8284,164,8331,171,8330,177,8283,169,8088,151,7909,139,7744,132,7591,130,7311,134,7050,144,6788,155,6508,160,6355,157,6190,150,6011,139,5815,121,5780,116"/>
-<area shape="poly" id="edge65_Node000051_Node000065" title=" " alt="" coords="5781,111,5816,116,5976,131,6112,137,6344,137,6456,135,6577,138,6713,146,6873,164,6912,171,6911,177,6872,169,6712,151,6576,143,6456,141,6344,142,6112,143,5976,136,5815,121,5781,116"/>
-<area shape="rect" id="Node000066" href="$db/d42/m__edit_8c.html" title="Functions to create the &#39;Tools &#45;&gt; Edit&#39; submenu." alt="" coords="8117,174,8271,199"/>
-<area shape="poly" id="edge66_Node000051_Node000066" title=" " alt="" coords="5781,111,5816,116,5997,132,6163,143,6458,151,6718,146,6961,135,7204,125,7464,122,7606,125,7759,133,7925,145,8106,164,8149,171,8148,177,8106,169,7924,151,7759,138,7606,130,7464,127,7204,130,6961,140,6719,151,6458,156,6163,148,5997,138,5815,121,5780,116"/>
-<area shape="rect" id="Node000067" href="$d3/d51/m__tools_8c.html" title="Functions to create the &#39;Tools&#39; submenu." alt="" coords="7790,174,7950,199"/>
-<area shape="poly" id="edge67_Node000051_Node000067" title=" " alt="" coords="5781,111,5816,116,6113,140,6366,148,6589,145,6797,137,7005,130,7228,128,7480,138,7778,164,7822,171,7822,177,7778,169,7480,143,7228,133,7005,135,6797,142,6589,150,6366,153,6113,145,5815,121,5780,116"/>
-<area shape="poly" id="edge68_Node000051_Node000068" title=" " alt="" coords="5781,111,5816,116,6001,133,6158,139,6297,140,6426,137,6556,135,6694,136,6852,145,7037,164,7078,171,7077,177,7036,169,6851,150,6694,142,6556,140,6426,142,6297,145,6158,145,6001,138,5815,121,5781,116"/>
-<area shape="rect" id="Node000069" href="$de/dc7/w__search_8c.html" title="Functions to create the object search widgets, for:" alt="" coords="5279,174,5448,199"/>
-<area shape="poly" id="edge69_Node000051_Node000069" title=" " alt="" coords="5654,117,5411,177,5409,171,5653,112"/>
-<area shape="poly" id="edge70_Node000051_Node000070" title=" " alt="" coords="5781,111,5816,116,6027,135,6206,143,6364,143,6512,141,6659,138,6818,138,6997,146,7209,164,7258,171,7257,177,7208,169,6997,151,6818,144,6659,143,6512,146,6364,149,6206,148,6027,140,5815,121,5780,116"/>
-<area shape="poly" id="edge71_Node000051_Node000071" title=" " alt="" coords="5781,111,5816,116,6059,136,6265,143,6447,142,6616,136,6786,131,6968,131,7174,141,7417,164,7428,166,7427,171,7416,169,7174,146,6968,137,6786,137,6616,142,6447,147,6265,149,6058,142,5815,121,5780,116"/>
-<area shape="poly" id="edge76_Node000074_Node000035" title=" " alt="" coords="8577,117,8549,121,8425,136,8327,143,8230,151,8106,169,8074,177,8073,171,8106,164,8229,146,8327,138,8424,131,8548,116,8576,111"/>
-<area shape="poly" id="edge77_Node000074_Node000063" title=" " alt="" coords="8580,117,8549,121,8432,134,8333,141,8163,145,7994,149,7895,156,7778,169,7736,177,7735,171,7778,164,7895,151,7994,144,8163,139,8332,136,8432,129,8548,116,8579,111"/>
-<area shape="poly" id="edge82_Node000074_Node000064" title=" " alt="" coords="8597,118,8418,176,8416,171,8595,113"/>
-<area shape="poly" id="edge83_Node000074_Node000066" title=" " alt="" coords="8574,117,8549,121,8284,169,8248,177,8247,171,8283,164,8548,116,8573,111"/>
-<area shape="poly" id="edge84_Node000074_Node000067" title=" " alt="" coords="8579,117,8549,121,8385,139,8256,145,8128,152,7964,169,7922,177,7921,171,7963,164,8127,146,8256,140,8384,133,8548,116,8578,111"/>
-<area shape="rect" id="Node000075" href="$d9/d1a/cell__density_8c.html" title="Functions to create the &#39;density adjustment&#39; tab in the cell edition window." alt="" coords="8686,174,8873,199"/>
-<area shape="poly" id="edge78_Node000074_Node000075" title=" " alt="" coords="8676,117,8762,171,8760,176,8673,121"/>
-<area shape="rect" id="Node000076" href="$d3/d1b/cell__edit_8c.html" title="Functions to create the cell edition window." alt="" coords="8897,174,9062,199"/>
-<area shape="poly" id="edge79_Node000074_Node000076" title=" " alt="" coords="8703,112,8935,171,8934,177,8702,117"/>
-<area shape="rect" id="Node000077" href="$d1/d9f/cell__extra_8c.html" title="Functions to create the &#39;add cell(s)&#39; tab in the cell edition window." alt="" coords="9087,174,9261,199"/>
-<area shape="poly" id="edge80_Node000074_Node000077" title=" " alt="" coords="8715,111,8741,116,8908,140,9074,164,9116,171,9115,177,9074,169,8907,146,8740,121,8714,117"/>
-<area shape="rect" id="Node000078" href="$d1/d4a/cell__shift_8c.html" title="Functions to create the &#39;shift cell center&#39; tab for the cell edition window." alt="" coords="8494,174,8662,199"/>
-<area shape="poly" id="edge81_Node000074_Node000078" title=" " alt="" coords="8629,124,8589,175,8585,172,8625,121"/>
+<area shape="rect" id="Node000001" title="Messaging function declarations." alt="" coords="7485,5,7589,31"/>
+<area shape="rect" id="Node000002" href="$d1/dcc/calc_8c.html" title="Callbacks used in by the molecular dynamics calculation assistants &#160;&#160;Atom selection structure manipul..." alt="" coords="5,86,91,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="7470,22,6068,22,3659,27,2412,34,1314,44,500,60,241,70,103,81,78,88,76,83,102,76,241,65,500,55,1314,39,2412,28,3659,22,6068,16,7470,17"/>
+<area shape="rect" id="Node000003" href="$d0/da4/cp2k__files_8c.html" title="Functions to handle CP2K basis sets and pseudopotentials." alt="" coords="115,86,267,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="7470,22,6099,26,3749,37,1461,55,667,67,414,74,279,81,239,88,238,83,278,76,414,69,667,62,1461,50,3749,32,6099,21,7470,17"/>
+<area shape="rect" id="Node000004" href="$de/d92/cp2k__init_8c.html" title="Initialization of the CP2K input assistant." alt="" coords="291,86,437,111"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="7470,22,6128,26,3834,37,1603,55,828,67,581,74,450,81,411,88,410,83,449,76,581,69,828,62,1603,50,3834,32,6128,21,7470,17"/>
+<area shape="rect" id="Node000005" href="$d5/d8d/cp2k__mol_8c.html" title="Functions to fix fragment(s) when creating the CP2K input file." alt="" coords="461,86,611,111"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="7470,22,6158,27,3921,38,1747,56,992,67,751,74,623,81,583,88,582,83,622,76,751,69,991,62,1746,50,3921,32,6158,21,7470,17"/>
+<area shape="rect" id="Node000006" href="$dc/d4a/cp2k__print_8c.html" title="Functions to print the CP2K input file(s)" alt="" coords="635,86,789,111"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="7470,22,4010,38,1894,56,1159,68,925,74,800,81,760,88,759,83,800,76,925,69,1159,63,1894,51,4010,33,7470,17"/>
+<area shape="rect" id="Node000007" href="$d6/d03/cpmd__atoms_8c.html" title="Functions to handle dummy atom(s) for the CPMD input file." alt="" coords="813,86,985,111"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="7470,22,6279,21,4243,26,3170,33,2202,43,1442,59,1173,70,996,81,952,88,951,83,996,76,1173,64,1442,54,2202,38,3170,27,4243,21,6279,16,7470,17"/>
+<area shape="rect" id="Node000008" href="$dd/dc0/cpmd__init_8c.html" title="Functions to initialize the QM / QM&#45;MM input file creation assistant." alt="" coords="1009,86,1162,111"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="7470,22,4197,39,2203,57,1511,69,1291,75,1174,81,1133,88,1133,83,1173,76,1291,69,1511,63,2203,52,4197,34,7470,17"/>
+<area shape="rect" id="Node000009" href="$d6/dc0/cpmd__nose_8c.html" title="Functions to prepare the thermostat(s) configuration widgets for QM / QM&#45;MM input files." alt="" coords="1186,86,1350,111"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="7470,22,6340,21,4419,26,3409,33,2497,44,1781,60,1528,70,1362,81,1319,88,1318,83,1361,76,1528,64,1781,54,2497,39,3409,28,4419,21,6340,16,7470,17"/>
+<area shape="rect" id="Node000010" href="$d1/dcc/cpmd__print_8c.html" title="Functions to print the CPMD input file(s)" alt="" coords="1374,86,1535,111"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="7470,22,6370,22,4508,27,3530,34,2647,45,1955,60,1710,70,1548,81,1506,88,1505,83,1548,76,1709,65,1954,55,2647,39,3530,29,4508,22,6370,16,7470,17"/>
+<area shape="rect" id="Node000011" href="$db/d6f/cpmd__restart_8c.html" title="Functions to configure the restart section for the CPMD input file creation assistant." alt="" coords="1560,86,1733,111"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="7470,22,6403,23,4603,29,3659,37,2806,47,2138,62,1901,71,1746,81,1701,88,1700,83,1745,76,1901,66,2138,56,2806,42,3659,31,4603,24,6403,18,7470,17"/>
+<area shape="rect" id="Node000012" href="$d2/da2/dlp__atom_8c.html" title="Functions to handle atom selection(s) when creating a force field &#160;&#160;Functions to remove / add field a..." alt="" coords="1758,86,1917,111"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="7470,22,6434,22,4693,29,3779,36,2955,46,2309,61,2080,71,1930,81,1888,88,1887,83,1929,76,2080,65,2309,56,2955,41,3779,30,4693,23,6434,17,7470,17"/>
+<area shape="rect" id="Node000013" href="$d8/ded/dlp__comp_8c.html" title="Functions to compare and adjust field body parameters." alt="" coords="1941,86,2104,111"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="7470,22,6464,23,4782,30,3900,37,3105,47,2482,62,2262,71,2116,81,2074,88,2073,83,2116,76,2261,66,2482,57,3105,42,3900,32,4782,24,6464,18,7470,17"/>
+<area shape="rect" id="Node000014" href="$dc/d11/dlp__control_8c.html" title="Functions to handle the creation of the DL&#45;POLY CONTROL file." alt="" coords="2129,86,2298,111"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="7470,22,6497,24,4876,31,4027,39,3261,49,2662,63,2450,72,2310,81,2266,88,2265,83,2309,76,2449,66,2662,58,3261,44,4027,33,4876,26,6497,18,7470,17"/>
+<area shape="rect" id="Node000015" href="$d4/d28/dlp__edit_8c.html" title="Functions to edit DL&#45;POLY force field parameters." alt="" coords="2322,86,2473,111"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="7469,22,6525,23,4959,30,4140,37,3402,48,2824,62,2619,71,2484,81,2445,88,2444,83,2484,76,2619,66,2824,57,3402,42,4140,32,4959,24,6525,18,7469,17"/>
+<area shape="rect" id="Node000016" href="$dc/d79/dlp__ff__match_8c.html" title="Functions the list the available database parameters for the atom database window." alt="" coords="2497,79,2623,119"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="7470,22,6551,22,5033,27,4239,34,3525,45,2965,60,2767,70,2636,81,2624,83,2623,78,2636,76,2767,65,2965,55,3525,40,4239,29,5033,22,6551,17,7470,17"/>
+<area shape="rect" id="Node000017" href="$d3/d43/dlp__field_8c.html" title="Functions to prepare the DL&#45;POLY / LAMMPS input preparation assistant &#160;&#160;Functions to design a classic..." alt="" coords="2648,86,2803,111"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="7470,22,6581,24,5120,32,4357,39,3669,50,3131,64,2941,72,2815,81,2775,88,2774,83,2814,76,2940,67,3131,58,3669,44,4357,34,5120,27,6581,19,7470,17"/>
+<area shape="rect" id="Node000018" href="$d6/d78/dlp__init_8c.html" title="Functions to initialize the creation of a classical force field." alt="" coords="2827,86,2973,111"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="7470,22,6610,24,5202,32,4468,39,3807,50,3290,64,3107,72,2986,81,2947,88,2946,83,2985,76,3106,67,3289,58,3807,44,4468,34,5202,27,6610,19,7470,17"/>
+<area shape="rect" id="Node000019" href="$d7/d6f/dlp__mol_8c.html" title="Functions to add / remove molecule(s) to / from the force field." alt="" coords="2998,86,3149,111"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="7469,22,6640,25,5288,33,4583,41,3949,51,3453,65,3278,72,3162,81,3122,88,3121,83,3161,76,3277,67,3453,59,3949,46,4583,36,5288,28,6640,19,7469,17"/>
+<area shape="rect" id="Node000020" href="$d2/dc7/dlp__print_8c.html" title="Functions to handle the output of the DL&#45;POLY FIELD file &#160;&#160;Functions to handle the output of the DL&#45;P..." alt="" coords="3173,86,3328,111"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="7470,22,6670,25,5374,35,4094,52,3619,65,3451,73,3340,81,3300,88,3299,83,3340,76,3451,68,3619,60,4094,47,5374,29,6670,20,7470,17"/>
+<area shape="rect" id="Node000021" href="$d7/d30/force__fields_8c.html" title="Functions to prepare the force field XML files from the sources in atomes &#160;&#160;Functions to read the for..." alt="" coords="3353,79,3503,119"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="7470,22,6700,26,5460,35,4235,53,3782,66,3621,73,3515,81,3504,83,3504,77,3514,76,3621,68,3781,60,4235,47,5460,30,6700,20,7470,17"/>
+<area shape="rect" id="Node000022" href="$da/d65/la__print_8c.html" title="Functions to print the LAMMPS input file(s)" alt="" coords="3527,86,3681,111"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="7470,22,6731,26,5546,36,4379,54,3946,66,3692,81,3653,88,3652,83,3692,76,3946,61,4379,49,5546,31,6731,21,7470,17"/>
+<area shape="rect" id="Node000023" href="$d3/d0c/cedit_8c.html" title="Initialization of the curve layout edition dialog." alt="" coords="3705,86,3802,111"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="7470,22,6751,23,5605,30,5011,37,4477,47,4060,62,3912,71,3815,81,3787,88,3786,83,3814,76,3912,66,4060,57,4477,42,5010,31,5605,24,6751,18,7470,17"/>
+<area shape="rect" id="Node000024" href="$dc/d22/curve_8c.html" title="Functions to manage curves." alt="" coords="3827,86,3928,111"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="7470,22,6773,24,5666,31,5093,38,4579,49,4176,63,4034,71,3940,81,3912,88,3911,83,3940,76,4034,66,4176,57,4578,43,5093,33,5666,26,6773,18,7470,17"/>
+<area shape="rect" id="Node000025" href="$d4/d80/cwidget_8c.html" title="Initialization of the curve widget." alt="" coords="3952,86,4067,111"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="7470,22,6798,25,5735,34,4691,52,4306,65,4169,73,4079,81,4048,88,4047,83,4078,76,4169,67,4305,59,4691,46,5734,29,6798,20,7470,17"/>
+<area shape="rect" id="Node000026" href="$da/dae/datab_8c.html" title="Curve data edition window and associated callbacks." alt="" coords="4091,86,4192,111"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="7470,22,6820,24,5796,33,5267,40,4793,50,4422,64,4291,72,4204,81,4176,88,4175,83,4204,76,4291,67,4422,59,4793,45,5267,35,5796,27,6820,19,7470,17"/>
+<area shape="rect" id="Node000027" href="$df/df7/tab-1_8c.html" title="1st tab of the curve layout edition dialog" alt="" coords="4216,86,4315,111"/>
+<area shape="poly" id="edge26_Node000001_Node000027" title=" " alt="" coords="7470,22,6841,25,5856,33,5348,41,4892,51,4536,64,4410,72,4327,81,4299,88,4298,83,4326,76,4410,67,4536,59,4892,46,5348,35,5856,28,6841,19,7470,17"/>
+<area shape="rect" id="Node000028" href="$de/d1f/tab-2_8c.html" title="2nd tab of the curve layout edition dialog" alt="" coords="4339,86,4437,111"/>
+<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="7470,22,6862,25,5916,34,4991,52,4650,65,4529,73,4450,81,4422,88,4421,83,4449,76,4529,67,4650,60,4991,46,5916,29,6862,20,7470,17"/>
+<area shape="rect" id="Node000029" href="$d1/d6f/tab-3_8c.html" title="3rd tab of the curve layout edition dialog" alt="" coords="4461,86,4560,111"/>
+<area shape="poly" id="edge28_Node000001_Node000029" title=" " alt="" coords="7470,22,6884,26,5976,35,5091,53,4764,65,4649,73,4572,81,4545,88,4543,83,4572,76,4648,68,4764,60,5091,47,5976,29,6884,20,7470,17"/>
+<area shape="rect" id="Node000030" href="$d8/d62/tab-4_8c.html" title="4th tab of the curve layout edition dialog" alt="" coords="4584,86,4683,111"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="7470,22,6905,26,6036,36,5190,53,4878,66,4695,81,4667,88,4666,83,4694,76,4878,61,5190,48,6036,30,6905,21,7470,17"/>
+<area shape="rect" id="Node000031" href="$df/d15/w__data_8c.html" title="Functions to export curve data." alt="" coords="4707,86,4818,111"/>
+<area shape="poly" id="edge30_Node000001_Node000031" title=" " alt="" coords="7470,22,6931,27,6104,38,5301,56,5005,68,4831,81,4800,88,4799,83,4830,76,5005,62,5301,51,6104,33,6931,22,7470,17"/>
+<area shape="rect" id="Node000032" href="$dc/dc8/w__img_8c.html" title="Functions to save screenshot from graph / curve(s)" alt="" coords="4843,86,4949,111"/>
+<area shape="poly" id="edge31_Node000001_Node000032" title=" " alt="" coords="7470,23,6953,28,6168,39,5407,56,5127,68,4962,81,4932,88,4931,83,4961,76,5126,63,5407,51,6168,33,6953,22,7470,17"/>
+<area shape="rect" id="Node000033" href="$d5/d34/bdcall_8c.html" title="Callbacks for the bond properties calculation dialog." alt="" coords="4973,86,5061,111"/>
+<area shape="poly" id="edge32_Node000001_Node000033" title=" " alt="" coords="7470,22,6973,27,6223,37,5498,55,5231,67,5074,81,5048,88,5047,83,5073,76,5230,61,5497,49,6223,32,6973,21,7470,17"/>
+<area shape="rect" id="Node000034" href="$d8/d5e/calc__menu_8c.html" title="Creation of the calculation dialogs." alt="" coords="5085,86,5203,111"/>
+<area shape="poly" id="edge33_Node000001_Node000034" title=" " alt="" coords="7470,22,7041,21,6387,27,6039,34,5711,45,5428,60,5215,81,5183,88,5182,83,5214,76,5428,55,5711,39,6039,28,6387,21,7041,16,7470,16"/>
+<area shape="rect" id="Node000035" href="$d3/d3a/callbacks_8c.html" title="General callbacks &#160;&#160;Functions to open and close files." alt="" coords="7791,174,7900,199"/>
+<area shape="poly" id="edge34_Node000001_Node000035" title=" " alt="" coords="7605,18,7756,22,7938,32,8098,50,8153,62,8183,76,8208,100,8232,117,8272,134,8297,136,8300,135,8298,134,8270,126,8201,124,8085,136,7913,169,7886,176,7885,171,7911,164,8084,131,8201,119,8271,121,8301,129,8305,136,8298,141,8271,140,8229,122,8205,105,8180,81,8151,67,8097,55,7938,38,7756,28,7605,23"/>
+<area shape="rect" id="Node000036" href="$d2/d01/chainscall_8c.html" title="Callbacks for the chains statistics calculation dialog." alt="" coords="5408,86,5520,111"/>
+<area shape="poly" id="edge35_Node000001_Node000036" title=" " alt="" coords="7470,22,7093,23,6531,30,6234,37,5955,48,5714,62,5532,81,5502,88,5501,83,5532,76,5713,57,5955,42,6234,32,6531,24,7093,18,7470,17"/>
+<area shape="rect" id="Node000037" href="$d8/da6/edit__menu_8c.html" title="Creation of the edition dialogs." alt="" coords="5544,86,5659,111"/>
+<area shape="poly" id="edge36_Node000001_Node000037" title=" " alt="" coords="7470,22,7116,24,6595,32,6062,50,5839,64,5671,81,5640,88,5639,83,5670,76,5838,58,6061,44,6595,27,7116,19,7470,17"/>
+<area shape="rect" id="Node000038" href="$dc/d6b/grcall_8c.html" title="Callbacks for the g(r)/g(k) calculation dialog." alt="" coords="5683,86,5768,111"/>
+<area shape="poly" id="edge37_Node000001_Node000038" title=" " alt="" coords="7470,22,7134,22,6645,28,6387,35,6145,46,5937,61,5781,81,5756,88,5754,83,5779,76,5936,56,6145,41,6387,30,6645,23,7134,17,7470,16"/>
+<area shape="rect" id="Node000039" href="$d8/d90/gtk-misc_8c.html" title="GTK3/GTK4 utility subroutines, instead of having pre&#45;processor flags everywhere in the code...." alt="" coords="5792,86,5896,111"/>
+<area shape="poly" id="edge38_Node000001_Node000039" title=" " alt="" coords="7470,22,7156,25,6704,34,6244,51,6053,65,5908,81,5880,88,5879,83,5908,76,6052,59,6244,46,6704,28,7156,20,7470,17"/>
+<area shape="rect" id="Node000040" href="$d5/d03/gui_8c.html" title="GUI of the main window &#160;&#160;Menu elements of the workspace menu &#160;&#160;Creation of menu items,..." alt="" coords="5921,86,5991,111"/>
+<area shape="poly" id="edge39_Node000001_Node000040" title=" " alt="" coords="7469,22,7172,22,6747,29,6525,36,6317,47,6139,62,6005,81,5983,88,5981,83,6003,76,6138,56,6317,41,6525,31,6747,24,7172,17,7469,16"/>
+<area shape="rect" id="Node000041" href="$dd/dc3/main-b_8c.html" title=" " alt="" coords="6016,86,6109,111"/>
+<area shape="poly" id="edge40_Node000001_Node000041" title=" " alt="" coords="7470,22,7193,26,6803,35,6409,53,6245,65,6122,81,6095,88,6094,83,6121,76,6245,60,6409,47,6802,30,7192,21,7469,17"/>
+<area shape="rect" id="Node000042" href="$d0/d29/main_8c.html" title="Initialization of the atomes program &#160;&#160;Functions required to read data from the command line." alt="" coords="6133,86,6216,111"/>
+<area shape="poly" id="edge41_Node000001_Node000042" title=" " alt="" coords="7470,22,7211,26,6852,35,6491,53,6341,65,6229,81,6204,88,6203,83,6227,76,6341,60,6491,47,6852,30,7211,21,7470,17"/>
+<area shape="rect" id="Node000043" href="$d8/d2b/msdcall_8c.html" title="Callbacks for the MSD calculation dialog." alt="" coords="6240,86,6339,111"/>
+<area shape="poly" id="edge42_Node000001_Node000043" title=" " alt="" coords="7470,23,6910,40,6587,57,6453,68,6351,81,6324,88,6323,83,6350,76,6452,63,6586,52,6910,34,7470,18"/>
+<area shape="rect" id="Node000044" href="$d9/dc4/ringscall_8c.html" title="Callbacks for the ring statistics calculation dialog." alt="" coords="6363,86,6466,111"/>
+<area shape="poly" id="edge43_Node000001_Node000044" title=" " alt="" coords="7470,24,6971,42,6686,59,6568,70,6479,81,6451,88,6450,83,6478,76,6568,64,6686,54,6970,37,7470,18"/>
+<area shape="rect" id="Node000045" href="$d9/dbe/spcall_8c.html" title="Callbacks for the spherical harmonics calculation dialog." alt="" coords="6491,86,6579,111"/>
+<area shape="poly" id="edge44_Node000001_Node000045" title=" " alt="" coords="7470,24,7024,42,6773,59,6670,70,6591,81,6566,88,6565,83,6590,76,6669,64,6773,54,7023,37,7470,19"/>
+<area shape="rect" id="Node000046" href="$d5/dde/sqcall_8c.html" title="Callbacks for the s(q) / s(k) calculation dialog." alt="" coords="6603,86,6691,111"/>
+<area shape="poly" id="edge45_Node000001_Node000046" title=" " alt="" coords="7470,21,7329,22,7138,30,6921,48,6811,63,6703,81,6678,88,6677,83,6702,76,6810,57,6921,43,7138,25,7329,17,7470,16"/>
+<area shape="rect" id="Node000047" href="$d1/d9e/tools_8c.html" title="Callbacks for the toolbox dialog." alt="" coords="6715,86,6797,111"/>
+<area shape="poly" id="edge46_Node000001_Node000047" title=" " alt="" coords="7470,22,7346,25,7181,33,6996,51,6903,65,6811,81,6787,88,6786,83,6810,76,6902,59,6996,46,7181,28,7346,19,7470,17"/>
+<area shape="rect" id="Node000048" href="$d7/d29/work__menu_8c.html" title="Workspace menu GTK3 version &#160;&#160;Callbacks for the workspace menu." alt="" coords="6822,86,6943,111"/>
+<area shape="poly" id="edge47_Node000001_Node000048" title=" " alt="" coords="7470,26,7241,44,7099,60,6956,81,6926,88,6925,83,6956,76,7098,54,7241,38,7469,20"/>
+<area shape="rect" id="Node000049" href="$dc/d5c/d__label_8c.html" title="Functions to prepare the OpenGL rendering of the atomic label(s)" alt="" coords="6967,86,7115,111"/>
+<area shape="poly" id="edge48_Node000001_Node000049" title=" " alt="" coords="7470,30,7314,52,7128,81,7094,88,7093,83,7128,76,7313,46,7469,25"/>
+<area shape="rect" id="Node000050" href="$d3/d10/image_8c.html" title="Functions to render an image from the OpenGL window." alt="" coords="7139,86,7282,111"/>
+<area shape="poly" id="edge49_Node000001_Node000050" title=" " alt="" coords="7473,37,7261,88,7260,83,7472,32"/>
+<area shape="rect" id="Node000051" href="$d8/dee/movie_8c.html" title="Functions to encode a movie / render an image from the OpenGL rendering." alt="" coords="7306,86,7449,111"/>
+<area shape="poly" id="edge50_Node000001_Node000051" title=" " alt="" coords="7501,40,7403,88,7401,83,7498,35"/>
+<area shape="rect" id="Node000052" href="$d5/d9c/atom__edit_8h.html" title="Function declarations for the mode edition window." alt="" coords="5227,86,5384,111"/>
+<area shape="poly" id="edge51_Node000001_Node000052" title=" " alt="" coords="7470,22,7071,25,6470,34,5851,52,5592,65,5396,81,5356,88,5355,83,5396,76,5591,60,5851,47,6470,29,7071,20,7470,17"/>
+<area shape="rect" id="Node000063" href="$d0/dd3/cbuild__action_8c.html" title="Functions to build a crystal using space group, crystallographic position(s) and object(s) to insert." alt="" coords="6116,167,6239,207"/>
+<area shape="poly" id="edge73_Node000001_Node000063" title=" " alt="" coords="7528,46,7503,86,7484,106,7463,121,7430,132,7381,140,7241,152,7061,159,6861,161,6479,162,6336,164,6251,169,6240,171,6239,166,6250,164,6336,159,6479,157,6861,156,7061,153,7240,147,7380,135,7429,127,7460,116,7481,102,7498,83,7524,43"/>
+<area shape="rect" id="Node000066" href="$dc/d50/selection_8c.html" title="Functions handling the atom and bond selection process in the OpenGL window." alt="" coords="6263,174,6390,199"/>
+<area shape="poly" id="edge89_Node000001_Node000066" title=" " alt="" coords="7539,47,7531,86,7521,105,7507,121,7479,134,7435,144,7309,158,7145,165,6962,167,6611,165,6480,165,6402,169,6369,176,6368,171,6401,164,6480,160,6611,160,6962,161,7145,159,7309,152,7434,139,7477,129,7504,117,7517,102,7526,84,7534,46"/>
+<area shape="rect" id="Node000069" href="$d5/da4/popup_8c.html" title="Functions to create the OpenGL window popup menus:" alt="" coords="6414,174,6549,199"/>
+<area shape="poly" id="edge100_Node000001_Node000069" title=" " alt="" coords="7555,43,7568,82,7568,102,7558,121,7540,128,7505,135,7392,145,7065,157,6735,164,6562,169,6526,176,6525,171,6561,164,6734,159,7065,152,7392,139,7504,129,7538,123,7554,117,7562,101,7563,83,7550,45"/>
+<area shape="rect" id="Node000071" href="$d8/de9/w__volumes_8c.html" title="Functions to create the &#39;Volumes&#39; window &#160;&#160;Functions to compute system / fragment / molecular volumes..." alt="" coords="6573,174,6739,199"/>
+<area shape="poly" id="edge115_Node000001_Node000071" title=" " alt="" coords="7570,38,7591,56,7609,77,7617,99,7615,110,7609,121,7588,133,7556,143,7459,156,7333,164,7190,167,6916,167,6752,169,6711,176,6710,171,6752,164,6916,161,7190,162,7332,158,7459,151,7554,137,7586,128,7605,117,7610,108,7612,99,7604,79,7588,60,7567,42"/>
+<area shape="rect" id="Node000072" href="$d8/d50/read__cif_8c.html" title="Functions to read CIF files." alt="" coords="6763,167,6901,207"/>
+<area shape="poly" id="edge121_Node000001_Node000072" title=" " alt="" coords="7604,34,7635,51,7660,77,7668,99,7666,110,7659,121,7642,131,7613,140,7529,153,7419,160,7295,164,7056,165,6914,169,6902,171,6901,166,6913,164,7056,160,7295,158,7419,155,7528,147,7612,135,7639,127,7655,117,7661,108,7663,100,7655,80,7632,56,7602,39"/>
+<area shape="rect" id="Node000073" href="$db/d0b/cbuild__edit_8c.html" title="Functions to create the crystal builder window." alt="" coords="7900,79,8023,119"/>
+<area shape="poly" id="edge74_Node000001_Node000073" title=" " alt="" coords="7605,26,7737,47,7889,76,7900,79,7899,84,7887,81,7736,53,7604,32"/>
+<area shape="rect" id="Node000074" href="$d9/ded/cbuild__info_8c.html" title="Functions to create the space group information dialog." alt="" coords="8047,79,8169,119"/>
+<area shape="poly" id="edge75_Node000001_Node000074" title=" " alt="" coords="7605,22,7799,41,7917,57,8035,76,8047,78,8046,84,8034,81,7916,62,7799,47,7605,27"/>
+<area shape="rect" id="Node000075" href="$d9/d97/cell__edit_8h.html" title="Function declarations for the cell edition window." alt="" coords="7727,86,7875,111"/>
+<area shape="poly" id="edge76_Node000001_Node000075" title=" " alt="" coords="7592,33,7762,83,7760,88,7591,38"/>
+<area shape="rect" id="Node000080" href="$dc/d21/glview_8c.html" title="Callbacks of the OpenGL window." alt="" coords="8245,86,8355,111"/>
+<area shape="poly" id="edge86_Node000001_Node000080" title=" " alt="" coords="7605,19,7877,35,8051,52,8226,76,8258,83,8257,88,8225,81,8050,57,7877,41,7605,24"/>
+<area shape="rect" id="Node000081" href="$d9/db9/ogl__shading_8c.html" title="Functions to create GLSL programs &#160;&#160;Functions to manage GLSL programs." alt="" coords="8380,86,8524,111"/>
+<area shape="poly" id="edge87_Node000001_Node000081" title=" " alt="" coords="7605,18,7934,33,8150,50,8368,76,8404,83,8403,88,8368,81,8150,55,7934,38,7605,23"/>
+<area shape="rect" id="Node000082" href="$d1/db9/ogl__utils_8c.html" title="2D and 3D calculations utilities for distances and angles" alt="" coords="8548,86,8671,111"/>
+<area shape="poly" id="edge88_Node000001_Node000082" title=" " alt="" coords="7605,16,7770,18,8001,26,8267,44,8403,58,8536,76,8569,83,8568,88,8536,81,8403,63,8267,49,8001,31,7770,23,7605,22"/>
+<area shape="rect" id="Node000083" href="$dc/d16/color__box_8c.html" title="Functions to create the color palettes for the menus of the OpenGL window &#160;&#160;Callbacks to set the colo..." alt="" coords="8695,86,8849,111"/>
+<area shape="poly" id="edge90_Node000001_Node000083" title=" " alt="" coords="7605,17,7791,19,8058,27,8368,45,8527,58,8683,76,8722,83,8721,88,8682,81,8527,64,8367,50,8057,32,7791,24,7605,22"/>
+<area shape="rect" id="Node000084" href="$da/d13/initchain_8c.html" title="Functions collecting chain(s) data from Fortran90 &#160;&#160;Functions allocating chain(s) data from Fortran90..." alt="" coords="8873,86,9020,111"/>
+<area shape="poly" id="edge91_Node000001_Node000084" title=" " alt="" coords="7605,18,8229,37,8594,54,8746,64,8862,76,8900,83,8899,88,8861,81,8746,70,8594,59,8229,42,7605,24"/>
+<area shape="rect" id="Node000085" href="$d6/d35/initcoord_8c.html" title="Coordinations and polyhedra menus initialization &#160;&#160;Coordinations and polyhedra GTK3 menus and menu it..." alt="" coords="9045,86,9193,111"/>
+<area shape="poly" id="edge92_Node000001_Node000085" title=" " alt="" coords="7605,18,8308,35,8726,52,8900,63,9032,76,9071,83,9070,88,9032,81,8900,69,8726,58,8308,41,7605,23"/>
+<area shape="rect" id="Node000086" href="$d2/def/initmol_8c.html" title="Functions to retrieve fragments data from Fortran90 &#160;&#160;Functions to retrieve molecules data from Fortr..." alt="" coords="9217,86,9354,111"/>
+<area shape="poly" id="edge93_Node000001_Node000086" title=" " alt="" coords="7605,17,7925,22,8388,32,8860,49,9057,61,9206,76,9242,83,9241,88,9205,81,9056,67,8860,55,8388,37,7925,27,7605,23"/>
+<area shape="rect" id="Node000087" href="$d4/da4/m__coord_8c.html" title="Functions to create the &#39;Chemistry &#45;&gt; Coordination&#39; submenu." alt="" coords="9379,86,9528,111"/>
+<area shape="poly" id="edge94_Node000001_Node000087" title=" " alt="" coords="7605,17,7952,21,8462,31,8984,49,9202,61,9367,76,9406,83,9405,88,9366,81,9202,67,8984,54,8462,37,7952,27,7605,23"/>
+<area shape="rect" id="Node000088" href="$da/d3d/m__map_8c.html" title="Functions to create the &#39;OpenGL &#45;&gt; Color Scheme(s)&#39; submenus &#160;&#160;Functions to handle custom color maps." alt="" coords="9553,86,9695,111"/>
+<area shape="poly" id="edge95_Node000001_Node000088" title=" " alt="" coords="7605,17,7981,20,8541,29,9117,47,9358,60,9540,76,9578,83,9577,88,9540,81,9358,65,9117,52,8541,34,7981,25,7605,22"/>
+<area shape="rect" id="Node000089" href="$d6/d68/m__poly_8c.html" title="Functions to create the &#39;Chemistry &#45;&gt; Polyhedra&#39; submenus." alt="" coords="9719,86,9859,111"/>
+<area shape="poly" id="edge96_Node000001_Node000089" title=" " alt="" coords="7605,17,8010,19,8619,26,9247,44,9510,58,9708,76,9745,83,9744,88,9708,81,9510,63,9247,50,8619,32,8010,24,7605,22"/>
+<area shape="rect" id="Node000090" href="$db/d52/m__quality_8c.html" title="Functions to create the &#39;OengGL &#45;&gt; Quality&#39; submenu." alt="" coords="9884,86,10039,111"/>
+<area shape="poly" id="edge97_Node000001_Node000090" title=" " alt="" coords="7605,17,8036,19,8693,27,9372,44,9657,58,9872,76,9912,83,9912,88,9872,81,9657,64,9372,50,8693,32,8036,24,7605,22"/>
+<area shape="rect" id="Node000091" href="$da/d98/m__rep_8c.html" title="Functions to create the &#39;View &#45;&gt; Representation&#39; submenu." alt="" coords="10063,86,10198,111"/>
+<area shape="poly" id="edge98_Node000001_Node000091" title=" " alt="" coords="7605,16,8065,16,8774,22,9152,29,9510,40,9819,55,10051,76,10087,83,10086,88,10050,81,9818,61,9510,45,9152,35,8774,28,8065,22,7605,22"/>
+<area shape="rect" id="Node000092" href="$d5/dbe/menu__bar_8c.html" title="Functions to create the menu bar of the OpenGL window &#160;&#160;Functions to create the menu items for the me..." alt="" coords="10222,86,10378,111"/>
+<area shape="poly" id="edge99_Node000001_Node000092" title=" " alt="" coords="7605,16,8091,17,8846,23,9250,30,9632,41,9962,56,10211,76,10252,83,10251,88,10210,81,9962,61,9632,46,9250,36,8846,29,8091,22,7605,22"/>
+<area shape="rect" id="Node000093" href="$d8/db9/w__advance_8c.html" title="Functions to create the OpenGL parameters edition window." alt="" coords="10403,86,10568,111"/>
+<area shape="poly" id="edge101_Node000001_Node000093" title=" " alt="" coords="7605,16,8119,17,8927,23,9360,30,9770,41,10124,56,10391,76,10434,83,10433,88,10390,81,10124,61,9770,46,9360,35,8927,28,8119,22,7605,22"/>
+<area shape="rect" id="Node000094" href="$dd/d61/w__atoms_8c.html" title="Functions to create the atom(s) / clone(s) advanced configuration window." alt="" coords="10592,86,10744,111"/>
+<area shape="poly" id="edge102_Node000001_Node000094" title=" " alt="" coords="7605,17,9136,35,10046,53,10382,64,10580,76,10620,83,10619,88,10580,81,10382,69,10046,58,9136,40,7605,23"/>
+<area shape="rect" id="Node000095" href="$da/d3c/w__axis_8c.html" title="Functions to create the axis parameters edition window." alt="" coords="10769,86,10909,111"/>
+<area shape="poly" id="edge103_Node000001_Node000095" title=" " alt="" coords="7605,17,8235,22,9222,33,10189,51,10546,62,10756,76,10794,83,10793,88,10756,81,10546,68,10189,56,9222,38,8235,27,7605,22"/>
+<area shape="rect" id="Node000096" href="$d9/d11/w__bonds_8c.html" title="Functions to create the bond (legnth/radius) edition window(s)" alt="" coords="10933,86,11083,111"/>
+<area shape="poly" id="edge104_Node000001_Node000096" title=" " alt="" coords="7605,17,8264,22,9303,33,10322,51,10700,62,10922,76,10961,83,10960,88,10921,81,10699,68,10322,56,9303,38,8264,27,7605,22"/>
+<area shape="rect" id="Node000097" href="$d2/ddf/w__box_8c.html" title="Functions to create the box properties window." alt="" coords="11107,86,11245,111"/>
+<area shape="poly" id="edge105_Node000001_Node000097" title=" " alt="" coords="7605,17,8295,21,9389,31,10464,48,10862,61,11096,76,11133,83,11132,88,11096,81,10862,66,10464,54,9389,36,8294,26,7605,22"/>
+<area shape="rect" id="Node000098" href="$d3/d82/w__chains_8c.html" title="Functions to create the chain(s) tab for the advanced environments window." alt="" coords="11269,86,11424,111"/>
+<area shape="poly" id="edge106_Node000001_Node000098" title=" " alt="" coords="7605,17,8322,21,9468,32,10595,49,11012,62,11258,76,11298,83,11297,88,11257,81,11012,67,10595,55,9468,37,8322,27,7605,22"/>
+<area shape="rect" id="Node000099" href="$d2/d92/w__colors_8c.html" title="Functions to create the color selection dialogs." alt="" coords="11449,86,11599,111"/>
+<area shape="poly" id="edge107_Node000001_Node000099" title=" " alt="" coords="7605,17,8354,21,9555,30,10739,48,11178,61,11436,76,11476,83,11475,88,11436,81,11178,66,10739,54,9555,36,8353,26,7605,22"/>
+<area shape="rect" id="Node000100" href="$d7/df0/w__coord_8c.html" title="Functions to create the &#39;Environments configuration&#39; window." alt="" coords="11623,86,11771,111"/>
+<area shape="poly" id="edge108_Node000001_Node000100" title=" " alt="" coords="7605,17,8383,20,9641,29,10882,47,11342,60,11505,67,11612,76,11651,83,11650,88,11612,81,11504,73,11342,65,10882,52,9641,34,8383,25,7605,22"/>
+<area shape="rect" id="Node000101" href="$d4/db9/w__cutoffs_8c.html" title="Functions to create the bond cutoffs update dialog." alt="" coords="11796,86,11951,111"/>
+<area shape="poly" id="edge109_Node000001_Node000101" title=" " alt="" coords="7605,17,8413,20,9724,29,11021,47,11502,60,11672,67,11784,76,11825,83,11824,88,11784,81,11671,73,11501,65,11021,52,9724,34,8413,25,7605,22"/>
+<area shape="rect" id="Node000102" href="$da/daf/w__encode_8c.html" title="Functions to create the encoding (image/video) window." alt="" coords="11975,86,12134,111"/>
+<area shape="poly" id="edge110_Node000001_Node000102" title=" " alt="" coords="7605,17,8443,20,9811,29,11165,47,11667,60,11845,67,11963,76,12005,83,12004,88,11962,81,11845,73,11667,65,11165,52,9811,34,8443,25,7605,22"/>
+<area shape="rect" id="Node000103" href="$dc/d44/w__labels_8c.html" title="Functions to create the &#39;atomic labels&#39; tab of the atom(s) / clone(s) advanced configuration window &#160;..." alt="" coords="12158,86,12309,111"/>
+<area shape="poly" id="edge111_Node000001_Node000103" title=" " alt="" coords="7605,17,8474,19,9900,27,10644,34,11314,44,11839,58,12024,67,12147,76,12186,83,12185,88,12146,81,12024,72,11838,64,11314,50,10644,39,9900,32,8474,24,7605,22"/>
+<area shape="rect" id="Node000104" href="$d3/db3/w__library_8c.html" title="Functions to create the molecular library &#160;&#160;Functions to read the &#39;Simple chemical XML&#39; files." alt="" coords="12333,86,12483,111"/>
+<area shape="poly" id="edge112_Node000001_Node000104" title=" " alt="" coords="7605,17,8504,18,9985,26,10758,33,11455,44,12001,58,12194,66,12322,76,12361,83,12360,88,12321,81,12194,72,12001,63,11455,49,10758,38,9985,31,8504,24,7605,22"/>
+<area shape="rect" id="Node000105" href="$d9/d99/w__rings_8c.html" title="Functions to create the ring(s) tab for the advanced environments window." alt="" coords="12508,86,12652,111"/>
+<area shape="poly" id="edge113_Node000001_Node000105" title=" " alt="" coords="7605,17,8533,18,10069,24,10872,31,11596,42,12163,57,12364,66,12496,76,12535,83,12534,88,12496,81,12363,71,12163,62,11596,47,10872,37,10069,30,8533,23,7605,22"/>
+<area shape="rect" id="Node000106" href="$d9/d33/w__sequencer_8c.html" title="Functions to create the MD sequencer window." alt="" coords="12676,86,12852,111"/>
+<area shape="poly" id="edge114_Node000001_Node000106" title=" " alt="" coords="7605,17,8561,19,10150,27,10982,35,11731,45,12319,59,12527,67,12664,76,12710,83,12709,88,12664,81,12527,72,12319,64,11731,50,10982,40,10150,33,8561,24,7605,22"/>
+<area shape="rect" id="Node000107" href="$d3/d50/close__p_8c.html" title="Functions to close an atomes project &#160;&#160;Callbacks to close an atomes project." alt="" coords="12877,86,12998,111"/>
+<area shape="poly" id="edge116_Node000001_Node000107" title=" " alt="" coords="7605,17,10356,34,12011,52,12584,63,12767,69,12864,76,12898,83,12897,88,12864,81,12766,75,12584,69,12011,57,10356,39,7605,22"/>
+<area shape="rect" id="Node000108" href="$df/dd5/init__p_8c.html" title="Functions to initialize an atomes project." alt="" coords="13023,86,13129,111"/>
+<area shape="poly" id="edge117_Node000001_Node000108" title=" " alt="" coords="7605,17,8667,21,10431,32,12133,50,12723,62,12911,69,13011,76,13041,83,13040,88,13010,81,12910,74,12723,67,12133,55,10431,37,8667,27,7605,22"/>
+<area shape="rect" id="Node000109" href="$da/d5e/open__p_8c.html" title="Functions to start the reading of an atomes project file." alt="" coords="13154,86,13273,111"/>
+<area shape="poly" id="edge118_Node000001_Node000109" title=" " alt="" coords="7605,17,10496,33,12241,51,12846,63,13039,69,13142,76,13175,83,13174,88,13141,81,13038,74,12846,68,12241,56,10496,38,7605,22"/>
+<area shape="rect" id="Node000110" href="$d2/d0d/project_8c.html" title="Project management functions." alt="" coords="13297,86,13412,111"/>
+<area shape="poly" id="edge119_Node000001_Node000110" title=" " alt="" coords="7605,17,8715,21,10569,32,12361,50,12982,62,13180,69,13286,76,13318,83,13317,88,13285,81,13180,74,12982,67,12361,55,10569,37,8715,27,7605,22"/>
+<area shape="rect" id="Node000111" href="$da/d70/read__c3d_8c.html" title="Functions to read Chem3d atomic coordinates." alt="" coords="13437,79,13574,119"/>
+<area shape="poly" id="edge120_Node000001_Node000111" title=" " alt="" coords="7605,17,10638,34,12476,52,13113,63,13316,69,13424,76,13437,78,13436,83,13424,81,13315,75,13113,69,12476,57,10638,39,7605,22"/>
+<area shape="rect" id="Node000112" href="$d5/d22/read__coord_8c.html" title="General functions to import atomic coordinates." alt="" coords="13598,79,13735,119"/>
+<area shape="poly" id="edge122_Node000001_Node000112" title=" " alt="" coords="7605,17,10720,33,12611,51,13266,63,13475,69,13587,76,13598,78,13597,83,13586,81,13475,75,13266,68,12611,57,10720,39,7605,22"/>
+<area shape="rect" id="Node000113" href="$df/df9/read__hist_8c.html" title="Functions to read DL&#45;POLY history file." alt="" coords="13759,79,13897,119"/>
+<area shape="poly" id="edge123_Node000001_Node000113" title=" " alt="" coords="7605,17,10801,33,12745,51,13419,62,13633,69,13748,76,13759,78,13758,83,13748,81,13633,74,13419,68,12745,56,10801,38,7605,22"/>
+<area shape="rect" id="Node000114" href="$dd/d72/read__isaacs_8c.html" title="Functions to read an ISAACS XML file &#160;&#160;Functions to write an ISAACS XML file." alt="" coords="13921,79,14058,119"/>
+<area shape="poly" id="edge124_Node000001_Node000114" title=" " alt="" coords="7605,17,8824,21,10882,32,12879,50,13571,62,13792,69,13910,76,13920,78,13920,83,13909,81,13791,74,13571,68,12879,56,10882,38,8824,27,7605,22"/>
+<area shape="rect" id="Node000115" href="$d1/da7/read__npt_8c.html" title="Functions to read NPT data." alt="" coords="14082,79,14219,119"/>
+<area shape="poly" id="edge125_Node000001_Node000115" title=" " alt="" coords="7605,17,8851,21,10962,32,13012,50,13723,62,13950,69,14071,76,14082,78,14081,83,14070,81,13950,74,13723,67,13012,55,10962,37,8851,27,7605,22"/>
+<area shape="rect" id="Node000116" href="$d9/d42/read__pdb_8c.html" title="Functions to read PDB files." alt="" coords="14243,79,14381,119"/>
+<area shape="poly" id="edge126_Node000001_Node000116" title=" " alt="" coords="7605,17,8879,21,11044,32,13146,50,13876,62,14108,69,14232,76,14243,78,14242,83,14232,81,14108,74,13876,67,13146,55,11043,37,8879,26,7605,22"/>
+<area shape="rect" id="Node000117" href="$d9/deb/read__trj_8c.html" title="Functions to read CPMD atomic coordinates." alt="" coords="14405,79,14542,119"/>
+<area shape="poly" id="edge127_Node000001_Node000117" title=" " alt="" coords="7605,17,8906,21,11124,31,13280,49,14028,61,14266,68,14394,76,14404,78,14404,83,14393,81,14266,74,14028,67,13280,54,11124,36,8906,26,7605,22"/>
+<area shape="rect" id="Node000118" href="$d6/dc9/read__vas_8c.html" title="Functions to read VASP atomic coordinates." alt="" coords="14566,79,14703,119"/>
+<area shape="poly" id="edge128_Node000001_Node000118" title=" " alt="" coords="7605,17,8934,21,11205,31,13413,49,14180,61,14424,68,14555,76,14566,78,14565,83,14554,81,14424,74,14180,66,13413,54,11205,36,8934,26,7605,22"/>
+<area shape="rect" id="Node000119" href="$d0/dce/read__xyz_8c.html" title="Functions to read XYZ atomic coordinates." alt="" coords="14727,79,14865,119"/>
+<area shape="poly" id="edge129_Node000001_Node000119" title=" " alt="" coords="7605,17,8962,20,11286,30,13547,48,14332,61,14583,68,14716,76,14727,78,14726,83,14716,81,14582,73,14332,66,13547,54,11286,36,8962,26,7605,22"/>
+<area shape="rect" id="Node000120" href="$db/d3e/update__p_8c.html" title="Functions to update a project &#160;&#160;Functions to activate a project." alt="" coords="14889,86,15018,111"/>
+<area shape="poly" id="edge130_Node000001_Node000120" title=" " alt="" coords="7605,17,8989,20,11366,29,12597,37,13681,47,14485,60,14741,67,14878,76,14913,83,14912,88,14877,81,14741,73,14485,65,13681,52,12597,42,11366,34,8989,25,7605,22"/>
+<area shape="rect" id="Node000121" href="$d0/d3a/modelinfo_8c.html" title="Functions to display model information in GtkTextBuffer." alt="" coords="15042,86,15198,111"/>
+<area shape="poly" id="edge131_Node000001_Node000121" title=" " alt="" coords="7605,17,9016,21,11443,31,13808,49,14629,61,14891,68,15031,76,15072,83,15071,88,15030,81,14891,74,14629,67,13808,55,11443,37,9016,26,7605,22"/>
+<area shape="rect" id="Node000122" href="$d6/df5/workinfo_8c.html" title="Functions to display project information in GtkTextBuffer." alt="" coords="15223,86,15372,111"/>
+<area shape="poly" id="edge132_Node000001_Node000122" title=" " alt="" coords="7605,17,9047,20,11533,30,13957,48,14799,61,15068,68,15211,76,15251,83,15250,88,15210,81,15067,73,14799,66,13957,54,11533,36,9046,26,7605,22"/>
+<area shape="rect" id="Node000123" href="$d3/da6/workspace_8c.html" title="Implementation of the workspace tree view &#160;&#160;Associated callbacks." alt="" coords="15396,86,15559,111"/>
+<area shape="poly" id="edge133_Node000001_Node000123" title=" " alt="" coords="7605,17,9076,21,11619,31,14100,49,14963,61,15237,68,15384,76,15427,83,15426,88,15384,81,15237,74,14963,67,14100,55,11619,37,9076,26,7605,22"/>
+<area shape="poly" id="edge52_Node000052_Node000035" title=" " alt="" coords="5370,112,5396,116,5504,125,5628,132,5917,138,6588,133,6933,130,7259,132,7548,142,7672,151,7779,164,7810,171,7808,176,7778,169,7671,157,7547,147,7259,137,6933,136,6588,138,5917,143,5628,137,5504,131,5396,121,5369,117"/>
+<area shape="rect" id="Node000053" href="$d8/d15/atom__action_8c.html" title="Functions to apply the edition actions to the model." alt="" coords="4983,174,5153,199"/>
+<area shape="poly" id="edge53_Node000052_Node000053" title=" " alt="" coords="5259,119,5102,176,5100,171,5257,114"/>
+<area shape="rect" id="Node000054" href="$d9/dbe/atom__coord_8c.html" title="Functions to correct the coordination menus and the corresponding data pointers after edition." alt="" coords="5177,174,5345,199"/>
+<area shape="poly" id="edge54_Node000052_Node000054" title=" " alt="" coords="5295,126,5270,175,5265,172,5290,124"/>
+<area shape="rect" id="Node000055" href="$dc/d6c/atom__edit_8c.html" title="Functions to create the model edition window." alt="" coords="5369,174,5527,199"/>
+<area shape="poly" id="edge55_Node000052_Node000055" title=" " alt="" coords="5340,117,5430,171,5427,176,5337,122"/>
+<area shape="rect" id="Node000056" href="$d2/d4a/atom__geo_8c.html" title="Functions to check for the appropriate atomic coordinations." alt="" coords="5551,174,5708,199"/>
+<area shape="poly" id="edge56_Node000052_Node000056" title=" " alt="" coords="5366,113,5585,171,5584,176,5365,118"/>
+<area shape="rect" id="Node000057" href="$dd/d0b/atom__insert_8c.html" title="Functions to insert bond(s) in a project." alt="" coords="5732,174,5900,199"/>
+<area shape="poly" id="edge57_Node000052_Node000057" title=" " alt="" coords="5376,112,5396,116,5558,140,5720,164,5757,171,5756,176,5720,169,5558,146,5396,121,5375,118"/>
+<area shape="rect" id="Node000058" href="$d7/d27/atom__move_8c.html" title="Functions to move atom(s) and group of atom(s) &#160;&#160;Functions to move randomly atom(s) and group of atom..." alt="" coords="5924,174,6092,199"/>
+<area shape="poly" id="edge58_Node000052_Node000058" title=" " alt="" coords="5373,112,5396,116,5541,133,5654,140,5767,147,5912,164,5952,171,5951,176,5912,169,5767,153,5654,146,5540,139,5396,121,5373,117"/>
+<area shape="rect" id="Node000059" href="$d7/d6a/atom__object_8c.html" title="Functions to create atomic objects." alt="" coords="4001,174,4172,199"/>
+<area shape="poly" id="edge59_Node000052_Node000059" title=" " alt="" coords="5240,117,5215,121,5059,138,4926,145,4699,146,4473,147,4341,154,4184,169,4142,176,4141,171,4184,164,4340,149,4473,142,4699,141,4926,140,5058,132,5214,116,5239,112"/>
+<area shape="rect" id="Node000060" href="$d3/ded/atom__remove_8c.html" title="Functions to remove bond(s) from a project &#160;&#160;Function to prepare the passivation (removal followed by..." alt="" coords="4196,174,4375,199"/>
+<area shape="poly" id="edge60_Node000052_Node000060" title=" " alt="" coords="5240,117,5215,121,5089,135,4983,143,4801,147,4619,150,4513,157,4387,169,4343,176,4343,171,4386,164,4512,151,4619,145,4801,141,4982,138,5089,130,5214,116,5239,112"/>
+<area shape="rect" id="Node000061" href="$d9/d33/atom__search_8c.html" title="Functions to prepare the model edition &#39;search&#39; tabs and the associated widgets." alt="" coords="4399,174,4574,199"/>
+<area shape="poly" id="edge61_Node000052_Node000061" title=" " alt="" coords="5238,117,5215,121,5039,140,4901,146,4763,152,4587,169,4545,176,4544,171,4586,164,4763,147,4901,141,5038,135,5214,116,5238,112"/>
+<area shape="rect" id="Node000062" href="$dd/d37/atom__species_8c.html" title="Functions to look for new chemical species and modify the chemical information accordingly." alt="" coords="4599,174,4780,199"/>
+<area shape="poly" id="edge62_Node000052_Node000062" title=" " alt="" coords="5237,117,5215,121,5096,137,5004,146,4911,154,4792,169,4752,176,4751,171,4792,164,4910,149,5003,141,5096,132,5214,116,5236,112"/>
+<area shape="poly" id="edge63_Node000052_Node000063" title=" " alt="" coords="5373,112,5396,116,5504,128,5595,134,5750,137,5906,141,5997,149,6104,164,6116,166,6115,171,6104,169,5997,155,5906,147,5750,143,5595,140,5503,134,5396,121,5372,118"/>
+<area shape="rect" id="Node000064" href="$d2/d17/cell__cut_8c.html" title="Functions to create the &#39;slab cutting&#39; tab of the cell edition window." alt="" coords="7441,174,7586,199"/>
+<area shape="poly" id="edge64_Node000052_Node000064" title=" " alt="" coords="5370,112,5396,116,5557,132,5704,143,5966,151,6197,148,6412,138,6627,128,6858,125,7120,135,7267,147,7428,164,7467,171,7466,176,7428,169,7267,152,7120,141,6858,131,6628,134,6412,143,6197,153,5966,157,5704,148,5557,138,5396,121,5370,117"/>
+<area shape="rect" id="Node000065" href="$d8/d1c/cell__super_8c.html" title="Functions to create a super&#45;cell using the extra cell(s)" alt="" coords="7094,174,7253,199"/>
+<area shape="poly" id="edge65_Node000052_Node000065" title=" " alt="" coords="5370,112,5396,116,5652,139,5869,148,6061,146,6239,140,6418,134,6610,132,6827,141,7083,164,7124,171,7123,176,7082,169,6827,146,6610,137,6418,139,6239,145,6061,152,5869,153,5652,145,5396,121,5370,117"/>
+<area shape="poly" id="edge66_Node000052_Node000066" title=" " alt="" coords="5372,112,5396,116,5526,130,5636,136,5824,137,6012,140,6122,148,6251,164,6284,171,6283,176,6250,169,6121,153,6011,145,5824,143,5636,142,5525,135,5396,121,5371,117"/>
+<area shape="rect" id="Node000067" href="$db/d42/m__edit_8c.html" title="Functions to create the &#39;Tools &#45;&gt; Edit&#39; submenu." alt="" coords="7277,174,7416,199"/>
+<area shape="poly" id="edge67_Node000052_Node000067" title=" " alt="" coords="5370,112,5396,116,5544,131,5680,141,5920,149,6133,145,6331,137,6529,128,6742,126,6982,136,7118,147,7266,164,7302,171,7301,176,7265,169,7117,153,6982,141,6741,131,6529,133,6331,142,6133,151,5920,154,5679,146,5544,136,5396,121,5370,117"/>
+<area shape="rect" id="Node000068" href="$d3/d51/m__tools_8c.html" title="Functions to create the &#39;Tools&#39; submenu." alt="" coords="6925,174,7070,199"/>
+<area shape="poly" id="edge68_Node000052_Node000068" title=" " alt="" coords="5370,112,5396,116,5626,137,5822,145,5994,144,6155,138,6316,133,6488,132,6684,141,6914,164,6951,171,6950,176,6913,169,6683,146,6488,137,6316,138,6155,143,5994,149,5822,150,5626,143,5396,121,5370,117"/>
+<area shape="poly" id="edge69_Node000052_Node000069" title=" " alt="" coords="5372,112,5396,116,5549,132,5678,138,5899,138,6006,136,6120,138,6249,147,6402,164,6437,171,6436,176,6401,169,6249,152,6120,144,6006,142,5899,143,5678,144,5548,137,5396,121,5371,117"/>
+<area shape="rect" id="Node000070" href="$de/dc7/w__search_8c.html" title="Functions to create the object search widgets, for:" alt="" coords="4804,174,4959,199"/>
+<area shape="poly" id="edge70_Node000052_Node000070" title=" " alt="" coords="5234,118,5215,121,4971,169,4939,176,4937,171,4970,164,5214,116,5233,112"/>
+<area shape="poly" id="edge71_Node000052_Node000071" title=" " alt="" coords="5371,112,5396,116,5573,134,5722,142,5855,143,5978,141,6101,139,6234,140,6384,147,6560,164,6602,171,6601,176,6560,169,6383,153,6233,145,6101,144,5978,146,5855,148,5722,147,5572,139,5396,121,5370,117"/>
+<area shape="poly" id="edge72_Node000052_Node000072" title=" " alt="" coords="5371,112,5396,116,5602,135,5776,143,5930,142,6074,137,6217,133,6371,134,6546,142,6751,164,6763,166,6763,171,6750,169,6545,148,6371,139,6217,139,6074,143,5930,147,5776,148,5601,141,5396,121,5370,117"/>
+<area shape="poly" id="edge77_Node000075_Node000035" title=" " alt="" coords="7817,124,7842,172,7837,175,7812,126"/>
+<area shape="poly" id="edge78_Node000075_Node000064" title=" " alt="" coords="7747,119,7554,176,7553,171,7746,114"/>
+<area shape="poly" id="edge83_Node000075_Node000065" title=" " alt="" coords="7731,117,7708,121,7584,137,7487,145,7390,153,7266,169,7229,176,7228,171,7265,164,7389,148,7486,140,7584,132,7708,116,7731,112"/>
+<area shape="poly" id="edge84_Node000075_Node000067" title=" " alt="" coords="7728,117,7708,121,7569,145,7430,169,7398,176,7397,171,7429,164,7568,139,7708,116,7727,112"/>
+<area shape="poly" id="edge85_Node000075_Node000068" title=" " alt="" coords="7733,117,7708,121,7533,139,7395,144,7258,150,7083,169,7047,176,7046,171,7082,164,7258,145,7395,139,7532,134,7708,116,7732,112"/>
+<area shape="rect" id="Node000076" href="$d9/d1a/cell__density_8c.html" title="Functions to create the &#39;density adjustment&#39; tab in the cell edition window." alt="" coords="8100,174,8268,199"/>
+<area shape="poly" id="edge79_Node000075_Node000076" title=" " alt="" coords="7870,113,8131,171,8130,176,7869,118"/>
+<area shape="rect" id="Node000077" href="$d3/d1b/cell__edit_8c.html" title="Functions to create the cell edition window." alt="" coords="8293,174,8441,199"/>
+<area shape="poly" id="edge80_Node000075_Node000077" title=" " alt="" coords="7868,112,7888,116,7998,132,8084,140,8170,148,8280,164,8316,171,8315,176,8280,169,8170,154,8084,145,7998,137,7888,121,7867,118"/>
+<area shape="rect" id="Node000078" href="$d1/d9f/cell__extra_8c.html" title="Functions to create the &#39;add cell(s)&#39; tab in the cell edition window." alt="" coords="7610,174,7766,199"/>
+<area shape="poly" id="edge81_Node000075_Node000078" title=" " alt="" coords="7775,123,7705,176,7702,171,7772,119"/>
+<area shape="rect" id="Node000079" href="$d1/d4a/cell__shift_8c.html" title="Functions to create the &#39;shift cell center&#39; tab for the cell edition window." alt="" coords="7924,174,8076,199"/>
+<area shape="poly" id="edge82_Node000075_Node000079" title=" " alt="" coords="7844,115,7974,171,7972,176,7842,120"/>
 </map>
