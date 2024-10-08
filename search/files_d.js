@@ -14,5 +14,6 @@ var searchData=
   ['spherical_2ef90_11',['spherical.F90',['../db/ded/spherical_8_f90.html',1,'']]],
   ['sq_2ef90_12',['sq.F90',['../d3/db7/sq_8_f90.html',1,'']]],
   ['sqcall_2ec_13',['sqcall.c',['../d5/dde/sqcall_8c.html',1,'']]],
-  ['submenus_2eh_14',['submenus.h',['../de/de0/submenus_8h.html',1,'']]]
+  ['startup_5ftesting_2ec_14',['startup_testing.c',['../d3/d0e/startup__testing_8c.html',1,'']]],
+  ['submenus_2eh_15',['submenus.h',['../de/de0/submenus_8h.html',1,'']]]
 ];

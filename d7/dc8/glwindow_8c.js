@@ -35,6 +35,7 @@ var glwindow_8c =
     [ "set_selection_mode", "d7/dc8/glwindow_8c.html#a33d2854865203c5500f58cda9d7152bf", null ],
     [ "set_sensitive_coord_menu", "d7/dc8/glwindow_8c.html#a0455fc2a99eafda4a6a08cd93404167f", null ],
     [ "set_style", "d7/dc8/glwindow_8c.html#a1d039f5647304b82216132f489523b62", null ],
+    [ "shortcuts_window", "d7/dc8/glwindow_8c.html#a85edf33c0ee0b5dafcc42815d50f9828", null ],
     [ "spin", "d7/dc8/glwindow_8c.html#a976086a15b3e568d064d10337f0b8146", null ],
     [ "spin_go", "d7/dc8/glwindow_8c.html#a56b82521e9a1520d6474ff0d97d4f086", null ],
     [ "spin_stop", "d7/dc8/glwindow_8c.html#ae8f54460c334dfcaac2d1a541eaaac13", null ],
@@ -42,6 +43,7 @@ var glwindow_8c =
     [ "translate", "d7/dc8/glwindow_8c.html#a932da36057080595eb52403e10e03e99", null ],
     [ "update_all_menus", "d7/dc8/glwindow_8c.html#a40d0b7a24d8d553bf8ccafce68bbb401", null ],
     [ "update_menus", "d7/dc8/glwindow_8c.html#a59b23bd358751fc980e0fa6f70383171", null ],
+    [ "view_shortcuts", "d7/dc8/glwindow_8c.html#a8ebcb9faf5eb73cd0a3dc50cf8f2dc38", null ],
     [ "window_encode", "d7/dc8/glwindow_8c.html#a13f0004f295ea3849eea9367812dd771", null ],
     [ "window_measures", "d7/dc8/glwindow_8c.html#acdb7cf4193f960d742d43a1cf13c294c", null ],
     [ "window_recorder", "d7/dc8/glwindow_8c.html#a90d94a53274c0d45925dfe54fa0b44c2", null ],
@@ -49,5 +51,10 @@ var glwindow_8c =
     [ "copied_object", "d7/dc8/glwindow_8c.html#af2bde98648e9eff12929280214719a1e", null ],
     [ "is_labelled", "d7/dc8/glwindow_8c.html#a3f64b23a1ad34682ee73c5ec409afda6", null ],
     [ "is_selected", "d7/dc8/glwindow_8c.html#a6c1b7334804d04d63a0a9e0c951de9f6", null ],
+    [ "opengl_group_by_section", "d7/dc8/glwindow_8c.html#af5848e537f60698f28c625388c7f8764", null ],
+    [ "opengl_group_names", "d7/dc8/glwindow_8c.html#a216414a153bafceec1d2664fc13deaa1", null ],
+    [ "opengl_section_names", "d7/dc8/glwindow_8c.html#a2fb9d4228ada82419dc2f992010cb18f", null ],
+    [ "opengl_shortcut_by_group", "d7/dc8/glwindow_8c.html#a348cf93c8e6544fc2fd70350b9e0cbc9", null ],
+    [ "opengl_shortcuts", "d7/dc8/glwindow_8c.html#ac724997539c979874b471409750ee31b", null ],
     [ "selected_aspec", "d7/dc8/glwindow_8c.html#ad81e8b625a603091b826af5886ca09e4", null ]
 ];

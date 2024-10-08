@@ -113,7 +113,7 @@ $(function(){initNavTree('d4/d28/dlp__edit_8c.html','../../'); initResizable(); 
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d86/dlp__edit_8c__incl.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d86/dlp__edit_8c__incl.svg" width="100%" height="552"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../d4/d28/dlp__edit_8c_source.html">Go to the source code of this file.</a></p>
@@ -214,7 +214,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a55061a78f5d20e6b48c4c2973c46983f"><td class="mdescLeft">&#160;</td><td class="mdescRight">set cell renderer color  <br /></td></tr>
 <tr class="separator:a55061a78f5d20e6b48c4c2973c46983f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69d01d04697f0a49eebaebcb590a256c" id="r_a69d01d04697f0a49eebaebcb590a256c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69d01d04697f0a49eebaebcb590a256c">select_atom_set_cmv</a> (GtkTreeViewColumn *<a class="el" href="../../df/dbb/d__measures_8c.html#a4cf17d50abf3704f2064a3fd3720ae92">col</a>, GtkCellRenderer *renderer, GtkTreeModel *mod, GtkTreeIter *iter, gpointer data)</td></tr>
-<tr class="memdesc:a69d01d04697f0a49eebaebcb590a256c"><td class="mdescLeft">&#160;</td><td class="mdescRight">field atom set renderer color, markup and visibility in the property edition <a class="el" href="../../d2/d49/global_8h.html#a0c5c7091b1d8a95d9bee2744d713f5c9" title="The data structure for an atom.">atom(s)</a> selection tree store  <br /></td></tr>
+<tr class="memdesc:a69d01d04697f0a49eebaebcb590a256c"><td class="mdescLeft">&#160;</td><td class="mdescRight">field atom set renderer color, markup and visibility in the property edition <a class="el" href="../../d2/d49/global_8h.html#a0c5c7091b1d8a95d9bee2744d713f5c9" title="atom data structure">atom(s)</a> selection tree store  <br /></td></tr>
 <tr class="separator:a69d01d04697f0a49eebaebcb590a256c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a336d6d328fb6c2849b30bf4efb6923de" id="r_a336d6d328fb6c2849b30bf4efb6923de"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a336d6d328fb6c2849b30bf4efb6923de">edit_unit_weight</a> (GtkCellRendererText *cell, gchar *path_string, gchar *new_text, gpointer data)</td></tr>
 <tr class="separator:a336d6d328fb6c2849b30bf4efb6923de"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -379,7 +379,7 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">action</td><td>the GAction sending the signal </td></tr>
-    <tr><td class="paramname">parameter</td><td>GVariant parameter of the GAction </td></tr>
+    <tr><td class="paramname">parameter</td><td>GVariant parameter of the GAction, if any </td></tr>
     <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
   </table>
   </dd>
@@ -583,7 +583,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l01639">1639</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l01638">1638</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
 
 </div>
 </div>
@@ -708,7 +708,7 @@ Variables</h2></td></tr>
 
 <p>check for parameters in the database to be used in the force field - creating the dialog </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d79/dlp__ff__match_8c_source.html#l01308">1308</a> of file <a class="el" href="../../dc/d79/dlp__ff__match_8c_source.html">dlp_ff_match.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d79/dlp__ff__match_8c_source.html#l01306">1306</a> of file <a class="el" href="../../dc/d79/dlp__ff__match_8c_source.html">dlp_ff_match.c</a>.</p>
 
 </div>
 </div>
@@ -810,7 +810,7 @@ Variables</h2></td></tr>
 <p>prepare molecule related widgets in the assistant </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">usel</td><td>unselect all <a class="el" href="../../d2/d49/global_8h.html#a0c5c7091b1d8a95d9bee2744d713f5c9" title="The data structure for an atom.">atom(s)</a> (yes / no) </td></tr>
+    <tr><td class="paramname">usel</td><td>unselect all <a class="el" href="../../d2/d49/global_8h.html#a0c5c7091b1d8a95d9bee2744d713f5c9" title="atom data structure">atom(s)</a> (yes / no) </td></tr>
   </table>
   </dd>
 </dl>
@@ -912,12 +912,12 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">f</td><td>the type of force field property </td></tr>
-    <tr><td class="paramname">is_moy</td><td>global parameter (1) or <a class="el" href="../../d2/d49/global_8h.html#a0c5c7091b1d8a95d9bee2744d713f5c9" title="The data structure for an atom.">atom(s)</a> specific parameter (0) </td></tr>
+    <tr><td class="paramname">is_moy</td><td>global parameter (1) or <a class="el" href="../../d2/d49/global_8h.html#a0c5c7091b1d8a95d9bee2744d713f5c9" title="atom data structure">atom(s)</a> specific parameter (0) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d79/dlp__ff__match_8c_source.html#l01533">1533</a> of file <a class="el" href="../../dc/d79/dlp__ff__match_8c_source.html">dlp_ff_match.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d79/dlp__ff__match_8c_source.html#l01531">1531</a> of file <a class="el" href="../../dc/d79/dlp__ff__match_8c_source.html">dlp_ff_match.c</a>.</p>
 
 </div>
 </div>
@@ -949,7 +949,7 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">action</td><td>the GAction sending the signal </td></tr>
-    <tr><td class="paramname">parameter</td><td>GVariant parameter of the GAction </td></tr>
+    <tr><td class="paramname">parameter</td><td>GVariant parameter of the GAction, if any </td></tr>
     <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
   </table>
   </dd>
@@ -1020,7 +1020,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l01153">1153</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l01152">1152</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
 
 </div>
 </div>
@@ -1058,7 +1058,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l00931">931</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l00930">930</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
 
 </div>
 </div>
@@ -1424,7 +1424,7 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">action</td><td>the GAction sending the signal </td></tr>
-    <tr><td class="paramname">parameter</td><td>GVariant parameter of the GAction </td></tr>
+    <tr><td class="paramname">parameter</td><td>GVariant parameter of the GAction, if any </td></tr>
     <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
   </table>
   </dd>
@@ -1592,7 +1592,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l01172">1172</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l01171">1171</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
 
 </div>
 </div>
@@ -1630,7 +1630,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>field atom set renderer color, markup and visibility in the property edition <a class="el" href="../../d2/d49/global_8h.html#a0c5c7091b1d8a95d9bee2744d713f5c9" title="The data structure for an atom.">atom(s)</a> selection tree store </p>
+<p>field atom set renderer color, markup and visibility in the property edition <a class="el" href="../../d2/d49/global_8h.html#a0c5c7091b1d8a95d9bee2744d713f5c9" title="atom data structure">atom(s)</a> selection tree store </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">col</td><td>the target GtkTreeViewColumn </td></tr>
@@ -1642,7 +1642,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l01047">1047</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l01046">1046</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
 
 </div>
 </div>
@@ -1674,7 +1674,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l01031">1031</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l01030">1030</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
 
 </div>
 </div>
@@ -1706,7 +1706,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l00893">893</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l00892">892</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
 
 </div>
 </div>
@@ -1784,7 +1784,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l01664">1664</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l01663">1663</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
 
 </div>
 </div>
@@ -1928,7 +1928,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l01617">1617</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l01616">1616</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
 
 </div>
 </div>
@@ -2070,7 +2070,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l00840">840</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l00839">839</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
 
 </div>
 </div>
@@ -2187,7 +2187,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l00919">919</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l00918">918</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
 
 </div>
 </div>
@@ -2267,7 +2267,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l01608">1608</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l01607">1607</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
 
 </div>
 </div>
@@ -2771,7 +2771,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l01141">1141</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l01140">1140</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
 
 </div>
 </div>
@@ -2787,7 +2787,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l00920">920</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d28/dlp__edit_8c_source.html#l00919">919</a> of file <a class="el" href="../../d4/d28/dlp__edit_8c_source.html">dlp_edit.c</a>.</p>
 
 </div>
 </div>

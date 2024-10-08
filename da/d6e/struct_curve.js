@@ -56,6 +56,7 @@ var struct_curve =
     [ "plot", "da/d6e/struct_curve.html#a03f9b853919690f308edbd99bc1e4726", null ],
     [ "pos", "da/d6e/struct_curve.html#aaa2d390a524c4e94cd17b1c3f23897b0", null ],
     [ "scale", "da/d6e/struct_curve.html#a72e10c064e2b57577e77b60044a64866", null ],
+    [ "shortcuts", "da/d6e/struct_curve.html#a8bb51832bf8fe74f08022a2ed960c9e5", null ],
     [ "show_axis", "da/d6e/struct_curve.html#aff4e0aad713c5cd27c9603bbdafbcfc0", null ],
     [ "show_frame", "da/d6e/struct_curve.html#a4701e36f586df719c1faaec593ed784f", null ],
     [ "show_grid", "da/d6e/struct_curve.html#ad703b92bd3a4252a560055eedfc6ee44", null ],

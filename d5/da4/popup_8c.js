@@ -66,6 +66,7 @@ var popup_8c =
     [ "to_remove_this_object", "d5/da4/popup_8c.html#a614dfd439c299961ca864a88c4d6b423", null ],
     [ "to_replace_this_object", "d5/da4/popup_8c.html#a8f2f009fbeeaa674820347d3f53fdd9c", null ],
     [ "turn_rebuild", "d5/da4/popup_8c.html#a297533d7dd27a73026018447b334b56d", null ],
+    [ "view_shortcuts", "d5/da4/popup_8c.html#ae21ca2ee5e7c68c55495d2017924b48d", null ],
     [ "atoid", "d5/da4/popup_8c.html#a38566b73f3f8b75129e22c0c175509ce", null ],
     [ "bond_selection", "d5/da4/popup_8c.html#a44adb2403917df932dcb02bbf895e0e0", null ],
     [ "btoid", "d5/da4/popup_8c.html#a8a3526c46a770f0f1d2096f8b1c0b1ca", null ],

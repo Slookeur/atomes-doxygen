@@ -23,6 +23,7 @@ var submenus_8h =
     [ "menu_rep", "de/de0/submenus_8h.html#a9f92365c58fd8ae7136b82591c01f4cb", null ],
     [ "menu_reset", "de/de0/submenus_8h.html#a6c2b63ba5a2a65f727a6a7da0031a511", null ],
     [ "menu_rings", "de/de0/submenus_8h.html#a4c315a74f350e9a745db077bafa0d9e8", null ],
+    [ "menu_shortcuts", "de/de0/submenus_8h.html#a54a33f7d61e433c97eb932b76bb0713e", null ],
     [ "menu_style", "de/de0/submenus_8h.html#aa1ebe43202fa18472e8bd3cbb6f6ba27", null ],
     [ "menu_tools", "de/de0/submenus_8h.html#aa1b51ad92c2c7117b391d7d4c9159716", null ],
     [ "menu_view", "de/de0/submenus_8h.html#a236beb7e66a3ccccd09bf9a642d2bd80", null ],

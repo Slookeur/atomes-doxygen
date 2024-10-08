@@ -2,6 +2,7 @@ var main_8c =
 [
     [ "file_list", "da/d40/structfile__list.html", "da/d40/structfile__list" ],
     [ "APP_EXTENSION", "d0/d29/main_8c.html#ad0e2d94d3beb005341de5a2b34d53143", null ],
+    [ "check_opengl_rendering", "d0/d29/main_8c.html#a1b24f243386847ba155f504d6b2489a0", null ],
     [ "create_main_window", "d0/d29/main_8c.html#a95cac59102536975172304f8f5327270", null ],
     [ "create_splash_window", "d0/d29/main_8c.html#a470da7a8527cb9e26826607f8f198f32", null ],
     [ "destroy_func", "d0/d29/main_8c.html#a9ae17da4cfb76791b2b1b8d0ee3c7ca5", null ],

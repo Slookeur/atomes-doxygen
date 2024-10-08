@@ -6,6 +6,7 @@ var files_dup =
     [ "gui", "dir_11bc0974ce736ce9a6fadebbeb7a8314.html", "dir_11bc0974ce736ce9a6fadebbeb7a8314" ],
     [ "opengl", "dir_35aa532d637074063c646a4cf80a0972.html", "dir_35aa532d637074063c646a4cf80a0972" ],
     [ "project", "dir_167790342fb55959539d550b874be046.html", "dir_167790342fb55959539d550b874be046" ],
+    [ "startup-testing", "dir_ae2e580348d4f077c896ec8827b235b9.html", "dir_ae2e580348d4f077c896ec8827b235b9" ],
     [ "workspace", "dir_a5be7bbed3ff2f129951759fe96bf5d5.html", "dir_a5be7bbed3ff2f129951759fe96bf5d5" ],
     [ "affero.h", "dc/d42/affero_8h.html", "dc/d42/affero_8h" ],
     [ "bind.h", "da/dc2/bind_8h.html", "da/dc2/bind_8h" ],

@@ -12,6 +12,7 @@ var m__curve_8c =
     [ "curve_close_section", "d9/d29/m__curve_8c.html#a3f9f32f25cd4ba7da789122c643c4b25", null ],
     [ "curve_default_layout", "d9/d29/m__curve_8c.html#a250dcb6aa37adbd0d13e18b676667942", null ],
     [ "curve_edit_menu_action", "d9/d29/m__curve_8c.html#a3cb26f4283fb7b47e08234a5eb12c39c", null ],
+    [ "curve_help_menu", "d9/d29/m__curve_8c.html#aef00bd9b780385982d396bb139620621", null ],
     [ "curve_menu_bar", "d9/d29/m__curve_8c.html#a7df8513a7d38b19f070d6897fa966c38", null ],
     [ "curve_menu_bar_action", "d9/d29/m__curve_8c.html#a229770529263f42f59e6c30971e17af1", null ],
     [ "curve_popup_menu", "d9/d29/m__curve_8c.html#a2525831f53691c7a6dd20927929f0a6d", null ],
@@ -22,6 +23,12 @@ var m__curve_8c =
     [ "init_extra", "d9/d29/m__curve_8c.html#a68e79509ababe5dcbb484cb4a5099a10", null ],
     [ "prep_extra_rid", "d9/d29/m__curve_8c.html#a014cce6c382f18cddf6d6ed0ae6b3601", null ],
     [ "remove_extra", "d9/d29/m__curve_8c.html#aca04b8c085ee9554f486448189feb002", null ],
+    [ "shortcuts_window", "d9/d29/m__curve_8c.html#a85edf33c0ee0b5dafcc42815d50f9828", null ],
     [ "was_not_added", "d9/d29/m__curve_8c.html#a76e157b06c41ce597710f8081c964638", null ],
+    [ "curve_group_by_section", "d9/d29/m__curve_8c.html#ae93017212a11760009b09c2363bc08dd", null ],
+    [ "curve_group_names", "d9/d29/m__curve_8c.html#a71dfcf51116393430060f5feedcab525", null ],
+    [ "curve_section_names", "d9/d29/m__curve_8c.html#afe29ad6f916fb409df475081c10724d5", null ],
+    [ "curve_shortcut_by_group", "d9/d29/m__curve_8c.html#a071907ce5b452249fdaf2ca9483f6f12", null ],
+    [ "curve_shortcuts", "d9/d29/m__curve_8c.html#aaad805b8a758f30cc8fe388ba79b8091", null ],
     [ "extrarid", "d9/d29/m__curve_8c.html#a75df2406fcdfda6fc96bec3ab202a1f7", null ]
 ];

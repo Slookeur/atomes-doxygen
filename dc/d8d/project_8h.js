@@ -2,7 +2,7 @@ var project_8h =
 [
     [ "IODEBUG", "dc/d8d/project_8h.html#a2177518c5992f3848e13cf520f2bbe70", null ],
     [ "active_project_changed", "dc/d8d/project_8h.html#a81de550dd737cabebc1643a1e307ab8d", null ],
-    [ "add_project", "dc/d8d/project_8h.html#a514222e5910fe6e425deccab43cb4b43", null ],
+    [ "add_project", "dc/d8d/project_8h.html#ad1516021024bab08747dbc85b527b805", null ],
     [ "alloc_proj_data", "dc/d8d/project_8h.html#ac05d554daddbb3118b4026ddae56e1f8", null ],
     [ "allocate_color_map", "dc/d8d/project_8h.html#ada4a62f9a83a7a60d3f857db30bf6fe4", null ],
     [ "clean_view", "dc/d8d/project_8h.html#a96119a868fa0e95729bd907df21dfe03", null ],

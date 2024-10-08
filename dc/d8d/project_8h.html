@@ -108,7 +108,7 @@ $(function(){initNavTree('dc/d8d/project_8h.html','../../'); initResizable(); })
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/d46/project_8h__dep__incl.svg" width="100%" height="459"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d3/d46/project_8h__dep__incl.svg" width="100%" height="464"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div>
 <p><a href="../../dc/d8d/project_8h_source.html">Go to the source code of this file.</a></p>
@@ -142,7 +142,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a887f6e0b155de03581a53830e1041a10"><td class="mdescLeft">&#160;</td><td class="mdescRight">read a project curve from file  <br /></td></tr>
 <tr class="separator:a887f6e0b155de03581a53830e1041a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a489768796ba50285f4e1efa041e01529" id="r_a489768796ba50285f4e1efa041e01529"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a489768796ba50285f4e1efa041e01529">read_mol</a> (FILE *<a class="el" href="../../d7/d30/force__fields_8c.html#aa065f30aa9f5f9a42132c82c787ee70b">fp</a>)</td></tr>
-<tr class="memdesc:a489768796ba50285f4e1efa041e01529"><td class="mdescLeft">&#160;</td><td class="mdescRight">read <a class="el" href="../../d2/d49/global_8h.html#a1d1b07c1357e34a09cdf5ca52c2af9f4">molecule(s)</a> information from file  <br /></td></tr>
+<tr class="memdesc:a489768796ba50285f4e1efa041e01529"><td class="mdescLeft">&#160;</td><td class="mdescRight">read <a class="el" href="../../d2/d49/global_8h.html#a1d1b07c1357e34a09cdf5ca52c2af9f4" title="the molecule data structure">molecule(s)</a> information from file  <br /></td></tr>
 <tr class="separator:a489768796ba50285f4e1efa041e01529"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4a29eaa20aa19ebd12f6b78f84b9f01" id="r_ae4a29eaa20aa19ebd12f6b78f84b9f01"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4a29eaa20aa19ebd12f6b78f84b9f01">read_bonding</a> (FILE *<a class="el" href="../../d7/d30/force__fields_8c.html#aa065f30aa9f5f9a42132c82c787ee70b">fp</a>)</td></tr>
 <tr class="memdesc:ae4a29eaa20aa19ebd12f6b78f84b9f01"><td class="mdescLeft">&#160;</td><td class="mdescRight">read bonding information from file  <br /></td></tr>
@@ -253,8 +253,9 @@ Functions</h2></td></tr>
 <tr class="memitem:abb2ff39415fe022ace7ae9b46a5d1edc" id="r_abb2ff39415fe022ace7ae9b46a5d1edc"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb2ff39415fe022ace7ae9b46a5d1edc">on_close_activate</a> (GtkWidget *widg, gpointer cdata)</td></tr>
 <tr class="memdesc:abb2ff39415fe022ace7ae9b46a5d1edc"><td class="mdescLeft">&#160;</td><td class="mdescRight">signal to close a project  <br /></td></tr>
 <tr class="separator:abb2ff39415fe022ace7ae9b46a5d1edc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a514222e5910fe6e425deccab43cb4b43" id="r_a514222e5910fe6e425deccab43cb4b43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a514222e5910fe6e425deccab43cb4b43">add_project</a> ()</td></tr>
-<tr class="separator:a514222e5910fe6e425deccab43cb4b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1516021024bab08747dbc85b527b805" id="r_ad1516021024bab08747dbc85b527b805"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1516021024bab08747dbc85b527b805">add_project</a> (GtkTreeStore *store, int i)</td></tr>
+<tr class="memdesc:ad1516021024bab08747dbc85b527b805"><td class="mdescLeft">&#160;</td><td class="mdescRight">add project to the GtkTreeStore of the workspace  <br /></td></tr>
+<tr class="separator:ad1516021024bab08747dbc85b527b805"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85da2c7cc268f856807b7021419fd772" id="r_a85da2c7cc268f856807b7021419fd772"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85da2c7cc268f856807b7021419fd772">debugiocurve</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, gboolean win, int rid, int cid, gchar *iost)</td></tr>
 <tr class="memdesc:a85da2c7cc268f856807b7021419fd772"><td class="mdescLeft">&#160;</td><td class="mdescRight">debug and print some info about the curves in a project  <br /></td></tr>
 <tr class="separator:a85da2c7cc268f856807b7021419fd772"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -321,8 +322,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a514222e5910fe6e425deccab43cb4b43" name="a514222e5910fe6e425deccab43cb4b43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a514222e5910fe6e425deccab43cb4b43">&#9670;&#160;</a></span>add_project()</h2>
+<a id="ad1516021024bab08747dbc85b527b805" name="ad1516021024bab08747dbc85b527b805"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1516021024bab08747dbc85b527b805">&#9670;&#160;</a></span>add_project()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -333,8 +334,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void add_project </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td class="paramtype">GtkTreeStore *</td>          <td class="paramname"><span class="paramname"><em>store</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -343,6 +348,17 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>add project to the GtkTreeStore of the workspace </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">store</td><td>the GtkTreeStore </td></tr>
+    <tr><td class="paramname">i</td><td>the id of the project to add </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d3/da6/workspace_8c_source.html#l00114">114</a> of file <a class="el" href="../../d3/da6/workspace_8c_source.html">workspace.c</a>.</p>
 
 </div>
 </div>
@@ -451,7 +467,7 @@ Functions</h2></td></tr>
 
 <p>clean the main window </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00159">159</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00286">286</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -743,7 +759,7 @@ Functions</h2></td></tr>
 <p>number of distinct triplet(s) of atoms in selection </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">i</td><td>the number of <a class="el" href="../../d2/d49/global_8h.html#a0c5c7091b1d8a95d9bee2744d713f5c9" title="The data structure for an atom.">atom(s)</a> in selection </td></tr>
+    <tr><td class="paramname">i</td><td>the number of <a class="el" href="../../d2/d49/global_8h.html#a0c5c7091b1d8a95d9bee2744d713f5c9" title="atom data structure">atom(s)</a> in selection </td></tr>
   </table>
   </dd>
 </dl>
@@ -778,7 +794,7 @@ Functions</h2></td></tr>
 <p>number of distinct pair(s) of atoms in selection </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">i</td><td>the number of <a class="el" href="../../d2/d49/global_8h.html#a0c5c7091b1d8a95d9bee2744d713f5c9" title="The data structure for an atom.">atom(s)</a> in selection </td></tr>
+    <tr><td class="paramname">i</td><td>the number of <a class="el" href="../../d2/d49/global_8h.html#a0c5c7091b1d8a95d9bee2744d713f5c9" title="atom data structure">atom(s)</a> in selection </td></tr>
   </table>
   </dd>
 </dl>
@@ -813,7 +829,7 @@ Functions</h2></td></tr>
 <p>number of distinct quadruplet(s) of atoms in selection </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">i</td><td>the number of <a class="el" href="../../d2/d49/global_8h.html#a0c5c7091b1d8a95d9bee2744d713f5c9" title="The data structure for an atom.">atom(s)</a> in selection </td></tr>
+    <tr><td class="paramname">i</td><td>the number of <a class="el" href="../../d2/d49/global_8h.html#a0c5c7091b1d8a95d9bee2744d713f5c9" title="atom data structure">atom(s)</a> in selection </td></tr>
   </table>
   </dd>
 </dl>
@@ -1271,7 +1287,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>read <a class="el" href="../../d2/d49/global_8h.html#a1d1b07c1357e34a09cdf5ca52c2af9f4">molecule(s)</a> information from file </p>
+<p>read <a class="el" href="../../d2/d49/global_8h.html#a1d1b07c1357e34a09cdf5ca52c2af9f4" title="the molecule data structure">molecule(s)</a> information from file </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">fp</td><td>the file pointer </td></tr>
@@ -1331,7 +1347,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../db/dd4/read__opengl_8c_source.html#l00284">284</a> of file <a class="el" href="../../db/dd4/read__opengl_8c_source.html">read_opengl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dd4/read__opengl_8c_source.html#l00282">282</a> of file <a class="el" href="../../db/dd4/read__opengl_8c_source.html">read_opengl.c</a>.</p>
 
 </div>
 </div>
@@ -2206,7 +2222,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00182">182</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00309">309</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
