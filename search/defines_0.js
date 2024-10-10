@@ -19,15 +19,12 @@ var searchData=
   ['atom_5fbuff_5fsize_16',['ATOM_BUFF_SIZE',['../d5/d9e/ogl__shading_8h.html#a4ec2bed9bf7cf435e21c7a75647eab16',1,'ogl_shading.h']]],
   ['atom_5flimit_17',['ATOM_LIMIT',['../d2/d49/global_8h.html#a22e112249c4bf45dd3e9151fa9f1ccf4',1,'global.h']]],
   ['atom_5fmaps_18',['ATOM_MAPS',['../da/d7e/glwin_8h.html#aecef4b6b8df5eac281d21777fefe5b1f',1,'glwin.h']]],
-  ['atomes_5fmajor_5fversion_19',['ATOMES_MAJOR_VERSION',['../db/d16/config_8h.html#a1f5b478e97de562ce24a92d2cd53b999',1,'config.h']]],
-  ['atomes_5fminor_5fversion_20',['ATOMES_MINOR_VERSION',['../db/d16/config_8h.html#a4ed6a9a0e51817b280a6e8ccc15b28de',1,'config.h']]],
-  ['atomes_5fpatch_5fversion_21',['ATOMES_PATCH_VERSION',['../db/d16/config_8h.html#aeb02e95aae91ab598bfcb3ae82ef4110',1,'config.h']]],
-  ['av_5fround_5fpass_5fminmax_22',['AV_ROUND_PASS_MINMAX',['../d8/dee/movie_8c.html#a2258fb212749011c956fde432d2dbc99',1,'movie.c']]],
-  ['avio_5fflag_5fread_23',['AVIO_FLAG_READ',['../d8/dee/movie_8c.html#a21e61cb486bd1588eb7f775998cf8c77',1,'movie.c']]],
-  ['avio_5fflag_5fread_5fwrite_24',['AVIO_FLAG_READ_WRITE',['../d8/dee/movie_8c.html#aba7dc6a03cfe63d2a7e2c00532007eb2',1,'movie.c']]],
-  ['avio_5fflag_5fwrite_25',['AVIO_FLAG_WRITE',['../d8/dee/movie_8c.html#a5c9308f296545a8f3b7687d277a6dabc',1,'movie.c']]],
-  ['avs_5fframe_5falign_26',['AVS_FRAME_ALIGN',['../d8/dee/movie_8c.html#a4b5f5e845f2570e1fffefbbf1191427b',1,'movie.c']]],
-  ['axis_27',['AXIS',['../da/d7e/glwin_8h.html#a49396043b2d2ffc2a52e26c4a9e810ef',1,'glwin.h']]],
-  ['axis_5fstyles_28',['AXIS_STYLES',['../da/d3c/w__axis_8c.html#a870e035120a3f52aa6654164b16a5349',1,'w_axis.c']]],
-  ['axis_5ftemplates_29',['AXIS_TEMPLATES',['../da/d3c/w__axis_8c.html#a3a8c802c2d7d593b3c2b5dfd5c5c28bd',1,'w_axis.c']]]
+  ['av_5fround_5fpass_5fminmax_19',['AV_ROUND_PASS_MINMAX',['../d8/dee/movie_8c.html#a2258fb212749011c956fde432d2dbc99',1,'movie.c']]],
+  ['avio_5fflag_5fread_20',['AVIO_FLAG_READ',['../d8/dee/movie_8c.html#a21e61cb486bd1588eb7f775998cf8c77',1,'movie.c']]],
+  ['avio_5fflag_5fread_5fwrite_21',['AVIO_FLAG_READ_WRITE',['../d8/dee/movie_8c.html#aba7dc6a03cfe63d2a7e2c00532007eb2',1,'movie.c']]],
+  ['avio_5fflag_5fwrite_22',['AVIO_FLAG_WRITE',['../d8/dee/movie_8c.html#a5c9308f296545a8f3b7687d277a6dabc',1,'movie.c']]],
+  ['avs_5fframe_5falign_23',['AVS_FRAME_ALIGN',['../d8/dee/movie_8c.html#a4b5f5e845f2570e1fffefbbf1191427b',1,'movie.c']]],
+  ['axis_24',['AXIS',['../da/d7e/glwin_8h.html#a49396043b2d2ffc2a52e26c4a9e810ef',1,'glwin.h']]],
+  ['axis_5fstyles_25',['AXIS_STYLES',['../da/d3c/w__axis_8c.html#a870e035120a3f52aa6654164b16a5349',1,'w_axis.c']]],
+  ['axis_5ftemplates_26',['AXIS_TEMPLATES',['../da/d3c/w__axis_8c.html#a3a8c802c2d7d593b3c2b5dfd5c5c28bd',1,'w_axis.c']]]
 ];

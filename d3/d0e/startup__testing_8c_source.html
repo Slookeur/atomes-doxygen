@@ -117,7 +117,7 @@ $(function(){initNavTree('d3/d0e/startup__testing_8c_source.html','../../'); ini
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">Copyright (C) 2022-2024 by CNRS and University of Strasbourg */</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#ifdef HAVE_CONFIG_H</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#  include &lt;<a class="code" href="../../db/d16/config_8h.html">config.h</a>&gt;</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#  include &lt;config.h&gt;</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#include &lt;gtk/gtk.h&gt;</span></div>
@@ -163,7 +163,7 @@ $(function(){initNavTree('d3/d0e/startup__testing_8c_source.html','../../'); ini
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  printf(<span class="stringliteral">&quot;%s&quot;</span>, help);</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  printf(<span class="stringliteral">&quot;%s&quot;</span>, bug);</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  printf(<span class="stringliteral">&quot;%s&quot;</span>, <a class="code hl_define" href="../../db/d16/config_8h.html#a1d1d2d7f8d2f95b376954d649ab03233">PACKAGE_BUGREPORT</a>);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  printf(<span class="stringliteral">&quot;%s&quot;</span>, PACKAGE_BUGREPORT);</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  printf(<span class="stringliteral">&quot;%s\n&quot;</span>, eh);</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>}</div>
 </div>
@@ -176,13 +176,13 @@ $(function(){initNavTree('d3/d0e/startup__testing_8c_source.html','../../'); ini
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  <span class="keywordtype">char</span> eh[4] = <span class="stringliteral">&quot;&gt;\n&quot;</span>;</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>  printf (<span class="stringliteral">&quot;%s&quot;</span>, scanid);</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>  printf (<span class="stringliteral">&quot;\n%s version         : %s\n&quot;</span>, <a class="code hl_define" href="../../db/d16/config_8h.html#aca8570fb706c81df371b7f9bc454ae03">PACKAGE</a>, <a class="code hl_define" href="../../db/d16/config_8h.html#a1c6d5de492ac61ad29aec7aa9a436bbf">VERSION</a>);</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>  printf (<span class="stringliteral">&quot;\n%s version         : %s\n&quot;</span>, PACKAGE, VERSION);</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>  printf (<span class="stringliteral">&quot;\nGTK+ version           : %1d.%1d.%1d\n&quot;</span>,</div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>          GTK_MAJOR_VERSION,</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>          GTK_MINOR_VERSION,</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>          GTK_MICRO_VERSION);</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>  printf (<span class="stringliteral">&quot;%s&quot;</span>, bug);</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>  printf (<span class="stringliteral">&quot;%s&quot;</span>, <a class="code hl_define" href="../../db/d16/config_8h.html#a1d1d2d7f8d2f95b376954d649ab03233">PACKAGE_BUGREPORT</a>);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>  printf (<span class="stringliteral">&quot;%s&quot;</span>, PACKAGE_BUGREPORT);</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>  printf (<span class="stringliteral">&quot;%s\n&quot;</span>, eh);</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>}</div>
 </div>
@@ -480,9 +480,9 @@ $(function(){initNavTree('d3/d0e/startup__testing_8c_source.html','../../'); ini
 <div class="line"><a id="l00458" name="l00458"></a><span class="lineno">  458</span>  {</div>
 <div class="line"><a id="l00459" name="l00459"></a><span class="lineno">  459</span>    GtkApplication * TestOpenGLApp;</div>
 <div class="line"><a id="l00460" name="l00460"></a><span class="lineno">  460</span><span class="preprocessor">#if GLIB_MINOR_VERSION &lt; 74</span></div>
-<div class="line"><a id="l00461" name="l00461"></a><span class="lineno">  461</span>    TestOpenGLApp = gtk_application_new (g_strdup_printf (<span class="stringliteral">&quot;atomes.ogl-%d&quot;</span>, (<span class="keywordtype">int</span>)clock()), G_APPLICATION_FLAGS_NONE);</div>
+<div class="line"><a id="l00461" name="l00461"></a><span class="lineno">  461</span>    TestOpenGLApp = gtk_application_new (g_strdup_printf (<span class="stringliteral">&quot;fr.ipcms.atomes.ogl-%d&quot;</span>, (<span class="keywordtype">int</span>)clock()), G_APPLICATION_FLAGS_NONE);</div>
 <div class="line"><a id="l00462" name="l00462"></a><span class="lineno">  462</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00463" name="l00463"></a><span class="lineno">  463</span>    TestOpenGLApp = gtk_application_new (g_strdup_printf (<span class="stringliteral">&quot;atomes.ogl-%d&quot;</span>, (<span class="keywordtype">int</span>)clock()), G_APPLICATION_DEFAULT_FLAGS);</div>
+<div class="line"><a id="l00463" name="l00463"></a><span class="lineno">  463</span>    TestOpenGLApp = gtk_application_new (g_strdup_printf (<span class="stringliteral">&quot;fr.ipcms.atomes.ogl-%d&quot;</span>, (<span class="keywordtype">int</span>)clock()), G_APPLICATION_DEFAULT_FLAGS);</div>
 <div class="line"><a id="l00464" name="l00464"></a><span class="lineno">  464</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00465" name="l00465"></a><span class="lineno">  465</span>    GError * error = NULL;</div>
 <div class="line"><a id="l00466" name="l00466"></a><span class="lineno">  466</span>    g_application_register (G_APPLICATION(TestOpenGLApp), NULL, &amp; error);</div>
@@ -508,10 +508,6 @@ $(function(){initNavTree('d3/d0e/startup__testing_8c_source.html','../../'); ini
 <div class="line"><a id="l00486" name="l00486"></a><span class="lineno">  486</span>  <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a id="l00487" name="l00487"></a><span class="lineno">  487</span>}</div>
 </div>
-<div class="ttc" id="aconfig_8h_html"><div class="ttname"><a href="../../db/d16/config_8h.html">config.h</a></div></div>
-<div class="ttc" id="aconfig_8h_html_a1c6d5de492ac61ad29aec7aa9a436bbf"><div class="ttname"><a href="../../db/d16/config_8h.html#a1c6d5de492ac61ad29aec7aa9a436bbf">VERSION</a></div><div class="ttdeci">#define VERSION</div><div class="ttdef"><b>Definition</b> <a href="../../db/d16/config_8h_source.html#l00067">config.h:67</a></div></div>
-<div class="ttc" id="aconfig_8h_html_a1d1d2d7f8d2f95b376954d649ab03233"><div class="ttname"><a href="../../db/d16/config_8h.html#a1d1d2d7f8d2f95b376954d649ab03233">PACKAGE_BUGREPORT</a></div><div class="ttdeci">#define PACKAGE_BUGREPORT</div><div class="ttdef"><b>Definition</b> <a href="../../db/d16/config_8h_source.html#l00049">config.h:49</a></div></div>
-<div class="ttc" id="aconfig_8h_html_aca8570fb706c81df371b7f9bc454ae03"><div class="ttname"><a href="../../db/d16/config_8h.html#aca8570fb706c81df371b7f9bc454ae03">PACKAGE</a></div><div class="ttdeci">#define PACKAGE</div><div class="ttdef"><b>Definition</b> <a href="../../db/d16/config_8h_source.html#l00046">config.h:46</a></div></div>
 <div class="ttc" id="aglwin_8h_html_ab18fd48738fff07d744dbcc6920464b4"><div class="ttname"><a href="../../da/d7e/glwin_8h.html#ab18fd48738fff07d744dbcc6920464b4">GL_COLOR_SUM_EXT</a></div><div class="ttdeci">#define GL_COLOR_SUM_EXT</div><div class="ttdef"><b>Definition</b> <a href="../../da/d7e/glwin_8h_source.html#l00039">glwin.h:39</a></div></div>
 <div class="ttc" id="aimage_8c_html_a1d8b205cca37a7736af2a418e40d0310"><div class="ttname"><a href="../../d3/d10/image_8c.html#a1d8b205cca37a7736af2a418e40d0310">glcontext</a></div><div class="ttdeci">GLXContext glcontext</div></div>
 <div class="ttc" id="aimage_8c_html_a1eb44a3cb81323dca293c956e6e5f2c4"><div class="ttname"><a href="../../d3/d10/image_8c.html#a1eb44a3cb81323dca293c956e6e5f2c4">xwin</a></div><div class="ttdeci">GdkWindow * xwin</div></div>
