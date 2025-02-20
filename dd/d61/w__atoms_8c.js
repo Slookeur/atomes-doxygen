@@ -5,6 +5,7 @@ var w__atoms_8c =
     [ "allocate_atom_search", "dd/d61/w__atoms_8c.html#a82e4861581fa24d314ea8d36ac647405", null ],
     [ "atom_properties", "dd/d61/w__atoms_8c.html#a0383994ad6202318c7c605db807e6618", null ],
     [ "atoms_input_win", "dd/d61/w__atoms_8c.html#ac04ae81a027b3973e9e0aeed3d6d8cec", null ],
+    [ "check_hidden_visible", "dd/d61/w__atoms_8c.html#a5a513444a28ad8c6fb91ab1560e76276", null ],
     [ "close_event_model", "dd/d61/w__atoms_8c.html#a8e511a5c6613a7df73b3826d2299a717", null ],
     [ "close_model", "dd/d61/w__atoms_8c.html#aeddc8b82552458ee9a262832d66ca3c8", null ],
     [ "label_atpts", "dd/d61/w__atoms_8c.html#a1a61c88f188bff0d21edb1c88cfb71d8", null ],

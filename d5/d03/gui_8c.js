@@ -40,7 +40,6 @@ var gui_8c =
     [ "analyze_acts", "d5/d03/gui_8c.html#a63faa9f0b3e4a03314fadd5c0e0072ee", null ],
     [ "calc_img", "d5/d03/gui_8c.html#a6eb4dfe8201a0bd388a26a55f30a3727", null ],
     [ "calc_name", "d5/d03/gui_8c.html#af7398ae8daba1bd18190e2cea0ff7735", null ],
-    [ "cut_lab", "d5/d03/gui_8c.html#a2fbef12e0c6c97289112b71c8a73f9c1", null ],
     [ "cut_sel", "d5/d03/gui_8c.html#ac73279370cbb0c38b739615f248958eb", null ],
     [ "davect", "d5/d03/gui_8c.html#a11d538ae9de4f2c17c3a9ce5ca99d15e", null ],
     [ "dots", "d5/d03/gui_8c.html#aef1fdfa4c24bee7605e735ed18a91c6a", null ],

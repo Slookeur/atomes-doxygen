@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../atomes.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">atomes<span id="projectnumber">&#160;1.1.16</span>
+   <div id="projectname">atomes<span id="projectnumber">&#160;1.1.17</span>
    </div>
    <div id="projectbrief">atomes: an atomic scale modeling tool box</div>
   </td>
@@ -127,9 +127,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ac4b75997a744c00867846106c619e793" id="r_ac4b75997a744c00867846106c619e793"><td class="memItemLeft" align="right" valign="top">gboolean **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4b75997a744c00867846106c619e793">duplicate_poly_info</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj)</td></tr>
 <tr class="memdesc:ac4b75997a744c00867846106c619e793"><td class="mdescLeft">&#160;</td><td class="mdescRight">duplicate polyhedra show status  <br /></td></tr>
 <tr class="separator:ac4b75997a744c00867846106c619e793"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb3c89d4b8f2ff6588e50d961011d0c2" id="r_adb3c89d4b8f2ff6588e50d961011d0c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb3c89d4b8f2ff6588e50d961011d0c2">restore_coord_and_poly_info</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *<a class="el" href="../../d2/d49/global_8h.html#a3d2fd1fcc3a6c1e8f6540b49a3ce05b7">proj</a>, gboolean **cshow, gboolean **pshow)</td></tr>
-<tr class="memdesc:adb3c89d4b8f2ff6588e50d961011d0c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">restore show status after  <br /></td></tr>
-<tr class="separator:adb3c89d4b8f2ff6588e50d961011d0c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e0f68e65cc0e7de4d39603401b08ad3" id="r_a4e0f68e65cc0e7de4d39603401b08ad3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e0f68e65cc0e7de4d39603401b08ad3">restore_coord_and_poly_info</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *<a class="el" href="../../d2/d49/global_8h.html#a3d2fd1fcc3a6c1e8f6540b49a3ce05b7">proj</a>, <a class="el" href="../../df/ddc/structcoord__info.html">coord_info</a> *ocoord, gboolean **cshow, gboolean **pshow)</td></tr>
+<tr class="memdesc:a4e0f68e65cc0e7de4d39603401b08ad3"><td class="mdescLeft">&#160;</td><td class="mdescRight">restore show status after  <br /></td></tr>
+<tr class="separator:a4e0f68e65cc0e7de4d39603401b08ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acecfd5ffd29583abe9372ad46c71a69e" id="r_acecfd5ffd29583abe9372ad46c71a69e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acecfd5ffd29583abe9372ad46c71a69e">sens_superbut</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj)</td></tr>
 <tr class="memdesc:acecfd5ffd29583abe9372ad46c71a69e"><td class="mdescLeft">&#160;</td><td class="mdescRight">adjust 'Create super-cell' button sensitivity  <br /></td></tr>
 <tr class="separator:acecfd5ffd29583abe9372ad46c71a69e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -278,8 +278,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adb3c89d4b8f2ff6588e50d961011d0c2" name="adb3c89d4b8f2ff6588e50d961011d0c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb3c89d4b8f2ff6588e50d961011d0c2">&#9670;&#160;</a></span>restore_coord_and_poly_info()</h2>
+<a id="a4e0f68e65cc0e7de4d39603401b08ad3" name="a4e0f68e65cc0e7de4d39603401b08ad3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e0f68e65cc0e7de4d39603401b08ad3">&#9670;&#160;</a></span>restore_coord_and_poly_info()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -288,6 +288,11 @@ Functions</h2></td></tr>
           <td class="memname">void restore_coord_and_poly_info </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../dd/dbe/structproject.html">project</a> *</td>          <td class="paramname"><span class="paramname"><em>proj</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../df/ddc/structcoord__info.html">coord_info</a> *</td>          <td class="paramname"><span class="paramname"><em>ocoord</em>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -306,13 +311,14 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">proj</td><td>the target project </td></tr>
+    <tr><td class="paramname">ocoord</td><td>the old coordination </td></tr>
     <tr><td class="paramname">cshow</td><td>the saved coordination show status </td></tr>
     <tr><td class="paramname">pshow</td><td>the saved polyhedra show status </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d1c/cell__super_8c_source.html#l00105">105</a> of file <a class="el" href="../../d8/d1c/cell__super_8c_source.html">cell_super.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d1c/cell__super_8c_source.html#l00106">106</a> of file <a class="el" href="../../d8/d1c/cell__super_8c_source.html">cell_super.c</a>.</p>
 
 </div>
 </div>
@@ -339,7 +345,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d1c/cell__super_8c_source.html#l00141">141</a> of file <a class="el" href="../../d8/d1c/cell__super_8c_source.html">cell_super.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d1c/cell__super_8c_source.html#l00175">175</a> of file <a class="el" href="../../d8/d1c/cell__super_8c_source.html">cell_super.c</a>.</p>
 
 </div>
 </div>
@@ -371,7 +377,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d1c/cell__super_8c_source.html#l00322">322</a> of file <a class="el" href="../../d8/d1c/cell__super_8c_source.html">cell_super.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d1c/cell__super_8c_source.html#l00358">358</a> of file <a class="el" href="../../d8/d1c/cell__super_8c_source.html">cell_super.c</a>.</p>
 
 </div>
 </div>
@@ -403,7 +409,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d1c/cell__super_8c_source.html#l00338">338</a> of file <a class="el" href="../../d8/d1c/cell__super_8c_source.html">cell_super.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d1c/cell__super_8c_source.html#l00374">374</a> of file <a class="el" href="../../d8/d1c/cell__super_8c_source.html">cell_super.c</a>.</p>
 
 </div>
 </div>
@@ -430,7 +436,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d1c/cell__super_8c_source.html#l00170">170</a> of file <a class="el" href="../../d8/d1c/cell__super_8c_source.html">cell_super.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d1c/cell__super_8c_source.html#l00204">204</a> of file <a class="el" href="../../d8/d1c/cell__super_8c_source.html">cell_super.c</a>.</p>
 
 </div>
 </div>

@@ -4,7 +4,7 @@ var cell__super_8c =
     [ "clean_coord_window", "d8/d1c/cell__super_8c.html#a1de95d38c0eab4905ffc53e06ed5ea16", null ],
     [ "duplicate_geom_info", "d8/d1c/cell__super_8c.html#ad9edd9a74ccd84b51fa0653868586a1d", null ],
     [ "duplicate_poly_info", "d8/d1c/cell__super_8c.html#ac4b75997a744c00867846106c619e793", null ],
-    [ "restore_coord_and_poly_info", "d8/d1c/cell__super_8c.html#adb3c89d4b8f2ff6588e50d961011d0c2", null ],
+    [ "restore_coord_and_poly_info", "d8/d1c/cell__super_8c.html#a4e0f68e65cc0e7de4d39603401b08ad3", null ],
     [ "sens_superbut", "d8/d1c/cell__super_8c.html#acecfd5ffd29583abe9372ad46c71a69e", null ],
     [ "super_cell", "d8/d1c/cell__super_8c.html#a43fcf3c18c2aca51cc898849cfb158e6", null ],
     [ "super_cell_but", "d8/d1c/cell__super_8c.html#af2eb56ddefec60297803e86574f200ee", null ],

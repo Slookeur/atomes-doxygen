@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../atomes.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">atomes<span id="projectnumber">&#160;1.1.16</span>
+   <div id="projectname">atomes<span id="projectnumber">&#160;1.1.17</span>
    </div>
    <div id="projectbrief">atomes: an atomic scale modeling tool box</div>
   </td>
@@ -114,7 +114,7 @@ $(function(){initNavTree('dd/dda/interface_8c_source.html','../../'); initResiza
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">You should have received a copy of the GNU Affero General Public License along with &#39;atomes&#39;.</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">If not, see &lt;https://www.gnu.org/licenses/&gt;</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment"></span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">Copyright (C) 2022-2024 by CNRS and University of Strasbourg */</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">Copyright (C) 2022-2025 by CNRS and University of Strasbourg */</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="comment">/*</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment">* This file: &#39;interface.c&#39;</span></div>
@@ -236,8 +236,8 @@ $(function(){initNavTree('dd/dda/interface_8c_source.html','../../'); initResiza
 <div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>  {</div>
 <div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    web = gtk_link_button_new_with_label (<a class="code hl_variable" href="../../dc/d57/global_8c.html#a9b51860b9bac5ed2b7937ac0a6ff54a4">ATOMES_URL</a>, <span class="stringliteral">&quot;Visit the project&#39;s website&quot;</span>);</div>
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>  }</div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>  gchar * mailto = g_strdup_printf (<span class="stringliteral">&quot;mailo:%s&quot;</span>, PACKAGE_BUGREPORT);</div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>  gchar * mailsh = g_strdup_printf (<span class="stringliteral">&quot;&lt;%s&gt;&quot;</span>,PACKAGE_BUGREPORT);</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>  gchar * mailto = g_strdup_printf (<span class="stringliteral">&quot;mailo:%s&quot;</span>, <a class="code hl_define" href="../../db/d16/config_8h.html#a1d1d2d7f8d2f95b376954d649ab03233">PACKAGE_BUGREPORT</a>);</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>  gchar * mailsh = g_strdup_printf (<span class="stringliteral">&quot;&lt;%s&gt;&quot;</span>,<a class="code hl_define" href="../../db/d16/config_8h.html#a1d1d2d7f8d2f95b376954d649ab03233">PACKAGE_BUGREPORT</a>);</div>
 <div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>  eseb = gtk_link_button_new_with_label (mailto, mailsh);</div>
 <div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>  g_free (mailto);</div>
 <div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>  g_free (mailsh);</div>
@@ -268,15 +268,15 @@ $(function(){initNavTree('dd/dda/interface_8c_source.html','../../'); initResiza
 <div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>  <span class="keyword">const</span> gchar *authors[] = {<span class="stringliteral">&quot;Dr. Sébastien Le Roux &lt;sebastien.leroux@ipcms.unistra.fr&gt;&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, NULL};</div>
 <div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>  <span class="keyword">const</span> gchar * weblabel = <span class="stringliteral">&quot;https://atomes.ipcms.fr&quot;</span>;</div>
 <div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>  <span class="keyword">const</span> gchar * comments = <span class="stringliteral">&quot;Visualization, analyzis, creation/edition and post-processing of atomistic models !&quot;</span>;</div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>  <span class="keyword">const</span> gchar * copyrights = <span class="stringliteral">&quot;Copyright © 2024 \nDr. Sébastien Le Roux&quot;</span>;</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>  <span class="keyword">const</span> gchar * copyrights = <span class="stringliteral">&quot;Copyright © 2025 \nDr. Sébastien Le Roux&quot;</span>;</div>
 <div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span> </div>
 <div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>  <span class="comment">// gtk_about_dialog_set_url_hook (about_dialog_handle_url, NULL, NULL);</span></div>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>  <span class="comment">// gtk_about_dialog_set_email_hook (about_dialog_handle_url, NULL, NULL);</span></div>
 <div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span> </div>
 <div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>  aboutdialog = gtk_about_dialog_new ();</div>
 <div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>  gtk_about_dialog_set_logo (GTK_ABOUT_DIALOG(aboutdialog), <a class="code hl_variable" href="../../dc/d57/global_8c.html#abd8aee80ff6027ba47588edd9fd390c3">atomes_logo</a>);</div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>  gtk_about_dialog_set_version (GTK_ABOUT_DIALOG(aboutdialog), VERSION);</div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>  gchar * str = g_strdup_printf (<span class="stringliteral">&quot;%s&quot;</span>, PACKAGE);</div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>  gtk_about_dialog_set_version (GTK_ABOUT_DIALOG(aboutdialog), <a class="code hl_define" href="../../db/d16/config_8h.html#a1c6d5de492ac61ad29aec7aa9a436bbf">VERSION</a>);</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>  gchar * str = g_strdup_printf (<span class="stringliteral">&quot;%s&quot;</span>, <a class="code hl_define" href="../../db/d16/config_8h.html#aca8570fb706c81df371b7f9bc454ae03">PACKAGE</a>);</div>
 <div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>  gtk_about_dialog_set_program_name (GTK_ABOUT_DIALOG(aboutdialog), str);</div>
 <div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>  g_free (str);</div>
 <div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>  gtk_about_dialog_set_comments (GTK_ABOUT_DIALOG(aboutdialog), comments);</div>
@@ -903,6 +903,9 @@ $(function(){initNavTree('dd/dda/interface_8c_source.html','../../'); initResiza
 <div class="ttc" id="acallbacks_8c_html_a171fc1a71f4feff91a73ad60eddaba4d"><div class="ttname"><a href="../../d3/d3a/callbacks_8c.html#a171fc1a71f4feff91a73ad60eddaba4d">quit_gtk</a></div><div class="ttdeci">void quit_gtk()</div><div class="ttdoc">Leave the application.</div><div class="ttdef"><b>Definition</b> <a href="../../d3/d3a/callbacks_8c_source.html#l00119">callbacks.c:119</a></div></div>
 <div class="ttc" id="acallbacks_8h_html"><div class="ttname"><a href="../../dd/d49/callbacks_8h.html">callbacks.h</a></div><div class="ttdoc">Callback declarations for main window.</div></div>
 <div class="ttc" id="achemistry_8_f90_html_a014ede0cb5057a9a6dfd1c9560c2de0a"><div class="ttname"><a href="../../d5/d79/chemistry_8_f90.html#a014ede0cb5057a9a6dfd1c9560c2de0a">chemistry</a></div><div class="ttdeci">integer(kind=c_int) function chemistry()</div><div class="ttdef"><b>Definition</b> <a href="../../d5/d79/chemistry_8_f90_source.html#l00021">chemistry.F90:22</a></div></div>
+<div class="ttc" id="aconfig_8h_html_a1c6d5de492ac61ad29aec7aa9a436bbf"><div class="ttname"><a href="../../db/d16/config_8h.html#a1c6d5de492ac61ad29aec7aa9a436bbf">VERSION</a></div><div class="ttdeci">#define VERSION</div><div class="ttdef"><b>Definition</b> <a href="../../db/d16/config_8h_source.html#l00067">config.h:67</a></div></div>
+<div class="ttc" id="aconfig_8h_html_a1d1d2d7f8d2f95b376954d649ab03233"><div class="ttname"><a href="../../db/d16/config_8h.html#a1d1d2d7f8d2f95b376954d649ab03233">PACKAGE_BUGREPORT</a></div><div class="ttdeci">#define PACKAGE_BUGREPORT</div><div class="ttdef"><b>Definition</b> <a href="../../db/d16/config_8h_source.html#l00049">config.h:49</a></div></div>
+<div class="ttc" id="aconfig_8h_html_aca8570fb706c81df371b7f9bc454ae03"><div class="ttname"><a href="../../db/d16/config_8h.html#aca8570fb706c81df371b7f9bc454ae03">PACKAGE</a></div><div class="ttdeci">#define PACKAGE</div><div class="ttdef"><b>Definition</b> <a href="../../db/d16/config_8h_source.html#l00046">config.h:46</a></div></div>
 <div class="ttc" id="acurve_8c_html_aa9ff1a1756d3fe74ecbe5ca0c6500523"><div class="ttname"><a href="../../dc/d22/curve_8c.html#aa9ff1a1756d3fe74ecbe5ca0c6500523">update_curve</a></div><div class="ttdeci">void update_curve(gpointer data)</div><div class="ttdoc">update curve rendering</div><div class="ttdef"><b>Definition</b> <a href="../../dc/d22/curve_8c_source.html#l00589">curve.c:589</a></div></div>
 <div class="ttc" id="acurve_8h_html"><div class="ttname"><a href="../../df/de9/curve_8h.html">curve.h</a></div><div class="ttdoc">Variable declarations for the curve widget   Functions for interactions with the curve widget.</div></div>
 <div class="ttc" id="acurve_8h_html_a190a1ae859f941448f2d9f72d582274f"><div class="ttname"><a href="../../df/de9/curve_8h.html#a190a1ae859f941448f2d9f72d582274f">label</a></div><div class="ttdeci">void label(cairo_t *cr, double val, int axe, int p, project *this_proj)</div><div class="ttdoc">draw axis label</div><div class="ttdef"><b>Definition</b> <a href="../../de/d87/labels_8c_source.html#l00056">labels.c:56</a></div></div>
@@ -995,7 +998,7 @@ $(function(){initNavTree('dd/dda/interface_8c_source.html','../../'); initResiza
 <div class="ttc" id="ainterface_8c_html_aff76e21786c259d54362dd36ea69c220"><div class="ttname"><a href="../../dd/dda/interface_8c.html#aff76e21786c259d54362dd36ea69c220">coord_type</a></div><div class="ttdeci">gchar * coord_type[3]</div><div class="ttdef"><b>Definition</b> <a href="#l00447">interface.c:447</a></div></div>
 <div class="ttc" id="aopen__p_8c_html_ac05d554daddbb3118b4026ddae56e1f8"><div class="ttname"><a href="../../da/d5e/open__p_8c.html#ac05d554daddbb3118b4026ddae56e1f8">alloc_proj_data</a></div><div class="ttdeci">void alloc_proj_data(project *this_proj, int cid)</div><div class="ttdoc">allocate data</div><div class="ttdef"><b>Definition</b> <a href="../../da/d5e/open__p_8c_source.html#l00206">open_p.c:206</a></div></div>
 <div class="ttc" id="aproject_8h_html"><div class="ttname"><a href="../../dc/d8d/project_8h.html">project.h</a></div><div class="ttdoc">Function declarations for reading atomes project file   Function declarations for saving atomes proje...</div></div>
-<div class="ttc" id="astructproject_html"><div class="ttname"><a href="../../dd/dbe/structproject.html">project</a></div><div class="ttdef"><b>Definition</b> <a href="../../d2/d49/global_8h_source.html#l00936">global.h:937</a></div></div>
+<div class="ttc" id="astructproject_html"><div class="ttname"><a href="../../dd/dbe/structproject.html">project</a></div><div class="ttdef"><b>Definition</b> <a href="../../d2/d49/global_8h_source.html#l00934">global.h:935</a></div></div>
 <div class="ttc" id="astructtint_html"><div class="ttname"><a href="../../df/d46/structtint.html">tint</a></div><div class="ttdef"><b>Definition</b> <a href="../../d2/d49/global_8h_source.html#l00103">global.h:104</a></div></div>
 <div class="ttc" id="astructtint_html_a148e3876077787926724625411d6e7a9"><div class="ttname"><a href="../../df/d46/structtint.html#a148e3876077787926724625411d6e7a9">tint::b</a></div><div class="ttdeci">int b</div><div class="ttdef"><b>Definition</b> <a href="../../d2/d49/global_8h_source.html#l00106">global.h:106</a></div></div>
 <div class="ttc" id="astructtint_html_a4e1e0e72dd773439e333c84dd762a9c3"><div class="ttname"><a href="../../df/d46/structtint.html#a4e1e0e72dd773439e333c84dd762a9c3">tint::c</a></div><div class="ttdeci">int c</div><div class="ttdef"><b>Definition</b> <a href="../../d2/d49/global_8h_source.html#l00107">global.h:107</a></div></div>

@@ -5,6 +5,6 @@ var dmtx_8_f90 =
     [ "pixout", "d9/d48/dmtx_8_f90.html#afc7c3bfae083d46a1866a59d0f68fedf", null ],
     [ "print_this_pixel", "d9/d48/dmtx_8_f90.html#a6e1e37e36f0c9fc6194d7a2edb5c0a64", null ],
     [ "rundmtx", "d9/d48/dmtx_8_f90.html#ad8781dc7e01c48860f20c1f71ab5409d", null ],
-    [ "set_shift", "d9/d48/dmtx_8_f90.html#a32fc2161fb5d6b0acddc1c7c02a14b61", null ],
+    [ "set_shift", "d9/d48/dmtx_8_f90.html#aaecdb941a5229750559dad9837495aef", null ],
     [ "toomuch", "d9/d48/dmtx_8_f90.html#afff5560611ed9cdaae67d57ca1cad4fa", null ]
 ];

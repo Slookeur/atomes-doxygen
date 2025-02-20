@@ -338,7 +338,6 @@ var global_8h =
     [ "coord_files_ext", "d2/d49/global_8h.html#ab03bc5bfbcd90502d4bc6b0ca2048c5b", null ],
     [ "copied_object", "d2/d49/global_8h.html#af2bde98648e9eff12929280214719a1e", null ],
     [ "curvetoolbox", "d2/d49/global_8h.html#add05d3a226dc3889160257f0608c475a", null ],
-    [ "cut_lab", "d2/d49/global_8h.html#a2fbef12e0c6c97289112b71c8a73f9c1", null ],
     [ "cut_sel", "d2/d49/global_8h.html#ac73279370cbb0c38b739615f248958eb", null ],
     [ "dialog_id", "d2/d49/global_8h.html#a3a794437d70caf0e0bd7b4adc351506a", null ],
     [ "dots", "d2/d49/global_8h.html#aef1fdfa4c24bee7605e735ed18a91c6a", null ],

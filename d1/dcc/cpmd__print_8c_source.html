@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../atomes.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">atomes<span id="projectnumber">&#160;1.1.16</span>
+   <div id="projectname">atomes<span id="projectnumber">&#160;1.1.17</span>
    </div>
    <div id="projectbrief">atomes: an atomic scale modeling tool box</div>
   </td>
@@ -114,7 +114,7 @@ $(function(){initNavTree('d1/dcc/cpmd__print_8c_source.html','../../'); initResi
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">You should have received a copy of the GNU Affero General Public License along with &#39;atomes&#39;.</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">If not, see &lt;https://www.gnu.org/licenses/&gt;</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment"></span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">Copyright (C) 2022-2024 by CNRS and University of Strasbourg */</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">Copyright (C) 2022-2025 by CNRS and University of Strasbourg */</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="comment">/*</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment">* This file: &#39;cpmd_print.c&#39;</span></div>
@@ -153,7 +153,7 @@ $(function(){initNavTree('d1/dcc/cpmd__print_8c_source.html','../../'); initResi
 <div class="foldopen" id="foldopen00063" data-start="{" data-end="}">
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="../../d1/dcc/cpmd__print_8c.html#a52c9506a69c30f7013fd98ae6f9b6547">   63</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="../../d1/dcc/cpmd__print_8c.html#a52c9506a69c30f7013fd98ae6f9b6547">print_info_section</a> (GtkTextBuffer * buf)</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>{</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  gchar * str = g_strdup_printf (<span class="stringliteral">&quot;  This input was prepared using %s\n\n&quot;</span>, PACKAGE);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>  gchar * str = g_strdup_printf (<span class="stringliteral">&quot;  This input was prepared using %s\n\n&quot;</span>, <a class="code hl_define" href="../../db/d16/config_8h.html#aca8570fb706c81df371b7f9bc454ae03">PACKAGE</a>);</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  <a class="code hl_function" href="../../dd/dda/interface_8c.html#ae7bcb4aa657deb56400b2fe6d8c54808">print_info</a> (str, NULL, buf);</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  g_free (str);</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d06/cpmd_8h.html#a7c57705b2932dc44b2868c0d3b35dc0c">tmp_cpmd</a> -&gt; info != NULL) <a class="code hl_function" href="../../dd/dda/interface_8c.html#ae7bcb4aa657deb56400b2fe6d8c54808">print_info</a> (<a class="code hl_variable" href="../../d2/d06/cpmd_8h.html#a7c57705b2932dc44b2868c0d3b35dc0c">tmp_cpmd</a> -&gt; info, NULL, buf);</div>
@@ -795,6 +795,7 @@ $(function(){initNavTree('d1/dcc/cpmd__print_8c_source.html','../../'); initResi
 <div class="ttc" id="acalc_8c_html_acec0c77667b01b4fe9d08cf352f74099"><div class="ttname"><a href="../../d1/dcc/calc_8c.html#acec0c77667b01b4fe9d08cf352f74099">qm_proj</a></div><div class="ttdeci">project * qm_proj</div><div class="ttdef"><b>Definition</b> <a href="../../d1/dcc/calc_8c_source.html#l00067">calc.c:67</a></div></div>
 <div class="ttc" id="acalc_8h_html"><div class="ttname"><a href="../../d1/d74/calc_8h.html">calc.h</a></div><div class="ttdoc">Variable declarations for the MD input preparation assistants.</div></div>
 <div class="ttc" id="achemistry_8_f90_html_a014ede0cb5057a9a6dfd1c9560c2de0a"><div class="ttname"><a href="../../d5/d79/chemistry_8_f90.html#a014ede0cb5057a9a6dfd1c9560c2de0a">chemistry</a></div><div class="ttdeci">integer(kind=c_int) function chemistry()</div><div class="ttdef"><b>Definition</b> <a href="../../d5/d79/chemistry_8_f90_source.html#l00021">chemistry.F90:22</a></div></div>
+<div class="ttc" id="aconfig_8h_html_aca8570fb706c81df371b7f9bc454ae03"><div class="ttname"><a href="../../db/d16/config_8h.html#aca8570fb706c81df371b7f9bc454ae03">PACKAGE</a></div><div class="ttdeci">#define PACKAGE</div><div class="ttdef"><b>Definition</b> <a href="../../db/d16/config_8h_source.html#l00046">config.h:46</a></div></div>
 <div class="ttc" id="acpmd_8h_html"><div class="ttname"><a href="../../d2/d06/cpmd_8h.html">cpmd.h</a></div><div class="ttdoc">Variable declarations for the creation of the CPMD input file.</div></div>
 <div class="ttc" id="acpmd_8h_html_a059320cf91da9acfabad3224879845f4"><div class="ttname"><a href="../../d2/d06/cpmd_8h.html#a059320cf91da9acfabad3224879845f4">BAROB</a></div><div class="ttdeci">#define BAROB</div><div class="ttdef"><b>Definition</b> <a href="../../d2/d06/cpmd_8h_source.html#l00076">cpmd.h:76</a></div></div>
 <div class="ttc" id="acpmd_8h_html_a0d571ab9f2482070cf61b386c7786409"><div class="ttname"><a href="../../d2/d06/cpmd_8h.html#a0d571ab9f2482070cf61b386c7786409">DEFVD</a></div><div class="ttdeci">#define DEFVD</div><div class="ttdef"><b>Definition</b> <a href="../../d2/d06/cpmd_8h_source.html#l00040">cpmd.h:40</a></div></div>
@@ -868,9 +869,9 @@ $(function(){initNavTree('d1/dcc/cpmd__print_8c_source.html','../../'); initResi
 <div class="ttc" id="aogl__draw_8c_html_ab3e6ed577a7c669c19de1f9c1b46c872"><div class="ttname"><a href="../../d2/db3/ogl__draw_8c.html#ab3e6ed577a7c669c19de1f9c1b46c872">z</a></div><div class="ttdeci">double z</div><div class="ttdef"><b>Definition</b> <a href="../../d2/db3/ogl__draw_8c_source.html#l00057">ogl_draw.c:57</a></div></div>
 <div class="ttc" id="aogl__draw_8c_html_ab927965981178aa1fba979a37168db2a"><div class="ttname"><a href="../../d2/db3/ogl__draw_8c.html#ab927965981178aa1fba979a37168db2a">y</a></div><div class="ttdeci">double y</div><div class="ttdef"><b>Definition</b> <a href="../../d2/db3/ogl__draw_8c_source.html#l00057">ogl_draw.c:57</a></div></div>
 <div class="ttc" id="aogl__draw_8c_html_af88b946fb90d5f08b5fb740c70e98c10"><div class="ttname"><a href="../../d2/db3/ogl__draw_8c.html#af88b946fb90d5f08b5fb740c70e98c10">x</a></div><div class="ttdeci">double x</div><div class="ttdef"><b>Definition</b> <a href="../../d2/db3/ogl__draw_8c_source.html#l00057">ogl_draw.c:57</a></div></div>
-<div class="ttc" id="astructcpmd_html_ab459df4b22c910c9adf93df6eb34d898"><div class="ttname"><a href="../../da/d1f/structcpmd.html#ab459df4b22c910c9adf93df6eb34d898">cpmd::fixat</a></div><div class="ttdeci">int fixat</div><div class="ttdef"><b>Definition</b> <a href="../../d2/d49/global_8h_source.html#l00777">global.h:777</a></div></div>
-<div class="ttc" id="astructdummy__atom_html"><div class="ttname"><a href="../../dc/dcf/structdummy__atom.html">dummy_atom</a></div><div class="ttdef"><b>Definition</b> <a href="../../d2/d49/global_8h_source.html#l00752">global.h:753</a></div></div>
-<div class="ttc" id="astructthermostat_html"><div class="ttname"><a href="../../df/d6b/structthermostat.html">thermostat</a></div><div class="ttdef"><b>Definition</b> <a href="../../d2/d49/global_8h_source.html#l00734">global.h:735</a></div></div>
+<div class="ttc" id="astructcpmd_html_ab459df4b22c910c9adf93df6eb34d898"><div class="ttname"><a href="../../da/d1f/structcpmd.html#ab459df4b22c910c9adf93df6eb34d898">cpmd::fixat</a></div><div class="ttdeci">int fixat</div><div class="ttdef"><b>Definition</b> <a href="../../d2/d49/global_8h_source.html#l00775">global.h:775</a></div></div>
+<div class="ttc" id="astructdummy__atom_html"><div class="ttname"><a href="../../dc/dcf/structdummy__atom.html">dummy_atom</a></div><div class="ttdef"><b>Definition</b> <a href="../../d2/d49/global_8h_source.html#l00750">global.h:751</a></div></div>
+<div class="ttc" id="astructthermostat_html"><div class="ttname"><a href="../../df/d6b/structthermostat.html">thermostat</a></div><div class="ttdef"><b>Definition</b> <a href="../../d2/d49/global_8h_source.html#l00732">global.h:733</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

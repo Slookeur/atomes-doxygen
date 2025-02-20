@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../atomes.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">atomes<span id="projectnumber">&#160;1.1.16</span>
+   <div id="projectname">atomes<span id="projectnumber">&#160;1.1.17</span>
    </div>
    <div id="projectbrief">atomes: an atomic scale modeling tool box</div>
   </td>
@@ -114,7 +114,7 @@ $(function(){initNavTree('de/d92/cp2k__init_8c_source.html','../../'); initResiz
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">You should have received a copy of the GNU Affero General Public License along with &#39;atomes&#39;.</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">If not, see &lt;https://www.gnu.org/licenses/&gt;</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment"></span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">Copyright (C) 2022-2024 by CNRS and University of Strasbourg */</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">Copyright (C) 2022-2025 by CNRS and University of Strasbourg */</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="comment">/*</span></div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment">* This file: &#39;cp2k_init.c&#39;</span></div>
@@ -899,7 +899,7 @@ $(function(){initNavTree('de/d92/cp2k__init_8c_source.html','../../'); initResiz
 <div class="line"><a id="l00935" name="l00935"></a><span class="lineno">  935</span> </div>
 <div class="line"><a id="l00936" name="l00936"></a><span class="lineno">  936</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d1/dcc/calc_8c.html#a6eb9e6b6264fd2918d7d9d00c9c871aa">idopt</a> == <a class="code hl_define" href="../../d7/d33/cp2k_8h.html#ad0a1350031b1554e9a6c29266f63382a">CP2SYM</a>)</div>
 <div class="line"><a id="l00937" name="l00937"></a><span class="lineno">  937</span>      {</div>
-<div class="line"><a id="l00938" name="l00938"></a><span class="lineno">  938</span>        gchar * str = g_strdup_printf (<span class="stringliteral">&quot; %s provides official CP2K atomic basis sets and pseudo-potentials, are included:&quot;</span>, PACKAGE);</div>
+<div class="line"><a id="l00938" name="l00938"></a><span class="lineno">  938</span>        gchar * str = g_strdup_printf (<span class="stringliteral">&quot; %s provides official CP2K atomic basis sets and pseudo-potentials, are included:&quot;</span>, <a class="code hl_define" href="../../db/d16/config_8h.html#aca8570fb706c81df371b7f9bc454ae03">PACKAGE</a>);</div>
 <div class="line"><a id="l00939" name="l00939"></a><span class="lineno">  939</span>        <a class="code hl_function" href="../../d2/d49/global_8h.html#a9f14ed4ee0a2f43d5d0a55cb087f8d40">add_box_child_start</a> (GTK_ORIENTATION_VERTICAL, <a class="code hl_variable" href="../../d3/da6/workspace_8c.html#a4135ce280f2ff654540c78e33ce96228">vbox</a>, <a class="code hl_function" href="../../d2/d49/global_8h.html#a9b2395d23c2b29ac1ff330154c43447f">markup_label</a>(str, -1, -1, 0.0, 0.5), FALSE, FALSE, 20);</div>
 <div class="line"><a id="l00940" name="l00940"></a><span class="lineno">  940</span>        g_free (str);</div>
 <div class="line"><a id="l00941" name="l00941"></a><span class="lineno">  941</span>        <a class="code hl_function" href="../../d2/d49/global_8h.html#a9f14ed4ee0a2f43d5d0a55cb087f8d40">add_box_child_start</a> (GTK_ORIENTATION_VERTICAL, <a class="code hl_variable" href="../../d3/da6/workspace_8c.html#a4135ce280f2ff654540c78e33ce96228">vbox</a>, <a class="code hl_function" href="../../d2/d49/global_8h.html#a9b2395d23c2b29ac1ff330154c43447f">markup_label</a>(<span class="stringliteral">&quot;&lt;sup&gt;&lt;tt&gt;\t   - BASIS_MOLOPT\t\t(CP2K v9.1, released: &lt;b&gt;2021-12-31&lt;/b&gt;)&lt;/tt&gt;&lt;/sup&gt;\n&quot;</span></div>
@@ -1226,6 +1226,7 @@ $(function(){initNavTree('de/d92/cp2k__init_8c_source.html','../../'); initResiz
 <div class="ttc" id="acalc_8h_html"><div class="ttname"><a href="../../d1/d74/calc_8h.html">calc.h</a></div><div class="ttdoc">Variable declarations for the MD input preparation assistants.</div></div>
 <div class="ttc" id="acallbacks_8h_html"><div class="ttname"><a href="../../dd/d49/callbacks_8h.html">callbacks.h</a></div><div class="ttdoc">Callback declarations for main window.</div></div>
 <div class="ttc" id="achemistry_8_f90_html_a014ede0cb5057a9a6dfd1c9560c2de0a"><div class="ttname"><a href="../../d5/d79/chemistry_8_f90.html#a014ede0cb5057a9a6dfd1c9560c2de0a">chemistry</a></div><div class="ttdeci">integer(kind=c_int) function chemistry()</div><div class="ttdef"><b>Definition</b> <a href="../../d5/d79/chemistry_8_f90_source.html#l00021">chemistry.F90:22</a></div></div>
+<div class="ttc" id="aconfig_8h_html_aca8570fb706c81df371b7f9bc454ae03"><div class="ttname"><a href="../../db/d16/config_8h.html#aca8570fb706c81df371b7f9bc454ae03">PACKAGE</a></div><div class="ttdeci">#define PACKAGE</div><div class="ttdef"><b>Definition</b> <a href="../../db/d16/config_8h_source.html#l00046">config.h:46</a></div></div>
 <div class="ttc" id="acp2k_8h_html"><div class="ttname"><a href="../../d7/d33/cp2k_8h.html">cp2k.h</a></div><div class="ttdoc">Variable declarations for the creation of the CP2K input file(s)</div></div>
 <div class="ttc" id="acp2k_8h_html_a0904a1c751e1ca5c068424d601d142b3"><div class="ttname"><a href="../../d7/d33/cp2k_8h.html#a0904a1c751e1ca5c068424d601d142b3">CP2VDW</a></div><div class="ttdeci">#define CP2VDW</div><div class="ttdef"><b>Definition</b> <a href="../../d7/d33/cp2k_8h_source.html#l00064">cp2k.h:64</a></div></div>
 <div class="ttc" id="acp2k_8h_html_a0981487a467a34e90ad97f759a8d7b8a"><div class="ttname"><a href="../../d7/d33/cp2k_8h.html#a0981487a467a34e90ad97f759a8d7b8a">CP2FWV</a></div><div class="ttdeci">#define CP2FWV</div><div class="ttdef"><b>Definition</b> <a href="../../d7/d33/cp2k_8h_source.html#l00050">cp2k.h:50</a></div></div>
@@ -1361,7 +1362,7 @@ $(function(){initNavTree('de/d92/cp2k__init_8c_source.html','../../'); initResiz
 <div class="ttc" id="aproject_8h_html"><div class="ttname"><a href="../../dc/d8d/project_8h.html">project.h</a></div><div class="ttdoc">Function declarations for reading atomes project file   Function declarations for saving atomes proje...</div></div>
 <div class="ttc" id="astruct_col_r_g_b_a_html"><div class="ttname"><a href="../../d1/d74/struct_col_r_g_b_a.html">ColRGBA</a></div><div class="ttdef"><b>Definition</b> <a href="../../d2/d49/global_8h_source.html#l00120">global.h:121</a></div></div>
 <div class="ttc" id="astructbox__info_html"><div class="ttname"><a href="../../d7/d81/structbox__info.html">box_info</a></div><div class="ttdef"><b>Definition</b> <a href="../../da/d7e/glwin_8h_source.html#l00640">glwin.h:641</a></div></div>
-<div class="ttc" id="astructcp2k_html"><div class="ttname"><a href="../../dd/d27/structcp2k.html">cp2k</a></div><div class="ttdef"><b>Definition</b> <a href="../../d2/d49/global_8h_source.html#l00789">global.h:790</a></div></div>
+<div class="ttc" id="astructcp2k_html"><div class="ttname"><a href="../../dd/d27/structcp2k.html">cp2k</a></div><div class="ttdef"><b>Definition</b> <a href="../../d2/d49/global_8h_source.html#l00787">global.h:788</a></div></div>
 <div class="ttc" id="atab-1_8c_html_a4e1e0e72dd773439e333c84dd762a9c3"><div class="ttname"><a href="../../df/df7/tab-1_8c.html#a4e1e0e72dd773439e333c84dd762a9c3">c</a></div><div class="ttdeci">int c</div><div class="ttdef"><b>Definition</b> <a href="../../df/df7/tab-1_8c_source.html#l00095">tab-1.c:95</a></div></div>
 <div class="ttc" id="aw__encode_8c_html_a2a6c3ba8285e65eca115243c7d2ad180"><div class="ttname"><a href="../../da/daf/w__encode_8c.html#a2a6c3ba8285e65eca115243c7d2ad180">res</a></div><div class="ttdeci">GtkWidget * res[2]</div><div class="ttdef"><b>Definition</b> <a href="../../da/daf/w__encode_8c_source.html#l00212">w_encode.c:212</a></div></div>
 <div class="ttc" id="aworkspace_8c_html_a1eed6d0ed7438018e0d938fce66d265d"><div class="ttname"><a href="../../d3/da6/workspace_8c.html#a1eed6d0ed7438018e0d938fce66d265d">hbox</a></div><div class="ttdeci">GtkWidget * hbox</div><div class="ttdef"><b>Definition</b> <a href="../../d3/da6/workspace_8c_source.html#l00071">workspace.c:71</a></div></div>
