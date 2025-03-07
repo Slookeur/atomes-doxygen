@@ -1,0 +1,75 @@
+<map id="opengl/win/w_volumes.c" name="opengl/win/w_volumes.c">
+<area shape="rect" id="Node000001" title="Functions to create the &#39;Volumes&#39; window &#160;&#160;Functions to compute system / fragment / molecular volumes..." alt="" coords="1116,5,1280,32"/>
+<area shape="rect" id="Node000002" href="$d2/d49/global_8h.html" title="Global variable declarations &#160;&#160;Global convenience function declarations &#160;&#160;Global data structure defin..." alt="" coords="877,155,943,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1173,35,1075,82,948,149,946,144,1073,78,1170,30"/>
+<area shape="rect" id="Node000025" href="$da/dc2/bind_8h.html" title="Binding to the Fortran90 subroutines." alt="" coords="967,155,1024,181"/>
+<area shape="poly" id="edge26_Node000001_Node000025" title=" " alt="" coords="1182,35,1026,148,1023,143,1179,30"/>
+<area shape="rect" id="Node000026" href="$d4/da9/interface_8h.html" title="Messaging function declarations." alt="" coords="1048,155,1130,181"/>
+<area shape="poly" id="edge27_Node000001_Node000026" title=" " alt="" coords="1191,34,1109,144,1105,141,1187,31"/>
+<area shape="rect" id="Node000027" href="$dd/d49/callbacks_8h.html" title="Callback declarations for main window." alt="" coords="1155,155,1242,181"/>
+<area shape="poly" id="edge28_Node000001_Node000027" title=" " alt="" coords="1201,33,1201,139,1196,139,1196,33"/>
+<area shape="rect" id="Node000028" href="$dc/d8d/project_8h.html" title="Function declarations for reading atomes project file &#160;&#160;Function declarations for saving atomes proje..." alt="" coords="1601,155,1673,181"/>
+<area shape="poly" id="edge29_Node000001_Node000028" title=" " alt="" coords="1237,30,1587,147,1586,152,1235,35"/>
+<area shape="rect" id="Node000029" href="$dc/de3/glview_8h.html" title="Variable declarations related to the OpenGL window &#160;&#160;Function declarations related to the OpenGL wind..." alt="" coords="1696,155,1764,181"/>
+<area shape="poly" id="edge30_Node000001_Node000029" title=" " alt="" coords="1252,30,1438,77,1682,149,1680,154,1436,83,1250,35"/>
+<area shape="rect" id="Node000030" href="$d5/d9c/atom__edit_8h.html" title="Function declarations for the mode edition window." alt="" coords="1248,80,1338,107"/>
+<area shape="poly" id="edge31_Node000001_Node000030" title=" " alt="" coords="1216,30,1266,68,1263,73,1213,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,229,58,256"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="877,172,748,172,552,179,317,197,195,212,74,232,73,226,194,207,316,192,551,174,748,167,877,166"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="81,229,169,256"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="877,173,595,189,394,206,184,232,184,226,394,201,595,184,876,168"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="193,229,259,256"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="877,173,630,188,456,206,275,232,274,227,455,200,629,183,876,168"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="283,229,351,256"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="877,174,665,191,519,208,366,232,365,226,518,203,665,186,876,169"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="374,229,438,256"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="877,175,697,196,457,232,454,233,453,227,456,227,696,190,876,170"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="464,304,524,331"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="877,172,788,174,675,182,619,189,569,200,529,214,503,231,495,244,491,258,491,289,486,289,486,257,490,241,499,227,527,209,568,194,618,184,674,176,787,168,876,166"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="671,229,734,256"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="878,183,749,228,748,223,876,178"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="758,229,847,256"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="893,184,835,222,832,218,890,180"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="871,229,950,256"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="913,182,913,214,908,214,908,182"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="566,304,628,331"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="877,173,831,176,774,186,715,203,660,231,631,260,611,292,606,289,627,256,657,227,713,199,773,181,830,171,876,167"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="974,229,1046,256"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="929,180,982,218,979,222,926,184"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="1071,229,1150,256"/>
+<area shape="poly" id="edge13_Node000002_Node000014" title=" " alt="" coords="945,179,1062,221,1060,226,943,184"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="1174,229,1252,256"/>
+<area shape="poly" id="edge14_Node000002_Node000015" title=" " alt="" coords="944,176,956,179,1159,226,1158,231,955,184,943,181"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="1277,229,1408,256"/>
+<area shape="poly" id="edge15_Node000002_Node000016" title=" " alt="" coords="944,176,956,179,1261,226,1260,231,955,184,943,181"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="1432,229,1588,256"/>
+<area shape="poly" id="edge16_Node000002_Node000017" title=" " alt="" coords="944,176,956,179,1083,198,1184,207,1286,214,1417,226,1416,232,1286,220,1183,213,1082,204,955,184,943,181"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="1612,229,1734,256"/>
+<area shape="poly" id="edge17_Node000002_Node000018" title=" " alt="" coords="944,176,956,179,1052,193,1134,201,1274,208,1416,212,1597,226,1596,232,1416,217,1274,213,1133,207,1051,198,955,184,943,182"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="1758,229,1839,256"/>
+<area shape="poly" id="edge18_Node000002_Node000019" title=" " alt="" coords="944,176,956,179,1074,195,1174,203,1347,205,1521,206,1623,213,1742,226,1741,232,1622,218,1521,212,1347,210,1174,208,1073,200,955,184,943,182"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="1863,229,1933,256"/>
+<area shape="poly" id="edge19_Node000002_Node000020" title=" " alt="" coords="944,176,956,179,1090,196,1204,204,1305,205,1400,204,1495,202,1597,203,1713,210,1848,227,1848,232,1712,215,1597,208,1495,207,1400,209,1305,211,1204,209,1089,201,955,184,943,182"/>
+<area shape="rect" id="Node000021" title=" " alt="" coords="1958,229,2046,256"/>
+<area shape="poly" id="edge20_Node000002_Node000021" title=" " alt="" coords="944,176,956,179,1104,198,1230,207,1342,209,1446,207,1665,206,1793,212,1943,227,1943,232,1792,217,1664,211,1446,213,1342,214,1230,212,1103,203,955,184,943,182"/>
+<area shape="rect" id="Node000022" href="$dc/db0/math__3d_8h.html" title="Functions for OpenGL math." alt="" coords="513,229,595,256"/>
+<area shape="poly" id="edge21_Node000002_Node000022" title=" " alt="" coords="877,179,611,233,610,227,876,173"/>
+<area shape="rect" id="Node000023" href="$da/d7e/glwin_8h.html" title="Variable declarations related the OpenGL window &#160;&#160;Data structure declarations related the OpenGL wind..." alt="" coords="2071,229,2133,256"/>
+<area shape="poly" id="edge24_Node000002_Node000023" title=" " alt="" coords="944,176,956,179,1121,199,1262,207,1387,207,1504,202,1621,198,1747,198,1889,207,2056,227,2055,232,1889,212,1747,204,1621,204,1504,208,1387,212,1262,212,1120,204,955,184,943,182"/>
+<area shape="poly" id="edge23_Node000022_Node000008" title=" " alt="" coords="546,258,516,294,512,290,542,255"/>
+<area shape="poly" id="edge22_Node000022_Node000012" title=" " alt="" coords="564,255,584,289,580,292,559,258"/>
+<area shape="rect" id="Node000024" href="$d5/d9e/ogl__shading_8h.html" title="Variable declarations related to GLSL programs &#160;&#160;Data structure declarations related to GLSL programs..." alt="" coords="2052,304,2153,331"/>
+<area shape="poly" id="edge25_Node000023_Node000024" title=" " alt="" coords="2105,257,2105,288,2100,288,2100,257"/>
+<area shape="poly" id="edge32_Node000030_Node000002" title=" " alt="" coords="1248,104,1122,125,959,157,958,152,1121,120,1247,99"/>
+<area shape="poly" id="edge33_Node000030_Node000025" title=" " alt="" coords="1248,107,1039,157,1038,151,1247,102"/>
+<area shape="poly" id="edge35_Node000030_Node000026" title=" " alt="" coords="1258,110,1140,151,1138,146,1256,105"/>
+<area shape="poly" id="edge34_Node000030_Node000027" title=" " alt="" coords="1278,109,1228,147,1225,143,1275,105"/>
+<area shape="poly" id="edge39_Node000030_Node000028" title=" " alt="" coords="1339,101,1587,152,1585,157,1338,106"/>
+<area shape="poly" id="edge37_Node000030_Node000029" title=" " alt="" coords="1338,97,1487,118,1681,151,1680,157,1486,123,1337,103"/>
+<area shape="rect" id="Node000031" href="$d6/d75/initcoord_8h.html" title="Function declarations to handle the atomic coordination data." alt="" coords="1266,155,1347,181"/>
+<area shape="poly" id="edge36_Node000030_Node000031" title=" " alt="" coords="1298,107,1304,139,1298,140,1293,108"/>
+<area shape="rect" id="Node000032" href="$d1/d2a/glwindow_8h.html" title="Function declarations for the creation of the OpenGL window." alt="" coords="1372,155,1457,181"/>
+<area shape="poly" id="edge38_Node000030_Node000032" title=" " alt="" coords="1315,105,1381,144,1378,149,1313,110"/>
+<area shape="rect" id="Node000033" href="$d4/de6/workspace_8h.html" title="Function declarations for workspace managment." alt="" coords="1481,155,1577,181"/>
+<area shape="poly" id="edge40_Node000030_Node000033" title=" " alt="" coords="1335,105,1474,147,1472,152,1333,110"/>
+</map>
