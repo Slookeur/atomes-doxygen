@@ -1,20 +1,20 @@
 <map id="curve/curve.c" name="curve/curve.c">
 <area shape="rect" id="Node000001" title="Functions to manage curves." alt="" coords="443,5,544,32"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,229,78,256"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="445,35,380,55,311,82,242,117,176,156,73,223,70,218,173,151,239,112,308,78,379,50,444,30"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="444,35,378,55,308,82,240,117,174,155,72,223,69,218,171,151,237,112,306,78,377,50,443,30"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="101,229,166,256"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="460,35,410,56,356,82,300,117,246,155,162,221,158,217,243,151,297,113,354,78,408,51,458,30"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="459,35,409,56,355,82,299,117,245,155,161,221,158,217,242,151,296,113,352,78,407,51,457,30"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="190,229,253,256"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="470,35,433,56,394,82,309,155,245,220,241,216,306,151,391,78,430,51,467,30"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="470,35,432,56,392,82,309,155,245,220,241,216,305,151,389,78,430,51,467,30"/>
 <area shape="rect" id="Node000005" title=" " alt="" coords="986,304,1047,331"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="544,20,891,41,1139,59,1404,82,1661,110,1887,144,1981,163,2057,183,2114,204,2148,228,2154,243,2147,258,2130,266,2097,273,1989,284,1667,302,1313,313,1062,318,1062,313,1313,308,1667,297,1989,279,2096,267,2129,261,2144,254,2149,243,2143,231,2111,209,2055,188,1979,168,1886,149,1661,116,1403,87,1139,64,891,46,544,25"/>
 <area shape="rect" id="Node000006" href="$d2/d49/global_8h.html" title="Global variable declarations &#160;&#160;Global convenience function declarations &#160;&#160;Global data structure defin..." alt="" coords="814,155,880,181"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="465,35,437,49,413,67,399,86,399,95,405,105,431,124,472,138,523,149,581,157,700,164,798,165,798,170,699,170,580,162,522,155,471,144,429,128,401,108,394,97,394,85,409,63,434,45,462,30"/>
 <area shape="rect" id="Node000025" href="$d4/da9/interface_8h.html" title="Messaging function declarations." alt="" coords="500,80,583,107"/>
 <area shape="poly" id="edge30_Node000001_Node000025" title=" " alt="" coords="504,31,527,66,523,69,500,34"/>
-<area shape="rect" id="Node000026" href="$dd/d49/callbacks_8h.html" title="Callback declarations for main window." alt="" coords="607,80,695,107"/>
+<area shape="rect" id="Node000026" href="$dd/d49/callbacks_8h.html" title="Callback declarations for main window." alt="" coords="607,80,694,107"/>
 <area shape="poly" id="edge31_Node000001_Node000026" title=" " alt="" coords="522,30,611,71,608,75,520,35"/>
-<area shape="rect" id="Node000027" href="$dc/d8d/project_8h.html" title="Function declarations for reading atomes project file &#160;&#160;Function declarations for saving atomes proje..." alt="" coords="719,80,791,107"/>
+<area shape="rect" id="Node000027" href="$dc/d8d/project_8h.html" title="Function declarations for reading atomes project file &#160;&#160;Function declarations for saving atomes proje..." alt="" coords="719,80,790,107"/>
 <area shape="poly" id="edge32_Node000001_Node000027" title=" " alt="" coords="540,30,705,75,703,81,538,35"/>
 <area shape="rect" id="Node000028" href="$d7/d21/cedit_8h.html" title="Variable declarations for the curve layout edition window." alt="" coords="415,80,476,107"/>
 <area shape="poly" id="edge33_Node000001_Node000028" title=" " alt="" coords="487,34,464,69,460,66,483,31"/>
@@ -26,7 +26,7 @@
 <area shape="poly" id="edge15_Node000006_Node000005" title=" " alt="" coords="881,172,938,190,967,206,993,228,1010,257,1017,288,1012,289,1005,259,989,231,964,210,936,195,879,177"/>
 <area shape="rect" id="Node000007" title=" " alt="" coords="477,229,529,256"/>
 <area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="814,177,698,198,545,231,544,226,697,192,813,172"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="553,229,640,256"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="552,229,640,256"/>
 <area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="814,182,655,227,654,222,812,176"/>
 <area shape="rect" id="Node000009" title=" " alt="" coords="664,229,731,256"/>
 <area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="822,184,739,224,736,220,820,179"/>
@@ -36,13 +36,13 @@
 <area shape="poly" id="edge11_Node000006_Node000011" title=" " alt="" coords="833,184,812,204,796,230,793,260,799,289,793,290,787,260,791,228,808,201,829,180"/>
 <area shape="rect" id="Node000012" title=" " alt="" coords="1054,229,1144,256"/>
 <area shape="poly" id="edge13_Node000006_Node000012" title=" " alt="" coords="881,176,1041,222,1039,227,880,181"/>
-<area shape="rect" id="Node000013" title=" " alt="" coords="1167,229,1247,256"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="1167,229,1246,256"/>
 <area shape="poly" id="edge14_Node000006_Node000013" title=" " alt="" coords="881,173,1153,226,1152,231,880,178"/>
-<area shape="rect" id="Node000014" title=" " alt="" coords="1271,229,1351,256"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="1271,229,1350,256"/>
 <area shape="poly" id="edge17_Node000006_Node000014" title=" " alt="" coords="881,171,1039,191,1256,226,1255,232,1038,197,880,176"/>
 <area shape="rect" id="Node000015" title=" " alt="" coords="1374,229,1453,256"/>
 <area shape="poly" id="edge18_Node000006_Node000015" title=" " alt="" coords="880,169,1080,188,1217,205,1360,226,1359,232,1216,210,1079,193,880,175"/>
-<area shape="rect" id="Node000016" title=" " alt="" coords="1477,229,1609,256"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="1477,229,1608,256"/>
 <area shape="poly" id="edge19_Node000006_Node000016" title=" " alt="" coords="881,169,1119,190,1462,226,1461,232,1118,195,880,175"/>
 <area shape="rect" id="Node000017" title=" " alt="" coords="1633,229,1789,256"/>
 <area shape="poly" id="edge20_Node000006_Node000017" title=" " alt="" coords="881,169,1178,188,1618,226,1617,232,1178,194,880,174"/>

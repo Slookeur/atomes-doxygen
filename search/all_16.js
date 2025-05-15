@@ -68,7 +68,7 @@ var searchData=
   ['workinfo_65',['workinfo',['../d6/df5/workinfo_8c.html#ab472d26c2958f8fbeddb2c3237710dd4',1,'workinfo(project *this_proj, int i):&#160;workinfo.c'],['../d3/da6/workspace_8c.html#ab472d26c2958f8fbeddb2c3237710dd4',1,'workinfo(project *this_proj, int i):&#160;workinfo.c']]],
   ['workinfo_2ec_66',['workinfo.c',['../d6/df5/workinfo_8c.html',1,'']]],
   ['worklevel_67',['worklevel',['../d3/da6/workspace_8c.html#a2cf27e739be445f6b13a3cce66df7e60',1,'workspace.c']]],
-  ['workspace_68',['workspace',['../d2/d73/structworkspace.html',1,'workspace'],['../d2/d49/global_8h.html#a9c23786b0c27aa484eabaa2977a62abb',1,'workspace:&#160;global.h']]],
+  ['workspace_68',['workspace',['../d2/d73/structworkspace.html',1,'workspace'],['../d2/d49/global_8h.html#adf65c407c368c95e2cd822580d497d31',1,'workspace:&#160;global.h']]],
   ['workspace_2ec_69',['workspace.c',['../d3/da6/workspace_8c.html',1,'']]],
   ['workspace_2eh_70',['workspace.h',['../d4/de6/workspace_8h.html',1,'']]],
   ['workspace_5fmenu_71',['workspace_menu',['../d3/da6/workspace_8c.html#a6b64b27a8034c2130a2367e43476b4e5',1,'workspace.c']]],
@@ -99,6 +99,6 @@ var searchData=
   ['wsize_96',['wsize',['../da/d6e/struct_curve.html#a0ba1fe22845cab299cf7117ff65bd792',1,'Curve']]],
   ['wyck_5forigin_97',['wyck_origin',['../de/df2/structspace__group.html#a4d6f9918511d0286191167bdf5a6cdb3',1,'space_group']]],
   ['wyckoff_98',['wyckoff',['../d0/d2f/structcoord__file.html#a7c38061431b148c1f5b9cca64fefada8',1,'coord_file::wyckoff'],['../de/df2/structspace__group.html#a77a0b69b77975718ab773f6f1f6d307d',1,'space_group::wyckoff']]],
-  ['wyckoff_5fposition_99',['wyckoff_position',['../d9/d4f/structwyckoff__position.html',1,'wyckoff_position'],['../da/d7e/glwin_8h.html#abbd63a17c08d0b0e3f1323b807efdfc9',1,'wyckoff_position:&#160;glwin.h']]],
+  ['wyckoff_5fposition_99',['wyckoff_position',['../d9/d4f/structwyckoff__position.html',1,'wyckoff_position'],['../da/d7e/glwin_8h.html#a13a307ab4374db8b4716ccd3ccfe39b7',1,'wyckoff_position:&#160;glwin.h']]],
   ['wypts_5fvbox_100',['wypts_vbox',['../d9/ded/cbuild__info_8c.html#a2305aa633c70f95913298ab8298a9714',1,'cbuild_info.c']]]
 ];

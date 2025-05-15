@@ -14,7 +14,7 @@ var cedit_8c =
     [ "set_data_aspect", "d3/d0c/cedit_8c.html#a3ef5544a0e38fe483d19d87598ac7ec6", null ],
     [ "set_set", "d3/d0c/cedit_8c.html#a71cc560bbdee422f580dd5f03f0858cb", null ],
     [ "set_visible_curve_data", "d3/d0c/cedit_8c.html#a5e8ad0d9f2d61578c4fe9f97f12d4163", null ],
-    [ "toggle_curve", "d3/d0c/cedit_8c.html#a48a87d626741fa207f368af9610a0fdf", null ],
+    [ "toggle_curve", "d3/d0c/cedit_8c.html#a9d7514d48b4893302ee4f5248dd9e063", null ],
     [ "update_axis", "d3/d0c/cedit_8c.html#a062b8f02f1f7b6aa9c61d6d906a06466", null ],
     [ "was_not_added", "d3/d0c/cedit_8c.html#a76e157b06c41ce597710f8081c964638", null ],
     [ "cpath", "d3/d0c/cedit_8c.html#a723d591d5fc61bb839371feb6f81cb49", null ],

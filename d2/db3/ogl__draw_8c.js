@@ -7,7 +7,7 @@ var ogl__draw_8c =
     [ "create_atom_lists", "d2/db3/ogl__draw_8c.html#ad7cc66fbddde64060fa9bab2355418be", null ],
     [ "create_axis_lists", "d2/db3/ogl__draw_8c.html#ab2369c656c29bc76f9ab5bd3aaac2117", null ],
     [ "create_bond_lists", "d2/db3/ogl__draw_8c.html#a219c16e63b40abb4a7210c328a824798", null ],
-    [ "create_box_lists", "d2/db3/ogl__draw_8c.html#ad07fe293571206136387804821b46ed9", null ],
+    [ "create_box_lists", "d2/db3/ogl__draw_8c.html#a2e87ab73869ddeaeffcfc3ba5f3018d9", null ],
     [ "create_label_lists", "d2/db3/ogl__draw_8c.html#a9aba1f7bc7395ade66693ac47e33adad", null ],
     [ "create_light_lists", "d2/db3/ogl__draw_8c.html#a74ed5da7adca6a986e413ee4b0b03b23", null ],
     [ "create_measures_lists", "d2/db3/ogl__draw_8c.html#af9ed1cda58f9635ab16a4e289f92f849", null ],

@@ -1,7 +1,7 @@
 var d__box_8c =
 [
     [ "are_identical_vec3", "df/dbb/d__box_8c.html#acec96520e17d8bb3ee89810343f92fc1", null ],
-    [ "create_box_lists", "df/dbb/d__box_8c.html#ad07fe293571206136387804821b46ed9", null ],
+    [ "create_box_lists", "df/dbb/d__box_8c.html#a2e87ab73869ddeaeffcfc3ba5f3018d9", null ],
     [ "create_light_lists", "df/dbb/d__box_8c.html#a74ed5da7adca6a986e413ee4b0b03b23", null ],
     [ "create_slab_info", "df/dbb/d__box_8c.html#a9511cf31756a96b036df4746847af234", null ],
     [ "create_slab_lists", "df/dbb/d__box_8c.html#a6dee35bc61ac595a6edf5ca6259d0c1b", null ],
