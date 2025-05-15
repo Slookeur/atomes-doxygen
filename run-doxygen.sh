@@ -9,4 +9,4 @@ fi
 cp atomes-doxygen.md ../src/
 cd ../src
 doxygen atomes-doxygen.cfg
-rm -f atomes-doxgyen.*
+rm -f atomes-doxygen.*
