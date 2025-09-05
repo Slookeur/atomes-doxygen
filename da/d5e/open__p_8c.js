@@ -17,5 +17,6 @@ var open__p_8c =
     [ "open_project", "da/d5e/open__p_8c.html#a0b222c223270264f9754d008a37317aa", null ],
     [ "read_string", "da/d5e/open__p_8c.html#a145473980f2db6315070a743db81eef0", null ],
     [ "read_this_string", "da/d5e/open__p_8c.html#a1a803c005bf442506fe192e30fac9840", null ],
-    [ "set_color_map_sensitive", "da/d5e/open__p_8c.html#a0bf5271480d9896c3ae236b32fecb7b9", null ]
+    [ "set_color_map_sensitive", "da/d5e/open__p_8c.html#a0bf5271480d9896c3ae236b32fecb7b9", null ],
+    [ "old_la_bo_ax_gr", "da/d5e/open__p_8c.html#a192f2b9e505630ef70de87b11e2f906e", null ]
 ];

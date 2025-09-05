@@ -29,6 +29,7 @@ var global_8c =
     [ "activew", "dc/d57/global_8c.html#a6fb52a8f6482178b2c09120f1d14ad5b", null ],
     [ "analyze_actions", "dc/d57/global_8c.html#ad8fc73dc85bf5bfeceef0267b9590519", null ],
     [ "ATOMES_CONFIG", "dc/d57/global_8c.html#a0ab9e9a5f0fb3f0b459f90d59fb777c9", null ],
+    [ "ATOMES_CONFIG_DIR", "dc/d57/global_8c.html#ac96fec3cf141cd3a6691bfc78c237b64", null ],
     [ "atomes_logo", "dc/d57/global_8c.html#abd8aee80ff6027ba47588edd9fd390c3", null ],
     [ "atomes_shortcuts", "dc/d57/global_8c.html#a84d59a22eb4b408d649380f1d81ce23b", null ],
     [ "ATOMES_URL", "dc/d57/global_8c.html#a9b51860b9bac5ed2b7937ac0a6ff54a4", null ],
@@ -142,7 +143,7 @@ var global_8c =
     [ "THETD", "dc/d57/global_8c.html#abd1167a4366ab0fe55e65ed148753e8e", null ],
     [ "tmp_adv_bonding", "dc/d57/global_8c.html#a5a10f05851ce9f20205c4cd6d4c2653e", null ],
     [ "tmp_pixels", "dc/d57/global_8c.html#af1edcd4725d8e644ea8daacad238d9e3", null ],
-    [ "untime", "dc/d57/global_8c.html#a0bdd162c52476842346bd69c94e0639d", null ],
+    [ "untime", "dc/d57/global_8c.html#a66ddff49c912060a6b7cdc43b1e8ae79", null ],
     [ "workspacefile", "dc/d57/global_8c.html#a1cdd69850015402f8c0fd9ec6547ba45", null ],
     [ "xsk", "dc/d57/global_8c.html#a50be20dcfc35dd487239e66c058e301b", null ]
 ];

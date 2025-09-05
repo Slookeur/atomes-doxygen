@@ -8,6 +8,7 @@ var m__proj_8c =
       [ "FRONT", "da/da4/m__proj_8c.html#a7130b1618285588513fd1ff97884b9d9a76bd5ec6ea9d8a1b582d8d5e43102a02", null ],
       [ "BACK", "da/da4/m__proj_8c.html#a7130b1618285588513fd1ff97884b9d9ac921ff2cfc571c1d19b0485d7f6926ee", null ]
     ] ],
+    [ "camera_has_changed", "da/da4/m__proj_8c.html#a7aef14a35ba1e48e0e77b6ead3d5f948", null ],
     [ "menu_proj", "da/da4/m__proj_8c.html#a9f5481c0017d6b1337c40816dcc2d20d", null ],
     [ "set_camera_pos", "da/da4/m__proj_8c.html#aa85c70fed2a260ae7c7568d6543a10d7", null ],
     [ "to_set_camera_pos", "da/da4/m__proj_8c.html#ae539208e4d66398e3855015a6edfe983", null ]

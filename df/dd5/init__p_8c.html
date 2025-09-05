@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../atomes.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">atomes<span id="projectnumber">&#160;1.1.18</span>
+   <div id="projectname">atomes<span id="projectnumber">&#160;1.2.0</span>
    </div>
    <div id="projectbrief">atomes: an atomic scale modeling tool box</div>
   </td>
@@ -110,6 +110,7 @@ $(function(){initNavTree('df/dd5/init__p_8c.html','../../'); initResizable(true)
 <code>#include &quot;<a class="el" href="../../da/dc2/bind_8h_source.html">bind.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dd/d49/callbacks_8h_source.html">callbacks.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d4/da9/interface_8h_source.html">interface.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/d7d/preferences_8h_source.html">preferences.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/d8d/project_8h_source.html">project.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../df/de9/curve_8h_source.html">curve.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>&quot;</code><br />
@@ -126,9 +127,45 @@ $(function(){initNavTree('df/dd5/init__p_8c.html','../../'); initResizable(true)
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a9ae71e9dcbb406f49391c0c21189ecc2" id="r_a9ae71e9dcbb406f49391c0c21189ecc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ae71e9dcbb406f49391c0c21189ecc2">init_camera</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, int get_depth)</td></tr>
+<tr class="memdesc:a9ae71e9dcbb406f49391c0c21189ecc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize the OpenGL camera settings  <br /></td></tr>
+<tr class="separator:a9ae71e9dcbb406f49391c0c21189ecc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d34ea4e3174447e6aeb1173cb1ed7bb" id="r_a3d34ea4e3174447e6aeb1173cb1ed7bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d34ea4e3174447e6aeb1173cb1ed7bb">setup_default_image</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, <a class="el" href="../../de/d68/structimage.html">image</a> *<a class="el" href="../../d3/da6/workspace_8c.html#a37614206af3ba4a550903b6a67db76da">img</a>)</td></tr>
+<tr class="memdesc:a3d34ea4e3174447e6aeb1173cb1ed7bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup default image parameters  <br /></td></tr>
+<tr class="separator:a3d34ea4e3174447e6aeb1173cb1ed7bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b64f1cc7cc07ab10b28297bae4b0cbf" id="r_a6b64f1cc7cc07ab10b28297bae4b0cbf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b64f1cc7cc07ab10b28297bae4b0cbf">clean_atom_style</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj)</td></tr>
+<tr class="memdesc:a6b64f1cc7cc07ab10b28297bae4b0cbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">clean all <a class="el" href="../../d2/d49/global_8h.html#a32458f3ada038e684935fdf98d90ea96" title="atom data structure">atom(s)</a> possible alternative rendering styles  <br /></td></tr>
+<tr class="separator:a6b64f1cc7cc07ab10b28297bae4b0cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae21cd760da97be61e52e3f39c5d1e4b2" id="r_ae21cd760da97be61e52e3f39c5d1e4b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae21cd760da97be61e52e3f39c5d1e4b2">setup_default_species_parameters_for_image</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, <a class="el" href="../../de/d68/structimage.html">image</a> *<a class="el" href="../../d3/da6/workspace_8c.html#a37614206af3ba4a550903b6a67db76da">img</a>)</td></tr>
+<tr class="memdesc:ae21cd760da97be61e52e3f39c5d1e4b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup default chemical species related parameters for image  <br /></td></tr>
+<tr class="separator:ae21cd760da97be61e52e3f39c5d1e4b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a518e267d3783b74d30ab6eaf44f6abfb" id="r_a518e267d3783b74d30ab6eaf44f6abfb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a518e267d3783b74d30ab6eaf44f6abfb">init_shaders</a> (<a class="el" href="../../d5/dd2/structglwin.html">glwin</a> *view)</td></tr>
+<tr class="memdesc:a518e267d3783b74d30ab6eaf44f6abfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize all the OpenGL shaders  <br /></td></tr>
+<tr class="separator:a518e267d3783b74d30ab6eaf44f6abfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7ed0e8f0d08aa887df7d732420b3cfd" id="r_ac7ed0e8f0d08aa887df7d732420b3cfd"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7ed0e8f0d08aa887df7d732420b3cfd">box_advanced</a> (GtkWidget *widg, gpointer data)</td></tr>
+<tr class="memdesc:ac7ed0e8f0d08aa887df7d732420b3cfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">create the box edition window  <br /></td></tr>
+<tr class="separator:ac7ed0e8f0d08aa887df7d732420b3cfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83e3ec9f686447e209242aa44202de4a" id="r_a83e3ec9f686447e209242aa44202de4a"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83e3ec9f686447e209242aa44202de4a">axis_advanced</a> (GtkWidget *widg, gpointer data)</td></tr>
+<tr class="memdesc:a83e3ec9f686447e209242aa44202de4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">create the axis advanced parameters window  <br /></td></tr>
+<tr class="separator:a83e3ec9f686447e209242aa44202de4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9967c50aa818731a0cfb100dd985fc9" id="r_ae9967c50aa818731a0cfb100dd985fc9"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9967c50aa818731a0cfb100dd985fc9">representation_advanced</a> (GtkWidget *widg, gpointer data)</td></tr>
+<tr class="memdesc:ae9967c50aa818731a0cfb100dd985fc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">open advanced representation dialog  <br /></td></tr>
+<tr class="separator:ae9967c50aa818731a0cfb100dd985fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45775ea2bbaa24b3807ec15358d8ff49" id="r_a45775ea2bbaa24b3807ec15358d8ff49"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45775ea2bbaa24b3807ec15358d8ff49">opengl_advanced</a> (GtkWidget *widg, gpointer data)</td></tr>
+<tr class="memdesc:a45775ea2bbaa24b3807ec15358d8ff49"><td class="mdescLeft">&#160;</td><td class="mdescRight">create OpenGL rendering advanced window  <br /></td></tr>
+<tr class="separator:a45775ea2bbaa24b3807ec15358d8ff49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf1c895412556eff47fe8905a3f56cf0" id="r_aaf1c895412556eff47fe8905a3f56cf0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf1c895412556eff47fe8905a3f56cf0">update_gradient_widgets</a> (<a class="el" href="../../df/dc5/structgradient__edition.html">gradient_edition</a> *gradient_win, <a class="el" href="../../db/dc5/structbackground.html">background</a> *back)</td></tr>
+<tr class="memdesc:aaf1c895412556eff47fe8905a3f56cf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">update the widgets of the gradient window  <br /></td></tr>
+<tr class="separator:aaf1c895412556eff47fe8905a3f56cf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ff32216b2d6bd66afbe398729a35c4d" id="r_a5ff32216b2d6bd66afbe398729a35c4d"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ff32216b2d6bd66afbe398729a35c4d">gradient_advanced</a> (GtkWidget *widg, gpointer data)</td></tr>
+<tr class="memdesc:a5ff32216b2d6bd66afbe398729a35c4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Background configuration window.  <br /></td></tr>
+<tr class="separator:a5ff32216b2d6bd66afbe398729a35c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c1f632b6bf34870ee5853fc8832b416" id="r_a4c1f632b6bf34870ee5853fc8832b416"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c1f632b6bf34870ee5853fc8832b416">init_curves_and_calc</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj)</td></tr>
 <tr class="memdesc:a4c1f632b6bf34870ee5853fc8832b416"><td class="mdescLeft">&#160;</td><td class="mdescRight">for a project reset analysis, curves, data to not performed  <br /></td></tr>
 <tr class="separator:a4c1f632b6bf34870ee5853fc8832b416"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d96eb3fa4d697c62188f903dc16396a" id="r_a4d96eb3fa4d697c62188f903dc16396a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d96eb3fa4d697c62188f903dc16396a">apply_default_parameters_to_project</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj)</td></tr>
+<tr class="memdesc:a4d96eb3fa4d697c62188f903dc16396a"><td class="mdescLeft">&#160;</td><td class="mdescRight">apply new default parameters to project  <br /></td></tr>
+<tr class="separator:a4d96eb3fa4d697c62188f903dc16396a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af461e61518f6c609a8ce459eb951168d" id="r_af461e61518f6c609a8ce459eb951168d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af461e61518f6c609a8ce459eb951168d">init_project</a> (gboolean alloc_box)</td></tr>
 <tr class="memdesc:af461e61518f6c609a8ce459eb951168d"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize a new project  <br /></td></tr>
 <tr class="separator:af461e61518f6c609a8ce459eb951168d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,6 +176,228 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition in file <a class="el" href="../../df/dd5/init__p_8c_source.html">init_p.c</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
+<a id="a4d96eb3fa4d697c62188f903dc16396a" name="a4d96eb3fa4d697c62188f903dc16396a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d96eb3fa4d697c62188f903dc16396a">&#9670;&#160;</a></span>apply_default_parameters_to_project()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void apply_default_parameters_to_project </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/dbe/structproject.html">project</a> *</td>          <td class="paramname"><span class="paramname"><em>this_proj</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>apply new default parameters to project </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">this_proj</td><td>the target project </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../df/dd5/init__p_8c_source.html#l00086">86</a> of file <a class="el" href="../../df/dd5/init__p_8c_source.html">init_p.c</a>.</p>
+
+</div>
+</div>
+<a id="a83e3ec9f686447e209242aa44202de4a" name="a83e3ec9f686447e209242aa44202de4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83e3ec9f686447e209242aa44202de4a">&#9670;&#160;</a></span>axis_advanced()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">G_MODULE_EXPORT void axis_advanced </td>
+          <td>(</td>
+          <td class="paramtype">GtkWidget *</td>          <td class="paramname"><span class="paramname"><em>widg</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gpointer</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>create the axis advanced parameters window </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">widg</td><td>the GtkWidget sending the signal </td></tr>
+    <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../da/d3c/w__axis_8c_source.html#l00786">786</a> of file <a class="el" href="../../da/d3c/w__axis_8c_source.html">w_axis.c</a>.</p>
+
+</div>
+</div>
+<a id="ac7ed0e8f0d08aa887df7d732420b3cfd" name="ac7ed0e8f0d08aa887df7d732420b3cfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7ed0e8f0d08aa887df7d732420b3cfd">&#9670;&#160;</a></span>box_advanced()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">G_MODULE_EXPORT void box_advanced </td>
+          <td>(</td>
+          <td class="paramtype">GtkWidget *</td>          <td class="paramname"><span class="paramname"><em>widg</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gpointer</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>create the box edition window </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">widg</td><td>the GtkWidget sending the signal </td></tr>
+    <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/ddf/w__box_8c_source.html#l00338">338</a> of file <a class="el" href="../../d2/ddf/w__box_8c_source.html">w_box.c</a>.</p>
+
+</div>
+</div>
+<a id="a6b64f1cc7cc07ab10b28297bae4b0cbf" name="a6b64f1cc7cc07ab10b28297bae4b0cbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b64f1cc7cc07ab10b28297bae4b0cbf">&#9670;&#160;</a></span>clean_atom_style()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void clean_atom_style </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/dbe/structproject.html">project</a> *</td>          <td class="paramname"><span class="paramname"><em>this_proj</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>clean all <a class="el" href="../../d2/d49/global_8h.html#a32458f3ada038e684935fdf98d90ea96" title="atom data structure">atom(s)</a> possible alternative rendering styles </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">this_proj</td><td>the target project </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/dbe/m__style_8c_source.html#l00074">74</a> of file <a class="el" href="../../d7/dbe/m__style_8c_source.html">m_style.c</a>.</p>
+
+</div>
+</div>
+<a id="a5ff32216b2d6bd66afbe398729a35c4d" name="a5ff32216b2d6bd66afbe398729a35c4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ff32216b2d6bd66afbe398729a35c4d">&#9670;&#160;</a></span>gradient_advanced()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">G_MODULE_EXPORT void gradient_advanced </td>
+          <td>(</td>
+          <td class="paramtype">GtkWidget *</td>          <td class="paramname"><span class="paramname"><em>widg</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gpointer</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Background configuration window. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">widg</td><td>the widget sending the signal, if any </td></tr>
+    <tr><td class="paramname">the</td><td>associated data pointer </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d92/w__colors_8c_source.html#l00434">434</a> of file <a class="el" href="../../d2/d92/w__colors_8c_source.html">w_colors.c</a>.</p>
+
+</div>
+</div>
+<a id="a9ae71e9dcbb406f49391c0c21189ecc2" name="a9ae71e9dcbb406f49391c0c21189ecc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ae71e9dcbb406f49391c0c21189ecc2">&#9670;&#160;</a></span>init_camera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void init_camera </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/dbe/structproject.html">project</a> *</td>          <td class="paramname"><span class="paramname"><em>this_proj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>get_depth</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>initialize the OpenGL camera settings </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">this_proj</td><td>the target project </td></tr>
+    <tr><td class="paramname">get_depth</td><td>estimate the OpenGL depth ? (1/0) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01170">1170</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+
+</div>
+</div>
 <a id="a4c1f632b6bf34870ee5853fc8832b416" name="a4c1f632b6bf34870ee5853fc8832b416"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4c1f632b6bf34870ee5853fc8832b416">&#9670;&#160;</a></span>init_curves_and_calc()</h2>
 
@@ -162,7 +421,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../df/dd5/init__p_8c_source.html#l00054">54</a> of file <a class="el" href="../../df/dd5/init__p_8c_source.html">init_p.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dd5/init__p_8c_source.html#l00068">68</a> of file <a class="el" href="../../df/dd5/init__p_8c_source.html">init_p.c</a>.</p>
 
 </div>
 </div>
@@ -189,7 +448,242 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../df/dd5/init__p_8c_source.html#l00072">72</a> of file <a class="el" href="../../df/dd5/init__p_8c_source.html">init_p.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dd5/init__p_8c_source.html#l00163">163</a> of file <a class="el" href="../../df/dd5/init__p_8c_source.html">init_p.c</a>.</p>
+
+</div>
+</div>
+<a id="a518e267d3783b74d30ab6eaf44f6abfb" name="a518e267d3783b74d30ab6eaf44f6abfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a518e267d3783b74d30ab6eaf44f6abfb">&#9670;&#160;</a></span>init_shaders()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void init_shaders </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/dd2/structglwin.html">glwin</a> *</td>          <td class="paramname"><span class="paramname"><em>view</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>initialize all the OpenGL shaders </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">view</td><td>the target glwin </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/db9/ogl__shading_8c_source.html#l00783">783</a> of file <a class="el" href="../../d9/db9/ogl__shading_8c_source.html">ogl_shading.c</a>.</p>
+
+</div>
+</div>
+<a id="a45775ea2bbaa24b3807ec15358d8ff49" name="a45775ea2bbaa24b3807ec15358d8ff49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45775ea2bbaa24b3807ec15358d8ff49">&#9670;&#160;</a></span>opengl_advanced()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">G_MODULE_EXPORT void opengl_advanced </td>
+          <td>(</td>
+          <td class="paramtype">GtkWidget *</td>          <td class="paramname"><span class="paramname"><em>widg</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gpointer</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>create OpenGL rendering advanced window </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">widg</td><td>the GtkWidget sending the signal </td></tr>
+    <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/db9/w__advance_8c_source.html#l01670">1670</a> of file <a class="el" href="../../d8/db9/w__advance_8c_source.html">w_advance.c</a>.</p>
+
+</div>
+</div>
+<a id="ae9967c50aa818731a0cfb100dd985fc9" name="ae9967c50aa818731a0cfb100dd985fc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9967c50aa818731a0cfb100dd985fc9">&#9670;&#160;</a></span>representation_advanced()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">G_MODULE_EXPORT void representation_advanced </td>
+          <td>(</td>
+          <td class="paramtype">GtkWidget *</td>          <td class="paramname"><span class="paramname"><em>widg</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gpointer</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>open advanced representation dialog </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">widg</td><td>the GtkWidget sending the signal </td></tr>
+    <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00424">424</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+
+</div>
+</div>
+<a id="a3d34ea4e3174447e6aeb1173cb1ed7bb" name="a3d34ea4e3174447e6aeb1173cb1ed7bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d34ea4e3174447e6aeb1173cb1ed7bb">&#9670;&#160;</a></span>setup_default_image()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setup_default_image </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/dbe/structproject.html">project</a> *</td>          <td class="paramname"><span class="paramname"><em>this_proj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d68/structimage.html">image</a> *</td>          <td class="paramname"><span class="paramname"><em>img</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>setup default image parameters </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">this_proj</td><td>the target project </td></tr>
+    <tr><td class="paramname">img</td><td>the target image </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01344">1344</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+
+</div>
+</div>
+<a id="ae21cd760da97be61e52e3f39c5d1e4b2" name="ae21cd760da97be61e52e3f39c5d1e4b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae21cd760da97be61e52e3f39c5d1e4b2">&#9670;&#160;</a></span>setup_default_species_parameters_for_image()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setup_default_species_parameters_for_image </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/dbe/structproject.html">project</a> *</td>          <td class="paramname"><span class="paramname"><em>this_proj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d68/structimage.html">image</a> *</td>          <td class="paramname"><span class="paramname"><em>img</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>setup default chemical species related parameters for image </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">this_proj</td><td>the target project </td></tr>
+    <tr><td class="paramname">img</td><td>the target image </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01218">1218</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+
+</div>
+</div>
+<a id="aaf1c895412556eff47fe8905a3f56cf0" name="aaf1c895412556eff47fe8905a3f56cf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf1c895412556eff47fe8905a3f56cf0">&#9670;&#160;</a></span>update_gradient_widgets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void update_gradient_widgets </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/dc5/structgradient__edition.html">gradient_edition</a> *</td>          <td class="paramname"><span class="paramname"><em>gradient_win</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/dc5/structbackground.html">background</a> *</td>          <td class="paramname"><span class="paramname"><em>back</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>update the widgets of the gradient window </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gradient_win</td><td>the target gradient edition </td></tr>
+    <tr><td class="paramname">back</td><td>the target background information </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d92/w__colors_8c_source.html#l00084">84</a> of file <a class="el" href="../../d2/d92/w__colors_8c_source.html">w_colors.c</a>.</p>
 
 </div>
 </div>

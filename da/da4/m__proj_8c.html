@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../atomes.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">atomes<span id="projectnumber">&#160;1.1.18</span>
+   <div id="projectname">atomes<span id="projectnumber">&#160;1.2.0</span>
    </div>
    <div id="projectbrief">atomes: an atomic scale modeling tool box</div>
   </td>
@@ -110,6 +110,7 @@ $(function(){initNavTree('da/da4/m__proj_8c.html','../../'); initResizable(true)
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/d2a/glwindow_8h_source.html">glwindow.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/d7d/preferences_8h_source.html">preferences.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for m_proj.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -136,6 +137,9 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a7aef14a35ba1e48e0e77b6ead3d5f948" id="r_a7aef14a35ba1e48e0e77b6ead3d5f948"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7aef14a35ba1e48e0e77b6ead3d5f948">camera_has_changed</a> (gdouble value, gpointer data)</td></tr>
+<tr class="memdesc:a7aef14a35ba1e48e0e77b6ead3d5f948"><td class="mdescLeft">&#160;</td><td class="mdescRight">update camera data  <br /></td></tr>
+<tr class="separator:a7aef14a35ba1e48e0e77b6ead3d5f948"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa85c70fed2a260ae7c7568d6543a10d7" id="r_aa85c70fed2a260ae7c7568d6543a10d7"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa85c70fed2a260ae7c7568d6543a10d7">set_camera_pos</a> (GtkWidget *widg, gpointer data)</td></tr>
 <tr class="memdesc:aa85c70fed2a260ae7c7568d6543a10d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">set camera position callback  <br /></td></tr>
 <tr class="separator:aa85c70fed2a260ae7c7568d6543a10d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,11 +182,51 @@ Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../da/da4/m__proj_8c_source.html#l00047">47</a> of file <a class="el" href="../../da/da4/m__proj_8c_source.html">m_proj.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/da4/m__proj_8c_source.html#l00048">48</a> of file <a class="el" href="../../da/da4/m__proj_8c_source.html">m_proj.c</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a7aef14a35ba1e48e0e77b6ead3d5f948" name="a7aef14a35ba1e48e0e77b6ead3d5f948"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aef14a35ba1e48e0e77b6ead3d5f948">&#9670;&#160;</a></span>camera_has_changed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void camera_has_changed </td>
+          <td>(</td>
+          <td class="paramtype">gdouble</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gpointer</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>update camera data </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>the new value </td></tr>
+    <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00101">101</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+
+</div>
+</div>
 <a id="a9f5481c0017d6b1337c40816dcc2d20d" name="a9f5481c0017d6b1337c40816dcc2d20d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9f5481c0017d6b1337c40816dcc2d20d">&#9670;&#160;</a></span>menu_proj()</h2>
 
@@ -211,7 +255,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/da4/m__proj_8c_source.html#l00164">164</a> of file <a class="el" href="../../da/da4/m__proj_8c_source.html">m_proj.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/da4/m__proj_8c_source.html#l00189">189</a> of file <a class="el" href="../../da/da4/m__proj_8c_source.html">m_proj.c</a>.</p>
 
 </div>
 </div>
@@ -243,7 +287,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/da4/m__proj_8c_source.html#l00064">64</a> of file <a class="el" href="../../da/da4/m__proj_8c_source.html">m_proj.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/da4/m__proj_8c_source.html#l00067">67</a> of file <a class="el" href="../../da/da4/m__proj_8c_source.html">m_proj.c</a>.</p>
 
 </div>
 </div>
@@ -281,7 +325,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/da4/m__proj_8c_source.html#l00151">151</a> of file <a class="el" href="../../da/da4/m__proj_8c_source.html">m_proj.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/da4/m__proj_8c_source.html#l00176">176</a> of file <a class="el" href="../../da/da4/m__proj_8c_source.html">m_proj.c</a>.</p>
 
 </div>
 </div>

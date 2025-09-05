@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../atomes.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">atomes<span id="projectnumber">&#160;1.1.18</span>
+   <div id="projectname">atomes<span id="projectnumber">&#160;1.2.0</span>
    </div>
    <div id="projectbrief">atomes: an atomic scale modeling tool box</div>
   </td>
@@ -99,7 +99,8 @@ $(function(){initNavTree('db/dd4/read__opengl_8c.html','../../'); initResizable(
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">read_opengl.c File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -110,6 +111,7 @@ $(function(){initNavTree('db/dd4/read__opengl_8c.html','../../'); initResizable(
 <code>#include &quot;<a class="el" href="../../dc/d8d/project_8h_source.html">project.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/d75/initcoord_8h_source.html">initcoord.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/d7d/preferences_8h_source.html">preferences.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for read_opengl.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -131,9 +133,22 @@ Functions</h2></td></tr>
 <tr class="memitem:a56c9a5d0737e141ee5da996ab22568a4" id="r_a56c9a5d0737e141ee5da996ab22568a4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56c9a5d0737e141ee5da996ab22568a4">read_rings_chains_data</a> (FILE *<a class="el" href="../../d7/d30/force__fields_8c.html#aa065f30aa9f5f9a42132c82c787ee70b">fp</a>, <a class="el" href="../../d5/dd2/structglwin.html">glwin</a> *view, int type, int rid, int size, int steps)</td></tr>
 <tr class="memdesc:a56c9a5d0737e141ee5da996ab22568a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">read rings and chains statistics data from file  <br /></td></tr>
 <tr class="separator:a56c9a5d0737e141ee5da996ab22568a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12925230ef205f7fdd2dfaaf08af3fc7" id="r_a12925230ef205f7fdd2dfaaf08af3fc7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12925230ef205f7fdd2dfaaf08af3fc7">read_this_image_label</a> (FILE *<a class="el" href="../../d7/d30/force__fields_8c.html#aa065f30aa9f5f9a42132c82c787ee70b">fp</a>, <a class="el" href="../../de/d85/structscreen__label.html">screen_label</a> *<a class="el" href="../../df/de9/curve_8h.html#a190a1ae859f941448f2d9f72d582274f">label</a>)</td></tr>
+<tr class="separator:a12925230ef205f7fdd2dfaaf08af3fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e19f669317e5fa1731112dce7bd06dd" id="r_a1e19f669317e5fa1731112dce7bd06dd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e19f669317e5fa1731112dce7bd06dd">read_this_box</a> (FILE *<a class="el" href="../../d7/d30/force__fields_8c.html#aa065f30aa9f5f9a42132c82c787ee70b">fp</a>, <a class="el" href="../../d8/dae/structbox.html">box</a> *abc)</td></tr>
+<tr class="memdesc:a1e19f669317e5fa1731112dce7bd06dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">read OpenGL image box properties to file  <br /></td></tr>
+<tr class="separator:a1e19f669317e5fa1731112dce7bd06dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0c1fd85ea58514e1f6a37d53028dd58" id="r_af0c1fd85ea58514e1f6a37d53028dd58"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0c1fd85ea58514e1f6a37d53028dd58">read_this_axis</a> (FILE *<a class="el" href="../../d7/d30/force__fields_8c.html#aa065f30aa9f5f9a42132c82c787ee70b">fp</a>, <a class="el" href="../../de/ded/structaxis.html">axis</a> *xyz)</td></tr>
+<tr class="memdesc:af0c1fd85ea58514e1f6a37d53028dd58"><td class="mdescLeft">&#160;</td><td class="mdescRight">read OpenGL image axis properties to file  <br /></td></tr>
+<tr class="separator:af0c1fd85ea58514e1f6a37d53028dd58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ba7b90fc2adbb518e50d36589fc968d" id="r_a9ba7b90fc2adbb518e50d36589fc968d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ba7b90fc2adbb518e50d36589fc968d">read_opengl_image</a> (FILE *<a class="el" href="../../d7/d30/force__fields_8c.html#aa065f30aa9f5f9a42132c82c787ee70b">fp</a>, <a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, <a class="el" href="../../de/d68/structimage.html">image</a> *<a class="el" href="../../d3/da6/workspace_8c.html#a37614206af3ba4a550903b6a67db76da">img</a>, int sid)</td></tr>
 <tr class="memdesc:a9ba7b90fc2adbb518e50d36589fc968d"><td class="mdescLeft">&#160;</td><td class="mdescRight">read OpenGL image properties from file  <br /></td></tr>
 <tr class="separator:a9ba7b90fc2adbb518e50d36589fc968d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a192f2b9e505630ef70de87b11e2f906e" id="r_a192f2b9e505630ef70de87b11e2f906e"><td class="memItemLeft" align="right" valign="top">gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a192f2b9e505630ef70de87b11e2f906e">old_la_bo_ax_gr</a></td></tr>
+<tr class="separator:a192f2b9e505630ef70de87b11e2f906e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Functions to read the OpenGL window data in the atomes project file format. </p>
@@ -181,7 +196,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../db/dd4/read__opengl_8c_source.html#l00055">55</a> of file <a class="el" href="../../db/dd4/read__opengl_8c_source.html">read_opengl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dd4/read__opengl_8c_source.html#l00061">61</a> of file <a class="el" href="../../db/dd4/read__opengl_8c_source.html">read_opengl.c</a>.</p>
 
 </div>
 </div>
@@ -225,7 +240,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../db/dd4/read__opengl_8c_source.html#l00077">77</a> of file <a class="el" href="../../db/dd4/read__opengl_8c_source.html">read_opengl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dd4/read__opengl_8c_source.html#l00083">83</a> of file <a class="el" href="../../db/dd4/read__opengl_8c_source.html">read_opengl.c</a>.</p>
 
 </div>
 </div>
@@ -269,7 +284,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../db/dd4/read__opengl_8c_source.html#l00282">282</a> of file <a class="el" href="../../db/dd4/read__opengl_8c_source.html">read_opengl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dd4/read__opengl_8c_source.html#l00374">374</a> of file <a class="el" href="../../db/dd4/read__opengl_8c_source.html">read_opengl.c</a>.</p>
 
 </div>
 </div>
@@ -325,7 +340,119 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../db/dd4/read__opengl_8c_source.html#l00158">158</a> of file <a class="el" href="../../db/dd4/read__opengl_8c_source.html">read_opengl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/dd4/read__opengl_8c_source.html#l00164">164</a> of file <a class="el" href="../../db/dd4/read__opengl_8c_source.html">read_opengl.c</a>.</p>
+
+</div>
+</div>
+<a id="af0c1fd85ea58514e1f6a37d53028dd58" name="af0c1fd85ea58514e1f6a37d53028dd58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0c1fd85ea58514e1f6a37d53028dd58">&#9670;&#160;</a></span>read_this_axis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int read_this_axis </td>
+          <td>(</td>
+          <td class="paramtype">FILE *</td>          <td class="paramname"><span class="paramname"><em>fp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/ded/structaxis.html">axis</a> *</td>          <td class="paramname"><span class="paramname"><em>xyz</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>read OpenGL image axis properties to file </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fp</td><td>the file pointer </td></tr>
+    <tr><td class="paramname">axis</td><td>the target axis data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../db/dd4/read__opengl_8c_source.html#l00334">334</a> of file <a class="el" href="../../db/dd4/read__opengl_8c_source.html">read_opengl.c</a>.</p>
+
+</div>
+</div>
+<a id="a1e19f669317e5fa1731112dce7bd06dd" name="a1e19f669317e5fa1731112dce7bd06dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e19f669317e5fa1731112dce7bd06dd">&#9670;&#160;</a></span>read_this_box()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int read_this_box </td>
+          <td>(</td>
+          <td class="paramtype">FILE *</td>          <td class="paramname"><span class="paramname"><em>fp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d8/dae/structbox.html">box</a> *</td>          <td class="paramname"><span class="paramname"><em>abc</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>read OpenGL image box properties to file </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fp</td><td>the file pointer </td></tr>
+    <tr><td class="paramname">box</td><td>the target box data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../db/dd4/read__opengl_8c_source.html#l00316">316</a> of file <a class="el" href="../../db/dd4/read__opengl_8c_source.html">read_opengl.c</a>.</p>
+
+</div>
+</div>
+<a id="a12925230ef205f7fdd2dfaaf08af3fc7" name="a12925230ef205f7fdd2dfaaf08af3fc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12925230ef205f7fdd2dfaaf08af3fc7">&#9670;&#160;</a></span>read_this_image_label()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int read_this_image_label </td>
+          <td>(</td>
+          <td class="paramtype">FILE *</td>          <td class="paramname"><span class="paramname"><em>fp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d85/structscreen__label.html">screen_label</a> *</td>          <td class="paramname"><span class="paramname"><em>label</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../db/dd4/read__opengl_8c_source.html#l00286">286</a> of file <a class="el" href="../../db/dd4/read__opengl_8c_source.html">read_opengl.c</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a192f2b9e505630ef70de87b11e2f906e" name="a192f2b9e505630ef70de87b11e2f906e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a192f2b9e505630ef70de87b11e2f906e">&#9670;&#160;</a></span>old_la_bo_ax_gr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gboolean old_la_bo_ax_gr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d5e/open__p_8c_source.html#l00068">68</a> of file <a class="el" href="../../da/d5e/open__p_8c_source.html">open_p.c</a>.</p>
 
 </div>
 </div>

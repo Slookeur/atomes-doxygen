@@ -8,6 +8,8 @@ var atom__action_8c =
     [ "do_we_have_objects_in_selection", "d8/d15/atom__action_8c.html#a5bf77ad7f309dc00070ee95a13497cb7", null ],
     [ "duplicate_atom_search", "d8/d15/atom__action_8c.html#a366ccdb03ba1dfd0275b713b7149b8e0", null ],
     [ "free_dummies", "d8/d15/atom__action_8c.html#a431757e993718a9b7fa44d32b70b954b", null ],
+    [ "get_max_depth", "d8/d15/atom__action_8c.html#ae03afe6f0249706520c4923efa4eeebb", null ],
     [ "prepare_random_action", "d8/d15/atom__action_8c.html#a7ec902f2a118a58b270c26588cf38470", null ],
+    [ "setup_default_lights", "d8/d15/atom__action_8c.html#a34ceef6568f79d502abcfff82d3bd37f", null ],
     [ "take_action", "d8/d15/atom__action_8c.html#ad5399aad2a9b162f9a8093e9d25e19be", null ]
 ];

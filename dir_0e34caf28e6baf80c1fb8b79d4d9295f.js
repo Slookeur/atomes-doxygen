@@ -2,6 +2,7 @@ var dir_0e34caf28e6baf80c1fb8b79d4d9295f =
 [
     [ "d_atoms.c", "dc/dbd/d__atoms_8c.html", "dc/dbd/d__atoms_8c" ],
     [ "d_axis.c", "db/dbb/d__axis_8c.html", "db/dbb/d__axis_8c" ],
+    [ "d_background.c", "df/d4f/d__background_8c.html", "df/d4f/d__background_8c" ],
     [ "d_bonds.c", "d7/d10/d__bonds_8c.html", "d7/d10/d__bonds_8c" ],
     [ "d_box.c", "df/dbb/d__box_8c.html", "df/dbb/d__box_8c" ],
     [ "d_label.c", "dc/d5c/d__label_8c.html", "dc/d5c/d__label_8c" ],

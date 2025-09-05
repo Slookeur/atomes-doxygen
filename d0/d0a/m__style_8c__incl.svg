@@ -59,8 +59,8 @@ var sectionId = 'dynsection-0';
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title="Functions to create the &#39;OpenGL &#45;&gt; Style&#39; submenu.">
-<polygon fill="#999999" stroke="#666666" points="899.75,-188 791.5,-188 791.5,-168 899.75,-168 899.75,-188"/>
-<text text-anchor="middle" x="845.62" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">opengl/win/m_style.c</text>
+<polygon fill="#999999" stroke="#666666" points="934.75,-188 826.5,-188 826.5,-168 934.75,-168 934.75,-188"/>
+<text text-anchor="middle" x="880.62" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">opengl/win/m_style.c</text>
 </a>
 </g>
 </g>
@@ -77,8 +77,8 @@ var sectionId = 'dynsection-0';
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M822.98,-167.59C802.51,-159.09 772.11,-146.46 748.88,-136.81"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="750.42,-133.66 739.84,-133.06 747.74,-140.13 750.42,-133.66"/>
+<path fill="none" stroke="#63b8ff" d="M851.88,-167.59C824.05,-158.48 781.75,-144.64 751.67,-134.8"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="752.83,-131.49 742.24,-131.71 750.65,-138.15 752.83,-131.49"/>
 </a>
 </g>
 </g>
@@ -95,8 +95,8 @@ var sectionId = 'dynsection-0';
 <g id="edge26_Node000001_Node000025" class="edge">
 <title>Node1&#45;&gt;Node25</title>
 <g id="a_edge26_Node000001_Node000025"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M834.13,-167.59C824.66,-159.85 811.02,-148.69 799.75,-139.47"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="802.12,-136.88 792.16,-133.26 797.68,-142.3 802.12,-136.88"/>
+<path fill="none" stroke="#63b8ff" d="M863.03,-167.59C847.7,-159.4 825.21,-147.37 807.44,-137.87"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="809.16,-134.82 798.69,-133.19 805.86,-140.99 809.16,-134.82"/>
 </a>
 </g>
 </g>
@@ -113,8 +113,8 @@ var sectionId = 'dynsection-0';
 <g id="edge27_Node000001_Node000026" class="edge">
 <title>Node1&#45;&gt;Node26</title>
 <g id="a_edge27_Node000001_Node000026"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M845.62,-167.59C845.62,-161.01 845.62,-151.96 845.62,-143.73"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="849.13,-143.81 845.63,-133.81 842.13,-143.81 849.13,-143.81"/>
+<path fill="none" stroke="#63b8ff" d="M874.53,-167.59C869.91,-160.47 863.42,-150.45 857.76,-141.72"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="860.85,-140.06 852.47,-133.57 854.98,-143.86 860.85,-140.06"/>
 </a>
 </g>
 </g>
@@ -131,8 +131,8 @@ var sectionId = 'dynsection-0';
 <g id="edge28_Node000001_Node000027" class="edge">
 <title>Node1&#45;&gt;Node27</title>
 <g id="a_edge28_Node000001_Node000027"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M857.82,-167.59C867.96,-159.77 882.62,-148.46 894.64,-139.19"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="896.59,-142.1 902.37,-133.22 892.32,-136.56 896.59,-142.1"/>
+<path fill="none" stroke="#63b8ff" d="M886.72,-167.59C891.34,-160.47 897.83,-150.45 903.49,-141.72"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="906.27,-143.86 908.78,-133.57 900.4,-140.06 906.27,-143.86"/>
 </a>
 </g>
 </g>
@@ -149,8 +149,26 @@ var sectionId = 'dynsection-0';
 <g id="edge29_Node000001_Node000028" class="edge">
 <title>Node1&#45;&gt;Node28</title>
 <g id="a_edge29_Node000001_Node000028"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M871.06,-167.59C894.36,-158.97 929.12,-146.12 955.34,-136.42"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="956.41,-139.76 964.58,-133 953.98,-133.19 956.41,-139.76"/>
+<path fill="none" stroke="#63b8ff" d="M899.96,-167.59C917.04,-159.28 942.23,-147.03 961.88,-137.47"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="963.32,-140.66 970.78,-133.14 960.25,-134.37 963.32,-140.66"/>
+</a>
+</g>
+</g>
+<!-- Node29 -->
+<g id="Node000029" class="node">
+<title>Node29</title>
+<g id="a_Node000029"><a xlink:href="../../dd/d7d/preferences_8h.html" target="_top" xlink:title="Preference variable declarations.">
+<polygon fill="white" stroke="#666666" points="1117.25,-132 1042,-132 1042,-112 1117.25,-112 1117.25,-132"/>
+<text text-anchor="middle" x="1079.62" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00">preferences.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node29 -->
+<g id="edge30_Node000001_Node000029" class="edge">
+<title>Node1&#45;&gt;Node29</title>
+<g id="a_edge30_Node000001_Node000029"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M915.29,-167.59C948.19,-158.67 997.84,-145.19 1033.95,-135.39"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="1034.5,-138.87 1043.23,-132.88 1032.66,-132.12 1034.5,-138.87"/>
 </a>
 </g>
 </g>

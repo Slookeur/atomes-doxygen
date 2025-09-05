@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../atomes.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">atomes<span id="projectnumber">&#160;1.1.18</span>
+   <div id="projectname">atomes<span id="projectnumber">&#160;1.2.0</span>
    </div>
    <div id="projectbrief">atomes: an atomic scale modeling tool box</div>
   </td>
@@ -110,6 +110,7 @@ $(function(){initNavTree('d2/db3/ogl__draw_8c.html','../../'); initResizable(tru
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/da6/dlp__field_8h_source.html">dlp_field.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/d7d/preferences_8h_source.html">preferences.h</a>&quot;</code><br />
 <code>#include &lt;time.h&gt;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for ogl_draw.c:</div>
@@ -171,6 +172,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a9762628000e50baf884c486ac9d66c9a" id="r_a9762628000e50baf884c486ac9d66c9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9762628000e50baf884c486ac9d66c9a">create_volumes_lists</a> ()</td></tr>
 <tr class="memdesc:a9762628000e50baf884c486ac9d66c9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare volume(s) OpenGL rendering  <br /></td></tr>
 <tr class="separator:a9762628000e50baf884c486ac9d66c9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a099ee96f4f09d1a8cb839b432e28902e" id="r_a099ee96f4f09d1a8cb839b432e28902e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a099ee96f4f09d1a8cb839b432e28902e">create_background_lists</a> ()</td></tr>
+<tr class="memdesc:a099ee96f4f09d1a8cb839b432e28902e"><td class="mdescLeft">&#160;</td><td class="mdescRight">prepare background OpenGL rendering  <br /></td></tr>
+<tr class="separator:a099ee96f4f09d1a8cb839b432e28902e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bd306d23e18c15b4f00fe27f82a9913" id="r_a2bd306d23e18c15b4f00fe27f82a9913"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2bd306d23e18c15b4f00fe27f82a9913">print_matrices</a> ()</td></tr>
 <tr class="memdesc:a2bd306d23e18c15b4f00fe27f82a9913"><td class="mdescLeft">&#160;</td><td class="mdescRight">print OpenGL matrices  <br /></td></tr>
 <tr class="separator:a2bd306d23e18c15b4f00fe27f82a9913"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,9 +187,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a05e8ea333c216ec8587a47d4e6321584" id="r_a05e8ea333c216ec8587a47d4e6321584"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dc3/structscreen__string.html">screen_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05e8ea333c216ec8587a47d4e6321584">duplicate_screen_string</a> (<a class="el" href="../../d0/dc3/structscreen__string.html">screen_string</a> *old_s)</td></tr>
 <tr class="memdesc:a05e8ea333c216ec8587a47d4e6321584"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a copy a <a class="el" href="../../d0/dc3/structscreen__string.html">screen_string</a> data structure  <br /></td></tr>
 <tr class="separator:a05e8ea333c216ec8587a47d4e6321584"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48d0d2d7fe146c437dd98de7875d42eb" id="r_a48d0d2d7fe146c437dd98de7875d42eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48d0d2d7fe146c437dd98de7875d42eb">duplicate_material</a> (<a class="el" href="../../d3/d0a/struct_material.html">Material</a> *new_mat, <a class="el" href="../../d3/d0a/struct_material.html">Material</a> *old_mat)</td></tr>
+<tr class="memdesc:a48d0d2d7fe146c437dd98de7875d42eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">duplicate material data  <br /></td></tr>
+<tr class="separator:a48d0d2d7fe146c437dd98de7875d42eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7214ee4d223d0948a491cc96880a1d0" id="r_ab7214ee4d223d0948a491cc96880a1d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7214ee4d223d0948a491cc96880a1d0">duplicate_fog</a> (<a class="el" href="../../d8/df7/struct_fog.html">Fog</a> *new_fog, <a class="el" href="../../d8/df7/struct_fog.html">Fog</a> *old_fog)</td></tr>
+<tr class="memdesc:ab7214ee4d223d0948a491cc96880a1d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">duplicate fog data  <br /></td></tr>
+<tr class="separator:ab7214ee4d223d0948a491cc96880a1d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f5ffdf8e1e0d21af6f736c6c8feb875" id="r_a7f5ffdf8e1e0d21af6f736c6c8feb875"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f5ffdf8e1e0d21af6f736c6c8feb875">duplicate_material_and_lightning</a> (<a class="el" href="../../de/d68/structimage.html">image</a> *new_img, <a class="el" href="../../de/d68/structimage.html">image</a> *old_img)</td></tr>
 <tr class="memdesc:a7f5ffdf8e1e0d21af6f736c6c8feb875"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy the material and lightning parameters of an image data structure  <br /></td></tr>
 <tr class="separator:a7f5ffdf8e1e0d21af6f736c6c8feb875"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5af5b9ae3cf5dff7fa640c36984de363" id="r_a5af5b9ae3cf5dff7fa640c36984de363"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5af5b9ae3cf5dff7fa640c36984de363">duplicate_screen_label</a> (<a class="el" href="../../de/d85/structscreen__label.html">screen_label</a> *new_lab, <a class="el" href="../../de/d85/structscreen__label.html">screen_label</a> *old_lab)</td></tr>
+<tr class="memdesc:a5af5b9ae3cf5dff7fa640c36984de363"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy <a class="el" href="../../de/d85/structscreen__label.html">screen_label</a> data structure  <br /></td></tr>
+<tr class="separator:a5af5b9ae3cf5dff7fa640c36984de363"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d91d727d56113f91f0093fcfcf75f50" id="r_a6d91d727d56113f91f0093fcfcf75f50"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d68/structimage.html">image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d91d727d56113f91f0093fcfcf75f50">duplicate_image</a> (<a class="el" href="../../de/d68/structimage.html">image</a> *old_img)</td></tr>
 <tr class="memdesc:a6d91d727d56113f91f0093fcfcf75f50"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a copy of an image data structure  <br /></td></tr>
 <tr class="separator:a6d91d727d56113f91f0093fcfcf75f50"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -269,7 +282,7 @@ Variables</h2></td></tr>
 
 <p>add an image to the animation </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00362">362</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00410">410</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -301,7 +314,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00432">432</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00480">480</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -333,7 +346,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00447">447</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00495">495</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -379,7 +392,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/db9/w__advance_8c_source.html#l00391">391</a> of file <a class="el" href="../../d8/db9/w__advance_8c_source.html">w_advance.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/db9/w__advance_8c_source.html#l00402">402</a> of file <a class="el" href="../../d8/db9/w__advance_8c_source.html">w_advance.c</a>.</p>
 
 </div>
 </div>
@@ -414,7 +427,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/d__atoms_8c_source.html#l00610">610</a> of file <a class="el" href="../../dc/dbd/d__atoms_8c_source.html">d_atoms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/d__atoms_8c_source.html#l00599">599</a> of file <a class="el" href="../../dc/dbd/d__atoms_8c_source.html">d_atoms.c</a>.</p>
 
 </div>
 </div>
@@ -444,6 +457,35 @@ Variables</h2></td></tr>
 <p>prepare axis OpenGL rendering </p>
 
 <p class="definition">Definition at line <a class="el" href="../../db/dbb/d__axis_8c_source.html#l00267">267</a> of file <a class="el" href="../../db/dbb/d__axis_8c_source.html">d_axis.c</a>.</p>
+
+</div>
+</div>
+<a id="a099ee96f4f09d1a8cb839b432e28902e" name="a099ee96f4f09d1a8cb839b432e28902e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a099ee96f4f09d1a8cb839b432e28902e">&#9670;&#160;</a></span>create_background_lists()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void create_background_lists </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>prepare background OpenGL rendering </p>
+
+<p class="definition">Definition at line <a class="el" href="../../df/d4f/d__background_8c_source.html#l00046">46</a> of file <a class="el" href="../../df/d4f/d__background_8c_source.html">d_background.c</a>.</p>
 
 </div>
 </div>
@@ -542,7 +584,7 @@ Variables</h2></td></tr>
 
 <p>prepare atomic label(s) OpenGL rendering </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d5c/d__label_8c_source.html#l00157">157</a> of file <a class="el" href="../../dc/d5c/d__label_8c_source.html">d_label.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d5c/d__label_8c_source.html#l00158">158</a> of file <a class="el" href="../../dc/d5c/d__label_8c_source.html">d_label.c</a>.</p>
 
 </div>
 </div>
@@ -600,7 +642,7 @@ Variables</h2></td></tr>
 
 <p>prepare <a class="el" href="../../df/dbb/d__measures_8c.html#a82a032020d8a2238aa89f2b934d894c1">measure(s)</a> OpenGL rendering </p>
 
-<p class="definition">Definition at line <a class="el" href="../../df/dbb/d__measures_8c_source.html#l00673">673</a> of file <a class="el" href="../../df/dbb/d__measures_8c_source.html">d_measures.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbb/d__measures_8c_source.html#l00670">670</a> of file <a class="el" href="../../df/dbb/d__measures_8c_source.html">d_measures.c</a>.</p>
 
 </div>
 </div>
@@ -807,7 +849,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00461">461</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00509">509</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -834,7 +876,39 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00396">396</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00444">444</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+
+</div>
+</div>
+<a id="ab7214ee4d223d0948a491cc96880a1d0" name="ab7214ee4d223d0948a491cc96880a1d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7214ee4d223d0948a491cc96880a1d0">&#9670;&#160;</a></span>duplicate_fog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void duplicate_fog </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/df7/struct_fog.html">Fog</a> *</td>          <td class="paramname"><span class="paramname"><em>new_fog</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d8/df7/struct_fog.html">Fog</a> *</td>          <td class="paramname"><span class="paramname"><em>old_fog</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>duplicate fog data </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">new_fog</td><td>the new fog data </td></tr>
+    <tr><td class="paramname">old_fog</td><td>the old fog data to be copied </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00203">203</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -861,7 +935,39 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00204">204</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00279">279</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+
+</div>
+</div>
+<a id="a48d0d2d7fe146c437dd98de7875d42eb" name="a48d0d2d7fe146c437dd98de7875d42eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48d0d2d7fe146c437dd98de7875d42eb">&#9670;&#160;</a></span>duplicate_material()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void duplicate_material </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/d0a/struct_material.html">Material</a> *</td>          <td class="paramname"><span class="paramname"><em>new_mat</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d0a/struct_material.html">Material</a> *</td>          <td class="paramname"><span class="paramname"><em>old_mat</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>duplicate material data </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">new_mat</td><td>the new material data </td></tr>
+    <tr><td class="paramname">old_mat</td><td>the old material data to be copied </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00186">186</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -893,7 +999,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00180">180</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00221">221</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -932,6 +1038,38 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a5af5b9ae3cf5dff7fa640c36984de363" name="a5af5b9ae3cf5dff7fa640c36984de363"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5af5b9ae3cf5dff7fa640c36984de363">&#9670;&#160;</a></span>duplicate_screen_label()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void duplicate_screen_label </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d85/structscreen__label.html">screen_label</a> *</td>          <td class="paramname"><span class="paramname"><em>new_lab</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d85/structscreen__label.html">screen_label</a> *</td>          <td class="paramname"><span class="paramname"><em>old_lab</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>copy <a class="el" href="../../de/d85/structscreen__label.html">screen_label</a> data structure </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">new_lab</td><td>the new <a class="el" href="../../de/d85/structscreen__label.html">screen_label</a> structure </td></tr>
+    <tr><td class="paramname">old_lab</td><td>the old <a class="el" href="../../de/d85/structscreen__label.html">screen_label</a> structure to be copied </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00239">239</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+
+</div>
+</div>
 <a id="a05e8ea333c216ec8587a47d4e6321584" name="a05e8ea333c216ec8587a47d4e6321584"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a05e8ea333c216ec8587a47d4e6321584">&#9670;&#160;</a></span>duplicate_screen_string()</h2>
 
@@ -955,7 +1093,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00158">158</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00163">163</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1016,7 +1154,7 @@ Variables</h2></td></tr>
 
 <p>print OpenGL matrices </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00092">92</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00097">97</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1037,7 +1175,7 @@ Variables</h2></td></tr>
 
 <p>setup OpenGL camera </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00120">120</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00125">125</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1058,7 +1196,7 @@ Variables</h2></td></tr>
 
 <p>unrotate OpenGL camera </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00143">143</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00148">148</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1100,7 +1238,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00068">68</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00072">72</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1116,7 +1254,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00064">64</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00068">68</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1132,7 +1270,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00065">65</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00069">69</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1148,7 +1286,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00063">63</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00067">67</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1164,7 +1302,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00072">72</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00076">76</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1188,7 +1326,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/d__atoms_8c_source.html#l00176">176</a> of file <a class="el" href="../../dc/dbd/d__atoms_8c_source.html">d_atoms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/d__atoms_8c_source.html#l00165">165</a> of file <a class="el" href="../../dc/dbd/d__atoms_8c_source.html">d_atoms.c</a>.</p>
 
 </div>
 </div>
@@ -1204,7 +1342,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00069">69</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00073">73</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1220,7 +1358,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00066">66</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00070">70</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1236,7 +1374,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00062">62</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00066">66</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1252,7 +1390,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00060">60</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00064">64</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1268,7 +1406,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00061">61</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00065">65</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1284,7 +1422,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00058">58</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00062">62</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1300,7 +1438,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00067">67</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00071">71</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1316,7 +1454,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00070">70</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00074">74</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1332,7 +1470,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00059">59</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00063">63</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1348,7 +1486,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00057">57</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00061">61</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1364,7 +1502,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00057">57</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00061">61</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1380,7 +1518,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00057">57</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00061">61</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>

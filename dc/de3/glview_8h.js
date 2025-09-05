@@ -21,6 +21,7 @@ var glview_8h =
     [ "NUM_STYLES", "dc/de3/glview_8h.html#abad2165b6127e1e52d24b3f954f31b79", null ],
     [ "QUALITY", "dc/de3/glview_8h.html#adc1876afa8c1921a3b743523e4369c75", null ],
     [ "REFRESH", "dc/de3/glview_8h.html#a339276349015c1cbcd181eb5ec1c07c6", null ],
+    [ "TEMPLATES", "dc/de3/glview_8h.html#a8b261cf061c0647a08c04d92e84ed426", null ],
     [ "ZOOM", "dc/de3/glview_8h.html#abeecfb58b7689ac52248465a6502c106", null ],
     [ "ZOOM_FACTOR", "dc/de3/glview_8h.html#a2a3b4f0d88b092d0f370a8ac7db93521", null ],
     [ "ZOOM_MAX", "dc/de3/glview_8h.html#a15b30f08f094f10b1752ffc766d73b44", null ],
@@ -169,6 +170,7 @@ var glview_8h =
     [ "field_object", "dc/de3/glview_8h.html#a135602a27bb16fcd5cdb541a354ab274", null ],
     [ "gColorID", "dc/de3/glview_8h.html#a2f635e83d17440b0f8cc5aa2fd0f9327", null ],
     [ "initlights", "dc/de3/glview_8h.html#a1e350009b4d34441c91e684ba8053673", null ],
+    [ "material_template", "dc/de3/glview_8h.html#a4fcae9758d930cfdf2caa2f767bb170a", null ],
     [ "nba", "dc/de3/glview_8h.html#a03f6391c89a0f4ace61e97787f026940", null ],
     [ "nbl", "dc/de3/glview_8h.html#acf98b2c5c1a51e021aad6633fd2c41c6", null ],
     [ "nbs", "dc/de3/glview_8h.html#a97c064dcd221dc86bc7d4fc56d38f6af", null ],
@@ -181,6 +183,7 @@ var glview_8h =
     [ "proj_sp", "dc/de3/glview_8h.html#a5efce2f530e3197e73c6d259dd380a88", null ],
     [ "qual", "dc/de3/glview_8h.html#ab13604235288f5d1e71d87fc8388942b", null ],
     [ "step", "dc/de3/glview_8h.html#abc16e65f240ed0c8f3e876e8732c0a33", null ],
+    [ "template_parameters", "dc/de3/glview_8h.html#ad5680c698626450f83e733f82765b1ad", null ],
     [ "to_pop", "dc/de3/glview_8h.html#a74ad57ec27b8d5d913ba05b9b1484b19", null ],
     [ "wingl", "dc/de3/glview_8h.html#a34d02eaa9a644d2e7d51a90dfa594a06", null ]
 ];

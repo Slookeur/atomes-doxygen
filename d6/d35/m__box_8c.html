@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../atomes.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">atomes<span id="projectnumber">&#160;1.1.18</span>
+   <div id="projectname">atomes<span id="projectnumber">&#160;1.2.0</span>
    </div>
    <div id="projectbrief">atomes: an atomic scale modeling tool box</div>
   </td>
@@ -99,7 +99,8 @@ $(function(){initNavTree('d6/d35/m__box_8c.html','../../'); initResizable(true);
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">m_box.c File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -124,13 +125,14 @@ $(function(){initNavTree('d6/d35/m__box_8c.html','../../'); initResizable(true);
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ac7ed0e8f0d08aa887df7d732420b3cfd" id="r_ac7ed0e8f0d08aa887df7d732420b3cfd"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7ed0e8f0d08aa887df7d732420b3cfd">box_advanced</a> (GtkWidget *widg, gpointer data)</td></tr>
-<tr class="memdesc:ac7ed0e8f0d08aa887df7d732420b3cfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">create the box edition window callback GTK3  <br /></td></tr>
+<tr class="memdesc:ac7ed0e8f0d08aa887df7d732420b3cfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">create the box edition window  <br /></td></tr>
 <tr class="separator:ac7ed0e8f0d08aa887df7d732420b3cfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8db2bc65756b58d79e8d6ebdd3c929d" id="r_ab8db2bc65756b58d79e8d6ebdd3c929d"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8db2bc65756b58d79e8d6ebdd3c929d">window_bonds</a> (GtkWidget *widg, gpointer data)</td></tr>
 <tr class="memdesc:ab8db2bc65756b58d79e8d6ebdd3c929d"><td class="mdescLeft">&#160;</td><td class="mdescRight">create bond(s) configuration window(s) callback GTK3  <br /></td></tr>
 <tr class="separator:ab8db2bc65756b58d79e8d6ebdd3c929d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb5708c54738fee8be780b560eccfdd9" id="r_acb5708c54738fee8be780b560eccfdd9"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb5708c54738fee8be780b560eccfdd9">window_lines</a> (GtkWidget *widg, gpointer data)</td></tr>
-<tr class="separator:acb5708c54738fee8be780b560eccfdd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a845a5bfd0659e4031a04aa84b20a247b" id="r_a845a5bfd0659e4031a04aa84b20a247b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a845a5bfd0659e4031a04aa84b20a247b">update_show_hide_box_axis</a> (<a class="el" href="../../d5/dd2/structglwin.html">glwin</a> *view, int box_or_axis, int <a class="el" href="../../d8/db9/w__advance_8c.html#a6e27f49150e9a14580fb313cc2777e00">status</a>)</td></tr>
+<tr class="memdesc:a845a5bfd0659e4031a04aa84b20a247b"><td class="mdescLeft">&#160;</td><td class="mdescRight">update edition buttons with menu show / hide status  <br /></td></tr>
+<tr class="separator:a845a5bfd0659e4031a04aa84b20a247b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6a317d09ea6d9131bcaa99bab6941f9" id="r_af6a317d09ea6d9131bcaa99bab6941f9"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6a317d09ea6d9131bcaa99bab6941f9">show_hide_box_axis</a> (GSimpleAction *<a class="el" href="../../dc/de3/glview_8h.html#a2f4ab7bf743142dae2e459aa18f9f1d4">action</a>, GVariant *parameter, gpointer data)</td></tr>
 <tr class="memdesc:af6a317d09ea6d9131bcaa99bab6941f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle the 'box/axis' show/hide signal GTK4  <br /></td></tr>
 <tr class="separator:af6a317d09ea6d9131bcaa99bab6941f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,6 +148,11 @@ Functions</h2></td></tr>
 <tr class="memitem:a71576f0a4d31dce1121b3f5183d20ecf" id="r_a71576f0a4d31dce1121b3f5183d20ecf"><td class="memItemLeft" align="right" valign="top">GMenuItem *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71576f0a4d31dce1121b3f5183d20ecf">menu_box_axis</a> (<a class="el" href="../../d5/dd2/structglwin.html">glwin</a> *view, int popm, int ab)</td></tr>
 <tr class="memdesc:a71576f0a4d31dce1121b3f5183d20ecf"><td class="mdescLeft">&#160;</td><td class="mdescRight">create the 'Model -&gt; Box' and 'View -&gt; Axis' submenus GTK4  <br /></td></tr>
 <tr class="separator:a71576f0a4d31dce1121b3f5183d20ecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a03383d1a2d01524d0a2c47c96952c5d1" id="r_a03383d1a2d01524d0a2c47c96952c5d1"><td class="memItemLeft" align="right" valign="top">gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03383d1a2d01524d0a2c47c96952c5d1">from_box_or_axis</a></td></tr>
+<tr class="separator:a03383d1a2d01524d0a2c47c96952c5d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Functions to create the 'Model -&gt; Box' submenu. </p>
@@ -193,7 +200,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d35/m__box_8c_source.html#l00435">435</a> of file <a class="el" href="../../d6/d35/m__box_8c_source.html">m_box.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d35/m__box_8c_source.html#l00563">563</a> of file <a class="el" href="../../d6/d35/m__box_8c_source.html">m_box.c</a>.</p>
 
 </div>
 </div>
@@ -237,7 +244,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d35/m__box_8c_source.html#l00409">409</a> of file <a class="el" href="../../d6/d35/m__box_8c_source.html">m_box.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d35/m__box_8c_source.html#l00537">537</a> of file <a class="el" href="../../d6/d35/m__box_8c_source.html">m_box.c</a>.</p>
 
 </div>
 </div>
@@ -260,7 +267,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>create the box edition window callback GTK3 </p>
+<p>create the box edition window </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">widg</td><td>the GtkWidget sending the signal </td></tr>
@@ -269,7 +276,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/ddf/w__box_8c_source.html#l00177">177</a> of file <a class="el" href="../../d2/ddf/w__box_8c_source.html">w_box.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/ddf/w__box_8c_source.html#l00338">338</a> of file <a class="el" href="../../d2/ddf/w__box_8c_source.html">w_box.c</a>.</p>
 
 </div>
 </div>
@@ -307,7 +314,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d35/m__box_8c_source.html#l00358">358</a> of file <a class="el" href="../../d6/d35/m__box_8c_source.html">m_box.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d35/m__box_8c_source.html#l00478">478</a> of file <a class="el" href="../../d6/d35/m__box_8c_source.html">m_box.c</a>.</p>
 
 </div>
 </div>
@@ -345,7 +352,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d35/m__box_8c_source.html#l00470">470</a> of file <a class="el" href="../../d6/d35/m__box_8c_source.html">m_box.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d35/m__box_8c_source.html#l00598">598</a> of file <a class="el" href="../../d6/d35/m__box_8c_source.html">m_box.c</a>.</p>
 
 </div>
 </div>
@@ -383,7 +390,37 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d35/m__box_8c_source.html#l00314">314</a> of file <a class="el" href="../../d6/d35/m__box_8c_source.html">m_box.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d35/m__box_8c_source.html#l00416">416</a> of file <a class="el" href="../../d6/d35/m__box_8c_source.html">m_box.c</a>.</p>
+
+</div>
+</div>
+<a id="a845a5bfd0659e4031a04aa84b20a247b" name="a845a5bfd0659e4031a04aa84b20a247b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a845a5bfd0659e4031a04aa84b20a247b">&#9670;&#160;</a></span>update_show_hide_box_axis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void update_show_hide_box_axis </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/dd2/structglwin.html">glwin</a> *</td>          <td class="paramname"><span class="paramname"><em>view</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>box_or_axis</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>status</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>update edition buttons with menu show / hide status </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d6/d35/m__box_8c_source.html#l00089">89</a> of file <a class="el" href="../../d6/d35/m__box_8c_source.html">m_box.c</a>.</p>
 
 </div>
 </div>
@@ -423,12 +460,13 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d11/w__bonds_8c_source.html#l00373">373</a> of file <a class="el" href="../../d9/d11/w__bonds_8c_source.html">w_bonds.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/d11/w__bonds_8c_source.html#l00405">405</a> of file <a class="el" href="../../d9/d11/w__bonds_8c_source.html">w_bonds.c</a>.</p>
 
 </div>
 </div>
-<a id="acb5708c54738fee8be780b560eccfdd9" name="acb5708c54738fee8be780b560eccfdd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb5708c54738fee8be780b560eccfdd9">&#9670;&#160;</a></span>window_lines()</h2>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a03383d1a2d01524d0a2c47c96952c5d1" name="a03383d1a2d01524d0a2c47c96952c5d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03383d1a2d01524d0a2c47c96952c5d1">&#9670;&#160;</a></span>from_box_or_axis</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -437,14 +475,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">G_MODULE_EXPORT void window_lines </td>
-          <td>(</td>
-          <td class="paramtype">GtkWidget *</td>          <td class="paramname"><span class="paramname"><em>widg</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">gpointer</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+          <td class="memname">gboolean from_box_or_axis</td>
         </tr>
       </table>
   </td>
@@ -453,6 +484,8 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/ddf/w__box_8c_source.html#l00052">52</a> of file <a class="el" href="../../d2/ddf/w__box_8c_source.html">w_box.c</a>.</p>
 
 </div>
 </div>

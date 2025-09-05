@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../atomes.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">atomes<span id="projectnumber">&#160;1.1.18</span>
+   <div id="projectname">atomes<span id="projectnumber">&#160;1.2.0</span>
    </div>
    <div id="projectbrief">atomes: an atomic scale modeling tool box</div>
   </td>
@@ -130,6 +130,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a6c4a0573961e0cd412b2bd370eed001f" id="r_a6c4a0573961e0cd412b2bd370eed001f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c4a0573961e0cd412b2bd370eed001f">save_rings_chains_data</a> (FILE *<a class="el" href="../../d7/d30/force__fields_8c.html#aa065f30aa9f5f9a42132c82c787ee70b">fp</a>, int type, int size, int steps, int data_max, int **num_data, gboolean ***show, int ****<a class="el" href="../../d7/d30/force__fields_8c.html#a6f3fd88c73d4fb37897b284c08c78b0a">all_data</a>)</td></tr>
 <tr class="memdesc:a6c4a0573961e0cd412b2bd370eed001f"><td class="mdescLeft">&#160;</td><td class="mdescRight">saving rings and chains statistics data to file  <br /></td></tr>
 <tr class="separator:a6c4a0573961e0cd412b2bd370eed001f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6944e1973fb76963215b9bd6c0b370a7" id="r_a6944e1973fb76963215b9bd6c0b370a7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6944e1973fb76963215b9bd6c0b370a7">write_this_image_label</a> (FILE *<a class="el" href="../../d7/d30/force__fields_8c.html#aa065f30aa9f5f9a42132c82c787ee70b">fp</a>, <a class="el" href="../../de/d85/structscreen__label.html">screen_label</a> <a class="el" href="../../df/de9/curve_8h.html#a190a1ae859f941448f2d9f72d582274f">label</a>)</td></tr>
+<tr class="memdesc:a6944e1973fb76963215b9bd6c0b370a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">save image label to file  <br /></td></tr>
+<tr class="separator:a6944e1973fb76963215b9bd6c0b370a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad24d687ba57412206300b83e33890dd0" id="r_ad24d687ba57412206300b83e33890dd0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad24d687ba57412206300b83e33890dd0">write_this_box</a> (FILE *<a class="el" href="../../d7/d30/force__fields_8c.html#aa065f30aa9f5f9a42132c82c787ee70b">fp</a>, <a class="el" href="../../d8/dae/structbox.html">box</a> *abc)</td></tr>
+<tr class="memdesc:ad24d687ba57412206300b83e33890dd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">save OpenGL image box properties to file  <br /></td></tr>
+<tr class="separator:ad24d687ba57412206300b83e33890dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71a8f6d68b9cb89c5fcfaa41254cf903" id="r_a71a8f6d68b9cb89c5fcfaa41254cf903"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71a8f6d68b9cb89c5fcfaa41254cf903">write_this_axis</a> (FILE *<a class="el" href="../../d7/d30/force__fields_8c.html#aa065f30aa9f5f9a42132c82c787ee70b">fp</a>, <a class="el" href="../../de/ded/structaxis.html">axis</a> *xyz)</td></tr>
+<tr class="memdesc:a71a8f6d68b9cb89c5fcfaa41254cf903"><td class="mdescLeft">&#160;</td><td class="mdescRight">save OpenGL image axis properties to file  <br /></td></tr>
+<tr class="separator:a71a8f6d68b9cb89c5fcfaa41254cf903"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d9a83679cd74b69aec7a0451177bf7f" id="r_a6d9a83679cd74b69aec7a0451177bf7f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d9a83679cd74b69aec7a0451177bf7f">save_opengl_image</a> (FILE *<a class="el" href="../../d7/d30/force__fields_8c.html#aa065f30aa9f5f9a42132c82c787ee70b">fp</a>, <a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, <a class="el" href="../../de/d68/structimage.html">image</a> *<a class="el" href="../../d3/da6/workspace_8c.html#a37614206af3ba4a550903b6a67db76da">img</a>, int sid)</td></tr>
 <tr class="memdesc:a6d9a83679cd74b69aec7a0451177bf7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">save OpenGL image properties to file  <br /></td></tr>
 <tr class="separator:a6d9a83679cd74b69aec7a0451177bf7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,7 +189,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d45/save__opengl_8c_source.html#l00054">54</a> of file <a class="el" href="../../d2/d45/save__opengl_8c_source.html">save_opengl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d45/save__opengl_8c_source.html#l00057">57</a> of file <a class="el" href="../../d2/d45/save__opengl_8c_source.html">save_opengl.c</a>.</p>
 
 </div>
 </div>
@@ -224,7 +233,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d45/save__opengl_8c_source.html#l00076">76</a> of file <a class="el" href="../../d2/d45/save__opengl_8c_source.html">save_opengl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d45/save__opengl_8c_source.html#l00079">79</a> of file <a class="el" href="../../d2/d45/save__opengl_8c_source.html">save_opengl.c</a>.</p>
 
 </div>
 </div>
@@ -268,7 +277,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d45/save__opengl_8c_source.html#l00134">134</a> of file <a class="el" href="../../d2/d45/save__opengl_8c_source.html">save_opengl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d45/save__opengl_8c_source.html#l00222">222</a> of file <a class="el" href="../../d2/d45/save__opengl_8c_source.html">save_opengl.c</a>.</p>
 
 </div>
 </div>
@@ -336,7 +345,103 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d45/save__opengl_8c_source.html#l00098">98</a> of file <a class="el" href="../../d2/d45/save__opengl_8c_source.html">save_opengl.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d45/save__opengl_8c_source.html#l00101">101</a> of file <a class="el" href="../../d2/d45/save__opengl_8c_source.html">save_opengl.c</a>.</p>
+
+</div>
+</div>
+<a id="a71a8f6d68b9cb89c5fcfaa41254cf903" name="a71a8f6d68b9cb89c5fcfaa41254cf903"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71a8f6d68b9cb89c5fcfaa41254cf903">&#9670;&#160;</a></span>write_this_axis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int write_this_axis </td>
+          <td>(</td>
+          <td class="paramtype">FILE *</td>          <td class="paramname"><span class="paramname"><em>fp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/ded/structaxis.html">axis</a> *</td>          <td class="paramname"><span class="paramname"><em>xyz</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>save OpenGL image axis properties to file </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fp</td><td>the file pointer </td></tr>
+    <tr><td class="paramname">axis</td><td>the target axis data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d45/save__opengl_8c_source.html#l00177">177</a> of file <a class="el" href="../../d2/d45/save__opengl_8c_source.html">save_opengl.c</a>.</p>
+
+</div>
+</div>
+<a id="ad24d687ba57412206300b83e33890dd0" name="ad24d687ba57412206300b83e33890dd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad24d687ba57412206300b83e33890dd0">&#9670;&#160;</a></span>write_this_box()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int write_this_box </td>
+          <td>(</td>
+          <td class="paramtype">FILE *</td>          <td class="paramname"><span class="paramname"><em>fp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d8/dae/structbox.html">box</a> *</td>          <td class="paramname"><span class="paramname"><em>abc</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>save OpenGL image box properties to file </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fp</td><td>the file pointer </td></tr>
+    <tr><td class="paramname">box</td><td>the target box data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d45/save__opengl_8c_source.html#l00159">159</a> of file <a class="el" href="../../d2/d45/save__opengl_8c_source.html">save_opengl.c</a>.</p>
+
+</div>
+</div>
+<a id="a6944e1973fb76963215b9bd6c0b370a7" name="a6944e1973fb76963215b9bd6c0b370a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6944e1973fb76963215b9bd6c0b370a7">&#9670;&#160;</a></span>write_this_image_label()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int write_this_image_label </td>
+          <td>(</td>
+          <td class="paramtype">FILE *</td>          <td class="paramname"><span class="paramname"><em>fp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d85/structscreen__label.html">screen_label</a></td>          <td class="paramname"><span class="paramname"><em>label</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>save image label to file </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fp</td><td>the file pointer </td></tr>
+    <tr><td class="paramname">label</td><td>the target label </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d45/save__opengl_8c_source.html#l00135">135</a> of file <a class="el" href="../../d2/d45/save__opengl_8c_source.html">save_opengl.c</a>.</p>
 
 </div>
 </div>

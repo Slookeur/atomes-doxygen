@@ -10,6 +10,7 @@ var ogl__shading_8c =
     [ "draw_vertices", "d9/db9/ogl__shading_8c.html#ab97dcf74e4491d3fd13d458db2b719c8", null ],
     [ "duplicate_object_3d", "d9/db9/ogl__shading_8c.html#af9de1e308050de8a924a5454357fb450", null ],
     [ "glsl_add_lights", "d9/db9/ogl__shading_8c.html#a4ebb27ea1b94603f0146edd2d3edeebd", null ],
+    [ "glsl_bind_background", "d9/db9/ogl__shading_8c.html#a295aef5d6fa151993864b8a14c310dcf", null ],
     [ "glsl_bind_caps", "d9/db9/ogl__shading_8c.html#af9cf297e4dc04c6d9d097bfd8767b854", null ],
     [ "glsl_bind_cylinders", "d9/db9/ogl__shading_8c.html#ad59454a1680a7deaeab6995de8e81098", null ],
     [ "glsl_bind_lines", "d9/db9/ogl__shading_8c.html#a7d8bcebf0fca1710e4c627ed5109108d", null ],
@@ -30,5 +31,8 @@ var ogl__shading_8c =
     [ "set_lights_data", "d9/db9/ogl__shading_8c.html#a6e6658f8b18e061b2989ea27e06cbb8c", null ],
     [ "shading_glsl_text", "d9/db9/ogl__shading_8c.html#a99a9cd40671abff4c7c05a19d81b8971", null ],
     [ "update_string_instances", "d9/db9/ogl__shading_8c.html#aea00ab07e86cc6b0ba306e4f9b993086", null ],
-    [ "stipple_pattern", "d9/db9/ogl__shading_8c.html#add2f1c15bbafaea46cfe7e20f5f67d19", null ]
+    [ "stipple_pattern", "d9/db9/ogl__shading_8c.html#add2f1c15bbafaea46cfe7e20f5f67d19", null ],
+    [ "this_factor", "d9/db9/ogl__shading_8c.html#a6d7dd824656e8c5d905a401c22a408af", null ],
+    [ "this_pattern", "d9/db9/ogl__shading_8c.html#a7747e2526469e1f8683e670350e1268d", null ],
+    [ "this_tilt", "d9/db9/ogl__shading_8c.html#af219ace716304dc4f55e0920b3b51dd7", null ]
 ];

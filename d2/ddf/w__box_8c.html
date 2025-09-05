@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../atomes.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">atomes<span id="projectnumber">&#160;1.1.18</span>
+   <div id="projectname">atomes<span id="projectnumber">&#160;1.2.0</span>
    </div>
    <div id="projectbrief">atomes: an atomic scale modeling tool box</div>
   </td>
@@ -112,6 +112,7 @@ $(function(){initNavTree('d2/ddf/w__box_8c.html','../../'); initResizable(true);
 <code>#include &quot;<a class="el" href="../../d4/da9/interface_8h_source.html">interface.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/d2a/glwindow_8h_source.html">glwindow.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/d7d/preferences_8h_source.html">preferences.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for w_box.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -129,9 +130,9 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a46e649d02e20d330035e48a42b42f420" id="r_a46e649d02e20d330035e48a42b42f420"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46e649d02e20d330035e48a42b42f420">update_bond_parameter</a> (GtkEntry *<a class="el" href="../../da/daf/w__encode_8c.html#a2a6c3ba8285e65eca115243c7d2ad180">res</a>, gpointer data)</td></tr>
-<tr class="memdesc:a46e649d02e20d330035e48a42b42f420"><td class="mdescLeft">&#160;</td><td class="mdescRight">update bond parameter callback  <br /></td></tr>
-<tr class="separator:a46e649d02e20d330035e48a42b42f420"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a647c2f31a0a5589e2e8ca06acdead082" id="r_a647c2f31a0a5589e2e8ca06acdead082"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a647c2f31a0a5589e2e8ca06acdead082">update_box_parameter</a> (GtkEntry *<a class="el" href="../../da/daf/w__encode_8c.html#a2a6c3ba8285e65eca115243c7d2ad180">res</a>, gpointer data)</td></tr>
+<tr class="memdesc:a647c2f31a0a5589e2e8ca06acdead082"><td class="mdescLeft">&#160;</td><td class="mdescRight">update box parameter callback  <br /></td></tr>
+<tr class="separator:a647c2f31a0a5589e2e8ca06acdead082"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2dbc60d1fdea5e75ee3f72cc5918c4a2" id="r_a2dbc60d1fdea5e75ee3f72cc5918c4a2"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dbc60d1fdea5e75ee3f72cc5918c4a2">set_box_combo_style</a> (GtkWidget *widg, gpointer data)</td></tr>
 <tr class="memdesc:a2dbc60d1fdea5e75ee3f72cc5918c4a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">set box style callback  <br /></td></tr>
 <tr class="separator:a2dbc60d1fdea5e75ee3f72cc5918c4a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,22 +142,19 @@ Functions</h2></td></tr>
 <tr class="memitem:a629377c1031a7d6602afd11aa19d3dd3" id="r_a629377c1031a7d6602afd11aa19d3dd3"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a629377c1031a7d6602afd11aa19d3dd3">set_color_box</a> (GtkColorChooser *colob, gpointer data)</td></tr>
 <tr class="memdesc:a629377c1031a7d6602afd11aa19d3dd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">set box color callback  <br /></td></tr>
 <tr class="separator:a629377c1031a7d6602afd11aa19d3dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9625385f3481d7e929f8b132fa811b57" id="r_a9625385f3481d7e929f8b132fa811b57"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9625385f3481d7e929f8b132fa811b57">on_box_delete</a> (GtkWidget *widg, GdkEvent *event, gpointer data)</td></tr>
+<tr class="memdesc:a9625385f3481d7e929f8b132fa811b57"><td class="mdescLeft">&#160;</td><td class="mdescRight">box window delete event - GTK3  <br /></td></tr>
+<tr class="separator:a9625385f3481d7e929f8b132fa811b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7ed0e8f0d08aa887df7d732420b3cfd" id="r_ac7ed0e8f0d08aa887df7d732420b3cfd"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7ed0e8f0d08aa887df7d732420b3cfd">box_advanced</a> (GtkWidget *widg, gpointer data)</td></tr>
-<tr class="memdesc:ac7ed0e8f0d08aa887df7d732420b3cfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">create the box edition window callback GTK3  <br /></td></tr>
+<tr class="memdesc:ac7ed0e8f0d08aa887df7d732420b3cfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">create the box edition window  <br /></td></tr>
 <tr class="separator:ac7ed0e8f0d08aa887df7d732420b3cfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a4da756f34b05d0113a8416053ac1a8e6" id="r_a4da756f34b05d0113a8416053ac1a8e6"><td class="memItemLeft" align="right" valign="top">GtkWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4da756f34b05d0113a8416053ac1a8e6">styles</a></td></tr>
-<tr class="separator:a4da756f34b05d0113a8416053ac1a8e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51db8a1c644d4337c81459ff172b65de" id="r_a51db8a1c644d4337c81459ff172b65de"><td class="memItemLeft" align="right" valign="top">GtkWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51db8a1c644d4337c81459ff172b65de">width_box</a></td></tr>
-<tr class="separator:a51db8a1c644d4337c81459ff172b65de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56c4cb64fdf3fde84341ff00c0acef01" id="r_a56c4cb64fdf3fde84341ff00c0acef01"><td class="memItemLeft" align="right" valign="top">GtkWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56c4cb64fdf3fde84341ff00c0acef01">radius_box</a></td></tr>
-<tr class="separator:a56c4cb64fdf3fde84341ff00c0acef01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84ec72d726fb69eb7a4cde082d4b9ebf" id="r_a84ec72d726fb69eb7a4cde082d4b9ebf"><td class="memItemLeft" align="right" valign="top">gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84ec72d726fb69eb7a4cde082d4b9ebf">box_style</a> [<a class="el" href="#a2019d16b71a74283116c621087d131ea">BOX_STYLES</a>] = {&quot;Wireframe&quot;, &quot;Cylinders&quot;}</td></tr>
 <tr class="separator:a84ec72d726fb69eb7a4cde082d4b9ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9b43f3f45395007628f07aa4ca3ece7" id="r_af9b43f3f45395007628f07aa4ca3ece7"><td class="memItemLeft" align="right" valign="top">GtkWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9b43f3f45395007628f07aa4ca3ece7">box_data</a></td></tr>
-<tr class="separator:af9b43f3f45395007628f07aa4ca3ece7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03383d1a2d01524d0a2c47c96952c5d1" id="r_a03383d1a2d01524d0a2c47c96952c5d1"><td class="memItemLeft" align="right" valign="top">gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03383d1a2d01524d0a2c47c96952c5d1">from_box_or_axis</a> = FALSE</td></tr>
+<tr class="separator:a03383d1a2d01524d0a2c47c96952c5d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Functions to create the box properties window. </p>
@@ -176,7 +174,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/ddf/w__box_8c_source.html#l00047">47</a> of file <a class="el" href="../../d2/ddf/w__box_8c_source.html">w_box.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/ddf/w__box_8c_source.html#l00048">48</a> of file <a class="el" href="../../d2/ddf/w__box_8c_source.html">w_box.c</a>.</p>
 
 </div>
 </div>
@@ -200,7 +198,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>create the box edition window callback GTK3 </p>
+<p>create the box edition window </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">widg</td><td>the GtkWidget sending the signal </td></tr>
@@ -209,7 +207,45 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/ddf/w__box_8c_source.html#l00177">177</a> of file <a class="el" href="../../d2/ddf/w__box_8c_source.html">w_box.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/ddf/w__box_8c_source.html#l00338">338</a> of file <a class="el" href="../../d2/ddf/w__box_8c_source.html">w_box.c</a>.</p>
+
+</div>
+</div>
+<a id="a9625385f3481d7e929f8b132fa811b57" name="a9625385f3481d7e929f8b132fa811b57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9625385f3481d7e929f8b132fa811b57">&#9670;&#160;</a></span>on_box_delete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">G_MODULE_EXPORT gboolean on_box_delete </td>
+          <td>(</td>
+          <td class="paramtype">GtkWidget *</td>          <td class="paramname"><span class="paramname"><em>widg</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GdkEvent *</td>          <td class="paramname"><span class="paramname"><em>event</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gpointer</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>box window delete event - GTK3 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">widg</td><td>the GtkWidget sending the signal </td></tr>
+    <tr><td class="paramname">event</td><td>the GdkEvent triggering the signal </td></tr>
+    <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/ddf/w__box_8c_source.html#l00320">320</a> of file <a class="el" href="../../d2/ddf/w__box_8c_source.html">w_box.c</a>.</p>
 
 </div>
 </div>
@@ -241,7 +277,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/ddf/w__box_8c_source.html#l00065">65</a> of file <a class="el" href="../../d2/ddf/w__box_8c_source.html">w_box.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/ddf/w__box_8c_source.html#l00140">140</a> of file <a class="el" href="../../d2/ddf/w__box_8c_source.html">w_box.c</a>.</p>
 
 </div>
 </div>
@@ -273,7 +309,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/ddf/w__box_8c_source.html#l00150">150</a> of file <a class="el" href="../../d2/ddf/w__box_8c_source.html">w_box.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/ddf/w__box_8c_source.html#l00285">285</a> of file <a class="el" href="../../d2/ddf/w__box_8c_source.html">w_box.c</a>.</p>
 
 </div>
 </div>
@@ -305,21 +341,18 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/ddf/w__box_8c_source.html#l00114">114</a> of file <a class="el" href="../../d2/ddf/w__box_8c_source.html">w_box.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/ddf/w__box_8c_source.html#l00228">228</a> of file <a class="el" href="../../d2/ddf/w__box_8c_source.html">w_box.c</a>.</p>
 
 </div>
 </div>
-<a id="a46e649d02e20d330035e48a42b42f420" name="a46e649d02e20d330035e48a42b42f420"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46e649d02e20d330035e48a42b42f420">&#9670;&#160;</a></span>update_bond_parameter()</h2>
+<a id="a647c2f31a0a5589e2e8ca06acdead082" name="a647c2f31a0a5589e2e8ca06acdead082"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a647c2f31a0a5589e2e8ca06acdead082">&#9670;&#160;</a></span>update_box_parameter()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">G_MODULE_EXPORT void update_bond_parameter </td>
+          <td class="memname">G_MODULE_EXPORT void update_box_parameter </td>
           <td>(</td>
           <td class="paramtype">GtkEntry *</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
         </tr>
@@ -329,14 +362,9 @@ Variables</h2></td></tr>
           <td class="paramtype">gpointer</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>update bond parameter callback </p>
+<p>update box parameter callback </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">res</td><td>the GtkEntry sending the signal </td></tr>
@@ -345,27 +373,11 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d11/w__bonds_8c_source.html#l00059">59</a> of file <a class="el" href="../../d9/d11/w__bonds_8c_source.html">w_bonds.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/ddf/w__box_8c_source.html#l00062">62</a> of file <a class="el" href="../../d2/ddf/w__box_8c_source.html">w_box.c</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="af9b43f3f45395007628f07aa4ca3ece7" name="af9b43f3f45395007628f07aa4ca3ece7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9b43f3f45395007628f07aa4ca3ece7">&#9670;&#160;</a></span>box_data</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">GtkWidget* box_data</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d2/ddf/w__box_8c_source.html#l00055">55</a> of file <a class="el" href="../../d2/ddf/w__box_8c_source.html">w_box.c</a>.</p>
-
-</div>
-</div>
 <a id="a84ec72d726fb69eb7a4cde082d4b9ebf" name="a84ec72d726fb69eb7a4cde082d4b9ebf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a84ec72d726fb69eb7a4cde082d4b9ebf">&#9670;&#160;</a></span>box_style</h2>
 
@@ -378,79 +390,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/ddf/w__box_8c_source.html#l00054">54</a> of file <a class="el" href="../../d2/ddf/w__box_8c_source.html">w_box.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/ddf/w__box_8c_source.html#l00050">50</a> of file <a class="el" href="../../d2/ddf/w__box_8c_source.html">w_box.c</a>.</p>
 
 </div>
 </div>
-<a id="a56c4cb64fdf3fde84341ff00c0acef01" name="a56c4cb64fdf3fde84341ff00c0acef01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56c4cb64fdf3fde84341ff00c0acef01">&#9670;&#160;</a></span>radius_box</h2>
+<a id="a03383d1a2d01524d0a2c47c96952c5d1" name="a03383d1a2d01524d0a2c47c96952c5d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03383d1a2d01524d0a2c47c96952c5d1">&#9670;&#160;</a></span>from_box_or_axis</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">GtkWidget* radius_box</td>
+          <td class="memname">gboolean from_box_or_axis = FALSE</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d3c/w__axis_8c_source.html#l00087">87</a> of file <a class="el" href="../../da/d3c/w__axis_8c_source.html">w_axis.c</a>.</p>
-
-</div>
-</div>
-<a id="a4da756f34b05d0113a8416053ac1a8e6" name="a4da756f34b05d0113a8416053ac1a8e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4da756f34b05d0113a8416053ac1a8e6">&#9670;&#160;</a></span>styles</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">GtkWidget* <a class="el" href="../../dc/de3/glview_8h.html#af9b2893fecdcf7abd8d3a7e340ff963d">styles</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../da/d3c/w__axis_8c_source.html#l00085">85</a> of file <a class="el" href="../../da/d3c/w__axis_8c_source.html">w_axis.c</a>.</p>
-
-</div>
-</div>
-<a id="a51db8a1c644d4337c81459ff172b65de" name="a51db8a1c644d4337c81459ff172b65de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51db8a1c644d4337c81459ff172b65de">&#9670;&#160;</a></span>width_box</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">GtkWidget* width_box</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../da/d3c/w__axis_8c_source.html#l00086">86</a> of file <a class="el" href="../../da/d3c/w__axis_8c_source.html">w_axis.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/ddf/w__box_8c_source.html#l00052">52</a> of file <a class="el" href="../../d2/ddf/w__box_8c_source.html">w_box.c</a>.</p>
 
 </div>
 </div>

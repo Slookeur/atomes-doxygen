@@ -12,6 +12,7 @@ var structcrystal__data =
     [ "overlapping", "d8/d1b/structcrystal__data.html#ae93b3af6a231ba3173da19e86f1ec633", null ],
     [ "pos_by_object", "d8/d1b/structcrystal__data.html#a0822b405e1919599195d8187dbad79e6", null ],
     [ "position", "d8/d1b/structcrystal__data.html#a581c7e74fa52badebd0f0664302cc755", null ],
+    [ "rounding", "d8/d1b/structcrystal__data.html#a866121e73075397bccf7af918e2c1884", null ],
     [ "shared_sites", "d8/d1b/structcrystal__data.html#a6d5ac083f5d2ced041f173eabe521a57", null ],
     [ "sites", "d8/d1b/structcrystal__data.html#a5794fa1a1d799ad766c0cad193b662eb", null ],
     [ "spec", "d8/d1b/structcrystal__data.html#ad0a8d17b47e34dc1972f90ce3ed67780", null ],

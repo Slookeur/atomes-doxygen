@@ -32,7 +32,6 @@ var popup_8c =
     [ "label_unlabel_coord", "d5/da4/popup_8c.html#a8702fb961e027e8516c2a33a81a5e7de", null ],
     [ "label_unlabel_this_atom", "d5/da4/popup_8c.html#aef0b27f3782ba3b56950b48ec908c998", null ],
     [ "new_atom_in_selection", "d5/da4/popup_8c.html#aa5fec3bbff129f3d601a42564878d1f7", null ],
-    [ "opengl_advanced", "d5/da4/popup_8c.html#a45775ea2bbaa24b3807ec15358d8ff49", null ],
     [ "popup_main_menu", "d5/da4/popup_8c.html#a444580bd261b862d178854e88daaf0f7", null ],
     [ "popup_selection", "d5/da4/popup_8c.html#a7889760ade2b1bc4d3a2b43ee56215cd", null ],
     [ "prepare_to_instert", "d5/da4/popup_8c.html#af0f12d13f3aba9ff2b7e9aec4d766355", null ],

@@ -18,7 +18,8 @@ var ogl__shading_8h =
       [ "GLSL_CAPS", "d5/d9e/ogl__shading_8h.html#aff7ed48c91278d8a69388cd18eafc900a4311591a31ed44d0b8b3de13a7226801", null ],
       [ "GLSL_POLYEDRA", "d5/d9e/ogl__shading_8h.html#aff7ed48c91278d8a69388cd18eafc900ad4d37da0968c4d6c161b7c532359e555", null ],
       [ "GLSL_STRING", "d5/d9e/ogl__shading_8h.html#aff7ed48c91278d8a69388cd18eafc900a9f05a03ab7531814bf78facb9338c2a1", null ],
-      [ "GLSL_LIGHT", "d5/d9e/ogl__shading_8h.html#aff7ed48c91278d8a69388cd18eafc900a3111c8e7c44b630e665c61b99770d3e7", null ]
+      [ "GLSL_LIGHT", "d5/d9e/ogl__shading_8h.html#aff7ed48c91278d8a69388cd18eafc900a3111c8e7c44b630e665c61b99770d3e7", null ],
+      [ "GLSL_BACK", "d5/d9e/ogl__shading_8h.html#aff7ed48c91278d8a69388cd18eafc900ad7d23274e114751e6e1b4b8377717cdd", null ]
     ] ],
     [ "angle_color", "d5/d9e/ogl__shading_8h.html#ac6424d2a3b3a19f3e8563d463d4ec99d", null ],
     [ "angle_stipple", "d5/d9e/ogl__shading_8h.html#a3d29a82339696a66d19c78e63d4f38a2", null ],
@@ -27,6 +28,9 @@ var ogl__shading_8h =
     [ "axis_cylinder_geom", "d5/d9e/ogl__shading_8h.html#a2da204fcf96e61bd79b3a2f53be5134b", null ],
     [ "axis_line_vertex", "d5/d9e/ogl__shading_8h.html#ae3f2ba170f1fa2e75f63b2b5f97b3bb4", null ],
     [ "axis_sphere_vertex", "d5/d9e/ogl__shading_8h.html#a3bfe1899becf4b4911b51fc2a545d156", null ],
+    [ "background_circular", "d5/d9e/ogl__shading_8h.html#a4980327333934fbeeaabb8358dad844c", null ],
+    [ "background_linear", "d5/d9e/ogl__shading_8h.html#abb69bbfa8d51c2665e1baddc4747bd4e", null ],
+    [ "background_vertex", "d5/d9e/ogl__shading_8h.html#a83a531f9f2de549742085a847670b09b", null ],
     [ "cap_vertex", "d5/d9e/ogl__shading_8h.html#ab491cc0af6d35e85d237a8072cbce432", null ],
     [ "cone_vertex", "d5/d9e/ogl__shading_8h.html#af5d7b75b23f944859fe813b9b118d805", null ],
     [ "cylinder_vertex", "d5/d9e/ogl__shading_8h.html#a89a0ad5ad1ffe15e114ccf3432c1d7eb", null ],

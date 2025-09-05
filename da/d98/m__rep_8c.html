@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../atomes.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">atomes<span id="projectnumber">&#160;1.1.18</span>
+   <div id="projectname">atomes<span id="projectnumber">&#160;1.2.0</span>
    </div>
    <div id="projectbrief">atomes: an atomic scale modeling tool box</div>
   </td>
@@ -112,6 +112,7 @@ $(function(){initNavTree('da/d98/m__rep_8c.html','../../'); initResizable(true);
 <code>#include &quot;<a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/d2a/glwindow_8h_source.html">glwindow.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/de0/submenus_8h_source.html">submenus.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/d7d/preferences_8h_source.html">preferences.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for m_rep.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -130,6 +131,9 @@ Functions</h2></td></tr>
 <tr class="memitem:add26ddf6def5552f7a0859d1a08bd8bd" id="r_add26ddf6def5552f7a0859d1a08bd8bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add26ddf6def5552f7a0859d1a08bd8bd">rotate_x_y</a> (<a class="el" href="../../d5/dd2/structglwin.html">glwin</a> *view, double angle_x, double angle_y)</td></tr>
 <tr class="memdesc:add26ddf6def5552f7a0859d1a08bd8bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">rotate the OpenGL camera  <br /></td></tr>
 <tr class="separator:add26ddf6def5552f7a0859d1a08bd8bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa85c70fed2a260ae7c7568d6543a10d7" id="r_aa85c70fed2a260ae7c7568d6543a10d7"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa85c70fed2a260ae7c7568d6543a10d7">set_camera_pos</a> (GtkWidget *widg, gpointer data)</td></tr>
+<tr class="memdesc:aa85c70fed2a260ae7c7568d6543a10d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">set camera position callback  <br /></td></tr>
+<tr class="separator:aa85c70fed2a260ae7c7568d6543a10d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82ff6395445949949dd02a894cdbac48" id="r_a82ff6395445949949dd02a894cdbac48"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82ff6395445949949dd02a894cdbac48">set_full_screen</a> (GtkWidget *widg, gpointer data)</td></tr>
 <tr class="memdesc:a82ff6395445949949dd02a894cdbac48"><td class="mdescLeft">&#160;</td><td class="mdescRight">set full screen callback GTK3  <br /></td></tr>
 <tr class="separator:a82ff6395445949949dd02a894cdbac48"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,11 +161,17 @@ Functions</h2></td></tr>
 <tr class="memitem:a90a8f1ec0b786c909b2c1edd316da323" id="r_a90a8f1ec0b786c909b2c1edd316da323"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90a8f1ec0b786c909b2c1edd316da323">on_rep_delete</a> (GtkWidget *widg, GdkEvent *event, gpointer data)</td></tr>
 <tr class="memdesc:a90a8f1ec0b786c909b2c1edd316da323"><td class="mdescLeft">&#160;</td><td class="mdescRight">representation window delete event - GTK3  <br /></td></tr>
 <tr class="separator:a90a8f1ec0b786c909b2c1edd316da323"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4112a6c8afb17549f24a6b93fac2619" id="r_af4112a6c8afb17549f24a6b93fac2619"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4112a6c8afb17549f24a6b93fac2619">set_rep_combo</a> (GtkComboBox *<a class="el" href="../../d8/dae/structbox.html">box</a>, gpointer data)</td></tr>
+<tr class="memdesc:af4112a6c8afb17549f24a6b93fac2619"><td class="mdescLeft">&#160;</td><td class="mdescRight">change representation combo callback  <br /></td></tr>
+<tr class="separator:af4112a6c8afb17549f24a6b93fac2619"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f1ec5ed9410b44e49d0440902e85a59" id="r_a3f1ec5ed9410b44e49d0440902e85a59"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f1ec5ed9410b44e49d0440902e85a59">set_projection_combo</a> (GtkComboBox *<a class="el" href="../../d8/dae/structbox.html">box</a>, gpointer data)</td></tr>
+<tr class="memdesc:a3f1ec5ed9410b44e49d0440902e85a59"><td class="mdescLeft">&#160;</td><td class="mdescRight">change projection combo callback  <br /></td></tr>
+<tr class="separator:a3f1ec5ed9410b44e49d0440902e85a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9967c50aa818731a0cfb100dd985fc9" id="r_ae9967c50aa818731a0cfb100dd985fc9"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9967c50aa818731a0cfb100dd985fc9">representation_advanced</a> (GtkWidget *widg, gpointer data)</td></tr>
 <tr class="memdesc:ae9967c50aa818731a0cfb100dd985fc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">open advanced representation dialog  <br /></td></tr>
 <tr class="separator:ae9967c50aa818731a0cfb100dd985fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a859a7fc548b9cbbea55626ec4180d2e3" id="r_a859a7fc548b9cbbea55626ec4180d2e3"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a859a7fc548b9cbbea55626ec4180d2e3">set_rep</a> (GtkWidget *widg, gpointer data)</td></tr>
-<tr class="memdesc:a859a7fc548b9cbbea55626ec4180d2e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">change representation callback - GTK3  <br /></td></tr>
+<tr class="memdesc:a859a7fc548b9cbbea55626ec4180d2e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">change representation callback  <br /></td></tr>
 <tr class="separator:a859a7fc548b9cbbea55626ec4180d2e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7931c4e72f40a6eef6d3e97a8ac5236f" id="r_a7931c4e72f40a6eef6d3e97a8ac5236f"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7931c4e72f40a6eef6d3e97a8ac5236f">change_rep_radio</a> (GSimpleAction *<a class="el" href="../../dc/de3/glview_8h.html#a2f4ab7bf743142dae2e459aa18f9f1d4">action</a>, GVariant *parameter, gpointer data)</td></tr>
 <tr class="memdesc:a7931c4e72f40a6eef6d3e97a8ac5236f"><td class="mdescLeft">&#160;</td><td class="mdescRight">change representation radio items callback - GTK4  <br /></td></tr>
@@ -224,7 +234,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00099">99</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00101">101</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
 
 </div>
 </div>
@@ -262,7 +272,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00456">456</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00685">685</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
 
 </div>
 </div>
@@ -294,7 +304,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00564">564</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00793">793</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
 
 </div>
 </div>
@@ -326,7 +336,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00513">513</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00742">742</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
 
 </div>
 </div>
@@ -358,7 +368,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00548">548</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00777">777</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
 
 </div>
 </div>
@@ -390,7 +400,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00579">579</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00808">808</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
 
 </div>
 </div>
@@ -428,7 +438,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00268">268</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00343">343</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
 
 </div>
 </div>
@@ -460,7 +470,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00289">289</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00424">424</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
 
 </div>
 </div>
@@ -492,7 +502,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00169">169</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00209">209</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
 
 </div>
 </div>
@@ -538,7 +548,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01081">1081</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01092">1092</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -573,7 +583,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00543">543</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00554">554</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -617,7 +627,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00216">216</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00291">291</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
 
 </div>
 </div>
@@ -649,7 +659,47 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00230">230</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00305">305</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+
+</div>
+</div>
+<a id="aa85c70fed2a260ae7c7568d6543a10d7" name="aa85c70fed2a260ae7c7568d6543a10d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa85c70fed2a260ae7c7568d6543a10d7">&#9670;&#160;</a></span>set_camera_pos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">G_MODULE_EXPORT void set_camera_pos </td>
+          <td>(</td>
+          <td class="paramtype">GtkWidget *</td>          <td class="paramname"><span class="paramname"><em>widg</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gpointer</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>set camera position callback </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">widg</td><td>the GtkWidget sending the signal </td></tr>
+    <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../da/da4/m__proj_8c_source.html#l00067">67</a> of file <a class="el" href="../../da/da4/m__proj_8c_source.html">m_proj.c</a>.</p>
 
 </div>
 </div>
@@ -681,7 +731,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00243">243</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00318">318</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
 
 </div>
 </div>
@@ -721,7 +771,39 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/da4/popup_8c_source.html#l00229">229</a> of file <a class="el" href="../../d5/da4/popup_8c_source.html">popup.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/da4/popup_8c_source.html#l00228">228</a> of file <a class="el" href="../../d5/da4/popup_8c_source.html">popup.c</a>.</p>
+
+</div>
+</div>
+<a id="a3f1ec5ed9410b44e49d0440902e85a59" name="a3f1ec5ed9410b44e49d0440902e85a59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f1ec5ed9410b44e49d0440902e85a59">&#9670;&#160;</a></span>set_projection_combo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">G_MODULE_EXPORT void set_projection_combo </td>
+          <td>(</td>
+          <td class="paramtype">GtkComboBox *</td>          <td class="paramname"><span class="paramname"><em>box</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gpointer</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>change projection combo callback </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">box</td><td>the GtkComboBox sending the signal </td></tr>
+    <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00401">401</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
 
 </div>
 </div>
@@ -744,7 +826,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>change representation callback - GTK3 </p>
+<p>change representation callback </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">widg</td><td>the GtkWidget sending the signal </td></tr>
@@ -753,7 +835,39 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00367">367</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00599">599</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+
+</div>
+</div>
+<a id="af4112a6c8afb17549f24a6b93fac2619" name="af4112a6c8afb17549f24a6b93fac2619"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4112a6c8afb17549f24a6b93fac2619">&#9670;&#160;</a></span>set_rep_combo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">G_MODULE_EXPORT void set_rep_combo </td>
+          <td>(</td>
+          <td class="paramtype">GtkComboBox *</td>          <td class="paramname"><span class="paramname"><em>box</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gpointer</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>change representation combo callback </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">box</td><td>the GtkComboBox sending the signal </td></tr>
+    <tr><td class="paramname">data</td><td>the associated data pointer </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00364">364</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
 
 </div>
 </div>
@@ -791,7 +905,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00535">535</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00764">764</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
 
 </div>
 </div>
@@ -829,7 +943,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00500">500</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00729">729</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
 
 </div>
 </div>
@@ -861,7 +975,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00200">200</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00275">275</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
 
 </div>
 </div>
@@ -888,7 +1002,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00083">83</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00085">85</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
 
 </div>
 </div>
@@ -905,7 +1019,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00074">74</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00076">76</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
 
 </div>
 </div>

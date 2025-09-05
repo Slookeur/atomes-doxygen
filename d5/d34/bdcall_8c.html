@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../atomes.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">atomes<span id="projectnumber">&#160;1.1.18</span>
+   <div id="projectname">atomes<span id="projectnumber">&#160;1.2.0</span>
    </div>
    <div id="projectbrief">atomes: an atomic scale modeling tool box</div>
   </td>
@@ -116,6 +116,7 @@ $(function(){initNavTree('d5/d34/bdcall_8c.html','../../'); initResizable(true);
 <code>#include &quot;<a class="el" href="../../d8/da6/dlp__field_8h_source.html">dlp_field.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/d75/initcoord_8h_source.html">initcoord.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/d7d/preferences_8h_source.html">preferences.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for bdcall.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -134,7 +135,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a1de95d38c0eab4905ffc53e06ed5ea16" id="r_a1de95d38c0eab4905ffc53e06ed5ea16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1de95d38c0eab4905ffc53e06ed5ea16">clean_coord_window</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj)</td></tr>
 <tr class="memdesc:a1de95d38c0eab4905ffc53e06ed5ea16"><td class="mdescLeft">&#160;</td><td class="mdescRight">update the environment configuration window after edtion  <br /></td></tr>
 <tr class="separator:a1de95d38c0eab4905ffc53e06ed5ea16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75f56b84bfc9feb2f71ca1111721a3b2" id="r_a75f56b84bfc9feb2f71ca1111721a3b2"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75f56b84bfc9feb2f71ca1111721a3b2">set_filter_changed</a> (GtkComboBox *box, gpointer data)</td></tr>
+<tr class="memitem:a75f56b84bfc9feb2f71ca1111721a3b2" id="r_a75f56b84bfc9feb2f71ca1111721a3b2"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75f56b84bfc9feb2f71ca1111721a3b2">set_filter_changed</a> (GtkComboBox *<a class="el" href="../../d8/dae/structbox.html">box</a>, gpointer data)</td></tr>
 <tr class="memdesc:a75f56b84bfc9feb2f71ca1111721a3b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">change the search filter  <br /></td></tr>
 <tr class="separator:a75f56b84bfc9feb2f71ca1111721a3b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a714d72296509bd03da90b72d7eb979c2" id="r_a714d72296509bd03da90b72d7eb979c2"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a714d72296509bd03da90b72d7eb979c2">save_color_map</a> (<a class="el" href="../../d5/dd2/structglwin.html">glwin</a> *view)</td></tr>
@@ -152,6 +153,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a273cfd6b771d21948b6120c72dc525ec" id="r_a273cfd6b771d21948b6120c72dc525ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a273cfd6b771d21948b6120c72dc525ec">initang</a> ()</td></tr>
 <tr class="memdesc:a273cfd6b771d21948b6120c72dc525ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize the curve widgets for the angle distribution  <br /></td></tr>
 <tr class="separator:a273cfd6b771d21948b6120c72dc525ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a3d5d82e0d2fccfeeda193b8e5bb26a" id="r_a0a3d5d82e0d2fccfeeda193b8e5bb26a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a3d5d82e0d2fccfeeda193b8e5bb26a">get_cutoff</a> (double s_a, double s_b)</td></tr>
+<tr class="separator:a0a3d5d82e0d2fccfeeda193b8e5bb26a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af058523ea67c66970a5904303cf6798f" id="r_af058523ea67c66970a5904303cf6798f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af058523ea67c66970a5904303cf6798f">initcutoffs</a> (<a class="el" href="../../da/d11/structchemical__data.html">chemical_data</a> *chem, int species)</td></tr>
 <tr class="memdesc:af058523ea67c66970a5904303cf6798f"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize bond cutoffs  <br /></td></tr>
 <tr class="separator:af058523ea67c66970a5904303cf6798f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -259,7 +262,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00632">632</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00675">675</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
 
 </div>
 </div>
@@ -292,7 +295,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00725">725</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00768">768</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
 
 </div>
 </div>
@@ -313,7 +316,7 @@ Variables</h2></td></tr>
 
 <p>send cutoffs to Fortran90 </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00243">243</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00286">286</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
 
 </div>
 </div>
@@ -351,7 +354,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00789">789</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00832">832</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
 
 </div>
 </div>
@@ -389,7 +392,38 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00893">893</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00936">936</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
+
+</div>
+</div>
+<a id="a0a3d5d82e0d2fccfeeda193b8e5bb26a" name="a0a3d5d82e0d2fccfeeda193b8e5bb26a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a3d5d82e0d2fccfeeda193b8e5bb26a">&#9670;&#160;</a></span>get_cutoff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double get_cutoff </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>s_a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>s_b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">retrieve</td><td>cutoff radius between spec a and spec b</td></tr>
+    <tr><td class="paramname">s_a</td><td>species a </td></tr>
+    <tr><td class="paramname">s_b</td><td>species b </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00210">210</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
 
 </div>
 </div>
@@ -410,7 +444,7 @@ Variables</h2></td></tr>
 
 <p>initialize the curve widgets for the angle distribution </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00160">160</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00163">163</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
 
 </div>
 </div>
@@ -431,7 +465,7 @@ Variables</h2></td></tr>
 
 <p>initialize the curve widgets for the bond distribution </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00136">136</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00139">139</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
 
 </div>
 </div>
@@ -463,7 +497,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00207">207</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00238">238</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
 
 </div>
 </div>
@@ -495,7 +529,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00471">471</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00514">514</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
 
 </div>
 </div>
@@ -516,7 +550,7 @@ Variables</h2></td></tr>
 
 <p>initialize bond pointers </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00270">270</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00313">313</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
 
 </div>
 </div>
@@ -548,7 +582,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00125">125</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00128">128</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
 
 </div>
 </div>
@@ -580,7 +614,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00093">93</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00096">96</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
 
 </div>
 </div>
@@ -618,7 +652,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00310">310</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00353">353</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
 
 </div>
 </div>
@@ -645,7 +679,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00077">77</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00080">80</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
 
 </div>
 </div>
@@ -725,7 +759,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../de/dc7/w__search_8c_source.html#l03869">3869</a> of file <a class="el" href="../../de/dc7/w__search_8c_source.html">w_search.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dc7/w__search_8c_source.html#l03856">3856</a> of file <a class="el" href="../../de/dc7/w__search_8c_source.html">w_search.c</a>.</p>
 
 </div>
 </div>
@@ -783,7 +817,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00899">899</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00942">942</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
 
 </div>
 </div>
@@ -810,7 +844,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00363">363</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00406">406</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
 
 </div>
 </div>
@@ -837,7 +871,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00868">868</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00911">911</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
 
 </div>
 </div>
@@ -869,7 +903,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00392">392</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00435">435</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
 
 </div>
 </div>
@@ -886,7 +920,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00621">621</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d34/bdcall_8c_source.html#l00664">664</a> of file <a class="el" href="../../d5/d34/bdcall_8c_source.html">bdcall.c</a>.</p>
 
 </div>
 </div>

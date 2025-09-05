@@ -12,8 +12,8 @@
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title="Functions to create the OpenGL parameters edition window.">
-<polygon fill="#999999" stroke="#666666" points="888.25,-188 765,-188 765,-168 888.25,-168 888.25,-188"/>
-<text text-anchor="middle" x="826.62" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">opengl/win/w_advance.c</text>
+<polygon fill="#999999" stroke="#666666" points="938.25,-188 815,-188 815,-168 938.25,-168 938.25,-188"/>
+<text text-anchor="middle" x="876.62" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">opengl/win/w_advance.c</text>
 </a>
 </g>
 </g>
@@ -30,8 +30,8 @@
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M807.29,-167.59C790.21,-159.28 765.02,-147.03 745.37,-137.47"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="747,-134.37 736.47,-133.14 743.93,-140.66 747,-134.37"/>
+<path fill="none" stroke="#63b8ff" d="M848.58,-167.59C821.66,-158.56 780.87,-144.88 751.58,-135.06"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="752.99,-131.84 742.4,-131.98 750.77,-138.48 752.99,-131.84"/>
 </a>
 </g>
 </g>
@@ -48,17 +48,17 @@
 <g id="edge26_Node000001_Node000025" class="edge">
 <title>Node1&#45;&gt;Node25</title>
 <g id="a_edge26_Node000001_Node000025"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M820.18,-167.59C815.3,-160.47 808.43,-150.45 802.45,-141.72"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="805.39,-139.82 796.85,-133.55 799.62,-143.77 805.39,-139.82"/>
+<path fill="none" stroke="#63b8ff" d="M861.47,-167.59C848.58,-159.59 829.79,-147.93 814.67,-138.54"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="816.53,-135.58 806.18,-133.28 812.83,-141.53 816.53,-135.58"/>
 </a>
 </g>
 </g>
 <!-- Node26 -->
 <g id="Node000026" class="node">
 <title>Node26</title>
-<g id="a_Node000026"><a xlink:href="../../dc/de3/glview_8h.html" target="_top" xlink:title="Variable declarations related to the OpenGL window &#160;&#160;Function declarations related to the OpenGL wind...">
-<polygon fill="white" stroke="#666666" points="890.25,-132 839,-132 839,-112 890.25,-112 890.25,-132"/>
-<text text-anchor="middle" x="864.62" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00">glview.h</text>
+<g id="a_Node000026"><a xlink:href="../../dd/d7d/preferences_8h.html" target="_top" xlink:title="Preference variable declarations.">
+<polygon fill="white" stroke="#666666" points="914.25,-132 839,-132 839,-112 914.25,-112 914.25,-132"/>
+<text text-anchor="middle" x="876.62" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00">preferences.h</text>
 </a>
 </g>
 </g>
@@ -66,17 +66,17 @@
 <g id="edge27_Node000001_Node000026" class="edge">
 <title>Node1&#45;&gt;Node26</title>
 <g id="a_edge27_Node000001_Node000026"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M833.24,-167.59C838.31,-160.39 845.46,-150.23 851.65,-141.43"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="854.32,-143.73 857.21,-133.54 848.59,-139.7 854.32,-143.73"/>
+<path fill="none" stroke="#63b8ff" d="M876.62,-167.59C876.62,-161.01 876.62,-151.96 876.62,-143.73"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="880.13,-143.81 876.63,-133.81 873.13,-143.81 880.13,-143.81"/>
 </a>
 </g>
 </g>
 <!-- Node27 -->
 <g id="Node000027" class="node">
 <title>Node27</title>
-<g id="a_Node000027"><a xlink:href="../../d1/d2a/glwindow_8h.html" target="_top" xlink:title="Function declarations for the creation of the OpenGL window.">
-<polygon fill="white" stroke="#666666" points="972.62,-132 908.62,-132 908.62,-112 972.62,-112 972.62,-132"/>
-<text text-anchor="middle" x="940.62" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00">glwindow.h</text>
+<g id="a_Node000027"><a xlink:href="../../dc/de3/glview_8h.html" target="_top" xlink:title="Variable declarations related to the OpenGL window &#160;&#160;Function declarations related to the OpenGL wind...">
+<polygon fill="white" stroke="#666666" points="983.25,-132 932,-132 932,-112 983.25,-112 983.25,-132"/>
+<text text-anchor="middle" x="957.62" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00">glview.h</text>
 </a>
 </g>
 </g>
@@ -84,8 +84,26 @@
 <g id="edge28_Node000001_Node000027" class="edge">
 <title>Node1&#45;&gt;Node27</title>
 <g id="a_edge28_Node000001_Node000027"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M846.48,-167.59C864.11,-159.24 890.13,-146.92 910.35,-137.34"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="911.71,-140.57 919.24,-133.13 908.71,-134.25 911.71,-140.57"/>
+<path fill="none" stroke="#63b8ff" d="M890.73,-167.59C902.62,-159.67 919.89,-148.16 933.9,-138.82"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="935.77,-141.78 942.15,-133.32 931.88,-135.95 935.77,-141.78"/>
+</a>
+</g>
+</g>
+<!-- Node28 -->
+<g id="Node000028" class="node">
+<title>Node28</title>
+<g id="a_Node000028"><a xlink:href="../../d1/d2a/glwindow_8h.html" target="_top" xlink:title="Function declarations for the creation of the OpenGL window.">
+<polygon fill="white" stroke="#666666" points="1065.62,-132 1001.62,-132 1001.62,-112 1065.62,-112 1065.62,-132"/>
+<text text-anchor="middle" x="1033.62" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00">glwindow.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node28 -->
+<g id="edge29_Node000001_Node000028" class="edge">
+<title>Node1&#45;&gt;Node28</title>
+<g id="a_edge29_Node000001_Node000028"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M903.97,-167.59C929.26,-158.9 967.08,-145.89 995.36,-136.16"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="996.32,-139.53 1004.63,-132.97 994.04,-132.91 996.32,-139.53"/>
 </a>
 </g>
 </g>

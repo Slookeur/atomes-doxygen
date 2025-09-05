@@ -13,6 +13,7 @@ var gui_8c =
     [ "create_gmenu_item", "d5/d03/gui_8c.html#ad302731a2d4b0bacbed68dcf815b9367", null ],
     [ "create_help_menu", "d5/d03/gui_8c.html#a6c212e22613bf453e5d342c443f71967", null ],
     [ "create_main_window", "d5/d03/gui_8c.html#a92f4ba1abecbb26e2b9e934397930f37", null ],
+    [ "create_user_preferences_dialog", "d5/d03/gui_8c.html#a1161172fbd111130c21ec626f693f924", null ],
     [ "create_workspace_menu", "d5/d03/gui_8c.html#a471454f1dfac5d56ee897dbde72c2c8d", null ],
     [ "curvetbox", "d5/d03/gui_8c.html#a5bbe890193d518716350c32126f47060", null ],
     [ "get_atom_id_from_periodic_table", "d5/d03/gui_8c.html#ac32d4bfcdd238fddc594b0ad7e7cf2f1", null ],

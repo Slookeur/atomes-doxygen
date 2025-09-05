@@ -14,6 +14,8 @@ var dir_11bc0974ce736ce9a6fadebbeb7a8314 =
     [ "interface.h", "d4/da9/interface_8h.html", "d4/da9/interface_8h" ],
     [ "main.c", "d0/d29/main_8c.html", "d0/d29/main_8c" ],
     [ "msdcall.c", "d8/d2b/msdcall_8c.html", "d8/d2b/msdcall_8c" ],
+    [ "preferences.c", "de/dee/preferences_8c.html", "de/dee/preferences_8c" ],
+    [ "preferences.h", "dd/d7d/preferences_8h.html", "dd/d7d/preferences_8h" ],
     [ "ringscall.c", "d9/dc4/ringscall_8c.html", "d9/dc4/ringscall_8c" ],
     [ "spcall.c", "d9/dbe/spcall_8c.html", "d9/dbe/spcall_8c" ],
     [ "sqcall.c", "d5/dde/sqcall_8c.html", "d5/dde/sqcall_8c" ],

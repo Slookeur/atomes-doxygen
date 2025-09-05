@@ -26,7 +26,6 @@ var cell__edit_8h =
     [ "supercell_tab", "d9/d97/cell__edit_8h.html#a846def8b36c069233028a7dc4d2a2a7b", null ],
     [ "translate", "d9/d97/cell__edit_8h.html#a932da36057080595eb52403e10e03e99", null ],
     [ "wrapping", "d9/d97/cell__edit_8h.html#a0daa89cdfd4eb133334f1deab8392a2a", null ],
-    [ "axis", "d9/d97/cell__edit_8h.html#a9ce62796b95627446940cae7d4b89f6c", null ],
     [ "box_prop", "d9/d97/cell__edit_8h.html#a1fe2f4c9ccaa9b28453f0fdef9a9923f", null ],
     [ "edit_names", "d9/d97/cell__edit_8h.html#aa94ef9f00adad147a0c72ae96a1442b9", null ],
     [ "is_selected", "d9/d97/cell__edit_8h.html#a6c1b7334804d04d63a0a9e0c951de9f6", null ],

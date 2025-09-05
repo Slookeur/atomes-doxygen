@@ -6,6 +6,7 @@ var bdcall_8c =
     [ "cutoffsend", "d5/d34/bdcall_8c.html#ad04d0d078b68b50d6d1b3808ca94b948", null ],
     [ "env_info", "d5/d34/bdcall_8c.html#adb26ebdc902fb23fb280aaefebdf20a7", null ],
     [ "envout_", "d5/d34/bdcall_8c.html#aac06bcc58860a89899c25c3b05387fa4", null ],
+    [ "get_cutoff", "d5/d34/bdcall_8c.html#a0a3d5d82e0d2fccfeeda193b8e5bb26a", null ],
     [ "initang", "d5/d34/bdcall_8c.html#a273cfd6b771d21948b6120c72dc525ec", null ],
     [ "initbd", "d5/d34/bdcall_8c.html#abb426625d20a0461d4ec92209e2fbeb1", null ],
     [ "initcutoffs", "d5/d34/bdcall_8c.html#af058523ea67c66970a5904303cf6798f", null ],

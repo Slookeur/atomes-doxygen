@@ -20,6 +20,7 @@ var structbuilder__edition =
     [ "overlapping", "dd/df5/structbuilder__edition.html#ae93b3af6a231ba3173da19e86f1ec633", null ],
     [ "pbut", "dd/df5/structbuilder__edition.html#a6a47274113784cb16a64899ae873666c", null ],
     [ "pointers", "dd/df5/structbuilder__edition.html#a8eede0a06631f5f8dc48ec196bb5c46a", null ],
+    [ "rounding", "dd/df5/structbuilder__edition.html#a866121e73075397bccf7af918e2c1884", null ],
     [ "sg_box", "dd/df5/structbuilder__edition.html#aa8b561424d9d04c577e8e5a818d224b0", null ],
     [ "sg_but", "dd/df5/structbuilder__edition.html#a66bbd4dd2e63f65c21c0c1d50e9d9e38", null ],
     [ "sg_combo", "dd/df5/structbuilder__edition.html#a23ba9215126fd0de3776e4aaff586518", null ],

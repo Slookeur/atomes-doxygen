@@ -1,6 +1,5 @@
 var read__isaacs_8c =
 [
-    [ "MY_ENCODING", "dd/d72/read__isaacs_8c.html#aa177b7adacdb1fb5fdadeea57617e24d", null ],
     [ "NFORMATS", "dd/d72/read__isaacs_8c.html#aa3b9a380dd5b04ad3aa869777845b2c2", null ],
     [ "check_xml", "dd/d72/read__isaacs_8c.html#a6a59d9ccf88e3ec06aeb2f77f9dd9d6b", null ],
     [ "file_exists", "dd/d72/read__isaacs_8c.html#a24a32d4f864211257ac31358410022c5", null ],

@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../atomes.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">atomes<span id="projectnumber">&#160;1.1.18</span>
+   <div id="projectname">atomes<span id="projectnumber">&#160;1.2.0</span>
    </div>
    <div id="projectbrief">atomes: an atomic scale modeling tool box</div>
   </td>
@@ -110,6 +110,7 @@ $(function(){initNavTree('d8/d5e/calc__menu_8c.html','../../'); initResizable(tr
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dd/d49/callbacks_8h_source.html">callbacks.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d4/da9/interface_8h_source.html">interface.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/d7d/preferences_8h_source.html">preferences.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../da/dc2/bind_8h_source.html">bind.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/d8d/project_8h_source.html">project.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d4/de6/workspace_8h_source.html">workspace.h</a>&quot;</code><br />
@@ -158,7 +159,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ad3f4e90a2526d645086ffc5f5084d907" id="r_ad3f4e90a2526d645086ffc5f5084d907"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3f4e90a2526d645086ffc5f5084d907">set_delta</a> (GtkEntry *entry, gpointer data)</td></tr>
 <tr class="memdesc:ad3f4e90a2526d645086ffc5f5084d907"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the number of delta between data points  <br /></td></tr>
 <tr class="separator:ad3f4e90a2526d645086ffc5f5084d907"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10cf2b3ff303d5895422f16e36f3372f" id="r_a10cf2b3ff303d5895422f16e36f3372f"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10cf2b3ff303d5895422f16e36f3372f">combox_tunit_changed</a> (GtkComboBox *box, gpointer data)</td></tr>
+<tr class="memitem:a10cf2b3ff303d5895422f16e36f3372f" id="r_a10cf2b3ff303d5895422f16e36f3372f"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10cf2b3ff303d5895422f16e36f3372f">combox_tunit_changed</a> (GtkComboBox *<a class="el" href="../../d8/dae/structbox.html">box</a>, gpointer data)</td></tr>
 <tr class="memdesc:a10cf2b3ff303d5895422f16e36f3372f"><td class="mdescLeft">&#160;</td><td class="mdescRight">change time units  <br /></td></tr>
 <tr class="separator:a10cf2b3ff303d5895422f16e36f3372f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54d734e7437a2d38105e03092f8ea341" id="r_a54d734e7437a2d38105e03092f8ea341"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54d734e7437a2d38105e03092f8ea341">calc_sph</a> (GtkWidget *<a class="el" href="../../d3/da6/workspace_8c.html#a4135ce280f2ff654540c78e33ce96228">vbox</a>)</td></tr>
@@ -171,10 +172,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:a963f38448cf0782f2121f1be54b48f62"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the rings/chains statistics parameter NUMA  <br /></td></tr>
 <tr class="separator:a963f38448cf0782f2121f1be54b48f62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26d068385c86eeaad0be2b7aeb0f5e3b" id="r_a26d068385c86eeaad0be2b7aeb0f5e3b"><td class="memItemLeft" align="right" valign="top">GtkWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26d068385c86eeaad0be2b7aeb0f5e3b">combox_rings</a> (gchar *str, int num, gchar *list_item[num], int id)</td></tr>
-<tr class="memdesc:a26d068385c86eeaad0be2b7aeb0f5e3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a combo box for the rings statistics calculation  <br /></td></tr>
+<tr class="memdesc:a26d068385c86eeaad0be2b7aeb0f5e3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a combo box for the ring statistics calculation  <br /></td></tr>
 <tr class="separator:a26d068385c86eeaad0be2b7aeb0f5e3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ef5663ac4a025103bdf048c9dd2a325" id="r_a4ef5663ac4a025103bdf048c9dd2a325"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ef5663ac4a025103bdf048c9dd2a325">combox_rings_changed</a> (GtkComboBox *box, gpointer data)</td></tr>
-<tr class="memdesc:a4ef5663ac4a025103bdf048c9dd2a325"><td class="mdescLeft">&#160;</td><td class="mdescRight">change rings statistics calculation parameter  <br /></td></tr>
+<tr class="memitem:a4ef5663ac4a025103bdf048c9dd2a325" id="r_a4ef5663ac4a025103bdf048c9dd2a325"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ef5663ac4a025103bdf048c9dd2a325">combox_rings_changed</a> (GtkComboBox *<a class="el" href="../../d8/dae/structbox.html">box</a>, gpointer data)</td></tr>
+<tr class="memdesc:a4ef5663ac4a025103bdf048c9dd2a325"><td class="mdescLeft">&#160;</td><td class="mdescRight">change ring statistics calculation parameter  <br /></td></tr>
 <tr class="separator:a4ef5663ac4a025103bdf048c9dd2a325"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d1d2a94080931b1d25af622698e19dd" id="r_a9d1d2a94080931b1d25af622698e19dd"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d1d2a94080931b1d25af622698e19dd">toggle_rings</a> (GtkToggleButton *but, gpointer data)</td></tr>
 <tr class="memdesc:a9d1d2a94080931b1d25af622698e19dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">toggle a rings statistics calculation parameter  <br /></td></tr>
@@ -227,7 +228,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ab472d58656c68346c483d2edde4a6ded" id="r_ab472d58656c68346c483d2edde4a6ded"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab472d58656c68346c483d2edde4a6ded">on_smoother_released</a> (GtkButton *button, gpointer data)</td></tr>
 <tr class="memdesc:ab472d58656c68346c483d2edde4a6ded"><td class="mdescLeft">&#160;</td><td class="mdescRight">smooth g(r), s(q), s(k) or g(k)  <br /></td></tr>
 <tr class="separator:ab472d58656c68346c483d2edde4a6ded"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae584a318d10821a71c39f24c0e8d597d" id="r_ae584a318d10821a71c39f24c0e8d597d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae584a318d10821a71c39f24c0e8d597d">calc_gr_sq</a> (GtkWidget *box, int id)</td></tr>
+<tr class="memitem:ae584a318d10821a71c39f24c0e8d597d" id="r_ae584a318d10821a71c39f24c0e8d597d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae584a318d10821a71c39f24c0e8d597d">calc_gr_sq</a> (GtkWidget *<a class="el" href="../../d8/dae/structbox.html">box</a>, int id)</td></tr>
 <tr class="memdesc:ae584a318d10821a71c39f24c0e8d597d"><td class="mdescLeft">&#160;</td><td class="mdescRight">creation of the g(r) / s(q) / s(k) / g(k) calculation widgets  <br /></td></tr>
 <tr class="separator:ae584a318d10821a71c39f24c0e8d597d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7605cb93faba5139a75d08568f1fb0a0" id="r_a7605cb93faba5139a75d08568f1fb0a0"><td class="memItemLeft" align="right" valign="top">G_MODULE_EXPORT void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7605cb93faba5139a75d08568f1fb0a0">run_on_calc_activate</a> (GtkDialog *dial, gint response_id, gpointer data)</td></tr>
@@ -291,7 +292,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00855">855</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00931">931</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -323,7 +324,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l01194">1194</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l01270">1270</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -350,7 +351,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00252">252</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00260">260</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -377,7 +378,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00474">474</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00516">516</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -404,7 +405,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00232">232</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00240">240</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -431,7 +432,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00100">100</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00101">101</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -464,7 +465,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>create a combo box for the rings statistics calculation </p>
+<p>create a combo box for the ring statistics calculation </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">str</td><td>label of the combo box </td></tr>
@@ -475,7 +476,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00336">336</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00364">364</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -498,7 +499,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>change rings statistics calculation parameter </p>
+<p>change ring statistics calculation parameter </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">box</td><td>the GtkComboBox sending the signal </td></tr>
@@ -507,7 +508,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00360">360</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00391">391</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -539,7 +540,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00220">220</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00228">228</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -571,7 +572,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00921">921</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00997">997</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -603,7 +604,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00895">895</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00971">971</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -635,7 +636,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l01387">1387</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l01463">1463</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -715,7 +716,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d6b/grcall_8c_source.html#l00324">324</a> of file <a class="el" href="../../dc/d6b/grcall_8c_source.html">grcall.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d6b/grcall_8c_source.html#l00319">319</a> of file <a class="el" href="../../dc/d6b/grcall_8c_source.html">grcall.c</a>.</p>
 
 </div>
 </div>
@@ -987,7 +988,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l01019">1019</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l01095">1095</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1019,7 +1020,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l01039">1039</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l01115">1115</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1057,7 +1058,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l01315">1315</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l01391">1391</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1095,7 +1096,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00574">574</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00659">659</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1127,7 +1128,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00963">963</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l01039">1039</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1159,7 +1160,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00145">145</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00146">146</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1191,7 +1192,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00119">119</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00120">120</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1223,7 +1224,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00300">300</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00307">307</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1255,7 +1256,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00994">994</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l01070">1070</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1276,7 +1277,7 @@ Variables</h2></td></tr>
 
 <p>is it safe to compute bond properties ? </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00727">727</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00803">803</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1303,7 +1304,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00675">675</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00751">751</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1324,7 +1325,7 @@ Variables</h2></td></tr>
 
 <p>is it safe to compute MSD ? </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00791">791</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00867">867</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1345,7 +1346,7 @@ Variables</h2></td></tr>
 
 <p>is it safe to compute ring statistics ? </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00753">753</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00829">829</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1366,7 +1367,7 @@ Variables</h2></td></tr>
 
 <p>is it safe to compute spherical harmonics ? </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00835">835</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00911">911</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1393,7 +1394,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00702">702</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00778">778</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1425,7 +1426,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00616">616</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00697">697</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1457,7 +1458,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00415">415</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00463">463</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1474,7 +1475,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00909">909</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00985">985</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1490,7 +1491,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00911">911</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00987">987</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1506,7 +1507,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00090">90</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00091">91</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1530,7 +1531,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00105">105</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d03/gui_8c_source.html#l00106">106</a> of file <a class="el" href="../../d5/d03/gui_8c_source.html">gui.c</a>.</p>
 
 </div>
 </div>
@@ -1546,7 +1547,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00089">89</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00090">90</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1562,7 +1563,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00135">135</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00136">136</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1578,7 +1579,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00350">350</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00381">381</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1594,7 +1595,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00349">349</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00380">380</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1610,7 +1611,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00091">91</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00092">92</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>
@@ -1626,7 +1627,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00910">910</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5e/calc__menu_8c_source.html#l00986">986</a> of file <a class="el" href="../../d8/d5e/calc__menu_8c_source.html">calc_menu.c</a>.</p>
 
 </div>
 </div>

@@ -12,8 +12,8 @@
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title="Functions to start the reading of an atomes project file.">
-<polygon fill="#999999" stroke="#666666" points="800.62,-244 712.62,-244 712.62,-224 800.62,-224 800.62,-244"/>
-<text text-anchor="middle" x="756.62" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00">project/open_p.c</text>
+<polygon fill="#999999" stroke="#666666" points="825.62,-244 737.62,-244 737.62,-224 825.62,-224 825.62,-244"/>
+<text text-anchor="middle" x="781.62" y="-230.5" font-family="Helvetica,sans-Serif" font-size="10.00">project/open_p.c</text>
 </a>
 </g>
 </g>
@@ -30,8 +30,8 @@
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M800.79,-224.99C841.57,-215.59 892.72,-197.42 870.62,-168 856.39,-149.04 793.26,-135.49 752.09,-128.47"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="752.79,-125.04 742.36,-126.88 751.66,-131.95 752.79,-125.04"/>
+<path fill="none" stroke="#63b8ff" d="M737.25,-230.42C679.25,-226.01 582.49,-214.76 560.62,-188 526.33,-146.02 623.45,-130.74 679.3,-125.51"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="679.36,-129.02 689.02,-124.67 678.76,-122.05 679.36,-129.02"/>
 </a>
 </g>
 </g>
@@ -39,8 +39,8 @@
 <g id="Node000025" class="node">
 <title>Node25</title>
 <g id="a_Node000025"><a xlink:href="../../da/dc2/bind_8h.html" target="_top" xlink:title="Binding to the Fortran90 subroutines.">
-<polygon fill="white" stroke="#666666" points="625.75,-188 583.5,-188 583.5,-168 625.75,-168 625.75,-188"/>
-<text text-anchor="middle" x="604.62" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">bind.h</text>
+<polygon fill="white" stroke="#666666" points="611.75,-188 569.5,-188 569.5,-168 611.75,-168 611.75,-188"/>
+<text text-anchor="middle" x="590.62" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">bind.h</text>
 </a>
 </g>
 </g>
@@ -48,8 +48,8 @@
 <g id="edge26_Node000001_Node000025" class="edge">
 <title>Node1&#45;&gt;Node25</title>
 <g id="a_edge26_Node000001_Node000025"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M730.15,-223.59C704.13,-214.35 664.41,-200.24 636.63,-190.37"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="637.92,-187.11 627.33,-187.06 635.58,-193.71 637.92,-187.11"/>
+<path fill="none" stroke="#63b8ff" d="M747.02,-223.53C716.68,-215.18 671.09,-202.54 623.15,-188.7"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="624.27,-185.38 613.69,-185.96 622.33,-192.1 624.27,-185.38"/>
 </a>
 </g>
 </g>
@@ -57,8 +57,8 @@
 <g id="Node000026" class="node">
 <title>Node26</title>
 <g id="a_Node000026"><a xlink:href="../../d4/da9/interface_8h.html" target="_top" xlink:title="Messaging function declarations.">
-<polygon fill="white" stroke="#666666" points="705.5,-188 643.75,-188 643.75,-168 705.5,-168 705.5,-188"/>
-<text text-anchor="middle" x="674.62" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">interface.h</text>
+<polygon fill="white" stroke="#666666" points="691.5,-188 629.75,-188 629.75,-168 691.5,-168 691.5,-188"/>
+<text text-anchor="middle" x="660.62" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">interface.h</text>
 </a>
 </g>
 </g>
@@ -66,8 +66,8 @@
 <g id="edge27_Node000001_Node000026" class="edge">
 <title>Node1&#45;&gt;Node26</title>
 <g id="a_edge27_Node000001_Node000026"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M742.34,-223.59C730.19,-215.59 712.49,-203.93 698.23,-194.54"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="700.56,-191.89 690.28,-189.31 696.71,-197.73 700.56,-191.89"/>
+<path fill="none" stroke="#63b8ff" d="M760.55,-223.59C741.67,-215.17 713.71,-202.69 692.16,-193.07"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="693.81,-189.98 683.25,-189.1 690.95,-196.37 693.81,-189.98"/>
 </a>
 </g>
 </g>
@@ -75,8 +75,8 @@
 <g id="Node000027" class="node">
 <title>Node27</title>
 <g id="a_Node000027"><a xlink:href="../../dd/d49/callbacks_8h.html" target="_top" xlink:title="Callback declarations for main window.">
-<polygon fill="white" stroke="#666666" points="789.38,-188 723.88,-188 723.88,-168 789.38,-168 789.38,-188"/>
-<text text-anchor="middle" x="756.62" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">callbacks.h</text>
+<polygon fill="white" stroke="#666666" points="775.38,-188 709.88,-188 709.88,-168 775.38,-168 775.38,-188"/>
+<text text-anchor="middle" x="742.62" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">callbacks.h</text>
 </a>
 </g>
 </g>
@@ -84,8 +84,8 @@
 <g id="edge28_Node000001_Node000027" class="edge">
 <title>Node1&#45;&gt;Node27</title>
 <g id="a_edge28_Node000001_Node000027"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M756.62,-223.59C756.62,-217.01 756.62,-207.96 756.62,-199.73"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="760.13,-199.81 756.63,-189.81 753.13,-199.81 760.13,-199.81"/>
+<path fill="none" stroke="#63b8ff" d="M774.83,-223.59C769.63,-216.39 762.29,-206.23 755.94,-197.43"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="758.92,-195.58 750.23,-189.53 753.24,-199.68 758.92,-195.58"/>
 </a>
 </g>
 </g>
@@ -93,8 +93,8 @@
 <g id="Node000028" class="node">
 <title>Node28</title>
 <g id="a_Node000028"><a xlink:href="../../dc/d8d/project_8h.html" target="_top" xlink:title="Function declarations for reading atomes project file &#160;&#160;Function declarations for saving atomes proje...">
-<polygon fill="white" stroke="#666666" points="861.38,-188 807.88,-188 807.88,-168 861.38,-168 861.38,-188"/>
-<text text-anchor="middle" x="834.62" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">project.h</text>
+<polygon fill="white" stroke="#666666" points="847.38,-188 793.88,-188 793.88,-168 847.38,-168 847.38,-188"/>
+<text text-anchor="middle" x="820.62" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">project.h</text>
 </a>
 </g>
 </g>
@@ -102,8 +102,8 @@
 <g id="edge29_Node000001_Node000028" class="edge">
 <title>Node1&#45;&gt;Node28</title>
 <g id="a_edge29_Node000001_Node000028"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M770.21,-223.59C781.66,-215.67 798.29,-204.16 811.78,-194.82"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="813.46,-197.91 819.69,-189.34 809.47,-192.16 813.46,-197.91"/>
+<path fill="none" stroke="#63b8ff" d="M788.42,-223.59C793.62,-216.39 800.96,-206.23 807.31,-197.43"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="810.01,-199.68 813.02,-189.53 804.33,-195.58 810.01,-199.68"/>
 </a>
 </g>
 </g>
@@ -111,8 +111,8 @@
 <g id="Node000029" class="node">
 <title>Node29</title>
 <g id="a_Node000029"><a xlink:href="../../df/de9/curve_8h.html" target="_top" xlink:title="Variable declarations for the curve widget &#160;&#160;Functions for interactions with the curve widget.">
-<polygon fill="white" stroke="#666666" points="565.75,-188 517.5,-188 517.5,-168 565.75,-168 565.75,-188"/>
-<text text-anchor="middle" x="541.62" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">curve.h</text>
+<polygon fill="white" stroke="#666666" points="913.75,-188 865.5,-188 865.5,-168 913.75,-168 913.75,-188"/>
+<text text-anchor="middle" x="889.62" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">curve.h</text>
 </a>
 </g>
 </g>
@@ -120,8 +120,8 @@
 <g id="edge30_Node000001_Node000029" class="edge">
 <title>Node1&#45;&gt;Node29</title>
 <g id="a_edge30_Node000001_Node000029"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M717.15,-223.53C682.62,-215.18 630.83,-202.5 577.22,-188.63"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="578.14,-185.26 567.58,-186.13 576.38,-192.03 578.14,-185.26"/>
+<path fill="none" stroke="#63b8ff" d="M800.44,-223.59C816.98,-215.32 841.34,-203.14 860.42,-193.6"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="861.93,-196.76 869.31,-189.16 858.8,-190.5 861.93,-196.76"/>
 </a>
 </g>
 </g>
@@ -129,8 +129,8 @@
 <g id="Node000030" class="node">
 <title>Node30</title>
 <g id="a_Node000030"><a xlink:href="../../dc/de3/glview_8h.html" target="_top" xlink:title="Variable declarations related to the OpenGL window &#160;&#160;Function declarations related to the OpenGL wind...">
-<polygon fill="white" stroke="#666666" points="969.25,-188 918,-188 918,-168 969.25,-168 969.25,-188"/>
-<text text-anchor="middle" x="943.62" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">glview.h</text>
+<polygon fill="white" stroke="#666666" points="983.25,-188 932,-188 932,-168 983.25,-168 983.25,-188"/>
+<text text-anchor="middle" x="957.62" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">glview.h</text>
 </a>
 </g>
 </g>
@@ -138,8 +138,26 @@
 <g id="edge32_Node000001_Node000030" class="edge">
 <title>Node1&#45;&gt;Node30</title>
 <g id="a_edge32_Node000001_Node000030"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M789.2,-223.59C822.01,-214.12 872.55,-199.52 906.8,-189.63"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="907.65,-193.03 916.29,-186.89 905.71,-186.31 907.65,-193.03"/>
+<path fill="none" stroke="#63b8ff" d="M812.28,-223.59C842.5,-214.32 888.7,-200.15 920.87,-190.28"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="921.63,-193.7 930.17,-187.42 919.58,-187.01 921.63,-193.7"/>
+</a>
+</g>
+</g>
+<!-- Node31 -->
+<g id="Node000031" class="node">
+<title>Node31</title>
+<g id="a_Node000031"><a xlink:href="../../dd/d7d/preferences_8h.html" target="_top" xlink:title="Preference variable declarations.">
+<polygon fill="white" stroke="#666666" points="1076.25,-188 1001,-188 1001,-168 1076.25,-168 1076.25,-188"/>
+<text text-anchor="middle" x="1038.62" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">preferences.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node31 -->
+<g id="edge33_Node000001_Node000031" class="edge">
+<title>Node1&#45;&gt;Node31</title>
+<g id="a_edge33_Node000001_Node000031"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M826.1,-223.66C871.62,-214.09 942.2,-199.26 989.38,-189.35"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="990,-192.79 999.07,-187.31 988.56,-185.94 990,-192.79"/>
 </a>
 </g>
 </g>
@@ -561,8 +579,8 @@
 <g id="edge31_Node000029_Node000002" class="edge">
 <title>Node29&#45;&gt;Node2</title>
 <g id="a_edge31_Node000029_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M566.19,-169.38C595.73,-160.21 645.57,-144.74 679.5,-134.21"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="680.38,-137.6 688.9,-131.3 678.31,-130.92 680.38,-137.6"/>
+<path fill="none" stroke="#63b8ff" d="M865.06,-169.38C835.52,-160.21 785.68,-144.74 751.75,-134.21"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="752.94,-130.92 742.35,-131.3 750.87,-137.6 752.94,-130.92"/>
 </a>
 </g>
 </g>

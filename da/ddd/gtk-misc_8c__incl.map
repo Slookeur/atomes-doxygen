@@ -1,9 +1,13 @@
 <map id="gui/gtk&#45;misc.c" name="gui/gtk&#45;misc.c">
-<area shape="rect" id="Node000001" title="GTK3/GTK4 utility subroutines, instead of having pre&#45;processor flags everywhere in the code...." alt="" coords="957,5,1060,32"/>
+<area shape="rect" id="Node000001" title="GTK3/GTK4 utility subroutines, instead of having pre&#45;processor flags everywhere in the code...." alt="" coords="1064,5,1167,32"/>
 <area shape="rect" id="Node000002" href="$d2/d49/global_8h.html" title="Global variable declarations &#160;&#160;Global convenience function declarations &#160;&#160;Global data structure defin..." alt="" coords="926,80,993,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1002,34,979,69,974,66,998,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1089,35,1002,75,999,71,1087,30"/>
 <area shape="rect" id="Node000025" href="$d4/da9/interface_8h.html" title="Messaging function declarations." alt="" coords="1017,80,1099,107"/>
-<area shape="poly" id="edge26_Node000001_Node000025" title=" " alt="" coords="1020,31,1043,66,1039,69,1015,34"/>
+<area shape="poly" id="edge26_Node000001_Node000025" title=" " alt="" coords="1108,34,1080,69,1075,66,1103,31"/>
+<area shape="rect" id="Node000026" href="$dd/d7d/preferences_8h.html" title="Preference variable declarations." alt="" coords="1124,80,1224,107"/>
+<area shape="poly" id="edge27_Node000001_Node000026" title=" " alt="" coords="1128,31,1157,66,1152,69,1124,34"/>
+<area shape="rect" id="Node000027" href="$dc/de3/glview_8h.html" title="Variable declarations related to the OpenGL window &#160;&#160;Function declarations related to the OpenGL wind..." alt="" coords="1248,80,1316,107"/>
+<area shape="poly" id="edge28_Node000001_Node000027" title=" " alt="" coords="1146,30,1240,71,1238,76,1143,35"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,155,58,181"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="926,97,791,97,582,103,333,121,202,136,74,157,73,152,201,131,332,116,582,97,791,91,926,91"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="81,155,168,181"/>

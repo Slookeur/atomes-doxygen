@@ -18,7 +18,7 @@ var w__measures_8c =
     [ "measure_set_color", "dd/d83/w__measures_8c.html#a4d323232801dcbbae9734396d2238a18", null ],
     [ "measure_set_color_and_markup", "dd/d83/w__measures_8c.html#a4ad921907460ef678ff201b85240ada3", null ],
     [ "measure_set_visible", "dd/d83/w__measures_8c.html#a21ef33a81880f4655db1f4631f0b2635", null ],
-    [ "measure_tree_button_event", "dd/d83/w__measures_8c.html#adb818131ca5548be624def49676806f4", null ],
+    [ "measure_tree_button_event", "dd/d83/w__measures_8c.html#a5756907dac0408fec76a9dc052ad3a72", null ],
     [ "measure_tree_button_pressed", "dd/d83/w__measures_8c.html#a9c6785109144490ba80df7011c18a73b", null ],
     [ "measurment_tab", "dd/d83/w__measures_8c.html#a22e95cef9dcf77a12150f42457f3d3c0", null ],
     [ "num_angles", "dd/d83/w__measures_8c.html#a9f9c174b2b52cd5d1073b6560c1dc649", null ],

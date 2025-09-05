@@ -27,7 +27,7 @@ var tab_4_8c =
     [ "set_ticks_size_minor_spin", "d8/d62/tab-4_8c.html#ae7c4923fcb97c71495012a293c2121b0", null ],
     [ "ticks_angle_has_changed", "d8/d62/tab-4_8c.html#acf20c6c3f2b6e0e95a15d834a17210c8", null ],
     [ "to_axis_title", "d8/d62/tab-4_8c.html#ab47ca66f8d8a040162b9ad0e155b507e", null ],
-    [ "update_axis", "d8/d62/tab-4_8c.html#a062b8f02f1f7b6aa9c61d6d906a06466", null ],
+    [ "update_axis", "d8/d62/tab-4_8c.html#a22c94b0fb4a994eab157f0bd8a4d26e2", null ],
     [ "a", "d8/d62/tab-4_8c.html#aa4c2a5552e9bc49b1816ff532f558c74", null ],
     [ "auto_scale", "d8/d62/tab-4_8c.html#aa2c6be345cab6b34b0a7d86bb80dd5ee", null ],
     [ "axis_default_title", "d8/d62/tab-4_8c.html#ad9ad57b990f7c1bab6c0e3317bfe7bc0", null ],

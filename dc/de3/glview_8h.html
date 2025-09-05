@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../atomes.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">atomes<span id="projectnumber">&#160;1.1.18</span>
+   <div id="projectname">atomes<span id="projectnumber">&#160;1.2.0</span>
    </div>
    <div id="projectbrief">atomes: an atomic scale modeling tool box</div>
   </td>
@@ -155,6 +155,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a815f9da4099f0010dcc31f73557e3450" id="r_a815f9da4099f0010dcc31f73557e3450"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a815f9da4099f0010dcc31f73557e3450">DEFAULT_OPACITY</a>&#160;&#160;&#160;1.00</td></tr>
 <tr class="memdesc:a815f9da4099f0010dcc31f73557e3450"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default OpenGL opacity.  <br /></td></tr>
 <tr class="separator:a815f9da4099f0010dcc31f73557e3450"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b261cf061c0647a08c04d92e84ed426" id="r_a8b261cf061c0647a08c04d92e84ed426"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b261cf061c0647a08c04d92e84ed426">TEMPLATES</a>&#160;&#160;&#160;7</td></tr>
+<tr class="memdesc:a8b261cf061c0647a08c04d92e84ed426"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of material templates.  <br /></td></tr>
+<tr class="separator:a8b261cf061c0647a08c04d92e84ed426"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a737b417f16ea225cf15e8d4c23df53dc" id="r_a737b417f16ea225cf15e8d4c23df53dc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a737b417f16ea225cf15e8d4c23df53dc">MAX_LIGHTS</a>&#160;&#160;&#160;10</td></tr>
 <tr class="memdesc:a737b417f16ea225cf15e8d4c23df53dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of light sources.  <br /></td></tr>
 <tr class="separator:a737b417f16ea225cf15e8d4c23df53dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -483,6 +486,10 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:a4fcae9758d930cfdf2caa2f767bb170a" id="r_a4fcae9758d930cfdf2caa2f767bb170a"><td class="memItemLeft" align="right" valign="top">gchar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fcae9758d930cfdf2caa2f767bb170a">material_template</a> [<a class="el" href="#a8b261cf061c0647a08c04d92e84ed426">TEMPLATES</a>]</td></tr>
+<tr class="separator:a4fcae9758d930cfdf2caa2f767bb170a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5680c698626450f83e733f82765b1ad" id="r_ad5680c698626450f83e733f82765b1ad"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5680c698626450f83e733f82765b1ad">template_parameters</a> [<a class="el" href="#a8b261cf061c0647a08c04d92e84ed426">TEMPLATES</a>][5]</td></tr>
+<tr class="separator:ad5680c698626450f83e733f82765b1ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e350009b4d34441c91e684ba8053673" id="r_a1e350009b4d34441c91e684ba8053673"><td class="memItemLeft" align="right" valign="top">GLfloat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e350009b4d34441c91e684ba8053673">initlights</a> [4][4]</td></tr>
 <tr class="separator:a1e350009b4d34441c91e684ba8053673"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c30182e3bb8d86d14fdd648ad481bfb" id="r_a3c30182e3bb8d86d14fdd648ad481bfb"><td class="memItemLeft" align="right" valign="top">gboolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c30182e3bb8d86d14fdd648ad481bfb">pick</a></td></tr>
@@ -547,7 +554,7 @@ Variables</h2></td></tr>
 
 <p>Default value for the OpenGL camera pitch in ° </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00100">100</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00109">109</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -565,7 +572,7 @@ Variables</h2></td></tr>
 
 <p>Default value for the OpenGL camera heading in ° </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00105">105</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00114">114</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -583,7 +590,7 @@ Variables</h2></td></tr>
 
 <p>Default value for the OpenGL camera toll in ° </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00110">110</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00119">119</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -601,7 +608,7 @@ Variables</h2></td></tr>
 
 <p>Maximum number of fragments or molecules to build the related menu items. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00139">139</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00148">148</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -619,7 +626,7 @@ Variables</h2></td></tr>
 
 <p>Default OpenGL material ambiant occlusion. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00064">64</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00065">65</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -637,7 +644,7 @@ Variables</h2></td></tr>
 
 <p>Default OpenGL material gamma correction. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00069">69</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00070">70</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -655,7 +662,7 @@ Variables</h2></td></tr>
 
 <p>Default light intensity. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00085">85</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00094">94</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -673,7 +680,7 @@ Variables</h2></td></tr>
 
 <p>Default OpenGL material ligthning. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00049">49</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00050">50</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -691,7 +698,7 @@ Variables</h2></td></tr>
 
 <p>Default OpenGL material metallic. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00054">54</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00055">55</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -709,7 +716,7 @@ Variables</h2></td></tr>
 
 <p>Default OpenGL opacity. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00074">74</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00075">75</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -727,7 +734,7 @@ Variables</h2></td></tr>
 
 <p>Default OpenGL material roughness. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00059">59</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00060">60</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -779,7 +786,7 @@ Variables</h2></td></tr>
 
 <p>Default value for the OpenGL far plane. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00095">95</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00104">104</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -797,7 +804,7 @@ Variables</h2></td></tr>
 
 <p>Maximum number of atoms in selection to display measure information. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00135">135</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00144">144</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -815,7 +822,7 @@ Variables</h2></td></tr>
 
 <p>Maximum number of light sources. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00080">80</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00089">89</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -833,7 +840,7 @@ Variables</h2></td></tr>
 
 <p>Default value for the OpenGL near plane. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00090">90</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00099">99</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -849,7 +856,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00168">168</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00177">177</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -885,7 +892,25 @@ Variables</h2></td></tr>
 
 <p>Refresh time for spinning the OpenGL window in milliseconds. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00130">130</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00139">139</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+
+</div>
+</div>
+<a id="a8b261cf061c0647a08c04d92e84ed426" name="a8b261cf061c0647a08c04d92e84ed426"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b261cf061c0647a08c04d92e84ed426">&#9670;&#160;</a></span>TEMPLATES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TEMPLATES&#160;&#160;&#160;7</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Number of material templates. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00080">80</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -903,7 +928,7 @@ Variables</h2></td></tr>
 
 <p>Default value for the OpenGL zoom. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00115">115</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00124">124</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -921,7 +946,7 @@ Variables</h2></td></tr>
 
 <p>Default value for the OpenGL zoom factor. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00120">120</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00129">129</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -939,7 +964,7 @@ Variables</h2></td></tr>
 
 <p>Maximum value for the OpenGL zoom factor. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00125">125</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00134">134</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -956,7 +981,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00366">366</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00375">375</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -985,7 +1010,7 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00189">189</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00198">198</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -1013,7 +1038,7 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00223">223</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00232">232</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -1043,7 +1068,7 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00204">204</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00213">213</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -1071,7 +1096,7 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00214">214</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00223">223</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -1107,7 +1132,7 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00156">156</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00165">165</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -1129,7 +1154,7 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00198">198</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00207">207</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -1155,7 +1180,7 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00142">142</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00151">151</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -1179,7 +1204,7 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00182">182</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00191">191</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -1201,7 +1226,7 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00150">150</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00159">159</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -1233,7 +1258,7 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00171">171</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00180">180</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -1255,7 +1280,7 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00232">232</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00241">241</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -1296,7 +1321,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00161">161</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00169">169</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1440,7 +1465,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00432">432</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00480">480</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1480,7 +1505,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00447">447</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00495">495</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -1507,7 +1532,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01522">1522</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01571">1571</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1547,7 +1572,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/da4/popup_8c_source.html#l01040">1040</a> of file <a class="el" href="../../d5/da4/popup_8c_source.html">popup.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/da4/popup_8c_source.html#l01039">1039</a> of file <a class="el" href="../../d5/da4/popup_8c_source.html">popup.c</a>.</p>
 
 </div>
 </div>
@@ -1587,7 +1612,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/db9/ogl__shading_8c_source.html#l00695">695</a> of file <a class="el" href="../../d9/db9/ogl__shading_8c_source.html">ogl_shading.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/db9/ogl__shading_8c_source.html#l00721">721</a> of file <a class="el" href="../../d9/db9/ogl__shading_8c_source.html">ogl_shading.c</a>.</p>
 
 </div>
 </div>
@@ -1964,7 +1989,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00461">461</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00509">509</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -2195,7 +2220,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/db9/ogl__shading_8c_source.html#l01028">1028</a> of file <a class="el" href="../../d9/db9/ogl__shading_8c_source.html">ogl_shading.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/db9/ogl__shading_8c_source.html#l01071">1071</a> of file <a class="el" href="../../d9/db9/ogl__shading_8c_source.html">ogl_shading.c</a>.</p>
 
 </div>
 </div>
@@ -2269,7 +2294,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00396">396</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00444">444</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -2304,7 +2329,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/da4/popup_8c_source.html#l00285">285</a> of file <a class="el" href="../../d5/da4/popup_8c_source.html">popup.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/da4/popup_8c_source.html#l00284">284</a> of file <a class="el" href="../../d5/da4/popup_8c_source.html">popup.c</a>.</p>
 
 </div>
 </div>
@@ -2339,7 +2364,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/dc8/glwindow_8c_source.html#l00794">794</a> of file <a class="el" href="../../d7/dc8/glwindow_8c_source.html">glwindow.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/dc8/glwindow_8c_source.html#l00809">809</a> of file <a class="el" href="../../d7/dc8/glwindow_8c_source.html">glwindow.c</a>.</p>
 
 </div>
 </div>
@@ -2427,7 +2452,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/db9/ogl__shading_8c_source.html#l00729">729</a> of file <a class="el" href="../../d9/db9/ogl__shading_8c_source.html">ogl_shading.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/db9/ogl__shading_8c_source.html#l00755">755</a> of file <a class="el" href="../../d9/db9/ogl__shading_8c_source.html">ogl_shading.c</a>.</p>
 
 </div>
 </div>
@@ -2448,7 +2473,7 @@ Variables</h2></td></tr>
 
 <p>initialize OpenGL rendering parameters </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01390">1390</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01439">1439</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -2523,7 +2548,7 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">object</td><td>shader id (in enum shaders) </td></tr>
-    <tr><td class="paramname">object_id</td><td>shader type in: GLSL_SPHERES, GLSL_POINTS, GLSL_LINES, GLSL_CYLINDERS, GLSL_CAPS, GLSL_POLYEDRA, GLSL_STRING </td></tr>
+    <tr><td class="paramname">object_id</td><td>shader type in: GLSL_SPHERES, GLSL_POINTS, GLSL_LINES, GLSL_CYLINDERS, GLSL_CAPS, GLSL_POLYEDRA, GLSL_STRING, GLSL_BACK </td></tr>
     <tr><td class="paramname">vertex</td><td>general shader: in the shaders defined in '<a class="el" href="../../df/d7f/ogl__shaders_8c.html" title="OpenGL shaders for the atomes program.">ogl_shaders.c</a>' </td></tr>
     <tr><td class="paramname">geometry</td><td>geometry shader, if any: in the shaders defined in '<a class="el" href="../../df/d7f/ogl__shaders_8c.html" title="OpenGL shaders for the atomes program.">ogl_shaders.c</a>' </td></tr>
     <tr><td class="paramname">fragment</td><td>color shader, if any: in the shaders defined in '<a class="el" href="../../df/d7f/ogl__shaders_8c.html" title="OpenGL shaders for the atomes program.">ogl_shaders.c</a>' </td></tr>
@@ -2536,7 +2561,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/db9/ogl__shading_8c_source.html#l00533">533</a> of file <a class="el" href="../../d9/db9/ogl__shading_8c_source.html">ogl_shading.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/db9/ogl__shading_8c_source.html#l00556">556</a> of file <a class="el" href="../../d9/db9/ogl__shading_8c_source.html">ogl_shading.c</a>.</p>
 
 </div>
 </div>
@@ -2571,7 +2596,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/db9/ogl__shading_8c_source.html#l00757">757</a> of file <a class="el" href="../../d9/db9/ogl__shading_8c_source.html">ogl_shading.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/db9/ogl__shading_8c_source.html#l00783">783</a> of file <a class="el" href="../../d9/db9/ogl__shading_8c_source.html">ogl_shading.c</a>.</p>
 
 </div>
 </div>
@@ -2649,7 +2674,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01794">1794</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01844">1844</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -2699,7 +2724,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00975">975</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00986">986</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -2749,7 +2774,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00991">991</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01002">1002</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -2793,7 +2818,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00727">727</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00738">738</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -2837,7 +2862,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01055">1055</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01066">1066</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -2887,7 +2912,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00852">852</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00863">863</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -2937,7 +2962,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00868">868</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00879">879</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -2969,7 +2994,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01737">1737</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01787">1787</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -3015,7 +3040,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/da4/popup_8c_source.html#l04137">4137</a> of file <a class="el" href="../../d5/da4/popup_8c_source.html">popup.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/da4/popup_8c_source.html#l04136">4136</a> of file <a class="el" href="../../d5/da4/popup_8c_source.html">popup.c</a>.</p>
 
 </div>
 </div>
@@ -3091,7 +3116,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/da4/popup_8c_source.html#l03672">3672</a> of file <a class="el" href="../../d5/da4/popup_8c_source.html">popup.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/da4/popup_8c_source.html#l03671">3671</a> of file <a class="el" href="../../d5/da4/popup_8c_source.html">popup.c</a>.</p>
 
 </div>
 </div>
@@ -3331,7 +3356,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/db9/ogl__shading_8c_source.html#l00651">651</a> of file <a class="el" href="../../d9/db9/ogl__shading_8c_source.html">ogl_shading.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/db9/ogl__shading_8c_source.html#l00677">677</a> of file <a class="el" href="../../d9/db9/ogl__shading_8c_source.html">ogl_shading.c</a>.</p>
 
 </div>
 </div>
@@ -3377,7 +3402,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/db9/ogl__shading_8c_source.html#l00673">673</a> of file <a class="el" href="../../d9/db9/ogl__shading_8c_source.html">ogl_shading.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/db9/ogl__shading_8c_source.html#l00699">699</a> of file <a class="el" href="../../d9/db9/ogl__shading_8c_source.html">ogl_shading.c</a>.</p>
 
 </div>
 </div>
@@ -3461,7 +3486,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00516">516</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00527">527</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -3528,7 +3553,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00187">187</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00195">195</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -3631,7 +3656,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00380">380</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00391">391</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -3663,7 +3688,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/da4/popup_8c_source.html#l03980">3980</a> of file <a class="el" href="../../d5/da4/popup_8c_source.html">popup.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/da4/popup_8c_source.html#l03979">3979</a> of file <a class="el" href="../../d5/da4/popup_8c_source.html">popup.c</a>.</p>
 
 </div>
 </div>
@@ -3690,7 +3715,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00439">439</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00450">450</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -3894,7 +3919,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01006">1006</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01017">1017</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -3919,7 +3944,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00068">68</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00072">72</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -3943,7 +3968,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00064">64</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00068">68</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -3967,7 +3992,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00065">65</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00069">69</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -3991,7 +4016,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00063">63</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00067">67</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -4039,7 +4064,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/d__atoms_8c_source.html#l00060">60</a> of file <a class="el" href="../../dc/dbd/d__atoms_8c_source.html">d_atoms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/d__atoms_8c_source.html#l00061">61</a> of file <a class="el" href="../../dc/dbd/d__atoms_8c_source.html">d_atoms.c</a>.</p>
 
 </div>
 </div>
@@ -4065,6 +4090,30 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a4fcae9758d930cfdf2caa2f767bb170a" name="a4fcae9758d930cfdf2caa2f767bb170a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fcae9758d930cfdf2caa2f767bb170a">&#9670;&#160;</a></span>material_template</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gchar* material_template[<a class="el" href="#a8b261cf061c0647a08c04d92e84ed426">TEMPLATES</a>]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/db9/w__advance_8c_source.html#l00097">97</a> of file <a class="el" href="../../d8/db9/w__advance_8c_source.html">w_advance.c</a>.</p>
+
+</div>
+</div>
 <a id="a03f6391c89a0f4ace61e97787f026940" name="a03f6391c89a0f4ace61e97787f026940"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a03f6391c89a0f4ace61e97787f026940">&#9670;&#160;</a></span>nba</h2>
 
@@ -4077,7 +4126,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00333">333</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00342">342</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -4093,7 +4142,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00333">333</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/de3/glview_8h_source.html#l00342">342</a> of file <a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>.</p>
 
 </div>
 </div>
@@ -4117,7 +4166,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dbd/d__atoms_8c_source.html#l00176">176</a> of file <a class="el" href="../../dc/dbd/d__atoms_8c_source.html">d_atoms.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dbd/d__atoms_8c_source.html#l00165">165</a> of file <a class="el" href="../../dc/dbd/d__atoms_8c_source.html">d_atoms.c</a>.</p>
 
 </div>
 </div>
@@ -4141,7 +4190,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00114">114</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00122">122</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -4165,7 +4214,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00069">69</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00073">73</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -4211,7 +4260,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00066">66</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00070">70</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -4235,7 +4284,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00062">62</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00066">66</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -4259,7 +4308,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00060">60</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00064">64</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -4283,7 +4332,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00061">61</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00065">65</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -4307,7 +4356,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00067">67</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00071">71</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>
@@ -4331,7 +4380,31 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00070">70</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00074">74</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+
+</div>
+</div>
+<a id="ad5680c698626450f83e733f82765b1ad" name="ad5680c698626450f83e733f82765b1ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5680c698626450f83e733f82765b1ad">&#9670;&#160;</a></span>template_parameters</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLfloat template_parameters[<a class="el" href="#a8b261cf061c0647a08c04d92e84ed426">TEMPLATES</a>][5]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/db9/w__advance_8c_source.html#l00105">105</a> of file <a class="el" href="../../d8/db9/w__advance_8c_source.html">w_advance.c</a>.</p>
 
 </div>
 </div>
@@ -4355,7 +4428,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00874">874</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00885">885</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -4379,7 +4452,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00059">59</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00063">63</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
 
 </div>
 </div>

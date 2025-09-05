@@ -9,5 +9,6 @@ var color__box_8c =
     [ "set_frag_mol_color", "dc/d16/color__box_8c.html#a3f96e17b2d032a06baaeff91cdcb8ce6", null ],
     [ "set_partial_coord_color", "dc/d16/color__box_8c.html#a9bd12cbc0df965e043fec667b9aa76f0", null ],
     [ "set_rings_color", "dc/d16/color__box_8c.html#a96d4c7b92837cbe8df6bdde22c0d7704", null ],
-    [ "set_total_coord_color", "dc/d16/color__box_8c.html#aea4343c7ae4af7117bcfc4cef000d4da", null ]
+    [ "set_total_coord_color", "dc/d16/color__box_8c.html#aea4343c7ae4af7117bcfc4cef000d4da", null ],
+    [ "update_gradient_widgets", "dc/d16/color__box_8c.html#aaf1c895412556eff47fe8905a3f56cf0", null ]
 ];

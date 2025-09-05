@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../atomes.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">atomes<span id="projectnumber">&#160;1.1.18</span>
+   <div id="projectname">atomes<span id="projectnumber">&#160;1.2.0</span>
    </div>
    <div id="projectbrief">atomes: an atomic scale modeling tool box</div>
   </td>
@@ -109,6 +109,7 @@ $(function(){initNavTree('dc/d21/glview_8c.html','../../'); initResizable(true);
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d4/da9/interface_8h_source.html">interface.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dd/d7d/preferences_8h_source.html">preferences.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/d75/initcoord_8h_source.html">initcoord.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../da/dc2/bind_8h_source.html">bind.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/d8d/project_8h_source.html">project.h</a>&quot;</code><br />
@@ -136,10 +137,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a6c7067a1657c03fa9699781a75eaa113" id="r_a6c7067a1657c03fa9699781a75eaa113"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d61/struct_light.html">Light</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c7067a1657c03fa9699781a75eaa113">init_light_source</a> (int type, float <a class="el" href="../../d2/da2/dlp__atom_8c.html#a26f18cc5d2179adc30fc1a7544962178">val</a>, float vbl)</td></tr>
 <tr class="memdesc:a6c7067a1657c03fa9699781a75eaa113"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize a light source  <br /></td></tr>
 <tr class="separator:a6c7067a1657c03fa9699781a75eaa113"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadec8590542ea472748f516692de3c92" id="r_aadec8590542ea472748f516692de3c92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadec8590542ea472748f516692de3c92">rotate_quat</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, <a class="el" href="../../d7/d36/structvec4__t.html">vec4_t</a> q, int <a class="el" href="../../d8/db9/w__advance_8c.html#a6e27f49150e9a14580fb313cc2777e00">status</a>, int <a class="el" href="../../d9/d97/cell__edit_8h.html#a9ce62796b95627446940cae7d4b89f6c">axis</a>)</td></tr>
+<tr class="memitem:aadec8590542ea472748f516692de3c92" id="r_aadec8590542ea472748f516692de3c92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadec8590542ea472748f516692de3c92">rotate_quat</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, <a class="el" href="../../d7/d36/structvec4__t.html">vec4_t</a> q, int <a class="el" href="../../d8/db9/w__advance_8c.html#a6e27f49150e9a14580fb313cc2777e00">status</a>, int <a class="el" href="../../de/ded/structaxis.html">axis</a>)</td></tr>
 <tr class="memdesc:aadec8590542ea472748f516692de3c92"><td class="mdescLeft">&#160;</td><td class="mdescRight">rotate using quaternion  <br /></td></tr>
 <tr class="separator:aadec8590542ea472748f516692de3c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a932da36057080595eb52403e10e03e99" id="r_a932da36057080595eb52403e10e03e99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a932da36057080595eb52403e10e03e99">translate</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, int <a class="el" href="../../d8/db9/w__advance_8c.html#a6e27f49150e9a14580fb313cc2777e00">status</a>, int <a class="el" href="../../d9/d97/cell__edit_8h.html#a9ce62796b95627446940cae7d4b89f6c">axis</a>, <a class="el" href="../../d3/d7c/structvec3__t.html">vec3_t</a> trans)</td></tr>
+<tr class="memitem:a932da36057080595eb52403e10e03e99" id="r_a932da36057080595eb52403e10e03e99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a932da36057080595eb52403e10e03e99">translate</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, int <a class="el" href="../../d8/db9/w__advance_8c.html#a6e27f49150e9a14580fb313cc2777e00">status</a>, int <a class="el" href="../../de/ded/structaxis.html">axis</a>, <a class="el" href="../../d3/d7c/structvec3__t.html">vec3_t</a> trans)</td></tr>
 <tr class="memdesc:a932da36057080595eb52403e10e03e99"><td class="mdescLeft">&#160;</td><td class="mdescRight">translate  <br /></td></tr>
 <tr class="separator:a932da36057080595eb52403e10e03e99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac06fe3655b8f8670459ae79579454ea7" id="r_ac06fe3655b8f8670459ae79579454ea7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d7c/structvec3__t.html">vec3_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac06fe3655b8f8670459ae79579454ea7">get_bary</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, int <a class="el" href="../../d8/db9/w__advance_8c.html#a6e27f49150e9a14580fb313cc2777e00">status</a>)</td></tr>
@@ -160,6 +161,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a0dff0e296009f52566c5cdeac2d11144" id="r_a0dff0e296009f52566c5cdeac2d11144"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/de8/structatomic__object.html">atomic_object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dff0e296009f52566c5cdeac2d11144">create_object_from_frag_mol</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, int coord, int geo, <a class="el" href="../../d8/d59/structatom__search.html">atom_search</a> *remove)</td></tr>
 <tr class="memdesc:a0dff0e296009f52566c5cdeac2d11144"><td class="mdescLeft">&#160;</td><td class="mdescRight">create object from a fragment or a molecule  <br /></td></tr>
 <tr class="separator:a0dff0e296009f52566c5cdeac2d11144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48d0d2d7fe146c437dd98de7875d42eb" id="r_a48d0d2d7fe146c437dd98de7875d42eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48d0d2d7fe146c437dd98de7875d42eb">duplicate_material</a> (<a class="el" href="../../d3/d0a/struct_material.html">Material</a> *new_mat, <a class="el" href="../../d3/d0a/struct_material.html">Material</a> *old_mat)</td></tr>
+<tr class="memdesc:a48d0d2d7fe146c437dd98de7875d42eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">duplicate material data  <br /></td></tr>
+<tr class="separator:a48d0d2d7fe146c437dd98de7875d42eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7214ee4d223d0948a491cc96880a1d0" id="r_ab7214ee4d223d0948a491cc96880a1d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7214ee4d223d0948a491cc96880a1d0">duplicate_fog</a> (<a class="el" href="../../d8/df7/struct_fog.html">Fog</a> *new_fog, <a class="el" href="../../d8/df7/struct_fog.html">Fog</a> *old_fog)</td></tr>
+<tr class="memdesc:ab7214ee4d223d0948a491cc96880a1d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">duplicate fog data  <br /></td></tr>
+<tr class="separator:ab7214ee4d223d0948a491cc96880a1d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5af5b9ae3cf5dff7fa640c36984de363" id="r_a5af5b9ae3cf5dff7fa640c36984de363"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5af5b9ae3cf5dff7fa640c36984de363">duplicate_screen_label</a> (<a class="el" href="../../de/d85/structscreen__label.html">screen_label</a> *new_lab, <a class="el" href="../../de/d85/structscreen__label.html">screen_label</a> *old_lab)</td></tr>
+<tr class="memdesc:a5af5b9ae3cf5dff7fa640c36984de363"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy <a class="el" href="../../de/d85/structscreen__label.html">screen_label</a> data structure  <br /></td></tr>
+<tr class="separator:a5af5b9ae3cf5dff7fa640c36984de363"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe34b0217440c3ac882c04fb345b0be4" id="r_abe34b0217440c3ac882c04fb345b0be4"><td class="memItemLeft" align="right" valign="top">GLuint *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe34b0217440c3ac882c04fb345b0be4">allocgluint</a> (int <a class="el" href="../../d2/da2/dlp__atom_8c.html#a26f18cc5d2179adc30fc1a7544962178">val</a>)</td></tr>
 <tr class="memdesc:abe34b0217440c3ac882c04fb345b0be4"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate a GLuint * pointer  <br /></td></tr>
 <tr class="separator:abe34b0217440c3ac882c04fb345b0be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -235,15 +245,24 @@ Functions</h2></td></tr>
 <tr class="memitem:add26ddf6def5552f7a0859d1a08bd8bd" id="r_add26ddf6def5552f7a0859d1a08bd8bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add26ddf6def5552f7a0859d1a08bd8bd">rotate_x_y</a> (<a class="el" href="../../d5/dd2/structglwin.html">glwin</a> *view, double angle_x, double angle_y)</td></tr>
 <tr class="memdesc:add26ddf6def5552f7a0859d1a08bd8bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">rotate the OpenGL camera  <br /></td></tr>
 <tr class="separator:add26ddf6def5552f7a0859d1a08bd8bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae03afe6f0249706520c4923efa4eeebb" id="r_ae03afe6f0249706520c4923efa4eeebb"><td class="memItemLeft" align="right" valign="top">GLdouble&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae03afe6f0249706520c4923efa4eeebb">get_max_depth</a> (GLdouble depth)</td></tr>
+<tr class="memdesc:ae03afe6f0249706520c4923efa4eeebb"><td class="mdescLeft">&#160;</td><td class="mdescRight">guess a reasonable maximum OpenGL window depth  <br /></td></tr>
+<tr class="separator:ae03afe6f0249706520c4923efa4eeebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ae71e9dcbb406f49391c0c21189ecc2" id="r_a9ae71e9dcbb406f49391c0c21189ecc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ae71e9dcbb406f49391c0c21189ecc2">init_camera</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, int get_depth)</td></tr>
-<tr class="memdesc:a9ae71e9dcbb406f49391c0c21189ecc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">intialize the OpenGL camera settings  <br /></td></tr>
+<tr class="memdesc:a9ae71e9dcbb406f49391c0c21189ecc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize the OpenGL camera settings  <br /></td></tr>
 <tr class="separator:a9ae71e9dcbb406f49391c0c21189ecc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1fc97c3bff8c12176aed8f981b049e7" id="r_af1fc97c3bff8c12176aed8f981b049e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1fc97c3bff8c12176aed8f981b049e7">image_init_spec_data</a> (<a class="el" href="../../de/d68/structimage.html">image</a> *<a class="el" href="../../d3/da6/workspace_8c.html#a37614206af3ba4a550903b6a67db76da">img</a>, <a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, int nsp)</td></tr>
-<tr class="memdesc:af1fc97c3bff8c12176aed8f981b049e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize the chemical species related pointers in an image data structure  <br /></td></tr>
-<tr class="separator:af1fc97c3bff8c12176aed8f981b049e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab582f6bcef52a5442f9f4aedd9fa17d5" id="r_ab582f6bcef52a5442f9f4aedd9fa17d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab582f6bcef52a5442f9f4aedd9fa17d5">set_img_lights</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, <a class="el" href="../../de/d68/structimage.html">image</a> *<a class="el" href="../../d3/da6/workspace_8c.html#a37614206af3ba4a550903b6a67db76da">img</a>)</td></tr>
-<tr class="memdesc:ab582f6bcef52a5442f9f4aedd9fa17d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize lightning for an image data structure  <br /></td></tr>
-<tr class="separator:ab582f6bcef52a5442f9f4aedd9fa17d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae21cd760da97be61e52e3f39c5d1e4b2" id="r_ae21cd760da97be61e52e3f39c5d1e4b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae21cd760da97be61e52e3f39c5d1e4b2">setup_default_species_parameters_for_image</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, <a class="el" href="../../de/d68/structimage.html">image</a> *<a class="el" href="../../d3/da6/workspace_8c.html#a37614206af3ba4a550903b6a67db76da">img</a>)</td></tr>
+<tr class="memdesc:ae21cd760da97be61e52e3f39c5d1e4b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup default chemical species related parameters for image  <br /></td></tr>
+<tr class="separator:ae21cd760da97be61e52e3f39c5d1e4b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9477d6ebae17f3d36d9a5bd35bf3207f" id="r_a9477d6ebae17f3d36d9a5bd35bf3207f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9477d6ebae17f3d36d9a5bd35bf3207f">setup_image_spec_data</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, <a class="el" href="../../de/d68/structimage.html">image</a> *<a class="el" href="../../d3/da6/workspace_8c.html#a37614206af3ba4a550903b6a67db76da">img</a>)</td></tr>
+<tr class="memdesc:a9477d6ebae17f3d36d9a5bd35bf3207f"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize the chemical species related pointers in an image data structure  <br /></td></tr>
+<tr class="separator:a9477d6ebae17f3d36d9a5bd35bf3207f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34ceef6568f79d502abcfff82d3bd37f" id="r_a34ceef6568f79d502abcfff82d3bd37f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34ceef6568f79d502abcfff82d3bd37f">setup_default_lights</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, <a class="el" href="../../de/d68/structimage.html">image</a> *<a class="el" href="../../d3/da6/workspace_8c.html#a37614206af3ba4a550903b6a67db76da">img</a>)</td></tr>
+<tr class="memdesc:a34ceef6568f79d502abcfff82d3bd37f"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize lightning for an image data structure  <br /></td></tr>
+<tr class="separator:a34ceef6568f79d502abcfff82d3bd37f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d34ea4e3174447e6aeb1173cb1ed7bb" id="r_a3d34ea4e3174447e6aeb1173cb1ed7bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d34ea4e3174447e6aeb1173cb1ed7bb">setup_default_image</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj, <a class="el" href="../../de/d68/structimage.html">image</a> *<a class="el" href="../../d3/da6/workspace_8c.html#a37614206af3ba4a550903b6a67db76da">img</a>)</td></tr>
+<tr class="memdesc:a3d34ea4e3174447e6aeb1173cb1ed7bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup default image parameters  <br /></td></tr>
+<tr class="separator:a3d34ea4e3174447e6aeb1173cb1ed7bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c023b2abf1995c2671784969efad4ee" id="r_a5c023b2abf1995c2671784969efad4ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c023b2abf1995c2671784969efad4ee">init_img</a> (<a class="el" href="../../dd/dbe/structproject.html">project</a> *this_proj)</td></tr>
 <tr class="memdesc:a5c023b2abf1995c2671784969efad4ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize an image data structure  <br /></td></tr>
 <tr class="separator:a5c023b2abf1995c2671784969efad4ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -339,7 +358,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d15/atom__action_8c_source.html#l00206">206</a> of file <a class="el" href="../../d8/d15/atom__action_8c_source.html">atom_action.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d15/atom__action_8c_source.html#l00211">211</a> of file <a class="el" href="../../d8/d15/atom__action_8c_source.html">atom_action.c</a>.</p>
 
 </div>
 </div>
@@ -391,7 +410,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d6c/atom__edit_8c_source.html#l00392">392</a> of file <a class="el" href="../../dc/d6c/atom__edit_8c_source.html">atom_edit.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d6c/atom__edit_8c_source.html#l00386">386</a> of file <a class="el" href="../../dc/d6c/atom__edit_8c_source.html">atom_edit.c</a>.</p>
 
 </div>
 </div>
@@ -423,7 +442,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00161">161</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00169">169</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -455,7 +474,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00139">139</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00147">147</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -482,7 +501,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00123">123</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00131">131</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -555,7 +574,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01441">1441</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01490">1490</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -582,7 +601,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01522">1522</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01571">1571</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -638,6 +657,126 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ab7214ee4d223d0948a491cc96880a1d0" name="ab7214ee4d223d0948a491cc96880a1d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7214ee4d223d0948a491cc96880a1d0">&#9670;&#160;</a></span>duplicate_fog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void duplicate_fog </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/df7/struct_fog.html">Fog</a> *</td>          <td class="paramname"><span class="paramname"><em>new_fog</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d8/df7/struct_fog.html">Fog</a> *</td>          <td class="paramname"><span class="paramname"><em>old_fog</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>duplicate fog data </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">new_fog</td><td>the new fog data </td></tr>
+    <tr><td class="paramname">old_fog</td><td>the old fog data to be copied </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00203">203</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+
+</div>
+</div>
+<a id="a48d0d2d7fe146c437dd98de7875d42eb" name="a48d0d2d7fe146c437dd98de7875d42eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48d0d2d7fe146c437dd98de7875d42eb">&#9670;&#160;</a></span>duplicate_material()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void duplicate_material </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/d0a/struct_material.html">Material</a> *</td>          <td class="paramname"><span class="paramname"><em>new_mat</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/d0a/struct_material.html">Material</a> *</td>          <td class="paramname"><span class="paramname"><em>old_mat</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>duplicate material data </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">new_mat</td><td>the new material data </td></tr>
+    <tr><td class="paramname">old_mat</td><td>the old material data to be copied </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00186">186</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+
+</div>
+</div>
+<a id="a5af5b9ae3cf5dff7fa640c36984de363" name="a5af5b9ae3cf5dff7fa640c36984de363"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5af5b9ae3cf5dff7fa640c36984de363">&#9670;&#160;</a></span>duplicate_screen_label()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void duplicate_screen_label </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d85/structscreen__label.html">screen_label</a> *</td>          <td class="paramname"><span class="paramname"><em>new_lab</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d85/structscreen__label.html">screen_label</a> *</td>          <td class="paramname"><span class="paramname"><em>old_lab</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>copy <a class="el" href="../../de/d85/structscreen__label.html">screen_label</a> data structure </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">new_lab</td><td>the new <a class="el" href="../../de/d85/structscreen__label.html">screen_label</a> structure </td></tr>
+    <tr><td class="paramname">old_lab</td><td>the old <a class="el" href="../../de/d85/structscreen__label.html">screen_label</a> structure to be copied </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d2/db3/ogl__draw_8c_source.html#l00239">239</a> of file <a class="el" href="../../d2/db3/ogl__draw_8c_source.html">ogl_draw.c</a>.</p>
+
+</div>
+</div>
 <a id="aa96ff5907a3d30ec032ca8986b33a0a0" name="aa96ff5907a3d30ec032ca8986b33a0a0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa96ff5907a3d30ec032ca8986b33a0a0">&#9670;&#160;</a></span>edit_for_motion()</h2>
 
@@ -661,7 +800,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00560">560</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00571">571</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -693,7 +832,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01543">1543</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01592">1592</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -773,6 +912,33 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ae03afe6f0249706520c4923efa4eeebb" name="ae03afe6f0249706520c4923efa4eeebb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae03afe6f0249706520c4923efa4eeebb">&#9670;&#160;</a></span>get_max_depth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLdouble get_max_depth </td>
+          <td>(</td>
+          <td class="paramtype">GLdouble</td>          <td class="paramname"><span class="paramname"><em>depth</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>guess a reasonable maximum OpenGL window depth </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">depth</td><td>the calculated model depth </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01142">1142</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+
+</div>
+</div>
 <a id="a1e7e05571cd317c465dde6cca1436852" name="a1e7e05571cd317c465dde6cca1436852"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1e7e05571cd317c465dde6cca1436852">&#9670;&#160;</a></span>glwin_button_event()</h2>
 
@@ -825,7 +991,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00888">888</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00899">899</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -857,7 +1023,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01588">1588</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01637">1637</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -907,45 +1073,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00800">800</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
-
-</div>
-</div>
-<a id="af1fc97c3bff8c12176aed8f981b049e7" name="af1fc97c3bff8c12176aed8f981b049e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1fc97c3bff8c12176aed8f981b049e7">&#9670;&#160;</a></span>image_init_spec_data()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void image_init_spec_data </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../de/d68/structimage.html">image</a> *</td>          <td class="paramname"><span class="paramname"><em>img</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dbe/structproject.html">project</a> *</td>          <td class="paramname"><span class="paramname"><em>this_proj</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>nsp</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>initialize the chemical species related pointers in an image data structure </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">img</td><td>the target image </td></tr>
-    <tr><td class="paramname">this_proj</td><td>the target project </td></tr>
-    <tr><td class="paramname">nsp</td><td>the number of chemical species </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01190">1190</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00811">811</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -968,7 +1096,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>intialize the OpenGL camera settings </p>
+<p>initialize the OpenGL camera settings </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">this_proj</td><td>the target project </td></tr>
@@ -977,7 +1105,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01132">1132</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01170">1170</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1004,7 +1132,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01653">1653</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01702">1702</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1031,7 +1159,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01703">1703</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01753">1753</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1058,7 +1186,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01279">1279</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01399">1399</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1079,12 +1207,12 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>val</em></span>, </td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>vbl</em></span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>depth</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -1098,13 +1226,14 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">type</td><td>the type of light </td></tr>
-    <tr><td class="paramname">val</td><td></td></tr>
-    <tr><td class="paramname">vbl</td><td></td></tr>
+    <tr><td class="paramname">size</td><td>depth or max (a,b,c) </td></tr>
+    <tr><td class="paramname">depth</td><td>field depth </td></tr>
+    <tr><td class="paramname">intens</td><td></td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/db9/w__advance_8c_source.html#l00324">324</a> of file <a class="el" href="../../d8/db9/w__advance_8c_source.html">w_advance.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/db9/w__advance_8c_source.html#l00337">337</a> of file <a class="el" href="../../d8/db9/w__advance_8c_source.html">w_advance.c</a>.</p>
 
 </div>
 </div>
@@ -1125,7 +1254,7 @@ Variables</h2></td></tr>
 
 <p>initialize OpenGL rendering parameters </p>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01390">1390</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01439">1439</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1152,7 +1281,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01373">1373</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01422">1422</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1196,7 +1325,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00626">626</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00637">637</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1234,7 +1363,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01794">1794</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01844">1844</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1284,7 +1413,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00975">975</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00986">986</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1334,7 +1463,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00991">991</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01002">1002</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1378,7 +1507,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00727">727</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00738">738</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1422,7 +1551,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01055">1055</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01066">1066</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1472,7 +1601,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00852">852</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00863">863</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1522,7 +1651,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00868">868</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00879">879</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1554,7 +1683,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01737">1737</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01787">1787</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1594,7 +1723,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d6c/atom__edit_8c_source.html#l00459">459</a> of file <a class="el" href="../../dc/d6c/atom__edit_8c_source.html">atom_edit.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d6c/atom__edit_8c_source.html#l00453">453</a> of file <a class="el" href="../../dc/d6c/atom__edit_8c_source.html">atom_edit.c</a>.</p>
 
 </div>
 </div>
@@ -1684,7 +1813,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00757">757</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00768">768</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1728,7 +1857,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00516">516</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00527">527</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1818,7 +1947,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01081">1081</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01092">1092</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1845,7 +1974,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00543">543</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00554">554</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1872,18 +2001,50 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00187">187</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00195">195</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
-<a id="ab582f6bcef52a5442f9f4aedd9fa17d5" name="ab582f6bcef52a5442f9f4aedd9fa17d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab582f6bcef52a5442f9f4aedd9fa17d5">&#9670;&#160;</a></span>set_img_lights()</h2>
+<a id="a3d34ea4e3174447e6aeb1173cb1ed7bb" name="a3d34ea4e3174447e6aeb1173cb1ed7bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d34ea4e3174447e6aeb1173cb1ed7bb">&#9670;&#160;</a></span>setup_default_image()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void set_img_lights </td>
+          <td class="memname">void setup_default_image </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/dbe/structproject.html">project</a> *</td>          <td class="paramname"><span class="paramname"><em>this_proj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d68/structimage.html">image</a> *</td>          <td class="paramname"><span class="paramname"><em>img</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>setup default image parameters </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">this_proj</td><td>the target project </td></tr>
+    <tr><td class="paramname">img</td><td>the target image </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01344">1344</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+
+</div>
+</div>
+<a id="a34ceef6568f79d502abcfff82d3bd37f" name="a34ceef6568f79d502abcfff82d3bd37f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34ceef6568f79d502abcfff82d3bd37f">&#9670;&#160;</a></span>setup_default_lights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setup_default_lights </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../dd/dbe/structproject.html">project</a> *</td>          <td class="paramname"><span class="paramname"><em>this_proj</em></span>, </td>
         </tr>
@@ -1904,7 +2065,71 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01252">1252</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01305">1305</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+
+</div>
+</div>
+<a id="ae21cd760da97be61e52e3f39c5d1e4b2" name="ae21cd760da97be61e52e3f39c5d1e4b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae21cd760da97be61e52e3f39c5d1e4b2">&#9670;&#160;</a></span>setup_default_species_parameters_for_image()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setup_default_species_parameters_for_image </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/dbe/structproject.html">project</a> *</td>          <td class="paramname"><span class="paramname"><em>this_proj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d68/structimage.html">image</a> *</td>          <td class="paramname"><span class="paramname"><em>img</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>setup default chemical species related parameters for image </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">this_proj</td><td>the target project </td></tr>
+    <tr><td class="paramname">img</td><td>the target image </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01218">1218</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+
+</div>
+</div>
+<a id="a9477d6ebae17f3d36d9a5bd35bf3207f" name="a9477d6ebae17f3d36d9a5bd35bf3207f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9477d6ebae17f3d36d9a5bd35bf3207f">&#9670;&#160;</a></span>setup_image_spec_data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setup_image_spec_data </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/dbe/structproject.html">project</a> *</td>          <td class="paramname"><span class="paramname"><em>this_proj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d68/structimage.html">image</a> *</td>          <td class="paramname"><span class="paramname"><em>img</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>initialize the chemical species related pointers in an image data structure </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">this_proj</td><td>the target project </td></tr>
+    <tr><td class="paramname">img</td><td>the target image </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01264">1264</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1936,7 +2161,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00380">380</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00391">391</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -1968,7 +2193,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00458">458</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00469">469</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -2047,7 +2272,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00439">439</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00450">450</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -2085,7 +2310,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00404">404</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00415">415</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -2153,7 +2378,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00330">330</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00341">341</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -2188,7 +2413,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00083">83</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d98/m__rep_8c_source.html#l00085">85</a> of file <a class="el" href="../../da/d98/m__rep_8c_source.html">m_rep.c</a>.</p>
 
 </div>
 </div>
@@ -2232,7 +2457,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00423">423</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00434">434</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -2264,7 +2489,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01006">1006</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l01017">1017</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -2309,7 +2534,7 @@ Variables</h2></td></tr>
 <div class="line">                                        {-1.0f,  2.0f, -1.0f, 0.0f},</div>
 <div class="line">                                        {-1.0f, -1.0f,  0.0f, 0.0f}}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00175">175</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00183">183</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -2325,7 +2550,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00114">114</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00122">122</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>
@@ -2365,7 +2590,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00874">874</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d21/glview_8c_source.html#l00885">885</a> of file <a class="el" href="../../dc/d21/glview_8c_source.html">glview.c</a>.</p>
 
 </div>
 </div>

@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../atomes.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">atomes<span id="projectnumber">&#160;1.1.18</span>
+   <div id="projectname">atomes<span id="projectnumber">&#160;1.2.0</span>
    </div>
    <div id="projectbrief">atomes: an atomic scale modeling tool box</div>
   </td>
@@ -181,12 +181,12 @@ $(function(){initNavTree('dd/d0b/atom__insert_8c_source.html','../../'); initRes
 </div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
 <div class="foldopen" id="foldopen00118" data-start="{" data-end="}">
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="../../d5/d9c/atom__edit_8h.html#a96dae07be1b2999e3338ced59fe4d57e">  118</a></span>G_MODULE_EXPORT <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d0b/atom__insert_8c.html#a96dae07be1b2999e3338ced59fe4d57e">set_atoms_to_insert</a> (GtkComboBox * box, gpointer data)</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="../../d5/d9c/atom__edit_8h.html#a96dae07be1b2999e3338ced59fe4d57e">  118</a></span>G_MODULE_EXPORT <span class="keywordtype">void</span> <a class="code hl_function" href="../../dd/d0b/atom__insert_8c.html#a96dae07be1b2999e3338ced59fe4d57e">set_atoms_to_insert</a> (GtkComboBox * <a class="code hl_struct" href="../../d8/dae/structbox.html">box</a>, gpointer data)</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>{</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>  GValue <a class="code hl_variable" href="../../d2/da2/dlp__atom_8c.html#a26f18cc5d2179adc30fc1a7544962178">val</a> = {0, };</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>  GtkTreeModel * cmodel = gtk_combo_box_get_model (box);</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>  GtkTreeModel * cmodel = gtk_combo_box_get_model (<a class="code hl_struct" href="../../d8/dae/structbox.html">box</a>);</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>  GtkTreeIter iter;</div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>  <span class="keywordflow">if</span> (gtk_combo_box_get_active_iter (box, &amp; iter))</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>  <span class="keywordflow">if</span> (gtk_combo_box_get_active_iter (<a class="code hl_struct" href="../../d8/dae/structbox.html">box</a>, &amp; iter))</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>  {</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>    gtk_tree_model_get_value (cmodel, &amp; iter, 0, &amp; <a class="code hl_variable" href="../../d2/da2/dlp__atom_8c.html#a26f18cc5d2179adc30fc1a7544962178">val</a>);</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    <a class="code hl_struct" href="../../df/d46/structtint.html">tint</a> * dat = (<a class="code hl_struct" href="../../df/d46/structtint.html">tint</a> *)data;</div>
@@ -195,7 +195,7 @@ $(function(){initNavTree('dd/d0b/atom__insert_8c_source.html','../../'); initRes
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    <a class="code hl_function" href="../../dd/d0b/atom__insert_8c.html#af0f12d13f3aba9ff2b7e9aec4d766355">prepare_to_instert</a> (str, this_proj, this_proj -&gt; modelgl -&gt; search_widg[dat -&gt; <a class="code hl_variable" href="../../df/df7/tab-1_8c.html#a4e1e0e72dd773439e333c84dd762a9c3">c</a>], TRUE);</div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    g_free (str);</div>
 <div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>  }</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>  gtk_combo_box_set_active (box, 0);</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>  <a class="code hl_function" href="../../d2/d49/global_8h.html#a3d7ffa98e7fb1ebfeb98c1b5a349a5be">combo_set_active</a> ((GtkWidget *)<a class="code hl_struct" href="../../d8/dae/structbox.html">box</a>, 0);</div>
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>}</div>
 </div>
 <div class="ttc" id="aatom__edit_8h_html"><div class="ttname"><a href="../../d5/d9c/atom__edit_8h.html">atom_edit.h</a></div><div class="ttdoc">Function declarations for the mode edition window.</div></div>
@@ -208,13 +208,15 @@ $(function(){initNavTree('dd/d0b/atom__insert_8c_source.html','../../'); initRes
 <div class="ttc" id="ad__selection_8c_html_ad6df57fb6986d0c0a7f1410e31dadd42"><div class="ttname"><a href="../../d9/d09/d__selection_8c.html#ad6df57fb6986d0c0a7f1410e31dadd42">bonds</a></div><div class="ttdeci">int bonds[NUM_STYLES][2]</div><div class="ttdef"><b>Definition</b> <a href="../../d9/d09/d__selection_8c_source.html#l00362">d_selection.c:362</a></div></div>
 <div class="ttc" id="adlp__atom_8c_html_a26f18cc5d2179adc30fc1a7544962178"><div class="ttname"><a href="../../d2/da2/dlp__atom_8c.html#a26f18cc5d2179adc30fc1a7544962178">val</a></div><div class="ttdeci">float val</div><div class="ttdef"><b>Definition</b> <a href="../../d6/d78/dlp__init_8c_source.html#l00117">dlp_init.c:117</a></div></div>
 <div class="ttc" id="aglobal_8c_html_aaf3f2fd944639e6fb28457da820d2d04"><div class="ttname"><a href="../../dc/d57/global_8c.html#aaf3f2fd944639e6fb28457da820d2d04">allocint</a></div><div class="ttdeci">int * allocint(int val)</div><div class="ttdoc">allocate an int * pointer</div><div class="ttdef"><b>Definition</b> <a href="../../dc/d57/global_8c_source.html#l00314">global.c:314</a></div></div>
+<div class="ttc" id="aglobal_8h_html_a3d7ffa98e7fb1ebfeb98c1b5a349a5be"><div class="ttname"><a href="../../d2/d49/global_8h.html#a3d7ffa98e7fb1ebfeb98c1b5a349a5be">combo_set_active</a></div><div class="ttdeci">void combo_set_active(GtkWidget *combo, int pos)</div><div class="ttdoc">set the active item's position</div><div class="ttdef"><b>Definition</b> <a href="../../d8/d90/gtk-misc_8c_source.html#l00932">gtk-misc.c:932</a></div></div>
 <div class="ttc" id="aglobal_8h_html_afca2a6fe8d079454395e7dd74bdefc11"><div class="ttname"><a href="../../d2/d49/global_8h.html#afca2a6fe8d079454395e7dd74bdefc11">get_project_by_id</a></div><div class="ttdeci">project * get_project_by_id(int p)</div><div class="ttdoc">get project pointer using id number</div><div class="ttdef"><b>Definition</b> <a href="../../d2/d0d/project_8c_source.html#l00120">project.c:120</a></div></div>
 <div class="ttc" id="aglwin_8h_html_a3f96db92f7075f07bfe19dceca76217eabeb95f4c5b71398271dcf300024100c9"><div class="ttname"><a href="../../da/d7e/glwin_8h.html#a3f96db92f7075f07bfe19dceca76217eabeb95f4c5b71398271dcf300024100c9">FROM_PROJECT</a></div><div class="ttdeci">@ FROM_PROJECT</div><div class="ttdef"><b>Definition</b> <a href="../../da/d7e/glwin_8h_source.html#l00082">glwin.h:81</a></div></div>
 <div class="ttc" id="aglwin_8h_html_a3f96db92f7075f07bfe19dceca76217eae83518546087d7a6c9f4e03d1c9f4b51"><div class="ttname"><a href="../../da/d7e/glwin_8h.html#a3f96db92f7075f07bfe19dceca76217eae83518546087d7a6c9f4e03d1c9f4b51">FROM_DATA</a></div><div class="ttdeci">@ FROM_DATA</div><div class="ttdef"><b>Definition</b> <a href="../../da/d7e/glwin_8h_source.html#l00074">glwin.h:74</a></div></div>
-<div class="ttc" id="astructatom__search_html"><div class="ttname"><a href="../../d8/d59/structatom__search.html">atom_search</a></div><div class="ttdef"><b>Definition</b> <a href="../../da/d7e/glwin_8h_source.html#l00493">glwin.h:494</a></div></div>
-<div class="ttc" id="astructatomic__object_html"><div class="ttname"><a href="../../d0/de8/structatomic__object.html">atomic_object</a></div><div class="ttdef"><b>Definition</b> <a href="../../da/d7e/glwin_8h_source.html#l00565">glwin.h:566</a></div></div>
-<div class="ttc" id="astructproject_html"><div class="ttname"><a href="../../dd/dbe/structproject.html">project</a></div><div class="ttdef"><b>Definition</b> <a href="../../d2/d49/global_8h_source.html#l00934">global.h:935</a></div></div>
-<div class="ttc" id="astructtint_html"><div class="ttname"><a href="../../df/d46/structtint.html">tint</a></div><div class="ttdef"><b>Definition</b> <a href="../../d2/d49/global_8h_source.html#l00103">global.h:104</a></div></div>
+<div class="ttc" id="astructatom__search_html"><div class="ttname"><a href="../../d8/d59/structatom__search.html">atom_search</a></div><div class="ttdef"><b>Definition</b> <a href="../../da/d7e/glwin_8h_source.html#l00530">glwin.h:531</a></div></div>
+<div class="ttc" id="astructatomic__object_html"><div class="ttname"><a href="../../d0/de8/structatomic__object.html">atomic_object</a></div><div class="ttdef"><b>Definition</b> <a href="../../da/d7e/glwin_8h_source.html#l00602">glwin.h:603</a></div></div>
+<div class="ttc" id="astructbox_html"><div class="ttname"><a href="../../d8/dae/structbox.html">box</a></div><div class="ttdef"><b>Definition</b> <a href="../../da/d7e/glwin_8h_source.html#l00350">glwin.h:351</a></div></div>
+<div class="ttc" id="astructproject_html"><div class="ttname"><a href="../../dd/dbe/structproject.html">project</a></div><div class="ttdef"><b>Definition</b> <a href="../../d2/d49/global_8h_source.html#l00941">global.h:942</a></div></div>
+<div class="ttc" id="astructtint_html"><div class="ttname"><a href="../../df/d46/structtint.html">tint</a></div><div class="ttdef"><b>Definition</b> <a href="../../d2/d49/global_8h_source.html#l00105">global.h:106</a></div></div>
 <div class="ttc" id="atab-1_8c_html_a4e1e0e72dd773439e333c84dd762a9c3"><div class="ttname"><a href="../../df/df7/tab-1_8c.html#a4e1e0e72dd773439e333c84dd762a9c3">c</a></div><div class="ttdeci">int c</div><div class="ttdef"><b>Definition</b> <a href="../../df/df7/tab-1_8c_source.html#l00095">tab-1.c:95</a></div></div>
 <div class="ttc" id="atab-1_8c_html_aa4c2a5552e9bc49b1816ff532f558c74"><div class="ttname"><a href="../../df/df7/tab-1_8c.html#aa4c2a5552e9bc49b1816ff532f558c74">a</a></div><div class="ttdeci">int a</div><div class="ttdef"><b>Definition</b> <a href="../../df/df7/tab-1_8c_source.html#l00095">tab-1.c:95</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

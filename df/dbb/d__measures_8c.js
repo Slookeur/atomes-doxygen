@@ -15,7 +15,7 @@ var d__measures_8c =
     [ "num_angles", "df/dbb/d__measures_8c.html#a9f9c174b2b52cd5d1073b6560c1dc649", null ],
     [ "num_bonds", "df/dbb/d__measures_8c.html#a217a0b553ba8c460e7d5d251738016f3", null ],
     [ "num_dihedrals", "df/dbb/d__measures_8c.html#a67589644451994ac2eb22ce3ba207444", null ],
-    [ "prepare_measure_shaders", "df/dbb/d__measures_8c.html#a98959f4db0149ca94bd90b3d2f3afdbe", null ],
+    [ "prepare_measure_shaders", "df/dbb/d__measures_8c.html#a133fa3704c4d4eaa21f50edf706a494c", null ],
     [ "set_measure_color", "df/dbb/d__measures_8c.html#a1836b9e407aac02ae3c4de64e8eb3d49", null ],
     [ "setup_line_vertice", "df/dbb/d__measures_8c.html#abdbd03199c9e0e4e38a33dcde71a3199", null ],
     [ "setup_this_measured_angle", "df/dbb/d__measures_8c.html#a0b5b6d26c92e2f76466e27a7314cc3ab", null ],

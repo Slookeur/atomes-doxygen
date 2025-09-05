@@ -12,8 +12,8 @@
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title="Functions to create the axis parameters edition window.">
-<polygon fill="#999999" stroke="#666666" points="878.88,-188 774.38,-188 774.38,-168 878.88,-168 878.88,-188"/>
-<text text-anchor="middle" x="826.62" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">opengl/win/w_axis.c</text>
+<polygon fill="#999999" stroke="#666666" points="916.88,-188 812.38,-188 812.38,-168 916.88,-168 916.88,-188"/>
+<text text-anchor="middle" x="864.62" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">opengl/win/w_axis.c</text>
 </a>
 </g>
 </g>
@@ -30,8 +30,8 @@
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M807.29,-167.59C790.21,-159.28 765.02,-147.03 745.37,-137.47"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="747,-134.37 736.47,-133.14 743.93,-140.66 747,-134.37"/>
+<path fill="none" stroke="#63b8ff" d="M838.67,-167.59C814.49,-158.83 778.22,-145.68 751.32,-135.93"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="752.8,-132.75 742.21,-132.63 750.42,-139.33 752.8,-132.75"/>
 </a>
 </g>
 </g>
@@ -48,8 +48,8 @@
 <g id="edge26_Node000001_Node000025" class="edge">
 <title>Node1&#45;&gt;Node25</title>
 <g id="a_edge26_Node000001_Node000025"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M820.18,-167.59C815.3,-160.47 808.43,-150.45 802.45,-141.72"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="805.39,-139.82 796.85,-133.55 799.62,-143.77 805.39,-139.82"/>
+<path fill="none" stroke="#63b8ff" d="M851.56,-167.59C840.66,-159.74 824.87,-148.38 811.97,-139.09"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="814.18,-136.37 804.02,-133.36 810.09,-142.05 814.18,-136.37"/>
 </a>
 </g>
 </g>
@@ -66,8 +66,8 @@
 <g id="edge27_Node000001_Node000026" class="edge">
 <title>Node1&#45;&gt;Node26</title>
 <g id="a_edge27_Node000001_Node000026"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M833.24,-167.59C838.31,-160.39 845.46,-150.23 851.65,-141.43"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="854.32,-143.73 857.21,-133.54 848.59,-139.7 854.32,-143.73"/>
+<path fill="none" stroke="#63b8ff" d="M864.62,-167.59C864.62,-161.01 864.62,-151.96 864.62,-143.73"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="868.13,-143.81 864.63,-133.81 861.13,-143.81 868.13,-143.81"/>
 </a>
 </g>
 </g>
@@ -84,8 +84,26 @@
 <g id="edge28_Node000001_Node000027" class="edge">
 <title>Node1&#45;&gt;Node27</title>
 <g id="a_edge28_Node000001_Node000027"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M846.48,-167.59C864.11,-159.24 890.13,-146.92 910.35,-137.34"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="911.71,-140.57 919.24,-133.13 908.71,-134.25 911.71,-140.57"/>
+<path fill="none" stroke="#63b8ff" d="M877.86,-167.59C888.91,-159.74 904.91,-148.38 917.98,-139.09"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="919.93,-142 926.05,-133.36 915.87,-136.3 919.93,-142"/>
+</a>
+</g>
+</g>
+<!-- Node28 -->
+<g id="Node000028" class="node">
+<title>Node28</title>
+<g id="a_Node000028"><a xlink:href="../../dd/d7d/preferences_8h.html" target="_top" xlink:title="Preference variable declarations.">
+<polygon fill="white" stroke="#666666" points="1066.25,-132 991,-132 991,-112 1066.25,-112 1066.25,-132"/>
+<text text-anchor="middle" x="1028.62" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00">preferences.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node28 -->
+<g id="edge29_Node000001_Node000028" class="edge">
+<title>Node1&#45;&gt;Node28</title>
+<g id="a_edge29_Node000001_Node000028"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M893.19,-167.59C919.72,-158.86 959.46,-145.77 989.04,-136.03"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="989.99,-139.4 998.4,-132.95 987.8,-132.76 989.99,-139.4"/>
 </a>
 </g>
 </g>

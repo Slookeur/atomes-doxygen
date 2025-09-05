@@ -59,8 +59,8 @@ var sectionId = 'dynsection-0';
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title="GTK3/GTK4 utility subroutines, instead of having pre&#45;processor flags everywhere in the code....">
-<polygon fill="#999999" stroke="#666666" points="791.38,-188 713.88,-188 713.88,-168 791.38,-168 791.38,-188"/>
-<text text-anchor="middle" x="752.62" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">gui/gtk&#45;misc.c</text>
+<polygon fill="#999999" stroke="#666666" points="871.38,-188 793.88,-188 793.88,-168 871.38,-168 871.38,-188"/>
+<text text-anchor="middle" x="832.62" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">gui/gtk&#45;misc.c</text>
 </a>
 </g>
 </g>
@@ -77,8 +77,8 @@ var sectionId = 'dynsection-0';
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M746.18,-167.59C741.3,-160.47 734.43,-150.45 728.45,-141.72"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="731.39,-139.82 722.85,-133.55 725.62,-143.77 731.39,-139.82"/>
+<path fill="none" stroke="#63b8ff" d="M812.25,-167.59C794.07,-159.21 767.2,-146.8 746.41,-137.21"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="748.08,-134.13 737.54,-133.11 745.15,-140.48 748.08,-134.13"/>
 </a>
 </g>
 </g>
@@ -95,8 +95,44 @@ var sectionId = 'dynsection-0';
 <g id="edge26_Node000001_Node000025" class="edge">
 <title>Node1&#45;&gt;Node25</title>
 <g id="a_edge26_Node000001_Node000025"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M759.07,-167.59C763.95,-160.47 770.82,-150.45 776.8,-141.72"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="779.63,-143.77 782.4,-133.55 773.86,-139.82 779.63,-143.77"/>
+<path fill="none" stroke="#63b8ff" d="M825.13,-167.59C819.34,-160.32 811.14,-150.02 804.08,-141.15"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="806.94,-139.12 797.97,-133.48 801.46,-143.49 806.94,-139.12"/>
+</a>
+</g>
+</g>
+<!-- Node26 -->
+<g id="Node000026" class="node">
+<title>Node26</title>
+<g id="a_Node000026"><a xlink:href="../../dd/d7d/preferences_8h.html" target="_top" xlink:title="Preference variable declarations.">
+<polygon fill="white" stroke="#666666" points="914.25,-132 839,-132 839,-112 914.25,-112 914.25,-132"/>
+<text text-anchor="middle" x="876.62" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00">preferences.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node26 -->
+<g id="edge27_Node000001_Node000026" class="edge">
+<title>Node1&#45;&gt;Node26</title>
+<g id="a_edge27_Node000001_Node000026"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M840.29,-167.59C846.22,-160.32 854.61,-150.02 861.84,-141.15"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="864.49,-143.43 868.09,-133.47 859.06,-139.01 864.49,-143.43"/>
+</a>
+</g>
+</g>
+<!-- Node27 -->
+<g id="Node000027" class="node">
+<title>Node27</title>
+<g id="a_Node000027"><a xlink:href="../../dc/de3/glview_8h.html" target="_top" xlink:title="Variable declarations related to the OpenGL window &#160;&#160;Function declarations related to the OpenGL wind...">
+<polygon fill="white" stroke="#666666" points="983.25,-132 932,-132 932,-112 983.25,-112 983.25,-132"/>
+<text text-anchor="middle" x="957.62" y="-118.5" font-family="Helvetica,sans-Serif" font-size="10.00">glview.h</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node27 -->
+<g id="edge28_Node000001_Node000027" class="edge">
+<title>Node1&#45;&gt;Node27</title>
+<g id="a_edge28_Node000001_Node000027"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M854.4,-167.59C873.99,-159.13 903.05,-146.58 925.35,-136.94"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="926.5,-140.26 934.29,-133.08 923.72,-133.83 926.5,-140.26"/>
 </a>
 </g>
 </g>
