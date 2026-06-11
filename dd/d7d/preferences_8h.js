@@ -46,6 +46,10 @@ var preferences_8h =
     [ "default_ring_param", "dd/d7d/preferences_8h.html#a9615fb43742c91cdc2a89af5ebb71aca", null ],
     [ "default_rsparam", "dd/d7d/preferences_8h.html#a93d03af51e8dffabf0f5c51b7db8758b", null ],
     [ "default_sel_color", "dd/d7d/preferences_8h.html#a31a6188e342d6a7c57905f183ce499b0", null ],
+    [ "default_skt_n_sets", "dd/d7d/preferences_8h.html#a11fab6077a31e30031222e2126664e99", null ],
+    [ "default_skt_sets", "dd/d7d/preferences_8h.html#aba529b7606b1e5cc627e6030a4e725e7", null ],
+    [ "default_sqw_freq", "dd/d7d/preferences_8h.html#aad7a21475461bb05880d846bf1cb10e5", null ],
+    [ "default_sqw_n_sets", "dd/d7d/preferences_8h.html#a6ca19cde9b10f5cdda179100df18ec1f", null ],
     [ "default_totcut", "dd/d7d/preferences_8h.html#aa31077ea81b944f31d92562bf7d75384", null ],
     [ "pref_axis_win", "dd/d7d/preferences_8h.html#a0d2b3d75fc2b2a02b5e6cd19a53d2174", null ],
     [ "pref_box_win", "dd/d7d/preferences_8h.html#a4594847fc5aaad0d6898c1544a56383b", null ],
@@ -62,6 +66,7 @@ var preferences_8h =
     [ "tmp_bond_rad", "dd/d7d/preferences_8h.html#a5a93071bfc70263306f8c8f545961c36", null ],
     [ "tmp_box", "dd/d7d/preferences_8h.html#a5e5fc04784107a4645df518c14b43328", null ],
     [ "tmp_csparam", "dd/d7d/preferences_8h.html#a1a4cd1ca80e52fa54b10cd6df196a6b9", null ],
+    [ "tmp_delta_t", "dd/d7d/preferences_8h.html#ac53153e94d62d6cd1b461d1a94e8d8b2", null ],
     [ "tmp_fog", "dd/d7d/preferences_8h.html#afd0ce6c066c79f3de92d06832a02aa0c", null ],
     [ "tmp_label", "dd/d7d/preferences_8h.html#ab1f483b7a860e4d819de8a91882c258c", null ],
     [ "tmp_lightning", "dd/d7d/preferences_8h.html#aa115fd30603e179dc7263edc786e4ada", null ],
@@ -74,5 +79,9 @@ var preferences_8h =
     [ "tmp_opengl", "dd/d7d/preferences_8h.html#a7156577fa91fea062b5d80caef684bd2", null ],
     [ "tmp_rep", "dd/d7d/preferences_8h.html#ae83b082e02c4c121ad8bc2eabf629773", null ],
     [ "tmp_rsparam", "dd/d7d/preferences_8h.html#a1aa9c6007c485ce6986bea7aab25c7de", null ],
+    [ "tmp_skt_n_sets", "dd/d7d/preferences_8h.html#a76e6b408b62ccf3a7bc9816385cf3838", null ],
+    [ "tmp_skt_sets", "dd/d7d/preferences_8h.html#a60b335ff50052c545b502ba6e620aa59", null ],
+    [ "tmp_sqw_freq", "dd/d7d/preferences_8h.html#a84ebc63d4a7791c1826d76fe81d5c30d", null ],
+    [ "tmp_sqw_n_sets", "dd/d7d/preferences_8h.html#ac3ece4b2796ee3c86a925d1b20930967", null ],
     [ "tmp_totcut", "dd/d7d/preferences_8h.html#aebab774f6ec8698975f9aae73ca93f1f", null ]
 ];

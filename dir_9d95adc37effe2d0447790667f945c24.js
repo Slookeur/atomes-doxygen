@@ -32,6 +32,7 @@ var dir_9d95adc37effe2d0447790667f945c24 =
     [ "rings-primitive.F90", "d6/dee/rings-primitive_8_f90.html", "d6/dee/rings-primitive_8_f90" ],
     [ "rings_ogl.F90", "d1/d57/rings__ogl_8_f90.html", "d1/d57/rings__ogl_8_f90" ],
     [ "sk.F90", "dc/d0b/sk_8_f90.html", "dc/d0b/sk_8_f90" ],
+    [ "skt.F90", "de/d8c/skt_8_f90.html", "de/d8c/skt_8_f90" ],
     [ "spherical.F90", "db/ded/spherical_8_f90.html", "db/ded/spherical_8_f90" ],
     [ "sq.F90", "d3/db7/sq_8_f90.html", "d3/db7/sq_8_f90" ],
     [ "threads.F90", "d1/d46/threads_8_f90.html", "d1/d46/threads_8_f90" ],

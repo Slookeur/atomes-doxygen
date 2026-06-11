@@ -1,6 +1,7 @@
 var w__encode_8c =
 [
-    [ "clean_animation", "da/daf/w__encode_8c.html#a711a7e1f84e8fe57df611eb4a43acf86", null ],
+    [ "clean_animation", "da/daf/w__encode_8c.html#af73ab07202402f51f782233fd9e0e554", null ],
+    [ "clean_image", "da/daf/w__encode_8c.html#a3a9106c88b2d6d6951b84d6a1df8ae94", null ],
     [ "run_window_encode", "da/daf/w__encode_8c.html#a4089a79ef3aab50924e6542d15f587b2", null ],
     [ "set_encoding_widget_sensitivity", "da/daf/w__encode_8c.html#a12e1451f2b33d19f4a80ba733714a39f", null ],
     [ "set_image_format", "da/daf/w__encode_8c.html#af0dbe2af61347d9a40620ce17afc381e", null ],

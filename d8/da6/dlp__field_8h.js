@@ -138,6 +138,7 @@ var dlp__field_8h =
     [ "create_force_field_data_structure", "d8/da6/dlp__field_8h.html#aa84b43503dcd2fd971147eb841ebdbf4", null ],
     [ "dihedral_3d", "d8/da6/dlp__field_8h.html#a07fbbd6884ce20e47f903aeb22de8ad5", null ],
     [ "distance_3d", "d8/da6/dlp__field_8h.html#afd8a7c5f9ed16c77e8443f901ae623c8", null ],
+    [ "dlp_to_translate", "d8/da6/dlp__field_8h.html#ada5647cbcc67af26aa9c66d5636a7551", null ],
     [ "duplicate_bool", "d8/da6/dlp__field_8h.html#aa916260310c748eaed9da34dee7c4f68", null ],
     [ "duplicate_dlpoly_field", "d8/da6/dlp__field_8h.html#a5c4275dc16ba0389ac27269d8fbe2585", null ],
     [ "duplicate_field_atom", "d8/da6/dlp__field_8h.html#adc06a514fe60e5ad7ccec55aa02b0303", null ],

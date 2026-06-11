@@ -19,6 +19,7 @@ var interface_8c =
     [ "send_chem_info_", "dd/dda/interface_8c.html#aa9e14549518e8fb794e86257802b8743", null ],
     [ "show_error", "dd/dda/interface_8c.html#a838f60b2c4427617a6725069b89b7e65", null ],
     [ "show_error_", "dd/dda/interface_8c.html#ac5f1e1a42c64fd1c331443f00a3b1721", null ],
+    [ "show_error_with_trace", "dd/dda/interface_8c.html#acb7292b4d6781107e5846849aef50c83", null ],
     [ "show_info", "dd/dda/interface_8c.html#a66debdebd9bea98c129d3105f8b686dc", null ],
     [ "show_pop", "dd/dda/interface_8c.html#ae30229605775aeb91c74361b30e55689", null ],
     [ "show_warning", "dd/dda/interface_8c.html#a394c7830bb6dacf780e70845a58d13db", null ],

@@ -50,7 +50,7 @@ var cpmd__nose_8c =
     [ "was_it_selected", "d6/dc0/cpmd__nose_8c.html#a0ad7c0d3df1836ecf94d55a322ad8520", null ],
     [ "add_model", "d6/dc0/cpmd__nose_8c.html#aa9aa506b26debf88bfeafb11363afec2", null ],
     [ "at_col", "d6/dc0/cpmd__nose_8c.html#ad55b2180efe297ffb786b63b82c6e02a", null ],
-    [ "c_thermo", "d6/dc0/cpmd__nose_8c.html#acd728ef92267dd025845b162da4e0f3a", null ],
+    [ "c_thermo", "d6/dc0/cpmd__nose_8c.html#a04792dfd5934b4da1ad6ce08c49c819b", null ],
     [ "combo_id", "d6/dc0/cpmd__nose_8c.html#a93f3a1d8bd6c2aa4a6c06551c06f0712", null ],
     [ "combo_id_box", "d6/dc0/cpmd__nose_8c.html#a85f99430a2d8aefbfd5b96ce7454c0d9", null ],
     [ "d_thermo", "d6/dc0/cpmd__nose_8c.html#a1c8eba2ba65fcdc00bcc956e93f462eb", null ],
@@ -71,7 +71,7 @@ var cpmd__nose_8c =
     [ "therm_param_ions", "d6/dc0/cpmd__nose_8c.html#a37f3fef3164465c29e7cfea1e7d9bb5a", null ],
     [ "thermo_col", "d6/dc0/cpmd__nose_8c.html#a19020d08563aab9810e1c7926fca8972", null ],
     [ "thermo_renderer", "d6/dc0/cpmd__nose_8c.html#a967d0066516d5476a7ae48fda43c5703", null ],
-    [ "u_thermo", "d6/dc0/cpmd__nose_8c.html#a9504f1cf8e6df28584b574174d04f6f5", null ],
-    [ "ue_thermo", "d6/dc0/cpmd__nose_8c.html#ad38d5d213061e31ac2a1e18d42ba114b", null ],
+    [ "u_thermo", "d6/dc0/cpmd__nose_8c.html#ad626b6cbeae37073ad35ec624c65a04a", null ],
+    [ "ue_thermo", "d6/dc0/cpmd__nose_8c.html#afab0536c499c5df20c1599eeb2b0cae8", null ],
     [ "v_thermo", "d6/dc0/cpmd__nose_8c.html#a57a4598233d56da472e592d8663c5524", null ]
 ];

@@ -1,5 +1,5 @@
 var title_8c =
 [
-    [ "default_title", "d9/d0e/title_8c.html#a3e713dd7e86739b2c1dfdca9ecb654c2", null ],
-    [ "show_title", "d9/d0e/title_8c.html#a6ab46ad46ef9ad7926ab50b83299c009", null ]
+    [ "default_title", "d9/d0e/title_8c.html#a9fb3b8a9828c4d5c2af792aea2b234e2", null ],
+    [ "show_title", "d9/d0e/title_8c.html#a3060c028d679b96568a42d9dfc32dd96", null ]
 ];

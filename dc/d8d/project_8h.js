@@ -41,12 +41,16 @@ var project_8h =
     [ "save_mol", "dc/d8d/project_8h.html#aa682d13b9b606f53d1dacc5cfa9dab76", null ],
     [ "save_opengl_image", "dc/d8d/project_8h.html#a6d9a83679cd74b69aec7a0451177bf7f", null ],
     [ "save_project", "dc/d8d/project_8h.html#a0c4e23b382c648010dff1448568c60d0", null ],
-    [ "save_project_curve", "dc/d8d/project_8h.html#a6d0622982ef09acfe3169246cbb50bb1", null ],
+    [ "save_project_curve", "dc/d8d/project_8h.html#a79e736f4d285e45391af9894c062f80a", null ],
     [ "save_this_string", "dc/d8d/project_8h.html#a5dc5f5fe53523d4b7992912ede7a6a6f", null ],
     [ "set_color_map", "dc/d8d/project_8h.html#ad85bfebc7b8b7fb875889601db74a93d", null ],
     [ "setup_custom_color_map", "dc/d8d/project_8h.html#a79d4000837da93d0504e045d75a580ba", null ],
     [ "to_close_this_project", "dc/d8d/project_8h.html#a98340259de51bd48a62cfd3a2d9de021", null ],
+    [ "update_analysis_availability", "dc/d8d/project_8h.html#a481e0018b4317cf3dd1488cb800d8716", null ],
     [ "update_insert_combos", "dc/d8d/project_8h.html#a554b86a4d138822bfa0b97039713061b", null ],
     [ "update_project", "dc/d8d/project_8h.html#aa8ec34827d4f41bdc8e12bd7f9cdb955", null ],
-    [ "view_buffer", "dc/d8d/project_8h.html#ab1abe54ce83ba2d5cb17213815feae5a", null ]
+    [ "view_buffer", "dc/d8d/project_8h.html#ab1abe54ce83ba2d5cb17213815feae5a", null ],
+    [ "project_error", "dc/d8d/project_8h.html#a9e3af03fd01b3ed1a1ab72b26028369e", null ],
+    [ "project_file_version", "dc/d8d/project_8h.html#a3201962389565be9e5a479f82ef1b3c4", null ],
+    [ "reading_project", "dc/d8d/project_8h.html#a9a36b309c6362dddc748dd4048fa33c7", null ]
 ];

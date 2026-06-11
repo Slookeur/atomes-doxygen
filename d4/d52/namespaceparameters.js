@@ -1,10 +1,10 @@
 var namespaceparameters =
 [
     [ "at", "df/d6d/structparameters_1_1at.html", "df/d6d/structparameters_1_1at" ],
-    [ "lattice", "dc/d57/structparameters_1_1lattice.html", "dc/d57/structparameters_1_1lattice" ],
     [ "mol", "d9/d3d/structparameters_1_1mol.html", "d9/d3d/structparameters_1_1mol" ],
-    [ "pixel", "da/db3/structparameters_1_1pixel.html", "da/db3/structparameters_1_1pixel" ],
     [ "ring", "d4/da3/structparameters_1_1ring.html", "d4/da3/structparameters_1_1ring" ],
+    [ "pixel", "da/db3/structparameters_1_1pixel.html", "da/db3/structparameters_1_1pixel" ],
+    [ "lattice", "dc/d57/structparameters_1_1lattice.html", "dc/d57/structparameters_1_1lattice" ],
     [ "a1", "d4/d52/namespaceparameters.html#acf7012040f36076678220a29b1e0c401", null ],
     [ "a2", "d4/d52/namespaceparameters.html#a09a816471715eafc5feba35c2dd0ae92", null ],
     [ "aaaa", "d4/d52/namespaceparameters.html#ac82ef26745d2f4d9c8c23fe76648b7fb", null ],
@@ -170,6 +170,7 @@ var namespaceparameters =
     [ "idr", "d4/d52/namespaceparameters.html#a8a7a415f1164484269d0b58174a1cd02", null ],
     [ "idri", "d4/d52/namespaceparameters.html#ab8e107251ea269f89ece941bcf15e9cd", null ],
     [ "idsk", "d4/d52/namespaceparameters.html#a4d5aa3141707a27c7d92cd920af9be89", null ],
+    [ "idskt", "d4/d52/namespaceparameters.html#a8169e5504ffbe14e6c586a179e0bee1e", null ],
     [ "idsp", "d4/d52/namespaceparameters.html#a6335172965bd23e588f917bd4a9897ed", null ],
     [ "idsq", "d4/d52/namespaceparameters.html#a9e80bfd1f900eebdf3b3046f3dc60b5d", null ],
     [ "indexmsf", "d4/d52/namespaceparameters.html#a9d3a52b4260301d56492553bee0ef0ac", null ],

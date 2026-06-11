@@ -6,7 +6,7 @@ var searchData=
   ['cancel_3',['CANCEL',['../d2/d49/global_8h.html#aa498dfb3e15bd0b6ad9ef32a24990e8c',1,'global.h']]],
   ['caps_5fbuff_5fsize_4',['CAPS_BUFF_SIZE',['../d5/d9e/ogl__shading_8h.html#a4ecce344aeabc20a65d5d8f38c27a841',1,'ogl_shading.h']]],
   ['cff91_5',['CFF91',['../d8/da6/dlp__field_8h.html#a23db6fa8af9758f3b2778f5004fe1f59',1,'dlp_field.h']]],
-  ['ch_6',['CH',['../d2/d49/global_8h.html#af6dab4edf4abb4b312e0680cd04a498c',1,'global.h']]],
+  ['cha_6',['CHA',['../d2/d49/global_8h.html#a98915660c262f91e514b8ca742bc5429',1,'global.h']]],
   ['char_5fbuff_5fsize_7',['CHAR_BUFF_SIZE',['../d5/d9e/ogl__shading_8h.html#a859bfcb2c0fedfbbf6709d953ca0487a',1,'ogl_shading.h']]],
   ['charmm22m_8',['CHARMM22M',['../d8/da6/dlp__field_8h.html#ad34f52c3f077418205a5166cf554953a',1,'dlp_field.h']]],
   ['charmm22p_9',['CHARMM22P',['../d8/da6/dlp__field_8h.html#a35861a9f015b4165c9d778efa14a8f05',1,'dlp_field.h']]],

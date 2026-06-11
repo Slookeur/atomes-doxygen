@@ -9,5 +9,6 @@ var searchData=
   ['spheres_6',['SPHERES',['../dc/de3/glview_8h.html#af9b2893fecdcf7abd8d3a7e340ff963da152d42c7efeefb0a3b6b9f917b059bf9',1,'glview.h']]],
   ['spin_7',['SPIN',['../dc/de3/glview_8h.html#a2f4ab7bf743142dae2e459aa18f9f1d4aff90dd57cb3f18cd7c2abc17a188a5b7',1,'glview.h']]],
   ['symbol_8',['SYMBOL',['../dc/de3/glview_8h.html#abc325fc13d4194905c1786e24ee447f0ae3d30ffaffa3c06ed917e565dda1fbc5',1,'glview.h']]],
-  ['symbol_5fand_5fnum_9',['SYMBOL_AND_NUM',['../dc/de3/glview_8h.html#abc325fc13d4194905c1786e24ee447f0a22a5c925326f862a601f262b64a796b7',1,'glview.h']]]
+  ['symbol_5fand_5find_9',['SYMBOL_AND_IND',['../dc/de3/glview_8h.html#abc325fc13d4194905c1786e24ee447f0a987f48c0cc6494afd22fa1108013c0d2',1,'glview.h']]],
+  ['symbol_5fand_5fnum_10',['SYMBOL_AND_NUM',['../dc/de3/glview_8h.html#abc325fc13d4194905c1786e24ee447f0a22a5c925326f862a601f262b64a796b7',1,'glview.h']]]
 ];

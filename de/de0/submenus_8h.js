@@ -18,8 +18,6 @@ var submenus_8h =
     [ "menu_map", "de/de0/submenus_8h.html#ac1cff6fe21b2ad736b504c92a4847a79", null ],
     [ "menu_poly", "de/de0/submenus_8h.html#a9a8a0f471f9d9c6742695f15be9ad8d9", null ],
     [ "menu_proj", "de/de0/submenus_8h.html#a9f5481c0017d6b1337c40816dcc2d20d", null ],
-    [ "menu_quality", "de/de0/submenus_8h.html#a35d678e7603553f7e12a5e2fb7f89be2", null ],
-    [ "menu_render", "de/de0/submenus_8h.html#af736bedcef60caabe5df8f446f9872b1", null ],
     [ "menu_rep", "de/de0/submenus_8h.html#a9f92365c58fd8ae7136b82591c01f4cb", null ],
     [ "menu_reset", "de/de0/submenus_8h.html#a6c2b63ba5a2a65f727a6a7da0031a511", null ],
     [ "menu_rings", "de/de0/submenus_8h.html#a4c315a74f350e9a745db077bafa0d9e8", null ],

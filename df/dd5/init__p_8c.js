@@ -1,11 +1,12 @@
 var init__p_8c =
 [
-    [ "apply_default_parameters_to_project", "df/dd5/init__p_8c.html#a4d96eb3fa4d697c62188f903dc16396a", null ],
+    [ "apply_analysis_default_parameters_to_project", "df/dd5/init__p_8c.html#a8a979a58021829c9507e8086b2b9ea1f", null ],
+    [ "apply_default_parameters_to_project", "df/dd5/init__p_8c.html#a83eadbf49a26545e7f991fc8ec8637f7", null ],
     [ "axis_advanced", "df/dd5/init__p_8c.html#a83e3ec9f686447e209242aa44202de4a", null ],
     [ "box_advanced", "df/dd5/init__p_8c.html#ac7ed0e8f0d08aa887df7d732420b3cfd", null ],
     [ "clean_atom_style", "df/dd5/init__p_8c.html#a6b64f1cc7cc07ab10b28297bae4b0cbf", null ],
     [ "gradient_advanced", "df/dd5/init__p_8c.html#a5ff32216b2d6bd66afbe398729a35c4d", null ],
-    [ "init_camera", "df/dd5/init__p_8c.html#a9ae71e9dcbb406f49391c0c21189ecc2", null ],
+    [ "init_camera", "df/dd5/init__p_8c.html#a5d1efe393c98c04531413b8931db5973", null ],
     [ "init_curves_and_calc", "df/dd5/init__p_8c.html#a4c1f632b6bf34870ee5853fc8832b416", null ],
     [ "init_project", "df/dd5/init__p_8c.html#af461e61518f6c609a8ce459eb951168d", null ],
     [ "init_shaders", "df/dd5/init__p_8c.html#a518e267d3783b74d30ab6eaf44f6abfb", null ],

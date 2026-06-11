@@ -1,5 +1,6 @@
 var bdcall_8c =
 [
+    [ "cargill_spaepen_out_", "d5/d34/bdcall_8c.html#a2135b49e723e24f36d6dc3bdb13e2d5a", null ],
     [ "clean_coord_window", "d5/d34/bdcall_8c.html#a1de95d38c0eab4905ffc53e06ed5ea16", null ],
     [ "coordination_info", "d5/d34/bdcall_8c.html#a7f779dd6b7c83b0470b89a1a985d0981", null ],
     [ "coordout_", "d5/d34/bdcall_8c.html#a18ff50fb328a17641722471fbaee83f6", null ],
@@ -7,8 +8,8 @@ var bdcall_8c =
     [ "env_info", "d5/d34/bdcall_8c.html#adb26ebdc902fb23fb280aaefebdf20a7", null ],
     [ "envout_", "d5/d34/bdcall_8c.html#aac06bcc58860a89899c25c3b05387fa4", null ],
     [ "get_cutoff", "d5/d34/bdcall_8c.html#a0a3d5d82e0d2fccfeeda193b8e5bb26a", null ],
-    [ "initang", "d5/d34/bdcall_8c.html#a273cfd6b771d21948b6120c72dc525ec", null ],
-    [ "initbd", "d5/d34/bdcall_8c.html#abb426625d20a0461d4ec92209e2fbeb1", null ],
+    [ "init_ang", "d5/d34/bdcall_8c.html#a1a1964278eee712787a8bb778006304a", null ],
+    [ "init_bond", "d5/d34/bdcall_8c.html#ac160756b96de5b979826f9e3efb37a6a", null ],
     [ "initcutoffs", "d5/d34/bdcall_8c.html#af058523ea67c66970a5904303cf6798f", null ],
     [ "on_calc_bonds_released", "d5/d34/bdcall_8c.html#a785de6a2e215dbc02cd9d5b48ef7d920", null ],
     [ "prep_ogl_bonds", "d5/d34/bdcall_8c.html#a0f9fde361d512f3ae53fb45733155f6f", null ],
@@ -22,5 +23,7 @@ var bdcall_8c =
     [ "update_ang_view", "d5/d34/bdcall_8c.html#ad3646d51a03c38b180ff67dfc4067d43", null ],
     [ "update_angle_view", "d5/d34/bdcall_8c.html#abd2c10c1372a56f6e48387875d799dd1", null ],
     [ "update_glwin_after_bonds", "d5/d34/bdcall_8c.html#acb740347e3d708b548337a03817f407a", null ],
+    [ "update_voisj_and_contj", "d5/d34/bdcall_8c.html#ab0085c818de23b425ce41e20a488aa46", null ],
+    [ "warren_cowley_out_", "d5/d34/bdcall_8c.html#a7ee00ff21f27110b287ab44764699c88", null ],
     [ "bdtc", "d5/d34/bdcall_8c.html#a8242552d9ee907c55abba3a84784072d", null ]
 ];

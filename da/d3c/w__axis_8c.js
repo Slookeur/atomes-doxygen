@@ -1,6 +1,5 @@
 var w__axis_8c =
 [
-    [ "AXIS_STYLES", "da/d3c/w__axis_8c.html#a870e035120a3f52aa6654164b16a5349", null ],
     [ "AXIS_TEMPLATES", "da/d3c/w__axis_8c.html#a3a8c802c2d7d593b3c2b5dfd5c5c28bd", null ],
     [ "activate_pos_box", "da/d3c/w__axis_8c.html#acc673a9ea1435005d76d68f43366ddf1", null ],
     [ "axis_advanced", "da/d3c/w__axis_8c.html#a83e3ec9f686447e209242aa44202de4a", null ],
@@ -22,10 +21,7 @@ var w__axis_8c =
     [ "update_axis_parameter", "da/d3c/w__axis_8c.html#ac376d99952ccf434fa9bb61fb187387e", null ],
     [ "use_axis_default_colors", "da/d3c/w__axis_8c.html#ac1d54b3e683fed113a92b2b74bcaa9d7", null ],
     [ "use_axis_default_positions", "da/d3c/w__axis_8c.html#a529d3ac2f7db908c82bee35ed7585547", null ],
-    [ "al", "da/d3c/w__axis_8c.html#a648e40b0c4eb9e9cca21f11c98c53f5f", null ],
     [ "axis_init_color", "da/d3c/w__axis_8c.html#afd63de5bb6050a6cc7248f6754b274db", null ],
     [ "axis_range", "da/d3c/w__axis_8c.html#a191af5e796f1549a049235b7ecaec266", null ],
-    [ "axis_style", "da/d3c/w__axis_8c.html#a4cb165c92f91a682972049e9c56c6ba5", null ],
-    [ "axis_symbols", "da/d3c/w__axis_8c.html#a795a084d594a130ae06178718a30cda7", null ],
     [ "from_box_or_axis", "da/d3c/w__axis_8c.html#a03383d1a2d01524d0a2c47c96952c5d1", null ]
 ];

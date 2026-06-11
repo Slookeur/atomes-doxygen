@@ -2,6 +2,7 @@ var d__atoms_8c =
 [
     [ "atom_positions_colors_and_sizes", "dc/dbd/d__atoms_8c.html#a1bb91cc43ccdb2cb6561bb2d752fb04b", null ],
     [ "create_atom_lists", "dc/dbd/d__atoms_8c.html#ad7cc66fbddde64060fa9bab2355418be", null ],
+    [ "draw_billboard_quad", "dc/dbd/d__atoms_8c.html#aa76df080ecff3729575e56849c6f25cc", null ],
     [ "draw_sphere", "dc/dbd/d__atoms_8c.html#a66a6205975c98390df3c8abecb8beaa8", null ],
     [ "find_atom_vertices", "dc/dbd/d__atoms_8c.html#aee9651a908a42c827706aad86454a636", null ],
     [ "find_clone_vertices", "dc/dbd/d__atoms_8c.html#aedaaad00254f2cc5ab4f0e806db0e375", null ],

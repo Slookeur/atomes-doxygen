@@ -16,6 +16,7 @@ var searchData=
   ['crystal_5fdata_13',['crystal_data',['../d8/d1b/structcrystal__data.html',1,'']]],
   ['curve_14',['Curve',['../da/d6e/struct_curve.html',1,'']]],
   ['curve_5fdash_15',['curve_dash',['../d5/d03/structcurve__dash.html',1,'']]],
-  ['curveextra_16',['CurveExtra',['../d8/dea/struct_curve_extra.html',1,'']]],
-  ['curvestate_17',['CurveState',['../dd/d12/struct_curve_state.html',1,'']]]
+  ['curve_5fedition_16',['curve_edition',['../d2/d2a/structcurve__edition.html',1,'']]],
+  ['curveextra_17',['CurveExtra',['../d8/dea/struct_curve_extra.html',1,'']]],
+  ['curvestate_18',['CurveState',['../dd/d12/struct_curve_state.html',1,'']]]
 ];

@@ -7,6 +7,7 @@ var workinfo_8c =
     [ "update_msd_view", "d6/df5/workinfo_8c.html#ac804878efda174843ef44e26c0a07499", null ],
     [ "update_rdf_view", "d6/df5/workinfo_8c.html#a1e00321a02c10ce57a95d7b1ec9023ec", null ],
     [ "update_rings_view", "d6/df5/workinfo_8c.html#a33455b849d569554e8ec454c323bffc5", null ],
+    [ "update_skt_view", "d6/df5/workinfo_8c.html#aafb6ae8798e16993126a55e90a1c5f15", null ],
     [ "update_spherical_view", "d6/df5/workinfo_8c.html#af315e0d858513734eef4c6898519fe5a", null ],
     [ "update_sq_view", "d6/df5/workinfo_8c.html#a2af97015d685db3c60f05f2ec215e8c8", null ],
     [ "workinfo", "d6/df5/workinfo_8c.html#ab472d26c2958f8fbeddb2c3237710dd4", null ]

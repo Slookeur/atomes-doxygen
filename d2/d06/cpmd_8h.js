@@ -78,11 +78,8 @@ var cpmd_8h =
     [ "nosetype", "d2/d06/cpmd_8h.html#af387291b11a96c11e00843fa8c3d1276", null ],
     [ "num_thermo", "d2/d06/cpmd_8h.html#a876450bfa275ef6fbcd21d0f9f04fed0", null ],
     [ "param", "d2/d06/cpmd_8h.html#ac3b89eb10c0268421e7921d77a433a65", null ],
-    [ "rest_kw", "d2/d06/cpmd_8h.html#a3ffe3c685dcfbc9b5c45f258870c5036", null ],
-    [ "rest_opts", "d2/d06/cpmd_8h.html#a3191bd8931bfdd4df3bbc14810c11fb3", null ],
     [ "sel_but", "d2/d06/cpmd_8h.html#ae52550787d93b999792bfc6b14dd6aca", null ],
     [ "sel_img", "d2/d06/cpmd_8h.html#a204163a57a46f41d93073c9a12edd215", null ],
-    [ "termoke", "d2/d06/cpmd_8h.html#a45dc4f0a62bf0587d55af7ec9315f63d", null ],
     [ "thermo_name", "d2/d06/cpmd_8h.html#a2d7fc9913748245f6a1169d3ae9ec580", null ],
     [ "tmp_cpmd", "d2/d06/cpmd_8h.html#a7c57705b2932dc44b2868c0d3b35dc0c", null ],
     [ "type_thermo", "d2/d06/cpmd_8h.html#a1f09924bb07a5d058d480add0f582d69", null ]

@@ -2,7 +2,7 @@ var searchData=
 [
   ['h_0',['h',['../d4/d52/namespaceparameters.html#a23e194b696665fbf9c2d6f4a29b22b55',1,'parameters']]],
   ['handler_1',['handler',['../d9/dfa/structfocus__data.html#a3c7189c97cffa1bac709515cf761e0b9',1,'focus_data']]],
-  ['handler_5fid_2',['handler_id',['../d8/d62/tab-4_8c.html#a8c06ddbfd10959844d0a980d870decbb',1,'tab-4.c']]],
+  ['handler_5fid_2',['handler_id',['../d2/d2a/structcurve__edition.html#a8c06ddbfd10959844d0a980d870decbb',1,'curve_edition']]],
   ['has_5fa_5fbox_3',['has_a_box',['../de/df1/structcell__info.html#ad68212efd6b0e77c1ce3a6abe159eb2a',1,'cell_info']]],
   ['has_5fbox_5fchanged_4',['has_box_changed',['../d8/da6/edit__menu_8c.html#a9d292dd45cc36e8f2615104a7d8353a0',1,'edit_menu.c']]],
   ['has_5fenergy_5',['has_energy',['../d3/d43/dlp__field_8c.html#a43a42a0882ceb6c8bc3d5e098299fd22',1,'dlp_field.c']]],
@@ -18,7 +18,7 @@ var searchData=
   ['hide_5fshow_5fthis_5fpages_15',['hide_show_this_pages',['../d3/d43/dlp__field_8c.html#ad8f72cdc77d2e20df06c76684e714925',1,'dlp_field.c']]],
   ['hide_5fthe_5fwidgets_16',['hide_the_widgets',['../d2/d49/global_8h.html#adb1dc662477c1e41785541ea1c9a2b88',1,'hide_the_widgets(GtkWidget *widg):&#160;gtk-misc.c'],['../d8/d90/gtk-misc_8c.html#adb1dc662477c1e41785541ea1c9a2b88',1,'hide_the_widgets(GtkWidget *widg):&#160;gtk-misc.c'],['../d3/d0e/startup__testing_8c.html#adb1dc662477c1e41785541ea1c9a2b88',1,'hide_the_widgets(GtkWidget *widg):&#160;startup_testing.c']]],
   ['hide_5fthis_5fwindow_17',['hide_this_window',['../d2/d49/global_8h.html#a52e5a5fcf00ecc53b6d937069883feae',1,'hide_this_window(GtkWidget *win, GdkEvent *event, gpointer data):&#160;gtk-misc.c'],['../d8/d90/gtk-misc_8c.html#a52e5a5fcf00ecc53b6d937069883feae',1,'hide_this_window(GtkWidget *win, GdkEvent *event, gpointer data):&#160;gtk-misc.c']]],
-  ['hist_5fbox_18',['Hist_box',['../d3/d0c/cedit_8c.html#afc8aefde5bb13bc704de20658dac9082',1,'Hist_box:&#160;tab-2.c'],['../de/d1f/tab-2_8c.html#afc8aefde5bb13bc704de20658dac9082',1,'Hist_box:&#160;tab-2.c']]],
+  ['hist_5fbox_18',['Hist_box',['../d2/d2a/structcurve__edition.html#afc8aefde5bb13bc704de20658dac9082',1,'curve_edition']]],
   ['hist_5fget_5fcontent_19',['hist_get_content',['../df/df9/read__hist_8c.html#a094e5db2f13bb7f704a13660e9af6987',1,'read_hist.c']]],
   ['hist_5fget_5fdata_20',['hist_get_data',['../df/df9/read__hist_8c.html#afff2b67dcfb4d6c92cb3c170e003a95f',1,'read_hist.c']]],
   ['hms_21',['hms',['../de/df2/structspace__group.html#ab408fa1f7f24f70b83de9c66b6e8a6d1',1,'space_group']]],

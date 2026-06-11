@@ -77,6 +77,7 @@ var gtk_misc_8c =
     [ "set_color_chooser_color", "d8/d90/gtk-misc_8c.html#a29d26e6dd44d158e156f9a8c01356ba0", null ],
     [ "set_image_from_icon_name", "d8/d90/gtk-misc_8c.html#ad32e9da0a38345cc75c9502a12ead046", null ],
     [ "set_renderer_color", "d8/d90/gtk-misc_8c.html#a0f4ee492ceee254f42788f921f18f282", null ],
+    [ "set_renderer_markup", "d8/d90/gtk-misc_8c.html#a64488f31e6748d4ea372d143e8a7d98b", null ],
     [ "setup_text_tags", "d8/d90/gtk-misc_8c.html#acb1e0a11098a59875f99e91bd416dc0c", null ],
     [ "show_the_widgets", "d8/d90/gtk-misc_8c.html#afaae9cdc03b7e815b843ecd58cb9265c", null ],
     [ "spin_button", "d8/d90/gtk-misc_8c.html#a6db85f295c0e61168de4098bfe255600", null ],

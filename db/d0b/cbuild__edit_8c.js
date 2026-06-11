@@ -43,8 +43,6 @@ var cbuild__edit_8c =
     [ "toggle_overlap", "db/d0b/cbuild__edit_8c.html#a0ba3cc9e232e858a84c76bd079062175", null ],
     [ "update_cb_box", "db/d0b/cbuild__edit_8c.html#ab847f4e66383be5f72a2d837c94758c4", null ],
     [ "update_cb_vect", "db/d0b/cbuild__edit_8c.html#ad16ff4d36d088c0efe7a39019ffeeb86", null ],
-    [ "bravais_keys", "db/d0b/cbuild__edit_8c.html#aae4bb4c19308098634830cfd0ea6de62", null ],
-    [ "crystal_sytems", "db/d0b/cbuild__edit_8c.html#af66bbd0902f726e7283645c6c67bd052", null ],
     [ "latt_info", "db/d0b/cbuild__edit_8c.html#a63066e9ce2f2a60543191e3535d084b2", null ],
     [ "min_bv", "db/d0b/cbuild__edit_8c.html#a5b4d52c3b9e310f58133ba5db00433ca", null ],
     [ "nsg_bv", "db/d0b/cbuild__edit_8c.html#aa71bdbdf101c4f803bb9bfcae9334bf3", null ],

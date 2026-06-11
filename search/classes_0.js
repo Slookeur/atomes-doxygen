@@ -10,7 +10,10 @@ var searchData=
   ['atom_5fsearch_7',['atom_search',['../d8/d59/structatom__search.html',1,'']]],
   ['atom_5fselection_8',['atom_selection',['../d6/d0f/structatom__selection.html',1,'']]],
   ['atomes_5faction_9',['atomes_action',['../d1/d6a/structatomes__action.html',1,'']]],
-  ['atomic_5fobject_10',['atomic_object',['../d0/de8/structatomic__object.html',1,'']]],
-  ['axis_11',['axis',['../de/ded/structaxis.html',1,'']]],
-  ['axis_5fedition_12',['axis_edition',['../d7/d8b/structaxis__edition.html',1,'']]]
+  ['atomes_5fanalysis_10',['atomes_analysis',['../d7/d90/structatomes__analysis.html',1,'']]],
+  ['atomes_5ferror_11',['atomes_error',['../d5/de8/structatomes__error.html',1,'']]],
+  ['atomes_5ferror_5fsignal_12',['atomes_error_signal',['../db/d20/structatomes__error__signal.html',1,'']]],
+  ['atomic_5fobject_13',['atomic_object',['../d0/de8/structatomic__object.html',1,'']]],
+  ['axis_14',['axis',['../de/ded/structaxis.html',1,'']]],
+  ['axis_5fedition_15',['axis_edition',['../d7/d8b/structaxis__edition.html',1,'']]]
 ];

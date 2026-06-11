@@ -9,7 +9,7 @@ var cp2k__print_8c =
     [ "print_motion_cp2k", "dc/d4a/cp2k__print_8c.html#a639c24ba09e7ce9b6808fa05f53a411b", null ],
     [ "print_subsys_cp2k", "dc/d4a/cp2k__print_8c.html#afd955bda54f13788d16705d08bf15f76", null ],
     [ "print_thermostat_cp2k", "dc/d4a/cp2k__print_8c.html#a30c9aa7e4123559e6fb3d6edcc717c9e", null ],
-    [ "print_var_section", "dc/d4a/cp2k__print_8c.html#ac1c6b2a09201211c4b82307ddad5b236", null ],
+    [ "print_var_section", "dc/d4a/cp2k__print_8c.html#a5629d5610f0fc564d272e8357c0a2b85", null ],
     [ "print_variables_cp2k", "dc/d4a/cp2k__print_8c.html#a1666c65d0b9307fb1659cccafe627cd1", null ],
     [ "cp2k_cons", "dc/d4a/cp2k__print_8c.html#a140bf15af8e77ceff6b45167eaedb5da", null ],
     [ "cp2k_fix", "dc/d4a/cp2k__print_8c.html#aa6f9b56b2502e861a6728befcf866f01", null ],

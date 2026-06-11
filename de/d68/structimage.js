@@ -39,6 +39,7 @@ var structimage =
     [ "pointrad", "de/d68/structimage.html#a0e2249dba6b8ec11483e0448a44752ee", null ],
     [ "quality", "de/d68/structimage.html#a9f1e70ec812c4e05644f155a055ec05d", null ],
     [ "radall", "de/d68/structimage.html#a24af21e01fbb0667cc932a8c30f9890e", null ],
+    [ "ray_tracing", "de/d68/structimage.html#a9f94cd64c1ba29d668a606d645b6998e", null ],
     [ "render", "de/d68/structimage.html#a8d01ed4e4b27f9468cb0cc622997e876", null ],
     [ "rep", "de/d68/structimage.html#ab8dffa88e0bf425389840503d2068bf8", null ],
     [ "rotation_mode", "de/d68/structimage.html#acb235a3534a3ec99ad8d19acd7999d84", null ],

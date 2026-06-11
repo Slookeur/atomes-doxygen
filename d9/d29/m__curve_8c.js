@@ -13,7 +13,7 @@ var m__curve_8c =
     [ "curve_default_layout", "d9/d29/m__curve_8c.html#a250dcb6aa37adbd0d13e18b676667942", null ],
     [ "curve_edit_menu_action", "d9/d29/m__curve_8c.html#a3cb26f4283fb7b47e08234a5eb12c39c", null ],
     [ "curve_help_menu", "d9/d29/m__curve_8c.html#aef00bd9b780385982d396bb139620621", null ],
-    [ "curve_menu_bar", "d9/d29/m__curve_8c.html#a7df8513a7d38b19f070d6897fa966c38", null ],
+    [ "curve_menu_bar", "d9/d29/m__curve_8c.html#aab75d1ca97cf7cb4297a307793c0d837", null ],
     [ "curve_menu_bar_action", "d9/d29/m__curve_8c.html#a229770529263f42f59e6c30971e17af1", null ],
     [ "curve_popup_menu", "d9/d29/m__curve_8c.html#a2525831f53691c7a6dd20927929f0a6d", null ],
     [ "curve_section", "d9/d29/m__curve_8c.html#ae4662d20544b1c7a3af82d0215625943", null ],

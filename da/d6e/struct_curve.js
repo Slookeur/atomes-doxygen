@@ -17,6 +17,7 @@ var struct_curve =
     [ "cid", "da/d6e/struct_curve.html#acbf71674592877e63ec914508376ba64", null ],
     [ "cmax", "da/d6e/struct_curve.html#a1658f0d30884602d7c672892678d4ec7", null ],
     [ "cmin", "da/d6e/struct_curve.html#a39ac11f9ce61b1ed41f02cadd6e6341b", null ],
+    [ "curve_edit", "da/d6e/struct_curve.html#ac4871c7b8242a4804a16de9a7fc9ec57", null ],
     [ "curve_hbox", "da/d6e/struct_curve.html#a225fdfdf7ec5be4ba2786ef0de93b309", null ],
     [ "curve_vbox", "da/d6e/struct_curve.html#a5a1ba1a0f9f9e98bcf4340922d1680b7", null ],
     [ "data", "da/d6e/struct_curve.html#a9db67408546d56dc3d74dda869b82a3b", null ],

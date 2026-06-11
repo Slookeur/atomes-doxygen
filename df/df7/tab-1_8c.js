@@ -1,6 +1,6 @@
 var tab_1_8c =
 [
-    [ "create_tab_1", "df/df7/tab-1_8c.html#a6ff8b99c6168eb1ce9fa57f2d14e0efa", null ],
+    [ "create_tab_1", "df/df7/tab-1_8c.html#abe5ad478f435b1e859b2f64677a6dd2d", null ],
     [ "draw_frame_surface", "df/df7/tab-1_8c.html#a304fb9369ed0350acda458637c5e8e0d", null ],
     [ "set_background_color", "df/df7/tab-1_8c.html#ac4690b5908dc0b402e99ad017865459d", null ],
     [ "set_data_style", "df/df7/tab-1_8c.html#a3d80d3627853645aa9e1c16aeaea9533", null ],
@@ -18,17 +18,5 @@ var tab_1_8c =
     [ "set_title_font", "df/df7/tab-1_8c.html#a4ab0133abcec8b14acb8e30487727571", null ],
     [ "set_title_pos", "df/df7/tab-1_8c.html#a6e2d8fa4cd2dae8d6010364de401488d", null ],
     [ "set_window_size", "df/df7/tab-1_8c.html#afbec2a9222952c342752e37cbec0f17f", null ],
-    [ "a", "df/df7/tab-1_8c.html#aa4c2a5552e9bc49b1816ff532f558c74", null ],
-    [ "b", "df/df7/tab-1_8c.html#a148e3876077787926724625411d6e7a9", null ],
-    [ "c", "df/df7/tab-1_8c.html#a4e1e0e72dd773439e333c84dd762a9c3", null ],
-    [ "ctext", "df/df7/tab-1_8c.html#ab61effcd138994fc9352c9db5402eb74", null ],
-    [ "custom_title", "df/df7/tab-1_8c.html#aea4b0387cc25ac481a317b60765ba0d7", null ],
-    [ "d", "df/df7/tab-1_8c.html#a6f364afbe132c4ecfea48bde1b0618ba", null ],
-    [ "dataxe", "df/df7/tab-1_8c.html#ace5ac5cae89ce16aab54e1856ae9ce75", null ],
-    [ "frame", "df/df7/tab-1_8c.html#ae8b8eb41b5d3dc4a42e6896de8acca28", null ],
-    [ "frame_box", "df/df7/tab-1_8c.html#ab0d268a0b321a509d7795756e4a56e93", null ],
-    [ "frame_pix_box", "df/df7/tab-1_8c.html#ab047ab474d8058e0af38675252d25ed1", null ],
-    [ "frame_style_area", "df/df7/tab-1_8c.html#a23676e011551a2a405ccd517c78f87c4", null ],
-    [ "framxe", "df/df7/tab-1_8c.html#a931bd4c4e470f0058e71772d1976758d", null ],
-    [ "title_box", "df/df7/tab-1_8c.html#a0b6e34890b349ed8d8236be66c534248", null ]
+    [ "ctext", "df/df7/tab-1_8c.html#ab61effcd138994fc9352c9db5402eb74", null ]
 ];

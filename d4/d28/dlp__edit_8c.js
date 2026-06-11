@@ -66,7 +66,7 @@ var dlp__edit_8c =
     [ "cross_vbox", "d4/d28/dlp__edit_8c.html#aeea7991663a7d9b36b2b3c9635d84caa", null ],
     [ "edit_atids", "d4/d28/dlp__edit_8c.html#a17a213cd279b06249eb0f27e7eb8fe15", null ],
     [ "elemts", "d4/d28/dlp__edit_8c.html#a71a3853e08057bf98b6ab017aaa0bccb", null ],
-    [ "felemts", "d4/d28/dlp__edit_8c.html#a4ef48cffc6826827b70e02d88f2b48cb", null ],
+    [ "felemt", "d4/d28/dlp__edit_8c.html#a2c6fbe1023a758fbd429b227591f8eb6", null ],
     [ "fetypes", "d4/d28/dlp__edit_8c.html#a49891bd0225e1ad55a554681c08744e3", null ],
     [ "ff_atoms", "d4/d28/dlp__edit_8c.html#aee48b94d50f948f31f5131c6216e5402", null ],
     [ "ff_p_combo", "d4/d28/dlp__edit_8c.html#ae4877d5f0458745ea158d8da28289471", null ],

@@ -9,7 +9,10 @@ var searchData=
   ['atom_5fsearch_6',['atom_search',['../da/d7e/glwin_8h.html#a5ed79fc6b2d21353a18425e6446ec79a',1,'glwin.h']]],
   ['atom_5fselection_7',['atom_selection',['../da/d7e/glwin_8h.html#a683d0164e4aaadc1cbe6a34b74f4b37c',1,'glwin.h']]],
   ['atomes_5faction_8',['atomes_action',['../d2/d49/global_8h.html#a29332de653190791756d34bcb3b883c8',1,'global.h']]],
-  ['atomic_5fobject_9',['atomic_object',['../da/d7e/glwin_8h.html#a8896e296a958b9a9b9fe5d47133304f4',1,'glwin.h']]],
-  ['axis_10',['axis',['../da/d7e/glwin_8h.html#a69b39d4b7fe75fdda483a2251e513bc0',1,'glwin.h']]],
-  ['axis_5fedition_11',['axis_edition',['../da/d7e/glwin_8h.html#a1b76ec192bb265aead2466c2110a9b60',1,'glwin.h']]]
+  ['atomes_5fanalysis_9',['atomes_analysis',['../d2/d49/global_8h.html#a510e92d975412d7406566c951893bb07',1,'global.h']]],
+  ['atomes_5ferror_10',['atomes_error',['../d2/d49/global_8h.html#a1dd6b6bca1e417df9d2876fe2febdf39',1,'global.h']]],
+  ['atomes_5ferror_5fsignal_11',['atomes_error_signal',['../d2/d49/global_8h.html#a6c5a511dabc58919aa5a9463818a2abb',1,'global.h']]],
+  ['atomic_5fobject_12',['atomic_object',['../da/d7e/glwin_8h.html#a8896e296a958b9a9b9fe5d47133304f4',1,'glwin.h']]],
+  ['axis_13',['axis',['../da/d7e/glwin_8h.html#a69b39d4b7fe75fdda483a2251e513bc0',1,'glwin.h']]],
+  ['axis_5fedition_14',['axis_edition',['../da/d7e/glwin_8h.html#a1b76ec192bb265aead2466c2110a9b60',1,'glwin.h']]]
 ];

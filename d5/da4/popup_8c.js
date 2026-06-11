@@ -72,15 +72,14 @@ var popup_8c =
     [ "insert_search", "d5/da4/popup_8c.html#ae6e40217d7e8798b189a7388d7f4e7a8", null ],
     [ "insert_this_object", "d5/da4/popup_8c.html#aeea342da4565bad4fb06a751ef4e850a", null ],
     [ "inserted_from_lib", "d5/da4/popup_8c.html#a656ef754a3ef6144fca93ed03c4c2fdc", null ],
-    [ "is_filled", "d5/da4/popup_8c.html#ab8f30207e6b59b92c167b8af5b877806", null ],
     [ "is_labelled", "d5/da4/popup_8c.html#a3f64b23a1ad34682ee73c5ec409afda6", null ],
     [ "is_selected", "d5/da4/popup_8c.html#a6c1b7334804d04d63a0a9e0c951de9f6", null ],
     [ "mol", "d5/da4/popup_8c.html#af17cff67adda5bb7aa3588fb9f8f7fc5", null ],
-    [ "mot", "d5/da4/popup_8c.html#abad5f03838a8a25191b43b450c9b058b", null ],
     [ "remove_search", "d5/da4/popup_8c.html#a1ef2c5698e7e0fce52a65b1dfc3baf21", null ],
     [ "selected_aspec", "d5/da4/popup_8c.html#ad81e8b625a603091b826af5886ca09e4", null ],
     [ "selected_atom", "d5/da4/popup_8c.html#aa07f0065acf933bd77497aeda61c7bf1", null ],
     [ "selected_bspec", "d5/da4/popup_8c.html#a58a43683906d22fbebe0e493d468239c", null ],
     [ "selected_btom", "d5/da4/popup_8c.html#ab9d587be8552c12a25bfe0537f3a98e8", null ],
+    [ "snsab", "d5/da4/popup_8c.html#a71e9187b24a6de5da663c87d27909bd6", null ],
     [ "wait_for_style", "d5/da4/popup_8c.html#af82f232dad29da5c8a7268fa256b7171", null ]
 ];

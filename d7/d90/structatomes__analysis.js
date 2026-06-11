@@ -1,0 +1,25 @@
+var structatomes__analysis =
+[
+    [ "aid", "d7/d90/structatomes__analysis.html#ac068953d79521763a823346673a49919", null ],
+    [ "avail_ok", "d7/d90/structatomes__analysis.html#abd9ed832520d6923c4010b9ab650c4db", null ],
+    [ "c_sets", "d7/d90/structatomes__analysis.html#a7fdad0dc9536e99817f8de35542e1c1f", null ],
+    [ "calc_buffer", "d7/d90/structatomes__analysis.html#a57455225b78678c21d24ceb108cfaac9", null ],
+    [ "calc_ok", "d7/d90/structatomes__analysis.html#ab64b291b3ae836abcdf80d56f6627259", null ],
+    [ "calc_time", "d7/d90/structatomes__analysis.html#a3be31cdcbe8bedbaa84e8c06d29b36c5", null ],
+    [ "compat_id", "d7/d90/structatomes__analysis.html#a3c5c63b1a1d9f3c0a454b31ed5955405", null ],
+    [ "curves", "d7/d90/structatomes__analysis.html#aa39f73e7901b9f51abcf5550bded1890", null ],
+    [ "delta", "d7/d90/structatomes__analysis.html#a9ea1a8f5ef3e6d20b362385e1288c72c", null ],
+    [ "fact", "d7/d90/structatomes__analysis.html#a507befd7b981871981757edec28ee05f", null ],
+    [ "graph_res", "d7/d90/structatomes__analysis.html#a5adca90d3edd60b46e7518c763c2f69d", null ],
+    [ "idcc", "d7/d90/structatomes__analysis.html#a46f1aa44bf63e58b6a31e29f4d0f9078", null ],
+    [ "init_ok", "d7/d90/structatomes__analysis.html#a7ce6a3ee611c298a92b3d5f907dfaef0", null ],
+    [ "max", "d7/d90/structatomes__analysis.html#a0b0ede69e8156eb97acc579b88e883de", null ],
+    [ "min", "d7/d90/structatomes__analysis.html#aad36546e8175d2922bee165fe028fedc", null ],
+    [ "name", "d7/d90/structatomes__analysis.html#abe91710dad809409dba210f43e519079", null ],
+    [ "num_delta", "d7/d90/structatomes__analysis.html#a79f1ea20a42338b7b7bb8ad4c809783f", null ],
+    [ "numc", "d7/d90/structatomes__analysis.html#a71e3b087963df9528f3d0415955530cd", null ],
+    [ "o_params", "d7/d90/structatomes__analysis.html#a4dfd54fd6a5f8997b9b4c49c474b7b20", null ],
+    [ "other_params", "d7/d90/structatomes__analysis.html#a67b509b75859d81546becbae3bdb9918", null ],
+    [ "requires_md", "d7/d90/structatomes__analysis.html#ac0d30c8aef76f8499e8749dfd8e47eeb", null ],
+    [ "x_title", "d7/d90/structatomes__analysis.html#a4e89e49940d756d27bbe2b8ad748bc02", null ]
+];

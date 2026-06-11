@@ -1,9 +1,15 @@
 <map id="opengl/draw/movie.h" name="opengl/draw/movie.h">
-<area shape="rect" id="Node000001" title="Data structure declarations for movie encoding &#160;&#160;Function declarations for movie encoding." alt="" coords="171,5,312,32"/>
-<area shape="rect" id="Node000002" href="$d3/d10/image_8c.html" title="Functions to render an image from the OpenGL window." alt="" coords="5,80,147,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,41,106,82,104,77,197,36"/>
-<area shape="rect" id="Node000003" href="$d8/dee/movie_8c.html" title="Functions to encode a movie / render an image from the OpenGL rendering." alt="" coords="171,80,312,107"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="244,48,244,80,239,80,239,48"/>
-<area shape="rect" id="Node000004" href="$da/daf/w__encode_8c.html" title="Functions to create the encoding (image/video) window." alt="" coords="336,80,493,107"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="286,36,385,77,383,82,284,41"/>
+<area shape="rect" id="Node000001" title="Data structure declarations for movie encoding &#160;&#160;Function declarations for movie encoding." alt="" coords="362,5,503,32"/>
+<area shape="rect" id="Node000002" href="$d0/d29/main_8c.html" title="Initialization of the atomes program &#160;&#160;Functions required to read data from the command line." alt="" coords="5,80,87,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="347,37,100,83,88,85,87,80,99,77,346,32"/>
+<area shape="rect" id="Node000003" href="$d3/d10/image_8c.html" title="Functions to render an image from the OpenGL window." alt="" coords="111,80,253,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="377,37,227,82,225,77,372,37"/>
+<area shape="rect" id="Node000004" href="$d8/dee/movie_8c.html" title="Functions to encode a movie / render an image from the OpenGL rendering." alt="" coords="277,80,418,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="409,41,363,82,361,77,404,43"/>
+<area shape="rect" id="Node000005" href="$d7/dc8/glwindow_8c.html" title="Functions to create a project OpenGL window." alt="" coords="442,80,594,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="460,40,506,80,501,79,458,45"/>
+<area shape="rect" id="Node000006" href="$da/daf/w__encode_8c.html" title="Functions to create the encoding (image/video) window." alt="" coords="618,80,775,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="493,34,653,79,648,79,492,39"/>
+<area shape="rect" id="Node000007" href="$da/d5e/open__p_8c.html" title="Functions to start the reading of an atomes project file." alt="" coords="799,80,917,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="519,32,788,77,802,82,796,82,787,83,519,37"/>
 </map>

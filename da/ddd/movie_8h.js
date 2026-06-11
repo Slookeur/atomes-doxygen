@@ -7,5 +7,22 @@ var movie_8h =
     [ "video_options", "da/ddd/movie_8h.html#aa87857a0ba8b739726a30a61a80c26ca", null ],
     [ "VideoStream", "da/ddd/movie_8h.html#ad18b920d99ba6948594f95d9f3282012", null ],
     [ "render_image", "da/ddd/movie_8h.html#a5e11963e3d4afd115eb86d1f7b99f095", null ],
-    [ "save_movie", "da/ddd/movie_8h.html#aabb0732b93695abdf7be5889d2d91810", null ]
+    [ "save_movie", "da/ddd/movie_8h.html#aabb0732b93695abdf7be5889d2d91810", null ],
+    [ "render_image_acolor", "da/ddd/movie_8h.html#a6950558ab0c4f865ee9891a108668cac", null ],
+    [ "render_image_axis", "da/ddd/movie_8h.html#a85a0f570f7534f2b312c43a080a3b0cf", null ],
+    [ "render_image_back_color", "da/ddd/movie_8h.html#a235469b67561c891bccfd29af752dd5b", null ],
+    [ "render_image_back_dir", "da/ddd/movie_8h.html#ab1e542512575b8ec1646c00200fcc551", null ],
+    [ "render_image_back_grad", "da/ddd/movie_8h.html#a673cd0b5ccb66301977db8b6129bed77", null ],
+    [ "render_image_back_pos", "da/ddd/movie_8h.html#a7b9f9b22beb861f616190b77cff1c3a9", null ],
+    [ "render_image_box", "da/ddd/movie_8h.html#ab5c383f00fbff5bd9798ea4abca445a5", null ],
+    [ "render_image_box_color", "da/ddd/movie_8h.html#a033e123f42dde1f6f36a0dec2f8a028b", null ],
+    [ "render_image_format", "da/ddd/movie_8h.html#ab318c0d2d8b59ac535812fdef497bf14", null ],
+    [ "render_image_grad_color", "da/ddd/movie_8h.html#a01f3812a84deccf3fcb4885d00471695", null ],
+    [ "render_image_output", "da/ddd/movie_8h.html#adaee5c7ba8893d5a82b0a0a41f13138c", null ],
+    [ "render_image_pcolor", "da/ddd/movie_8h.html#a66c191ef63e806bcb929fe609fc74700", null ],
+    [ "render_image_pixels", "da/ddd/movie_8h.html#a59ce347b085d4df800c1f5df541fcfb3", null ],
+    [ "render_image_rep", "da/ddd/movie_8h.html#a4e4ce43f7732e089caf90bbbda5cea23", null ],
+    [ "render_image_style", "da/ddd/movie_8h.html#af03a239f0c68594a66c9db5bb1c14997", null ],
+    [ "trigger_fragment_analysis", "da/ddd/movie_8h.html#a68712a9142f95c31681da80e5e7e7e4c", null ],
+    [ "trigger_molecule_analysis", "da/ddd/movie_8h.html#ae9da6d8131b9d2ec44490d3f6b9a4ef0", null ]
 ];

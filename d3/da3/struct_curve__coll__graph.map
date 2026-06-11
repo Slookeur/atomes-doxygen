@@ -1,23 +1,27 @@
 <map id="Curve" name="Curve">
-<area shape="rect" id="Node000001" title=" " alt="" coords="196,437,252,464"/>
-<area shape="rect" id="Node000002" href="$d0/da3/structqint.html" title=" " alt="" coords="5,347,48,373"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="28,388,31,401,37,411,64,425,106,435,196,445,195,450,105,440,62,430,34,415,26,403,23,390"/>
-<area shape="rect" id="Node000003" href="$d1/d74/struct_col_r_g_b_a.html" title=" " alt="" coords="67,5,146,32"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="99,47,91,76,88,108,88,361,91,378,99,393,126,417,162,432,196,442,194,447,160,437,123,421,95,397,86,380,83,362,83,108,86,76,94,46"/>
-<area shape="rect" id="Node000004" href="$d0/d5d/struct_data_layout.html" title=" " alt="" coords="180,96,268,123"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="137,40,209,93,205,98,134,44"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="226,138,226,437,221,437,221,138"/>
-<area shape="rect" id="Node000006" href="$d8/dea/struct_curve_extra.html" title=" " alt="" coords="262,213,349,240"/>
-<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="244,134,298,211,294,214,239,137"/>
-<area shape="rect" id="Node000005" href="$dd/d61/struct_extra_sets.html" title=" " alt="" coords="263,347,342,373"/>
-<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="283,387,237,439,233,435,279,383"/>
-<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="307,256,305,346,300,346,302,256"/>
-<area shape="poly" id="edge9_Node000006_Node000006" title=" " alt="" coords="366,214,373,219,375,227,368,239,350,243,349,238,365,234,370,226,368,222,363,218"/>
-<area shape="rect" id="Node000007" href="$df/d46/structtint.html" title=" " alt="" coords="352,96,392,123"/>
-<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="359,137,315,214,310,211,355,135"/>
-<area shape="rect" id="Node000008" href="$dd/d12/struct_curve_state.html" title=" " alt="" coords="426,213,513,240"/>
-<area shape="poly" id="edge12_Node000008_Node000007" title=" " alt="" coords="394,132,461,211,456,215,390,136"/>
-<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="457,255,434,291,403,334,363,378,317,416,285,433,253,444,251,439,283,428,314,411,359,374,398,331,430,288,453,252"/>
-<area shape="rect" id="Node000009" href="$d4/d51/struct_mouse_state.html" title=" " alt="" coords="424,96,515,123"/>
-<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="472,138,472,213,466,213,466,138"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="342,504,398,531"/>
+<area shape="rect" id="Node000002" href="$d0/da3/structqint.html" title=" " alt="" coords="402,244,445,271"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="420,285,375,505,371,502,416,287"/>
+<area shape="rect" id="Node000010" href="$d2/d2a/structcurve__edition.html" title=" " alt="" coords="461,405,560,432"/>
+<area shape="poly" id="edge15_Node000010_Node000002" title=" " alt="" coords="424,284,431,333,438,357,450,380,463,393,480,405,474,405,459,397,446,383,433,359,425,334,421,289"/>
+<area shape="rect" id="Node000003" href="$d1/d74/struct_col_r_g_b_a.html" title=" " alt="" coords="5,5,85,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="36,49,30,80,26,116,26,420,29,431,36,441,63,459,103,475,152,487,258,504,345,514,339,514,257,509,151,492,102,480,61,464,32,445,24,433,21,420,21,116,25,79,36,44"/>
+<area shape="rect" id="Node000004" href="$d0/d5d/struct_data_layout.html" title=" " alt="" coords="157,104,245,131"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="78,38,183,102,178,105,79,43"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="241,136,282,164,300,181,315,202,326,247,343,336,371,504,366,503,338,337,321,248,311,204,296,185,278,168,241,141"/>
+<area shape="rect" id="Node000006" href="$d8/dea/struct_curve_extra.html" title=" " alt="" coords="157,244,245,271"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="202,144,204,244,198,243,200,149"/>
+<area shape="rect" id="Node000005" href="$dd/d61/struct_extra_sets.html" title=" " alt="" coords="192,405,271,432"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="247,443,262,462,279,478,310,496,344,510,339,509,308,501,275,482,258,465,245,448"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="208,284,232,405,227,405,205,288"/>
+<area shape="poly" id="edge9_Node000006_Node000006" title=" " alt="" coords="239,238,261,241,269,248,271,257,267,269,255,275,240,277,225,274,224,269,241,272,254,270,263,266,266,257,264,251,259,246,240,243"/>
+<area shape="rect" id="Node000007" href="$df/d46/structtint.html" title=" " alt="" coords="495,104,534,131"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="479,136,231,246,228,241,482,131"/>
+<area shape="rect" id="Node000008" href="$dd/d12/struct_curve_state.html" title=" " alt="" coords="564,244,651,271"/>
+<area shape="poly" id="edge12_Node000008_Node000007" title=" " alt="" coords="532,141,602,244,597,243,530,146"/>
+<area shape="poly" id="edge14_Node000010_Node000007" title=" " alt="" coords="516,145,513,406,508,404,512,148"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="610,284,608,332,597,387,587,415,573,441,555,464,532,482,498,498,462,508,399,518,399,512,461,503,496,493,529,478,551,460,568,438,582,413,591,386,602,331,606,288"/>
+<area shape="rect" id="Node000009" href="$d4/d51/struct_mouse_state.html" title=" " alt="" coords="562,104,653,131"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="609,144,610,245,605,242,606,148"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="482,441,390,506,388,501,477,442"/>
 </map>

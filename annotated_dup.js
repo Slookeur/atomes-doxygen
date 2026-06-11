@@ -2,10 +2,10 @@ var annotated_dup =
 [
     [ "parameters", "d4/d52/namespaceparameters.html", [
       [ "at", "df/d6d/structparameters_1_1at.html", "df/d6d/structparameters_1_1at" ],
-      [ "lattice", "dc/d57/structparameters_1_1lattice.html", "dc/d57/structparameters_1_1lattice" ],
       [ "mol", "d9/d3d/structparameters_1_1mol.html", "d9/d3d/structparameters_1_1mol" ],
+      [ "ring", "d4/da3/structparameters_1_1ring.html", "d4/da3/structparameters_1_1ring" ],
       [ "pixel", "da/db3/structparameters_1_1pixel.html", "da/db3/structparameters_1_1pixel" ],
-      [ "ring", "d4/da3/structparameters_1_1ring.html", "d4/da3/structparameters_1_1ring" ]
+      [ "lattice", "dc/d57/structparameters_1_1lattice.html", "dc/d57/structparameters_1_1lattice" ]
     ] ],
     [ "angle", "d4/d23/structangle.html", "d4/d23/structangle" ],
     [ "animation", "d4/d32/structanimation.html", "d4/d32/structanimation" ],
@@ -16,6 +16,9 @@ var annotated_dup =
     [ "atom_search", "d8/d59/structatom__search.html", "d8/d59/structatom__search" ],
     [ "atom_selection", "d6/d0f/structatom__selection.html", "d6/d0f/structatom__selection" ],
     [ "atomes_action", "d1/d6a/structatomes__action.html", "d1/d6a/structatomes__action" ],
+    [ "atomes_analysis", "d7/d90/structatomes__analysis.html", "d7/d90/structatomes__analysis" ],
+    [ "atomes_error", "d5/de8/structatomes__error.html", "d5/de8/structatomes__error" ],
+    [ "atomes_error_signal", "db/d20/structatomes__error__signal.html", "db/d20/structatomes__error__signal" ],
     [ "atomic_object", "d0/de8/structatomic__object.html", "d0/de8/structatomic__object" ],
     [ "axis", "de/ded/structaxis.html", "de/ded/structaxis" ],
     [ "axis_edition", "d7/d8b/structaxis__edition.html", "d7/d8b/structaxis__edition" ],
@@ -41,6 +44,7 @@ var annotated_dup =
     [ "crystal_data", "d8/d1b/structcrystal__data.html", "d8/d1b/structcrystal__data" ],
     [ "Curve", "da/d6e/struct_curve.html", "da/d6e/struct_curve" ],
     [ "curve_dash", "d5/d03/structcurve__dash.html", "d5/d03/structcurve__dash" ],
+    [ "curve_edition", "d2/d2a/structcurve__edition.html", "d2/d2a/structcurve__edition" ],
     [ "CurveExtra", "d8/dea/struct_curve_extra.html", "d8/dea/struct_curve_extra" ],
     [ "CurveState", "dd/d12/struct_curve_state.html", "dd/d12/struct_curve_state" ],
     [ "DataLayout", "d0/d5d/struct_data_layout.html", "d0/d5d/struct_data_layout" ],

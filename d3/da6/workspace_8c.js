@@ -30,7 +30,7 @@ var workspace_8c =
     [ "vbox", "d3/da6/workspace_8c.html#a4135ce280f2ff654540c78e33ce96228", null ],
     [ "wchar", "d3/da6/workspace_8c.html#a12d97eeef1fced0d9ba1277f8449cc81", null ],
     [ "witer", "d3/da6/workspace_8c.html#ac37706b6033198ade08a6bc30ef2d3a9", null ],
-    [ "work_menu_items", "d3/da6/workspace_8c.html#ac4821b9300e172db654f60f773d19e85", null ],
+    [ "work_menu_items", "d3/da6/workspace_8c.html#a23845139e82f035b7c65df1233ae34c0", null ],
     [ "worklevel", "d3/da6/workspace_8c.html#a2cf27e739be445f6b13a3cce66df7e60", null ],
     [ "workstore", "d3/da6/workspace_8c.html#aa8d6be5a08499b916805c5999ca55c83", null ],
     [ "worktree", "d3/da6/workspace_8c.html#ac98dcc69197ffa9459e9aa2e9c7be90b", null ],

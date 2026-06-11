@@ -1,4 +1,4 @@
 var labels_8c =
 [
-    [ "label", "de/d87/labels_8c.html#a190a1ae859f941448f2d9f72d582274f", null ]
+    [ "label_curve", "de/d87/labels_8c.html#a3dc9583bd2252fa6461d3b5bf48e5e08", null ]
 ];

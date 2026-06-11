@@ -23,6 +23,7 @@ var structopengl__edition =
     [ "pointer", "d1/d71/structopengl__edition.html#aff1ba43e79e357969f0479d85240fa2a", null ],
     [ "pos_pointer", "d1/d71/structopengl__edition.html#aea9fcfc4bd1118f0a12246bcbb744c0d", null ],
     [ "proj", "d1/d71/structopengl__edition.html#a4ae0842d91cf8b4078b040a76eeec936", null ],
+    [ "render_fix", "d1/d71/structopengl__edition.html#a467ee3b31d0f6ae5bd76e664343c8ccd", null ],
     [ "templates", "d1/d71/structopengl__edition.html#ac0f535cedfc9e36cf6c6efcb0f6de651", null ],
     [ "win", "d1/d71/structopengl__edition.html#af16c9db58fd06e67b9d1c7dd8ba7b261", null ]
 ];
