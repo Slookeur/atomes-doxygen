@@ -33,6 +33,7 @@ var w__library_8c =
     [ "first_family_iter", "d3/db3/w__library_8c.html#a70b20ae59224efb328d1e46f4143a2dd", null ],
     [ "first_mol_iter", "d3/db3/w__library_8c.html#a7a598e241d67d75366f13798a3225734", null ],
     [ "inserted_from_lib", "d3/db3/w__library_8c.html#a656ef754a3ef6144fca93ed03c4c2fdc", null ],
+    [ "lib_info", "d3/db3/w__library_8c.html#afb8efd67ebe3b08c48b3f9535230c504", null ],
     [ "lib_preview_box", "d3/db3/w__library_8c.html#a0975b74101d18fc396acd4f5acb7d3c7", null ],
     [ "lib_preview_plot", "d3/db3/w__library_8c.html#aaff486221854be4fa9071d3e0c46005e", null ],
     [ "lib_proj", "d3/db3/w__library_8c.html#a74def6368ab4f2c15dc10b28f5bfe48a", null ],

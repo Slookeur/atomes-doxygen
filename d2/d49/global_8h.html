@@ -27,7 +27,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../atomes.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">atomes<span id="projectnumber">&#160;1.3.1</span>
+   <div id="projectname">atomes<span id="projectnumber">&#160;1.3.2</span>
    </div>
    <div id="projectbrief">atomes: an atomic scale modeling tool box</div>
   </td>
@@ -102,6 +102,7 @@ $(function(){initNavTree('d2/d49/global_8h.html','../../',''); });
 <code>#include &lt;locale.h&gt;</code><br />
 <code>#include &lt;glib.h&gt;</code><br />
 <code>#include &lt;glib/gi18n.h&gt;</code><br />
+<code>#include &lt;gio/gio.h&gt;</code><br />
 <code>#include &lt;unistd.h&gt;</code><br />
 <code>#include &lt;string.h&gt;</code><br />
 <code>#include &lt;stdio.h&gt;</code><br />
@@ -223,6 +224,7 @@ Macros</h2></td></tr>
 <tr class="memitem:afb212d6c7153207eaa622fb59e8b0898" id="r_afb212d6c7153207eaa622fb59e8b0898"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#afb212d6c7153207eaa622fb59e8b0898">ABOUT</a>&#160;&#160;&#160;&quot;help-about&quot;</td></tr>
 <tr class="memitem:a4bf1b613217b65df7f0d64da2150e3b2" id="r_a4bf1b613217b65df7f0d64da2150e3b2"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a4bf1b613217b65df7f0d64da2150e3b2">BSEP</a>&#160;&#160;&#160;0</td></tr>
 <tr class="memitem:a2177518c5992f3848e13cf520f2bbe70" id="r_a2177518c5992f3848e13cf520f2bbe70"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a2177518c5992f3848e13cf520f2bbe70">IODEBUG</a>&#160;&#160;&#160;FALSE</td></tr>
+<tr class="memitem:a655c84af1b0034986ff56e12e84f983d" id="r_a655c84af1b0034986ff56e12e84f983d"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a655c84af1b0034986ff56e12e84f983d">NONE</a>&#160;&#160;&#160;-1</td></tr>
 <tr class="memitem:a22e112249c4bf45dd3e9151fa9f1ccf4" id="r_a22e112249c4bf45dd3e9151fa9f1ccf4"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a22e112249c4bf45dd3e9151fa9f1ccf4">ATOM_LIMIT</a>&#160;&#160;&#160;100000</td></tr>
 <tr class="memdesc:a22e112249c4bf45dd3e9151fa9f1ccf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">atom number limit to compute fragment(s) and <a class="el" href="#a1682a9d51a8e646be1d288e1251255a8" title="the molecule data structure">molecule(s)</a> analysis automatically  <br /></td></tr>
 <tr class="memitem:a766b86135e7ccc0e5a315bd2646becf2" id="r_a766b86135e7ccc0e5a315bd2646becf2"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a766b86135e7ccc0e5a315bd2646becf2">STEP_LIMIT</a>&#160;&#160;&#160;1000</td></tr>
@@ -250,7 +252,7 @@ Macros</h2></td></tr>
 <tr class="memitem:ad8cb2e0bb5f58a96f93f79484135b5d6" id="r_ad8cb2e0bb5f58a96f93f79484135b5d6"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ad8cb2e0bb5f58a96f93f79484135b5d6">CHEM_X</a>&#160;&#160;&#160;4</td></tr>
 <tr class="memitem:af9790b2c5fe8fae3157a1f987e013619" id="r_af9790b2c5fe8fae3157a1f987e013619"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#af9790b2c5fe8fae3157a1f987e013619">NDOTS</a>&#160;&#160;&#160;8</td></tr>
 <tr class="memitem:af19447b23ec1871b2b02ad97ff5a9c5a" id="r_af19447b23ec1871b2b02ad97ff5a9c5a"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#af19447b23ec1871b2b02ad97ff5a9c5a">NCALCS</a>&#160;&#160;&#160;10</td></tr>
-<tr class="memitem:a9114d879a158b230057e35a5e1231cde" id="r_a9114d879a158b230057e35a5e1231cde"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a9114d879a158b230057e35a5e1231cde">NCFORMATS</a>&#160;&#160;&#160;13</td></tr>
+<tr class="memitem:a9114d879a158b230057e35a5e1231cde" id="r_a9114d879a158b230057e35a5e1231cde"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a9114d879a158b230057e35a5e1231cde">NCFORMATS</a>&#160;&#160;&#160;14</td></tr>
 <tr class="memitem:a7009fad3f69d98f8fbc16873187e493d" id="r_a7009fad3f69d98f8fbc16873187e493d"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a7009fad3f69d98f8fbc16873187e493d">NITEMS</a>&#160;&#160;&#160;4</td></tr>
 <tr class="memitem:a6dc9df917238f73b7f8ac0e1d7b1007f" id="r_a6dc9df917238f73b7f8ac0e1d7b1007f"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a6dc9df917238f73b7f8ac0e1d7b1007f">OT</a>&#160;&#160;&#160;4</td></tr>
 <tr class="memitem:af689f66c28861ecfbfdb0b497a525f54" id="r_af689f66c28861ecfbfdb0b497a525f54"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#af689f66c28861ecfbfdb0b497a525f54">GDR</a>&#160;&#160;&#160;0</td></tr>
@@ -748,11 +750,13 @@ Variables</h2></td></tr>
 <tr class="memitem:ad6b4dffc93c643fe0df0427c75cebcc3" id="r_ad6b4dffc93c643fe0df0427c75cebcc3"><td class="memItemLeft">gboolean&#160;</td><td class="memItemRight"><a class="el" href="#ad6b4dffc93c643fe0df0427c75cebcc3">cif_use_symmetry_positions</a></td></tr>
 <tr class="memitem:afc4b9e71431039b410a47819ceb43292" id="r_afc4b9e71431039b410a47819ceb43292"><td class="memItemLeft">gboolean&#160;</td><td class="memItemRight"><a class="el" href="#afc4b9e71431039b410a47819ceb43292">atomes_from_libreoffice</a></td></tr>
 <tr class="memitem:aa31f645af0133195a3b9559ddd1d2f2b" id="r_aa31f645af0133195a3b9559ddd1d2f2b"><td class="memItemLeft">gboolean&#160;</td><td class="memItemRight"><a class="el" href="#aa31f645af0133195a3b9559ddd1d2f2b">atomes_render_image</a></td></tr>
+<tr class="memitem:a010e5f6f965f128d82c8941e19d1b44b" id="r_a010e5f6f965f128d82c8941e19d1b44b"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a010e5f6f965f128d82c8941e19d1b44b">atomes_convert_file</a></td></tr>
 <tr class="memitem:a47c0496cc7f24fc2812180258c8fe31d" id="r_a47c0496cc7f24fc2812180258c8fe31d"><td class="memItemLeft">struct timespec&#160;</td><td class="memItemRight"><a class="el" href="#a47c0496cc7f24fc2812180258c8fe31d">start_time</a></td></tr>
 <tr class="memitem:ad031df8044c6b9f22467f147bc22a709" id="r_ad031df8044c6b9f22467f147bc22a709"><td class="memItemLeft">struct timespec&#160;</td><td class="memItemRight"><a class="el" href="#ad031df8044c6b9f22467f147bc22a709">stop_time</a></td></tr>
 <tr class="memitem:aae4c08486e94ec460ebd68345233ed1d" id="r_aae4c08486e94ec460ebd68345233ed1d"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="#aae4c08486e94ec460ebd68345233ed1d">opac</a></td></tr>
 <tr class="memitem:a31c17cc321db72d5ab448b71ea92792f" id="r_a31c17cc321db72d5ab448b71ea92792f"><td class="memItemLeft">double&#160;</td><td class="memItemRight"><a class="el" href="#a31c17cc321db72d5ab448b71ea92792f">pi</a></td></tr>
-<tr class="memitem:a8a72a6a68e84fe18b620eb1479e1e96b" id="r_a8a72a6a68e84fe18b620eb1479e1e96b"><td class="memItemLeft">GtkWidget *&#160;</td><td class="memItemRight"><a class="el" href="#a8a72a6a68e84fe18b620eb1479e1e96b">MainWindow</a></td></tr>
+<tr class="memitem:ae0084c69ab4a6da84716c6e65bfcad9f" id="r_ae0084c69ab4a6da84716c6e65bfcad9f"><td class="memItemLeft">GtkApplication *&#160;</td><td class="memItemRight"><a class="el" href="#ae0084c69ab4a6da84716c6e65bfcad9f">atomes_app</a></td></tr>
+<tr class="memitem:a35653ee9bd622f32be5b2154778e90f5" id="r_a35653ee9bd622f32be5b2154778e90f5"><td class="memItemLeft">GtkWidget *&#160;</td><td class="memItemRight"><a class="el" href="#a35653ee9bd622f32be5b2154778e90f5">atomes_main_window</a></td></tr>
 <tr class="memitem:af9e5b915cab8d4f88ad63aecd3d94fc6" id="r_af9e5b915cab8d4f88ad63aecd3d94fc6"><td class="memItemLeft">GtkWidget *&#160;</td><td class="memItemRight"><a class="el" href="#af9e5b915cab8d4f88ad63aecd3d94fc6">MainView</a></td></tr>
 <tr class="memitem:a7ffb1be207bd4cf19956bc43d794680b" id="r_a7ffb1be207bd4cf19956bc43d794680b"><td class="memItemLeft">GtkWidget *&#160;</td><td class="memItemRight"><a class="el" href="#a7ffb1be207bd4cf19956bc43d794680b">MainFrame</a> [2]</td></tr>
 <tr class="memitem:ae557af6ff3de1230d0c0ad99fda27d4a" id="r_ae557af6ff3de1230d0c0ad99fda27d4a"><td class="memItemLeft">GtkWidget *&#160;</td><td class="memItemRight"><a class="el" href="#ae557af6ff3de1230d0c0ad99fda27d4a">pop</a></td></tr>
@@ -779,7 +783,6 @@ Variables</h2></td></tr>
 <tr class="memitem:a392a00c79ec5d59a46df38de71589efd" id="r_a392a00c79ec5d59a46df38de71589efd"><td class="memItemLeft"><a class="el" href="../../d1/d6a/structatomes__action.html">atomes_action</a>&#160;</td><td class="memItemRight"><a class="el" href="#a392a00c79ec5d59a46df38de71589efd">edition_acts</a> []</td></tr>
 <tr class="memitem:a63faa9f0b3e4a03314fadd5c0e0072ee" id="r_a63faa9f0b3e4a03314fadd5c0e0072ee"><td class="memItemLeft"><a class="el" href="../../d1/d6a/structatomes__action.html">atomes_action</a>&#160;</td><td class="memItemRight"><a class="el" href="#a63faa9f0b3e4a03314fadd5c0e0072ee">analyze_acts</a> []</td></tr>
 <tr class="memitem:a9708642362f3823ecbc312fc19c4baf2" id="r_a9708642362f3823ecbc312fc19c4baf2"><td class="memItemLeft">GSimpleAction *&#160;</td><td class="memItemRight"><a class="el" href="#a9708642362f3823ecbc312fc19c4baf2">edition_actions</a> []</td></tr>
-<tr class="memitem:a6fb6ae18dd31d52edf514d42cf99ae46" id="r_a6fb6ae18dd31d52edf514d42cf99ae46"><td class="memItemLeft">GtkApplication *&#160;</td><td class="memItemRight"><a class="el" href="#a6fb6ae18dd31d52edf514d42cf99ae46">AtomesApp</a></td></tr>
 <tr class="memitem:a04c5bd5639588414abadddb0adb1eaba" id="r_a04c5bd5639588414abadddb0adb1eaba"><td class="memItemLeft"><a class="el" href="../../d2/d73/structworkspace.html">workspace</a>&#160;</td><td class="memItemRight"><a class="el" href="#a04c5bd5639588414abadddb0adb1eaba">workzone</a></td></tr>
 <tr class="memitem:a3d2fd1fcc3a6c1e8f6540b49a3ce05b7" id="r_a3d2fd1fcc3a6c1e8f6540b49a3ce05b7"><td class="memItemLeft"><a class="el" href="../../dd/dbe/structproject.html">project</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a3d2fd1fcc3a6c1e8f6540b49a3ce05b7">proj</a></td></tr>
 <tr class="memitem:a4ab7657eae04d3b19ea099944f93e5d0" id="r_a4ab7657eae04d3b19ea099944f93e5d0"><td class="memItemLeft"><a class="el" href="../../da/d11/structchemical__data.html">chemical_data</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a4ab7657eae04d3b19ea099944f93e5d0">active_chem</a></td></tr>
@@ -813,7 +816,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00241">241</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00242">242</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -829,7 +832,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00240">240</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00241">241</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -845,7 +848,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00342">342</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00344">344</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -861,7 +864,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00236">236</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00237">237</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -893,7 +896,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00341">341</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00343">343</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -909,7 +912,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00261">261</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00262">262</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -925,7 +928,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00231">231</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00232">232</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -941,7 +944,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00344">344</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00346">346</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -957,7 +960,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00317">317</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00319">319</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -973,7 +976,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00319">319</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00321">321</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -989,7 +992,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00315">315</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00317">317</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1005,7 +1008,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00318">318</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00320">320</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1021,7 +1024,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00320">320</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00322">322</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1037,7 +1040,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00316">316</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00318">318</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1053,7 +1056,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00352">352</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00354">354</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1069,7 +1072,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00351">351</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00353">353</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1085,7 +1088,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00238">238</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00239">239</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1101,7 +1104,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00239">239</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00240">240</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1117,7 +1120,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00222">222</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00223">223</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1133,7 +1136,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00221">221</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00222">222</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1149,7 +1152,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00218">218</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00219">219</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1165,7 +1168,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00219">219</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00220">220</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1181,7 +1184,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00220">220</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00221">221</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1197,7 +1200,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00308">308</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00310">310</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1213,7 +1216,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00300">300</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00302">302</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1229,7 +1232,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00301">301</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00303">303</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1245,7 +1248,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00306">306</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00308">308</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1261,7 +1264,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00304">304</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00306">306</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1277,7 +1280,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00298">298</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00300">300</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1307,7 +1310,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00299">299</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00301">301</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1323,7 +1326,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00307">307</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00309">309</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1339,7 +1342,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00303">303</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00305">305</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1355,7 +1358,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00297">297</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00299">299</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1371,7 +1374,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00309">309</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00311">311</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1387,7 +1390,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00305">305</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00307">307</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1403,7 +1406,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00296">296</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00298">298</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1419,7 +1422,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00302">302</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00304">304</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1435,7 +1438,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00232">232</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00233">233</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1451,7 +1454,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00227">227</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00228">228</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1467,7 +1470,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00228">228</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00229">229</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1483,7 +1486,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00215">215</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00216">216</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1499,7 +1502,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00223">223</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00224">224</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1515,7 +1518,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00224">224</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00225">225</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1531,7 +1534,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00225">225</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00226">226</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1547,7 +1550,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00226">226</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00227">227</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1563,7 +1566,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00214">214</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00215">215</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1579,7 +1582,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00340">340</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00342">342</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1611,7 +1614,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00337">337</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00339">339</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1643,7 +1646,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00212">212</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00213">213</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1659,7 +1662,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00210">210</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00211">211</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1675,7 +1678,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00209">209</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00210">210</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1691,7 +1694,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00211">211</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00212">212</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1709,7 +1712,7 @@ Variables</h2></td></tr>
 
 <p>maximum number of elements in GTK widgets like GtkTreeView, GtkTreeStore or similar rendering widgets can be an issue if the number of items to display is too high if the number of element to display is &lt; GTK_LIMIT then the widget is rendered, otherwise a search engine is (or should be) used </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00077">77</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00078">78</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1745,7 +1748,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00283">283</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00284">284</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1761,7 +1764,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00497">497</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00501">501</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1777,7 +1780,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00229">229</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00230">230</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1793,7 +1796,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00230">230</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00231">231</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1817,7 +1820,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">(a&gt;=b?a:b)</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00092">92</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00093">93</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1835,7 +1838,7 @@ Variables</h2></td></tr>
 
 <p>Number of tabs for the description of the classical force field. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00776">776</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00780">780</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1853,7 +1856,7 @@ Variables</h2></td></tr>
 
 <p>Number of tabs for the description of the classical calculation. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00771">771</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00775">775</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1869,7 +1872,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00208">208</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00209">209</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1885,7 +1888,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00201">201</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00202">202</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1901,7 +1904,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00202">202</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00203">203</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1917,7 +1920,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00200">200</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00201">201</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1933,7 +1936,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00205">205</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00206">206</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1949,7 +1952,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00198">198</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00199">199</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1965,7 +1968,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00203">203</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00204">204</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1981,7 +1984,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00199">199</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00200">200</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -1997,7 +2000,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00207">207</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00208">208</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2013,7 +2016,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00204">204</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00205">205</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2029,7 +2032,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00206">206</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00207">207</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2053,7 +2056,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">(a&lt;=b?a:b)</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00093">93</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00094">94</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2069,7 +2072,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00353">353</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00355">355</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2085,7 +2088,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00346">346</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00348">348</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2101,7 +2104,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00103">103</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00104">104</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2126,12 +2129,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define NCFORMATS&#160;&#160;&#160;13</td>
+          <td class="memname">#define NCFORMATS&#160;&#160;&#160;14</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00332">332</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00334">334</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2161,7 +2164,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00334">334</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00336">336</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+
+</div>
+</div>
+<a id="a655c84af1b0034986ff56e12e84f983d" name="a655c84af1b0034986ff56e12e84f983d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a655c84af1b0034986ff56e12e84f983d">&#9670;&#160;</a></span>NONE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NONE&#160;&#160;&#160;-1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00285">285</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2177,7 +2196,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00295">295</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00297">297</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2193,7 +2212,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00336">336</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00338">338</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2209,7 +2228,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00213">213</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00214">214</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2225,7 +2244,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00216">216</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00217">217</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2241,7 +2260,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00343">343</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00345">345</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2257,7 +2276,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00339">339</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00341">341</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2273,7 +2292,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00347">347</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00349">349</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2289,7 +2308,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00345">345</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00347">347</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2305,7 +2324,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00338">338</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00340">340</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2321,7 +2340,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00293">293</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00295">295</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2337,7 +2356,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00217">217</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00218">218</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2356,7 +2375,7 @@ Variables</h2></td></tr>
 
 <p>atom data structure </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00962">962</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00966">966</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2374,7 +2393,7 @@ Variables</h2></td></tr>
 
 <p>action information data structure </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00161">161</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00162">162</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2392,7 +2411,7 @@ Variables</h2></td></tr>
 
 <p>analysis data structure </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00738">738</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00742">742</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2410,7 +2429,7 @@ Variables</h2></td></tr>
 
 <p><a class="el" href="../../d5/de8/structatomes__error.html">atomes_error</a> information data structure </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00516">516</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00520">520</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2428,7 +2447,7 @@ Variables</h2></td></tr>
 
 <p><a class="el" href="../../db/d20/structatomes__error__signal.html">atomes_error_signal</a> data structure </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00505">505</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00509">509</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2446,7 +2465,7 @@ Variables</h2></td></tr>
 
 <p>a structure to store some chemical information </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00927">927</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00931">931</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2462,7 +2481,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00778">778</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00782">782</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2478,7 +2497,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00133">133</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00134">134</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2496,7 +2515,7 @@ Variables</h2></td></tr>
 
 <p>atomic coordinates file, data container </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00540">540</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00544">544</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2514,7 +2533,7 @@ Variables</h2></td></tr>
 
 <p>coordination information data structure </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00172">172</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00173">173</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2530,7 +2549,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00866">866</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00870">870</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2546,7 +2565,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00847">847</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00851">851</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2564,7 +2583,7 @@ Variables</h2></td></tr>
 
 <p>curve data structure </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00649">649</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00653">653</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2582,7 +2601,7 @@ Variables</h2></td></tr>
 
 <p>extra curve(s) data information </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00624">624</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00628">628</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2600,7 +2619,7 @@ Variables</h2></td></tr>
 
 <p>data structure used for zoom in / out on curve widget </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00594">594</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00598">598</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2618,7 +2637,7 @@ Variables</h2></td></tr>
 
 <p>curve layout information </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00605">605</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00609">609</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2634,7 +2653,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00109">109</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00110">110</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2650,7 +2669,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00829">829</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00833">833</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2668,7 +2687,7 @@ Variables</h2></td></tr>
 
 <p>element description used for the periodic table defined in '<a class="el" href="../../dc/deb/w__periodic_8c.html" title="Functions to create the periodic table of the elements   Functions to select element from the periodi...">w_periodic.c</a>' </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00914">914</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00918">918</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2686,7 +2705,7 @@ Variables</h2></td></tr>
 
 <p>list of extra data sets for a curve </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00637">637</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00641">641</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2704,7 +2723,7 @@ Variables</h2></td></tr>
 
 <p>data structure for the insertion pop-up menu </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00949">949</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00953">953</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2720,7 +2739,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00528">528</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00532">532</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2738,7 +2757,7 @@ Variables</h2></td></tr>
 
 <p>data structure to describe the topology </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00903">903</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00907">907</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2756,7 +2775,7 @@ Variables</h2></td></tr>
 
 <p>the molecule data structure </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00887">887</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00891">891</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2774,7 +2793,7 @@ Variables</h2></td></tr>
 
 <p>data structure to store mouse information on curve widget </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00581">581</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00585">585</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2792,7 +2811,7 @@ Variables</h2></td></tr>
 
 <p>data structure for the 'atomes' project </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l01013">1013</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l01017">1017</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2808,7 +2827,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00124">124</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00125">125</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2826,7 +2845,7 @@ Variables</h2></td></tr>
 
 <p>keyboard shortcuts information </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00148">148</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00149">149</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2842,7 +2861,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00811">811</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00815">815</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2858,7 +2877,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00116">116</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00117">117</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2876,7 +2895,7 @@ Variables</h2></td></tr>
 
 <p>data structure for the 'atomes' workspace </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l01123">1123</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l01127">1127</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2907,7 +2926,7 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00265">265</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00266">266</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -2935,7 +2954,7 @@ Variables</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00275">275</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d49/global_8h_source.html#l00276">276</a> of file <a class="el" href="../../d2/d49/global_8h_source.html">global.h</a>.</p>
 
 </div>
 </div>
@@ -3320,7 +3339,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../de/dee/preferences_8c_source.html#l05153">5153</a> of file <a class="el" href="../../de/dee/preferences_8c_source.html">preferences.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/dee/preferences_8c_source.html#l05247">5247</a> of file <a class="el" href="../../de/dee/preferences_8c_source.html">preferences.c</a>.</p>
 
 </div>
 </div>
@@ -3472,7 +3491,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00241">241</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00242">242</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -3512,7 +3531,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00257">257</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00258">258</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -3552,7 +3571,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00462">462</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00463">463</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -3592,7 +3611,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00401">401</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00402">402</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -3712,7 +3731,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00317">317</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00318">318</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -3747,7 +3766,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00446">446</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00447">447</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -3782,7 +3801,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00385">385</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00386">386</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -3852,7 +3871,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00301">301</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00302">302</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -3904,7 +3923,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00509">509</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00510">510</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -3956,7 +3975,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00364">364</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00365">365</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -4002,7 +4021,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00280">280</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00281">281</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -4048,7 +4067,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00485">485</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00486">486</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -4094,7 +4113,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00424">424</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00425">425</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -4140,7 +4159,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00340">340</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00341">341</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -4535,7 +4554,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00643">643</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00644">644</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -6237,7 +6256,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00563">563</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00564">564</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -6317,7 +6336,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00595">595</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00596">596</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -6357,7 +6376,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00579">579</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00580">580</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -6397,7 +6416,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00547">547</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00548">548</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -6437,7 +6456,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00531">531</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00532">532</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -6886,7 +6905,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00630">630</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00631">631</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -8955,7 +8974,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d3a/callbacks_8c_source.html#l00182">182</a> of file <a class="el" href="../../d3/d3a/callbacks_8c_source.html">callbacks.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d3a/callbacks_8c_source.html#l00193">193</a> of file <a class="el" href="../../d3/d3a/callbacks_8c_source.html">callbacks.c</a>.</p>
 
 </div>
 </div>
@@ -9101,7 +9120,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00611">611</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00612">612</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -9357,7 +9376,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d3a/callbacks_8c_source.html#l00200">200</a> of file <a class="el" href="../../d3/d3a/callbacks_8c_source.html">callbacks.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d3a/callbacks_8c_source.html#l00211">211</a> of file <a class="el" href="../../d3/d3a/callbacks_8c_source.html">callbacks.c</a>.</p>
 
 </div>
 </div>
@@ -9789,6 +9808,30 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ae0084c69ab4a6da84716c6e65bfcad9f" name="ae0084c69ab4a6da84716c6e65bfcad9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0084c69ab4a6da84716c6e65bfcad9f">&#9670;&#160;</a></span>atomes_app</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GtkApplication* atomes_app</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00207">207</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+
+</div>
+</div>
 <a id="a0ab9e9a5f0fb3f0b459f90d59fb777c9" name="a0ab9e9a5f0fb3f0b459f90d59fb777c9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ab9e9a5f0fb3f0b459f90d59fb777c9">&#9670;&#160;</a></span>ATOMES_CONFIG</h2>
 
@@ -9837,6 +9880,30 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a010e5f6f965f128d82c8941e19d1b44b" name="a010e5f6f965f128d82c8941e19d1b44b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a010e5f6f965f128d82c8941e19d1b44b">&#9670;&#160;</a></span>atomes_convert_file</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int atomes_convert_file</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00197">197</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+
+</div>
+</div>
 <a id="afc4b9e71431039b410a47819ceb43292" name="afc4b9e71431039b410a47819ceb43292"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afc4b9e71431039b410a47819ceb43292">&#9670;&#160;</a></span>atomes_from_libreoffice</h2>
 
@@ -9881,7 +9948,31 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00214">214</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00215">215</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+
+</div>
+</div>
+<a id="a35653ee9bd622f32be5b2154778e90f5" name="a35653ee9bd622f32be5b2154778e90f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35653ee9bd622f32be5b2154778e90f5">&#9670;&#160;</a></span>atomes_main_window</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GtkWidget* atomes_main_window</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00208">208</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -9929,7 +10020,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00215">215</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00216">216</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -9978,30 +10069,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00168">168</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
-
-</div>
-</div>
-<a id="a6fb6ae18dd31d52edf514d42cf99ae46" name="a6fb6ae18dd31d52edf514d42cf99ae46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fb6ae18dd31d52edf514d42cf99ae46">&#9670;&#160;</a></span>AtomesApp</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">GtkApplication* AtomesApp</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00206">206</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -10073,7 +10140,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00216">216</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00217">217</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -10217,7 +10284,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d3a/callbacks_8c_source.html#l00103">103</a> of file <a class="el" href="../../d3/d3a/callbacks_8c_source.html">callbacks.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d3a/callbacks_8c_source.html#l00104">104</a> of file <a class="el" href="../../d3/d3a/callbacks_8c_source.html">callbacks.c</a>.</p>
 
 </div>
 </div>
@@ -10265,7 +10332,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00211">211</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00212">212</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -10361,7 +10428,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00204">204</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00205">205</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -10601,7 +10668,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00209">209</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00210">210</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -10625,7 +10692,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00213">213</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00214">214</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -10649,31 +10716,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00208">208</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
-
-</div>
-</div>
-<a id="a8a72a6a68e84fe18b620eb1479e1e96b" name="a8a72a6a68e84fe18b620eb1479e1e96b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a72a6a68e84fe18b620eb1479e1e96b">&#9670;&#160;</a></span>MainWindow</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">GtkWidget* MainWindow</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00207">207</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00209">209</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -10817,7 +10860,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00227">227</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00228">228</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -10841,7 +10884,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00229">229</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00230">230</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -10865,7 +10908,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00228">228</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00229">229</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -10889,7 +10932,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00201">201</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00202">202</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -12161,7 +12204,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00202">202</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00203">203</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -12185,7 +12228,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00210">210</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00211">211</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -12209,7 +12252,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00212">212</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00213">213</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -12327,7 +12370,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00217">217</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00218">218</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -12375,7 +12418,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00230">230</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00231">231</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -12423,7 +12466,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00225">225</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00226">226</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -12447,7 +12490,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00226">226</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00227">227</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -12495,7 +12538,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00198">198</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00199">199</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -12519,7 +12562,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00220">220</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00221">221</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -12591,7 +12634,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00199">199</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00200">200</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -12615,7 +12658,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00219">219</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00220">220</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -12639,7 +12682,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00224">224</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00225">225</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -12663,7 +12706,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00223">223</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00224">224</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>
@@ -12687,7 +12730,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00222">222</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d57/global_8c_source.html#l00223">223</a> of file <a class="el" href="../../dc/d57/global_8c_source.html">global.c</a>.</p>
 
 </div>
 </div>

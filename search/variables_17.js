@@ -23,5 +23,6 @@ var searchData=
   ['xwin_20',['xwin',['../d3/d10/image_8c.html#a1eb44a3cb81323dca293c956e6e5f2c4',1,'image.c']]],
   ['xyl_21',['xyl',['../d2/d2a/structcurve__edition.html#a2d5330240aa4cdbd93a38d6b528b907f',1,'curve_edition']]],
   ['xyp_22',['xyp',['../d2/d2a/structcurve__edition.html#a0af6d603f5ec5843e35ffcd7c4868198',1,'curve_edition::xyp'],['../df/de9/curve_8h.html#a0af6d603f5ec5843e35ffcd7c4868198',1,'xyp:&#160;curve.h']]],
-  ['xyz_23',['xyz',['../dc/dcf/structdummy__atom.html#af7fb451c04ddee51d37c391516453569',1,'dummy_atom::xyz'],['../de/d68/structimage.html#a456541164a6870a2593d9735193493df',1,'image::xyz']]]
+  ['xyz_23',['xyz',['../dc/dcf/structdummy__atom.html#af7fb451c04ddee51d37c391516453569',1,'dummy_atom::xyz'],['../de/d68/structimage.html#a456541164a6870a2593d9735193493df',1,'image::xyz']]],
+  ['xyz_5ffiles_24',['xyz_files',['../d0/d29/main_8c.html#a375595ce04e53cb1a95177e9e7d20c87',1,'main.c']]]
 ];

@@ -22,12 +22,14 @@ var searchData=
   ['nglyphs_19',['NGLYPHS',['../df/de9/curve_8h.html#a9343f294e83cd198b297af5fc18bceea',1,'curve.h']]],
   ['ninputs_20',['NINPUTS',['../da/d7e/glwin_8h.html#ae244fd7da54cffb995fdf4c38a4213c0',1,'glwin.h']]],
   ['nitems_21',['NITEMS',['../d2/d49/global_8h.html#a7009fad3f69d98f8fbc16873187e493d',1,'global.h']]],
-  ['noptpc_22',['NOPTPC',['../d2/d06/cpmd_8h.html#aef4950ea8e4ad1d11a50370d0645f59f',1,'cpmd.h']]],
-  ['nsecop_23',['NSECOP',['../d2/d06/cpmd_8h.html#a09a4a5c99f61f66e0b5b611f79009382',1,'cpmd.h']]],
-  ['nselection_24',['NSELECTION',['../da/d7e/glwin_8h.html#af006b2b88ff5451e271ab0f1421b84bc',1,'glwin.h']]],
-  ['nsym_25',['NSYM',['../d2/d06/cpmd_8h.html#ac697c9eb2ca620ce4f6c9cd424ddfa24',1,'cpmd.h']]],
-  ['nucol_26',['NUCOL',['../dc/d79/dlp__ff__match_8c.html#a88625c85cd9da53344676f4f878b3549',1,'dlp_ff_match.c']]],
-  ['num_5fcolors_27',['NUM_COLORS',['../da/d7e/glwin_8h.html#a49286c80a7005e4f2faf8f2c54005a54',1,'glwin.h']]],
-  ['num_5fdelta_28',['NUM_DELTA',['../de/dee/preferences_8c.html#a3b940176e51e10f35ade0d412c5b6570',1,'preferences.c']]],
-  ['num_5fstyles_29',['NUM_STYLES',['../dc/de3/glview_8h.html#abad2165b6127e1e52d24b3f954f31b79',1,'glview.h']]]
+  ['nlkeys_22',['NLKEYS',['../d8/d50/read__cif_8c.html#a4c3d400ec618ad2d13d43a336c705a5c',1,'read_cif.c']]],
+  ['none_23',['NONE',['../d2/d49/global_8h.html#a655c84af1b0034986ff56e12e84f983d',1,'global.h']]],
+  ['noptpc_24',['NOPTPC',['../d2/d06/cpmd_8h.html#aef4950ea8e4ad1d11a50370d0645f59f',1,'cpmd.h']]],
+  ['nsecop_25',['NSECOP',['../d2/d06/cpmd_8h.html#a09a4a5c99f61f66e0b5b611f79009382',1,'cpmd.h']]],
+  ['nselection_26',['NSELECTION',['../da/d7e/glwin_8h.html#af006b2b88ff5451e271ab0f1421b84bc',1,'glwin.h']]],
+  ['nsym_27',['NSYM',['../d2/d06/cpmd_8h.html#ac697c9eb2ca620ce4f6c9cd424ddfa24',1,'cpmd.h']]],
+  ['nucol_28',['NUCOL',['../dc/d79/dlp__ff__match_8c.html#a88625c85cd9da53344676f4f878b3549',1,'dlp_ff_match.c']]],
+  ['num_5fcolors_29',['NUM_COLORS',['../da/d7e/glwin_8h.html#a49286c80a7005e4f2faf8f2c54005a54',1,'glwin.h']]],
+  ['num_5fdelta_30',['NUM_DELTA',['../de/dee/preferences_8c.html#a3b940176e51e10f35ade0d412c5b6570',1,'preferences.c']]],
+  ['num_5fstyles_31',['NUM_STYLES',['../dc/de3/glview_8h.html#abad2165b6127e1e52d24b3f954f31b79',1,'glview.h']]]
 ];

@@ -27,7 +27,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../atomes.svg"/></td>
   <td id="projectalign">
-   <div id="projectname">atomes<span id="projectnumber">&#160;1.3.1</span>
+   <div id="projectname">atomes<span id="projectnumber">&#160;1.3.2</span>
    </div>
    <div id="projectbrief">atomes: an atomic scale modeling tool box</div>
   </td>
@@ -110,6 +110,7 @@ $(function(){initNavTree('d0/d29/main_8c.html','../../',''); });
 <code>#include &quot;<a class="el" href="../../dc/de3/glview_8h_source.html">glview.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../da/ddd/movie_8h_source.html">movie.h</a>&quot;</code><br />
 <code>#include &lt;pwd.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../de/d2d/fr__ipcms__atomes-_instance_8h_source.html">fr_ipcms_atomes-Instance.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Include dependency graph for main.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
@@ -147,6 +148,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a034914b0082ac76c7bd0fccff0285a73"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve representation style from command line string  <br /></td></tr>
 <tr class="memitem:a2ef0658ba98438a5b0f507e5f1efc815" id="r_a2ef0658ba98438a5b0f507e5f1efc815"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a2ef0658ba98438a5b0f507e5f1efc815">get_box_axis_from_string</a> (gchar *box_axis_string)</td></tr>
 <tr class="memdesc:a2ef0658ba98438a5b0f507e5f1efc815"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve box or axis style from command line string  <br /></td></tr>
+<tr class="memitem:a36b47d8cd094595eec51849fb762a5e1" id="r_a36b47d8cd094595eec51849fb762a5e1"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a36b47d8cd094595eec51849fb762a5e1">get_file_format_from_string</a> (gchar *file_format_string)</td></tr>
+<tr class="memdesc:a36b47d8cd094595eec51849fb762a5e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve file format for convertion from command line string  <br /></td></tr>
 <tr class="memitem:a0341e4c94e7e4932e52839000571fa78" id="r_a0341e4c94e7e4932e52839000571fa78"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a0341e4c94e7e4932e52839000571fa78">get_color_map_from_string</a> (gchar *col_string)</td></tr>
 <tr class="memdesc:a0341e4c94e7e4932e52839000571fa78"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve color map from command line string  <br /></td></tr>
 <tr class="memitem:a6367967ca3611471f30fff94104b1c25" id="r_a6367967ca3611471f30fff94104b1c25"><td class="memItemLeft"><a class="el" href="../../d1/d74/struct_col_r_g_b_a.html">ColRGBA</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a6367967ca3611471f30fff94104b1c25">get_color_from_hexa_string</a> (gchar *color_string)</td></tr>
@@ -155,6 +158,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a71f2c23b9748c64a6e57634e7346c3e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve background gradient from command line string  <br /></td></tr>
 <tr class="memitem:aea91e110c7a13eb176c65dab73801920" id="r_aea91e110c7a13eb176c65dab73801920"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#aea91e110c7a13eb176c65dab73801920">check_for_atomes_file_options</a> (int start, int end, char *argv[])</td></tr>
 <tr class="memdesc:aea91e110c7a13eb176c65dab73801920"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve the list of files to read from the command line leave out all other options  <br /></td></tr>
+<tr class="memitem:a6571cc17b9e9fa96fca9c59fe8bc1284" id="r_a6571cc17b9e9fa96fca9c59fe8bc1284"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6571cc17b9e9fa96fca9c59fe8bc1284">set_atomes_locale</a> ()</td></tr>
+<tr class="memdesc:a6571cc17b9e9fa96fca9c59fe8bc1284"><td class="mdescLeft">&#160;</td><td class="mdescRight">set locale  <br /></td></tr>
 <tr class="memitem:aa181995d7df5c31711c06ff2657f2f29" id="r_aa181995d7df5c31711c06ff2657f2f29"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#aa181995d7df5c31711c06ff2657f2f29">parse_command_line</a> (int argc, char *argv[])</td></tr>
 <tr class="memdesc:aa181995d7df5c31711c06ff2657f2f29"><td class="mdescLeft">&#160;</td><td class="mdescRight">test command line arguments  <br /></td></tr>
 <tr class="memitem:a9ae17da4cfb76791b2b1b8d0ee3c7ca5" id="r_a9ae17da4cfb76791b2b1b8d0ee3c7ca5"><td class="memItemLeft">gboolean&#160;</td><td class="memItemRight"><a class="el" href="#a9ae17da4cfb76791b2b1b8d0ee3c7ca5">destroy_func</a> (gpointer user_data)</td></tr>
@@ -187,6 +192,9 @@ Variables</h2></td></tr>
 <tr class="memitem:a53c5a6af777191174a52a95b3a0f8012" id="r_a53c5a6af777191174a52a95b3a0f8012"><td class="memItemLeft">gchar *&#160;</td><td class="memItemRight"><a class="el" href="#a53c5a6af777191174a52a95b3a0f8012">sp_styles</a> [] = {&quot;sphere&quot;, &quot;spheres&quot;, &quot;sph&quot;, &quot;sp&quot;, &quot;S&quot;, NULL}</td></tr>
 <tr class="memitem:aa61f8f609405082a1b5bc2d72a611e7d" id="r_aa61f8f609405082a1b5bc2d72a611e7d"><td class="memItemLeft">gchar *&#160;</td><td class="memItemRight"><a class="el" href="#aa61f8f609405082a1b5bc2d72a611e7d">cy_styles</a> [] = {&quot;cylinder&quot;, &quot;cylinders&quot;, &quot;cyl&quot;, &quot;cy&quot;, &quot;c&quot;, NULL}</td></tr>
 <tr class="memitem:acd02ce72968536c77dce8e42966f4112" id="r_acd02ce72968536c77dce8e42966f4112"><td class="memItemLeft">gchar *&#160;</td><td class="memItemRight"><a class="el" href="#acd02ce72968536c77dce8e42966f4112">do_styles</a> [] = {&quot;dot&quot;, &quot;dots&quot;, &quot;d&quot;, NULL}</td></tr>
+<tr class="memitem:a375595ce04e53cb1a95177e9e7d20c87" id="r_a375595ce04e53cb1a95177e9e7d20c87"><td class="memItemLeft">gchar *&#160;</td><td class="memItemRight"><a class="el" href="#a375595ce04e53cb1a95177e9e7d20c87">xyz_files</a> [] = {&quot;xyz&quot;, NULL}</td></tr>
+<tr class="memitem:aa66af60ae5cb2b06e6edf5759a80aeb7" id="r_aa66af60ae5cb2b06e6edf5759a80aeb7"><td class="memItemLeft">gchar *&#160;</td><td class="memItemRight"><a class="el" href="#aa66af60ae5cb2b06e6edf5759a80aeb7">c3d_files</a> [] = {&quot;c3d&quot;, &quot;chemd3d&quot;, NULL}</td></tr>
+<tr class="memitem:a7021565a3207df83d9f1bea00439be0d" id="r_a7021565a3207df83d9f1bea00439be0d"><td class="memItemLeft">gchar *&#160;</td><td class="memItemRight"><a class="el" href="#a7021565a3207df83d9f1bea00439be0d">sml_files</a> [] = {&quot;sml&quot;, NULL}</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Initialization of the atomes program <br  />
@@ -207,7 +215,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00088">88</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00099">99</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -246,7 +254,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00496">496</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00534">534</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -267,7 +275,7 @@ Variables</h2></td></tr>
 
 <p>check the initialization parameters for an OpenGL context </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l01100">1100</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l01520">1520</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -323,7 +331,7 @@ Variables</h2></td></tr>
 
 <p>create splash screen window </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00793">793</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00851">851</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -350,7 +358,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00763">763</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00821">821</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -377,7 +385,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00382">382</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00405">405</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -404,7 +412,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00418">418</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00456">456</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -431,7 +439,34 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00396">396</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00434">434</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+
+</div>
+</div>
+<a id="a36b47d8cd094595eec51849fb762a5e1" name="a36b47d8cd094595eec51849fb762a5e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36b47d8cd094595eec51849fb762a5e1">&#9670;&#160;</a></span>get_file_format_from_string()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int get_file_format_from_string </td>
+          <td>(</td>
+          <td class="paramtype">gchar *</td>          <td class="paramname"><span class="paramname"><em>file_format_string</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>retrieve file format for convertion from command line string </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file_format_string</td><td>the file format keyword from command line </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00419">419</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -458,7 +493,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00475">475</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00513">513</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -485,7 +520,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00366">366</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00389">389</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -512,7 +547,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00345">345</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00368">368</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -544,7 +579,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00322">322</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00345">345</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -576,7 +611,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l01183">1183</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l01603">1603</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -608,7 +643,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00862">862</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00920">920</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -640,7 +675,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00537">537</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00589">589</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -661,7 +696,7 @@ Variables</h2></td></tr>
 
 <p>print basic help </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00123">123</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00138">138</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -682,7 +717,7 @@ Variables</h2></td></tr>
 
 <p>print version information </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00190">190</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00213">213</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -714,7 +749,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00831">831</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00889">889</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -746,7 +781,28 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l01011">1011</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l01431">1431</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+
+</div>
+</div>
+<a id="a6571cc17b9e9fa96fca9c59fe8bc1284" name="a6571cc17b9e9fa96fca9c59fe8bc1284"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6571cc17b9e9fa96fca9c59fe8bc1284">&#9670;&#160;</a></span>set_atomes_locale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_atomes_locale </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>set locale </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00572">572</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -773,7 +829,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00295">295</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00318">318</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -805,7 +861,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00274">274</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00297">297</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -827,7 +883,23 @@ Variables</h2></td></tr>
 <div class="line">      <span class="stringliteral">&quot;ballsandsticks&quot;</span>, <span class="stringliteral">&quot;ballsandstick&quot;</span>, <span class="stringliteral">&quot;ballanddsticks&quot;</span>, <span class="stringliteral">&quot;ballandstick&quot;</span>,</div>
 <div class="line">      <span class="stringliteral">&quot;b&amp;s&quot;</span>, <span class="stringliteral">&quot;b_and_s&quot;</span>, <span class="stringliteral">&quot;bs&quot;</span>, <span class="stringliteral">&quot;b&quot;</span>, NULL}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00104">104</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00116">116</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+
+</div>
+</div>
+<a id="aa66af60ae5cb2b06e6edf5759a80aeb7" name="aa66af60ae5cb2b06e6edf5759a80aeb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa66af60ae5cb2b06e6edf5759a80aeb7">&#9670;&#160;</a></span>c3d_files</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">gchar* c3d_files[] = {&quot;c3d&quot;, &quot;chemd3d&quot;, NULL}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00130">130</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -843,7 +915,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00110">110</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00122">122</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -859,7 +931,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00113">113</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00125">125</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -875,7 +947,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00115">115</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00127">127</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -891,7 +963,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00093">93</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00105">105</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -907,7 +979,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00116">116</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00128">128</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -923,7 +995,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00100">100</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00112">112</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -939,7 +1011,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00101">101</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00113">113</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -955,7 +1027,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00111">111</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00123">123</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+
+</div>
+</div>
+<a id="a7021565a3207df83d9f1bea00439be0d" name="a7021565a3207df83d9f1bea00439be0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7021565a3207df83d9f1bea00439be0d">&#9670;&#160;</a></span>sml_files</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">gchar* sml_files[] = {&quot;sml&quot;, NULL}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00131">131</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -971,7 +1059,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00114">114</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00126">126</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -987,7 +1075,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00112">112</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00124">124</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -1003,7 +1091,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00109">109</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00121">121</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -1019,7 +1107,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00102">102</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00114">114</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
+
+</div>
+</div>
+<a id="a375595ce04e53cb1a95177e9e7d20c87" name="a375595ce04e53cb1a95177e9e7d20c87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a375595ce04e53cb1a95177e9e7d20c87">&#9670;&#160;</a></span>xyz_files</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">gchar* xyz_files[] = {&quot;xyz&quot;, NULL}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d29/main_8c_source.html#l00129">129</a> of file <a class="el" href="../../d0/d29/main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>

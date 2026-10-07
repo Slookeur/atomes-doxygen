@@ -1,5 +1,7 @@
 var read__cif_8c =
 [
+    [ "CFKEYS", "d8/d50/read__cif_8c.html#af9bdcbeae2c8dbaefed5b805426d96b6", null ],
+    [ "NLKEYS", "d8/d50/read__cif_8c.html#a4c3d400ec618ad2d13d43a336c705a5c", null ],
     [ "check_for_to_lab", "d8/d50/read__cif_8c.html#a5832aef0887b8de9869667f4e6f38bb1", null ],
     [ "cif_file_get_atoms_data", "d8/d50/read__cif_8c.html#a3a4048f6e8b2dd9d5fa17889ffe2e83e", null ],
     [ "cif_file_get_data_in_loop", "d8/d50/read__cif_8c.html#a8f807ffe9bd7e1593fd2f93f70f74ebb", null ],
@@ -37,7 +39,12 @@ var read__cif_8c =
     [ "set_cif_to_insert", "d8/d50/read__cif_8c.html#a2a279decd177ca5298625a57d866e0e1", null ],
     [ "sort", "d8/d50/read__cif_8c.html#af4a289e9719f3efa68572adab392f51a", null ],
     [ "test_lattice", "d8/d50/read__cif_8c.html#ad6edc8c16ec43cc3479bab7d7a7922e2", null ],
+    [ "cartkeys", "d8/d50/read__cif_8c.html#a3c9b80b6259dfe35f957aa8caeace92a", null ],
     [ "cif_atoms", "d8/d50/read__cif_8c.html#a11ffa35ca757309ec1f7e8e94209c609", null ],
+    [ "cif_cnfcart", "d8/d50/read__cif_8c.html#a973b3089de592f054ceafae48055cca2", null ],
+    [ "cif_cnfdone", "d8/d50/read__cif_8c.html#a7a995b40311c0eb7920bfa61db6e4432", null ],
+    [ "cif_cnfkeys", "d8/d50/read__cif_8c.html#aaec28105ed1b113798f78446f1b27ee0", null ],
+    [ "cif_cnftodo", "d8/d50/read__cif_8c.html#a260891f36c0c9adcd182324157283270", null ],
     [ "cif_coord_opts", "d8/d50/read__cif_8c.html#ab72d35b67adbe0d681f3dbacb7fe63c5", null ],
     [ "cif_lot", "d8/d50/read__cif_8c.html#a6655d503c6a661da637b8c4552ae9a74", null ],
     [ "cif_multiple", "d8/d50/read__cif_8c.html#a2600f7210efa8d02ec999762449201f0", null ],
@@ -47,9 +54,11 @@ var read__cif_8c =
     [ "cif_search", "d8/d50/read__cif_8c.html#adb81aec86c1b42950be0f44b4cc80768", null ],
     [ "cif_strings", "d8/d50/read__cif_8c.html#ae9dca296d4b76eb3a0087fc19d7c9ef6", null ],
     [ "cifp", "d8/d50/read__cif_8c.html#a9b31c04cc555c4d5fc95c7ac9627602d", null ],
+    [ "frackeys", "d8/d50/read__cif_8c.html#a6afa7b8879868d693f35a1680e375fcb", null ],
     [ "img_cif", "d8/d50/read__cif_8c.html#a5c076f5c16f7be050dfadaafa18c638b", null ],
     [ "keylines", "d8/d50/read__cif_8c.html#a1e9ce059ad27eaba18507f3fa56b7803", null ],
     [ "line_ptr", "d8/d50/read__cif_8c.html#aa5f3c4d606c1a8ff744f861ca389b4b9", null ],
+    [ "linekeys", "d8/d50/read__cif_8c.html#a8a83009727fe99a78c6142c69d6e3171", null ],
     [ "saved_group", "d8/d50/read__cif_8c.html#a5d56f902ba73b9450c4889ac0ce78ad6", null ],
     [ "tmp_pos", "d8/d50/read__cif_8c.html#a8d4f018ca3edce323247ec0e039737b7", null ],
     [ "wnpos", "d8/d50/read__cif_8c.html#aea1247b80a8c76a7cdd1083a132cc947", null ]

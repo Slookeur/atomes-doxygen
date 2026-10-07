@@ -7,7 +7,7 @@ var searchData=
   ['md_5fmenu_4',['md_menu',['../d3/d51/m__tools_8c.html#aa45255d8c71468d2832216cfb97c7bad',1,'m_tools.c']]],
   ['measure_5flabels_5',['measure_labels',['../dd/d83/w__measures_8c.html#a7bf583acfa0a9c7716cf1c4f71024713',1,'w_measures.c']]],
   ['measure_5fsection_6',['measure_section',['../d3/d51/m__tools_8c.html#af49e0eadefea2b37a8915fc2110a9960',1,'m_tools.c']]],
-  ['measure_5fset_5fcolor_7',['measure_set_color',['../dd/d83/w__measures_8c.html#a4d323232801dcbbae9734396d2238a18',1,'w_measures.c']]],
+  ['measure_5fset_5fcolor_7',['measure_set_color',['../dd/d83/w__measures_8c.html#ad73e07e2b13a511e64782904653019ad',1,'w_measures.c']]],
   ['measure_5fset_5fcolor_5fand_5fmarkup_8',['measure_set_color_and_markup',['../dd/d83/w__measures_8c.html#a4ad921907460ef678ff201b85240ada3',1,'w_measures.c']]],
   ['measure_5fset_5fvisible_9',['measure_set_visible',['../dd/d83/w__measures_8c.html#a21ef33a81880f4655db1f4631f0b2635',1,'w_measures.c']]],
   ['measure_5ftree_5fbutton_5fevent_10',['measure_tree_button_event',['../dd/d83/w__measures_8c.html#a5756907dac0408fec76a9dc052ad3a72',1,'w_measures.c']]],

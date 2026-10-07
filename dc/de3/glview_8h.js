@@ -87,7 +87,6 @@ var glview_8h =
       [ "PERSPECTIVE", "dc/de3/glview_8h.html#a954b5778d0028f8a45b36d0e8a693216a2c5d7801888c03752f28943ac85d805f", null ]
     ] ],
     [ "styles", "dc/de3/glview_8h.html#af9b2893fecdcf7abd8d3a7e340ff963d", [
-      [ "NONE", "dc/de3/glview_8h.html#af9b2893fecdcf7abd8d3a7e340ff963dac157bdf0b85a40d2619cbc8bc1ae5fe2", null ],
       [ "BALL_AND_STICK", "dc/de3/glview_8h.html#af9b2893fecdcf7abd8d3a7e340ff963da4b81e803a26ed15fedcbe3ded465e96c", null ],
       [ "WIREFRAME", "dc/de3/glview_8h.html#af9b2893fecdcf7abd8d3a7e340ff963dab2c0b77d8e0e4b72d36e6aab661eb5e3", null ],
       [ "SPACEFILL", "dc/de3/glview_8h.html#af9b2893fecdcf7abd8d3a7e340ff963da2ebf7885c6070024ddd17f6b7c6ab571", null ],

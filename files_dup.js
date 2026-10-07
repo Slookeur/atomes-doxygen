@@ -2,6 +2,7 @@ var files_dup =
 [
     [ "calc", "dir_b23ce9843a0cf83641620a63d26b700d.html", "dir_b23ce9843a0cf83641620a63d26b700d" ],
     [ "curve", "dir_f503eccc909c3cc44ffd239385415fa7.html", "dir_f503eccc909c3cc44ffd239385415fa7" ],
+    [ "d-bus", "dir_df2ca7a17082d174f87dc3b2f1a7a21c.html", "dir_df2ca7a17082d174f87dc3b2f1a7a21c" ],
     [ "fortran", "dir_9d95adc37effe2d0447790667f945c24.html", "dir_9d95adc37effe2d0447790667f945c24" ],
     [ "gui", "dir_11bc0974ce736ce9a6fadebbeb7a8314.html", "dir_11bc0974ce736ce9a6fadebbeb7a8314" ],
     [ "opengl", "dir_35aa532d637074063c646a4cf80a0972.html", "dir_35aa532d637074063c646a4cf80a0972" ],

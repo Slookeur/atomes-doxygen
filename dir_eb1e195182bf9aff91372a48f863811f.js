@@ -8,6 +8,7 @@ var dir_eb1e195182bf9aff91372a48f863811f =
     [ "read_isaacs.h", "dc/d50/read__isaacs_8h.html", "dc/d50/read__isaacs_8h" ],
     [ "read_npt.c", "d1/da7/read__npt_8c.html", "d1/da7/read__npt_8c" ],
     [ "read_pdb.c", "d9/d42/read__pdb_8c.html", "d9/d42/read__pdb_8c" ],
+    [ "read_sml.c", "dc/d0a/read__sml_8c.html", "dc/d0a/read__sml_8c" ],
     [ "read_trj.c", "d9/deb/read__trj_8c.html", "d9/deb/read__trj_8c" ],
     [ "read_vas.c", "d6/dc9/read__vas_8c.html", "d6/dc9/read__vas_8c" ],
     [ "read_xyz.c", "d0/dce/read__xyz_8c.html", "d0/dce/read__xyz_8c" ],

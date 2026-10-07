@@ -12,6 +12,7 @@ var read__coord_8c =
     [ "open_coord_file", "d5/d22/read__coord_8c.html#a0a6db5cff840914f00fefe1c0e6e9e08", null ],
     [ "open_hist_file", "d5/d22/read__coord_8c.html#a67ae80982a188d07749787ffb13dd984", null ],
     [ "open_pdb_file", "d5/d22/read__coord_8c.html#af3e15830728e6f3e1799fbdc88e0d851", null ],
+    [ "open_sml_file_out_of_library", "d5/d22/read__coord_8c.html#a0282ebd81ad0b6d9df66eadf5f28f760", null ],
     [ "open_trj_file", "d5/d22/read__coord_8c.html#a1b4695604986c32fbcc56c4b478a6144", null ],
     [ "open_vas_file", "d5/d22/read__coord_8c.html#ae75ec2a3906ca0aa3976af39b9d065d1", null ],
     [ "open_xyz_file", "d5/d22/read__coord_8c.html#ae730de1adb53fc8963cded208d01dd5b", null ],

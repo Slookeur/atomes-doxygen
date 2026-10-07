@@ -15,7 +15,7 @@ var w__measures_8c =
     [ "init_color", "dd/d83/w__measures_8c.html#a78ef8d8781d7e14e1b721ebe24c92240", null ],
     [ "labels_tab", "dd/d83/w__measures_8c.html#a1137d80323fa98be84b1a7fa63ed532d", null ],
     [ "measure_labels", "dd/d83/w__measures_8c.html#a7bf583acfa0a9c7716cf1c4f71024713", null ],
-    [ "measure_set_color", "dd/d83/w__measures_8c.html#a4d323232801dcbbae9734396d2238a18", null ],
+    [ "measure_set_color", "dd/d83/w__measures_8c.html#ad73e07e2b13a511e64782904653019ad", null ],
     [ "measure_set_color_and_markup", "dd/d83/w__measures_8c.html#a4ad921907460ef678ff201b85240ada3", null ],
     [ "measure_set_visible", "dd/d83/w__measures_8c.html#a21ef33a81880f4655db1f4631f0b2635", null ],
     [ "measure_tree_button_event", "dd/d83/w__measures_8c.html#a5756907dac0408fec76a9dc052ad3a72", null ],

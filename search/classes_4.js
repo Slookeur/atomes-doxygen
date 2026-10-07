@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['element_5fcolor_0',['element_color',['../de/df6/structelement__color.html',1,'']]],
-  ['element_5fdata_1',['element_data',['../dd/dc9/structelement__data.html',1,'']]],
-  ['element_5fradius_2',['element_radius',['../de/d31/structelement__radius.html',1,'']]],
-  ['extrasets_3',['ExtraSets',['../dd/d61/struct_extra_sets.html',1,'']]]
+  ['datalayout_0',['DataLayout',['../d0/d5d/struct_data_layout.html',1,'']]],
+  ['dint_1',['dint',['../d0/dbe/structdint.html',1,'']]],
+  ['distance_2',['distance',['../d0/d76/structdistance.html',1,'']]],
+  ['dummy_5fatom_3',['dummy_atom',['../dc/dcf/structdummy__atom.html',1,'']]],
+  ['dwidget_4',['dwidget',['../d6/dfb/structdwidget.html',1,'']]]
 ];

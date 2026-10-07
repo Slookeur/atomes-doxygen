@@ -10,6 +10,7 @@ var main_8c =
     [ "get_box_axis_from_string", "d0/d29/main_8c.html#a2ef0658ba98438a5b0f507e5f1efc815", null ],
     [ "get_color_from_hexa_string", "d0/d29/main_8c.html#a6367967ca3611471f30fff94104b1c25", null ],
     [ "get_color_map_from_string", "d0/d29/main_8c.html#a0341e4c94e7e4932e52839000571fa78", null ],
+    [ "get_file_format_from_string", "d0/d29/main_8c.html#a36b47d8cd094595eec51849fb762a5e1", null ],
     [ "get_gradient_from_string", "d0/d29/main_8c.html#a71f2c23b9748c64a6e57634e7346c3e4", null ],
     [ "get_rep_from_string", "d0/d29/main_8c.html#a034914b0082ac76c7bd0fccff0285a73", null ],
     [ "get_style_from_string", "d0/d29/main_8c.html#af2fa7feb4a54cd48a8272805e93a536b", null ],
@@ -21,9 +22,11 @@ var main_8c =
     [ "print_version", "d0/d29/main_8c.html#a6302aaae12249e8ea16bfdc7de892f21", null ],
     [ "read_this_file", "d0/d29/main_8c.html#af045ebf6025c1693bf5285dd648ef5ab", null ],
     [ "run_program", "d0/d29/main_8c.html#ab7369f2e0da4ff28ed5c2edf542e0d4a", null ],
+    [ "set_atomes_locale", "d0/d29/main_8c.html#a6571cc17b9e9fa96fca9c59fe8bc1284", null ],
     [ "test_this_arg", "d0/d29/main_8c.html#a1bd8f60d30efaa59f7d2515378ca3567", null ],
     [ "test_this_ext", "d0/d29/main_8c.html#aae8f84aea74cc5c5fb22bf20a33bbcce", null ],
     [ "bs_styles", "d0/d29/main_8c.html#a5e3e32a018d28cc7299cbb862ca9de32", null ],
+    [ "c3d_files", "d0/d29/main_8c.html#aa66af60ae5cb2b06e6edf5759a80aeb7", null ],
     [ "co_styles", "d0/d29/main_8c.html#adff5ecee46f8c79e5873fb809327cb27", null ],
     [ "cr_styles", "d0/d29/main_8c.html#a9b41caadd24afdb61b5202b01e071da9", null ],
     [ "cy_styles", "d0/d29/main_8c.html#aa61f8f609405082a1b5bc2d72a611e7d", null ],
@@ -32,8 +35,10 @@ var main_8c =
     [ "flist", "d0/d29/main_8c.html#a2ee71b7d05c7f148824b5e6b1720ed64", null ],
     [ "ftmp", "d0/d29/main_8c.html#a3de562cd2f8021f5e572169924f2ac08", null ],
     [ "io_styles", "d0/d29/main_8c.html#afcb4d3394a6bab25ec97f3542cefebf2", null ],
+    [ "sml_files", "d0/d29/main_8c.html#a7021565a3207df83d9f1bea00439be0d", null ],
     [ "sp_styles", "d0/d29/main_8c.html#a53c5a6af777191174a52a95b3a0f8012", null ],
     [ "vw_styles", "d0/d29/main_8c.html#a742593a4fff31fc73cc9e5594881ec88", null ],
     [ "wi_styles", "d0/d29/main_8c.html#a4b19103011fcd64901a52b8f14422d98", null ],
-    [ "with_workspace", "d0/d29/main_8c.html#af3cb6244a72b07b84a26b634690df34d", null ]
+    [ "with_workspace", "d0/d29/main_8c.html#af3cb6244a72b07b84a26b634690df34d", null ],
+    [ "xyz_files", "d0/d29/main_8c.html#a375595ce04e53cb1a95177e9e7d20c87", null ]
 ];
