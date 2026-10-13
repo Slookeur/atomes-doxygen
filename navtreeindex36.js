@@ -1,5 +1,6 @@
 var NAVTREEINDEX36 =
 {
+"df/de9/curve_8h.html#a4871d3e034b65378bce1f6b5a826ae8e":[3,0,1,3,25],
 "df/de9/curve_8h.html#a4d62a498c567a66d7b36ebb4203c46a9":[3,0,1,3,7],
 "df/de9/curve_8h.html#a4e6a8a91b93dfa532fd6b9c689ff520d":[3,0,1,3,35],
 "df/de9/curve_8h.html#a4e918e3e39e6672889eebd0bf1000a3d":[3,0,1,3,64],
@@ -248,6 +249,5 @@ var NAVTREEINDEX36 =
 "globals_func_x.html":[3,1,1,22],
 "globals_func_y.html":[3,1,1,23],
 "globals_func_z.html":[3,1,1,24],
-"globals_g.html":[3,1,0,6],
-"globals_h.html":[3,1,0,7]
+"globals_g.html":[3,1,0,6]
 };

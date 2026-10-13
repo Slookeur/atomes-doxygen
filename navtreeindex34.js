@@ -1,5 +1,6 @@
 var NAVTREEINDEX34 =
 {
+"de/dee/preferences_8c.html#a07bc5e0632ee4d4f6994d56e99f408f5":[3,0,4,14,91],
 "de/dee/preferences_8c.html#a0b72ce437de88c73a2695dcf62994e73":[3,0,4,14,155],
 "de/dee/preferences_8c.html#a0c0586c3f208ad6356ce674dcbe64f3e":[3,0,4,14,6],
 "de/dee/preferences_8c.html#a0d2b3d75fc2b2a02b5e6cd19a53d2174":[3,0,4,14,153],
@@ -248,6 +249,5 @@ var NAVTREEINDEX34 =
 "df/d03/d__rings_8c.html#acf98b2c5c1a51e021aad6633fd2c41c6":[3,0,5,0,8,7],
 "df/d03/d__rings_8c.html#ad9aac2be7f6fa3d1889b178a9392ab1b":[3,0,5,0,8,5],
 "df/d03/d__rings_8c.html#af8604d97c216efacf2d49e614db1987f":[3,0,5,0,8,4],
-"df/d03/d__rings_8c_source.html":[3,0,5,0,8],
-"df/d15/w__data_8c.html":[3,0,1,20]
+"df/d03/d__rings_8c_source.html":[3,0,5,0,8]
 };
